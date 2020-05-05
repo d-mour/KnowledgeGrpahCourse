@@ -1,0 +1,728 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/9bqLIwg5KUjD6jWyyJvGte#"
+     xml:base="http://webprotege.stanford.edu/project/9bqLIwg5KUjD6jWyyJvGte"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:health="http://ontologies.org/health/yoga/"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/9bqLIwg5KUjD6jWyyJvGte"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCZr6xDOizd5L7B4nZDWrSJ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCZr6xDOizd5L7B4nZDWrSJ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">противопоказание</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCyutZIm9bU992MjgdfPU5f -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCyutZIm9bU992MjgdfPU5f">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">отрицательно влияет на</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROLoaUqwDomcPyfA3eCin8 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/ROLoaUqwDomcPyfA3eCin8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">уровень подготовки</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUXZjMn8QJFRQl1wfaVnUt -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RUXZjMn8QJFRQl1wfaVnUt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RaaSZxIv2JVCMddhlqdAQZ"/>
+        <rdfs:label xml:lang="ru">положительно влияет на</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVySvd7XdCc7Y628COG5EO -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RVySvd7XdCc7Y628COG5EO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="ru">переход из</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IFhWvxrcEnuyr2xFwQQFY -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7IFhWvxrcEnuyr2xFwQQFY">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="ru">описание</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7bpeGA1FRnnr7rkvOaEFxm -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7bpeGA1FRnnr7rkvOaEFxm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="ru">год появления</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7zDsGb0eQYf6uJETHG3qBx -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7zDsGb0eQYf6uJETHG3qBx">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="ru">техника выполнения</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9qnDwfuoAHYcXKUt5ubw9H -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9qnDwfuoAHYcXKUt5ubw9H">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="ru">название</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCenchNI5aEsesPuDyTGZkR -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCenchNI5aEsesPuDyTGZkR">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="ru">создатель</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1qwipjCK7R195bdw7fKYs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1qwipjCK7R195bdw7fKYs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8i2e7twj3QUXsRHqvdfhTY"/>
+        <rdfs:label xml:lang="ru">Малоподвижный образ жизни</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6IbsoODaIU9ORZQhWeo6D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6IbsoODaIU9ORZQhWeo6D">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ToQCNqfLmpeRcC3m6l4Ft"/>
+        <rdfs:label xml:lang="ru">Мигрень</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6PigWRDun22XCYrpqStUu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6PigWRDun22XCYrpqStUu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4Wm7misFmxRZAaIBaepEA"/>
+        <rdfs:label xml:lang="ru">Сонливость</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R70DCXLMD1rM0Bzk4kju4mm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R70DCXLMD1rM0Bzk4kju4mm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC1szRbtTFdRqq0Yyeur2Zj"/>
+        <rdfs:label xml:lang="ru">Утомляемость</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74ZcXd6Fcg9agwPmlr3zPR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R74ZcXd6Fcg9agwPmlr3zPR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ToQCNqfLmpeRcC3m6l4Ft"/>
+        <rdfs:label xml:lang="ru">Головокружение</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R79M3sWKWJooHCJ4hBG8d6Q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R79M3sWKWJooHCJ4hBG8d6Q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Ryyjz6N840rmKTwvkGkuuu"/>
+        <rdfs:label xml:lang="ru">Сидячий образ жизни</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7RUvttunRzDPSNFYg5uOd8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7RUvttunRzDPSNFYg5uOd8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4Wm7misFmxRZAaIBaepEA"/>
+        <rdfs:label xml:lang="ru">Бессонница</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7XeKLaLHoYxAWr6A8B4tNH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7XeKLaLHoYxAWr6A8B4tNH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8i2e7twj3QUXsRHqvdfhTY"/>
+        <rdfs:label xml:lang="ru">Проблемы осанки</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ac8bGUtkVSi7QiifiHo3R -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ac8bGUtkVSi7QiifiHo3R">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC1szRbtTFdRqq0Yyeur2Zj"/>
+        <rdfs:label xml:lang="ru">Нервное истощение</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qRVAXVsMksiHnyC6qOBoa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7qRVAXVsMksiHnyC6qOBoa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R98nDkkw0sx6mN8B4VqRqWW"/>
+        <rdfs:label xml:lang="ru">Пилатес</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7veVC60mvvzCjsrN1Z94re -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7veVC60mvvzCjsrN1Z94re">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R98nDkkw0sx6mN8B4VqRqWW"/>
+        <rdfs:label xml:lang="ru">Стрейчинг</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yGgfd0xKixPJSLbhJv1ry -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7yGgfd0xKixPJSLbhJv1ry">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8eVHVWzvVP1itjnVnkN1AD"/>
+        <rdfs:label xml:lang="ru">Недостаток веса</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88EQYSl3DyFw8ym3ijT6qF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R88EQYSl3DyFw8ym3ijT6qF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Ryyjz6N840rmKTwvkGkuuu"/>
+        <rdfs:label xml:lang="ru">Несущественная активность</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8VoTWLFEGXJfkDF8HRh4za -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8VoTWLFEGXJfkDF8HRh4za">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaaSZxIv2JVCMddhlqdAQZ"/>
+        <rdfs:label xml:lang="ru">Опорно-двигательная система</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8eVHVWzvVP1itjnVnkN1AD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8eVHVWzvVP1itjnVnkN1AD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaaSZxIv2JVCMddhlqdAQZ"/>
+        <rdfs:label xml:lang="ru">Телосложение</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8hWvOeWOGzIFyl98Jwy6p3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8hWvOeWOGzIFyl98Jwy6p3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Ryyjz6N840rmKTwvkGkuuu"/>
+        <rdfs:label xml:lang="ru">Большая активность</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8i2e7twj3QUXsRHqvdfhTY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8i2e7twj3QUXsRHqvdfhTY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8VoTWLFEGXJfkDF8HRh4za"/>
+        <rdfs:label xml:lang="ru">Позвоночник</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8plUpyYd4SnHaPAVRHW7nR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8plUpyYd4SnHaPAVRHW7nR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8VoTWLFEGXJfkDF8HRh4za"/>
+        <rdfs:label xml:lang="ru">Мышцы</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R91TbTq4dxsTOb5OXaj3snb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R91TbTq4dxsTOb5OXaj3snb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R98nDkkw0sx6mN8B4VqRqWW"/>
+        <rdfs:label xml:lang="ru">Медитация</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98nDkkw0sx6mN8B4VqRqWW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R98nDkkw0sx6mN8B4VqRqWW">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="ru">Практики</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Oz0KFcaBWNPHrUhtUpkX8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Oz0KFcaBWNPHrUhtUpkX8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R98nDkkw0sx6mN8B4VqRqWW"/>
+        <rdfs:label xml:lang="ru">Йога</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ToQCNqfLmpeRcC3m6l4Ft -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ToQCNqfLmpeRcC3m6l4Ft">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaaSZxIv2JVCMddhlqdAQZ"/>
+        <rdfs:label xml:lang="ru">Голова</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lnWUEyHiUIpyIolNzUtE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9lnWUEyHiUIpyIolNzUtE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8i2e7twj3QUXsRHqvdfhTY"/>
+        <rdfs:label xml:lang="ru">Боли в спине</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9reQtP2RMshgu6NB8gqcMC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9reQtP2RMshgu6NB8gqcMC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCesu5SVSU6D4DvfonYGwrV"/>
+        <rdfs:label xml:lang="ru">травма спины</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBB5splIaQv6C33JkA0EG5h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBB5splIaQv6C33JkA0EG5h">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaaSZxIv2JVCMddhlqdAQZ"/>
+        <rdfs:label xml:lang="ru">Легкие</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBC8M7qhMAwDuZJVXueIeh0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBC8M7qhMAwDuZJVXueIeh0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8VoTWLFEGXJfkDF8HRh4za"/>
+        <rdfs:label xml:lang="ru">Суставы</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBZsxSYdy4elmnoL7dbwGzZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBZsxSYdy4elmnoL7dbwGzZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC1szRbtTFdRqq0Yyeur2Zj"/>
+        <rdfs:label xml:lang="ru">Возбудимость</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1szRbtTFdRqq0Yyeur2Zj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC1szRbtTFdRqq0Yyeur2Zj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaaSZxIv2JVCMddhlqdAQZ"/>
+        <rdfs:label xml:lang="ru">Нервы</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC4Wm7misFmxRZAaIBaepEA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC4Wm7misFmxRZAaIBaepEA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaaSZxIv2JVCMddhlqdAQZ"/>
+        <rdfs:label xml:lang="ru">Сон</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCIohClyz5s5eJnAUc4dJ2p -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCIohClyz5s5eJnAUc4dJ2p">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8eVHVWzvVP1itjnVnkN1AD"/>
+        <rdfs:label xml:lang="ru">Лишний вес</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCesu5SVSU6D4DvfonYGwrV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCesu5SVSU6D4DvfonYGwrV">
+        <rdfs:label xml:lang="ru">Противопоказания</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1UGDkMwbwNp3Nh9Gy5W3M -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD1UGDkMwbwNp3Nh9Gy5W3M">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Oz0KFcaBWNPHrUhtUpkX8"/>
+        <rdfs:label xml:lang="ru">Асана</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDNgyAY9FhINZu69Jc37alh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDNgyAY9FhINZu69Jc37alh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC1szRbtTFdRqq0Yyeur2Zj"/>
+        <rdfs:label xml:lang="ru">Эмоциональное выгорание</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RM5HlFZWY4DPLxI9u7HFph -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RM5HlFZWY4DPLxI9u7HFph">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCesu5SVSU6D4DvfonYGwrV"/>
+        <rdfs:label xml:lang="ru">травма коленей</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMIccxH7w293333whruO8j -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMIccxH7w293333whruO8j">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCesu5SVSU6D4DvfonYGwrV"/>
+        <rdfs:label xml:lang="ru">травма лодыжек</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRlk3Yq6mvTwxbZPdiIVyn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRlk3Yq6mvTwxbZPdiIVyn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4Wm7misFmxRZAaIBaepEA"/>
+        <rdfs:label xml:lang="ru">Апноэ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZfOK3C8oxiRc1nWTj66B -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZfOK3C8oxiRc1nWTj66B">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8i2e7twj3QUXsRHqvdfhTY"/>
+        <rdfs:label xml:lang="ru">Боли в шее</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RaaSZxIv2JVCMddhlqdAQZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RaaSZxIv2JVCMddhlqdAQZ">
+        <rdfs:label xml:lang="ru">Болезни</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmEv842MDihsSuTZ74YGWU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmEv842MDihsSuTZ74YGWU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Ryyjz6N840rmKTwvkGkuuu"/>
+        <rdfs:label xml:lang="ru">Активный</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ryyjz6N840rmKTwvkGkuuu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ryyjz6N840rmKTwvkGkuuu">
+        <rdfs:label xml:lang="ru">Уровень активности</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82AjlJyi6Rxy4ElcBan9UF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R82AjlJyi6Rxy4ElcBan9UF">
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/R8SV4CeNnDntt7K2HTjws64"/>
+        <rdfs:label xml:lang="ru">Удобная поза</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SV4CeNnDntt7K2HTjws64 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8SV4CeNnDntt7K2HTjws64">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD1UGDkMwbwNp3Nh9Gy5W3M"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCZr6xDOizd5L7B4nZDWrSJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RM5HlFZWY4DPLxI9u7HFph"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCZr6xDOizd5L7B4nZDWrSJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RMIccxH7w293333whruO8j"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/ROLoaUqwDomcPyfA3eCin8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R1qwipjCK7R195bdw7fKYs"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RUXZjMn8QJFRQl1wfaVnUt"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8i2e7twj3QUXsRHqvdfhTY"/>
+            </owl:Restriction>
+        </rdf:type>
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/RB7i0IiUBbTWkP6oQVBRH75"/>
+        <webprotege:RVySvd7XdCc7Y628COG5EO rdf:resource="http://webprotege.stanford.edu/RDJeEEC46SYUoarVJlPgGJu"/>
+        <webprotege:R7IFhWvxrcEnuyr2xFwQQFY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Удобство и устойчивость</webprotege:R7IFhWvxrcEnuyr2xFwQQFY>
+        <webprotege:R7zDsGb0eQYf6uJETHG3qBx rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Садимся на коврик, ноги выпрямляем.
+Сгибаем ноги в коленях, разводим колени в стороны.
+Скрещенные в лодыжках ноги подводим ближе к тазу.
+Бедра и стопы расслабляем.
+Сидим ровно, на области седалищных костей.
+Спину держим прямо, особенно поясницу.
+Расправляем грудную клетку.
+Руки опускаем на колени.
+Лицо, плечи расслабляем.
+Голову держим ровно, подбородок направлен параллельно полу.
+Сохраняем вектор вытяжения вверх.
+Дышим ровно и спокойно.
+Находимся в позе необходимое время.</webprotege:R7zDsGb0eQYf6uJETHG3qBx>
+        <rdfs:label xml:lang="ru">Сукхасана</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R92ZS5xpuBz5g9Eeab1X32k -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R92ZS5xpuBz5g9Eeab1X32k">
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/Ry5rzewYtUP46VaEBvbAWk"/>
+        <rdfs:label xml:lang="ru">Поза кошки</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7i0IiUBbTWkP6oQVBRH75 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB7i0IiUBbTWkP6oQVBRH75">
+        <rdfs:label xml:lang="ru">Поза по-турецки</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBI0lZJ7gmq9JMYRUr7VHcG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBI0lZJ7gmq9JMYRUr7VHcG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD1UGDkMwbwNp3Nh9Gy5W3M"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RUXZjMn8QJFRQl1wfaVnUt"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R70DCXLMD1rM0Bzk4kju4mm"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RUXZjMn8QJFRQl1wfaVnUt"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8VoTWLFEGXJfkDF8HRh4za"/>
+            </owl:Restriction>
+        </rdf:type>
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/RCi4HFHdN7pq1OA5cR2G7UA"/>
+        <webprotege:R7IFhWvxrcEnuyr2xFwQQFY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Адхо мукха означает «лицом вниз», а швана — «собака». Поза напоминает собаку, которая потягивается, опуская голову и передние лапы вниз, а таз и задние лапы поднимает вверх — отсюда и название</webprotege:R7IFhWvxrcEnuyr2xFwQQFY>
+        <webprotege:R7zDsGb0eQYf6uJETHG3qBx rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Лягте на живот и разведите стопы на ширину 30 см.
+2. Поместите ладони на пол по обеим сторонам от грудной клетки. Выпрямите пальцы рук и направьте их в сторону головы.
+3. С выдохом оторвите корпус от пола. Выпрямите руки в локтях, потянитесь головой к стопам и опустите макушку на пол. Вытяните позвоночник.
+4. Подтягивайте коленные чашечки и прижимайте пятки к полу. Пятки и подошвы должны плотно соприкасаться с полом, а сами стопы — быть параллельны друг другу; пальцы направлены строго вперед.
+5. Оставайтесь в позе в течение минуты. Дышите глубоко. На выдохе оторвите голову от пола, продвиньте корпус вперед и мягко опуститесь на пол. Расслабьтесь.</webprotege:R7zDsGb0eQYf6uJETHG3qBx>
+        <rdfs:label xml:lang="ru">Адхо Мукха Шванасана</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCi4HFHdN7pq1OA5cR2G7UA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCi4HFHdN7pq1OA5cR2G7UA">
+        <rdfs:label xml:lang="ru">Собака мордой вниз</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDJeEEC46SYUoarVJlPgGJu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDJeEEC46SYUoarVJlPgGJu">
+        <rdfs:label xml:lang="ru">Дандасана</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDbdib9EbOLcAwHDv3n5bWe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDbdib9EbOLcAwHDv3n5bWe">
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/RDl7KOyIzXbR1GaLqrSSFHG"/>
+        <rdfs:label xml:lang="ru">Поза саранчи</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDl7KOyIzXbR1GaLqrSSFHG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDl7KOyIzXbR1GaLqrSSFHG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD1UGDkMwbwNp3Nh9Gy5W3M"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCZr6xDOizd5L7B4nZDWrSJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74ZcXd6Fcg9agwPmlr3zPR"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCZr6xDOizd5L7B4nZDWrSJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9reQtP2RMshgu6NB8gqcMC"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RUXZjMn8QJFRQl1wfaVnUt"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9lnWUEyHiUIpyIolNzUtE"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RUXZjMn8QJFRQl1wfaVnUt"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBB5splIaQv6C33JkA0EG5h"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RUXZjMn8QJFRQl1wfaVnUt"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RZfOK3C8oxiRc1nWTj66B"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7IFhWvxrcEnuyr2xFwQQFY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Эта асана называется так потому, что в конечном положении ноги имитируют хвост саранчи.  Это прекрасная асана с прогибом назад, которая оказывает специфическое воздействие на органы, мышцы и нервы таза, живота и грудной клетки. Кроме того, она особенно замечательна тем, что принадлежит к числу немногих асан, в которых происходит непосредственный массаж сердца.</webprotege:R7IFhWvxrcEnuyr2xFwQQFY>
+        <webprotege:R7zDsGb0eQYf6uJETHG3qBx rdf:datatype="http://www.w3.org/2001/XMLSchema#string">лягте на пол, лицом вниз 
+ноги выпрямите, держа ступни вместе подошвами вверх 
+руки подсуньте под корпус 
+держите плечи, как можно ближе к полу 
+подбородок держите на полу 
+расслабьте всё тело 
+закройте глаза 
+выдохните как можно больше воздуха 
+затем глубоко вдохните, задержите дыхание и поднимите ноги, держа их вместе и не сгибая 
+держите ноги в поднятом положении, удерживая дыхание 
+сохраняйте конечное положение как можно дольше, не перенапрягаясь 
+медленно опустите ноги на пол и выдохните 
+расслабьте всё тело</webprotege:R7zDsGb0eQYf6uJETHG3qBx>
+        <rdfs:label xml:lang="ru">Шалабхасана</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ry5rzewYtUP46VaEBvbAWk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Ry5rzewYtUP46VaEBvbAWk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD1UGDkMwbwNp3Nh9Gy5W3M"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCZr6xDOizd5L7B4nZDWrSJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9reQtP2RMshgu6NB8gqcMC"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RUXZjMn8QJFRQl1wfaVnUt"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8i2e7twj3QUXsRHqvdfhTY"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RUXZjMn8QJFRQl1wfaVnUt"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RZfOK3C8oxiRc1nWTj66B"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7IFhWvxrcEnuyr2xFwQQFY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">хорошая поза для того, чтобы научиться синхронизировать дыхание и движение — навык, необходимый в практике йоги.</webprotege:R7IFhWvxrcEnuyr2xFwQQFY>
+        <webprotege:R7zDsGb0eQYf6uJETHG3qBx rdf:datatype="http://www.w3.org/2001/XMLSchema#string">опуститесь на колени 
+поставьте ноги на ширину таза
+бёдра перпендикулярно полу
+положите ладони на пол напротив коленей 
+сделайте медленный вдох
+руки выпрямите в локтях
+выполните прогиб в пояснице
+копчиком тянитесь вверх
+макушкой тянитесь вверх и назад</webprotege:R7zDsGb0eQYf6uJETHG3qBx>
+        <rdfs:label xml:lang="ru">Марджириасана</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
