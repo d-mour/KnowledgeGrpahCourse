@@ -1,0 +1,92 @@
+[
+  {
+    "Object": "A Night at the Opera",
+    "predicate": "contains",
+    "subject": "I'm in Love with My Car"
+  },
+  {
+    "Object": "A Night at the Opera",
+    "predicate": "contains",
+    "subject": "You're My Best Friend"
+  },
+  {
+    "Object": "The piper at the gates of Dawn",
+    "predicate": "contains",
+    "subject": "Flaming"
+  },
+  {
+    "Object": "The piper at the gates of Dawn",
+    "predicate": "contains",
+    "subject": "Bike"
+  },
+  {
+    "Object": "EMI",
+    "predicate": "records",
+    "subject": "A Night at the Opera"
+  },
+  {
+    "Object": "EMI",
+    "predicate": "records",
+    "subject": "The piper at the gates of Dawn"
+  },
+  {
+    "Object": "Queen",
+    "predicate": "creates",
+    "subject": "A Night at the Opera"
+  },
+  {
+    "Object": "Pink Floyd",
+    "predicate": "creates",
+    "subject": "The piper at the gates of Dawn"
+  },
+  {
+    "Object": "John Reid",
+    "predicate": "manages",
+    "subject": "Queen"
+  },
+  {
+    "Object": "Andrew King",
+    "predicate": "manages",
+    "subject": "Pink Floyd"
+  },
+  {
+    "Object": "Queen",
+    "predicate": "goes_on",
+    "subject": "Queen II Tour"
+  },
+  {
+    "Object": "Nutz",
+    "predicate": "goes_on",
+    "subject": "Queen II Tour"
+  },
+  {
+    "Object": "Pink Floyd",
+    "predicate": "goes_on",
+    "subject": "Dark Side of the Moon Tour"
+  },
+  {
+    "Object": "Brian May",
+    "predicate": "works_in",
+    "subject": "Queen"
+  },
+  {
+    "Object": "Roger Taylor",
+    "predicate": "works_in",
+    "subject": "Queen"
+  },
+  {
+    "Object": "Roger Waters",
+    "predicate": "works_in",
+    "subject": "Pink Floyd"
+  },
+    {
+    "Object": "Brian May",
+    "predicate": "works_in",
+    "subject": "Smile"
+  },
+  {
+    "Object": "Roger Taylor",
+    "predicate": "works_in",
+    "subject": "Smile"
+  }
+]
