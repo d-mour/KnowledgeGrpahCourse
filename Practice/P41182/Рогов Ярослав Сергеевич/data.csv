@@ -1,0 +1,43 @@
+Object,Predicate,Subject
+Common Lisp,dialect of,LISP
+Common Lisp,has typing,Strong
+Common Lisp,has typing,Dynamic
+Racket,dialect of,Scheme
+Racket,has typing,Strong
+Racket,has typing,Dynamic
+Clojure,dialect of,LISP
+Clojure,has typing,Strong
+Clojure,has typing,Weak
+Clojure,has typing,Dynamic
+Joe Armstrong,wrote,Armstrong2003
+Armstrong2003,describes,Fault-tolerant systems
+Armstrong2003,describes,Distributed systems
+Joe Armstrong,created,Erlang
+Erlang,implements,Fault-tolerant systems
+Erlang,implements,Distributed systems
+Erlang,has typing,Strong
+Erlang,has typing,Dynamic
+Erlang,written in,Prolog
+Erlang,solves,Handling of program errors
+Handling of program errors,belongs to,General Computer Science
+Erlang,used in,Big Data
+Erlang,used in,Computer Networks
+Erlang,influenced by,LISP
+Erlang,influenced by,Prolog
+Java,influenced by,C++
+Scala,written in,Java
+Scala,influenced by,LISP
+Scala,influenced by,Erlang
+Scala,influenced by,Common Lisp
+Scala,influenced by,Eiffel
+Scala,influenced by,Haskell
+George S Almasi,wrote,Highly parallel computing
+Allan Gottlieb,wrote,Highly parallel computing
+Highly parallel computing,describes,Parallel Computing
+Parallel computing,solves,Performance in high-load
+Performance in high-load,belongs to,Big Data
+Scalability,belongs to,Big Data
+Scala,implements,Parallel Computing
+Martin Odersky,created,Scala
+Scala,used in,Machine Learning
+Scala,used in,Big Data
