@@ -1,0 +1,664 @@
+{
+  "Guitars": {
+    "Acoustic guitars": [
+      {
+        "Name": "FENDER CD-60 DREAD V3 DS BLK WN",
+        "Price": 15570,
+        "Brand": "Fender",
+        "Color": "Black",
+        "Pickup": false,
+        "Strings": "12-52"
+      },
+      {
+        "Name": "FENDER FA-125 DREADNOUGHT, BLACK WN",
+        "Price": 14400,
+        "Brand": "Fender",
+        "Color": "Black",
+        "Pickup": false,
+        "Strings": "12-52"
+      },
+      {
+        "Name": "FENDER CD-140SCE DREAD NAT W/CASE",
+        "Price": 40000,
+        "Brand": "Fender",
+        "Color": "Natural",
+        "Pickup": true,
+        "Strings": "12-52"
+      },
+      {
+        "Name": "GIBSON HUMMINGBIRD STANDARD VINTAGE CHERRY SUNBURST",
+        "Price": 332000,
+        "Brand": "Gibson",
+        "Color": "Sunburst",
+        "Pickup": true,
+        "Strings": "11-52"
+      },
+      {
+        "Name": "GIBSON SONGWRITER STANDARD ROSEWOOD ANTIQUE NATURAL",
+        "Price": 251000,
+        "Brand": "Gibson",
+        "Color": "Natural",
+        "Pickup": true,
+        "Strings": "12-53"
+      },
+      {
+        "Name": "YAMAHA F310",
+        "Price": 11490,
+        "Brand": "Yamaha",
+        "Color": "Natural",
+        "Pickup": false,
+        "Strings": "11-52"
+      },
+      {
+        "Name": "SIGMA GMC-STE+",
+        "Price": 35200,
+        "Brand": "Sigma",
+        "Color": "Natural",
+        "Pickup": true,
+        "Strings": "12-53"
+      },
+      {
+        "Name": "MARTIN D-10E-01",
+        "Price": 81990,
+        "Brand": "Martin",
+        "Color": "Natural",
+        "Pickup": "Fishman MX-T",
+        "Strings": "12-54"
+      },
+      {
+        "Name": "IBANEZ PF15ECE-BK",
+        "Price": 22000,
+        "Brand": "Ibanez",
+        "Color": "Black",
+        "Pickup": false,
+        "Strings": "12-53"
+      },
+      {
+        "Name": "IBANEZ AW80CE-BLG ARTWOOD",
+        "Price": 37000,
+        "Brand": "Ibanez",
+        "Color": "Brown",
+        "Pickup": true,
+        "Strings": "12-53"
+      }
+    ],
+    "Classical guitars": [
+      {
+        "Name": "YAMAHA CS40",
+        "Price": 10990,
+        "Brand": "Yamaha",
+        "Color": "Natural",
+        "Pickup": false,
+        "Strings": "28-43"
+      },
+      {
+        "Name": "TAKAMINE GC1CE NAT",
+        "Price": 21700,
+        "Brand": "Takamine",
+        "Color": "Natural",
+        "Pickup": true,
+        "Strings": "28-44"
+      },
+      {
+        "Name": "YAMAHA CG182S",
+        "Price": 37990,
+        "Brand": "Yamaha",
+        "Color": "Natural",
+        "Pickup": false,
+        "Strings": "12-59"
+      },
+      {
+        "Name": "YAMAHA GC22C",
+        "Price": 79990,
+        "Brand": "Yamaha",
+        "Color": "Natural",
+        "Pickup": false,
+        "Strings": "28-43"
+      },
+      {
+        "Name": "YAMAHA NCX2000R",
+        "Price": 279900,
+        "Brand": "Yamaha",
+        "Color": "Natural",
+        "Pickup": true,
+        "Strings": "12-59"
+      },
+      {
+        "Name": "CORDOBA IBERIA C5-CESB SP",
+        "Price": 35000,
+        "Brand": "Cordoba",
+        "Color": "Sunburst",
+        "Pickup": true,
+        "Strings": "29-44"
+      }
+    ],
+    "Electric guitars": [
+      {
+        "Name": "FENDER SQUIER BULLET STRAT HT AWT",
+        "Price": 18900,
+        "Brand": "Fender",
+        "Color": "White",
+        "Pickup": "Standard Single-Coil Strat",
+        "Strings": "9-42"
+      },
+      {
+        "Name": "FENDER PLAYER STRAT MN BLK",
+        "Price": 74700,
+        "Brand": "Fender",
+        "Color": "Black",
+        "Pickup": "AlNiCo V Single Coils",
+        "Strings": "9-42"
+      },
+      {
+        "Name": "FENDER DELUXE STRAT HSS MN TBS",
+        "Price": 96900,
+        "Brand": "Fender",
+        "Color": "Sunburst",
+        "Pickup": [
+          "Twin Head Vintage Humbucking",
+          "Vintage Noiseless Single-Coil Strat"
+        ],
+        "Strings": "9-42"
+      },
+      {
+        "Name": "FENDER PLAYER STRAT PF PWT",
+        "Price": 83000,
+        "Brand": "Fender",
+        "Color": "White",
+        "Pickup": "AlNiCo V single coils",
+        "Strings": "9-42"
+      },
+      {
+        "Name": "FENDER AMERICAN PERFORMER TELECASTER®, MAPLE FINGERBOARD, VINTAGE WHITE",
+        "Price": 137700,
+        "Brand": "Fender",
+        "Color": "Vintage White",
+        "Pickup": "Yosemite",
+        "Strings": "9-42"
+      },
+      {
+        "Name": "FENDER PLAYER TELE HH PF SRD",
+        "Price": 74000,
+        "Brand": "Fender",
+        "Color": "Red",
+        "Pickup": "AlNiCo II humbucker",
+        "Strings": "9-42"
+      },
+      {
+        "Name": "IBANEZ GIO GRG121DX-BKF BLACK FLAT",
+        "Price": 19400,
+        "Brand": "Ibanez",
+        "Color": "Black",
+        "Pickup": "IBZ6",
+        "Strings": "10-46"
+      },
+      {
+        "Name": "GIBSON 2019 LES PAUL CLASSIC EBONY",
+        "Price": 175000,
+        "Brand": "Gibson",
+        "Color": "Black",
+        "Pickup": [
+          "BurstBucker 61R",
+          "BurstBucker 61T"
+        ],
+        "Strings": "9-46"
+      },
+      {
+        "Name": "GIBSON 2019 LES PAUL STUDIO SMOKEHOUSE BURST",
+        "Price": 139000,
+        "Brand": "Gibson",
+        "Color": "Smokehouse Burst",
+        "Pickup": [
+          "490R",
+          "498T"
+        ],
+        "Strings": "10-46"
+      },
+      {
+        "Name": "GIBSON 2019 LES PAUL MODERN GRAPHITE TOP",
+        "Price": 241000,
+        "Brand": "Gibson",
+        "Color": "Black",
+        "Pickup": [
+          "Burstbucker Pro Rhythm neck",
+          "Burstbucker Pro + Lead bridge"
+        ],
+        "Strings": "10-46"
+      },
+      {
+        "Name": "GIBSON SG STANDARD `61 VINTAGE CHERRY",
+        "Price": 160000,
+        "Brand": "Gibson",
+        "Color": "Cherry",
+        "Pickup": [
+          "BurstBucker 61R",
+          "BurstBucker 61T"
+        ],
+        "Strings": "9-46"
+      },
+      {
+        "Name": "IBANEZ RG370AHMZ-BMT",
+        "Price": 41000,
+        "Brand": "Ibanez",
+        "Color": "Blue",
+        "Pickup": "Quantum",
+        "Strings": "9-46"
+      },
+      {
+        "Name": "JACKSON PRO SL2 - MICK T SIG, BLK",
+        "Price": 127000,
+        "Brand": "Jackson",
+        "Color": "Black",
+        "Pickup": "Mick Thomson Signature Seymour Duncan Blackouts AHB-3S",
+        "Strings": "10-46"
+      },
+      {
+        "Name": "IBANEZ RGD71AL-ANB AXION LABEL RGD 7-STRING",
+        "Price": 88000,
+        "Brand": "Ibanez",
+        "Color": "Sunburst",
+        "Pickup": [
+          "DiMarzio® Fusion Edge-7 (H) neck",
+          "DiMarzio® Fusion Edge-7"
+        ],
+        "Strings": "10-59",
+        "Strings number": 7
+      }
+    ],
+    "Bass guitars": [
+      {
+        "Name": "FENDER PLAYER JAZZ BASS MN PWT",
+        "Price": 84800,
+        "Brand": "Fender",
+        "Color": "White",
+        "Pickup": "AlNiCo V jazz single coils",
+        "Strings": "45-105"
+      },
+      {
+        "Name": "FENDER SQUIER AFFINITY JAZZ BASS LRL RCR",
+        "Price": 26600,
+        "Brand": "Fender",
+        "Color": "Red",
+        "Pickup": [
+          "Standard Jazz Bass",
+          "Jazz Bass"
+        ],
+        "Strings": "45-100"
+      },
+      {
+        "Name": "FENDER AMERICAN PERFORMER PRECISION BASS®, ROSEWOOD FINGERBOARD, 3-COLOR SUNBURST",
+        "Price": 182000,
+        "Brand": "Fender",
+        "Color": "Sunburst",
+        "Pickup": [
+          "Yosemite Split Single-Coil Precision Bass",
+          "Yosemite single-coil Jazz Bass"
+        ],
+        "Strings": "45-105"
+      },
+      {
+        "Name": "FENDER VINTERA `50S PRECISION BASS®, MAPLE FINGERBOARD, VINTAGE BLONDE",
+        "Price": 122000,
+        "Brand": "Fender",
+        "Color": "Vintage Blond",
+        "Pickup": "Vintage-Style '50s Split Single-Coil Precision Bass",
+        "Strings": "45-105"
+      },
+      {
+        "Name": "GIBSON 2019 THUNDERBIRD BASS TOBACCO BURST",
+        "Price": 199000,
+        "Brand": "Gibson",
+        "Color": "Tobacco Burst",
+        "Pickup": [
+          "Rhythm T-Bird",
+          "Lead T-Bird"
+        ],
+        "Strings": "45-105"
+      },
+      {
+        "Name": "YAMAHA TRB1006J B",
+        "Price": 113500,
+        "Brand": "Yamaha",
+        "Color": "Black",
+        "Pickup": "Yamaha Alnico Humbucker Pickup",
+        "Strings number": 6,
+        "Strings": "45-130"
+      }
+    ]
+  },
+  "Amplifiers": {
+    "Combo": [
+      {
+        "Name": "MARSHALL MG10G",
+        "Price": 9100,
+        "Brand": "Marshall",
+        "Type": "transistor",
+        "Power": 10
+      },
+      {
+        "Name": "MARSHALL CODE 25",
+        "Price": 22100,
+        "Brand": "Marshall",
+        "Type": "transistor",
+        "Power": 25
+      },
+      {
+        "Name": "MARSHALL DSL40 COMBO",
+        "Price": 69000,
+        "Brand": "Marshall",
+        "Type": "tube",
+        "Power": 40
+      },
+      {
+        "Name": "FENDER CHAMPION 100",
+        "Price": 39100,
+        "Brand": "Fender",
+        "Type": "transistor",
+        "Power": 100,
+        "Speakers": 2
+      },
+      {
+        "Name": "VOX VT40X",
+        "Price": 22590,
+        "Brand": "VOX",
+        "Type": "hybrid",
+        "Power": 40
+      },
+      {
+        "Name": "FENDER MUSTANG GT 40",
+        "Price": 33000,
+        "Brand": "Fender",
+        "Type": "transistor",
+        "Power": 10,
+        "Speakers": 2
+      },
+      {
+        "Name": "FENDER BLUES JUNIOR IV, BLACK",
+        "Price": 93000,
+        "Brand": "Fender",
+        "Type": "tube",
+        "Power": 15
+      }
+    ],
+    "Preamplifiers": [
+      {
+        "Name": "AMT ELECTRONICS CP-100 «PANGAEA»",
+        "Price": 14889,
+        "Brand": "AMT ELECTRONICS",
+        "Type": "transistor"
+      },
+      {
+        "Name": "AMT R-1 LEGEND AMPS",
+        "Price": 4515,
+        "Brand": "AMT ELECTRONICS",
+        "Type": "transistor"
+      },
+      {
+        "Name": "AMT ELECTRONICS SS-10",
+        "Price": 23384,
+        "Brand": "AMT ELECTRONICS",
+        "Type": "tube"
+      }
+    ],
+    "Heads": [
+      {
+        "Name": "MARSHALL DSL20 HEAD",
+        "Price": 39600,
+        "Brand": "Marshall",
+        "Type": "tube",
+        "Power": 20
+      },
+      {
+        "Name": "MESA BOOGIE TRIPLE CROWN TC-100 HEAD",
+        "Price": 352000,
+        "Brand": "Mesa",
+        "Type": "tube",
+        "Power": 100
+      },
+      {
+        "Name": "MARSHALL SV20H STUDIO VINTAGE",
+        "Price": 99000,
+        "Brand": "Marshall",
+        "Type": "tube",
+        "Power": 20
+      }
+    ]
+  },
+  "Bass amplifiers": {
+    "Combo": [
+      {
+        "Name": "MARSHALL MG10G",
+        "Price": 9100,
+        "Brand": "Marshall",
+        "Type": "transistor",
+        "Power": 10
+      },
+      {
+        "Name": "IBANEZ P3115 PROMETHEAN",
+        "Price": 38000,
+        "Brand": "Ibanez",
+        "Type": "transistor",
+        "Power": 300
+      }
+    ],
+    "Heads": [
+      {
+        "Name": "FENDER RUMBLE 500 HEAD (V3)",
+        "Price": 67000,
+        "Brand": "Fender",
+        "Type": "transistor",
+        "Power": 500
+      },
+      {
+        "Name": "AMPEG PRO SVT-3PRO",
+        "Price": 149000,
+        "Brand": "Ampeg",
+        "Type": "hybrid",
+        "Power": 450
+      }
+    ]
+  },
+  "Manufacturers": [
+    {
+      "Name": "Fender",
+      "Site": "https://shop.fender.com/",
+      "Country": "USA",
+      "Description": "Fender — американская компания, производящая электрические и акустические гитары, музыкальное оборудование."
+    },
+    {
+      "Name": "Gibson",
+      "Site": "https://www.gibson.com/",
+      "Country": "USA",
+      "Description": "Gibson — американская компания, производитель гитар. Продукцию фирмы можно также увидеть под брендами Epiphone, Kramer Guitars, Valley Arts, Tobias, Steinberger и Kalamazoo."
+    },
+    {
+      "Name": "Marshall",
+      "Site": "https://marshall.com/",
+      "Country": "UK",
+      "Description": "Marshall Amplification — английская компания по производству музыкальных звуковых усилителей и акустических систем, основанная Джимом Маршалом в 1962 году."
+    },
+    {
+      "Name": "Ibanez",
+      "Site": "https://www.ibanez.com/eu/",
+      "Country": "Japan",
+      "Description": "Ibanez — известный гитарный бренд, которым владеет компания Hoshino Gakki, расположенная в городе Нагоя, Япония."
+    },
+    {
+      "Name": "Martin",
+      "Site": "https://www.martinguitar.com/",
+      "Country": "USA",
+      "Description": "C.F. Martin & Company - американский производитель гитар, основанный в 1833 году Кристианом Фредериком Мартином."
+    },
+    {
+      "Name": "Yamaha",
+      "Site": "https://www.yamaha.com/",
+      "Country": "Japan",
+      "Description": "Yamaha Corporation — японская транснациональная компания, крупнейший производитель музыкальных инструментов, также занимается производством акустических систем, звукового оборудования и спортивного инвентаря."
+    }
+  ],
+  "Pickups": [
+    {
+      "Name": "FENDER YOSEMITE STRAT PICKUP SET",
+      "Price": 18000,
+      "Brand": "Fender",
+      "Type": "single",
+      "Active": false,
+      "Use": "electric"
+    },
+    {
+      "Name": "FENDER PICKUPS HOT NOISELESS STRATOCASTER JEFF BECK STYLE (SET OF 3)",
+      "Price": 30000,
+      "Brand": "Fender",
+      "Type": "single",
+      "Active": false,
+      "Use": "electric"
+    },
+    {
+      "Name": "SEYMOUR DUNCAN SH6B DUNCAN DISTORTION BRIDGE",
+      "Price": 9400,
+      "Brand": "Seymour Duncan",
+      "Type": "humbucker",
+      "Active": false,
+      "Use": "electric"
+    },
+    {
+      "Name": "SEYMOUR DUNCAN APH-2S SLASH ALNC II PROHB BLK, SET",
+      "Price": 25200,
+      "Brand": "Seymour Duncan",
+      "Type": "humbucker",
+      "Active": false,
+      "Use": "electric"
+    },
+    {
+      "Name": "SEYMOUR DUNCAN SET, HOT RAILS, STRAT BLACK",
+      "Price": 28900,
+      "Brand": "Seymour Duncan",
+      "Type": "humbucker",
+      "Active": false,
+      "Use": "electric"
+    },
+    {
+      "Name": "TESLA PLASMA-1/WH/NE NECK",
+      "Price": 2750,
+      "Brand": "Tesla Pickups",
+      "Type": "single",
+      "Active": false,
+      "Use": "electric"
+    },
+    {
+      "Name": "SEYMOUR DUNCAN DUALITY BRIDGE BLACK",
+      "Price": 14400,
+      "Brand": "Seymour Duncan",
+      "Type": "humbucker",
+      "Active": true,
+      "Use": "electric"
+    },
+    {
+      "Name": "SEYMOUR DUNCAN SA-6 MAG MIC",
+      "Price": 27200,
+      "Brand": "Seymour Duncan",
+      "Type": "humbucker",
+      "Active": true,
+      "Use": "electric"
+    },
+    {
+      "Name": "TESLA CORONA-4SC/BK/BR BRIDGE",
+      "Price": 2750,
+      "Brand": "Tesla Pickups",
+      "Type": "humbacker",
+      "Active": false,
+      "Use": "bass"
+    },
+    {
+      "Name": "TESLA CORONA-B2/BK/BR BRIDGE",
+      "Price": 5000,
+      "Brand": "Tesla Pickups",
+      "Type": "single",
+      "Active": false,
+      "Use": "bass"
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "FENDER STRINGS NEW ACOUSTIC 60CL PH0S BRONZE 11-52",
+      "Price": 810,
+      "Brand": "Fender",
+      "Material": "Phosphor Bronze",
+      "Gauge": "11-52",
+      "Number": 6,
+      "Use": "acoustic"
+    },
+    {
+      "Name": "FENDER STRINGS NEW ACOUSTIC 70XL 80/20 BRNZ BALL END 10-48",
+      "Price": 730,
+      "Brand": "Fender",
+      "Material": "Bronze",
+      "Gauge": "10-48",
+      "Number": 6,
+      "Use": "acoustic"
+    },
+    {
+      "Name": "FENDER DURA-TONE 880L 80/20 COATED 12-52",
+      "Price": 1200,
+      "Brand": "Fender",
+      "Material": "Copper, zinc",
+      "Gauge": "12-52",
+      "Number": 6,
+      "Use": "acoustic"
+    },
+    {
+      "Name": "FENDER NYLON ACOUSTIC STRINGS 100 CLR/SLVR TIE END 028-.043",
+      "Price": 990,
+      "Brand": "Fender",
+      "Material": "Nylon",
+      "Gauge": "28-43",
+      "Number": 6,
+      "Use": "acoustic"
+    },
+    {
+      "Name": "FENDER STRINGS NEW SUPER 250R NPS BALL END 10-46",
+      "Price": 670,
+      "Brand": "Fender",
+      "Material": "Steel, nickel",
+      "Gauge": "10-46",
+      "Number": 6,
+      "Use": "electric"
+    },
+    {
+      "Name": "FENDER STRINGS NEW ORIGINAL BULLET 3150R PURE NKL BLT END 10-46",
+      "Price": 1200,
+      "Brand": "Fender",
+      "Material": "Nickel",
+      "Gauge": "10-46",
+      "Number": 6,
+      "Use": "electric"
+    },
+    {
+      "Name": "GIBSON SEG-700L BRITE WIRES NPS WOUND .010-.046",
+      "Price": 610,
+      "Brand": "Gibson",
+      "Material": "Nickel",
+      "Gauge": "10-46",
+      "Number": 6,
+      "Use": "electric"
+    },
+    {
+      "Name": "FENDER 8250 BASS STRINGS, NICKEL PLATED STEEL TAPERWOUND, LONG SCALE, 8250M .045-.110 GAUGES, (4)",
+      "Price": 2800,
+      "Brand": "Fender",
+      "Material": "Steel",
+      "Gauge": "45-110",
+      "Number": 4,
+      "Use": "bass"
+    },
+    {
+      "Name": "FENDER STAINLESS 9050`S BASS STRINGS, STAINLESS STEEL FLATWOUND, 9050M .055-.105 GAUGES, (4)",
+      "Price": 4200,
+      "Brand": "Fender",
+      "Material": "Steel",
+      "Gauge": "55-105",
+      "Number": 4,
+      "Use": "bass"
+    }
+  ]
+}

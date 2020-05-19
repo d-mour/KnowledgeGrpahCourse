@@ -3,7 +3,7 @@ import requests
 
 # create a Graph
 g = Graph()
-g.parse("GuitarShop.owl", format='turtle')
+g.parse("GuitarShopModified.owl", format='turtle')
 
 # loop through each triple in the graph (subj, pred, obj)
 for subj, pred, obj in g:
@@ -17,17 +17,47 @@ for subj, pred, obj in g:
 print("graph has {} statements.".format(len(g)))
 # prints graph has 86 statements.
 
-# print out the entire Graph in the RDF Turtle format
-# print(g.serialize(format="turtle").decode("utf-8"))
-
 res = g.query(
     """PREFIX : <http://webprotege.stanford.edu/GuitarShop#>
     SELECT ?guitar
     WHERE {
-        ?guitar :hasManufacturer :Fender; 
+        ?guitar a :AcousticGuitar;
+                :hasManufacturer :Fender; 
                 :hasPrice ?price .
-        FILTER(?price > 500)
+        FILTER(?price > 20000)
     }""")
 
+print('\n### Guitars ###')
 for row in res:
-    print(row[0])
+    print(row[0].split('#')[1])
+
+res = g.query(
+    """PREFIX : <http://webprotege.stanford.edu/GuitarShop#>
+    SELECT *
+    WHERE {
+        ?strings :isSuitableFor :AcousticGuitar; 
+                :hasPrice ?price;
+                :hasGauge "12-52".
+        FILTER(?price < 2000)
+    }""")
+
+print('\n### Strings ###')
+for row in res:
+    print(row[0], row[1])
+
+res = g.query(
+    """PREFIX : <http://webprotege.stanford.edu/GuitarShop#>
+    SELECT ?manufacturer
+            (AVG(?price) AS ?var)
+    WHERE {
+        ?guitar a :ElectricGuitar;
+                :hasPrice ?price;
+                :hasManufacturer ?manufacturer.
+        ?manufacturer a :Manufacturer.
+    }
+    GROUP BY ?manufacturer
+    """)
+
+print('\n### Prices ###')
+for row in res:
+    print(row[0], row[1])
