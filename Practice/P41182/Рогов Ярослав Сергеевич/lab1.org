@@ -1,0 +1,83 @@
+#+PROPERTY: header-args :python "python3" :session lab1 :cache yes :exports code :results output :wrap example
+
+* Code
+#+begin_src python
+from rdflib import Graph, Literal, URIRef
+from rdflib import RDF, RDFS, FOAF, XSD, OWL
+from pprint import pprint
+import csv
+import re
+
+g = Graph()
+g.parse("ontology.ttl", format='turtle')
+
+prefix = dict(g.namespaces())['']
+
+def label(s):
+    return str(g.label(s))
+def sanitize(name):
+    return re.sub('\W', '_', name)
+
+cache = dict((label(o), o) for o, p, s in g if p == RDF.type and s == OWL. NamedIndividual)
+def ref(name):
+    if name in cache:
+        return cache[name]
+    else:
+        return cache.setdefault(name, URIRef(prefix + sanitize(name)))
+
+def propvalue(key, prop):
+    for o, p, s in g:
+        if o == key and p == prop:
+            return s
+
+mapping = dict((label(o), (o, propvalue(o, RDFS.domain), propvalue(o, RDFS.range)))
+           for o, p, s in g
+           if p == RDF.type and s == OWL.ObjectProperty)
+
+def add(many):
+    for single in many:
+        g.add(single)
+
+with open('data.csv', 'r') as f:
+    reader = csv.reader(f)
+    next(reader) # Ignore header
+    for [o, p, s] in reader:
+        if p not in mapping:
+            raise Exception(f'Unknown predicate: {p}')
+        pred, oc, sc = mapping[p]
+
+        add([
+            (ref(o), RDF.type, OWL.NamedIndividual),
+            (ref(o), RDF.type, oc),
+            (ref(o), RDFS.label, Literal(o)),
+
+            (ref(s), RDF.type, OWL.NamedIndividual),
+            (ref(s), RDF.type, sc),
+            (ref(s), RDFS.label, Literal(s)),
+
+            (ref(o), pred, ref(s))
+        ])
+
+def execute(query):
+    res = g.query(f"PREFIX : <{prefix}> " + query)
+    if len(res.vars) == 1:
+        return list(map(lambda x: x[res.vars[0]], res))
+    else:
+        return list(res)
+
+pprint(execute("""
+    SELECT ?language
+    WHERE {{
+        ?language rdf:type :Programming_Language;
+                         :implements :Parallel_Computing;
+                         :used_in :Big_Data
+    }}"""))
+
+with open('output.ttl', 'wb+') as f:
+    f.write(g.serialize(format='turtle'))
+#+end_src
+
+#+RESULTS[feedcbd0c90a241d24fbafd3c232637444f37df0]:
+#+begin_example
+[rdflib.term.URIRef('http://example.com/yaroslav_rogov/pl#Scala')]
+#+end_example
