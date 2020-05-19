@@ -1,0 +1,178 @@
+@prefix : <http://www.semanticweb.org/helena/ontologies/2020/4/untitled-ontology-4#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/helena/ontologies/2020/4/untitled-ontology-4> a owl:Ontology .
+
+:Andrew_King a :Manager,
+        owl:NamedIndividual ;
+    rdfs:label "Andrew King" ;
+    :manages :Pink_Floyd .
+
+:Brian_May a :Musician,
+        owl:NamedIndividual ;
+    rdfs:label "Brian May" ;
+    :works_in :Queen,
+        :Smile .
+
+:EMI a :Label,
+        owl:NamedIndividual ;
+    rdfs:label "EMI" ;
+    :records :A_Night_at_the_Opera,
+        :The_piper_at_the_gates_of_Dawn .
+
+:John_Reid a :Manager,
+        owl:NamedIndividual ;
+    rdfs:label "John Reid" ;
+    :manages :Queen .
+
+:Nutz a :Band,
+        owl:NamedIndividual ;
+    rdfs:label "Nutz" ;
+    :goes_on :Queen_II_Tour .
+
+:Roger_Taylor a :Musician,
+        owl:NamedIndividual ;
+    rdfs:label "Roger Taylor" ;
+    :works_in :Queen,
+        :Smile .
+
+:Roger_Waters a :Musician,
+        owl:NamedIndividual ;
+    rdfs:label "Roger Waters" ;
+    :works_in :Pink_Floyd .
+
+:contains a owl:ObjectProperty ;
+    rdfs:domain :Album ;
+    rdfs:range :Song .
+
+:country a owl:DatatypeProperty ;
+    rdfs:domain :Band,
+        :Label ;
+    rdfs:range xsd:string .
+
+:creates a owl:ObjectProperty ;
+    rdfs:domain :Band ;
+    rdfs:range :Album .
+
+:duration a owl:DatatypeProperty ;
+    rdfs:domain :Album,
+        :Song ;
+    rdfs:range xsd:double .
+
+:genre a owl:DatatypeProperty ;
+    rdfs:domain :Band ;
+    rdfs:range xsd:string .
+
+:goes_on a owl:ObjectProperty ;
+    rdfs:domain :Band ;
+    rdfs:range :Tour .
+
+:instrument a owl:DatatypeProperty ;
+    rdfs:domain :Musician ;
+    rdfs:range xsd:string .
+
+:manages a owl:ObjectProperty ;
+    rdfs:domain :Manager ;
+    rdfs:range :Band .
+
+:name a owl:DatatypeProperty ;
+    rdfs:domain :Band,
+        :Label,
+        :Person,
+        :Song,
+        :Tour ;
+    rdfs:range xsd:string .
+
+:records a owl:ObjectProperty ;
+    rdfs:domain :Label ;
+    rdfs:range :Album .
+
+:surname a owl:DatatypeProperty ;
+    rdfs:domain :Person ;
+    rdfs:range xsd:string .
+
+:title a owl:DatatypeProperty ;
+    rdfs:domain :Album ;
+    rdfs:range xsd:string .
+
+:works_in a owl:ObjectProperty ;
+    rdfs:domain :Musician ;
+    rdfs:range :Band .
+
+:year a owl:DatatypeProperty ;
+    rdfs:domain :Album,
+        :Tour ;
+    rdfs:range xsd:int .
+
+:Bike a :Song,
+        owl:NamedIndividual ;
+    rdfs:label "Bike" .
+
+:Dark_Side_of_the_Moon_Tour a :Tour,
+        owl:NamedIndividual ;
+    rdfs:label "Dark Side of the Moon Tour" .
+
+:Flaming a :Song,
+        owl:NamedIndividual ;
+    rdfs:label "Flaming" .
+
+:I_m_in_Love_with_My_Car a :Song,
+        owl:NamedIndividual ;
+    rdfs:label "I'm in Love with My Car" .
+
+:You_re_My_Best_Friend a :Song,
+        owl:NamedIndividual ;
+    rdfs:label "You're My Best Friend" .
+
+:A_Night_at_the_Opera a :Album,
+        owl:NamedIndividual ;
+    rdfs:label "A Night at the Opera" ;
+    :contains :I_m_in_Love_with_My_Car,
+        :You_re_My_Best_Friend .
+
+:Pink_Floyd a :Band,
+        owl:NamedIndividual ;
+    rdfs:label "Pink Floyd" ;
+    :creates :The_piper_at_the_gates_of_Dawn ;
+    :goes_on :Dark_Side_of_the_Moon_Tour .
+
+:Queen_II_Tour a :Tour,
+        owl:NamedIndividual ;
+    rdfs:label "Queen II Tour" .
+
+:Smile a :Band,
+        owl:NamedIndividual ;
+    rdfs:label "Smile" .
+
+:The_piper_at_the_gates_of_Dawn a :Album,
+        owl:NamedIndividual ;
+    rdfs:label "The piper at the gates of Dawn" ;
+    :contains :Bike,
+        :Flaming .
+
+:Manager a owl:Class ;
+    rdfs:subClassOf :Person .
+
+:Queen a :Band,
+        owl:NamedIndividual ;
+    rdfs:label "Queen" ;
+    :creates :A_Night_at_the_Opera ;
+    :goes_on :Queen_II_Tour .
+
+:Label a owl:Class .
+
+:Person a owl:Class .
+
+:Musician a owl:Class ;
+    rdfs:subClassOf :Person .
+
+:Tour a owl:Class .
+
+:Song a owl:Class .
+
+:Album a owl:Class .
+
+:Band a owl:Class .
+
