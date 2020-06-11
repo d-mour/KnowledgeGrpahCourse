@@ -1,0 +1,314 @@
+@prefix : <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/avyal/ontologies/2020/5/AutoAftermarketPartsOntology> .
+
+<http://www.semanticweb.org/avyal/ontologies/2020/5/AutoAftermarketPartsOntology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasManufacturer
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasManufacturer> rdf:type owl:ObjectProperty ;
+                                                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                         owl:inverseOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#isManufacturerOf> ;
+                                                                                         rdfs:domain [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasManufacturer> ;
+                                                                                                       owl:someValuesFrom <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Parts>
+                                                                                                     ] ;
+                                                                                         rdfs:range [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasManufacturer> ;
+                                                                                                      owl:someValuesFrom <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Manufacturers>
+                                                                                                    ] .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#isManufacturerOf
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#isManufacturerOf> rdf:type owl:ObjectProperty ;
+                                                                                          rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                          rdfs:domain [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#isManufacturerOf> ;
+                                                                                                        owl:someValuesFrom <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Manufacturers>
+                                                                                                      ] ;
+                                                                                          rdfs:range [ rdf:type owl:Restriction ;
+                                                                                                       owl:onProperty <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#isManufacturerOf> ;
+                                                                                                       owl:someValuesFrom <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Parts>
+                                                                                                     ] .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#compatibleWithCar
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#compatibleWithCar> rdf:type owl:DatatypeProperty ;
+                                                                                           rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                           rdfs:domain <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Body_kits> ,
+                                                                                                       <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Bumpers> ,
+                                                                                                       <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Hoods> ,
+                                                                                                       <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Roll_cages> ,
+                                                                                                       <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Side_skirts> ;
+                                                                                           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#compatibleWithEngine
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#compatibleWithEngine> rdf:type owl:DatatypeProperty ;
+                                                                                              rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                              rdfs:domain <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Exhaust_systems> ,
+                                                                                                          <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Intake_systems> ,
+                                                                                                          <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Stroker_kits> ;
+                                                                                              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#forPublicRoad
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#forPublicRoad> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Brake_disks> ,
+                                                                                                   <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Roll_cages> ,
+                                                                                                   <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Tires> ;
+                                                                                       rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasCalculatedPotential
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasCalculatedPotential> rdf:type owl:DatatypeProperty ;
+                                                                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                                rdfs:domain <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Exhaust_systems> ,
+                                                                                                            <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Fuel_systems> ,
+                                                                                                            <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Intake_systems> ,
+                                                                                                            <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Stroker_kits> ,
+                                                                                                            <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Turbochargers> ;
+                                                                                                rdfs:range [ rdf:type rdfs:Datatype ;
+                                                                                                             owl:onDatatype xsd:integer ;
+                                                                                                             owl:withRestrictions ( [ xsd:minInclusive 200
+                                                                                                                                    ]
+                                                                                                                                    [ xsd:maxInclusive 1500
+                                                                                                                                    ]
+                                                                                                                                  )
+                                                                                                           ] .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasMaterial
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasMaterial> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                     rdfs:domain <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Brake_disks> ,
+                                                                                                 <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Clutches> ,
+                                                                                                 <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Driveshafts> ,
+                                                                                                 <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Exhaust_systems> ,
+                                                                                                 <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Hoods> ;
+                                                                                     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasMaxSpeed
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasMaxSpeed> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                     rdfs:domain <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Tires> ;
+                                                                                     rdfs:range [ rdf:type rdfs:Datatype ;
+                                                                                                  owl:onDatatype xsd:integer ;
+                                                                                                  owl:withRestrictions ( [ xsd:minInclusive 180
+                                                                                                                         ]
+                                                                                                                         [ xsd:maxInclusive 430
+                                                                                                                         ]
+                                                                                                                       )
+                                                                                                ] .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasPrice
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasPrice> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                  rdf:type owl:FunctionalProperty ;
+                                                                                  rdfs:domain <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Parts> ;
+                                                                                  rdfs:range [ rdf:type rdfs:Datatype ;
+                                                                                               owl:onDatatype xsd:decimal ;
+                                                                                               owl:withRestrictions ( [ xsd:minExclusive 0.0
+                                                                                                                      ]
+                                                                                                                    )
+                                                                                             ] .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasSize
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#hasSize> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                                                                 rdfs:domain <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Rims> ;
+                                                                                 rdfs:range [ rdf:type rdfs:Datatype ;
+                                                                                              owl:onDatatype xsd:decimal ;
+                                                                                              owl:withRestrictions ( [ xsd:minInclusive 13.0
+                                                                                                                     ]
+                                                                                                                     [ xsd:maxInclusive 23.0
+                                                                                                                     ]
+                                                                                                                   )
+                                                                                            ] .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Anti_roll_bars
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Anti_roll_bars> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Suspension> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Body
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Body> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Parts> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Body_kits
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Body_kits> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Body> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Body_stiffness
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Body_stiffness> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Suspension> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Brake_disks
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Brake_disks> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Brake_system> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Brake_pads
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Brake_pads> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Brake_system> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Brake_system
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Brake_system> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Parts> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Bumpers
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Bumpers> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Body> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Calipers
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Calipers> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Brake_system> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Clutches
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Clutches> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Transmission> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Driveshafts
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Driveshafts> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Transmission> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#ECU
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#ECU> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Engine> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Engine
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Engine> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Parts> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Exhaust_systems
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Exhaust_systems> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Engine> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Fuel_systems
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Fuel_systems> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Engine> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Hoods
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Hoods> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Body> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Intake_systems
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Intake_systems> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Engine> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Interior
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Interior> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Parts> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Manufacturers
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Manufacturers> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Parts
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Parts> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Rims
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Rims> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Wheels> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Roll_cages
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Roll_cages> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Interior> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Seats
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Seats> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Interior> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Side_skirts
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Side_skirts> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Body> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Springs_and_shock_absorbers
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Springs_and_shock_absorbers> rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Suspension> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Steering_wheels
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Steering_wheels> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Interior> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Stroker_kits
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Stroker_kits> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Engine> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Suspension
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Suspension> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Parts> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Tires
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Tires> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Wheels> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Transmission
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Transmission> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Parts> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Turbochargers
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Turbochargers> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Engine> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Wheels
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Wheels> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Parts> .
+
+
+###  http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Wings
+<http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Wings> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/avyal/ontologies/2020/5/untitled-ontology-3#Body> .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
