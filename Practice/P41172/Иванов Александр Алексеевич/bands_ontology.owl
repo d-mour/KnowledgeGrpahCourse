@@ -1,0 +1,580 @@
+@prefix : <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix untitled-ontology-3: <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#> .
+@base <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3> .
+
+<http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#fromAlbum
+untitled-ontology-3:fromAlbum rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf owl:topObjectProperty ;
+                              rdfs:domain untitled-ontology-3:Track ;
+                              rdfs:range untitled-ontology-3:Album .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#hasAlbum
+untitled-ontology-3:hasAlbum rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty ;
+                             owl:inverseOf untitled-ontology-3:wasProduced ;
+                             rdfs:domain untitled-ontology-3:Artist ;
+                             rdfs:range untitled-ontology-3:Album .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#hasGenreOf
+untitled-ontology-3:hasGenreOf rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf owl:topObjectProperty ;
+                               rdfs:domain untitled-ontology-3:Artist ;
+                               rdfs:range untitled-ontology-3:Genre .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#originallyFrom
+untitled-ontology-3:originallyFrom rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf owl:topObjectProperty ;
+                                   rdfs:domain untitled-ontology-3:Artist ;
+                                   rdfs:range untitled-ontology-3:Origin .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#performer
+untitled-ontology-3:performer rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf owl:topObjectProperty ;
+                              rdfs:domain untitled-ontology-3:Concert ;
+                              rdfs:range untitled-ontology-3:Artist .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#wasProduced
+untitled-ontology-3:wasProduced rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf owl:topObjectProperty ;
+                                rdfs:domain untitled-ontology-3:Album ;
+                                rdfs:range untitled-ontology-3:Artist .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#date
+untitled-ontology-3:date rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#formed
+untitled-ontology-3:formed rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#name
+untitled-ontology-3:name rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#place
+untitled-ontology-3:place rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#year
+untitled-ontology-3:year rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty ;
+                         rdf:type owl:FunctionalProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Africa
+untitled-ontology-3:Africa rdf:type owl:Class ;
+                           rdfs:subClassOf untitled-ontology-3:Origin .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Album
+untitled-ontology-3:Album rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Artist
+untitled-ontology-3:Artist rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Asia
+untitled-ontology-3:Asia rdf:type owl:Class ;
+                         rdfs:subClassOf untitled-ontology-3:Origin .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Australia
+untitled-ontology-3:Australia rdf:type owl:Class ;
+                              rdfs:subClassOf untitled-ontology-3:Origin .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Blues
+untitled-ontology-3:Blues rdf:type owl:Class ;
+                          rdfs:subClassOf untitled-ontology-3:Genre .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Classical
+untitled-ontology-3:Classical rdf:type owl:Class ;
+                              rdfs:subClassOf untitled-ontology-3:Genre .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Concert
+untitled-ontology-3:Concert rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Dance
+untitled-ontology-3:Dance rdf:type owl:Class ;
+                          rdfs:subClassOf untitled-ontology-3:Genre .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Electronic
+untitled-ontology-3:Electronic rdf:type owl:Class ;
+                               rdfs:subClassOf untitled-ontology-3:Genre .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Europe
+untitled-ontology-3:Europe rdf:type owl:Class ;
+                           rdfs:subClassOf untitled-ontology-3:Origin .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Genre
+untitled-ontology-3:Genre rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Jazz
+untitled-ontology-3:Jazz rdf:type owl:Class ;
+                         rdfs:subClassOf untitled-ontology-3:Genre .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#North_America
+untitled-ontology-3:North_America rdf:type owl:Class ;
+                                  rdfs:subClassOf untitled-ontology-3:Origin .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Origin
+untitled-ontology-3:Origin rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Pop
+untitled-ontology-3:Pop rdf:type owl:Class ;
+                        rdfs:subClassOf untitled-ontology-3:Genre .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Rap
+untitled-ontology-3:Rap rdf:type owl:Class ;
+                        rdfs:subClassOf untitled-ontology-3:Genre .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Rock
+untitled-ontology-3:Rock rdf:type owl:Class ;
+                         rdfs:subClassOf untitled-ontology-3:Genre .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#South_America
+untitled-ontology-3:South_America rdf:type owl:Class ;
+                                  rdfs:subClassOf untitled-ontology-3:Origin .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Track
+untitled-ontology-3:Track rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#A_Match_Made_In_Heaven
+untitled-ontology-3:A_Match_Made_In_Heaven rdf:type owl:NamedIndividual ,
+                                                    untitled-ontology-3:Track ;
+                                           untitled-ontology-3:fromAlbum untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Acoustic_Blues
+untitled-ontology-3:Acoustic_Blues rdf:type owl:NamedIndividual ,
+                                            untitled-ontology-3:Blues .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#All_Our_Gods_Have_Abandoned_Us
+untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us rdf:type owl:NamedIndividual ,
+                                                            untitled-ontology-3:Album ;
+                                                   untitled-ontology-3:wasProduced untitled-ontology-3:Architects ;
+                                                   untitled-ontology-3:year "2014"^^xsd:int .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Alternative_Rap
+untitled-ontology-3:Alternative_Rap rdf:type owl:NamedIndividual ,
+                                             untitled-ontology-3:Rap .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Alternative_Rock
+untitled-ontology-3:Alternative_Rock rdf:type owl:NamedIndividual ,
+                                              untitled-ontology-3:Rock .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Ambient
+untitled-ontology-3:Ambient rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-3:Electronic .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Architects
+untitled-ontology-3:Architects rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-3:Artist ;
+                               untitled-ontology-3:hasAlbum untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us ,
+                                                            untitled-ontology-3:Holy_Hell ;
+                               untitled-ontology-3:hasGenreOf untitled-ontology-3:Progressive_Metal ;
+                               untitled-ontology-3:originallyFrom untitled-ontology-3:UK ;
+                               untitled-ontology-3:formed "2004"^^xsd:int ;
+                               rdfs:label "Architects" .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Architects_SPb
+untitled-ontology-3:Architects_SPb rdf:type owl:NamedIndividual ,
+                                            untitled-ontology-3:Concert ;
+                                   untitled-ontology-3:performer untitled-ontology-3:Architects ;
+                                   untitled-ontology-3:date "2020-12-20T19:00:00"^^xsd:dateTime ;
+                                   untitled-ontology-3:place "St. Petersburg"^^xsd:string ;
+                                   rdfs:label "Architects in Saint-Petersburg" .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Argentina
+untitled-ontology-3:Argentina rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-3:South_America .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Art_Rock
+untitled-ontology-3:Art_Rock rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-3:Rock .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Australia
+untitled-ontology-3:Australia rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-3:Australia .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Bobop
+untitled-ontology-3:Bobop rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-3:Jazz .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Brazil
+untitled-ontology-3:Brazil rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-3:South_America .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Britpop
+untitled-ontology-3:Britpop rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-3:Pop .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Canada
+untitled-ontology-3:Canada rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-3:North_America .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Chile
+untitled-ontology-3:Chile rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-3:South_America .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#China
+untitled-ontology-3:China rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-3:Asia .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Choral
+untitled-ontology-3:Choral rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-3:Classical .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Classic_Blues
+untitled-ontology-3:Classic_Blues rdf:type owl:NamedIndividual ,
+                                           untitled-ontology-3:Blues .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Contemporary_Jazz
+untitled-ontology-3:Contemporary_Jazz rdf:type owl:NamedIndividual ,
+                                               untitled-ontology-3:Jazz .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Country_Blues
+untitled-ontology-3:Country_Blues rdf:type owl:NamedIndividual ,
+                                           untitled-ontology-3:Blues .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Dance_pop
+untitled-ontology-3:Dance_pop rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-3:Pop .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Death_Metal
+untitled-ontology-3:Death_Metal rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-3:Rock .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Deathcore
+untitled-ontology-3:Deathcore rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-3:Rock .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Deep_House
+untitled-ontology-3:Deep_House rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-3:Dance .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Downfall
+untitled-ontology-3:Downfall rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-3:Track ;
+                             untitled-ontology-3:fromAlbum untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Drum_and_bass
+untitled-ontology-3:Drum_and_bass rdf:type owl:NamedIndividual ,
+                                           untitled-ontology-3:Electronic .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#East_Coast
+untitled-ontology-3:East_Coast rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-3:Rap .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Electro_House
+untitled-ontology-3:Electro_House rdf:type owl:NamedIndividual ,
+                                           untitled-ontology-3:Dance .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Electroswing
+untitled-ontology-3:Electroswing rdf:type owl:NamedIndividual ,
+                                          untitled-ontology-3:Dance .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Euro_pop
+untitled-ontology-3:Euro_pop rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-3:Pop .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Eurodance
+untitled-ontology-3:Eurodance rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-3:Electronic .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#France
+untitled-ontology-3:France rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-3:Europe .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Fusion
+untitled-ontology-3:Fusion rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-3:Jazz .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Gangsta_Rap
+untitled-ontology-3:Gangsta_Rap rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-3:Rap .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Germany
+untitled-ontology-3:Germany rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-3:Europe .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Gone_with_the_wind
+untitled-ontology-3:Gone_with_the_wind rdf:type owl:NamedIndividual ,
+                                                untitled-ontology-3:Track ;
+                                       untitled-ontology-3:fromAlbum untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Grindcore
+untitled-ontology-3:Grindcore rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-3:Rock .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Hip_Hop
+untitled-ontology-3:Hip_Hop rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-3:Rap .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Holy_Hell
+untitled-ontology-3:Holy_Hell rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-3:Album ;
+                              untitled-ontology-3:wasProduced untitled-ontology-3:Architects ;
+                              untitled-ontology-3:year "2018"^^xsd:int .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Indie
+untitled-ontology-3:Indie rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-3:Rock .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Memento_Mori
+untitled-ontology-3:Memento_Mori rdf:type owl:NamedIndividual ,
+                                          untitled-ontology-3:Track ;
+                                 untitled-ontology-3:fromAlbum untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Metalcore
+untitled-ontology-3:Metalcore rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-3:Rock .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Metallica
+untitled-ontology-3:Metallica rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-3:Artist ;
+                              untitled-ontology-3:hasAlbum untitled-ontology-3:Ride_The_Lightning ;
+                              untitled-ontology-3:hasGenreOf untitled-ontology-3:Thrash_Metal ;
+                              untitled-ontology-3:formed "1981"^^xsd:int ;
+                              rdfs:label "Metallica" .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#NY_Blues
+untitled-ontology-3:NY_Blues rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-3:Blues .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#New_School
+untitled-ontology-3:New_School rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-3:Rap .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#New_Zealand
+untitled-ontology-3:New_Zealand rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-3:Australia .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Nihilist
+untitled-ontology-3:Nihilist rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-3:Track ;
+                             untitled-ontology-3:fromAlbum untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#North_Korea
+untitled-ontology-3:North_Korea rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-3:Asia .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Old_School
+untitled-ontology-3:Old_School rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-3:Rap .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Opera
+untitled-ontology-3:Opera rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-3:Classical .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Orchestral
+untitled-ontology-3:Orchestral rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-3:Classical .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Outsider
+untitled-ontology-3:Outsider rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-3:Album ;
+                             untitled-ontology-3:wasProduced untitled-ontology-3:Veil_of_maya .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Parkway_Drive
+untitled-ontology-3:Parkway_Drive rdf:type owl:NamedIndividual ,
+                                           untitled-ontology-3:Artist ;
+                                  untitled-ontology-3:hasGenreOf untitled-ontology-3:Metalcore ;
+                                  untitled-ontology-3:formed "2002"^^xsd:int ;
+                                  rdfs:label "Parkway Drive" .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Progressive_Metal
+untitled-ontology-3:Progressive_Metal rdf:type owl:NamedIndividual ,
+                                               untitled-ontology-3:Rock .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Progressive_Rock
+untitled-ontology-3:Progressive_Rock rdf:type owl:NamedIndividual ,
+                                              untitled-ontology-3:Rock .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Ride_The_Lightning
+untitled-ontology-3:Ride_The_Lightning rdf:type owl:NamedIndividual ,
+                                                untitled-ontology-3:Album ;
+                                       untitled-ontology-3:wasProduced untitled-ontology-3:Metallica .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Rock_and_Roll
+untitled-ontology-3:Rock_and_Roll rdf:type owl:NamedIndividual ,
+                                           untitled-ontology-3:Rock .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Russia
+untitled-ontology-3:Russia rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-3:Europe .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Sout_African_Republic
+untitled-ontology-3:Sout_African_Republic rdf:type owl:NamedIndividual ,
+                                                   untitled-ontology-3:Africa .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#South_Korea
+untitled-ontology-3:South_Korea rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-3:Asia .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Symphonic
+untitled-ontology-3:Symphonic rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-3:Classical .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Thailand
+untitled-ontology-3:Thailand rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-3:Asia .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Thrash_Metal
+untitled-ontology-3:Thrash_Metal rdf:type owl:NamedIndividual ,
+                                          untitled-ontology-3:Rock .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Thy_art_is_murder
+untitled-ontology-3:Thy_art_is_murder rdf:type owl:NamedIndividual ,
+                                               untitled-ontology-3:Artist ;
+                                      untitled-ontology-3:hasGenreOf untitled-ontology-3:Deathcore ;
+                                      untitled-ontology-3:formed "2006"^^xsd:int ;
+                                      rdfs:label "Thy Art Is Murder" .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Trance
+untitled-ontology-3:Trance rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-3:Dance .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#UK
+untitled-ontology-3:UK rdf:type owl:NamedIndividual ,
+                                untitled-ontology-3:Europe .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#USA
+untitled-ontology-3:USA rdf:type owl:NamedIndividual ,
+                                 untitled-ontology-3:North_America .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Uganda
+untitled-ontology-3:Uganda rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-3:Africa .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Ukraine
+untitled-ontology-3:Ukraine rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-3:Europe .
+
+
+###  http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#Veil_of_maya
+untitled-ontology-3:Veil_of_maya rdf:type owl:NamedIndividual ,
+                                          untitled-ontology-3:Artist ;
+                                 untitled-ontology-3:hasAlbum untitled-ontology-3:Outsider ;
+                                 untitled-ontology-3:hasGenreOf untitled-ontology-3:Progressive_Metal ;
+                                 untitled-ontology-3:formed "2004"^^xsd:int ;
+                                 rdfs:label "Veil Of Maya" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
