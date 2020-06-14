@@ -1,0 +1,561 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix untitled-ontology-3: <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3> a owl:Ontology .
+
+untitled-ontology-3:A_Match_Made_In_Heaven a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us .
+
+untitled-ontology-3:Absolute_Power a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Reverence .
+
+untitled-ontology-3:Acoustic_Blues a untitled-ontology-3:Blues,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Alternative_Rap a untitled-ontology-3:Rap,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Alternative_Rock a untitled-ontology-3:Rock,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Ambient a untitled-ontology-3:Electronic,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Amongst_The_Shadows_And_The_Stones a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:What_The_Dead_Men_Say .
+
+untitled-ontology-3:Architects_SPb a untitled-ontology-3:Concert,
+        owl:NamedIndividual ;
+    rdfs:label "Architects in Saint-Petersburg" ;
+    untitled-ontology-3:date "2020-12-20T19:00:00"^^xsd:dateTime ;
+    untitled-ontology-3:performer untitled-ontology-3:Architects ;
+    untitled-ontology-3:place "St. Petersburg"^^xsd:string .
+
+untitled-ontology-3:Argentina a untitled-ontology-3:South_America,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Art_Rock a untitled-ontology-3:Rock,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Beyond_Oblivion a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:The_Sin_And_The_Sentence .
+
+untitled-ontology-3:Bobop a untitled-ontology-3:Jazz,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Boneyards a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Horizons .
+
+untitled-ontology-3:Brazil a untitled-ontology-3:South_America,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Breaking_Point a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Horizons .
+
+untitled-ontology-3:Bring_Me_Home a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Mark_Of_The_Blade .
+
+untitled-ontology-3:Britpop a untitled-ontology-3:Pop,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Canada a untitled-ontology-3:North_America,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Carrion a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Horizons .
+
+untitled-ontology-3:Catastrophist a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:What_The_Dead_Men_Say .
+
+untitled-ontology-3:Chile a untitled-ontology-3:South_America,
+        owl:NamedIndividual .
+
+untitled-ontology-3:China a untitled-ontology-3:Asia,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Choral a untitled-ontology-3:Classical,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Classic_Blues a untitled-ontology-3:Blues,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Contemporary_Jazz a untitled-ontology-3:Jazz,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Country_Blues a untitled-ontology-3:Blues,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Dance_pop a untitled-ontology-3:Pop,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Deep_House a untitled-ontology-3:Dance,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Downfall a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us .
+
+untitled-ontology-3:Dream_Theater a untitled-ontology-3:Artist,
+        owl:NamedIndividual ;
+    untitled-ontology-3:formed 1985 ;
+    untitled-ontology-3:hasAlbum untitled-ontology-3:Awake,
+        untitled-ontology-3:Train_of_Thought ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Progressive_Metal .
+
+untitled-ontology-3:East_Coast a untitled-ontology-3:Rap,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Electro_House a untitled-ontology-3:Dance,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Electroswing a untitled-ontology-3:Dance,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Elitist_Ones a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Mark_Of_The_Blade .
+
+untitled-ontology-3:Euro_pop a untitled-ontology-3:Pop,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Eurodance a untitled-ontology-3:Electronic,
+        owl:NamedIndividual .
+
+untitled-ontology-3:France a untitled-ontology-3:Europe,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Fusion a untitled-ontology-3:Jazz,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Gangsta_Rap a untitled-ontology-3:Rap,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Germany a untitled-ontology-3:Europe,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Gone_with_the_wind a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us .
+
+untitled-ontology-3:Grindcore a untitled-ontology-3:Rock,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Hip_Hop a untitled-ontology-3:Rap,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Idols_and_Anchors a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Horizons .
+
+untitled-ontology-3:In_Flames a untitled-ontology-3:Artist,
+        owl:NamedIndividual ;
+    untitled-ontology-3:formed 1990 ;
+    untitled-ontology-3:hasAlbum untitled-ontology-3:Come_Clarity,
+        untitled-ontology-3:I_The_Mask,
+        untitled-ontology-3:Lunar_Strain ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Death_Metal .
+
+untitled-ontology-3:Indie a untitled-ontology-3:Rock,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Leeches a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Come_Clarity .
+
+untitled-ontology-3:Memento_Mori a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us .
+
+untitled-ontology-3:NY_Blues a untitled-ontology-3:Blues,
+        owl:NamedIndividual .
+
+untitled-ontology-3:New_School a untitled-ontology-3:Rap,
+        owl:NamedIndividual .
+
+untitled-ontology-3:New_Zealand a untitled-ontology-3:Australia,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Nihilist a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us .
+
+untitled-ontology-3:North_Korea a untitled-ontology-3:Asia,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Old_School a untitled-ontology-3:Rap,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Opera a untitled-ontology-3:Classical,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Orchestral a untitled-ontology-3:Classical,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Parkway_Drive_in_Moscow a untitled-ontology-3:Concert,
+        owl:NamedIndividual ;
+    untitled-ontology-3:date "2021-10-20T19:00:00" ;
+    untitled-ontology-3:performer untitled-ontology-3:Parkway_Drive ;
+    untitled-ontology-3:place "Moscow" .
+
+untitled-ontology-3:Pendulum a untitled-ontology-3:Artist,
+        owl:NamedIndividual ;
+    untitled-ontology-3:formed 2002 ;
+    untitled-ontology-3:hasAlbum untitled-ontology-3:Immersion,
+        untitled-ontology-3:Watercolour ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Drum_and_bass .
+
+untitled-ontology-3:Prey a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Reverence .
+
+untitled-ontology-3:Progressive_Rock a untitled-ontology-3:Rock,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Rock_and_Roll a untitled-ontology-3:Rock,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Russia a untitled-ontology-3:Europe,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Slayer a untitled-ontology-3:Artist,
+        owl:NamedIndividual ;
+    untitled-ontology-3:formed 1981 ;
+    untitled-ontology-3:hasAlbum untitled-ontology-3:Reign_In_Blood ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Thrash_Metal .
+
+untitled-ontology-3:Sout_African_Republic a untitled-ontology-3:Africa,
+        owl:NamedIndividual .
+
+untitled-ontology-3:South_Korea a untitled-ontology-3:Asia,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Symphonic a untitled-ontology-3:Classical,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Take_This_Life a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Come_Clarity .
+
+untitled-ontology-3:Thailand a untitled-ontology-3:Asia,
+        owl:NamedIndividual .
+
+untitled-ontology-3:The_Defiant a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:What_The_Dead_Men_Say .
+
+untitled-ontology-3:The_Heart_From_Your_Hate a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:The_Sin_And_The_Sentence .
+
+untitled-ontology-3:The_Void a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Reverence .
+
+untitled-ontology-3:Thy_art_is_murder a untitled-ontology-3:Artist,
+        owl:NamedIndividual ;
+    rdfs:label "Thy Art Is Murder" ;
+    untitled-ontology-3:formed "2006"^^xsd:int ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Deathcore .
+
+untitled-ontology-3:Trance a untitled-ontology-3:Dance,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Trivium a untitled-ontology-3:Artist,
+        owl:NamedIndividual ;
+    untitled-ontology-3:formed 1999 ;
+    untitled-ontology-3:hasAlbum untitled-ontology-3:In_Waves,
+        untitled-ontology-3:The_Sin_And_The_Sentence,
+        untitled-ontology-3:What_The_Dead_Men_Say ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Metalcore .
+
+untitled-ontology-3:USA a untitled-ontology-3:North_America,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Uganda a untitled-ontology-3:Africa,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Ukraine a untitled-ontology-3:Europe,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Wishing_Wells a untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Reverence .
+
+untitled-ontology-3:date a owl:DatatypeProperty ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+untitled-ontology-3:formed a owl:DatatypeProperty .
+
+untitled-ontology-3:fromAlbum a owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-3:Track ;
+    rdfs:range untitled-ontology-3:Album ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+untitled-ontology-3:hasAlbum a owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-3:Artist ;
+    rdfs:range untitled-ontology-3:Album ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf untitled-ontology-3:wasProduced .
+
+untitled-ontology-3:hasGenreOf a owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-3:Artist ;
+    rdfs:range untitled-ontology-3:Genre ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+untitled-ontology-3:name a owl:DatatypeProperty ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+untitled-ontology-3:originallyFrom a owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-3:Artist ;
+    rdfs:range untitled-ontology-3:Origin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+untitled-ontology-3:performer a owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-3:Concert ;
+    rdfs:range untitled-ontology-3:Artist ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+untitled-ontology-3:place a owl:DatatypeProperty ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+untitled-ontology-3:year a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+untitled-ontology-3:Awake a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Progressive_Metal ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3Dream_Theater> .
+
+untitled-ontology-3:Holy_Hell a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:wasProduced untitled-ontology-3:Architects ;
+    untitled-ontology-3:year "2018"^^xsd:int .
+
+untitled-ontology-3:I_The_Mask a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Death_Metal ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3In_Flames> .
+
+untitled-ontology-3:Immersion a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Drum_and_bass ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3Pendulum> .
+
+untitled-ontology-3:In_Waves a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Metalcore ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3Trivium> .
+
+untitled-ontology-3:Lunar_Strain a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Death_Metal ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3In_Flames> .
+
+untitled-ontology-3:Metallica a untitled-ontology-3:Artist,
+        owl:NamedIndividual ;
+    rdfs:label "Metallica" ;
+    untitled-ontology-3:formed "1981"^^xsd:int ;
+    untitled-ontology-3:hasAlbum untitled-ontology-3:Ride_The_Lightning ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Thrash_Metal .
+
+untitled-ontology-3:Outsider a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:wasProduced untitled-ontology-3:Veil_of_maya .
+
+untitled-ontology-3:Reign_In_Blood a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Thrash_Metal ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3Slayer> .
+
+untitled-ontology-3:Ride_The_Lightning a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:wasProduced untitled-ontology-3:Metallica .
+
+untitled-ontology-3:The_Valley a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Deathcore ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3Whitechapel> .
+
+untitled-ontology-3:Train_of_Thought a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Progressive_Metal ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3Dream_Theater> .
+
+untitled-ontology-3:UK a untitled-ontology-3:Europe,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Veil_of_maya a untitled-ontology-3:Artist,
+        owl:NamedIndividual ;
+    rdfs:label "Veil Of Maya" ;
+    untitled-ontology-3:formed "2004"^^xsd:int ;
+    untitled-ontology-3:hasAlbum untitled-ontology-3:Outsider ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Progressive_Metal .
+
+untitled-ontology-3:Watercolour a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Drum_and_bass ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3Pendulum> .
+
+untitled-ontology-3:Whitechapel a untitled-ontology-3:Album,
+        untitled-ontology-3:Artist,
+        owl:NamedIndividual ;
+    untitled-ontology-3:formed 2006 ;
+    untitled-ontology-3:hasAlbum untitled-ontology-3:Mark_Of_The_Blade,
+        untitled-ontology-3:The_Valley,
+        untitled-ontology-3:Whitechapel ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Deathcore ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3Whitechapel> .
+
+untitled-ontology-3:wasProduced a owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-3:Album ;
+    rdfs:range untitled-ontology-3:Artist ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+untitled-ontology-3:Africa a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Origin .
+
+untitled-ontology-3:Australia a untitled-ontology-3:Australia,
+        owl:Class,
+        owl:NamedIndividual ;
+    rdfs:subClassOf untitled-ontology-3:Origin .
+
+untitled-ontology-3:North_America a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Origin .
+
+untitled-ontology-3:Architects a untitled-ontology-3:Artist,
+        owl:NamedIndividual ;
+    rdfs:label "Architects" ;
+    untitled-ontology-3:formed "2004"^^xsd:int ;
+    untitled-ontology-3:hasAlbum untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us,
+        untitled-ontology-3:Holy_Hell ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Progressive_Metal ;
+    untitled-ontology-3:originallyFrom untitled-ontology-3:UK .
+
+untitled-ontology-3:Concert a owl:Class .
+
+untitled-ontology-3:Drum_and_bass a untitled-ontology-3:Electronic,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Electronic a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Genre .
+
+untitled-ontology-3:Jazz a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Genre .
+
+untitled-ontology-3:Parkway_Drive a untitled-ontology-3:Artist,
+        owl:NamedIndividual ;
+    rdfs:label "Parkway Drive" ;
+    untitled-ontology-3:formed "2002"^^xsd:int ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Metalcore .
+
+untitled-ontology-3:Pop a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Genre .
+
+untitled-ontology-3:South_America a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Origin .
+
+untitled-ontology-3:Thrash_Metal a untitled-ontology-3:Rock,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Asia a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Origin .
+
+untitled-ontology-3:Blues a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Genre .
+
+untitled-ontology-3:Classical a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Genre .
+
+untitled-ontology-3:Come_Clarity a untitled-ontology-3:Album,
+        untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Come_Clarity ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Death_Metal ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3In_Flames> .
+
+untitled-ontology-3:Dance a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Genre .
+
+untitled-ontology-3:Death_Metal a untitled-ontology-3:Rock,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Deathcore a untitled-ontology-3:Rock,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Mark_Of_The_Blade a untitled-ontology-3:Album,
+        untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Mark_Of_The_Blade ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Deathcore ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3Whitechapel> .
+
+untitled-ontology-3:Reverence a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Metalcore ;
+    untitled-ontology-3:wasProduced untitled-ontology-3:Parkway_Drive ;
+    untitled-ontology-3:year 2018 .
+
+untitled-ontology-3:The_Sin_And_The_Sentence a untitled-ontology-3:Album,
+        untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:The_Sin_And_The_Sentence ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Metalcore ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3Trivium> .
+
+untitled-ontology-3:Europe a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Origin .
+
+untitled-ontology-3:Horizons a untitled-ontology-3:Album,
+        untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:Horizons ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Metalcore ;
+    untitled-ontology-3:wasProduced untitled-ontology-3:Parkway_Drive ;
+    untitled-ontology-3:year 2007 .
+
+untitled-ontology-3:Progressive_Metal a untitled-ontology-3:Rock,
+        owl:NamedIndividual .
+
+untitled-ontology-3:What_The_Dead_Men_Say a untitled-ontology-3:Album,
+        untitled-ontology-3:Track,
+        owl:NamedIndividual ;
+    untitled-ontology-3:fromAlbum untitled-ontology-3:What_The_Dead_Men_Say ;
+    untitled-ontology-3:hasGenreOf untitled-ontology-3:Metalcore ;
+    untitled-ontology-3:wasProduced <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3Trivium> .
+
+untitled-ontology-3:All_Our_Gods_Have_Abandoned_Us a untitled-ontology-3:Album,
+        owl:NamedIndividual ;
+    untitled-ontology-3:wasProduced untitled-ontology-3:Architects ;
+    untitled-ontology-3:year "2014"^^xsd:int .
+
+untitled-ontology-3:Rap a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Genre .
+
+untitled-ontology-3:Metalcore a untitled-ontology-3:Rock,
+        owl:NamedIndividual .
+
+untitled-ontology-3:Origin a owl:Class .
+
+untitled-ontology-3:Genre a owl:Class .
+
+untitled-ontology-3:Rock a owl:Class ;
+    rdfs:subClassOf untitled-ontology-3:Genre .
+
+untitled-ontology-3:Artist a owl:Class .
+
+untitled-ontology-3:Album a owl:Class .
+
+untitled-ontology-3:Track a owl:Class .
+
