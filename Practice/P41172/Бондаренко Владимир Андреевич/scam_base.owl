@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Checks_payments_at -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Checks_payments_at">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Half-legal_company"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Payment_website"/>
+        <rdfs:label xml:lang="en">Checks_payments_at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Contact_victim_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Contact_victim_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Call_center_agent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Call_center_number"/>
+        <rdfs:label xml:lang="en">Contact_victim_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Employee_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Employee_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Call_center_agent"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Manager"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Other_employee"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Half-legal_company"/>
+        <rdfs:label xml:lang="en">Employee_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Have_mail -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Have_mail">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#E-Mail"/>
+        <rdfs:label xml:lang="en">Have_mail</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Have_servers_at -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Have_servers_at">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Company"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#IP_adress"/>
+        <rdfs:label xml:lang="en">Have_servers_at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Located_at -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Located_at">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Company"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Location"/>
+        <rdfs:label xml:lang="en">Located_at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Located_at_server -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Located_at_server">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Call_center_number"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#VoIP_server"/>
+        <rdfs:label xml:lang="en">Located_at_server</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Ownes_comapny -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Ownes_comapny">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Director"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Non-scammer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Company"/>
+        <rdfs:label xml:lang="en">Ownes_company</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Owns_VoIP_phone_number -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Owns_VoIP_phone_number">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Half-legal_company"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Call_center_number"/>
+        <rdfs:label xml:lang="en">Owns_VoIP_phone_number</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Provide -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Provide">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Payment_provider"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Payment_website"/>
+        <rdfs:label xml:lang="en">Provide</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Provide_VoIP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Provide_VoIP">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#VoIP_provider"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#VoIP_server"/>
+        <rdfs:label xml:lang="en">Provide_VoIP</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Provides_technical_support -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Provides_technical_support">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Other_employee"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Scam_website"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#VoIP_server"/>
+        <rdfs:label xml:lang="en">Provides_technical_support</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Using_phone_number -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Using_phone_number">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Personal_number"/>
+        <rdfs:label xml:lang="en">Using_phone_number</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Buisness_e-mail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Buisness_e-mail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#E-Mail"/>
+        <rdfs:label>Buisness_e-mail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Call_center_agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Call_center_agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Scammer"/>
+        <rdfs:label>Call_center_agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Call_center_number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Call_center_number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Phone_number"/>
+        <rdfs:label>Call_center_number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Company">
+        <rdfs:label>Company</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Contact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Contact">
+        <rdfs:label>Contact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Scammer"/>
+        <rdfs:label>Director</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#E-Mail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#E-Mail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Contact"/>
+        <rdfs:label>E-Mail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Half-legal_company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Half-legal_company">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Company"/>
+        <rdfs:label>Half-legal_company</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#IP_adress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#IP_adress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Web_resourse"/>
+        <rdfs:label>IP_adress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Legal_company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Legal_company">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Company"/>
+        <rdfs:label>Legal_company</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Location">
+        <rdfs:label>Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Manager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Scammer"/>
+        <rdfs:label>Manager</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Non-scammer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Non-scammer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Person"/>
+        <rdfs:label>Non-scammer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Other_employee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Other_employee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Scammer"/>
+        <rdfs:label>Other_employee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Payment_provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Payment_provider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Legal_company"/>
+        <rdfs:label>Payment_provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Payment_website -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Payment_website">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Site"/>
+        <rdfs:label>Payment_website</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Person">
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Personal_e-mail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Personal_e-mail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#E-Mail"/>
+        <rdfs:label>Personal_e-mail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Personal_number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Personal_number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Phone_number"/>
+        <rdfs:label>Personal_number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Phone_number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Phone_number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Contact"/>
+        <rdfs:label>Phone_number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Popup_seller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Popup_seller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Call_center_agent"/>
+        <rdfs:label>Popup_seller</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Scam_website -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Scam_website">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Site"/>
+        <rdfs:label>Scam_website</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Scammer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Scammer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Person"/>
+        <rdfs:label>Scammer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Site -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Site">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Web_resourse"/>
+        <rdfs:label>Site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Technical_expert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Technical_expert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Call_center_agent"/>
+        <rdfs:label>Technical_expert</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#VoIP_provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#VoIP_provider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Legal_company"/>
+        <rdfs:label>VoIP_provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#VoIP_server -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#VoIP_server">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Web_resourse"/>
+        <rdfs:label>VoIP_server</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Web_resourse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cuckoosnest/ontologies/2020/5/untitled-ontology-3#Web_resourse">
+        <rdfs:label>Web_resourse</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

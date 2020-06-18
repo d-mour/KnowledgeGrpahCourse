@@ -1,0 +1,84 @@
+Service Help Inc.;a;Half-legal_company
+223.23.54.23;a;IP_adress
+Mumbai, India;a;Location
+Tech Support Pro;a;Half-legal_company
+143.120.64.96;a;IP_adress
+Delhi, India;a;Location
+Pal_pay;a;Payment_provider
+Webex Jabber;a;VoIP_provider
+James Matthews;a;Non-scammer
+Nathan Fox;a;Non-scammer
+Amrita Emran Pall;a;Popup_seller
+Heena Jain;a;Popup_seller
+Yadunandan Yadav;a;Technical_expert
+Charu Bath;a;Technical_expert
+Bahadur Bora;a;Director
+Chitra Shashank Mahadeo;a;Manager
+Vivek Lal Sarna;a;Other_employee
+New-York, USA;a;Location
+London, GB;a;Location
+palpay.com;a;Payment_website
+secureprotection.com;a;Scam_website
+asd2.ensk.com;a;VoIP_server
+geekgrl@optonline.net;a;Buisness_e-mail
+codex@live.com;a;Buisness_e-mail
+doche@verizon.net;a;Personal_e-mail
+agolomsh@icloud.com;a;Personal_e-mail
+dartlife@msn.com;a;Personal_e-mail
+ubergeeb@comcast.net;a;Personal_e-mail
+giafly@icloud.com;a;Personal_e-mail
+hauma@live.com;a;Personal_e-mail
+(259) 484-3167;a;Call_center_number
+(884) 321-2041;a;Call_center_number
+(447) 387-8187;a;Call_center_number
+(447) 387-8188;a;Call_center_number
+(454) 330-2168;a;Personal_number
+(385) 619-4120;a;Personal_number
+(652) 219-2795;a;Personal_number
+(727) 319-0968;a;Personal_number
+(852) 609-0301;a;Personal_number
+(578) 998-0746;a;Personal_number
+Service Help Inc.;Located_at;Mumbai, India
+Service Help Inc.;Have_servers_at;223.23.54.23
+Tech Support Pro;Located_at;Delhi, India
+Tech Support Pro;Have_servers_at;143.120.64.96
+Tech Support Pro;Checks_payments_at;palpay.com
+Service Help Inc.;Checks_payments_at;palpay.com
+Amrita Emran Pall;Contact_victim_by;(259) 484-3167
+Heena Jain;Contact_victim_by;(447) 387-8187
+Yadunandan Yadav;Contact_victim_by;(447) 387-8188
+Charu Bath;Contact_victim_by;(884) 321-2041
+Amrita Emran Pall;Employee_of;Tech Support Pro
+Heena Jain;Employee_of;Tech Support Pro
+Yadunandan Yadav;Employee_of;Tech Support Pro
+Charu Bath;Employee_of;Service Help Inc.
+Chitra Shashank Mahadeo;Employee_of;Service Help Inc.
+Vivek Lal Sarna;Employee_of;Service Help Inc.
+James Matthews;Have_mail;geekgrl@optonline.net
+Nathan Fox;Have_mail;codex@live.com
+Amrita Emran Pall;Have_mail;doche@verizon.net
+Heena Jain;Have_mail;agolomsh@icloud.com
+Charu Bath;Have_mail;dartlife@msn.com
+Bahadur Bora;Have_mail;ubergeeb@comcast.net
+Chitra Shashank Mahadeo;Have_mail;giafly@icloud.com
+Vivek Lal Sarna;Have_mail;hauma@live.com
+(259) 484-3167;Located_at_server;asd2.ensk.com
+(884) 321-2041;Located_at_server;asd2.ensk.com
+(447) 387-8188;Located_at_server;asd2.ensk.com
+Bahadur Bora;Ownes_company;Service Help Inc.
+Bahadur Bora;Ownes_company;Tech Support Pro
+James Matthews;Ownes_company;Pal_pay
+Nathan Fox;Ownes_company;Webex Jabber
+Service Help Inc.;Owns_VoIP_phone_number;(259) 484-3167
+Service Help Inc.;Owns_VoIP_phone_number;(884) 321-2041
+Tech Support Pro;Owns_VoIP_phone_number;(447) 387-8188
+Pal_pay;Provide;palpay.com
+Webex Jabber;Provide_VoIP;asd2.ensk.com
+Vivek Lal Sarna;Provides_technical_support;asd2.ensk.com
+Vivek Lal Sarna;Provides_technical_support;secureprotection.com
+James Matthews;Using_phone_number;(454) 330-2168
+Nathan Fox;Using_phone_number;(385) 619-4120
+Amrita Emran Pall;Using_phone_number;(652) 219-2795
+Heena Jain;Using_phone_number;(727) 319-0968
+Yadunandan Yadav;Using_phone_number;(852) 609-0301
+Charu Bath;Using_phone_number;(578) 998-0746
