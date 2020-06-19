@@ -9,7 +9,12 @@ def result(message, query_in):
     res = g.query(query_in)
     print("\n" + message)
     for row in res:
-        print(row[0].split('#')[1].replace("_", " "))
+        if (len(row) > 1):
+            band = row[0].split('#')[1].replace("_", " ")
+            genre = row[1].split('#')[1].replace("_", " ")
+            print("{} - {}".format(band, genre))
+        else:
+            print(row[0].split('#')[1].replace("_", " "))
 
 
 result('Bands formed after 2000:',
@@ -51,3 +56,24 @@ result("Deathcore tracks:",
                }
            }
        }""")
+
+result('Groups in similar genres to Progressive Rock',
+       """PREFIX : <http://www.semanticweb.org/alivanov/ontologies/2020/5/untitled-ontology-3#>
+        SELECT ?band ?genre
+        WHERE{
+            ?band a :Artist;
+            :hasGenreOf ?genre.
+            {
+                SELECT ?genre
+                    WHERE{
+                        ?genre a ?baseGen.
+                        {SELECT ?baseGen
+                            WHERE {
+                                :Progressive_Rock a ?baseGen.
+                                FILTER(?baseGen != owl:NamedIndividual)
+                            }
+                        }
+                FILTER(?genre != :Progressive_Rock)
+            }
+        }
+        }""")
