@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns="http://www.semanticweb.org/variables-ontology#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Platform.Pro.DB.Pass">
+    <hasLocation rdf:resource="http://www.semanticweb.org/variables-ontology#Production"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#SecureStringVariable"/>
+    <hasName>Platform.DB.Pass</hasName>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <hasValue>SomePass</hasValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#hasValue">
+    <rdfs:domain rdf:nodeID="N25a742afe9a24979a68408c327b3e3b4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#NXS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#ServiceType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Production">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#Zone"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N25a742afe9a24979a68408c327b3e3b4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/variables-ontology#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#hasServiceType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:nodeID="Nb545552b1c7e4bdc98148bea830f45b1"/>
+    <rdfs:range rdf:nodeID="N4ecb51d42bda495fb4d962780b625581"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd0b0ead4d241451daa8ec49f6e8525cb">
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/variables-ontology#hasLocation"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/variables-ontology#Zone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#ProductionUrl">
+    <hasLocation rdf:resource="http://www.semanticweb.org/variables-ontology#Production"/>
+    <hasServiceType rdf:resource="http://www.semanticweb.org/variables-ontology#NXS"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <hasValue>https://my-pro-domain.itmo.ru/</hasValue>
+    <hasName>FrontendUrl</hasName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#UriVariable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#BooleanVariable">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#Variable"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb545552b1c7e4bdc98148bea830f45b1">
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/variables-ontology#Variable"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/variables-ontology#hasLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd903792ac9f248eea840ac2655096a3d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/variables-ontology#Environment"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/variables-ontology#hasZone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#hasLocation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:nodeID="N8737f99d40d2414cacd66f8ca4961c48"/>
+    <rdfs:domain rdf:nodeID="N54c5a26467a840e0964840131b29c3d4"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#hasName">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:nodeID="N947c63b0f7024c19851aeb7dc4c98549"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#ObjectVariable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Platform.DB.Pass">
+    <hasServiceType rdf:resource="http://www.semanticweb.org/variables-ontology#PAS"/>
+    <hasName>Platform.DB.Pass</hasName>
+    <hasValue>DevPass</hasValue>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#SecureStringVariable"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Stage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#Zone"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4ecb51d42bda495fb4d962780b625581">
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/variables-ontology#ServiceType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/variables-ontology#hasLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#PAS.DB.Pass">
+    <rdf:type rdf:nodeID="Neb2ddd82a1ca4d8bbe4cefd6130f3127"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <hasValue>SomePass</hasValue>
+    <hasName>PAS.DB.Pass</hasName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neb2ddd82a1ca4d8bbe4cefd6130f3127">
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/variables-ontology#hasServiceType"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/variables-ontology#SecureStringVariable"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N54c5a26467a840e0964840131b29c3d4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/variables-ontology#hasLocation"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/variables-ontology#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Cloud">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#GCP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#Cloud"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#DataBase">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#ServiceType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#UriVariable">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#StringVariable"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#SecureStringVariable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#StringVariable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#AWS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#Cloud"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#DevPlatformEnv">
+    <hasZone rdf:resource="http://www.semanticweb.org/variables-ontology#Development"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#Environment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Zone">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#ProductionEnv">
+    <hasZone rdf:resource="http://www.semanticweb.org/variables-ontology#Production"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#Environment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#StageEnv">
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#Environment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#DataCenter">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#Region"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Europe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#Region"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Platform.DB.User">
+    <hasLocation rdf:resource="http://www.semanticweb.org/variables-ontology#Development"/>
+    <hasName>Platform.DB.User</hasName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#StringVariable"/>
+    <hasValue>DevUser</hasValue>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8737f99d40d2414cacd66f8ca4961c48">
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/variables-ontology#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/variables-ontology#hasLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#FileVariable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#hasZone">
+    <rdfs:domain rdf:nodeID="Nd903792ac9f248eea840ac2655096a3d"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:nodeID="Nd0b0ead4d241451daa8ec49f6e8525cb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Environment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#US_West">
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#Region"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Platform.URL-21c5ca24-99a5-11ea-8254-7c7a917790dd">
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#UriVariable"/>
+    <hasValue>https://platform-itmo.ru/</hasValue>
+    <hasLocation rdf:resource="http://www.semanticweb.org/variables-ontology#Production"/>
+    <hasName>Platform.URL</hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#On-Premice_Cloud">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#Cloud"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Platform.URL-f428fd33-99a4-11ea-a06e-7c7a917790dd">
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#UriVariable"/>
+    <hasValue>http://platform-dev-itmo.ru/</hasValue>
+    <hasName>Platform.URL</hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#ServiceType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N947c63b0f7024c19851aeb7dc4c98549">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/variables-ontology#Variable"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/variables-ontology#hasLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Variable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#PAS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#ServiceType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Development">
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#Zone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#SecureFileVariable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#FileVariable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#US_East">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/variables-ontology#Region"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Partinion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#Environment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Region">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#Location"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#StringVariable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/variables-ontology#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/variables-ontology#Location">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
