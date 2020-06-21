@@ -1,0 +1,1091 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#"
+     xml:base="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology">
+        <rdfs:comment>Ontology of computer hardware</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPartsProperties"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#AMDCPU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#AMDCPU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPUSocket"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelMotherboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#AMDCooler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#AMDCooler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPUType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelMotherboard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#AMDMotherboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#AMDMotherboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardSocket"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelCPU"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelCooler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ATX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ATX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CaseSize"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITXMotherboard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITXPS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ATXMotherboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ATXMotherboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardSize"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ATXPS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ATXPS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PSSize"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPUProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPUProperties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPartsProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPUSocket -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPUSocket">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPUProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPUType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPUType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CoolerProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Case -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Case">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CaseProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CaseProperties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPartsProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CaseSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CaseSize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CaseProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Computer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Computer">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Cooler"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#RAM"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPU"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCard"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PowerSupply"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Case"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemoryDevice"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Fan"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Motherboard"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPartsProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPartsProperties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Cooler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Cooler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CoolerProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CoolerProperties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPartsProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#DDR3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#DDR3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#RAMType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#DDR4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#DDR4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#DDR4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#RAMType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Fan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Fan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Gaming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Gaming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GamingGraphicCard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GamingGraphicCard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCardProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCardProperties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPartsProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCardProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#HDDMem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#HDDMem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemDevType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#HDDSATA3Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#HDDSATA3Device">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemoryDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#HDDMem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SATA3Mem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CaseSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITXMotherboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITXMotherboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITXPS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITXPS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PSSize"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelCPU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelCPU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPUSocket"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelCooler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelCooler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPUType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelMotherboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelMotherboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardSocket"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemDevInterface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemDevInterface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemorydeviceProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemDevType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemDevType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemorydeviceProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemoryDevice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemoryDevice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemorydeviceProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemorydeviceProperties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPartsProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Motherboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Motherboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardDDR3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardDDR3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardInterfaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardDDR4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardDDR4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardInterfaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardInterfaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardInterfaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardPCIE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardPCIE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardInterfaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardProperties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPartsProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardSATA3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardSATA3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardInterfaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardSize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardSocket -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardSocket">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Office -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Office">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PCIEMem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PCIEMem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemDevInterface"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SATA3Mem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PSProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PSProperties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPartsProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PSSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PSSize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PSProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PowerSupply -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PowerSupply">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#RAM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#RAM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#RAMProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#RAMProperties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ComputerPartsProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#RAMType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#RAMType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#RAMProperties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SATA3Mem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SATA3Mem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemDevInterface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SSDMem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SSDMem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemDevType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SSDPCIEDevice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SSDPCIEDevice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemoryDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PCIEMem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SSDMem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SSDSATA3Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SSDSATA3Device">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MemoryDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SSDMem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SATA3Mem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SomeIntelCPU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SomeIntelCPU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPU"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#amd_atx_pcie_ddr3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#amd_atx_pcie_ddr3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Motherboard"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardDDR3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardPCIE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ATXMotherboard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#AMDMotherboard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#amd_atx_pcie_ddr4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#amd_atx_pcie_ddr4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Motherboard"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardDDR4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#AMDMotherboard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardPCIE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ATXMotherboard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#gamingGraphicCard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#gamingGraphicCard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCard"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Gaming"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#intel_itx_sata3_ddr4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#intel_itx_sata3_ddr4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Motherboard"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardPCIE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#MotherboardDDR4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelMotherboard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITXMotherboard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#officeGraphicCard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#officeGraphicCard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#GraphicCard"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Office"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someAMDCPU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someAMDCPU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPU"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#AMDCPU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someAMDCooler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someAMDCooler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Cooler"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#AMDCooler"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someATXCase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someATXCase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Case"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ATX"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someATXPS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someATXPS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PowerSupply"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ATXPS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someDDR3RAM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someDDR3RAM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#RAM"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#DDR3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someDDR4RAM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someDDR4RAM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#RAM"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#DDR4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someFan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someFan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Fan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someGamingComputer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someGamingComputer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Computer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someIntelCPU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someIntelCooler"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someITXPS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someFan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someITXCase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#intel_itx_sata3_ddr4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#officeGraphicCard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SSDSATA3Device"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someDDR4RAM"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someITXCase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someITXCase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Case"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITX"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someITXPS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someITXPS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#PowerSupply"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#ITXPS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someIntelCPU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someIntelCPU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#CPU"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelCPU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someIntelCooler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someIntelCooler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Cooler"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#IntelCooler"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someOfficeComputer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someOfficeComputer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#Computer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someATXPS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someAMDCPU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#amd_atx_pcie_ddr4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#SSDPCIEDevice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someAMDCooler"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someATXCase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someFan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someDDR4RAM"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#officeGraphicCard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#computer1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#computer1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someGamingComputer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#computer2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#computer2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someGamingComputer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#computer3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#computer3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someOfficeComputer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#computer4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#computer4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ff220v/ontologies/my_first_ontology#someOfficeComputer"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
