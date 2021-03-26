@@ -6,7 +6,7 @@ isodate==0.6.0
 joblib==0.14.1
 nltk==3.5
 pyparsing==2.4.7
-PyYAML==5.3.1
+PyYAML==5.4
 rdflib==5.0.0
 regex==2020.4.4
 requests==2.23.0
