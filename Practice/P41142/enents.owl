@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yulia/ontologies/2021/3/events#"
+     xml:base="http://www.semanticweb.org/yulia/ontologies/2021/3/events"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Begins_at -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Begins_at">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Date"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Ends_at -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Ends_at">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Date"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Happens_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Happens_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Has_genre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Has_genre">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Is_enjoed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Is_enjoed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Is_not_enjoed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Is_not_enjoed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Located_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Located_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Date"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Art -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Art">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Museum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Cinema -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Cinema">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#City"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Drama -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Drama">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Exposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Exposition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Genre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#History -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#History">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Museum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Movie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Movie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Museum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Museum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Organization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Show -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Show">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Spectacle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Spectacle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Theater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Theater">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Art&amp;Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Art&amp;Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Show"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Action"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Comedy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Comedy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Drama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Drama"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Hermitage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Hermitage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Art"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Melodrama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Melodrama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Drama"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Raduga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Raduga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Cinema"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yulia/ontologies/2021/3/events#Thriller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Thriller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yulia/ontologies/2021/3/events#Action"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
