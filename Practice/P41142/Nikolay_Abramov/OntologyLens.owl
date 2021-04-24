@@ -129,6 +129,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#AdditionalTool">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#Enviroment"/>
+        <rdfs:comment>Дополнительное оборудование</rdfs:comment>
     </owl:Class>
     
 
@@ -244,6 +245,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#TypeOfPhoto"/>
+        <rdfs:comment>Ландшафтная съёмка</rdfs:comment>
     </owl:Class>
     
 
@@ -293,6 +295,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#TypeOfPhoto"/>
+        <rdfs:comment>Объектная съёмка</rdfs:comment>
     </owl:Class>
     
 
@@ -325,6 +328,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#Place">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#Enviroment"/>
+        <rdfs:comment>Окружение</rdfs:comment>
     </owl:Class>
     
 
@@ -364,6 +368,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#TypeOfPhoto"/>
+        <rdfs:comment>Портретная съёмка</rdfs:comment>
     </owl:Class>
     
 
@@ -406,6 +411,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#TypeOfPhoto"/>
+        <rdfs:comment>Репортажная съёмка</rdfs:comment>
     </owl:Class>
     
 
@@ -447,6 +453,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#TypeOfPhoto"/>
+        <rdfs:comment>Студийная съёмка</rdfs:comment>
     </owl:Class>
     
 
@@ -463,19 +470,24 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#Target">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#Enviroment"/>
+        <rdfs:comment>Объект съёмки</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#TypeLens -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#TypeLens"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#TypeLens">
+        <rdfs:comment>Тип объектива</rdfs:comment>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#TypeOfPhoto -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#TypeOfPhoto"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-132#TypeOfPhoto">
+        <rdfs:comment>Виды классификаций фотографии в зависимости от объектива</rdfs:comment>
+    </owl:Class>
     
 
 
