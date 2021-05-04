@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.musicbands.com/ontologies/MusicBands.owl#"
+     xml:base="http://www.musicbands.com/ontologies/MusicBands.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#bornIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#bornIn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician"/>
+        <rdfs:range rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#careerOver -->
+
+    <owl:ObjectProperty rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#careerOver">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician"/>
+        <rdfs:range rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Year"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#careerStarted -->
+
+    <owl:ObjectProperty rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#careerStarted">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicBand"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician"/>
+        <rdfs:range rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Year"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#diedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#diedIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician"/>
+        <rdfs:range rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Year"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#foundedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#foundedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicBand"/>
+        <rdfs:range rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved -->
+
+    <owl:ObjectProperty rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicBand"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician"/>
+        <rdfs:range rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Award"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicBand"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicalGenre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#hasMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#hasMember">
+        <owl:inverseOf rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#playedIn"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicBand"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#playedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#playedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicBand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicBand"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician"/>
+        <rdfs:range rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#wasBorn -->
+
+    <owl:ObjectProperty rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#wasBorn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician"/>
+        <rdfs:range rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Year"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#Award -->
+
+    <owl:Class rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Award"/>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#Classic -->
+
+    <owl:Class rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Classic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicalGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#Country -->
+
+    <owl:Class rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Country"/>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#Electric -->
+
+    <owl:Class rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Electric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicalGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#Language -->
+
+    <owl:Class rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Language"/>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#Pop -->
+
+    <owl:Class rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Pop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicalGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#Rap -->
+
+    <owl:Class rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Rap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicalGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#Rock -->
+
+    <owl:Class rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Rock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicalGenre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.musicbands.com/ontologies/MusicBands.owl#Year -->
+
+    <owl:Class rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicBand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicBand">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#careerStarted"/>
+                <owl:someValuesFrom rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Year"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#foundedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#hasMember"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Language"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicalGenre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicalGenre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#bornIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#playedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicBand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Language"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#wasBorn"/>
+                <owl:someValuesFrom rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Year"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Award"/>
+            <rdf:Description rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Country"/>
+            <rdf:Description rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Language"/>
+            <rdf:Description rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Year"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicBand"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#MusicalGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/artur/ontologies/2021/4/untitled-ontology-6#Musician"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Classic"/>
+            <rdf:Description rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Electric"/>
+            <rdf:Description rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Pop"/>
+            <rdf:Description rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Rap"/>
+            <rdf:Description rdf:about="http://www.musicbands.com/ontologies/MusicBands.owl#Rock"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
