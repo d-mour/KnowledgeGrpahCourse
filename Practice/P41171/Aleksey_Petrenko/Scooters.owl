@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#availableAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#availableAt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Availability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#for">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Target_audience"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasBrand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasBrand">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Brand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasConstruction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasConstruction">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Configuration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasEngine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasEngine">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Configuration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasRate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasRate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Rating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasWheels -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasWheels">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Configuration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#isAvaliable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#isAvaliable">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Availability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#isRental -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#isRental">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Rental"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#useIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#useIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Place_of_usage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasAvailability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasAvailability">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Availability"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasMaxDIstance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasMaxDIstance">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasMaxSpeed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasMaxSpeed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Brand"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Place"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasPower -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasPower">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasWeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasYearOfProduction -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#hasYearOfProduction">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Adult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Adult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Target_audience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Availability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Availability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Brand"/>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Children -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Children">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Target_audience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#City">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Place_of_usage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Configuration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Configuration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Construction_configuration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Construction_configuration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Configuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Countryside -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Countryside">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Place_of_usage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Double -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Double">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Engine_configuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Engine_configuration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Engine_configuration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Configuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Folding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Folding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Construction_configuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#High -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#High">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Rating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Low -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Low">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Rating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Rating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#None -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#None">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Rating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Place"/>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Place_of_usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Place_of_usage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Rating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Rating"/>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Rental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Rental"/>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Scooter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Single -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Single">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Engine_configuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Target_audience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Target_audience"/>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Three_wheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Three_wheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Wheel_configuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Two_wheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Two_wheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Wheel_configuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Wheel_configuration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Wheel_configuration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Configuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#With_seat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#With_seat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/barebear/ontologies/2021/4/untitled-ontology-7#Construction_configuration"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
