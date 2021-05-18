@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/Scooters#"
+     xml:base="http://www.semanticweb.org/Scooters"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Scooters"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#availableAtPlace -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Scooters#availableAtPlace">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Availability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Scooters#Place"/>
+        <rdfs:label>availableAtPlace</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Scooters#for">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Scooters#Target_audience"/>
+        <rdfs:label>for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#hasBrand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Scooters#hasBrand">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Scooters#Brand"/>
+        <rdfs:label>hasBrand</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#hasConstruction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Scooters#hasConstruction">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Scooters#Configuration"/>
+        <rdfs:label>hasConstruction</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#hasEngine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Scooters#hasEngine">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Scooters#Configuration"/>
+        <rdfs:label>hasEngine</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#hasRate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Scooters#hasRate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Scooters#Raiting"/>
+        <rdfs:label>hasRate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#hasWheels -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Scooters#hasWheels">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Scooters#Configuration"/>
+        <rdfs:label>hasWheels</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#isAvailable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Scooters#isAvailable">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Scooters#Availability"/>
+        <rdfs:label>isAvailable</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#isRental -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Scooters#isRental">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Scooters#Rental"/>
+        <rdfs:label>isRental</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#useIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Scooters#useIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Scooters#Place_of_usage"/>
+        <rdfs:label>useIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#hasAvailability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Scooters#hasAvailability">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Availability"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>hasAvailability</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#hasMaxDistance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Scooters#hasMaxDistance">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>hasMaxDistance</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#hasMaxSpeed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Scooters#hasMaxSpeed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>hasMaxSpeed</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Scooters#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Brand"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Place"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>hasName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#hasPower -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Scooters#hasPower">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>hasPower</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#hasWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Scooters#hasWeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Scooters#Scooter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>hasWeight</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Adult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Adult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Target_audience"/>
+        <rdfs:label>Adult</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Availability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Availability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Brand"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Children -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Children">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Target_audience"/>
+        <rdfs:label>Children</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#City">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Place_of_usage"/>
+        <rdfs:label>City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Configuration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Configuration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Construction_configuration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Construction_configuration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Configuration"/>
+        <rdfs:label>Construction_configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Countryside -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Countryside">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Place_of_usage"/>
+        <rdfs:label>Countryside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Double -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Double">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Engine_configuration"/>
+        <rdfs:label>Double</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Engine_configuration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Engine_configuration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Configuration"/>
+        <rdfs:label>Engine_configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Folding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Folding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Construction_configuration"/>
+        <rdfs:label>Folding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#High -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#High">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Raiting"/>
+        <rdfs:label>High</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Low -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Low">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Raiting"/>
+        <rdfs:label>Low</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Raiting"/>
+        <rdfs:label>Medium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#None -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#None">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Raiting"/>
+        <rdfs:label>None</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Place"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Place_of_usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Place_of_usage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Raiting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Raiting"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Rental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Rental"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Scooter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Scooter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Single -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Single">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Engine_configuration"/>
+        <rdfs:label>Single</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Target_audience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Target_audience"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Three_wheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Three_wheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Wheel_configuration"/>
+        <rdfs:label>Three_wheel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Two_wheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Two_wheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Wheel_configuration"/>
+        <rdfs:label>Two_wheel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#Wheel_configuration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#Wheel_configuration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Configuration"/>
+        <rdfs:label>Wheel_configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Scooters#With_seat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Scooters#With_seat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Scooters#Construction_configuration"/>
+        <rdfs:label>With_seat</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
