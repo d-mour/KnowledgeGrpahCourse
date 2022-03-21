@@ -1,0 +1,141 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#>
+SELECT ?subject ?object
+WHERE { 
+?subject rdfs:subClassOf ?object 
+}
+
+--------- PLANT BY HEIGHT --------------------
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#>
+SELECT ?plant ?heightMin ?heightMax ?heightMeasure
+WHERE { 
+?plant	a	:Plant.
+?height	:heght_of_plant	?plant;
+	:heightDescription	"среднее"@ru;
+	:maxHeight	?heightMax;
+	:minHeight	?heightMin;
+	:heightMeasurement	?heightMeasure.
+}
+
+---------PLANT HEIGHT 2 -------------------
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#>
+SELECT ?plant ?heightMin ?heightMax ?heightMeasure
+WHERE { 
+?plant	a	:Plant.
+?height	:heght_of_plant	?plant;
+	:maxHeight	?heightMax;
+	:minHeight	?heightMin;
+	:heightMeasurement	?heightMeasure.
+FILTER (?heightMeasure = "см"@ru && ?heightMax<50)
+}
+
+--------- FLOWER FOR TEMPERATURE ------------------
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#>
+SELECT ?name ?minT ?maxT ?color ?period
+WHERE { 
+?climate	a	:Climate;
+	:minTemperature	?minT.
+FILTER (?minT<=10)
+?climate	:maxTemperature	?maxT.
+FILTER (?maxT>=15)
+
+?plant	:preferClimate	?climate;
+	:name ?name.
+
+?flower	:partOf	?plant;
+	:floweringPeriod	?period;
+	:flowerColor	?color
+}
+
+--------- MIN AND MAX TEMPERATURE FOR SUMMER PLANTS ------------------------
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#>
+SELECT ?season (MIN(?minT) AS ?min) (MAX(?maxT) AS ?max)
+WHERE { 
+?season 	rdfs:comment 		"Summer"@en.
+?flower 	:floweringPeriod 	?season;
+	:partOf ?plant.
+?plant 	:name 	?name;
+	:preferClimate	?climate.
+?climate	:minTemperature	?minT;
+	:maxTemperature	?maxT.
+}
+GROUP BY ?season
+
+--------- CLIMATE FOR PLANTS WITH SIMILAR FLOWERING SEASON --------------------------
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#>
+SELECT ?name ?minT ?maxT ?season
+WHERE { 
+?plantStart	a 	:Plant;
+	:name	"Acacia"@en.
+
+?flowerStart 	:partOf 	?plantStart;
+	:floweringPeriod 	?season.
+
+?flower	:floweringPeriod	?season;
+	:partOf	?plant.
+
+?plant 	:preferClimate	?climate;
+	:name	?name.
+
+?climate	:minTemperature	?minT;
+	:maxTemperature	?maxT.
+
+}
+
+---------- FLOWER COLOR FOR PLANTS WITH HEIGHT LESS THAN THAT CAN GROWS AT TEMPERATURE -------------------------------
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#>
+SELECT ?name ?color
+WHERE { 
+
+?climate 	a	:Climate;
+	:minTemperature	?minT;
+	:maxTemperature	?maxT.
+FILTER (?minT<=15 && ?maxT>=15)
+
+?plant	:preferClimate	?climate;
+	:name	?name.
+
+?height	a	:Height;
+	:heght_of_plant	?plant;
+	:maxHeight	?maxH;
+	:heightMeasurement	"см"@ru;
+	:heightDescription	?heightText.
+FILTER (?maxH<30)
+
+?flower	:partOf	?plant;
+	:flowerColor	?color.
+
+}
