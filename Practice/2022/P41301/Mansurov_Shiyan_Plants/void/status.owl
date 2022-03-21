@@ -1,0 +1,362 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/Dataset> a void:Dataset ;
+    void:classPartition <http://example.org/Dataset_class0>,
+        <http://example.org/Dataset_class1>,
+        <http://example.org/Dataset_class10>,
+        <http://example.org/Dataset_class11>,
+        <http://example.org/Dataset_class2>,
+        <http://example.org/Dataset_class3>,
+        <http://example.org/Dataset_class4>,
+        <http://example.org/Dataset_class5>,
+        <http://example.org/Dataset_class6>,
+        <http://example.org/Dataset_class7>,
+        <http://example.org/Dataset_class8>,
+        <http://example.org/Dataset_class9> ;
+    void:classes 12 ;
+    void:distinctObjects 2799 ;
+    void:distinctSubjects 2660 ;
+    void:properties 23 ;
+    void:propertyPartition <http://example.org/Dataset_property0>,
+        <http://example.org/Dataset_property1>,
+        <http://example.org/Dataset_property10>,
+        <http://example.org/Dataset_property11>,
+        <http://example.org/Dataset_property12>,
+        <http://example.org/Dataset_property13>,
+        <http://example.org/Dataset_property14>,
+        <http://example.org/Dataset_property15>,
+        <http://example.org/Dataset_property16>,
+        <http://example.org/Dataset_property17>,
+        <http://example.org/Dataset_property18>,
+        <http://example.org/Dataset_property19>,
+        <http://example.org/Dataset_property2>,
+        <http://example.org/Dataset_property20>,
+        <http://example.org/Dataset_property21>,
+        <http://example.org/Dataset_property22>,
+        <http://example.org/Dataset_property3>,
+        <http://example.org/Dataset_property4>,
+        <http://example.org/Dataset_property5>,
+        <http://example.org/Dataset_property6>,
+        <http://example.org/Dataset_property7>,
+        <http://example.org/Dataset_property8>,
+        <http://example.org/Dataset_property9> ;
+    void:triples 14513 .
+
+<http://example.org/Dataset_class0> a void:Dataset ;
+    void:class owl:Ontology ;
+    void:classes 1 ;
+    void:distinctObjects 1 ;
+    void:distinctSubjects 1 ;
+    void:entities 1 ;
+    void:properties 1 ;
+    void:triples 1 .
+
+<http://example.org/Dataset_class1> a void:Dataset ;
+    void:class owl:ObjectProperty ;
+    void:classes 1 ;
+    void:distinctObjects 22 ;
+    void:distinctSubjects 18 ;
+    void:entities 18 ;
+    void:properties 6 ;
+    void:triples 76 .
+
+<http://example.org/Dataset_class10> a void:Dataset ;
+    void:class <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#FlowerPlant> ;
+    void:classes 1 ;
+    void:distinctObjects 596 ;
+    void:distinctSubjects 486 ;
+    void:entities 486 ;
+    void:properties 4 ;
+    void:triples 2428 .
+
+<http://example.org/Dataset_class11> a void:Dataset ;
+    void:class <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Болезнь> ;
+    void:classes 1 ;
+    void:distinctObjects 2 ;
+    void:distinctSubjects 1 ;
+    void:entities 1 ;
+    void:properties 1 ;
+    void:triples 2 .
+
+<http://example.org/Dataset_class2> a void:Dataset ;
+    void:class owl:DatatypeProperty ;
+    void:classes 1 ;
+    void:distinctObjects 29 ;
+    void:distinctSubjects 33 ;
+    void:entities 33 ;
+    void:properties 6 ;
+    void:triples 113 .
+
+<http://example.org/Dataset_class3> a void:Dataset ;
+    void:class owl:Class ;
+    void:classes 1 ;
+    void:distinctObjects 35 ;
+    void:distinctSubjects 15 ;
+    void:entities 15 ;
+    void:properties 4 ;
+    void:triples 53 .
+
+<http://example.org/Dataset_class4> a void:Dataset ;
+    void:class <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Season> ;
+    void:classes 1 ;
+    void:distinctObjects 2 ;
+    void:distinctSubjects 4 ;
+    void:entities 4 ;
+    void:properties 1 ;
+    void:triples 8 .
+
+<http://example.org/Dataset_class5> a void:Dataset ;
+    void:class owl:NamedIndividual ;
+    void:classes 1 ;
+    void:distinctObjects 2740 ;
+    void:distinctSubjects 2604 ;
+    void:entities 2604 ;
+    void:properties 19 ;
+    void:triples 14320 .
+
+<http://example.org/Dataset_class6> a void:Dataset ;
+    void:class <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Height> ;
+    void:classes 1 ;
+    void:distinctObjects 755 ;
+    void:distinctSubjects 1097 ;
+    void:entities 1097 ;
+    void:properties 8 ;
+    void:triples 7328 .
+
+<http://example.org/Dataset_class7> a void:Dataset ;
+    void:class <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Plant> ;
+    void:classes 1 ;
+    void:distinctObjects 1823 ;
+    void:distinctSubjects 756 ;
+    void:entities 756 ;
+    void:properties 5 ;
+    void:triples 3339 .
+
+<http://example.org/Dataset_class8> a void:Dataset ;
+    void:class <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#FruitPlant> ;
+    void:classes 1 ;
+    void:distinctObjects 3 ;
+    void:distinctSubjects 1 ;
+    void:entities 1 ;
+    void:properties 2 ;
+    void:triples 3 .
+
+<http://example.org/Dataset_class9> a void:Dataset ;
+    void:class <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Climate> ;
+    void:classes 1 ;
+    void:distinctObjects 45 ;
+    void:distinctSubjects 258 ;
+    void:entities 258 ;
+    void:properties 5 ;
+    void:triples 1209 .
+
+<http://example.org/Dataset_property0> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 104 ;
+    void:distinctSubjects 228 ;
+    void:entities 228 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#flowerColor> ;
+    void:triples 230 .
+
+<http://example.org/Dataset_property1> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 6 ;
+    void:distinctSubjects 258 ;
+    void:entities 258 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#light> ;
+    void:triples 261 .
+
+<http://example.org/Dataset_property10> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 7 ;
+    void:distinctSubjects 827 ;
+    void:entities 827 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#maxHeight> ;
+    void:triples 885 .
+
+<http://example.org/Dataset_property11> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 17 ;
+    void:distinctSubjects 1094 ;
+    void:entities 1094 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#heightDescription> ;
+    void:triples 1162 .
+
+<http://example.org/Dataset_property12> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 258 ;
+    void:distinctSubjects 258 ;
+    void:entities 258 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#preferClimate> ;
+    void:triples 258 .
+
+<http://example.org/Dataset_property13> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 24 ;
+    void:distinctSubjects 175 ;
+    void:entities 175 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#maxTemperature> ;
+    void:triples 177 .
+
+<http://example.org/Dataset_property14> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 721 ;
+    void:distinctSubjects 1094 ;
+    void:entities 1094 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#heght_of_plant> ;
+    void:triples 1094 .
+
+<http://example.org/Dataset_property15> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 12 ;
+    void:distinctSubjects 30 ;
+    void:entities 29 ;
+    void:properties 1 ;
+    void:property rdfs:subPropertyOf ;
+    void:triples 30 .
+
+<http://example.org/Dataset_property16> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 4 ;
+    void:distinctSubjects 487 ;
+    void:entities 487 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#floweringPeriod> ;
+    void:triples 741 .
+
+<http://example.org/Dataset_property17> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 10 ;
+    void:distinctSubjects 18 ;
+    void:entities 18 ;
+    void:properties 1 ;
+    void:property rdfs:range ;
+    void:triples 18 .
+
+<http://example.org/Dataset_property18> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 487 ;
+    void:distinctSubjects 488 ;
+    void:entities 488 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#partOf> ;
+    void:triples 488 .
+
+<http://example.org/Dataset_property19> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 1 ;
+    void:distinctSubjects 1 ;
+    void:entities 1 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#isSick> ;
+    void:triples 1 .
+
+<http://example.org/Dataset_property2> a void:Dataset ;
+    void:classes 1 ;
+    void:distinctObjects 1 ;
+    void:distinctSubjects 5 ;
+    void:entities 5 ;
+    void:properties 1 ;
+    void:property rdfs:subClassOf ;
+    void:triples 5 .
+
+<http://example.org/Dataset_property20> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 4 ;
+    void:distinctSubjects 989 ;
+    void:entities 989 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#heightMeasurement> ;
+    void:triples 1007 .
+
+<http://example.org/Dataset_property21> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 9 ;
+    void:distinctSubjects 35 ;
+    void:entities 35 ;
+    void:properties 1 ;
+    void:property rdfs:domain ;
+    void:triples 37 .
+
+<http://example.org/Dataset_property22> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 6 ;
+    void:distinctSubjects 897 ;
+    void:entities 897 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#minHeight> ;
+    void:triples 984 .
+
+<http://example.org/Dataset_property3> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 807 ;
+    void:distinctSubjects 755 ;
+    void:entities 755 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#nameRu> ;
+    void:triples 813 .
+
+<http://example.org/Dataset_property4> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 755 ;
+    void:distinctSubjects 755 ;
+    void:entities 755 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#name> ;
+    void:triples 755 .
+
+<http://example.org/Dataset_property5> a void:Dataset ;
+    void:classes 5 ;
+    void:distinctObjects 33 ;
+    void:distinctSubjects 18 ;
+    void:entities 18 ;
+    void:properties 1 ;
+    void:property rdfs:label ;
+    void:triples 33 .
+
+<http://example.org/Dataset_property6> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 24 ;
+    void:distinctSubjects 49 ;
+    void:entities 49 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#singularTemperature> ;
+    void:triples 50 .
+
+<http://example.org/Dataset_property7> a void:Dataset ;
+    void:classes 12 ;
+    void:distinctObjects 12 ;
+    void:distinctSubjects 2659 ;
+    void:entities 2659 ;
+    void:properties 1 ;
+    void:property rdf:type ;
+    void:triples 5274 .
+
+<http://example.org/Dataset_property8> a void:Dataset ;
+    void:classes 5 ;
+    void:distinctObjects 5 ;
+    void:distinctSubjects 5 ;
+    void:entities 5 ;
+    void:properties 1 ;
+    void:property rdfs:comment ;
+    void:triples 5 .
+
+<http://example.org/Dataset_property9> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 24 ;
+    void:distinctSubjects 203 ;
+    void:entities 203 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#minTemperature> ;
+    void:triples 205 .
+
