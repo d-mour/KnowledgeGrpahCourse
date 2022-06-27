@@ -1,0 +1,21 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+PREFIX on: <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl#>
+PREFIX pr: <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#>
+PREFIX rv: <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/review#>
+
+# Средний рейтинг игр по годам
+
+SELECT ?Year (COUNT(?Rating) AS ?Cout) (AVG(?Rating) AS ?Average)
+WHERE {
+    ?Game a on:Game ;
+          pr:has_review ?Review .
+    
+    ?Review a on:Review ;
+            rv:rating ?Rating ;
+            rv:date ?Date .
+    
+    BIND(YEAR(?Date) AS ?Year)
+}
+GROUP BY (?Year)
+ORDER BY DESC(?Year)
