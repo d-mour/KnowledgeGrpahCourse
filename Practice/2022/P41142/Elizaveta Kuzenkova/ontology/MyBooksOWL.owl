@@ -1,0 +1,916 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/neeraj/ontologies/2020/10/books-ontology#"
+     xml:base="http://www.semanticweb.org/neeraj/ontologies/2020/10/books-ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:books="http://www.semanticweb.org/books#"
+     xmlns:ontobooks="http://www.semanticweb.org/e1izabeth/ontobooks#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks">
+        <rdfs:comment>A book Ontology that describes various books and their relations</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#hasAuthoredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#hasAuthoredBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#hasGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#hasGenre">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#isBasedOnBook -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#isBasedOnBook">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#origin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#origin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#hasNoOfPages -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#hasNoOfPages">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Number of pages in the book</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#hasPublishedYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#hasPublishedYear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The year the book was published</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#hasRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#hasRating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#hasTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#hasTitle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Film"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Author -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#BigSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#BigSize">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#hasNoOfPages"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>A big book is the one that has more than 400 pages</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Books -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Classics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Classics">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#hasPublishedYear"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</xsd:maxInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>Classics are the books which were published before 1990</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Film -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Film"/>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Genre">
+        <rdfs:comment>Change Equivalent class as you update the individuals</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Latest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Latest">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#hasPublishedYear"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>Latest books are published after 2015</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#SmallSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#SmallSize">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#hasNoOfPages"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</xsd:maxInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>A book is small if it has less than 200 pages</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Top_Book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Top_Book">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#hasRating"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:minQualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Adventure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Adventure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Agatha_Christie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Agatha_Christie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:label>Agatha Christie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Alan_Watts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Alan_Watts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:label>Alan Watts</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Alices_Adventures_in_Wonderland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Alices_Adventures_in_Wonderland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Lewis_Carroll"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Fantasy"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Fiction"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">163</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1865</ontobooks:hasPublishedYear>
+        <rdfs:label>Alice&apos;s Adventures in Wonderland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#And_Then_There_Were_None -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#And_Then_There_Were_None">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Agatha_Christie"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Crime"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Mystery"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Thriller"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1939</ontobooks:hasPublishedYear>
+        <rdfs:label>And Then There Were None</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Austin_Kleon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Austin_Kleon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:label>Austin Kleon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Become_what_you_are -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Become_what_you_are">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Alan_Watts"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Philosophy"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Zen"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">146</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</ontobooks:hasPublishedYear>
+        <rdfs:label>Become what you are</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Charles_Duhigg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Charles_Duhigg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:label>Charles Duhigg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Crime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Crime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Education -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Education">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Ernest_Hemingway -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Ernest_Hemingway">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:label>Ernest Hemingway</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Everything_Is_Fucked -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Everything_Is_Fucked">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Mark_Manson"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Philosophy"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Psychology"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">314</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</ontobooks:hasPublishedYear>
+        <rdfs:label>Everything Is Fucked</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Fantasy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Fantasy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Fiction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Fiction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#History -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#History">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Horror -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Horror">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Lewis_Carroll -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Lewis_Carroll">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:label>Lewis Carroll</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#ML_Wang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#ML_Wang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:label>M.L. Wang</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Malcolm_Gladwell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Malcolm_Gladwell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:label>Malcolm Gladwell</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Mark_Manson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Mark_Manson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:label>Mark Manson</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Murder_on_the_Orient_Express -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Murder_on_the_Orient_Express">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Agatha_Christie"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Crime"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Mystery"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Thriller"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1934</ontobooks:hasPublishedYear>
+        <rdfs:label>Murder on the Orient Express</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Mystery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Mystery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Outliers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Outliers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Malcolm_Gladwell"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#History"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Psychology"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</ontobooks:hasPublishedYear>
+        <rdfs:comment>Outliers</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Philosophy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Philosophy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Psychology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Psychology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Robert_Greene -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Robert_Greene">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:label>Robert Greene</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Romance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Romance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Russia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Russia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Samantha_Shannon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Samantha_Shannon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:label>Samantha S Shannon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Science -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Science">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Steal_Like_an_Artist -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Steal_Like_an_Artist">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Austin_Kleon"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</ontobooks:hasPublishedYear>
+        <rdfs:label>Steal Like an Artist</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Talking_to_Strangers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Talking_to_Strangers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Malcolm_Gladwell"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Education"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Psychology"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</ontobooks:hasPublishedYear>
+        <rdfs:label>Talking to Strangers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The4HourBody -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The4HourBody">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Tim_Ferriss"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Education"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Science"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">592</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</ontobooks:hasPublishedYear>
+        <rdfs:label>The 4-Hour Body</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The4HourChef -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The4HourChef">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Tim_Ferriss"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Education"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Psychology"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">678</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</ontobooks:hasPublishedYear>
+        <rdfs:label>The 4-Hour Chef</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The4HourWorkWeek -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The4HourWorkWeek">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Tim_Ferriss"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Education"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Psychology"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">308</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</ontobooks:hasPublishedYear>
+        <rdfs:label>The 4-Hour Workweek</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The_48_Laws_of_Power -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The_48_Laws_of_Power">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Robert_Greene"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#History"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Psychology"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</ontobooks:hasNoOfPages>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">452</ontobooks:hasNoOfPages>
+        <rdfs:label>The 48 Laws of Power</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The_50th_Law -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The_50th_Law">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Robert_Greene"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#History"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Psychology"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</ontobooks:hasPublishedYear>
+        <rdfs:label>The 50th Law</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The_Laws_of_Human_Nature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The_Laws_of_Human_Nature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Robert_Greene"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#History"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Psychology"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">984</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</ontobooks:hasPublishedYear>
+        <rdfs:label>The Laws of Human Nature</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The_Murder_of_Roger_Ackroyd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The_Murder_of_Roger_Ackroyd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Agatha_Christie"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Crime"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Mystery"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Thriller"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">312</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1926</ontobooks:hasPublishedYear>
+        <rdfs:label>The Murder of Roger Ackroyd</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The_Old_Man_and_the_Sea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The_Old_Man_and_the_Sea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Ernest_Hemingway"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Fiction"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1952</ontobooks:hasPublishedYear>
+        <rdfs:label>The Old Man and the Sea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The_Power_of_Habit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The_Power_of_Habit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Charles_Duhigg"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Science"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">371</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</ontobooks:hasPublishedYear>
+        <rdfs:label>The Power of Habit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The_Priory_of_the_Orange_Tree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The_Priory_of_the_Orange_Tree">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Samantha_Shannon"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Fantasy"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Science"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">844</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</ontobooks:hasPublishedYear>
+        <rdfs:label>The Priory of the Orange Tree</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The_Subtle_Art_of_Not_Giving_a_Fuck -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The_Subtle_Art_of_Not_Giving_a_Fuck">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Mark_Manson"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Philosophy"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Psychology"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Self-Help"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</ontobooks:hasPublishedYear>
+        <rdfs:label>The Subtle Art of Not Giving a Fuck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The_Sword_of_Kaigen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The_Sword_of_Kaigen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#ML_Wang"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Action"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Fantasy"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Fiction"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">651</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</ontobooks:hasPublishedYear>
+        <rdfs:label>The Sword of Kaigen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The_Tipping_Point -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The_Tipping_Point">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Malcolm_Gladwell"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Education"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Psychology"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</ontobooks:hasPublishedYear>
+        <rdfs:label>The Tipping Point</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#The_Wisdom_of_Insecurity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#The_Wisdom_of_Insecurity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Books"/>
+        <ontobooks:hasAuthoredBy rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Alan_Watts"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Non-Fiction"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Philosophy"/>
+        <ontobooks:hasGenre rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Zen"/>
+        <ontobooks:hasNoOfPages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</ontobooks:hasNoOfPages>
+        <ontobooks:hasPublishedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1951</ontobooks:hasPublishedYear>
+        <rdfs:label>The Wisdom of Insecurity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Thriller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Thriller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Tim_Ferriss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Tim_Ferriss">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Author"/>
+        <rdfs:label>Tim Ferris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#United_Kingdom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#United_Kingdom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Country"/>
+        <rdfs:label>UK</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#United_States_of_America -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#United_States_of_America">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Country"/>
+        <rdfs:label>USA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/e1izabeth/ontobooks#Zen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/e1izabeth/ontobooks#Zen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/e1izabeth/ontobooks#Genre"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
