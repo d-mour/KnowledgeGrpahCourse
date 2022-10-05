@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#"
+     xml:base="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon">
+        <rdfs:comment xml:lang="en">A pokemon ontology that describes Pokemons, their types and moves</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#canBeLearnedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#canBeLearnedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#canLearn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">Describes which Pokemon can learn a given move</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#canLearn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#canLearn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove"/>
+        <rdfs:comment xml:lang="en">Describes which moves a given Pokemon can learn</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasDoubleDamageFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasDoubleDamageFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasDoubleDamageTo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:comment xml:lang="en">Describes which types are super effective against a given type. If the type of a move is super effective against a type of its target, the damage done is double the normal amount</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasDoubleDamageTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasDoubleDamageTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:comment xml:lang="en">Describes which types the given type is super effective against. If the type of a move is super effective against a type of its target, the damage done is double the normal amount</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasHalfDamageFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasHalfDamageFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasHalfDamageTo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:comment xml:lang="en">Describes which types are not very effective against a given type. If the type of a move is not very effective against a type of its target, the damage done is half the normal amount</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasHalfDamageTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasHalfDamageTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:comment xml:lang="en">Describes which types the given type is not very effective against. If the type of a move is not very effective against a type of its target, the damage done is half the normal amount</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasMoveType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasMoveType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isTypeOfMove"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:comment xml:lang="en">Describes the type of a given move. A move has exactly one type</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasNoDamageFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasNoDamageFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasNoDamageTo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:comment xml:lang="en">Describes which types are not effective against a given type. If the type of a move is not effective against a type of its target, the target is completely immune to it, and the move will deal no damage</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasNoDamageTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasNoDamageTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:comment xml:lang="en">Describes which types the given type is not effective against. If the type of a move is not effective against a type of its target, the target is completely immune to it, and the move will deal no damage</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasPokemonType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasPokemonType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isTypeOfPokemon"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:comment xml:lang="en">Describes the type(s) of a given Pokemon. A Pokemon may have either one or two types</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasSpecies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasSpecies">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isSpeciesOfPokemon"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonSpecies"/>
+        <rdfs:comment xml:lang="en">Describes the species of a Pokemon. A Pokemon has exactly one species</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isSpeciesOfPokemon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isSpeciesOfPokemon">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonSpecies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">Describes the species of a Pokemon. A Pokemon has exactly one species</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isTypeOfMove -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isTypeOfMove">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove"/>
+        <rdfs:comment xml:lang="en">Describes the moves of a given type. A move has exactly one type</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isTypeOfPokemon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isTypeOfPokemon">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">Describes the Pokemon of a given type. A Pokemon may have 1 or 2 types</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#attack -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#attack">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+        <rdfs:comment xml:lang="en">An attack of a Pokemon</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#defense -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#defense">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+        <rdfs:comment xml:lang="en">A defence of a Pokemon</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonSpecies"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">A description of Pokemon, Type, Move, Species</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#height -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#height">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+        <rdfs:comment xml:lang="en">A height of a Pokemon</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+        <rdfs:comment xml:lang="en">An hp of a Pokemon</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonSpecies"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">A name of Pokemon, Type, Move, Species</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#speed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#speed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+        <rdfs:comment xml:lang="en">A speed of a Pokemon</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#weight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+        <rdfs:comment xml:lang="en">A weight of a Pokemon</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#DualTypePokemon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#DualTypePokemon">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasPokemonType"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#SingleTypePokemon"/>
+        <rdfs:comment xml:lang="en">A Pokemon that has only two types</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasPokemonType"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasSpecies"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonSpecies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasPokemonType"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Pokemons are creatures that can be summoned and fight</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasMoveType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A skill that a pokemon can use in a battle</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonSpecies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonSpecies">
+        <rdfs:comment xml:lang="en">Pokemon species</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType">
+        <rdfs:comment xml:lang="en">A type is a property of Moves and Pokemons. Pokemon: 1 or 2 types. Move: only 1 type</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#ShortPokemon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#ShortPokemon">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#height"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">50</owl:maxQualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">A short Pokemon is the one whose height is less than 5 m</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#SingleTypePokemon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#SingleTypePokemon">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasPokemonType"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">A Pokeman that has only one type</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#TallPokemon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#TallPokemon">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#height"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">400</owl:minQualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">A tall Pokemans is the one whose height is more than 40 m</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
