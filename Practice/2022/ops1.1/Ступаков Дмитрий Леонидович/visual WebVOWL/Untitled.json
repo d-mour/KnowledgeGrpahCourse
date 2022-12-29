@@ -1,0 +1,1614 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based" ],
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9"
+  },
+  "metrics" : {
+    "classCount" : 7,
+    "datatypeCount" : 22,
+    "objectPropertyCount" : 5,
+    "datatypePropertyCount" : 22,
+    "propertyCount" : 27,
+    "nodeCount" : 29,
+    "axiomCount" : 3876,
+    "individualCount" : 140
+  },
+  "class" : [ {
+    "id" : "class2",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "class1",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "class4",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "class6",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "class5",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "class3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class8",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "thing1",
+    "type" : "owl:Thing"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "Attributes"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Attributes",
+    "attributes" : [ "equivalent" ],
+    "superClasses" : [ "class3" ],
+    "instances" : 3,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Attribute_str",
+      "labels" : {
+        "IRI-based" : "Attribute_str"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Attribute_agi",
+      "labels" : {
+        "IRI-based" : "Attribute_agi"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Attribute_int",
+      "labels" : {
+        "IRI-based" : "Attribute_int"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "Heroes"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Heroes",
+    "attributes" : [ "equivalent" ],
+    "superClasses" : [ "class3" ],
+    "instances" : 120,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Morphling",
+      "labels" : {
+        "IRI-based" : "hero_Morphling"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Visage",
+      "labels" : {
+        "IRI-based" : "hero_Visage"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Hoodwink",
+      "labels" : {
+        "IRI-based" : "hero_Hoodwink"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Rubick",
+      "labels" : {
+        "IRI-based" : "hero_Rubick"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Faceless_Void",
+      "labels" : {
+        "IRI-based" : "hero_Faceless_Void"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Tinker",
+      "labels" : {
+        "IRI-based" : "hero_Tinker"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Oracle",
+      "labels" : {
+        "IRI-based" : "hero_Oracle"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Lifestealer",
+      "labels" : {
+        "IRI-based" : "hero_Lifestealer"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Lion",
+      "labels" : {
+        "IRI-based" : "hero_Lion"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Medusa",
+      "labels" : {
+        "IRI-based" : "hero_Medusa"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Venomancer",
+      "labels" : {
+        "IRI-based" : "hero_Venomancer"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Void_Spirit",
+      "labels" : {
+        "IRI-based" : "hero_Void_Spirit"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Templar_Assassin",
+      "labels" : {
+        "IRI-based" : "hero_Templar_Assassin"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Techies",
+      "labels" : {
+        "IRI-based" : "hero_Techies"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Puck",
+      "labels" : {
+        "IRI-based" : "hero_Puck"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Elder_Titan",
+      "labels" : {
+        "IRI-based" : "hero_Elder_Titan"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Viper",
+      "labels" : {
+        "IRI-based" : "hero_Viper"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Gyrocopter",
+      "labels" : {
+        "IRI-based" : "hero_Gyrocopter"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Winter_Wyvern",
+      "labels" : {
+        "IRI-based" : "hero_Winter_Wyvern"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Witch_Doctor",
+      "labels" : {
+        "IRI-based" : "hero_Witch_Doctor"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Tusk",
+      "labels" : {
+        "IRI-based" : "hero_Tusk"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Batrider",
+      "labels" : {
+        "IRI-based" : "hero_Batrider"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Legion_Commander",
+      "labels" : {
+        "IRI-based" : "hero_Legion_Commander"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Undying",
+      "labels" : {
+        "IRI-based" : "hero_Undying"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Slardar",
+      "labels" : {
+        "IRI-based" : "hero_Slardar"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Ursa",
+      "labels" : {
+        "IRI-based" : "hero_Ursa"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Broodmother",
+      "labels" : {
+        "IRI-based" : "hero_Broodmother"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Bristleback",
+      "labels" : {
+        "IRI-based" : "hero_Bristleback"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Phantom_Lancer",
+      "labels" : {
+        "IRI-based" : "hero_Phantom_Lancer"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Brewmaster",
+      "labels" : {
+        "IRI-based" : "hero_Brewmaster"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Enigma",
+      "labels" : {
+        "IRI-based" : "hero_Enigma"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Spectre",
+      "labels" : {
+        "IRI-based" : "hero_Spectre"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Underlord",
+      "labels" : {
+        "IRI-based" : "hero_Underlord"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Monkey_King",
+      "labels" : {
+        "IRI-based" : "hero_Monkey_King"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Shadow_Fiend",
+      "labels" : {
+        "IRI-based" : "hero_Shadow_Fiend"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Abaddon",
+      "labels" : {
+        "IRI-based" : "hero_Abaddon"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Riki",
+      "labels" : {
+        "IRI-based" : "hero_Riki"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Necrophos",
+      "labels" : {
+        "IRI-based" : "hero_Necrophos"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Bane",
+      "labels" : {
+        "IRI-based" : "hero_Bane"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Chaos_Knight",
+      "labels" : {
+        "IRI-based" : "hero_Chaos_Knight"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Beastmaster",
+      "labels" : {
+        "IRI-based" : "hero_Beastmaster"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Grimstroke",
+      "labels" : {
+        "IRI-based" : "hero_Grimstroke"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Vengeful_Spirit",
+      "labels" : {
+        "IRI-based" : "hero_Vengeful_Spirit"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Jakiro",
+      "labels" : {
+        "IRI-based" : "hero_Jakiro"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Mars",
+      "labels" : {
+        "IRI-based" : "hero_Mars"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Arc_Warden",
+      "labels" : {
+        "IRI-based" : "hero_Arc_Warden"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Shadow_Demon",
+      "labels" : {
+        "IRI-based" : "hero_Shadow_Demon"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Keeper_of_the_Light",
+      "labels" : {
+        "IRI-based" : "hero_Keeper_of_the_Light"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Disruptor",
+      "labels" : {
+        "IRI-based" : "hero_Disruptor"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Axe",
+      "labels" : {
+        "IRI-based" : "hero_Axe"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Crystal_Maiden",
+      "labels" : {
+        "IRI-based" : "hero_Crystal_Maiden"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Lina",
+      "labels" : {
+        "IRI-based" : "hero_Lina"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Naga_Siren",
+      "labels" : {
+        "IRI-based" : "hero_Naga_Siren"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Phoenix",
+      "labels" : {
+        "IRI-based" : "hero_Phoenix"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Sand_King",
+      "labels" : {
+        "IRI-based" : "hero_Sand_King"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Warlock",
+      "labels" : {
+        "IRI-based" : "hero_Warlock"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Dark_Seer",
+      "labels" : {
+        "IRI-based" : "hero_Dark_Seer"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Windranger",
+      "labels" : {
+        "IRI-based" : "hero_Windranger"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Invoker",
+      "labels" : {
+        "IRI-based" : "hero_Invoker"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Dazzle",
+      "labels" : {
+        "IRI-based" : "hero_Dazzle"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Terrorblade",
+      "labels" : {
+        "IRI-based" : "hero_Terrorblade"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Io",
+      "labels" : {
+        "IRI-based" : "hero_Io"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Alchemist",
+      "labels" : {
+        "IRI-based" : "hero_Alchemist"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Slark",
+      "labels" : {
+        "IRI-based" : "hero_Slark"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Omniknight",
+      "labels" : {
+        "IRI-based" : "hero_Omniknight"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Earthshaker",
+      "labels" : {
+        "IRI-based" : "hero_Earthshaker"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Sven",
+      "labels" : {
+        "IRI-based" : "hero_Sven"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Leshrac",
+      "labels" : {
+        "IRI-based" : "hero_Leshrac"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Ancient_Apparition",
+      "labels" : {
+        "IRI-based" : "hero_Ancient_Apparition"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Juggernaut",
+      "labels" : {
+        "IRI-based" : "hero_Juggernaut"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Outworld_Devourer",
+      "labels" : {
+        "IRI-based" : "hero_Outworld_Devourer"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Spirit_Breaker",
+      "labels" : {
+        "IRI-based" : "hero_Spirit_Breaker"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Ogre_Magi",
+      "labels" : {
+        "IRI-based" : "hero_Ogre_Magi"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Enchantress",
+      "labels" : {
+        "IRI-based" : "hero_Enchantress"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Doom",
+      "labels" : {
+        "IRI-based" : "hero_Doom"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Shadow_Shaman",
+      "labels" : {
+        "IRI-based" : "hero_Shadow_Shaman"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Drow_Ranger",
+      "labels" : {
+        "IRI-based" : "hero_Drow_Ranger"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Lone_Druid",
+      "labels" : {
+        "IRI-based" : "hero_Lone_Druid"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Clinkz",
+      "labels" : {
+        "IRI-based" : "hero_Clinkz"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Silencer",
+      "labels" : {
+        "IRI-based" : "hero_Silencer"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Treant_Protector",
+      "labels" : {
+        "IRI-based" : "hero_Treant_Protector"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Snapfire",
+      "labels" : {
+        "IRI-based" : "hero_Snapfire"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Clockwerk",
+      "labels" : {
+        "IRI-based" : "hero_Clockwerk"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Death_Prophet",
+      "labels" : {
+        "IRI-based" : "hero_Death_Prophet"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Anti-Mage",
+      "labels" : {
+        "IRI-based" : "hero_Anti-Mage"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Mirana",
+      "labels" : {
+        "IRI-based" : "hero_Mirana"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Phantom_Assassin",
+      "labels" : {
+        "IRI-based" : "hero_Phantom_Assassin"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Pudge",
+      "labels" : {
+        "IRI-based" : "hero_Pudge"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Luna",
+      "labels" : {
+        "IRI-based" : "hero_Luna"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Lycan",
+      "labels" : {
+        "IRI-based" : "hero_Lycan"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Pugna",
+      "labels" : {
+        "IRI-based" : "hero_Pugna"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Weaver",
+      "labels" : {
+        "IRI-based" : "hero_Weaver"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Timbersaw",
+      "labels" : {
+        "IRI-based" : "hero_Timbersaw"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Skywrath_Mage",
+      "labels" : {
+        "IRI-based" : "hero_Skywrath_Mage"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Kunkka",
+      "labels" : {
+        "IRI-based" : "hero_Kunkka"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Night_Stalker",
+      "labels" : {
+        "IRI-based" : "hero_Night_Stalker"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Nature's_Prophet",
+      "labels" : {
+        "IRI-based" : "hero_Nature's_Prophet"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Tidehunter",
+      "labels" : {
+        "IRI-based" : "hero_Tidehunter"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Wraith_King",
+      "labels" : {
+        "IRI-based" : "hero_Wraith_King"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Storm_Spirit",
+      "labels" : {
+        "IRI-based" : "hero_Storm_Spirit"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Bloodseeker",
+      "labels" : {
+        "IRI-based" : "hero_Bloodseeker"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Sniper",
+      "labels" : {
+        "IRI-based" : "hero_Sniper"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Bounty_Hunter",
+      "labels" : {
+        "IRI-based" : "hero_Bounty_Hunter"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Razor",
+      "labels" : {
+        "IRI-based" : "hero_Razor"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Dark_Willow",
+      "labels" : {
+        "IRI-based" : "hero_Dark_Willow"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Pangolier",
+      "labels" : {
+        "IRI-based" : "hero_Pangolier"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Magnus",
+      "labels" : {
+        "IRI-based" : "hero_Magnus"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Tiny",
+      "labels" : {
+        "IRI-based" : "hero_Tiny"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Nyx_Assassin",
+      "labels" : {
+        "IRI-based" : "hero_Nyx_Assassin"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Troll_Warlord",
+      "labels" : {
+        "IRI-based" : "hero_Troll_Warlord"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Huskar",
+      "labels" : {
+        "IRI-based" : "hero_Huskar"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Meepo",
+      "labels" : {
+        "IRI-based" : "hero_Meepo"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Earth_Spirit",
+      "labels" : {
+        "IRI-based" : "hero_Earth_Spirit"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Dragon_Knight",
+      "labels" : {
+        "IRI-based" : "hero_Dragon_Knight"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Ember_Spirit",
+      "labels" : {
+        "IRI-based" : "hero_Ember_Spirit"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Centaur_Warrunner",
+      "labels" : {
+        "IRI-based" : "hero_Centaur_Warrunner"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Chen",
+      "labels" : {
+        "IRI-based" : "hero_Chen"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Queen_of_Pain",
+      "labels" : {
+        "IRI-based" : "hero_Queen_of_Pain"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Zeus",
+      "labels" : {
+        "IRI-based" : "hero_Zeus"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_Lich",
+      "labels" : {
+        "IRI-based" : "hero_Lich"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "Attack_types"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Attack_types",
+    "attributes" : [ "equivalent" ],
+    "superClasses" : [ "class3" ],
+    "instances" : 2,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Melee",
+      "labels" : {
+        "IRI-based" : "Melee"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Ranged",
+      "labels" : {
+        "IRI-based" : "Ranged"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "Lines"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Lines",
+    "attributes" : [ "equivalent" ],
+    "superClasses" : [ "class3" ],
+    "instances" : 5,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Offlane",
+      "labels" : {
+        "IRI-based" : "Offlane"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Easy_Support",
+      "labels" : {
+        "IRI-based" : "Easy_Support"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Safelane",
+      "labels" : {
+        "IRI-based" : "Safelane"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Hard_support",
+      "labels" : {
+        "IRI-based" : "Hard_support"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Mid",
+      "labels" : {
+        "IRI-based" : "Mid"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "Roles"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Roles",
+    "attributes" : [ "equivalent" ],
+    "superClasses" : [ "class3" ],
+    "instances" : 9,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Jungler",
+      "labels" : {
+        "IRI-based" : "Jungler"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Carry",
+      "labels" : {
+        "IRI-based" : "Carry"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Nuker",
+      "labels" : {
+        "IRI-based" : "Nuker"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Durable",
+      "labels" : {
+        "IRI-based" : "Durable"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Pusher",
+      "labels" : {
+        "IRI-based" : "Pusher"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Disabler",
+      "labels" : {
+        "IRI-based" : "Disabler"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Support",
+      "labels" : {
+        "IRI-based" : "Support"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Initiator",
+      "labels" : {
+        "IRI-based" : "Initiator"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Escape",
+      "labels" : {
+        "IRI-based" : "Escape"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "Dota2"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Dota2",
+    "subClasses" : [ "class4", "class2", "class1", "class6", "class5" ],
+    "instances" : 0
+  }, {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "datatype3", "datatype4" ]
+  }, {
+    "id" : "thing1",
+    "label" : {
+      "undefined" : "Thing"
+    },
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "instances" : 0
+  } ],
+  "datatype" : [ {
+    "id" : "datatype1",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype8",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype4",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype7",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype6",
+    "type" : "rdfs:Datatype"
+  } ],
+  "datatypeAttribute" : [ {
+    "id" : "datatype1",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype19",
+    "label" : {
+      "IRI-based" : "double"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#double"
+  }, {
+    "id" : "datatype2",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype3",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype17",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype18",
+    "label" : {
+      "IRI-based" : "double"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#double"
+  }, {
+    "id" : "datatype15",
+    "label" : {
+      "IRI-based" : "double"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#double"
+  }, {
+    "id" : "datatype16",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype22",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype13",
+    "label" : {
+      "IRI-based" : "double"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#double"
+  }, {
+    "id" : "datatype23",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype14",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype11",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype12",
+    "label" : {
+      "IRI-based" : "double"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#double"
+  }, {
+    "id" : "datatype10",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype20",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype21",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype9",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  }, {
+    "id" : "datatype8",
+    "label" : {
+      "IRI-based" : "double"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#double"
+  }, {
+    "id" : "datatype5",
+    "label" : {
+      "IRI-based" : "double"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#double"
+  }, {
+    "id" : "datatype4",
+    "label" : {
+      "IRI-based" : "integer"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer"
+  }, {
+    "id" : "datatype7",
+    "label" : {
+      "IRI-based" : "double"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#double"
+  }, {
+    "id" : "datatype6",
+    "label" : {
+      "IRI-based" : "int"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "property" : [ {
+    "id" : "property16",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property8",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property38",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property7",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property47",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property6",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property41",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property49",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property12",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property11",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property52",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property4",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property51",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property3",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property2",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property1",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property50",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property48",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property34",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property16",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class5",
+    "range" : "class6"
+  }, {
+    "id" : "property8",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class5",
+    "range" : "class1"
+  }, {
+    "id" : "property38",
+    "label" : {
+      "IRI-based" : "projectile_speed"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#projectile_speed",
+    "domain" : "class1",
+    "range" : "datatype9"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class6",
+    "range" : "class1"
+  }, {
+    "id" : "property47",
+    "label" : {
+      "IRI-based" : "agi_gain"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#agi_gain",
+    "domain" : "class1",
+    "range" : "datatype18"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class4",
+    "range" : "class1"
+  }, {
+    "id" : "property43",
+    "label" : {
+      "IRI-based" : "base_health"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_health",
+    "domain" : "class1",
+    "range" : "datatype14"
+  }, {
+    "id" : "property28",
+    "label" : {
+      "IRI-based" : "hasAttackType"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hasAttackType",
+    "domain" : "class1",
+    "range" : "class4",
+    "superproperty" : [ "property27" ]
+  }, {
+    "id" : "property41",
+    "label" : {
+      "IRI-based" : "winrate"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#winrate",
+    "domain" : "class1",
+    "range" : "datatype12"
+  }, {
+    "id" : "property36",
+    "label" : {
+      "IRI-based" : "base_health_regen"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_health_regen",
+    "domain" : "class1",
+    "range" : "datatype7"
+  }, {
+    "id" : "property44",
+    "label" : {
+      "IRI-based" : "int_gain"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#int_gain",
+    "domain" : "class1",
+    "range" : "datatype15"
+  }, {
+    "id" : "property49",
+    "label" : {
+      "IRI-based" : "base_agi"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_agi",
+    "domain" : "class1",
+    "range" : "datatype20"
+  }, {
+    "id" : "property12",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class5",
+    "range" : "class4"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class6",
+    "range" : "class4"
+  }, {
+    "id" : "property33",
+    "label" : {
+      "IRI-based" : "move_speed"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#move_speed",
+    "domain" : "class1",
+    "range" : "class8"
+  }, {
+    "id" : "property26",
+    "label" : {
+      "IRI-based" : "hasRole"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hasRole",
+    "domain" : "class1",
+    "range" : "class5",
+    "superproperty" : [ "property27" ]
+  }, {
+    "id" : "property46",
+    "label" : {
+      "IRI-based" : "picks"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#picks",
+    "domain" : "class1",
+    "range" : "datatype17"
+  }, {
+    "id" : "property35",
+    "label" : {
+      "IRI-based" : "attack_range"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#attack_range",
+    "domain" : "class1",
+    "range" : "datatype6"
+  }, {
+    "id" : "property52",
+    "label" : {
+      "IRI-based" : "base_int"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_int",
+    "domain" : "class1",
+    "range" : "datatype23"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class5",
+    "range" : "class2"
+  }, {
+    "id" : "property51",
+    "label" : {
+      "IRI-based" : "base_attack_min"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_attack_min",
+    "domain" : "class1",
+    "range" : "datatype22"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class6",
+    "range" : "class2"
+  }, {
+    "id" : "property25",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class5",
+    "range" : "class3"
+  }, {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class4",
+    "range" : "class2"
+  }, {
+    "id" : "property37",
+    "label" : {
+      "IRI-based" : "base_mana_regen"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_mana_regen",
+    "domain" : "class1",
+    "range" : "datatype8"
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class1",
+    "range" : "class2"
+  }, {
+    "id" : "property22",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class2",
+    "range" : "class3"
+  }, {
+    "id" : "property32",
+    "label" : {
+      "IRI-based" : "wins"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#wins",
+    "domain" : "class1",
+    "range" : "datatype2"
+  }, {
+    "id" : "property21",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class4",
+    "range" : "class3"
+  }, {
+    "id" : "property50",
+    "label" : {
+      "IRI-based" : "base_attack_max"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_attack_max",
+    "domain" : "class1",
+    "range" : "datatype21"
+  }, {
+    "id" : "property24",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class6",
+    "range" : "class3"
+  }, {
+    "id" : "property23",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class3"
+  }, {
+    "id" : "property40",
+    "label" : {
+      "IRI-based" : "legs"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#legs",
+    "domain" : "class1",
+    "range" : "datatype11"
+  }, {
+    "id" : "property39",
+    "label" : {
+      "IRI-based" : "base_mana"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_mana",
+    "domain" : "class1",
+    "range" : "datatype10"
+  }, {
+    "id" : "property45",
+    "label" : {
+      "IRI-based" : "base_armor"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_armor",
+    "domain" : "class1",
+    "range" : "datatype16"
+  }, {
+    "id" : "property42",
+    "label" : {
+      "IRI-based" : "attack_rate"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#attack_rate",
+    "domain" : "class1",
+    "range" : "datatype13"
+  }, {
+    "id" : "property31",
+    "label" : {
+      "IRI-based" : "base_str"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_str",
+    "domain" : "class1",
+    "range" : "datatype1"
+  }, {
+    "id" : "property29",
+    "label" : {
+      "IRI-based" : "hasLine"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hasLine",
+    "domain" : "class1",
+    "range" : "class6",
+    "superproperty" : [ "property27" ]
+  }, {
+    "id" : "property27",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "attributes" : [ "external" ],
+    "domain" : "thing1",
+    "range" : "thing1",
+    "subproperty" : [ "property28", "property30", "property29", "property26" ]
+  }, {
+    "id" : "property30",
+    "label" : {
+      "IRI-based" : "hasAttribute"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hasAttribute",
+    "domain" : "class1",
+    "range" : "class2",
+    "superproperty" : [ "property27" ]
+  }, {
+    "id" : "property48",
+    "label" : {
+      "IRI-based" : "turn_rate"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#turn_rate",
+    "domain" : "class1",
+    "range" : "datatype19"
+  }, {
+    "id" : "property34",
+    "label" : {
+      "IRI-based" : "str_gain"
+    },
+    "iri" : "http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#str_gain",
+    "domain" : "class1",
+    "range" : "datatype5"
+  } ]
+}
