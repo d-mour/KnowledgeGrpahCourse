@@ -1,0 +1,130 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://xmlns.com/vid_adv/0.1/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix vid_adv: 		<http://xmlns.com/vid_adv/0.1/> .
+@base 			<http://xmlns.com/vid_adv/0.1/> .
+
+<http://xmlns.com/vid_adv/0.1/> rdf:type owl:Ontology ;
+                                dc:title "Video advertisment"@en;
+                                dc:description "The Video advertisment RDF vocabularyLanguage."@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 13 ###
+#  --------------------------- Property 0------------------------- 
+<http://xmlns.com/vid_adv/0.1/second> rdf:type owl:DatatypeProperty ;
+                                   rdfs:label "second"@en; 
+                                   rdfs:domain <http://xmlns.com/vid_adv/0.1/Timecode>;
+                                   rdfs:range xsd:integer . 
+#  --------------------------- Property 1------------------------- 
+<http://xmlns.com/vid_adv/0.1/starts> rdf:type owl:ObjectProperty ;
+                                   rdfs:label "starts"@en; 
+                                   rdfs:domain <http://xmlns.com/vid_adv/0.1/Advertising>;
+                                   rdfs:range <http://xmlns.com/vid_adv/0.1/Start> . 
+#  --------------------------- Property 2------------------------- 
+<http://xmlns.com/vid_adv/0.1/ends> rdf:type owl:ObjectProperty ;
+                                 rdfs:label "ends"@en; 
+                                 rdfs:domain <http://xmlns.com/vid_adv/0.1/Advertising>;
+                                 rdfs:range <http://xmlns.com/vid_adv/0.1/End> . 
+#  --------------------------- Property 3------------------------- 
+<http://xmlns.com/vid_adv/0.1/has> rdf:type owl:ObjectProperty ;
+                                rdfs:label "has"@en; 
+                                rdfs:domain <http://xmlns.com/vid_adv/0.1/Video>;
+                                rdfs:range <http://xmlns.com/vid_adv/0.1/Advertising> . 
+#  --------------------------- Property 4------------------------- 
+:ref_value rdf:type owl:DatatypeProperty ;
+           rdfs:label "ref_value"@en; 
+           rdfs:domain :Reference;
+           rdfs:range xsd:string . 
+#  --------------------------- Property 5------------------------- 
+:refs_to_vid rdf:type owl:ObjectProperty ;
+             rdfs:label "refs_to_vid"@en; 
+             rdfs:domain <http://xmlns.com/vid_adv/0.1/Video>;
+             rdfs:range :VidRef . 
+#  --------------------------- Property 6------------------------- 
+:refs_to_adv rdf:type owl:ObjectProperty ;
+             rdfs:label "refs_to_adv"@en; 
+             rdfs:domain <http://xmlns.com/vid_adv/0.1/Advertising>;
+             rdfs:range :AdvRef . 
+#  --------------------------- Property 7------------------------- 
+:CompanyName rdf:type owl:DatatypeProperty ;
+             rdfs:label "CompanyName"@en; 
+             rdfs:domain <http://xmlns.com/vid_adv/0.1/Advertising>;
+             rdfs:range xsd:string . 
+#  --------------------------- Property 8------------------------- 
+:contains rdf:type owl:ObjectProperty ;
+          rdfs:label "contains"@en; 
+          rdfs:domain :Chanel;
+          rdfs:range <http://xmlns.com/vid_adv/0.1/Video> . 
+#  --------------------------- Property 9------------------------- 
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:label "ChanelName"@en; 
+      rdfs:domain :Chanel;
+      rdfs:range xsd:string . 
+#  --------------------------- Property 10------------------------- 
+:path_to_audio rdf:type owl:ObjectProperty ;
+               rdfs:label "path_to_audio"@en; 
+               rdfs:domain <http://xmlns.com/vid_adv/0.1/Video>;
+               rdfs:range :AudioPath . 
+#  --------------------------- Property 11------------------------- 
+:path_to_video rdf:type owl:ObjectProperty ;
+               rdfs:label "path_to_video"@en; 
+               rdfs:domain <http://xmlns.com/vid_adv/0.1/Video>;
+               rdfs:range :VideoPath . 
+#  --------------------------- Property 12------------------------- 
+:FolderPath rdf:type owl:DatatypeProperty ;
+            rdfs:label "FolderPath"@en; 
+            rdfs:domain :Path;
+            rdfs:range rdfs:Literal . 
+###  Class Definitions (Number of Classes) 12 ###
+#  --------------------------- Class  0------------------------- 
+<http://xmlns.com/vid_adv/0.1/Video> rdf:type owl:Class; 
+                                  rdfs:label "Video"@en . 
+#  --------------------------- Class  1------------------------- 
+<http://xmlns.com/vid_adv/0.1/Timecode> rdf:type owl:Class; 
+                                     rdfs:label "Timecode"@en . 
+#  --------------------------- Class  2------------------------- 
+<http://xmlns.com/vid_adv/0.1/Advertising> rdf:type owl:Class; 
+                                        rdfs:label "Advertising"@en . 
+#  --------------------------- Class  3------------------------- 
+:Reference rdf:type owl:Class; 
+           rdfs:label "Reference"@en . 
+#  --------------------------- Class  4------------------------- 
+:AdvRef rdf:type owl:Class; 
+        rdfs:subClassOf :Reference ;
+        rdfs:label "AdvRef"@en . 
+#  --------------------------- Class  5------------------------- 
+<http://xmlns.com/vid_adv/0.1/End> rdf:type owl:Class; 
+                                rdfs:subClassOf <http://xmlns.com/vid_adv/0.1/Timecode> ;
+                                rdfs:label "End"@en . 
+#  --------------------------- Class  6------------------------- 
+<http://xmlns.com/vid_adv/0.1/Start> rdf:type owl:Class; 
+                                  rdfs:subClassOf <http://xmlns.com/vid_adv/0.1/Timecode> ;
+                                  rdfs:label "Start"@en . 
+#  --------------------------- Class  7------------------------- 
+:VidRef rdf:type owl:Class; 
+        rdfs:subClassOf :Reference ;
+        rdfs:label "VidRef"@en . 
+#  --------------------------- Class  8------------------------- 
+:Chanel rdf:type owl:Class; 
+        rdfs:label "Chanel"@en . 
+#  --------------------------- Class  9------------------------- 
+:AudioPath rdf:type owl:Class; 
+           rdfs:subClassOf :Path ;
+           rdfs:label "AudioPath"@en . 
+#  --------------------------- Class  10------------------------- 
+:VideoPath rdf:type owl:Class; 
+           rdfs:subClassOf :Path ;
+           rdfs:label "VideoPath"@en . 
+#  --------------------------- Class  11------------------------- 
+:Path rdf:type owl:Class; 
+      rdfs:label "Path"@en . 
