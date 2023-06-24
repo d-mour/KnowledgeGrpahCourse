@@ -1,0 +1,128 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@prefix iip-srm: 		<http://purl.org/iip-srm.owl#> .
+@prefix ato: 		<http://www.owl-ontologies.com/ato.owl#> .
+@prefix : 		<http://purl.org/iip-srm.owl#> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 13 ###
+#  --------------------------- Property 0------------------------- 
+:Bird_Speak_Like_ rdf:type owl:ObjectProperty ;
+                  rdfs:label "Bird_Speak_Like "@en; 
+                  rdfs:domain :Bird;
+                  rdfs:range :Voice . 
+#  --------------------------- Property 1------------------------- 
+:Bird_Look_Like_ rdf:type owl:ObjectProperty ;
+                 rdfs:label "Bird_Look_Like "@en; 
+                 rdfs:domain :Bird;
+                 rdfs:range :Appearance . 
+#  --------------------------- Property 2------------------------- 
+:Is_Flying rdf:type owl:DatatypeProperty ;
+           rdfs:label "Is_Flying"@en; 
+           rdfs:domain :Appearance;
+           rdfs:range xsd:boolean . 
+#  --------------------------- Property 3------------------------- 
+:Is_Nestling rdf:type owl:DatatypeProperty ;
+             rdfs:label "Is_Nestling"@en; 
+             rdfs:domain :Appearance;
+             rdfs:range xsd:boolean . 
+#  --------------------------- Property 4------------------------- 
+:Is_Take_Smt rdf:type owl:DatatypeProperty ;
+             rdfs:label "Is_Take_Smt"@en; 
+             rdfs:domain :Appearance;
+             rdfs:range xsd:boolean . 
+#  --------------------------- Property 5------------------------- 
+:Is_Along rdf:type owl:DatatypeProperty ;
+          rdfs:label "Is_Along"@en; 
+          rdfs:domain :Appearance;
+          rdfs:range xsd:boolean . 
+#  --------------------------- Property 6------------------------- 
+:Voicing rdf:type owl:DatatypeProperty ;
+         rdfs:label "Voicing"@en; 
+         rdfs:domain :Voice;
+         rdfs:range rdfs:Literal . 
+#  --------------------------- Property 7------------------------- 
+:Jitter rdf:type owl:DatatypeProperty ;
+        rdfs:label "Jitter"@en; 
+        rdfs:domain :Voice;
+        rdfs:range rdfs:Literal . 
+#  --------------------------- Property 8------------------------- 
+:Pitch rdf:type owl:DatatypeProperty ;
+       rdfs:label "Pitch"@en; 
+       rdfs:domain :Voice;
+       rdfs:range rdfs:Literal . 
+#  --------------------------- Property 9------------------------- 
+:Pulses rdf:type owl:DatatypeProperty ;
+        rdfs:label "Pulses"@en; 
+        rdfs:domain :Voice;
+        rdfs:range rdfs:Literal . 
+#  --------------------------- Property 10------------------------- 
+:Shimmer rdf:type owl:DatatypeProperty ;
+         rdfs:label "Shimmer"@en; 
+         rdfs:domain :Voice;
+         rdfs:range rdfs:Literal . 
+#  --------------------------- Property 11------------------------- 
+:Description rdf:type owl:DatatypeProperty ;
+             rdfs:label "Description"@en; 
+             rdfs:domain :Breed;
+             rdfs:range xsd:string . 
+#  --------------------------- Property 12------------------------- 
+:Name rdf:type owl:DatatypeProperty ;
+      rdfs:label "Name"@en; 
+      rdfs:domain :Breed;
+      rdfs:range xsd:string . 
+###  Class Definitions (Number of Classes) 10 ###
+#  --------------------------- Class  0------------------------- 
+:Bird rdf:type owl:Class; 
+      rdfs:subClassOf :Breed ;
+      rdfs:label "Bird"@en . 
+#  --------------------------- Class  1------------------------- 
+:Appearance rdf:type owl:Class; 
+            rdfs:label "Appearance"@en . 
+#  --------------------------- Class  2------------------------- 
+:Breed rdf:type owl:Class; 
+       rdfs:subClassOf :Amepip ;
+       rdfs:subClassOf :Amerob ;
+       rdfs:subClassOf :Banswa ;
+       rdfs:subClassOf :Comgol ;
+       rdfs:subClassOf :Commer ;
+       rdfs:subClassOf :Comrav ;
+       rdfs:label "Breed"@en . 
+#  --------------------------- Class  3------------------------- 
+:Amerob rdf:type owl:Class; 
+        rdfs:label "Amerob"@en . 
+#  --------------------------- Class  4------------------------- 
+:Amepip rdf:type owl:Class; 
+        rdfs:label "Amepip"@en . 
+#  --------------------------- Class  5------------------------- 
+:Banswa rdf:type owl:Class; 
+        rdfs:label "Banswa"@en . 
+#  --------------------------- Class  6------------------------- 
+:Comgol rdf:type owl:Class; 
+        rdfs:label "Comgol"@en . 
+#  --------------------------- Class  7------------------------- 
+:Commer rdf:type owl:Class; 
+        rdfs:label "Commer"@en . 
+#  --------------------------- Class  8------------------------- 
+:Comrav rdf:type owl:Class; 
+        rdfs:label "Comrav"@en . 
+#  --------------------------- Class  9------------------------- 
+:Voice rdf:type owl:Class; 
+       rdfs:label "Voice"@en . 
