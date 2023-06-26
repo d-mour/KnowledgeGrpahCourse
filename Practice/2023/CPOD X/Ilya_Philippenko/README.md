@@ -4,5 +4,16 @@
 --- 
 
 Проект графа знаний о фильмах.
+Включает в себя граф (фу, файлы на 40к строк в папке data)
 
+Структурно граф выглядит как-то так
+![1](graph%20image.png)
 
+Если хочется запустить код, стоит добыть API ключ, положить его в переменную окружения TMDB_API_KEY для TMDB и исполнить следующее: 
+
+~~~
+pip install -r requirements.txt
+python tmdb/get_data.py
+python main.py
+python add_music.py
+~~~
