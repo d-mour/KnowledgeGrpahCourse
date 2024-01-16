@@ -1,0 +1,136 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/#> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix s: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://www.semanticweb.org/owl/owlapi/turtle#> .
+
+<http://www.semanticweb.org/owl/owlapi/turtle#> rdf:type owl:Ontology ;
+                                                dc:title "New ontology"@en; 
+                                                dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 5 ###
+#  --------------------------- Property 0------------------------- 
+:represent rdf:type owl:ObjectProperty ;
+           rdfs:label "represent"@IRI-based; 
+           rdfs:label "represent"@iri-based; 
+           rdfs:label "represent"@en; 
+           rdfs:domain :Image;
+           rdfs:range :Emmotion . 
+#  --------------------------- Property 1------------------------- 
+:class_number rdf:type owl:ObjectProperty ;
+              rdfs:label "class_number"@IRI-based; 
+              rdfs:label "class_number"@iri-based; 
+              rdfs:label "class_number"@en; 
+              rdfs:domain :Emmotion;
+              rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 2------------------------- 
+:description rdf:type owl:ObjectProperty ;
+             rdfs:label "description"@IRI-based; 
+             rdfs:label "description"@iri-based; 
+             rdfs:label "description"@en; 
+             rdfs:domain :Text;
+             rdfs:range :Image . 
+#  --------------------------- Property 3------------------------- 
+:sounds_like rdf:type owl:ObjectProperty ;
+             rdfs:label "sounds_like"@en; 
+             rdfs:domain :Audio;
+             rdfs:range :Emmotion . 
+#  --------------------------- Property 4------------------------- 
+:transcription rdf:type owl:ObjectProperty ;
+               rdfs:label "transcription"@en; 
+               rdfs:domain :Transcript;
+               rdfs:range :Audio . 
+###  Class Definitions (Number of Classes) 14 ###
+#  --------------------------- Class  0------------------------- 
+:Fearful rdf:type owl:Class; 
+         owl:disjointWith :Happy ;
+         rdfs:subClassOf :Emmotion ;
+         rdfs:label "Fearful"@IRI-based; 
+         rdfs:label "Fearful"@iri-based; 
+         rdfs:label "Fearful"@en . 
+#  --------------------------- Class  1------------------------- 
+:Angry rdf:type owl:Class; 
+       owl:disjointWith :Disgust ;
+       owl:disjointWith :Surprised ;
+       rdfs:subClassOf :Emmotion ;
+       rdfs:label "Angry"@IRI-based; 
+       rdfs:label "Angry"@iri-based; 
+       rdfs:label "Angry"@en . 
+#  --------------------------- Class  2------------------------- 
+:Neutral rdf:type owl:Class; 
+         owl:disjointWith :Happy ;
+         rdfs:subClassOf :Emmotion ;
+         rdfs:label "Neutral"@IRI-based; 
+         rdfs:label "Neutral"@iri-based; 
+         rdfs:label "Neutral"@en . 
+#  --------------------------- Class  3------------------------- 
+:Disgust rdf:type owl:Class; 
+         owl:disjointWith :Fearful ;
+         rdfs:subClassOf :Emmotion ;
+         rdfs:label "Disgust"@IRI-based; 
+         rdfs:label "Disgust"@iri-based; 
+         rdfs:label "Disgust"@en . 
+#  --------------------------- Class  4------------------------- 
+rdfs:Datatype rdf:type owl:Class; 
+              rdfs:label "Datatype"@IRI-based . 
+#  --------------------------- Class  5------------------------- 
+:Emmotion rdf:type owl:Class; 
+          rdfs:label "Emmotion"@IRI-based; 
+          rdfs:label "Emmotion"@iri-based; 
+          rdfs:label "Emmotion"@en . 
+#  --------------------------- Class  6------------------------- 
+:Calm rdf:type owl:Class; 
+      owl:disjointWith :Surprised ;
+      rdfs:subClassOf :Emmotion ;
+      rdfs:label "Calm"@IRI-based; 
+      rdfs:label "Calm"@iri-based; 
+      rdfs:label "Calm"@en . 
+#  --------------------------- Class  7------------------------- 
+:Happy rdf:type owl:Class; 
+       rdfs:subClassOf :Emmotion ;
+       rdfs:label "Happy"@IRI-based; 
+       rdfs:label "Happy"@iri-based; 
+       rdfs:label "Happy"@en . 
+#  --------------------------- Class  8------------------------- 
+:Sad rdf:type owl:Class; 
+     owl:disjointWith :Neutral ;
+     owl:disjointWith :Calm ;
+     rdfs:subClassOf :Emmotion ;
+     rdfs:label "Sad"@IRI-based; 
+     rdfs:label "Sad"@iri-based; 
+     rdfs:label "Sad"@en . 
+#  --------------------------- Class  9------------------------- 
+:Surprised rdf:type owl:Class; 
+           rdfs:subClassOf :Emmotion ;
+           rdfs:label "Surprised"@IRI-based; 
+           rdfs:label "Surprised"@iri-based; 
+           rdfs:label "Surprised"@en . 
+#  --------------------------- Class  10------------------------- 
+:Text rdf:type owl:Class; 
+      rdfs:label "Text"@IRI-based; 
+      rdfs:label "Text"@iri-based; 
+      rdfs:label "Text"@en . 
+#  --------------------------- Class  11------------------------- 
+:Image rdf:type owl:Class; 
+       rdfs:label "Image"@IRI-based; 
+       rdfs:label "Image"@iri-based; 
+       rdfs:label "Image"@en . 
+#  --------------------------- Class  12------------------------- 
+:Audio rdf:type owl:Class; 
+       rdfs:label "Audio"@en . 
+#  --------------------------- Class  13------------------------- 
+:Transcript rdf:type owl:Class; 
+            rdfs:label "Transcript"@en . 
