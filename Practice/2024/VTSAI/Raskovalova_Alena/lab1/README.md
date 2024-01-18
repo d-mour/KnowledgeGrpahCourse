@@ -14,10 +14,9 @@
 <br>
 
 **Часть 1. Среда FrozenLake** <br>
-[FrozenLake](./lab1/LR1_Frozen_Lake_8х8.ipynb) <br>
+[Код FrozenLake](LR1_Frozen_Lake_8х8.ipynb) <br>
 <img src="LR1_Frozen_Lake.PNG" width="500" height="500"/> <br>
 <br>
 **Часть 2. Среда LunarLander** <br>
-[LunarLander](./lab1/LR1_Lunar_Lander.ipynb) <br>
+[Код LunarLander](LR1_Lunar_Lander.ipynb) <br>
 <img src="LR1_Lunar_Lander.PNG" width="600" height="500"/>
-
