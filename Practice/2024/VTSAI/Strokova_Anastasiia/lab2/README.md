@@ -15,16 +15,17 @@
 <br>
 
 **Часть 1. Среда Ant** <br>
-[Код Ant](LR2_Ant.ipynb) <br>
+[Код Ant](LR2_Ant.py) <br>
 <img src="LR2_Ant.PNG" width="500" height="500"/> <br>
 <img src="LR2_Ant_Compare.PNG" width="500" height="500"/> <br>
 <img src="LR2_Ant_Compare_Learning_Rate.PNG" width="500" height="500"/> <br>
 
 <br>
-**Часть 2. Среда LunarLander** <br>
-[Код CarRacing](LR1_Car_Racing.ipynb) <br>
-<img src="LR2_Car_Racing.PNG" width="600" height="500"/>
-<img src="LR2_Car_Racing_Compare.PNG" width="600" height="500"/>
-<img src="LR2_Car_Racing_Compare_Learning_Rate.PNG" width="600" height="500"/>
+
+**Часть 2. Среда CarRacing** <br>
+[Код CarRacing](LR1_Car_Racing.py) <br>
+<img src="LR2_Car_Racing.PNG" width="500" height="500"/>
+<img src="LR2_Car_Racing_Compare.PNG" width="500" height="500"/>
+<img src="LR2_Car_Racing_Compare_Learning_Rate.PNG" width="500" height="500"/>
 <br>
 P.S. Размер файла ipynb из Google Collab превышает допустимый размер загружаемого файла на GitHub, поэтому выгрузка прилагается в формате py.
