@@ -12,7 +12,7 @@
 
 ## Выполненное задание
 
-[Ссылка на выполненное задание](https://github.com/ZhenyaP0/validation-and-testing/blob/2b7738426005422a1ed78ad992982a6c444b82bb/Lab1/Lr1.ipynb)
+[Ссылка на выполненное задание](https://github.com/ZhenyaP0/KnowledgeGrpahCourse/blob/82d8715cbf3ecd2427587f399d1ab7dd1ff22c5a/Practice/2024/VTSAI/Polezhaeva_Evgenia/Lab2/lab2.py)
 
 ## Вывод
 
@@ -31,3 +31,11 @@
 4. **Тестирование моделей.**
 5. **Построение графика.**
 6. **Исследование Learning Rate.**
+
+![](https://github.com/ZhenyaP0/KnowledgeGrpahCourse/blob/82d8715cbf3ecd2427587f399d1ab7dd1ff22c5a/Practice/2024/VTSAI/Polezhaeva_Evgenia/Lab2/Unknown-2.png)
+
+![](https://github.com/ZhenyaP0/KnowledgeGrpahCourse/blob/82d8715cbf3ecd2427587f399d1ab7dd1ff22c5a/Practice/2024/VTSAI/Polezhaeva_Evgenia/Lab2/Unknown-5.png)
+
+![](https://github.com/ZhenyaP0/KnowledgeGrpahCourse/blob/82d8715cbf3ecd2427587f399d1ab7dd1ff22c5a/Practice/2024/VTSAI/Polezhaeva_Evgenia/Lab2/Unknown-3.png)
+
+![](https://github.com/ZhenyaP0/KnowledgeGrpahCourse/blob/82d8715cbf3ecd2427587f399d1ab7dd1ff22c5a/Practice/2024/VTSAI/Polezhaeva_Evgenia/Lab2/Unknown-4.png)
