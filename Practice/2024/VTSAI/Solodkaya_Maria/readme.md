@@ -8,10 +8,10 @@
 
 [Код](./lab1/RL_№1.ipynb) 
 
-[Отчёт](./lab1/README.md)
+[Отчёт](./lab1/readme.md)
 
 ## Лабораторная работа 2 (Car Racing)
 
 [Код](./lab2/RL_№2.ipynb)
 
-[Отчёт](./lab2/README.md)
+[Отчёт](./lab2/readme.md)
