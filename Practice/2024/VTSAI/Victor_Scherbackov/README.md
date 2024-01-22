@@ -26,3 +26,15 @@
 
 [Отчет для среды Car Racing](./Lab2/car-racing/README.md)
 
+### Лабораторная работа 3
+[Код для среды Lunar Lander](./Lab3/lunar-lander/RL3_LunarLander.ipynb)
+
+[Отчет для среды Lunar Lander](./Lab3/lunar-lander/README.md)
+
+[Код для среды Mountain Car](./Lab3/mountain-car/RL3_MountainCar.ipynb)
+
+[Отчет для среды Mountain Car](./Lab3/mountain-car/README.md)
+
+[Код для среды Cliff Walking](./Lab3/cliff-walking/RL3_CliffWalking.ipynb)
+
+[Отчет для среды Cliff Walking](./Lab3/cliff-walking/README.md)
