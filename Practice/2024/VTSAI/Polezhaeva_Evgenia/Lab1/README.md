@@ -22,7 +22,7 @@ Q-learning — это один из методов обучения с подк�
 
 ## Выполненное задание
 
-[Ссылка на выполненное задание](https://github.com/ZhenyaP0/validation-and-testing/blob/2b7738426005422a1ed78ad992982a6c444b82bb/Lab1/Lr1.ipynb)
+[Ссылка на выполненное задание](https://github.com/ZhenyaP0/KnowledgeGrpahCourse/blob/691869d1cfa01c57a7d31f5bed272895756d31f5/Practice/2024/VTSAI/Polezhaeva_Evgenia/Lab1/Lr1.ipynb)
 
 ## Вывод
 
