@@ -38,3 +38,13 @@
 [Код для среды Cliff Walking](./Lab3/cliff-walking/RL3_CliffWalking.ipynb)
 
 [Отчет для среды Cliff Walking](./Lab3/cliff-walking/README.md)
+
+### Лабораторная работа 4
+
+[Код для dataset Kinships](./Lab4/Kinships/KG_№1.ipynb)
+
+[Отчет для dataset Kinships](./Lab4/Kinships/README.md)
+
+[Код для dataset CoDExSmall](./Lab4/CoDExSmall/KG_№1.ipynb)
+
+[Отчет для dataset CoDExSmall](./Lab4/CoDExSmall/README.md)
