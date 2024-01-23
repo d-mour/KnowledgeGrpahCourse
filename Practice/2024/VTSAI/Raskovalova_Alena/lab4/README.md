@@ -15,12 +15,12 @@
 
 **Часть 1.Датасет Countries** <br>
 [Код Countries](LR4_Countries.ipynbb) <br>
-<img src="Countries_nlargest.PNG" width="700" height="500"/> <br>
+<img src="Countries_nlargest.PNG" width="1000" height="300"/> <br>
 <br>
 
 **Часть 2. Датасет PharmKG** <br>
 [Код Pharm](LR4_PharmKG.ipynb) <br>
-<img src="Pharm_nlargest.PNG" width="700" height="500"/> <br>
+<img src="Pharm_nlargest.PNG" width="1000" height="300"/> <br>
 
 В результате выполнения данной лабораторной работы мы освоили применение графовых нейронных сетей (GNNs) для анализа зависимостей в графовых структурах данных. Эмбеддинги, извлеченные с использованием GNN, позволяют представить вершины графа в векторной форме, сохраняя важную структурную информацию. <br>
 
