@@ -7,7 +7,7 @@
 ### Задание 
 
 Установка библиотек для работы над лабораторной работой (Gym, Stable-Baselines3, PyVirtualDisplay, Xvfb)
-Создание окружения (MountainCarContinuous-v0).
+Создание окружения (LunarLander).
 Настройка discount factor для получения наибольшей средней награды
 
 ### Выполнение
