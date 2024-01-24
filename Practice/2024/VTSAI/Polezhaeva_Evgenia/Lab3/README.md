@@ -12,7 +12,7 @@
 
 ## Выполненное задание
 
-[Ссылка на выполненное задание](https://github.com/ZhenyaP0/KnowledgeGrpahCourse/blob/be302045ca61c4c1b7a3c68246454e5ada4b6552/Practice/2024/VTSAI/Polezhaeva_Evgenia/Lab3/lab3.ipynb)
+[Ссылка на выполненное задание](https://github.com/ZhenyaP0/KnowledgeGrpahCourse/blob/79a57a8240ce618bbe35a1b613220314416bb9fd/Practice/2024/VTSAI/Polezhaeva_Evgenia/Lab3/lab3.ipynb)
 
 ## Вывод
 
