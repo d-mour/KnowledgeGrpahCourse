@@ -25,7 +25,7 @@
 |ComplEx, 10 epochs|0.0|0.0|0.0|0.0|0.0157|'south_africa', 'palestine', 'mozambique'|'liberia', 'jordan', 'angola'|
 |HolE, 50 epochs|0.0208|0.0833|0.125|0.3333|0.1095|'saint_pierre_and_miquelon', 'sint_maarten', 'turks_and_caicos_islands'|'eastern_africa', 'western_africa', 'svalbard_and_jan_mayen'|
 
-<img src="LR5_Countries_Example_ComplEx_100" width="600" height="600"/> <br>
+<img src="LR5_Countries_Example_ComplEx_100.png" width="600" height="600"/> <br>
 
 Снижение числа эпох ниже определенного предела существенно снижает точность сети. Так, например, уменьшение числа эпох до 50 незначительно снизило качество, в отличие от уменьшения до 10. В каждом случае необходимо анализировать график функции потерь
 для выбора оптимального числа эпох.
