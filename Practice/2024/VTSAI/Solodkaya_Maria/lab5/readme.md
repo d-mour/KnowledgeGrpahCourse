@@ -33,7 +33,7 @@ Node Similarity представляет собой меру близости и
 |:-------------------:|:------------------:|:---------:|:---------:|:---------:|:----------:|:-------:|:---------------------------------------------------------------:|:--------------------------------------------------------------------------:|
 | ComplEx, 100 epochs |      2m 42s       |  0.0024   |  0.0043   |  0.0043   |   0.0057   | 0.0043  |   'Alphonse_J._Jackson', 'University_of_Warsaw', 'Newcastle_University', 'Vítězslav_Mooc'   | 'Dave_Krusen', 'Pieter_Nooten', 'The_West_Wing', 'Syed_Ahmed_(politician) |
 | ComplEx, 10 epochs  |       0m 19s       |  0.0007   |  0.0014   |  0.0014   |   0.0014   | 0.0013  |   'Alphonse_J._Jackson', 'California_Gold_Rush_(film)', 'Edmilson_Carlos_Abel', 'Silly_Symphony'   |          'Dave_Krusen', 'Picture_This_Live', 'Anthony_Bancarel', 'Livistona'           |
-|   DistMult, 10 epochs   |       0m 18s       |  0.1754   |  0.2057   |  0.2160   |   0.2336   | 0.1958  | 'Alphonse_J._Jackson', 'Thornton_F._Bell', 'Parker_Self', 'Benjamin_C._Dawkins,_Jr.' |        'Dave_Krusen', 'Oncidium_cheirophorum', 'Miwa_Yoshida', 'Owl_Studios'         |
+|   DistMult, 10 epochs   |       0m 19s       |  0.1377   |  0.1656   |  0.1725   |  0.1828   | 0.1552  | 'Alphonse_J._Jackson', 'Trudy_Grant', 'Trinidad_and_Tobago', 'Mark_Robson'   |        'Dave_Krusen', 'Pearl_Jam', 'Kenny_Brown_(footballer,_born_1967)', 'Mammoth_Records'         |
 
 ### Выводы
 
