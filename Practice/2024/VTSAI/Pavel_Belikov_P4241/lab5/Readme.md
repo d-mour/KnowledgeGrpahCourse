@@ -12,7 +12,7 @@
 
 #### Результат
 #### ComplEx
-<img src="res1.png" alt="drawing" width="300"/>
+<img src="res2.png" alt="drawing" width="300"/>
 
 #### TransE
 <img src="res1.png" alt="drawing" width="300"/>
