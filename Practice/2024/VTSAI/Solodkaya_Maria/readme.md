@@ -33,3 +33,9 @@
 [Код](./lab5/KG_№2.ipynb)
 
 [Отчёт](./lab5/readme.md)
+
+## Лабораторная работа 6 (DistMult)
+
+[Код](./lab6/KG_№3.ipynb)
+
+[Отчёт](./lab6/readme.md)
