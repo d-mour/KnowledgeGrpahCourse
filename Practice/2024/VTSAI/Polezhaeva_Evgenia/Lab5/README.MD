@@ -17,7 +17,7 @@
 
 [Ссылка на датасет](https://pykeen.readthedocs.io/en/stable/api/pykeen.datasets.PharmKG8k.html#pykeen.datasets.PharmKG8k)
 
-[Ссылка на выполненное задание](https://github.com/ZhenyaP0/validation-and-testing/blob/2b7738426005422a1ed78ad992982a6c444b82bb/Lab1/Lr1.ipynb)
+[Ссылка на выполненное задание](https://github.com/ZhenyaP0/KnowledgeGrpahCourse/blob/fba7549f4006bde1ac04ab64733b5a49a980e18c/Practice/2024/VTSAI/Polezhaeva_Evgenia/Lab5/lab5.ipynb)
 
 ## Вывод
 
