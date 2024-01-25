@@ -58,3 +58,13 @@
 [Код для dataset CoDExSmall](./Lab5/CoDExSmall/KG_№2.ipynb)
 
 [Отчет для dataset CoDExSmall](./Lab5/CoDExSmall/README.md)
+
+### Лабораторная работа 6
+
+[Код для dataset Kinships](./Lab6/Kinships/KG_№3.ipynb)
+
+[Отчет для dataset Kinships](./Lab6/Kinships/README.md)
+
+[Код для dataset CoDExSmall](./Lab6/CoDExSmall/KG_№3.ipynb)
+
+[Отчет для dataset CoDExSmall](./Lab6/CoDExSmall/README.md)
