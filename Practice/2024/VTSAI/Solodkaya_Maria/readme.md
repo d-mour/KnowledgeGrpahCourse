@@ -27,3 +27,9 @@
 [Код](./lab4/KG_№1.ipynb)
 
 [Отчёт](./lab4/readme.md)
+
+## Лабораторная работа 5 (DistMult)
+
+[Код](./lab5/KG_№2.ipynb)
+
+[Отчёт](./lab5/readme.md)
