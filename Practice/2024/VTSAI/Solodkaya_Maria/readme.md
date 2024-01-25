@@ -21,3 +21,9 @@
 [Код](./lab3/RL_№3.ipynb)
 
 [Отчёт](./lab3/readme.md)
+
+## Лабораторная работа 4 (Kinships)
+
+[Код](./lab4/KG_№1.ipynb)
+
+[Отчёт](./lab4/readme.md)
