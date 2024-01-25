@@ -13,7 +13,7 @@
 
 [Ссылка на датасет](https://pykeen.readthedocs.io/en/stable/api/pykeen.datasets.Countries.html#pykeen.datasets.Countries)
 
-[Ссылка на выполненное задание](https://github.com/ZhenyaP0/validation-and-testing/blob/2b7738426005422a1ed78ad992982a6c444b82bb/Lab1/Lr1.ipynb)
+[Ссылка на выполненное задание](https://github.com/ZhenyaP0/KnowledgeGrpahCourse/blob/4f7fd72888d6e41978052e26f4f1a85b94c28aa1/Practice/2024/VTSAI/Polezhaeva_Evgenia/Lab6/lab6.ipynb)
 
 ## Вывод
 
