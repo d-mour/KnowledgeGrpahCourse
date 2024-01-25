@@ -20,7 +20,7 @@
 
 |ComplEs|TransE|
 |---|---|
-|<img src="LR6_Countries_Example_ComplEx_Metrics.png"/> <br>|<img src="LR6_Countries_Example_ComplEx_Metrics.png"/> <br>|
+|<img src="LR6_Countries_ComplEx_Metrics.png"/> <br>|<img src="LR6_Countries_TransE_Metrics.png"/> <br>|
 
 <br>
 
