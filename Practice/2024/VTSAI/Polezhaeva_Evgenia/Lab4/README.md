@@ -14,7 +14,7 @@
 
 [Ссылка на датасет](https://pykeen.readthedocs.io/en/stable/api/pykeen.datasets.Countries.html)
 
-[Ссылка на выполненное задание](https://github.com/ZhenyaP0/validation-and-testing/blob/2b7738426005422a1ed78ad992982a6c444b82bb/Lab1/Lr1.ipynb)
+[Ссылка на выполненное задание](https://github.com/ZhenyaP0/KnowledgeGrpahCourse/blob/3db3418ce977280a2d6a9032764da02301b59268/Practice/2024/VTSAI/Polezhaeva_Evgenia/Lab4/lab4.ipynb)
 
 ## Вывод
 
