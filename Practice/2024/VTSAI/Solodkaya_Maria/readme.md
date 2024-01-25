@@ -15,3 +15,9 @@
 [Код](./lab2/RL_№2.ipynb)
 
 [Отчёт](./lab2/readme.md)
+
+## Лабораторная работа 3 (Lunar Launder)
+
+[Код](./lab3/RL_№3.ipynb)
+
+[Отчёт](./lab3/readme.md)
