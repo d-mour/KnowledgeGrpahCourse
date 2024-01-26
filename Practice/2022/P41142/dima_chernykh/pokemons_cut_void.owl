@@ -1,0 +1,2369 @@
+[
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property34",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#minQualifiedCardinality"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 2
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property26",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#maxQualifiedCardinality"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 2
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class1",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 1602
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 844
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 844
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 5
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 32045
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property29",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 7
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 7
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasNoDamageFrom"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 8
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property4",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 5
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 8
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class8",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#Restriction"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 12
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 7
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 32
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property17",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 60
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#defense"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 348
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property11",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#onDataRange"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 2
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property39",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 13
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 13
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 1603
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 1603
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 1625
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property19",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 3
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 1211
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 1212
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 1212
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#name"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 1212
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property0",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 53
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#speed"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 348
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class0",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 1943
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 12
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 32663
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property31",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasSpecies"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 348
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property7",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 18
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 17
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 17
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasHalfDamageFrom"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 61
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class10",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#IrreflexiveProperty"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 21
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 64
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property2",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 7
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasNoDamageTo"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 8
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property21",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 58
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hp"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 348
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class11",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 11
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 5
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 16
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property3",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 18
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasPokemonType"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 514
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property30",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 597
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 597
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#canBeLearnedBy"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 28669
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class9",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#AsymmetricProperty"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 21
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 64
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property23",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 33
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#height"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 348
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property1",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#onProperty"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 8
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property37",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 17
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 18
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 18
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasHalfDamageTo"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 61
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property5",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 19
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 844
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 844
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasMoveType"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 844
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property18",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 18
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 17
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 17
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasDoubleDamageTo"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 51
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property12",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 30
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 31
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 31
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 31
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property38",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 56
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#attack"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 348
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property33",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#qualifiedCardinality"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 4
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property35",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 5
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 8
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property24",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#onClass"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 6
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property9",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#equivalentClass"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 4
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property13",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#disjointWith"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 1
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class4",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 17
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 5
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 47
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class7",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#Class"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 23
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 12
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 12
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 37
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class12",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#Ontology"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 2
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property25",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 597
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#canLearn"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 28669
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property22",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 18
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 18
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isTypeOfPokemon"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 514
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property6",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isSpeciesOfPokemon"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 348
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property32",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 17
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 18
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 18
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasDoubleDamageFrom"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 51
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property10",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 22
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 22
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 22
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property27",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 22
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 22
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#range"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 22
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property8",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 7
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 7
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 7
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#inverseOf"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 7
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classPartition": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class0"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class1"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class2"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class3"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class4"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class5"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class6"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class7"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class8"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class9"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class10"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class11"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class12"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 13
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 3875
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 1611
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 40
+      }
+    ],
+    "http://rdfs.org/ns/void#propertyPartition": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property0"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property1"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property2"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property3"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property4"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property5"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property6"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property7"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property8"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property9"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property10"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property11"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property12"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property13"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property14"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property15"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property16"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property17"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property18"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property19"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property20"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property21"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property22"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property23"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property24"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property25"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property26"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property27"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property28"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property29"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property30"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property31"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property32"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property33"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property34"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property35"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property36"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property37"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property38"
+      },
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property39"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 67273
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class3",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 1231
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 20
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 20
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 10
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 1638
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class6",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#ObjectProperty"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 30
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 14
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 14
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 97
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property14",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 223
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#weight"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 348
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class2",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonSpecies"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 349
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 348
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 696
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property15",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#intersectionOf"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 4
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property20",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 2
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 738
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 1192
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 1192
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#description"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 1192
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property36",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 22
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 22
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#domain"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 27
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property28",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 844
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 19
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 19
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isTypeOfMove"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 844
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_class5",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#class": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#FunctionalProperty"
+      }
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 18
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 4
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 35
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon/dataset_property16",
+    "@type": [
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "http://rdfs.org/ns/void#classes": [
+      {
+        "@value": 0
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctObjects": [
+      {
+        "@value": 5
+      }
+    ],
+    "http://rdfs.org/ns/void#distinctSubjects": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#entities": [
+      {
+        "@value": 8
+      }
+    ],
+    "http://rdfs.org/ns/void#properties": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://rdfs.org/ns/void#property": [
+      {
+        "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+      }
+    ],
+    "http://rdfs.org/ns/void#triples": [
+      {
+        "@value": 8
+      }
+    ]
+  }
+]

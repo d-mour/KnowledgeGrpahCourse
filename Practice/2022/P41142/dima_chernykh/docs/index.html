@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{no title found}</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1Sew
+EAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <style>
+        #pylode {
+            position: fixed;
+            top: 130px;
+            left: -60px;
+            font-size: small;
+            transform: rotate(-90deg);
+            color: grey;
+        }
+        #pylode a {
+            font-size: 2em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #005A9C;
+        }
+        #pylode a:hover {
+            color: #333;
+        }
+
+        .cardinality {
+            font-style: italic;
+            color: #aa00aa;
+        }
+
+        dt {
+            font-weight: bold;
+            padding: 5px 0 5px 0;
+        }
+
+        ul.hlist {
+            list-style-type: none;
+            border: 1px solid navy;
+            padding:5px;
+            background-color: #F4FFFF;
+        }
+
+        ul.hierarchy {
+            border: 1px solid navy;
+            padding: 5px 25px 5px 25px;
+            background-color: #F4FFFF;
+        }
+
+
+        ul.hlist li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .entity {
+            border: 1px solid navy;
+            margin:5px 0 5px 0;
+            padding: 5px;
+        }
+
+        .entity th {
+            width: 150px;
+            vertical-align: top;
+        }
+
+        .entity th,
+        .entity td {
+            padding-bottom: 20px;
+        }
+
+        .entity table th {
+            text-align: left;
+        }
+
+        section#overview img {
+            max-width: 1000px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            text-align: left
+        }
+        h1, h2, h3 {
+            color: #005A9C; background: white
+        }
+        h1 {
+            font: 170% sans-serif;
+            line-height: 110%;
+        }
+        h2 {
+            font: 140% sans-serif;
+            margin-top:40px;
+        }
+        h3 {
+            font: 120% sans-serif;
+            margin-top: 3px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid navy;
+        }
+        h4 { font: bold 100% sans-serif }
+        h5 { font: italic 100% sans-serif }
+        h6 { font: small-caps 100% sans-serif }
+
+
+        body {
+            padding: 2em 70px 2em 70px;
+            margin: 0;
+            font-family: sans-serif;
+            color: black;
+            background: white;
+            background-position: top left;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        section {
+            max-width: 1500px;
+        }
+
+        .figure {
+            margin-bottom: 20px;
+        }
+
+        :link { color: #00C; background: transparent }
+        :visited { color: #609; background: transparent }
+        a:active { color: #C00; background: transparent }
+
+        .sup-c,
+        .sup-op,
+        .sup-fp,
+        .sup-dp,
+        .sup-ap,
+        .sup-p,
+        .sup-ni,
+        .sup-con,
+        .sup-col {
+            cursor:help;
+            margin-left: 3px;
+        }
+
+        .sup-c {
+            color:orange;
+        }
+
+        .sup-op {
+            color:navy;
+        }
+
+        .sup-fp {
+            color:lightskyblue;
+        }
+
+        .sup-dp {
+            color:green;
+        }
+
+        .sup-ap {
+            color:darkred;
+        }
+
+        .sup-p {
+            color:black;
+        }
+
+        .sup-ni {
+            color:brown;
+        }
+
+        .sup-con {
+            color:orange;
+        }
+
+        .sup-col {
+            color:darkred;
+        }
+
+        code {
+            font-size: large;
+            color: darkred;
+        }
+
+        /* less prominent links for properties */
+        .proplink {
+            color: #336;
+            text-decoration: none;
+        }
+    </style>
+    
+    <script type="application/ld+json">
+      [
+  {
+    "@id": "http://www.semanticweb.org/markus/ontologies/2022/9/pokemon",
+    "@type": [
+      "https://schema.org/DefinedTermSet"
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "<p>A pokemon ontology that describes Pokemons, their types and moves</p>"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "{no title found}"
+      }
+    ]
+  }
+]
+    </script>
+</head>
+<body>
+  <div id="pylode">made by <a href="http://github.com/rdflib/pyLODE">
+    <span style="color:#329545;">p</span><span style="color:#f9cb33;">y</span>LODE</a>
+    <span style="font-size:smaller;">2.13.2</span>
+  </div>
+  <h1>{no title found}</h1>
+<section id="metadata">
+    <h2 style="display:none;">Metadata</h2>
+    <dl>
+        <dt>URI</dt>
+        <dd><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon</code></dd>
+        <dt>Ontology RDF</dt>
+        <dd><a href="pokemon.owl">RDF (xml)</a></dd>
+    </dl>
+    <h2>Description</h2>
+    <div id="description">
+        <p>A pokemon ontology that describes Pokemons, their types and moves</p>
+    </div>
+</section>
+<section id="toc">
+    <h2>Table of Contents</h2>
+    <ol>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#objectproperties">Object Properties</a></li>
+        <li><a href="#functionalproperties">Functional Properties</a></li>
+        <li><a href="#datatypeproperties">Datatype Properties</a></li>
+        <li><a href="#namespaces">Namespaces</a></li>
+        <li><a href="#legend">Legend</a></li>
+    </ol>
+</section>
+<section id="overview">
+    <h2>Overview</h2>
+    <div class="figure">
+        <div style="width:500px; height:50px; background-color: lightgrey; border:solid 2px grey; padding:10px;margin-bottom:5px; text-align:center;">Pictures say 1,000 words</div>
+        <div class="caption"><strong>Figure 1:</strong> Ontology overview</div>
+    </div>
+</section>
+  <section id="classes">
+    <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+      <li><a href="#DualTypePokemon">DualTypePokemon</a></li>
+      <li><a href="#Pokemon">Pokemon</a></li>
+      <li><a href="#PokemonMove">PokemonMove</a></li>
+      <li><a href="#PokemonSpecies">PokemonSpecies</a></li>
+      <li><a href="#PokemonType">PokemonType</a></li>
+      <li><a href="#ShortPokemon">ShortPokemon</a></li>
+      <li><a href="#SingleTypePokemon">SingleTypePokemon</a></li>
+      <li><a href="#TallPokemon">TallPokemon</a></li>
+    </ul>
+    <div class="entity class" id="DualTypePokemon">
+        <h3>
+          DualTypePokemon<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#DualTypePokemon" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#DualTypePokemon</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A Pokemon that has only two types</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Pokemon">
+        <h3>
+          Pokemon<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Pokemon" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Pokemons are creatures that can be summoned and fight</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Restrictions</th>
+                <td>
+                    <a href="#hasPokemonType">hasPokemonType</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 2 <a href="#PokemonType">PokemonType</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#hasSpecies">hasSpecies</a><sup class="sup-fp" title="functional property">fp</sup> <span class="cardinality">exactly</span> 1 <a href="#PokemonSpecies">PokemonSpecies</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#hasPokemonType">hasPokemonType</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">min</span> 1 <a href="#PokemonType">PokemonType</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#ShortPokemon">ShortPokemon</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#SingleTypePokemon">SingleTypePokemon</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#TallPokemon">TallPokemon</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#DualTypePokemon">DualTypePokemon</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="#hp">hp</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="#hasPokemonType">hasPokemonType</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#height">height</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="#weight">weight</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="#hasSpecies">hasSpecies</a><sup class="sup-fp" title="functional property">fp</sup><br/>
+                    <a href="#speed">speed</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="#defense">defense</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="#name">name</a><sup class="sup-fp" title="functional property">fp</sup><br/>
+                    <a href="#canLearn">canLearn</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#attack">attack</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="#description">description</a><sup class="sup-fp" title="functional property">fp</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="#isTypeOfPokemon">isTypeOfPokemon</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#canBeLearnedBy">canBeLearnedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isSpeciesOfPokemon">isSpeciesOfPokemon</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="PokemonMove">
+        <h3>
+          PokemonMove<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#PokemonMove" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A skill that a pokemon can use in a battle</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Restrictions</th>
+                <td>
+                    <a href="#hasMoveType">hasMoveType</a><sup class="sup-fp" title="functional property">fp</sup> <span class="cardinality">exactly</span> 1 <a href="#PokemonType">PokemonType</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="#description">description</a><sup class="sup-fp" title="functional property">fp</sup><br/>
+                    <a href="#canBeLearnedBy">canBeLearnedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#name">name</a><sup class="sup-fp" title="functional property">fp</sup><br/>
+                    <a href="#hasMoveType">hasMoveType</a><sup class="sup-fp" title="functional property">fp</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="#canLearn">canLearn</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isTypeOfMove">isTypeOfMove</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="PokemonSpecies">
+        <h3>
+          PokemonSpecies<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#PokemonSpecies" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonSpecies</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Pokemon species</p>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="#isSpeciesOfPokemon">isSpeciesOfPokemon</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#description">description</a><sup class="sup-fp" title="functional property">fp</sup><br/>
+                    <a href="#name">name</a><sup class="sup-fp" title="functional property">fp</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="#hasSpecies">hasSpecies</a><sup class="sup-fp" title="functional property">fp</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="PokemonType">
+        <h3>
+          PokemonType<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#PokemonType" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A type is a property of Moves and Pokemons. Pokemon: 1 or 2 types. Move: only 1 type</p>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="#hasDoubleDamageFrom">hasDoubleDamageFrom</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#hasNoDamageTo">hasNoDamageTo</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#hasHalfDamageFrom">hasHalfDamageFrom</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isTypeOfMove">isTypeOfMove</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#name">name</a><sup class="sup-fp" title="functional property">fp</sup><br/>
+                    <a href="#hasNoDamageFrom">hasNoDamageFrom</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#hasHalfDamageTo">hasHalfDamageTo</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#isTypeOfPokemon">isTypeOfPokemon</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#hasDoubleDamageTo">hasDoubleDamageTo</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="#hasDoubleDamageFrom">hasDoubleDamageFrom</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#hasMoveType">hasMoveType</a><sup class="sup-fp" title="functional property">fp</sup><br/>
+                    <a href="#hasNoDamageTo">hasNoDamageTo</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#hasPokemonType">hasPokemonType</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#hasHalfDamageFrom">hasHalfDamageFrom</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#hasHalfDamageTo">hasHalfDamageTo</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#hasNoDamageFrom">hasNoDamageFrom</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="#hasDoubleDamageTo">hasDoubleDamageTo</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="ShortPokemon">
+        <h3>
+          ShortPokemon<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#ShortPokemon" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#ShortPokemon</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A short Pokemon is the one whose height is less than 5 m</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="SingleTypePokemon">
+        <h3>
+          SingleTypePokemon<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#SingleTypePokemon" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#SingleTypePokemon</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A Pokeman that has only one type</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="TallPokemon">
+        <h3>
+          TallPokemon<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#TallPokemon" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#TallPokemon</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A tall Pokemans is the one whose height is more than 40 m</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+<section id="objectproperties">
+    <h2>Object Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#canBeLearnedBy">canBeLearnedBy</a></li>
+        <li><a href="#canLearn">canLearn</a></li>
+        <li><a href="#hasDoubleDamageFrom">hasDoubleDamageFrom</a></li>
+        <li><a href="#hasDoubleDamageTo">hasDoubleDamageTo</a></li>
+        <li><a href="#hasHalfDamageFrom">hasHalfDamageFrom</a></li>
+        <li><a href="#hasHalfDamageTo">hasHalfDamageTo</a></li>
+        <li><a href="#hasNoDamageFrom">hasNoDamageFrom</a></li>
+        <li><a href="#hasNoDamageTo">hasNoDamageTo</a></li>
+        <li><a href="#hasPokemonType">hasPokemonType</a></li>
+        <li><a href="#isSpeciesOfPokemon">isSpeciesOfPokemon</a></li>
+        <li><a href="#isTypeOfMove">isTypeOfMove</a></li>
+        <li><a href="#isTypeOfPokemon">isTypeOfPokemon</a></li>
+    </ul>
+    <div class="entity property" id="canBeLearnedBy">
+        <h3>canBeLearnedBy<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#canBeLearnedBy" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#canBeLearnedBy</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes which Pokemon can learn a given move</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Inverse properties</th>
+                <td>
+                    <a href="#canLearn">canLearn</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonMove">PokemonMove</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="canLearn">
+        <h3>canLearn<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#canLearn" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#canLearn</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes which moves a given Pokemon can learn</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasDoubleDamageFrom">
+        <h3>hasDoubleDamageFrom<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasDoubleDamageFrom" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasDoubleDamageFrom</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes which types are super effective against a given type. If the type of a move is super effective against a type of its target, the damage done is double the normal amount</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Inverse properties</th>
+                <td>
+                    <a href="#hasDoubleDamageTo">hasDoubleDamageTo</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonType">PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasDoubleDamageTo">
+        <h3>hasDoubleDamageTo<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasDoubleDamageTo" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasDoubleDamageTo</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes which types the given type is super effective against. If the type of a move is super effective against a type of its target, the damage done is double the normal amount</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonType">PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasHalfDamageFrom">
+        <h3>hasHalfDamageFrom<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasHalfDamageFrom" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasHalfDamageFrom</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes which types are not very effective against a given type. If the type of a move is not very effective against a type of its target, the damage done is half the normal amount</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Inverse properties</th>
+                <td>
+                    <a href="#hasHalfDamageTo">hasHalfDamageTo</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonType">PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasHalfDamageTo">
+        <h3>hasHalfDamageTo<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasHalfDamageTo" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasHalfDamageTo</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes which types the given type is not very effective against. If the type of a move is not very effective against a type of its target, the damage done is half the normal amount</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonType">PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasNoDamageFrom">
+        <h3>hasNoDamageFrom<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasNoDamageFrom" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasNoDamageFrom</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes which types are not effective against a given type. If the type of a move is not effective against a type of its target, the target is completely immune to it, and the move will deal no damage</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Inverse properties</th>
+                <td>
+                    <a href="#hasNoDamageTo">hasNoDamageTo</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonType">PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasNoDamageTo">
+        <h3>hasNoDamageTo<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasNoDamageTo" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasNoDamageTo</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes which types the given type is not effective against. If the type of a move is not effective against a type of its target, the target is completely immune to it, and the move will deal no damage</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonType">PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasPokemonType">
+        <h3>hasPokemonType<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasPokemonType" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasPokemonType</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes the type(s) of a given Pokemon. A Pokemon may have either one or two types</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Inverse properties</th>
+                <td>
+                    <a href="#isTypeOfPokemon">isTypeOfPokemon</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="isSpeciesOfPokemon">
+        <h3>isSpeciesOfPokemon<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#isSpeciesOfPokemon" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isSpeciesOfPokemon</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes the species of a Pokemon. A Pokemon has exactly one species</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonSpecies">PokemonSpecies</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="isTypeOfMove">
+        <h3>isTypeOfMove<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#isTypeOfMove" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isTypeOfMove</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes the moves of a given type. A move has exactly one type</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonType">PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonMove</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="isTypeOfPokemon">
+        <h3>isTypeOfPokemon<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#isTypeOfPokemon" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#isTypeOfPokemon</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes the Pokemon of a given type. A Pokemon may have 1 or 2 types</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonType">PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="functionalproperties">
+    <h2>Functional Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#description">description</a></li>
+        <li><a href="#hasMoveType">hasMoveType</a></li>
+        <li><a href="#hasSpecies">hasSpecies</a></li>
+        <li><a href="#name">name</a></li>
+    </ul>
+    <div class="entity property" id="description">
+        <h3>description<sup title="functional property" class="sup-fp">fp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#description" title="fragment link to here">#</a>&nbsp;<a href="#functionalproperties" title="Functional Properties Index">FPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#description</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A description of Pokemon, Type, Move, Species</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topDataProperty">owl:topDataProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonSpecies">PokemonSpecies</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#PokemonMove">PokemonMove</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasMoveType">
+        <h3>hasMoveType<sup title="functional property" class="sup-fp">fp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasMoveType" title="fragment link to here">#</a>&nbsp;<a href="#functionalproperties" title="Functional Properties Index">FPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasMoveType</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes the type of a given move. A move has exactly one type</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Inverse properties</th>
+                <td>
+                    <a href="#isTypeOfMove">isTypeOfMove</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonMove">PokemonMove</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonType</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hasSpecies">
+        <h3>hasSpecies<sup title="functional property" class="sup-fp">fp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasSpecies" title="fragment link to here">#</a>&nbsp;<a href="#functionalproperties" title="Functional Properties Index">FPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hasSpecies</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Describes the species of a Pokemon. A Pokemon has exactly one species</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topObjectProperty">owl:topObjectProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Inverse properties</th>
+                <td>
+                    <a href="#isSpeciesOfPokemon">isSpeciesOfPokemon</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonSpecies">http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#PokemonSpecies</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="name">
+        <h3>name<sup title="functional property" class="sup-fp">fp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#name" title="fragment link to here">#</a>&nbsp;<a href="#functionalproperties" title="Functional Properties Index">FPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#name</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A name of Pokemon, Type, Move, Species</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topDataProperty">owl:topDataProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#PokemonMove">PokemonMove</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#PokemonType">PokemonType</a><sup class="sup-c" title="class">c</sup>
+                    <a href="#PokemonSpecies">PokemonSpecies</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="datatypeproperties">
+    <h2>Datatype Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#attack">attack</a></li>
+        <li><a href="#defense">defense</a></li>
+        <li><a href="#height">height</a></li>
+        <li><a href="#hp">hp</a></li>
+        <li><a href="#speed">speed</a></li>
+        <li><a href="#weight">weight</a></li>
+    </ul>
+    <div class="entity property" id="attack">
+        <h3>attack<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#attack" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#attack</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>An attack of a Pokemon</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topDataProperty">owl:topDataProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#unsignedInt">xsd:unsignedInt</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="defense">
+        <h3>defense<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#defense" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#defense</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A defence of a Pokemon</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topDataProperty">owl:topDataProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#unsignedInt">xsd:unsignedInt</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="height">
+        <h3>height<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#height" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#height</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A height of a Pokemon</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topDataProperty">owl:topDataProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#unsignedInt">xsd:unsignedInt</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="hp">
+        <h3>hp<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hp" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#hp</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>An hp of a Pokemon</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topDataProperty">owl:topDataProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#unsignedInt">xsd:unsignedInt</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="speed">
+        <h3>speed<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#speed" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#speed</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A speed of a Pokemon</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topDataProperty">owl:topDataProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#unsignedInt">xsd:unsignedInt</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="weight">
+        <h3>weight<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#weight" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon#weight</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>A weight of a Pokemon</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://www.w3.org/2002/07/owl#topDataProperty">owl:topDataProperty</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#Pokemon">Pokemon</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#unsignedInt">xsd:unsignedInt</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+  
+  <section id="namespaces">
+    <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <dl>
+        <dt>default (:)</dt>
+        <dd><code>http://www.semanticweb.org/markus/ontologies/2022/9/pokemon</code></dd>
+        <dt>dct</dt>
+        <dd><code>http://purl.org/dc/terms/</code></dd>
+        <dt>owl</dt>
+        <dd><code>http://www.w3.org/2002/07/owl#</code></dd>
+        <dt>prov</dt>
+        <dd><code>http://www.w3.org/ns/prov#</code></dd>
+        <dt>rdf</dt>
+        <dd><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></dd>
+        <dt>rdfs</dt>
+        <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
+        <dt>sdo</dt>
+        <dd><code>https://schema.org/</code></dd>
+        <dt>skos</dt>
+        <dd><code>http://www.w3.org/2004/02/skos/core#</code></dd>
+        <dt>xsd</dt>
+        <dd><code>http://www.w3.org/2001/XMLSchema#</code></dd>
+    </dl>
+</section>
+  <section id="legend">
+      <h2>Legend</h2>
+      <table class="entity">
+          <tr><td><sup class="sup-c" title="Classes">c</sup></td><td>Classes</td></tr>
+          <tr><td><sup class="sup-op" title="Object Properties">op</sup></td><td>Object Properties</td></tr>
+          <tr><td><sup class="sup-fp" title="Functional Properties">fp</sup></td><td>Functional Properties</td></tr>
+          <tr><td><sup class="sup-dp" title="Data Properties">dp</sup></td><td>Data Properties</td></tr>
+          <tr><td><sup class="sup-ap" title="Annotation Properties">ap</sup></td><td>Annotation Properties</td></tr>
+          <tr><td><sup class="sup-p" title="Properties">p</sup></td><td>Properties</td></tr>
+          <tr><td><sup class="sup-ni" title="Named Individuals">ni</sup></td><td>Named Individuals</td></tr>
+      </table>
+  </section>
+</body>
+</html>
