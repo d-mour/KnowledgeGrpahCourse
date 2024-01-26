@@ -1,0 +1,152 @@
+[
+	{
+		"id":"XC762225",
+		"pitch":{
+			"median_pitch":"162.440 Hz",
+			"mean_pitch":"177.025 Hz",
+			"standart_deviation":"30.156 Hz",
+			"minimum_pitch":"111.205 Hz",
+			"maximum_pitch":"222.304 Hz"},
+		"pulses":{
+			"number_of_pulses":235,
+			"number_of_periods":234,
+			"mean_period":"5.667532E-3 seconds",
+			"standart_deviation_of_period":"1.096822E-3 seconds"},
+		"voicing":{
+			"fraction_of_locally_unvoiced_frames":"0",
+			"number_of_voice_breaks":0,
+			"degree_of_voice_breaks":"0"},
+		"jitter":{
+			"jitter_local":"4.526%",
+			"jitter_local_absolute":"256.510E-6 seconds",
+			"jitter_rap":"2.570%",
+			"jitter_ppq5":"3.120%",
+			"jitter_ddp":"7.709%"},
+		"shimmer":{
+			"shimmer_local":"20.358%",
+			"shimmer_local_dB":"1.772 dB",
+			"shimmer_apq3":"9.910%",
+			"shimmer_apq5":"13.120%",
+			"shimmer_dda":"29.731%"}
+	},
+	{
+		"id":"XC764842",
+		"pitch":{
+			"median_pitch":"385.947 Hz",
+			"mean_pitch":"391.245 Hz",
+			"standart_deviation":"32.963 Hz",
+			"minimum_pitch":"355.533 Hz",
+			"maximum_pitch":"504.732 Hz"},
+		"pulses":{
+			"number_of_pulses":536,
+			"number_of_periods":502,
+			"mean_period":"2.636152E-3 seconds",
+			"standart_deviation_of_period":"0.429697E-3 seconds"},
+		"voicing":{
+			"fraction_of_locally_unvoiced_frames":"19.298%",
+			"number_of_voice_breaks":4,
+			"degree_of_voice_breaks":"11.127%"},
+		"jitter":{
+			"jitter_local":"6.988%",
+			"jitter_local_absolute":"184.210E-6 seconds",
+			"jitter_rap":"3.973%",
+			"jitter_ppq5":"4.417%",
+			"jitter_ddp":"11.919%"},
+		"shimmer":{
+			"shimmer_local":"19.180%",
+			"shimmer_local_dB":"1.675 dB",
+			"shimmer_apq3":"9.138%",
+			"shimmer_apq5":"13.432%",
+			"shimmer_dda":"27.415%"}
+	},
+	{
+		"id":"XC765957",
+		"pitch":{
+			"median_pitch":"226.573 Hz",
+			"mean_pitch":"281.685 Hz",
+			"standart_deviation":"79.810 Hz",
+			"minimum_pitch":"201.046 Hz",
+			"maximum_pitch":"438.305 Hz"},
+		"pulses":{
+			"number_of_pulses":199,
+			"number_of_periods":191,
+			"mean_period":"3.591403E-3 seconds",
+			"standart_deviation_of_period":"0.965119E-3 seconds"},
+		"voicing":{
+			"fraction_of_locally_unvoiced_frames":"22.642%",
+			"number_of_voice_breaks":5,
+			"degree_of_voice_breaks":"28.090%"},
+		"jitter":{
+			"jitter_local":"1.743%",
+			"jitter_local_absolute":"62.602E-6 seconds",
+			"jitter_rap":"0.895%",
+			"jitter_ppq5":"1.036%",
+			"jitter_ddp":"2.685%"},
+		"shimmer":{
+			"shimmer_local":"10.101%",
+			"shimmer_local_dB":"1.267 dB",
+			"shimmer_apq3":"5.427%",
+			"shimmer_apq5":"7.702%",
+			"shimmer_dda":"16.281%"}
+	},
+	{
+		"id":"XC765958",
+		"pitch":{
+			"median_pitch":"387.073 Hz",
+			"mean_pitch":"324.434 Hz",
+			"standart_deviation":"123.443 Hz",
+			"minimum_pitch":"119.055 Hz",
+			"maximum_pitch":"499.643 Hz"},
+		"pulses":{
+			"number_of_pulses":273,
+			"number_of_periods":265,
+			"mean_period":"3.106918E-3 seconds",
+			"standart_deviation_of_period":"1.649054E-3 seconds"},
+		"voicing":{
+			"fraction_of_locally_unvoiced_frames":"10.204%",
+			"number_of_voice_breaks":3,
+			"degree_of_voice_breaks":"10.707%"},
+		"jitter":{
+			"jitter_local":"3.141%",
+			"jitter_local_absolute":"97.584E-6 seconds",
+			"jitter_rap":"1.589%",
+			"jitter_ppq5":"1.837%",
+			"jitter_ddp":"4.767%"},
+		"shimmer":{
+			"shimmer_local":"12.094%",
+			"shimmer_local_dB":"1.163 dB",
+			"shimmer_apq3":"6.255%",
+			"shimmer_apq5":"7.472%",
+			"shimmer_dda":"18.765%"}
+	},
+	{
+		"id":"XC780298",
+		"pitch":{
+			"median_pitch":"259.525 Hz",
+			"mean_pitch":"232.333 Hz",
+			"standart_deviation":"53.124 Hz",
+			"minimum_pitch":"129.295 Hz",
+			"maximum_pitch":"263.972 Hz"},
+		"pulses":{
+			"number_of_pulses":49,
+			"number_of_periods":45,
+			"mean_period":"4.337896E-3 seconds",
+			"standart_deviation_of_period":"1.346208E-3 seconds"},
+		"voicing":{
+			"fraction_of_locally_unvoiced_frames":"62.162%",
+			"number_of_voice_breaks":2,
+			"degree_of_voice_breaks":"31.878%"},
+		"jitter":{
+			"jitter_local":"6.249%",
+			"jitter_local_absolute":"271.078E-6 seconds",
+			"jitter_rap":"3.948%",
+			"jitter_ppq5":"4.628%",
+			"jitter_ddp":"11.844%"},
+		"shimmer":{
+			"shimmer_local":"13.651%",
+			"shimmer_local_dB":"1.272 dB",
+			"shimmer_apq3":"7.757%",
+			"shimmer_apq5":"9.493%",
+			"shimmer_dda":"23.272%"}
+	}
+]

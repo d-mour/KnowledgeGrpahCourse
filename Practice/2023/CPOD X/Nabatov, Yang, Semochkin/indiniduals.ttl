@@ -1,0 +1,1367 @@
+@prefix ns1: <http://DogForFamily.ru/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Quiet_dogs ns1:max_loud_at 69 ;
+    ns1:min_loud_at 0 .
+
+ns1:affenpinscher ns1:contains_dog "[{'xtl': '28.00', 'ytl': '0.00', 'xbr': '290.00', 'ybr': '333.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 3.1e+01 ;
+    ns1:heights_min 2.3e+01 ;
+    ns1:looks_like "Images/n02110627_10439.jpg" ;
+    ns1:refers_to ns1:Little_dogs,
+        ns1:Without_human_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 6e+00 ;
+    ns1:weights_min 4e+00 .
+
+ns1:afghan_hound ns1:contains_dog "[{'xtl': '238.00', 'ytl': '74.00', 'xbr': '446.00', 'ybr': '329.00'}]" ;
+    ns1:contains_person "[{'xtl': '0.00', 'ytl': '75.00', 'xbr': '276.00', 'ybr': '329.00'}]" ;
+    ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 6.4e+01 ;
+    ns1:looks_like "Images/n02088094_1007.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:With_human_dogs,
+        ns1:lowest_degree_of_working_obedience_intelligence ;
+    ns1:weights_max 2.8e+01 ;
+    ns1:weights_min 2.3e+01 .
+
+ns1:african_hunting_dog ns1:looks_like "Images/n02116738-African_hunting_dog/n02116738_10469.jpg" .
+
+ns1:airdale_terrier ns1:heights_max 6.1e+01 ;
+    ns1:heights_min 5.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 2.1e+01 ;
+    ns1:weights_min 2.1e+01 .
+
+ns1:airedale ns1:looks_like "Images/n02096051-Airedale/n02096051_1110.jpg" .
+
+ns1:airedale_terrier ns1:refers_to ns1:above_average_working_dogs .
+
+ns1:akita ns1:heights_max 7.2e+01 ;
+    ns1:heights_min 6.7e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 5.5e+01 ;
+    ns1:weights_min 3.7e+01 .
+
+ns1:alaskan_malamute ns1:refers_to ns1:average_working_obedience_intelligence .
+
+ns1:american_eskimo ns1:heights_max 4.9e+01 ;
+    ns1:heights_min 2.3e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 1.4e+01 ;
+    ns1:weights_min 1.2e+01 .
+
+ns1:american_foxhound ns1:heights_max 6.4e+01 ;
+    ns1:heights_min 5.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 3.2e+01 ;
+    ns1:weights_min 3e+01 .
+
+ns1:american_staffordshire_terrier ns1:contains_dog "[{'xtl': '166.00', 'ytl': '78.00', 'xbr': '500.00', 'ybr': '319.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 4.9e+01 ;
+    ns1:heights_min 4.4e+01 ;
+    ns1:looks_like "Images/n02093428_10896.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 2.3e+01 ;
+    ns1:weights_min 1.9e+01 .
+
+ns1:american_water_spaniel ns1:heights_max 4.6e+01 ;
+    ns1:heights_min 3.9e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 2.1e+01 ;
+    ns1:weights_min 1.2e+01 .
+
+ns1:anatolian_sheepdog ns1:heights_max 7.4e+01 ;
+    ns1:heights_min 6.9e+01 ;
+    ns1:refers_to ns1:Big_dogs ;
+    ns1:weights_max 6.9e+01 ;
+    ns1:weights_min 4.6e+01 .
+
+ns1:appenzeller ns1:looks_like "Images/n02107908-Appenzeller/n02107908_1426.jpg" .
+
+ns1:australian_cattle_dog ns1:heights_max 5.1e+01 ;
+    ns1:heights_min 4.4e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:brightest_dogs ;
+    ns1:weights_max 2.1e+01 ;
+    ns1:weights_min 1.6e+01 .
+
+ns1:australian_shepherd ns1:heights_max 5.9e+01 ;
+    ns1:heights_min 4.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 2.8e+01 ;
+    ns1:weights_min 1.9e+01 .
+
+ns1:australian_silky_terrier ns1:refers_to ns1:above_average_working_dogs .
+
+ns1:australian_terrier ns1:contains_dog "[{'xtl': '1.00', 'ytl': '14.00', 'xbr': '306.00', 'ybr': '371.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 2.6e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:looks_like "Images/n02096294_1299.jpg" ;
+    ns1:refers_to ns1:Little_dogs,
+        ns1:Without_human_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 7e+00 ;
+    ns1:weights_min 5e+00 .
+
+ns1:basenji ns1:contains_dog "[{'xtl': '295.00', 'ytl': '570.00', 'xbr': '736.00', 'ybr': '957.00'}]" ;
+    ns1:contains_person "[{'xtl': '373.00', 'ytl': '381.00', 'xbr': '724.00', 'ybr': '732.00'}, {'xtl': '40.00', 'ytl': '45.00', 'xbr': '371.00', 'ybr': '769.00'}, {'xtl': '366.00', 'ytl': '469.00', 'xbr': '431.00', 'ybr': '563.00'}, {'xtl': '7.00', 'ytl': '472.00', 'xbr': '108.00', 'ybr': '714.00'}, {'xtl': '705.00', 'ytl': '496.00', 'xbr': '770.00', 'ybr': '773.00'}]" ;
+    ns1:heights_max 4.4e+01 ;
+    ns1:heights_min 4.4e+01 ;
+    ns1:looks_like "Images/n02110806_1019.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:With_human_dogs,
+        ns1:lowest_degree_of_working_obedience_intelligence ;
+    ns1:weights_max 1e+01 ;
+    ns1:weights_min 1e+01 .
+
+ns1:basset ns1:looks_like "Images/n02088238-basset/n02088238_10005.jpg" .
+
+ns1:basset_hound ns1:heights_max 3.6e+01 ;
+    ns1:heights_min 3.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:lowest_degree_of_working_obedience_intelligence ;
+    ns1:weights_max 2.3e+01 ;
+    ns1:weights_min 1.9e+01 .
+
+ns1:beagle ns1:heights_max 4.1e+01 ;
+    ns1:heights_min 3.4e+01 ;
+    ns1:looks_like "Images/n02088364-beagle/n02088364_11130.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:lowest_degree_of_working_obedience_intelligence ;
+    ns1:weights_max 1.4e+01 ;
+    ns1:weights_min 9e+00 .
+
+ns1:bearded_collie ns1:heights_max 5.6e+01 ;
+    ns1:heights_min 5.1e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 2.8e+01 ;
+    ns1:weights_min 1.9e+01 .
+
+ns1:beauceron ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 6.1e+01 ;
+    ns1:refers_to ns1:Big_dogs ;
+    ns1:weights_max 5.5e+01 ;
+    ns1:weights_min 4.6e+01 .
+
+ns1:bedlington_terrier ns1:contains_dog "[{'xtl': '84.12', 'ytl': '49.06', 'xbr': '442.30', 'ybr': '364.90'}]" ;
+    ns1:contains_person "[{'xtl': '0.00', 'ytl': '0.00', 'xbr': '82.00', 'ybr': '185.00'}, {'xtl': '352.00', 'ytl': '43.00', 'xbr': '473.00', 'ybr': '223.00'}, {'xtl': '177.00', 'ytl': '0.00', 'xbr': '255.00', 'ybr': '100.00'}]" ;
+    ns1:heights_max 4.1e+01 ;
+    ns1:heights_min 3.9e+01 ;
+    ns1:looks_like "Images/n02093647_1081.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:With_human_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 1.1e+01 ;
+    ns1:weights_min 9e+00 .
+
+ns1:belgian_malinois ns1:refers_to ns1:excellent_working_dogs .
+
+ns1:belgian_sheepdog ns1:heights_max 6.7e+01 ;
+    ns1:heights_min 5.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:excellent_working_dogs ;
+    ns1:weights_max 3.5e+01 ;
+    ns1:weights_min 2.8e+01 .
+
+ns1:belgian_shepherd_dog_\(tervuren\) ns1:refers_to ns1:excellent_working_dogs .
+
+ns1:belgian_tervuren ns1:heights_max 6.7e+01 ;
+    ns1:heights_min 5.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 3.5e+01 ;
+    ns1:weights_min 2.8e+01 .
+
+ns1:bernese_mountain_dog ns1:contains_dog "[{'xtl': '132.00', 'ytl': '128.80', 'xbr': '299.00', 'ybr': '262.30'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 5.9e+01 ;
+    ns1:looks_like "Images/n02107683_1175.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:excellent_working_dogs ;
+    ns1:weights_max 5e+01 ;
+    ns1:weights_min 3.9e+01 .
+
+ns1:bichon_frise ns1:heights_max 3e+01 ;
+    ns1:heights_min 2.5e+01 ;
+    ns1:refers_to ns1:Little_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 9e+00 ;
+    ns1:weights_min 5e+00 .
+
+ns1:black ns1:looks_like "Images/n02089078-black-and-tan_coonhound/n02089078_1151.jpg" .
+
+ns1:black_and_tan_coonhound ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 5.9e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 3.5e+01 ;
+    ns1:weights_min 2.3e+01 .
+
+ns1:black_russian_terrier ns1:heights_max 7.4e+01 ;
+    ns1:heights_min 6.4e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 6.4e+01 ;
+    ns1:weights_min 3.7e+01 .
+
+ns1:blenheim_spaniel ns1:looks_like "Images/n02086646-Blenheim_spaniel/n02086646_1002.jpg" .
+
+ns1:bloodhound ns1:contains_dog "[{'xtl': '40.00', 'ytl': '8.00', 'xbr': '211.00', 'ybr': '173.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 6.7e+01 ;
+    ns1:heights_min 6.1e+01 ;
+    ns1:looks_like "Images/n02088466_1015.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:lowest_degree_of_working_obedience_intelligence ;
+    ns1:weights_max 5.5e+01 ;
+    ns1:weights_min 3.7e+01 .
+
+ns1:bluetick ns1:looks_like "Images/n02088632-bluetick/n02088632_109.jpg" .
+
+ns1:border_collie ns1:contains_dog "[{'xtl': '63.00', 'ytl': '3.00', 'xbr': '498.00', 'ybr': '326.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 5.4e+01 ;
+    ns1:heights_min 4.9e+01 ;
+    ns1:looks_like "Images/n02106166_1128.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:brightest_dogs ;
+    ns1:weights_max 1.9e+01 ;
+    ns1:weights_min 1.9e+01 .
+
+ns1:border_terrier ns1:contains_dog "[{'xtl': '86.00', 'ytl': '97.00', 'xbr': '446.00', 'ybr': '318.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 3.9e+01 ;
+    ns1:heights_min 3.1e+01 ;
+    ns1:looks_like "Images/n02093754_1062.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 7e+00 ;
+    ns1:weights_min 6e+00 .
+
+ns1:borzoi ns1:contains_dog "[{'xtl': '94.00', 'ytl': '73.00', 'xbr': '436.00', 'ybr': '404.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 7.2e+01 ;
+    ns1:heights_min 6.7e+01 ;
+    ns1:looks_like "Images/n02090622_10492.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:lowest_degree_of_working_obedience_intelligence ;
+    ns1:weights_max 4.6e+01 ;
+    ns1:weights_min 3.2e+01 .
+
+ns1:boston_bull ns1:looks_like "Images/n02096585-Boston_bull/n02096585_10452.jpg" .
+
+ns1:boston_terrier ns1:heights_max 3.9e+01 ;
+    ns1:heights_min 3.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 1.2e+01 ;
+    ns1:weights_min 7e+00 .
+
+ns1:bouvier_des_flandres ns1:contains_dog "[{'xtl': '31.00', 'ytl': '196.00', 'xbr': '205.00', 'ybr': '462.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 5.9e+01 ;
+    ns1:looks_like "Images/n02106382_1048.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 4.4e+01 ;
+    ns1:weights_min 3.5e+01 .
+
+ns1:boxer ns1:contains_dog "[{'xtl': '97.00', 'ytl': '29.00', 'xbr': '347.00', 'ybr': '319.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 6.4e+01 ;
+    ns1:heights_min 5.4e+01 ;
+    ns1:looks_like "Images/n02108089_1031.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 3.2e+01 ;
+    ns1:weights_min 3e+01 .
+
+ns1:brabancon_griffon ns1:looks_like "Images/n02112706-Brabancon_griffon/n02112706_1041.jpg" .
+
+ns1:briard ns1:contains_dog "[{'xtl': '3.00', 'ytl': '5.00', 'xbr': '393.00', 'ybr': '488.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 5.9e+01 ;
+    ns1:looks_like "Images/n02105251_1588.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 3.5e+01 ;
+    ns1:weights_min 3.4e+01 .
+
+ns1:brittany ns1:heights_max 5.4e+01 ;
+    ns1:heights_min 4.4e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:excellent_working_dogs ;
+    ns1:weights_max 1.9e+01 ;
+    ns1:weights_min 1.4e+01 .
+
+ns1:brittany_spaniel ns1:looks_like "Images/n02101388-Brittany_spaniel/n02101388_1517.jpg" .
+
+ns1:brussels_griffon ns1:heights_max 2.1e+01 ;
+    ns1:heights_min 1.8e+01 ;
+    ns1:refers_to ns1:Little_dogs ;
+    ns1:weights_max 6e+00 ;
+    ns1:weights_min 3e+00 .
+
+ns1:bull_dog ns1:heights_max 4.1e+01 ;
+    ns1:heights_min 3.1e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 2.8e+01 ;
+    ns1:weights_min 2.3e+01 .
+
+ns1:bull_mastiff ns1:looks_like "Images/n02108422-bull_mastiff/n02108422_1013.jpg" .
+
+ns1:bull_terrier ns1:heights_max 5.6e+01 ;
+    ns1:heights_min 5.4e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 3.2e+01 ;
+    ns1:weights_min 2.3e+01 .
+
+ns1:bulldog ns1:refers_to ns1:lowest_degree_of_working_obedience_intelligence .
+
+ns1:bullmastiff ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 6.4e+01 ;
+    ns1:refers_to ns1:Big_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 5.9e+01 ;
+    ns1:weights_min 4.6e+01 .
+
+ns1:cairn ns1:heights_max 2.6e+01 ;
+    ns1:heights_min 2.3e+01 ;
+    ns1:looks_like "Images/n02096177-cairn/n02096177_10698.jpg" ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 7e+00 ;
+    ns1:weights_min 7e+00 .
+
+ns1:cairn_terrier ns1:refers_to ns1:above_average_working_dogs .
+
+ns1:canaan_dog ns1:heights_max 6.1e+01 ;
+    ns1:heights_min 4.9e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 2.5e+01 ;
+    ns1:weights_min 1.6e+01 .
+
+ns1:cardigan ns1:heights_max 3.1e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:looks_like "Images/n02113186-Cardigan/n02113186_10475.jpg" ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 1.6e+01 ;
+    ns1:weights_min 1.2e+01 .
+
+ns1:cardigan_welsh_corgi ns1:refers_to ns1:excellent_working_dogs .
+
+ns1:cavalier_king_charles_spaniel ns1:heights_max 3.9e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 1e+01 ;
+    ns1:weights_min 7e+00 .
+
+ns1:chesapeake_bay_retriever ns1:contains_dog "[{'xtl': '220.00', 'ytl': '122.00', 'xbr': '348.00', 'ybr': '270.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 6.7e+01 ;
+    ns1:heights_min 5.4e+01 ;
+    ns1:looks_like "Images/n02099849_1212.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 3.5e+01 ;
+    ns1:weights_min 2.5e+01 .
+
+ns1:chihuahua ns1:contains_dog "[{'xtl': '86.00', 'ytl': '35.00', 'xbr': '362.00', 'ybr': '374.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 2.3e+01 ;
+    ns1:heights_min 1.6e+01 ;
+    ns1:looks_like "Images/n02085620_11258.jpg" ;
+    ns1:refers_to ns1:Little_dogs,
+        ns1:Without_human_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 3e+00 ;
+    ns1:weights_min 1e+00 .
+
+ns1:chinese_crested ns1:heights_max 3.4e+01 ;
+    ns1:heights_min 2.8e+01 ;
+    ns1:refers_to ns1:Little_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 6e+00 ;
+    ns1:weights_min 3e+00 .
+
+ns1:chinese_shar_pei ns1:heights_max 5.1e+01 ;
+    ns1:heights_min 4.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 2.5e+01 ;
+    ns1:weights_min 2.1e+01 .
+
+ns1:chow ns1:heights_max 5.6e+01 ;
+    ns1:heights_min 4.9e+01 ;
+    ns1:looks_like "Images/n02112137-chow/n02112137_10430.jpg" ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 2.5e+01 ;
+    ns1:weights_min 2.1e+01 .
+
+ns1:chow_chow ns1:refers_to ns1:lowest_degree_of_working_obedience_intelligence .
+
+ns1:clumber ns1:heights_max 5.1e+01 ;
+    ns1:heights_min 4.9e+01 ;
+    ns1:looks_like "Images/n02101556-clumber/n02101556_1116.jpg" ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 3e+01 ;
+    ns1:weights_min 1.6e+01 .
+
+ns1:clumber_spaniel ns1:refers_to ns1:above_average_working_dogs .
+
+ns1:cocker_spaniel ns1:heights_max 4.1e+01,
+        4.4e+01 ;
+    ns1:heights_min 3.9e+01 ;
+    ns1:looks_like "Images/n02102318-cocker_spaniel/n02102318_10020.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:excellent_working_dogs ;
+    ns1:weights_max 1.3e+01,
+        1.6e+01 ;
+    ns1:weights_min 1e+01,
+        1.2e+01 .
+
+ns1:collie ns1:contains_dog "[{'xtl': '298.00', 'ytl': '275.00', 'xbr': '485.00', 'ybr': '480.00'}, {'xtl': '47.00', 'ytl': '262.00', 'xbr': '219.00', 'ybr': '479.00'}]" ;
+    ns1:contains_person "[{'xtl': '157.00', 'ytl': '51.00', 'xbr': '279.00', 'ybr': '453.00'}, {'xtl': '8.00', 'ytl': '43.00', 'xbr': '175.00', 'ybr': '461.00'}, {'xtl': '273.00', 'ytl': '21.00', 'xbr': '433.00', 'ybr': '461.00'}]" ;
+    ns1:heights_max 6.7e+01 ;
+    ns1:heights_min 5.6e+01 ;
+    ns1:looks_like "Images/n02106030_17179.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:With_human_dogs,
+        ns1:excellent_working_dogs ;
+    ns1:weights_max 3.5e+01 ;
+    ns1:weights_min 2.3e+01 .
+
+ns1:curly ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 6.4e+01 ;
+    ns1:looks_like "Images/n02099429-curly-coated_retriever/n02099429_1068.jpg" ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 3.7e+01 ;
+    ns1:weights_min 3e+01 .
+
+ns1:curly_coated_retriever ns1:refers_to ns1:average_working_obedience_intelligence .
+
+ns1:dachshund ns1:heights_max 2.6e+01 ;
+    ns1:heights_min 1.8e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 1.5e+01 ;
+    ns1:weights_min 8e+00 .
+
+ns1:dalmatian ns1:heights_max 5.9e+01 ;
+    ns1:heights_min 4.9e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 3.2e+01 ;
+    ns1:weights_min 2.1e+01 .
+
+ns1:dandie_dinmont ns1:heights_max 6.1e+01 ;
+    ns1:heights_min 4.6e+01 ;
+    ns1:looks_like "Images/n02096437-Dandie_Dinmont/n02096437_1129.jpg" ;
+    ns1:refers_to ns1:Little_dogs ;
+    ns1:weights_max 5e+00 ;
+    ns1:weights_min 4e+00 .
+
+ns1:dandie_dinmont_terrier ns1:refers_to ns1:fair_working_obedience_intelligence .
+
+ns1:dhole ns1:looks_like "Images/n02115913-dhole/n02115913_1067.jpg" .
+
+ns1:dingo ns1:contains_dog "[{'xtl': '123.60', 'ytl': '178.10', 'xbr': '349.14', 'ybr': '372.00'}]" ;
+    ns1:contains_person "[{'xtl': '347.20', 'ytl': '105.49', 'xbr': '473.49', 'ybr': '369.20'}, {'xtl': '1.00', 'ytl': '0.00', 'xbr': '194.30', 'ybr': '370.00'}]" ;
+    ns1:looks_like "Images/n02115641_9302.jpg" ;
+    ns1:refers_to ns1:With_human_dogs .
+
+ns1:doberman ns1:contains_dog "[{'xtl': '105.00', 'ytl': '365.00', 'xbr': '285.00', 'ybr': '500.00'}, {'xtl': '0.00', 'ytl': '304.00', 'xbr': '145.00', 'ybr': '498.00'}]" ;
+    ns1:contains_person "[{'xtl': '2.00', 'ytl': '207.00', 'xbr': '178.00', 'ybr': '500.00'}]" ;
+    ns1:heights_max 7.2e+01 ;
+    ns1:heights_min 6.7e+01 ;
+    ns1:looks_like "Images/n02107142_9597.jpg" ;
+    ns1:loud_at 8.158e+01 ;
+    ns1:refers_to ns1:Loud_dogs,
+        ns1:Medium_dogs,
+        ns1:With_human_dogs ;
+    ns1:sounds_like "/content/lay-dobermana.wav" ;
+    ns1:weights_max 4.6e+01 ;
+    ns1:weights_min 2.8e+01 .
+
+ns1:doberman_pinscher ns1:refers_to ns1:brightest_dogs .
+
+ns1:english_cocker_spaniel ns1:refers_to ns1:excellent_working_dogs .
+
+ns1:english_foxhound ns1:heights_max 6.4e+01 ;
+    ns1:heights_min 5.6e+01 ;
+    ns1:looks_like "Images/n02089973-English_foxhound/n02089973_2.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 3.2e+01 ;
+    ns1:weights_min 3e+01 .
+
+ns1:english_setter ns1:contains_dog "[{'xtl': '2.00', 'ytl': '3.00', 'xbr': '495.00', 'ybr': '319.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 5.9e+01 ;
+    ns1:looks_like "Images/n02100735_10114.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 3.7e+01 ;
+    ns1:weights_min 2.1e+01 .
+
+ns1:english_springer ns1:heights_max 5.1e+01 ;
+    ns1:heights_min 5.1e+01 ;
+    ns1:looks_like "Images/n02102040-English_springer/n02102040_1147.jpg" ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 2.5e+01 ;
+    ns1:weights_min 2.1e+01 .
+
+ns1:english_springer_spaniel ns1:refers_to ns1:excellent_working_dogs .
+
+ns1:english_toy_spaniel ns1:heights_max 2.6e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:refers_to ns1:Little_dogs ;
+    ns1:weights_max 7e+00 ;
+    ns1:weights_min 5e+00 .
+
+ns1:entlebucher ns1:looks_like "Images/n02108000-EntleBucher/n02108000_1111.jpg" .
+
+ns1:eskimo_dog ns1:looks_like "Images/n02109961-Eskimo_dog/n02109961_1032.jpg" .
+
+ns1:field_spaniel ns1:heights_max 4.6e+01 ;
+    ns1:heights_min 4.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 2.3e+01 ;
+    ns1:weights_min 1.6e+01 .
+
+ns1:finnish_spitz ns1:heights_max 5.1e+01 ;
+    ns1:heights_min 3.9e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 1.6e+01 ;
+    ns1:weights_min 1.5e+01 .
+
+ns1:flat ns1:heights_max 5.9e+01 ;
+    ns1:heights_min 5.6e+01 ;
+    ns1:looks_like "Images/n02099267-flat-coated_retriever/n02099267_1272.jpg" ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 3.2e+01 ;
+    ns1:weights_min 2.8e+01 .
+
+ns1:flat-coated_retriever ns1:refers_to ns1:excellent_working_dogs .
+
+ns1:fox_terrier_\(smooth\) ns1:refers_to ns1:average_working_obedience_intelligence .
+
+<http://DogForFamily.ru/#fox_terrier_‰ыт_smooth> ns1:heights_max 4.1e+01 ;
+    ns1:heights_min 3.4e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 1e+01 ;
+    ns1:weights_min 7e+00 .
+
+<http://DogForFamily.ru/#fox_terrier_‰ыт_wirehair> ns1:heights_max 4.1e+01 ;
+    ns1:heights_min 3.4e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 1e+01 ;
+    ns1:weights_min 7e+00 .
+
+ns1:french_bulldog ns1:contains_dog "[{'xtl': '66.00', 'ytl': '18.00', 'xbr': '446.00', 'ybr': '346.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 3.1e+01 ;
+    ns1:heights_min 2.8e+01 ;
+    ns1:looks_like "Images/n02108915_225.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 1.3e+01 ;
+    ns1:weights_min 8e+00 .
+
+ns1:german_pinscher ns1:heights_max 4.9e+01 ;
+    ns1:heights_min 4.1e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 1.6e+01 ;
+    ns1:weights_min 1.2e+01 .
+
+ns1:german_shepherd ns1:heights_max 6.7e+01 ;
+    ns1:heights_min 5.6e+01 ;
+    ns1:looks_like "Images/n02106662-German_shepherd/n02106662_10858.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:brightest_dogs ;
+    ns1:weights_max 4.1e+01 ;
+    ns1:weights_min 3.5e+01 .
+
+ns1:german_short ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 5.1e+01 ;
+    ns1:looks_like "Images/n02100236-German_short-haired_pointer/n02100236_1258.jpg" ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 3.7e+01 ;
+    ns1:weights_min 2.3e+01 .
+
+ns1:german_shorthaired_pointer ns1:refers_to ns1:excellent_working_dogs .
+
+ns1:german_wirehaired_pointer ns1:heights_max 6.7e+01 ;
+    ns1:heights_min 5.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 3.2e+01 ;
+    ns1:weights_min 2.8e+01 .
+
+ns1:giant_schnauzer ns1:contains_dog "[{'xtl': '180.00', 'ytl': '10.00', 'xbr': '398.00', 'ybr': '338.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 7.2e+01 ;
+    ns1:heights_min 6.4e+01 ;
+    ns1:looks_like "Images/n02097130_1032.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 3.5e+01 ;
+    ns1:weights_min 3.2e+01 .
+
+ns1:glen_imaal_terrier ns1:heights_max 3.6e+01 ;
+    ns1:heights_min 3.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 1.7e+01 ;
+    ns1:weights_min 1.6e+01 .
+
+ns1:golden_retriever ns1:contains_dog "[{'xtl': '36.00', 'ytl': '17.00', 'xbr': '350.00', 'ybr': '253.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 6.1e+01 ;
+    ns1:heights_min 5.4e+01 ;
+    ns1:looks_like "Images/n02099601_100.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:brightest_dogs ;
+    ns1:weights_max 3.5e+01 ;
+    ns1:weights_min 2.5e+01 .
+
+ns1:gordon_setter ns1:contains_dog "[{'xtl': '45.00', 'ytl': '15.00', 'xbr': '529.00', 'ybr': '492.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 5.9e+01 ;
+    ns1:looks_like "Images/n02101006_1016.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:Without_human_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 3.7e+01 ;
+    ns1:weights_min 2.1e+01 .
+
+ns1:great_dane ns1:contains_dog "[{'xtl': '124.00', 'ytl': '55.00', 'xbr': '403.00', 'ybr': '331.00'}]" ;
+    ns1:contains_person "[]" ;
+    ns1:heights_max 8.2e+01 ;
+    ns1:heights_min 8.2e+01 ;
+    ns1:looks_like "Images/n02109047_11472.jpg" ;
+    ns1:refers_to ns1:Big_dogs,
+        ns1:Without_human_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 7.3e+01 ;
+    ns1:weights_min 5.5e+01 .
+
+ns1:great_pyrenees ns1:heights_max 8.2e+01 ;
+    ns1:heights_min 6.9e+01 ;
+    ns1:looks_like "Images/n02111500-Great_Pyrenees/n02111500_1149.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 5.5e+01 ;
+    ns1:weights_min 4.4e+01 .
+
+ns1:great_swiss_mountain_dog ns1:heights_max 7.2e+01 ;
+    ns1:heights_min 5.9e+01 ;
+    ns1:refers_to ns1:Big_dogs ;
+    ns1:weights_max 6.9e+01 ;
+    ns1:weights_min 5.9e+01 .
+
+ns1:greater_swiss_mountain_dog ns1:looks_like "Images/n02107574-Greater_Swiss_Mountain_dog/n02107574_1019.jpg" .
+
+ns1:greyhound ns1:heights_max 7.7e+01 ;
+    ns1:heights_min 6.9e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 3.2e+01 ;
+    ns1:weights_min 2.8e+01 .
+
+ns1:griffon_bruxellois ns1:refers_to ns1:fair_working_obedience_intelligence .
+
+ns1:groenendael ns1:looks_like "Images/n02105056-groenendael/n02105056_1018.jpg" .
+
+ns1:harrier ns1:heights_max 5.4e+01 ;
+    ns1:heights_min 4.9e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 2.8e+01 ;
+    ns1:weights_min 1.9e+01 .
+
+ns1:havanese ns1:refers_to ns1:average_working_obedience_intelligence .
+
+ns1:ibizan_hound ns1:heights_max 7.4e+01 ;
+    ns1:heights_min 5.6e+01 ;
+    ns1:looks_like "Images/n02091244-Ibizan_hound/n02091244_1030.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 2.5e+01 ;
+    ns1:weights_min 2e+01 .
+
+ns1:irish_setter ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 6.4e+01 ;
+    ns1:looks_like "Images/n02100877-Irish_setter/n02100877_1201.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 3.2e+01 ;
+    ns1:weights_min 2.8e+01 .
+
+ns1:irish_terrier ns1:heights_max 4.9e+01 ;
+    ns1:heights_min 4.6e+01 ;
+    ns1:looks_like "Images/n02093991-Irish_terrier/n02093991_114.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 1.3e+01 ;
+    ns1:weights_min 1.2e+01 .
+
+ns1:irish_water_spaniel ns1:heights_max 5.9e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:looks_like "Images/n02102973-Irish_water_spaniel/n02102973_1066.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:excellent_working_dogs ;
+    ns1:weights_max 3e+01 ;
+    ns1:weights_min 2.1e+01 .
+
+ns1:irish_wolfhound ns1:heights_max 8.9e+01 ;
+    ns1:heights_min 7.2e+01 ;
+    ns1:looks_like "Images/n02090721-Irish_wolfhound/n02090721_1002.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 6.9e+01 ;
+    ns1:weights_min 4.1e+01 .
+
+ns1:italian_greyhound ns1:heights_max 3.9e+01 ;
+    ns1:heights_min 3.1e+01 ;
+    ns1:looks_like "Images/n02091032-Italian_greyhound/n02091032_10314.jpg" ;
+    ns1:refers_to ns1:Little_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 5e+00 ;
+    ns1:weights_min 3e+00 .
+
+ns1:jack_russell_terrier ns1:refers_to ns1:average_working_obedience_intelligence .
+
+ns1:japanese_chin ns1:heights_max 2.8e+01 ;
+    ns1:heights_min 2.1e+01 ;
+    ns1:refers_to ns1:Little_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 5e+00 ;
+    ns1:weights_min 2e+00 .
+
+ns1:japanese_spaniel ns1:looks_like "Images/n02085782-Japanese_spaniel/n02085782_1059.jpg" .
+
+ns1:keeshond ns1:heights_max 4.9e+01 ;
+    ns1:heights_min 4.4e+01 ;
+    ns1:looks_like "Images/n02112350-keeshond/n02112350_10239.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:excellent_working_dogs ;
+    ns1:weights_max 2.3e+01 ;
+    ns1:weights_min 1.6e+01 .
+
+ns1:kelpie ns1:looks_like "Images/n02105412-kelpie/n02105412_1078.jpg" .
+
+ns1:kerry_blue_terrier ns1:heights_max 5.4e+01 ;
+    ns1:heights_min 4.4e+01 ;
+    ns1:looks_like "Images/n02093859-Kerry_blue_terrier/n02093859_10.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 2.1e+01 ;
+    ns1:weights_min 1.4e+01 .
+
+ns1:king_charles_spaniel ns1:refers_to ns1:average_working_obedience_intelligence .
+
+ns1:komondor ns1:heights_max 9.1e+01 ;
+    ns1:heights_min 6.8e+01 ;
+    ns1:looks_like "Images/n02105505-komondor/n02105505_1018.jpg" ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 6.2e+01 ;
+    ns1:weights_min 3.7e+01 .
+
+ns1:kuvasz ns1:heights_max 7.7e+01 ;
+    ns1:heights_min 7.2e+01 ;
+    ns1:looks_like "Images/n02104029-kuvasz/n02104029_1138.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 5.5e+01 ;
+    ns1:weights_min 3.2e+01 .
+
+ns1:labrador_retriever ns1:heights_max 6.1e+01 ;
+    ns1:heights_min 5.4e+01 ;
+    ns1:looks_like "Images/n02099712-Labrador_retriever/n02099712_1254.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:brightest_dogs ;
+    ns1:weights_max 3.7e+01 ;
+    ns1:weights_min 2.5e+01 .
+
+ns1:lakeland_terrier ns1:heights_max 3.6e+01 ;
+    ns1:heights_min 3.4e+01 ;
+    ns1:looks_like "Images/n02095570-Lakeland_terrier/n02095570_1031.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 8e+00 ;
+    ns1:weights_min 7e+00 .
+
+ns1:leonberg ns1:looks_like "Images/n02111129-Leonberg/n02111129_1153.jpg" .
+
+ns1:lhasa ns1:looks_like "Images/n02098413-Lhasa/n02098413_12198.jpg" .
+
+ns1:lhasa_apso ns1:refers_to ns1:fair_working_obedience_intelligence .
+
+ns1:malamute ns1:looks_like "Images/n02110063-malamute/n02110063_1058.jpg" .
+
+ns1:malinois ns1:heights_max 6.7e+01 ;
+    ns1:heights_min 5.6e+01 ;
+    ns1:looks_like "Images/n02105162-malinois/n02105162_1357.jpg" ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 3e+01 ;
+    ns1:weights_min 2.8e+01 .
+
+ns1:maltese ns1:heights_max 2.6e+01 ;
+    ns1:heights_min 2.1e+01 ;
+    ns1:refers_to ns1:Little_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 3e+00 ;
+    ns1:weights_min 2e+00 .
+
+ns1:maltese_dog ns1:looks_like "Images/n02085936-Maltese_dog/n02085936_10273.jpg" .
+
+ns1:manchester_terrier ns1:refers_to ns1:above_average_working_dogs .
+
+ns1:manchester_terrier_\(standard\) ns1:heights_max 4.1e+01 ;
+    ns1:heights_min 3.9e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 9e+00 ;
+    ns1:weights_min 8e+00 .
+
+ns1:manchester_terrier_\(toy\) ns1:heights_max 3.1e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:refers_to ns1:Little_dogs ;
+    ns1:weights_max 4e+00 ;
+    ns1:weights_min 3e+00 .
+
+ns1:mastiff ns1:heights_max 7.7e+01 ;
+    ns1:heights_min 6.9e+01 ;
+    ns1:loud_at 8.226e+01 ;
+    ns1:refers_to ns1:Big_dogs,
+        ns1:Loud_dogs,
+        ns1:lowest_degree_of_working_obedience_intelligence ;
+    ns1:sounds_like "/content/sobaka-porodyi-mastif-25584.wav" ;
+    ns1:weights_max 8.7e+01 ;
+    ns1:weights_min 8e+01 .
+
+ns1:mexican_hairless ns1:looks_like "Images/n02113978-Mexican_hairless/n02113978_1069.jpg" .
+
+ns1:miniature_pinscher ns1:looks_like "Images/n02107312-miniature_pinscher/n02107312_1716.jpg" ;
+    ns1:refers_to ns1:above_average_working_dogs .
+
+ns1:miniature_poodle ns1:looks_like "Images/n02113712-miniature_poodle/n02113712_1036.jpg" .
+
+ns1:miniature_schnauzer ns1:looks_like "Images/n02097047-miniature_schnauzer/n02097047_1260.jpg" ;
+    ns1:refers_to ns1:excellent_working_dogs .
+
+ns1:neopolitan_mastiff ns1:heights_max 7.7e+01 ;
+    ns1:heights_min 6.1e+01 ;
+    ns1:refers_to ns1:Big_dogs ;
+    ns1:weights_max 6.9e+01 ;
+    ns1:weights_min 4.6e+01 .
+
+ns1:newfoundland ns1:contains_dog "[{'xtl': '214.50', 'ytl': '59.80', 'xbr': '347.60', 'ybr': '251.00'}]" ;
+    ns1:contains_person "[{'xtl': '253.00', 'ytl': '98.00', 'xbr': '499.00', 'ybr': '371.00'}, {'xtl': '0.00', 'ytl': '115.00', 'xbr': '238.00', 'ybr': '371.00'}]" ;
+    ns1:heights_max 7.2e+01 ;
+    ns1:heights_min 6.7e+01 ;
+    ns1:looks_like "Images/n02111277_4854.jpg" ;
+    ns1:refers_to ns1:Big_dogs,
+        ns1:With_human_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 6.9e+01 ;
+    ns1:weights_min 4.6e+01 .
+
+ns1:norfolk_terrier ns1:looks_like "Images/n02094114-Norfolk_terrier/n02094114_1230.jpg" ;
+    ns1:refers_to ns1:fair_working_obedience_intelligence .
+
+ns1:norwegian_elkhound ns1:heights_max 5.1e+01 ;
+    ns1:heights_min 4.9e+01 ;
+    ns1:looks_like "Images/n02091467-Norwegian_elkhound/n02091467_1315.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 2.8e+01 ;
+    ns1:weights_min 1.9e+01 .
+
+ns1:norwich_terrier ns1:looks_like "Images/n02094258-Norwich_terrier/n02094258_1036.jpg" ;
+    ns1:refers_to ns1:above_average_working_dogs .
+
+ns1:nova_scotia_duck_tolling_retriever ns1:heights_max 5.4e+01 ;
+    ns1:heights_min 4.4e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 2.3e+01 ;
+    ns1:weights_min 1.6e+01 .
+
+ns1:old_english_sheepdog ns1:heights_max 6.1e+01 ;
+    ns1:heights_min 5.1e+01 ;
+    ns1:looks_like "Images/n02105641-Old_English_sheepdog/n02105641_1019.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 3e+01 ;
+    ns1:weights_min 2.8e+01 .
+
+ns1:otter_hound ns1:heights_max 6.7e+01 ;
+    ns1:heights_min 6.1e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 5e+01 ;
+    ns1:weights_min 3e+01 .
+
+ns1:otterhound ns1:contains_dog "[{'xtl': '26.52', 'ytl': '31.12', 'xbr': '119.30', 'ybr': '126.10'}]" ;
+    ns1:contains_person "[{'xtl': '0.92', 'ytl': '1.91', 'xbr': '49.92', 'ybr': '172.91'}, {'xtl': '50.86', 'ytl': '1.32', 'xbr': '99.86', 'ybr': '172.32'}]" ;
+    ns1:looks_like "Images/n02091635_1177.jpg" ;
+    ns1:refers_to ns1:With_human_dogs,
+        ns1:average_working_obedience_intelligence .
+
+ns1:papillon ns1:heights_max 2.8e+01 ;
+    ns1:heights_min 2.1e+01 ;
+    ns1:looks_like "Images/n02086910-papillon/n02086910_1449.jpg" ;
+    ns1:refers_to ns1:Little_dogs,
+        ns1:brightest_dogs ;
+    ns1:weights_max 5e+00 ;
+    ns1:weights_min 3e+00 .
+
+ns1:pekinese ns1:looks_like "Images/n02086079-Pekinese/n02086079_10603.jpg" .
+
+ns1:pekingese ns1:refers_to ns1:lowest_degree_of_working_obedience_intelligence .
+
+ns1:pembroke ns1:contains_dog "[{'xtl': '34.00', 'ytl': '262.00', 'xbr': '315.00', 'ybr': '432.00'}]" ;
+    ns1:contains_person "[{'xtl': '107.00', 'ytl': '50.00', 'xbr': '343.00', 'ybr': '383.00'}]" ;
+    ns1:looks_like "Images/n02113023_3181.jpg" ;
+    ns1:refers_to ns1:With_human_dogs .
+
+ns1:pembroke_welsh_corgi ns1:refers_to ns1:excellent_working_dogs .
+
+ns1:petit_basset_griffon_vendeen ns1:heights_max 3.9e+01 ;
+    ns1:heights_min 3.4e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 1.9e+01 ;
+    ns1:weights_min 1.4e+01 .
+
+ns1:petit_basset_griffon_vend̩en ns1:refers_to ns1:fair_working_obedience_intelligence .
+
+ns1:pharaoh_hound ns1:heights_max 6.4e+01 ;
+    ns1:heights_min 5.4e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 2.5e+01 ;
+    ns1:weights_min 2.1e+01 .
+
+ns1:plott_hound ns1:heights_max 6.1e+01 ;
+    ns1:heights_min 5.1e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 2.5e+01 ;
+    ns1:weights_min 2.1e+01 .
+
+ns1:pointer ns1:heights_max 6.1e+01 ;
+    ns1:heights_min 5.4e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 3e+01 ;
+    ns1:weights_min 2e+01 .
+
+ns1:polish_lowland_sheepdog ns1:heights_max 5.1e+01 ;
+    ns1:heights_min 4.1e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 1.6e+01 ;
+    ns1:weights_min 1.4e+01 .
+
+ns1:pomeranian ns1:heights_max 3.1e+01 ;
+    ns1:heights_min 3.1e+01 ;
+    ns1:looks_like "Images/n02112018-Pomeranian/n02112018_10174.jpg" ;
+    ns1:refers_to ns1:Little_dogs,
+        ns1:excellent_working_dogs ;
+    ns1:weights_max 4e+00 ;
+    ns1:weights_min 2e+00 .
+
+ns1:poodle ns1:refers_to ns1:brightest_dogs .
+
+ns1:poodle_miniature ns1:heights_max 3.9e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 1e+01 ;
+    ns1:weights_min 1e+01 .
+
+ns1:poodle_standard ns1:heights_max 6.4e+01 ;
+    ns1:heights_min 3.9e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 2.1e+01 ;
+    ns1:weights_min 2.1e+01 .
+
+ns1:portuguese_water_dog ns1:heights_max 5.9e+01 ;
+    ns1:heights_min 5.1e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 2.8e+01 ;
+    ns1:weights_min 2e+01 .
+
+ns1:pug ns1:heights_max 2.8e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:looks_like "Images/n02110958-pug/n02110958_10842.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 1e+01 ;
+    ns1:weights_min 7e+00 .
+
+ns1:puli ns1:heights_max 4.4e+01 ;
+    ns1:heights_min 4.1e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 1.5e+01 ;
+    ns1:weights_min 1.4e+01 .
+
+ns1:redbone ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 5.4e+01 ;
+    ns1:looks_like "Images/n02090379-redbone/n02090379_1006.jpg" ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 3.2e+01 ;
+    ns1:weights_min 2.3e+01 .
+
+ns1:rhodesian_ridgeback ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 6.1e+01 ;
+    ns1:looks_like "Images/n02087394-Rhodesian_ridgeback/n02087394_10351.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 3.9e+01 ;
+    ns1:weights_min 3.2e+01 .
+
+ns1:rottweiler ns1:contains_dog "[{'xtl': '20.00', 'ytl': '14.00', 'xbr': '138.00', 'ybr': '274.00'}]" ;
+    ns1:contains_person "[{'xtl': '125.00', 'ytl': '37.00', 'xbr': '225.00', 'ybr': '240.00'}]" ;
+    ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 5.6e+01 ;
+    ns1:looks_like "Images/n02106550_9508.jpg" ;
+    ns1:loud_at 8.317e+01 ;
+    ns1:refers_to ns1:Loud_dogs,
+        ns1:Medium_dogs,
+        ns1:With_human_dogs,
+        ns1:brightest_dogs ;
+    ns1:sounds_like "/content/sobaka-rotveyler-25637.wav" ;
+    ns1:weights_max 5e+01 ;
+    ns1:weights_min 4.1e+01 .
+
+ns1:saint_bernard ns1:heights_max 7.2e+01 ;
+    ns1:heights_min 6.4e+01 ;
+    ns1:looks_like "Images/n02109525-Saint_Bernard/n02109525_10446.jpg" ;
+    ns1:refers_to ns1:Big_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 8.7e+01 ;
+    ns1:weights_min 5e+01 .
+
+ns1:saluki ns1:heights_max 7.2e+01 ;
+    ns1:heights_min 5.9e+01 ;
+    ns1:looks_like "Images/n02091831-Saluki/n02091831_1036.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 3.2e+01 ;
+    ns1:weights_min 1.6e+01 .
+
+ns1:samoyed ns1:heights_max 6.1e+01 ;
+    ns1:heights_min 4.9e+01 ;
+    ns1:looks_like "Images/n02111889-Samoyed/n02111889_10950.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 3e+01 ;
+    ns1:weights_min 2.3e+01 .
+
+ns1:schipperke ns1:heights_max 3.4e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:looks_like "Images/n02104365-schipperke/n02104365_1151.jpg" ;
+    ns1:loud_at 8.129e+01 ;
+    ns1:refers_to ns1:Loud_dogs,
+        ns1:Medium_dogs,
+        ns1:excellent_working_dogs ;
+    ns1:sounds_like "/content/lay-malenkoy-sobaki-shpits-35392.wav" ;
+    ns1:weights_max 9e+00 ;
+    ns1:weights_min 6e+00 .
+
+ns1:scotch_terrier ns1:looks_like "Images/n02097298-Scotch_terrier/n02097298_11346.jpg" .
+
+ns1:scottish_deerhound ns1:heights_max 8.2e+01 ;
+    ns1:heights_min 7.2e+01 ;
+    ns1:looks_like "Images/n02092002-Scottish_deerhound/n02092002_11087.jpg" ;
+    ns1:loud_at 8.842e+01 ;
+    ns1:refers_to ns1:Loud_dogs,
+        ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:sounds_like "/content/lay-sobaki-porodyi-kolli-25610.wav" ;
+    ns1:weights_max 5e+01 ;
+    ns1:weights_min 3.5e+01 .
+
+ns1:scottish_terrier ns1:heights_max 3.1e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 1e+01 ;
+    ns1:weights_min 9e+00 .
+
+ns1:sealyham_terrier ns1:heights_max 3.1e+01 ;
+    ns1:heights_min 3.1e+01 ;
+    ns1:looks_like "Images/n02095889-Sealyham_terrier/n02095889_10.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 1e+01 ;
+    ns1:weights_min 9e+00 .
+
+ns1:shetland_sheepdog ns1:contains_dog "[{'xtl': '192.08', 'ytl': '117.70', 'xbr': '373.30', 'ybr': '239.70'}]" ;
+    ns1:contains_person "[{'xtl': '207.00', 'ytl': '60.00', 'xbr': '371.00', 'ybr': '361.00'}, {'xtl': '122.00', 'ytl': '40.00', 'xbr': '267.00', 'ybr': '357.00'}]" ;
+    ns1:heights_max 4.1e+01 ;
+    ns1:heights_min 3.4e+01 ;
+    ns1:looks_like "Images/n02105855_6281.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:With_human_dogs,
+        ns1:brightest_dogs ;
+    ns1:weights_max 1e+01 ;
+    ns1:weights_min 7e+00 .
+
+ns1:shiba_inu ns1:heights_max 4.1e+01 ;
+    ns1:heights_min 3.4e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 1.4e+01 ;
+    ns1:weights_min 7e+00 .
+
+ns1:shih ns1:heights_max 2.8e+01 ;
+    ns1:heights_min 2.1e+01 ;
+    ns1:looks_like "Images/n02086240-Shih-Tzu/n02086240_1011.jpg" ;
+    ns1:refers_to ns1:Little_dogs ;
+    ns1:weights_max 8e+00 ;
+    ns1:weights_min 5e+00 .
+
+ns1:shih_tzu ns1:refers_to ns1:lowest_degree_of_working_obedience_intelligence .
+
+ns1:siberian_husky ns1:contains_dog "[{'xtl': '23.00', 'ytl': '132.00', 'xbr': '336.00', 'ybr': '237.00'}]" ;
+    ns1:contains_person "[{'xtl': '157.00', 'ytl': '23.00', 'xbr': '500.00', 'ybr': '369.00'}]" ;
+    ns1:heights_max 5.9e+01 ;
+    ns1:heights_min 5.1e+01 ;
+    ns1:looks_like "Images/n02110185_5624.jpg" ;
+    ns1:loud_at 8.011e+01 ;
+    ns1:refers_to ns1:Loud_dogs,
+        ns1:Medium_dogs,
+        ns1:With_human_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:sounds_like "/content/lay-sobaki-eskimosskaya-layka-35389.wav" ;
+    ns1:weights_max 2.8e+01 ;
+    ns1:weights_min 1.9e+01 .
+
+ns1:silky_terrier ns1:heights_max 2.6e+01 ;
+    ns1:heights_min 2.3e+01 ;
+    ns1:looks_like "Images/n02097658-silky_terrier/n02097658_10020.jpg" ;
+    ns1:refers_to ns1:Little_dogs ;
+    ns1:weights_max 5e+00 ;
+    ns1:weights_min 4e+00 .
+
+ns1:skye_terrier ns1:heights_max 2.6e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 1.2e+01 ;
+    ns1:weights_min 1.2e+01 .
+
+ns1:soft ns1:looks_like "Images/n02098105-soft-coated_wheaten_terrier/n02098105_1062.jpg" .
+
+ns1:soft-coated_wheaten_terrier ns1:heights_max 5.1e+01 ;
+    ns1:heights_min 4.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 2.1e+01 ;
+    ns1:weights_min 1.6e+01 .
+
+ns1:spinone_italiano ns1:heights_max 7.2e+01 ;
+    ns1:heights_min 5.9e+01 ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 3.7e+01 ;
+    ns1:weights_min 3e+01 .
+
+ns1:staffordshire_bull_terrier ns1:heights_max 4.1e+01 ;
+    ns1:heights_min 3.6e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 1.3e+01 ;
+    ns1:weights_min 1.1e+01 .
+
+ns1:staffordshire_bullterrier ns1:looks_like "Images/n02093256-Staffordshire_bullterrier/n02093256_11023.jpg" .
+
+ns1:standard_poodle ns1:looks_like "Images/n02113799-standard_poodle/n02113799_1207.jpg" .
+
+ns1:standard_schnauzer ns1:heights_max 4.9e+01 ;
+    ns1:heights_min 4.4e+01 ;
+    ns1:looks_like "Images/n02097209-standard_schnauzer/n02097209_1.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:excellent_working_dogs ;
+    ns1:weights_max 1.5e+01 ;
+    ns1:weights_min 1.5e+01 .
+
+ns1:sussex_spaniel ns1:heights_max 4.1e+01 ;
+    ns1:heights_min 3.9e+01 ;
+    ns1:looks_like "Images/n02102480-Sussex_spaniel/n02102480_142.jpg" ;
+    ns1:refers_to ns1:Medium_dogs ;
+    ns1:weights_max 2.1e+01 ;
+    ns1:weights_min 1.9e+01 .
+
+ns1:tibetan_mastiff ns1:contains_dog "[{'xtl': '304.00', 'ytl': '131.00', 'xbr': '500.00', 'ybr': '329.00'}]" ;
+    ns1:contains_person "[{'xtl': '1.00', 'ytl': '28.00', 'xbr': '333.00', 'ybr': '329.00'}]" ;
+    ns1:heights_max 6.7e+01 ;
+    ns1:heights_min 6.1e+01 ;
+    ns1:looks_like "Images/n02108551_7523.jpg" ;
+    ns1:refers_to ns1:Big_dogs,
+        ns1:With_human_dogs ;
+    ns1:weights_max 7.8e+01 ;
+    ns1:weights_min 6.4e+01 .
+
+ns1:tibetan_spaniel ns1:heights_max 2.6e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:refers_to ns1:Little_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 7e+00 ;
+    ns1:weights_min 5e+00 .
+
+ns1:tibetan_terrier ns1:heights_max 4.4e+01 ;
+    ns1:heights_min 3.6e+01 ;
+    ns1:looks_like "Images/n02097474-Tibetan_terrier/n02097474_1328.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:fair_working_obedience_intelligence ;
+    ns1:weights_max 1.4e+01 ;
+    ns1:weights_min 1e+01 .
+
+ns1:toy_fox_terrier ns1:heights_max 2.6e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:refers_to ns1:Little_dogs ;
+    ns1:weights_max 4e+00 ;
+    ns1:weights_min 2e+00 .
+
+ns1:toy_poodle ns1:heights_max 2.6e+01 ;
+    ns1:heights_min 2.6e+01 ;
+    ns1:looks_like "Images/n02113624-toy_poodle/n02113624_1582.jpg" ;
+    ns1:refers_to ns1:Little_dogs ;
+    ns1:weights_max 5e+00 ;
+    ns1:weights_min 5e+00 .
+
+ns1:toy_terrier ns1:looks_like "Images/n02087046-toy_terrier/n02087046_1577.jpg" .
+
+ns1:vizsla ns1:heights_max 1.68e+02 ;
+    ns1:heights_min 1.22e+02 ;
+    ns1:looks_like "Images/n02100583-vizsla/n02100583_10249.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:excellent_working_dogs ;
+    ns1:weights_max 1.2e+01 ;
+    ns1:weights_min 1e+01 .
+
+ns1:walker_hound ns1:looks_like "Images/n02089867-Walker_hound/n02089867_1133.jpg" .
+
+ns1:weimaraner ns1:heights_max 6.9e+01 ;
+    ns1:heights_min 6.4e+01 ;
+    ns1:looks_like "Images/n02092339-Weimaraner/n02092339_1331.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:excellent_working_dogs ;
+    ns1:weights_max 3.9e+01 ;
+    ns1:weights_min 3.2e+01 .
+
+ns1:welsh_springer_spaniel ns1:heights_max 4.9e+01 ;
+    ns1:heights_min 4.1e+01 ;
+    ns1:looks_like "Images/n02102177-Welsh_springer_spaniel/n02102177_1028.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 2.1e+01 ;
+    ns1:weights_min 1.6e+01 .
+
+ns1:welsh_terrier ns1:heights_max 3.9e+01 ;
+    ns1:heights_min 3.9e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 1e+01 ;
+    ns1:weights_min 1e+01 .
+
+ns1:west_highland_white_terrier ns1:heights_max 2.8e+01 ;
+    ns1:heights_min 2.8e+01 ;
+    ns1:looks_like "Images/n02098286-West_Highland_white_terrier/n02098286_1015.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 7e+00 ;
+    ns1:weights_min 6e+00 .
+
+ns1:whippet ns1:heights_max 5.6e+01 ;
+    ns1:heights_min 4.6e+01 ;
+    ns1:looks_like "Images/n02091134-whippet/n02091134_10219.jpg" ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 1.4e+01 ;
+    ns1:weights_min 1.3e+01 .
+
+ns1:wire ns1:looks_like "Images/n02095314-wire-haired_fox_terrier/n02095314_1033.jpg" .
+
+ns1:wire_fox_terrier ns1:refers_to ns1:average_working_obedience_intelligence .
+
+ns1:wirehaired_pointing_griffon ns1:heights_max 6.1e+01 ;
+    ns1:heights_min 5.1e+01 ;
+    ns1:refers_to ns1:Medium_dogs,
+        ns1:average_working_obedience_intelligence ;
+    ns1:weights_max 2.8e+01 ;
+    ns1:weights_min 2.1e+01 .
+
+ns1:yorkshire_terrier ns1:heights_max 2.1e+01 ;
+    ns1:heights_min 2.1e+01 ;
+    ns1:looks_like "Images/n02094433-Yorkshire_terrier/n02094433_10126.jpg" ;
+    ns1:refers_to ns1:Little_dogs,
+        ns1:above_average_working_dogs ;
+    ns1:weights_max 4e+00 ;
+    ns1:weights_min 2e+00 .
+
+ns1:Loud_dogs ns1:min_loud_at 70 .
+
+ns1:Big_dogs ns1:weights_min 46 .
+
+ns1:brightest_dogs ns1:obey_on "95%" ;
+    ns1:reps_lower 1e+00 ;
+    ns1:reps_upper 4e+00 .
+
+ns1:lowest_degree_of_working_obedience_intelligence ns1:reps_lower 8.1e+01 ;
+    ns1:reps_upper 1e+02 .
+
+ns1:With_human_dogs ns1:have_person true .
+
+ns1:Without_human_dogs ns1:have_person false .
+
+ns1:Little_dogs ns1:weights_max 5 ;
+    ns1:weights_min 0 .
+
+ns1:excellent_working_dogs ns1:obey_on "85%" ;
+    ns1:reps_lower 5e+00 ;
+    ns1:reps_upper 1.5e+01 .
+
+ns1:fair_working_obedience_intelligence ns1:obey_on "30%" ;
+    ns1:reps_lower 4.1e+01 ;
+    ns1:reps_upper 8e+01 .
+
+ns1:above_average_working_dogs ns1:obey_on "70%" ;
+    ns1:reps_lower 1.6e+01 ;
+    ns1:reps_upper 2.5e+01 .
+
+ns1:average_working_obedience_intelligence ns1:obey_on "50%" ;
+    ns1:reps_lower 2.6e+01 ;
+    ns1:reps_upper 4e+01 .
+
+ns1:Medium_dogs ns1:weights_max 45 ;
+    ns1:weights_min 6 .
+
