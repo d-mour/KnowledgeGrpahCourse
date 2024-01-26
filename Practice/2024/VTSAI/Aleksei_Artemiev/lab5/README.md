@@ -1,4 +1,4 @@
-# Lab #5/
+# Lab #5.
 
 In this lab, the primary focus is on exploring Graph Neural Networks (GNNs) with a specific emphasis on Node Similarity in graph representations. The task involves:
 
