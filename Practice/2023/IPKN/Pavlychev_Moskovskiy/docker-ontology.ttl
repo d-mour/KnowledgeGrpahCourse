@@ -1,0 +1,210 @@
+@prefix : <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab#> .
+
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/> rdf:type owl:Ontology ;
+                                                                            owl:imports <http://purl.org/net/wicus-stack> ;
+                                                                            <http://purl.org/dc/elements/1.1/creator> "Nikolay Pavlychev"@en ;
+                                                                            <http://purl.org/dc/elements/1.1/title> "docker artifacts ontology" ;
+                                                                            rdfs:comment "An ontology for describing containers and their software components."@en .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.org/net/wicus-stack#hasVersion
+<http://purl.org/net/wicus-stack#hasVersion> rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#PackageVersion> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#affectsOS
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#affectsOS> rdf:type owl:ObjectProperty ;
+                                                                                     rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#OperatingSystem> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#builds
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#builds> rdf:type owl:ObjectProperty ;
+                                                                                  rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#DockerFile> ;
+                                                                                  rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#SoftwareImage> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#composedBy
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#composedBy> rdf:type owl:ObjectProperty ;
+                                                                                      rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#SoftwareImage> ;
+                                                                                      rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#ImageLayer> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#containPackages
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#containPackages> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#deployedOn
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#deployedOn> rdf:type owl:ObjectProperty ;
+                                                                                      rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#SoftwarePackage> ;
+                                                                                      rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#FileSystem> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#fixPackageVersion
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#fixPackageVersion> rdf:type owl:ObjectProperty ;
+                                                                                             rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#PackageVersion> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#fixVulnerability
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#fixVulnerability> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#hasFileSystem
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#hasFileSystem> rdf:type owl:ObjectProperty ;
+                                                                                         rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#OperatingSystem> ;
+                                                                                         rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#FileSystem> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#hasImage
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#hasImage> rdf:type owl:ObjectProperty ;
+                                                                                    rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#DockerFile> ;
+                                                                                    rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#SoftwareImage> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#hasLayer
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#hasLayer> rdf:type owl:ObjectProperty ;
+                                                                                    rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#SoftwareImage> ;
+                                                                                    rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#ImageLayer> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#hasPackages
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#hasPackages> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#OperatingSystem> ;
+                                                                                       rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#SoftwarePackage> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#hasRevision
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#hasRevision> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#PackageVersion> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#hasVulnerability
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#hasVulnerability> rdf:type owl:ObjectProperty ;
+                                                                                            rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#PackageVersion> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#imageIdentifier
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#imageIdentifier> rdf:type owl:ObjectProperty ;
+                                                                                           rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#SoftwareImage> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#isAffectedBy
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#isAffectedBy> rdf:type owl:ObjectProperty ;
+                                                                                        rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#OperatingSystem> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#isLayerOf
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#isLayerOf> rdf:type owl:ObjectProperty ;
+                                                                                     rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#ImageLayer> ;
+                                                                                     rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#Image> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#isModifiedBy
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#isModifiedBy> rdf:type owl:ObjectProperty ;
+                                                                                        rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#ImageLayer> ;
+                                                                                        rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#PackageVersion> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#isPackageOf
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#isPackageOf> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://purl.org/net/wicus-stack#SoftwareComponent> ;
+                                                                                       rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#OperatingSystem> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#isPresent
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#isPresent> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#isVersionOf
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#isVersionOf> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#PackageVersion> ;
+                                                                                       rdfs:range <http://purl.org/net/wicus-stack#SoftwareComponent> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#modifyLayer
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#modifyLayer> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#PackageVersion> ;
+                                                                                       rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#ImageLayer> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#usesOS
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#usesOS> rdf:type owl:ObjectProperty ;
+                                                                                  rdfs:domain <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#ImageLayer> ;
+                                                                                  rdfs:range <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#OperatingSystem> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#imageIdentifier
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#imageIdentifier> rdf:type owl:DatatypeProperty ;
+                                                                                           rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/identifier
+<http://purl.org/dc/elements/1.1/identifier> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#DockerFile
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#DockerFile> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://purl.org/net/wicus-stack#DeploymentScript> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#FileSystem
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#FileSystem> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#Image
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#Image> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#ImageLayer
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#ImageLayer> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#ImageVersion
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#ImageVersion> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://purl.org/net/wicus-stack#Version> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#LayerModification
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#LayerModification> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#OperatingSystem
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#OperatingSystem> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#PackageVersion
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#PackageVersion> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://purl.org/net/wicus-stack#Version> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#SoftwareImage
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#SoftwareImage> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#Image> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#SoftwarePackage
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#SoftwarePackage> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://purl.org/net/wicus-stack#SoftwareComponent> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#imageIdentifier
+<http://www.semanticweb.org/root/ontologies/2024/1/docker-ontology/vocab/#imageIdentifier> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://purl.org/dc/elements/1.1/identifier> .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
