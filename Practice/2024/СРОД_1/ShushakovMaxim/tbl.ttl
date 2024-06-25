@@ -1,0 +1,191 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/Audio> a rdfs:Class ;
+    rdfs:label "Audio" ;
+    rdfs:subClassOf <http://example.org/Resource> .
+
+<http://example.org/Screenshot> a rdfs:Class ;
+    rdfs:label "Screenshot" ;
+    rdfs:subClassOf <http://example.org/Resource> .
+
+<http://example.org/Text> a rdfs:Class ;
+    rdfs:label "Text" ;
+    rdfs:subClassOf <http://example.org/Resource> .
+
+<http://example.org/Audio_pr1> a rdfs:Datatype ;
+    rdfs:label "T3_ORE.mp3" ;
+    rdfs:subClassOf <http://example.org/Audio> .
+
+<http://example.org/Audio_pr2> a rdfs:Datatype ;
+    rdfs:label "T5_WOOD.mp3" ;
+    rdfs:subClassOf <http://example.org/Audio> .
+
+<http://example.org/Audio_pr3> a rdfs:Datatype ;
+    rdfs:label "T4_BLOCK.mp3" ;
+    rdfs:subClassOf <http://example.org/Audio> .
+
+<http://example.org/POS_pr1> a rdfs:Datatype ;
+    rdfs:label "[(yz, NN), (near, IN)," ;
+    rdfs:subClassOf <http://example.org/POS> .
+
+<http://example.org/POS_pr2> a rdfs:Datatype ;
+    rdfs:label "[(go, VB), (farm, NN)," ;
+    rdfs:subClassOf <http://example.org/POS> .
+
+<http://example.org/POS_pr3> a rdfs:Datatype ;
+    rdfs:label "[(yellow, JJ), (cairn, NN)," ;
+    rdfs:subClassOf <http://example.org/POS> .
+
+<http://example.org/Screen_pr1> a rdfs:Datatype ;
+    rdfs:label "ss11.jpg" ;
+    rdfs:subClassOf <http://example.org/Screenshot> .
+
+<http://example.org/Screen_pr2> a rdfs:Datatype ;
+    rdfs:label "ss37.jpg" ;
+    rdfs:subClassOf <http://example.org/Screenshot> .
+
+<http://example.org/Screen_pr3> a rdfs:Datatype ;
+    rdfs:label "ss22.jpg" ;
+    rdfs:subClassOf <http://example.org/Screenshot> .
+
+<http://example.org/bbox_pr1> a rdfs:Datatype ;
+    rdfs:label "[436.49769585253455," ;
+    rdfs:subClassOf <http://example.org/bbox> .
+
+<http://example.org/bbox_pr2> a rdfs:Datatype ;
+    rdfs:label "[867.0967741935482,]" ;
+    rdfs:subClassOf <http://example.org/bbox> .
+
+<http://example.org/bbox_pr3> a rdfs:Datatype ;
+    rdfs:label "[213.08323563892148," ;
+    rdfs:subClassOf <http://example.org/bbox> .
+
+<http://example.org/gimg_pr1> a rdfs:Datatype ;
+    rdfs:label "[gimg1.jpg, gimg2.jpg]" ;
+    rdfs:subClassOf <http://example.org/grayscale> .
+
+<http://example.org/gimg_pr2> a rdfs:Datatype ;
+    rdfs:label "[gimg1.jpg, gimg2.jpg]" ;
+    rdfs:subClassOf <http://example.org/grayscale> .
+
+<http://example.org/gimg_pr3> a rdfs:Datatype ;
+    rdfs:label "[gimg1.jpg, gimg2.jpg]" ;
+    rdfs:subClassOf <http://example.org/grayscale> .
+
+<http://example.org/img_pr1> a rdfs:Datatype ;
+    rdfs:label "[img1.jpg, img2.jpg]" ;
+    rdfs:subClassOf <http://example.org/img> .
+
+<http://example.org/img_pr2> a rdfs:Datatype ;
+    rdfs:label "[img1.jpg, img2.jpg]" ;
+    rdfs:subClassOf <http://example.org/img> .
+
+<http://example.org/img_pr3> a rdfs:Datatype ;
+    rdfs:label "[img1.jpg, img2.jpg]" ;
+    rdfs:subClassOf <http://example.org/img> .
+
+<http://example.org/lemma_pr1> a rdfs:Datatype ;
+    rdfs:label "[yz, near, fort, sterling," ;
+    rdfs:subClassOf <http://example.org/Lemma> .
+
+<http://example.org/lemma_pr2> a rdfs:Datatype ;
+    rdfs:label "[go, farm, ores, pen," ;
+    rdfs:subClassOf <http://example.org/Lemma> .
+
+<http://example.org/lemma_pr3> a rdfs:Datatype ;
+    rdfs:label "[yellow, cairn, cloatch," ;
+    rdfs:subClassOf <http://example.org/Lemma> .
+
+<http://example.org/melspect_pr1> a rdfs:Datatype ;
+    rdfs:label "mels3O.jpg" ;
+    rdfs:subClassOf <http://example.org/MelSpectrogram> .
+
+<http://example.org/melspect_pr2> a rdfs:Datatype ;
+    rdfs:label "mels5W.jpg" ;
+    rdfs:subClassOf <http://example.org/MelSpectrogram> .
+
+<http://example.org/melspect_pr3> a rdfs:Datatype ;
+    rdfs:label "mels4B.jpg" ;
+    rdfs:subClassOf <http://example.org/MelSpectrogram> .
+
+<http://example.org/mfcc_pr1> a rdfs:Datatype ;
+    rdfs:label "[-1052.844238,-1052.844238]" ;
+    rdfs:subClassOf <http://example.org/mfcc> .
+
+<http://example.org/mfcc_pr2> a rdfs:Datatype ;
+    rdfs:label "[0.000000,2.206847]" ;
+    rdfs:subClassOf <http://example.org/mfcc> .
+
+<http://example.org/mfcc_pr3> a rdfs:Datatype ;
+    rdfs:label "[-3.404861,3.411330]" ;
+    rdfs:subClassOf <http://example.org/mfcc> .
+
+<http://example.org/spect_pr1> a rdfs:Datatype ;
+    rdfs:label "spec3O.jpg" ;
+    rdfs:subClassOf <http://example.org/Spectrogram> .
+
+<http://example.org/spect_pr2> a rdfs:Datatype ;
+    rdfs:label "spec5W.jpg" ;
+    rdfs:subClassOf <http://example.org/Spectrogram> .
+
+<http://example.org/spect_pr3> a rdfs:Datatype ;
+    rdfs:label "spec4B.jpg" ;
+    rdfs:subClassOf <http://example.org/Spectrogram> .
+
+<http://example.org/text_pr1> a rdfs:Datatype ;
+    rdfs:label "yz near fort sterling like..." ;
+    rdfs:subClassOf <http://example.org/Text> .
+
+<http://example.org/text_pr2> a rdfs:Datatype ;
+    rdfs:label "GO FARM T4 ORES AT PEN..." ;
+    rdfs:subClassOf <http://example.org/Text> .
+
+<http://example.org/text_pr3> a rdfs:Datatype ;
+    rdfs:label "Yellow T5 - do cairn cloatch..." ;
+    rdfs:subClassOf <http://example.org/Text> .
+
+<http://example.org/token_pr1> a rdfs:Datatype ;
+    rdfs:label "[yz, near, fort, sterling," ;
+    rdfs:subClassOf <http://example.org/Token> .
+
+<http://example.org/token_pr2> a rdfs:Datatype ;
+    rdfs:label "[go, farm, t, ores," ;
+    rdfs:subClassOf <http://example.org/Token> .
+
+<http://example.org/token_pr3> a rdfs:Datatype ;
+    rdfs:label "[yellow, t, do, cairn," ;
+    rdfs:subClassOf <http://example.org/Token> .
+
+<http://example.org/POS> rdfs:label "POS" ;
+    rdfs:subClassOf <http://example.org/Lemma> .
+
+<http://example.org/Resource> a rdfs:Resource ;
+    rdfs:label "Resource" ;
+    rdfs:isDefinedBy <http://example.org/Audio>,
+        <http://example.org/Screenshot>,
+        <http://example.org/Text> .
+
+<http://example.org/Spectrogram> rdfs:label "Spectrogram" ;
+    rdfs:subClassOf <http://example.org/Audio> .
+
+<http://example.org/bbox> rdfs:label "bbox" ;
+    rdfs:subClassOf <http://example.org/Screenshot> .
+
+<http://example.org/grayscale> rdfs:label "grayscale" ;
+    rdfs:subClassOf <http://example.org/img> .
+
+<http://example.org/mfcc> rdfs:label "mfcc" ;
+    rdfs:subClassOf <http://example.org/MelSpectrogram> .
+
+<http://example.org/Lemma> rdfs:label "Lemma" ;
+    rdfs:subClassOf <http://example.org/Token> .
+
+<http://example.org/MelSpectrogram> rdfs:label "MelSpectrogram" ;
+    rdfs:subClassOf <http://example.org/Audio> .
+
+<http://example.org/Token> rdfs:label "Token" ;
+    rdfs:subClassOf <http://example.org/Text> .
+
+<http://example.org/img> rdfs:label "img" ;
+    rdfs:subClassOf <http://example.org/Screenshot> .
+
