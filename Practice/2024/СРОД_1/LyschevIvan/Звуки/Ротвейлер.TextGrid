@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 129.13521541950112 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "rottweiler" 
+        xmin = 0 
+        xmax = 129.13521541950112 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 20.04661847014926 
+            text = "" 
+        intervals [2]:
+            xmin = 20.04661847014926 
+            xmax = 22.947142293340992 
+            text = "3\bark" 
+        intervals [3]:
+            xmin = 22.947142293340992 
+            xmax = 28.689518743276793 
+            text = "" 
+        intervals [4]:
+            xmin = 28.689518743276793 
+            xmax = 31.268344671201813 
+            text = "3\whinning" 
+        intervals [5]:
+            xmin = 31.268344671201813 
+            xmax = 37.46802721088435 
+            text = "" 
+        intervals [6]:
+            xmin = 37.46802721088435 
+            xmax = 42.70852607709751 
+            text = "" 
+        intervals [7]:
+            xmin = 42.70852607709751 
+            xmax = 46.68054421768708 
+            text = "3\whinning" 
+        intervals [8]:
+            xmin = 46.68054421768708 
+            xmax = 47.943454832097935 
+            text = "" 
+        intervals [9]:
+            xmin = 47.943454832097935 
+            xmax = 53.06480725623583 
+            text = "3\whinning" 
+        intervals [10]:
+            xmin = 53.06480725623583 
+            xmax = 55.52428571428572 
+            text = "" 
+        intervals [11]:
+            xmin = 55.52428571428572 
+            xmax = 63.04609652393784 
+            text = "3\whinning" 
+        intervals [12]:
+            xmin = 63.04609652393784 
+            xmax = 73.74899988815065 
+            text = "" 
+        intervals [13]:
+            xmin = 73.74899988815065 
+            xmax = 75.56448979591836 
+            text = "3\whinning" 
+        intervals [14]:
+            xmin = 75.56448979591836 
+            xmax = 87.02109374578555 
+            text = "" 
+        intervals [15]:
+            xmin = 87.02109374578555 
+            xmax = 91.21412698412699 
+            text = "3\whinning" 
+        intervals [16]:
+            xmin = 91.21412698412699 
+            xmax = 129.13521541950112 
+            text = "" 

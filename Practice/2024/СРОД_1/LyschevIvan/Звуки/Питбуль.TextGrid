@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 154.42174603174604 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "pitbull" 
+        xmin = 0 
+        xmax = 154.42174603174604 
+        intervals: size = 29 
+        intervals [1]:
+            xmin = 0 
+            xmax = 9.059785806544205 
+            text = "" 
+        intervals [2]:
+            xmin = 9.059785806544205 
+            xmax = 18.33267257462687 
+            text = "5\bark" 
+        intervals [3]:
+            xmin = 18.33267257462687 
+            xmax = 24.265562212973595 
+            text = "" 
+        intervals [4]:
+            xmin = 24.265562212973595 
+            xmax = 32.375573227122175 
+            text = "5\whinning" 
+        intervals [5]:
+            xmin = 32.375573227122175 
+            xmax = 33.298467170865 
+            text = "" 
+        intervals [6]:
+            xmin = 33.298467170865 
+            xmax = 38.134081632653064 
+            text = "5\whinning" 
+        intervals [7]:
+            xmin = 38.134081632653064 
+            xmax = 40.23419501133787 
+            text = "5\whinning" 
+        intervals [8]:
+            xmin = 40.23419501133787 
+            xmax = 43.85437641723356 
+            text = "5\whinning" 
+        intervals [9]:
+            xmin = 43.85437641723356 
+            xmax = 44.7143537414966 
+            text = "" 
+        intervals [10]:
+            xmin = 44.7143537414966 
+            xmax = 48.514376417233564 
+            text = "5\whinning" 
+        intervals [11]:
+            xmin = 48.514376417233564 
+            xmax = 52.90303854875283 
+            text = "5\whinning" 
+        intervals [12]:
+            xmin = 52.90303854875283 
+            xmax = 58.98607709750567 
+            text = "" 
+        intervals [13]:
+            xmin = 58.98607709750567 
+            xmax = 63.576473628847076 
+            text = "5\whinning" 
+        intervals [14]:
+            xmin = 63.576473628847076 
+            xmax = 68.94074156088092 
+            text = "" 
+        intervals [15]:
+            xmin = 68.94074156088092 
+            xmax = 73.7830807211493 
+            text = "5\whinning" 
+        intervals [16]:
+            xmin = 73.7830807211493 
+            xmax = 77.24473177972774 
+            text = "" 
+        intervals [17]:
+            xmin = 77.24473177972774 
+            xmax = 79.1610657596372 
+            text = "5\whinning" 
+        intervals [18]:
+            xmin = 79.1610657596372 
+            xmax = 93.10940342290696 
+            text = "" 
+        intervals [19]:
+            xmin = 93.10940342290696 
+            xmax = 100.7608843537415 
+            text = "5\whinning" 
+        intervals [20]:
+            xmin = 100.7608843537415 
+            xmax = 127.55112213202418 
+            text = "" 
+        intervals [21]:
+            xmin = 127.55112213202418 
+            xmax = 130.77413705237993 
+            text = "5\whinning" 
+        intervals [22]:
+            xmin = 130.77413705237993 
+            xmax = 135.04463182185128 
+            text = "" 
+        intervals [23]:
+            xmin = 135.04463182185128 
+            xmax = 136.65613928202916 
+            text = "5\bark" 
+        intervals [24]:
+            xmin = 136.65613928202916 
+            xmax = 138.34822211521595 
+            text = "" 
+        intervals [25]:
+            xmin = 138.34822211521595 
+            xmax = 140.0403049484027 
+            text = "5\bark" 
+        intervals [26]:
+            xmin = 140.0403049484027 
+            xmax = 142.66818594104308 
+            text = "" 
+        intervals [27]:
+            xmin = 142.66818594104308 
+            xmax = 145.116553447963 
+            text = "" 
+        intervals [28]:
+            xmin = 145.116553447963 
+            xmax = 145.84173180504305 
+            text = "5\bark" 
+        intervals [29]:
+            xmin = 145.84173180504305 
+            xmax = 154.42174603174604 
+            text = "" 

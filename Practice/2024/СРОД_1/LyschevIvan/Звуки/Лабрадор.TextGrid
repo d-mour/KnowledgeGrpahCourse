@@ -1,0 +1,110 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 56.12297052154195 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "labrador" 
+        xmin = 0 
+        xmax = 56.12297052154195 
+        intervals: size = 24 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.6812908669535833 
+            text = "4\bark" 
+        intervals [2]:
+            xmin = 2.6812908669535833 
+            xmax = 3.661088346395937 
+            text = "" 
+        intervals [3]:
+            xmin = 3.661088346395937 
+            xmax = 5.4322607130801925 
+            text = "4\bark" 
+        intervals [4]:
+            xmin = 5.4322607130801925 
+            xmax = 6.713534340043271 
+            text = "" 
+        intervals [5]:
+            xmin = 6.713534340043271 
+            xmax = 12.6102947845805 
+            text = "4\bark" 
+        intervals [6]:
+            xmin = 12.6102947845805 
+            xmax = 14.156167800453515 
+            text = "" 
+        intervals [7]:
+            xmin = 14.156167800453515 
+            xmax = 17.734875283446712 
+            text = "4\bark" 
+        intervals [8]:
+            xmin = 17.734875283446712 
+            xmax = 19.09718820861678 
+            text = "" 
+        intervals [9]:
+            xmin = 19.09718820861678 
+            xmax = 20.552267573696145 
+            text = "4\bark" 
+        intervals [10]:
+            xmin = 20.552267573696145 
+            xmax = 22.417223347611753 
+            text = "" 
+        intervals [11]:
+            xmin = 22.417223347611753 
+            xmax = 25.95956808098026 
+            text = "4\whinning" 
+        intervals [12]:
+            xmin = 25.95956808098026 
+            xmax = 26.788627486662254 
+            text = "" 
+        intervals [13]:
+            xmin = 26.788627486662254 
+            xmax = 28.67285340866678 
+            text = "4\whinning" 
+        intervals [14]:
+            xmin = 28.67285340866678 
+            xmax = 29.507891156462584 
+            text = "" 
+        intervals [15]:
+            xmin = 29.507891156462584 
+            xmax = 31.133696145124716 
+            text = "4\whinning" 
+        intervals [16]:
+            xmin = 31.133696145124716 
+            xmax = 32.01369614512472 
+            text = "" 
+        intervals [17]:
+            xmin = 32.01369614512472 
+            xmax = 34.58685892839641 
+            text = "4\whinning" 
+        intervals [18]:
+            xmin = 34.58685892839641 
+            xmax = 36.84092970521542 
+            text = "4\whinning" 
+        intervals [19]:
+            xmin = 36.84092970521542 
+            xmax = 39.10619047619048 
+            text = "4\whinning" 
+        intervals [20]:
+            xmin = 39.10619047619048 
+            xmax = 41.16034013605442 
+            text = "4\whinning" 
+        intervals [21]:
+            xmin = 41.16034013605442 
+            xmax = 43.126009070294785 
+            text = "4\whinning" 
+        intervals [22]:
+            xmin = 43.126009070294785 
+            xmax = 45.784285714285716 
+            text = "" 
+        intervals [23]:
+            xmin = 45.784285714285716 
+            xmax = 54.02650793650794 
+            text = "4\whinning" 
+        intervals [24]:
+            xmin = 54.02650793650794 
+            xmax = 56.12297052154195 
+            text = "" 

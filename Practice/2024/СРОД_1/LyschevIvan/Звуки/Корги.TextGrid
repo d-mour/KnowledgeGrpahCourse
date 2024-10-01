@@ -1,0 +1,62 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 79.63317460317461 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Corgi" 
+        xmin = 0 
+        xmax = 79.63317460317461 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.709792982204363 
+            text = "" 
+        intervals [2]:
+            xmin = 0.709792982204363 
+            xmax = 5.412157362227326 
+            text = "2\bark" 
+        intervals [3]:
+            xmin = 5.412157362227326 
+            xmax = 7.840453514739229 
+            text = "" 
+        intervals [4]:
+            xmin = 7.840453514739229 
+            xmax = 13.015045565442025 
+            text = "2\bark" 
+        intervals [5]:
+            xmin = 13.015045565442025 
+            xmax = 45.629777865267954 
+            text = "" 
+        intervals [6]:
+            xmin = 45.629777865267954 
+            xmax = 49.80052154195011 
+            text = "2\whinning" 
+        intervals [7]:
+            xmin = 49.80052154195011 
+            xmax = 51.069909297052156 
+            text = "" 
+        intervals [8]:
+            xmin = 51.069909297052156 
+            xmax = 55.343462087496775 
+            text = "2\whinning" 
+        intervals [9]:
+            xmin = 55.343462087496775 
+            xmax = 58.55378684807256 
+            text = "" 
+        intervals [10]:
+            xmin = 58.55378684807256 
+            xmax = 64.69916099773243 
+            text = "2\whinning" 
+        intervals [11]:
+            xmin = 64.69916099773243 
+            xmax = 68.14163650041917 
+            text = "" 
+        intervals [12]:
+            xmin = 68.14163650041917 
+            xmax = 79.63317460317461 
+            text = "2\whinning" 
