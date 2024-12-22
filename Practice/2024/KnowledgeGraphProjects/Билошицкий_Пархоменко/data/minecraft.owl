@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:mc="http://minecraft.example.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://minecraft.example.org/hasCobblestoneCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Recipe">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Diamond_Sword_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:usesMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+    <mc:usesMaterial rdf:resource="http://minecraft.example.org/material/Stick"/>
+    <mc:materialCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:materialCount>
+    <mc:materialCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:materialCount>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Diamond_Sword"/>
+    <mc:recipeGrid>[[null, "Diamond", null], [null, "Diamond", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:Diamond_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:Diamond_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+    <mc:Stick_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:Stick_Count>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Chainmail">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>Chainmail</rdfs:label>
+    <mc:hasMaterialTier rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasMaterialTier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Diamond_Sword">
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Diamond_Sword_Recipe"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/CombatTool"/>
+    <rdfs:label>Diamond Sword</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1561</mc:hasDurability>
+    <mc:hasAttackDamage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</mc:hasAttackDamage>
+    <mc:hasAttackSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</mc:hasAttackSpeed>
+    <mc:hasDPS rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.2</mc:hasDPS>
+    <mc:usesMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Stone_Sword">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/CombatTool"/>
+    <rdfs:label>Stone Sword</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</mc:hasDurability>
+    <mc:hasAttackDamage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</mc:hasAttackDamage>
+    <mc:hasAttackSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</mc:hasAttackSpeed>
+    <mc:hasDPS rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</mc:hasDPS>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Stone_Sword_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Shears_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Shears"/>
+    <mc:recipeGrid>[[null, null, null], [null, "Iron_Ingot", null], ["Iron_Ingot", null, null]]</mc:recipeGrid>
+    <mc:hasIron_IngotCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasIron_IngotCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Iron_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/hasRecipe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://minecraft.example.org/Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Fishing_Rod_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Fishing_Rod"/>
+    <mc:recipeGrid>[[null, null, "Stick"], [null, "Stick", "String"], ["Stick", null, "String"]]</mc:recipeGrid>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasStickCount>
+    <mc:hasStringCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStringCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Stick"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/ore/Emerald_Ore">
+    <rdf:type rdf:resource="http://minecraft.example.org/Ore"/>
+    <rdfs:label>Emerald_Ore</rdfs:label>
+    <mc:requiresPickaxe rdf:resource="http://minecraft.example.org/tool/Iron_Pickaxe"/>
+    <mc:hasAbundance>Uncommon</mc:hasAbundance>
+    <mc:foundInBiome rdf:resource="http://minecraft.example.org/biome/Meadow"/>
+    <mc:foundInBiome rdf:resource="http://minecraft.example.org/biome/Cherry_Grove"/>
+    <mc:foundInBiome rdf:resource="http://minecraft.example.org/biome/Grove"/>
+    <mc:foundInBiome rdf:resource="http://minecraft.example.org/biome/Snowy_Slopes"/>
+    <mc:foundInBiome rdf:resource="http://minecraft.example.org/biome/Jagged_Peaks"/>
+    <mc:foundInBiome rdf:resource="http://minecraft.example.org/biome/Frozen_Peaks"/>
+    <mc:foundInBiome rdf:resource="http://minecraft.example.org/biome/Stony_Peaks"/>
+    <mc:foundInBiome rdf:resource="http://minecraft.example.org/biome/Windswept_Hills"/>
+    <mc:foundInBiome rdf:resource="http://minecraft.example.org/biome/Windswept_Gravelly_Hills"/>
+    <mc:foundInBiome rdf:resource="http://minecraft.example.org/biome/Windswept_Forest"/>
+    <mc:foundInLayer rdf:resource="http://minecraft.example.org/layer/-16_to_320"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Iron">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>Iron</rdfs:label>
+    <mc:hasMaterialTier rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</mc:hasMaterialTier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Stone_Shovel_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Stone_Shovel"/>
+    <mc:recipeGrid>[[null, "Cobblestone", null], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasCobblestoneCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasCobblestoneCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Stick"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Stone_Axe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/MiningTool"/>
+    <rdfs:label>Stone Axe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Stone_Axe_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Iron_Ingot_Count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Chainmail_Boots">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Chainmail Boots</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Chainmail_Boots_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Chainmail_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">195</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/ore/Redstone_Ore">
+    <rdf:type rdf:resource="http://minecraft.example.org/Ore"/>
+    <rdfs:label>Redstone_Ore</rdfs:label>
+    <mc:requiresPickaxe rdf:resource="http://minecraft.example.org/tool/Iron_Pickaxe"/>
+    <mc:hasAbundance>Uncommon</mc:hasAbundance>
+    <mc:isUniversal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</mc:isUniversal>
+    <mc:foundInLayer rdf:resource="http://minecraft.example.org/layer/-64_to_16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Golden_Axe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Golden_Axe"/>
+    <mc:recipeGrid>[["Gold_Ingot", "Gold_Ingot", null], ["Gold_Ingot", "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasGold_IngotCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasGold_IngotCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Gold_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Diamond_Axe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Diamond_Axe"/>
+    <mc:recipeGrid>[["Diamond", "Diamond", null], ["Diamond", "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasDiamondCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasDiamondCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Diamond_Shovel_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Diamond_Shovel"/>
+    <mc:recipeGrid>[[null, "Diamond", null], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasDiamondCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasDiamondCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Stick"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Stone_Shovel">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/FarmingTool"/>
+    <rdfs:label>Stone Shovel</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Stone_Shovel_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Chainmail_Leggings_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Chainmail_Leggings"/>
+    <mc:recipeGrid>[[null, null, null], [null, null, null], [null, null, null]]</mc:recipeGrid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/CombatTool">
+    <rdfs:subClassOf rdf:resource="http://minecraft.example.org/Tool"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Chainmail_Boots_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Chainmail_Boots"/>
+    <mc:recipeGrid>[]</mc:recipeGrid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Stone_Hoe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/FarmingTool"/>
+    <rdfs:label>Stone Hoe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Stone_Hoe_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Golden_Pickaxe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Golden_Pickaxe"/>
+    <mc:recipeGrid>[["Gold_Ingot", "Gold_Ingot", "Gold_Ingot"], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasGold_IngotCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasGold_IngotCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Gold_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Diamond_Boots_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Diamond_Boots"/>
+    <mc:recipeGrid>[[null, null, null], ["Diamond", null, "Diamond"], ["Diamond", null, "Diamond"]]</mc:recipeGrid>
+    <mc:Diamond_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</mc:Diamond_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/hasFlintCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Iron_Boots">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Iron Boots</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Iron_Boots_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Iron_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">195</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Wooden_Pickaxe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/MiningTool"/>
+    <rdfs:label>Wooden Pickaxe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Wooden_Pickaxe_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Iron_Axe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Iron_Axe"/>
+    <mc:recipeGrid>[["Iron_Ingot", "Iron_Ingot", null], ["Iron_Ingot", "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasIron_IngotCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasIron_IngotCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Iron_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Golden_Hoe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Golden_Hoe"/>
+    <mc:recipeGrid>[["Gold_Ingot", "Gold_Ingot", null], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasGold_IngotCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasGold_IngotCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Gold_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Diamond_Helmet_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Diamond_Helmet"/>
+    <mc:recipeGrid>[["Diamond", "Diamond", "Diamond"], ["Diamond", null, "Diamond"], [null, null, null]]</mc:recipeGrid>
+    <mc:Diamond_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</mc:Diamond_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Diamond">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>Diamond</rdfs:label>
+    <mc:hasMaterialTier rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</mc:hasMaterialTier>
+    <mc:isUsedIn rdf:resource="http://minecraft.example.org/tool/Diamond_Sword"/>
+    <mc:isUsedIn rdf:resource="http://minecraft.example.org/tool/Diamond_Pickaxe"/>
+    <mc:isUsedIn rdf:resource="http://minecraft.example.org/tool/Diamond_Axe"/>
+    <mc:isUsedIn rdf:resource="http://minecraft.example.org/tool/Diamond_Shovel"/>
+    <mc:isUsedIn rdf:resource="http://minecraft.example.org/armor/Diamond_Helmet"/>
+    <mc:isUsedIn rdf:resource="http://minecraft.example.org/armor/Diamond_Chestplate"/>
+    <mc:isUsedIn rdf:resource="http://minecraft.example.org/armor/Diamond_Leggings"/>
+    <mc:isUsedIn rdf:resource="http://minecraft.example.org/armor/Diamond_Boots"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Diamond_Boots">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Diamond Boots</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Diamond_Boots_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Diamond_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429</mc:hasBaseDurability>
+    <mc:usesMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Stone_Sword_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Stone_Sword"/>
+    <mc:recipeGrid>[[null, "Cobblestone", null], [null, "Cobblestone", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:Cobblestone_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:Cobblestone_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Cobblestone"/>
+    <mc:Stick_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:Stick_Count>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/hasFeatherCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Chainmail_Chestplate">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Chainmail Chestplate</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Chainmail_Chestplate_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Chainmail_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/layer/-64_to_16">
+    <rdf:type rdf:resource="http://minecraft.example.org/Layer"/>
+    <rdfs:label>-64 to 16</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Chainmail_Helmet">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Chainmail Helmet</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Chainmail_Helmet_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Chainmail_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/ore/Iron_Ore">
+    <rdf:type rdf:resource="http://minecraft.example.org/Ore"/>
+    <rdfs:label>Iron_Ore</rdfs:label>
+    <mc:requiresPickaxe rdf:resource="http://minecraft.example.org/tool/Stone_Pickaxe"/>
+    <mc:hasAbundance>Common</mc:hasAbundance>
+    <mc:isUniversal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</mc:isUniversal>
+    <mc:foundInLayer rdf:resource="http://minecraft.example.org/layer/-64_to_7280_to_320"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Golden_Shovel">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/FarmingTool"/>
+    <rdfs:label>Golden Shovel</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Golden_Shovel_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Iron_Leggings_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Iron_Leggings"/>
+    <mc:recipeGrid>[["Iron_Ingot", "Iron_Ingot", "Iron_Ingot"], ["Iron_Ingot", null, "Iron_Ingot"], ["Iron_Ingot", null, "Iron_Ingot"]]</mc:recipeGrid>
+    <mc:Iron_Ingot_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</mc:Iron_Ingot_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Iron_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Gold_Ingot_Count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/layer/-64_to_64">
+    <rdf:type rdf:resource="http://minecraft.example.org/Layer"/>
+    <rdfs:label>-64 to 64</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Iron_Shovel_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Iron_Shovel"/>
+    <mc:recipeGrid>[[null, "Iron_Ingot", null], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasIron_IngotCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasIron_IngotCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Stick"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Stick">
+    <rdfs:label>Stick</rdfs:label>
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Wooden_Shovel_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Wooden_Shovel"/>
+    <mc:recipeGrid>[[null, "Oak_Planks", null], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasOak_PlanksCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasOak_PlanksCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Stick"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Oak_Planks_Count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Leather_Set">
+    <rdf:type rdf:resource="http://minecraft.example.org/ArmorSet"/>
+    <rdfs:label>Leather Set</rdfs:label>
+    <mc:hasHelmet rdf:resource="http://minecraft.example.org/armor/Leather_Cap"/>
+    <mc:hasChestplate rdf:resource="http://minecraft.example.org/armor/Leather_Tunic"/>
+    <mc:hasLeggings rdf:resource="http://minecraft.example.org/armor/Leather_Pants"/>
+    <mc:hasBoots rdf:resource="http://minecraft.example.org/armor/Leather_Boots"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Brush_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Brush"/>
+    <mc:recipeGrid>[[null, "Feather", null], [null, "Copper_Ingot", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasFeatherCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasFeatherCount>
+    <mc:hasCopper_IngotCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasCopper_IngotCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Feather"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Iron_Helmet">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Iron Helmet</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Iron_Helmet_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Iron_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Golden_Helmet_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Golden_Helmet"/>
+    <mc:recipeGrid>[[null, null, null], ["Gold_Ingot", "Gold_Ingot", "Gold_Ingot"], ["Gold_Ingot", null, "Gold_Ingot"]]</mc:recipeGrid>
+    <mc:Gold_Ingot_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</mc:Gold_Ingot_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Gold_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Leather_Count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Feather">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>Feather</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Diamond_Leggings">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Diamond Leggings</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Diamond_Leggings_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Diamond_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">495</mc:hasBaseDurability>
+    <mc:usesMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/hasDiamondCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/ore/Gold_Ore">
+    <rdf:type rdf:resource="http://minecraft.example.org/Ore"/>
+    <rdfs:label>Gold_Ore</rdfs:label>
+    <mc:requiresPickaxe rdf:resource="http://minecraft.example.org/tool/Iron_Pickaxe"/>
+    <mc:hasAbundance>Common</mc:hasAbundance>
+    <mc:foundInBiome rdf:resource="http://minecraft.example.org/biome/Badlands"/>
+    <mc:foundInLayer rdf:resource="http://minecraft.example.org/layer/-64_to_256"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Golden_Sword">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/CombatTool"/>
+    <rdfs:label>Golden Sword</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</mc:hasDurability>
+    <mc:hasAttackDamage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</mc:hasAttackDamage>
+    <mc:hasAttackSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</mc:hasAttackSpeed>
+    <mc:hasDPS rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.4</mc:hasDPS>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Golden_Sword_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Leather_Boots_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Leather_Boots"/>
+    <mc:recipeGrid>[[null, null, null], ["Leather", null, "Leather"], ["Leather", null, "Leather"]]</mc:recipeGrid>
+    <mc:Leather_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</mc:Leather_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Leather"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Leather_Tunic_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Leather_Tunic"/>
+    <mc:recipeGrid>[["Leather", null, "Leather"], ["Leather", "Leather", "Leather"], ["Leather", "Leather", "Leather"]]</mc:recipeGrid>
+    <mc:Leather_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</mc:Leather_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Leather"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Golden_Hoe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/FarmingTool"/>
+    <rdfs:label>Golden Hoe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Golden_Hoe_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Cobblestone_Count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Diamond_Shovel">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/FarmingTool"/>
+    <rdfs:label>Diamond Shovel</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1561</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Diamond_Shovel_Recipe"/>
+    <mc:usesMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Diamond_Helmet">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Diamond Helmet</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Diamond_Helmet_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Diamond_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">363</mc:hasBaseDurability>
+    <mc:usesMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/materialCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Spyglass_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Spyglass"/>
+    <mc:recipeGrid>[[null, "Amethyst_Shard", null], [null, "Copper_Ingot", null], [null, "Copper_Ingot", null]]</mc:recipeGrid>
+    <mc:hasAmethyst_ShardCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasAmethyst_ShardCount>
+    <mc:hasCopper_IngotCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasCopper_IngotCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Copper_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Iron_Chestplate_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Iron_Chestplate"/>
+    <mc:recipeGrid>[["Iron_Ingot", null, "Iron_Ingot"], ["Iron_Ingot", "Iron_Ingot", "Iron_Ingot"], ["Iron_Ingot", "Iron_Ingot", "Iron_Ingot"]]</mc:recipeGrid>
+    <mc:Iron_Ingot_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</mc:Iron_Ingot_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Iron_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/ore/Diamond_Ore">
+    <rdf:type rdf:resource="http://minecraft.example.org/Ore"/>
+    <rdfs:label>Diamond_Ore</rdfs:label>
+    <mc:requiresPickaxe rdf:resource="http://minecraft.example.org/tool/Iron_Pickaxe"/>
+    <mc:hasAbundance>Very rare</mc:hasAbundance>
+    <mc:isUniversal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</mc:isUniversal>
+    <mc:foundInLayer rdf:resource="http://minecraft.example.org/layer/-64_to_16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Flint_and_Steel">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/SpecialTool"/>
+    <rdfs:label>Flint and Steel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Iron_Pickaxe">
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Iron_Pickaxe_Recipe"/>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Iron_Pickaxe_Recipe"/>
+    <rdfs:label>Iron Pickaxe</rdfs:label>
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/MiningTool"/>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</mc:hasDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/MiningTool">
+    <rdfs:subClassOf rdf:resource="http://minecraft.example.org/Tool"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Iron_Axe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/MiningTool"/>
+    <rdfs:label>Iron Axe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Iron_Axe_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Golden_Boots_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Golden_Boots"/>
+    <mc:recipeGrid>[[null, null, null], ["Gold_Ingot", null, "Gold_Ingot"], ["Gold_Ingot", null, "Gold_Ingot"]]</mc:recipeGrid>
+    <mc:Gold_Ingot_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</mc:Gold_Ingot_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Gold_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Iron_Boots_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Iron_Boots"/>
+    <mc:recipeGrid>[[null, null, null], ["Iron_Ingot", null, "Iron_Ingot"], ["Iron_Ingot", null, "Iron_Ingot"]]</mc:recipeGrid>
+    <mc:Iron_Ingot_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</mc:Iron_Ingot_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Iron_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Oak_Planks">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>Oak_Planks</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Iron_Sword_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Iron_Sword"/>
+    <mc:recipeGrid>[[null, "Iron_Ingot", null], [null, "Iron_Ingot", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:Iron_Ingot_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:Iron_Ingot_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Iron_Ingot"/>
+    <mc:Stick_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:Stick_Count>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Diamond_Chestplate">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Diamond Chestplate</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Diamond_Chestplate_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Diamond_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">528</mc:hasBaseDurability>
+    <mc:usesMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/ore/Copper_Ore">
+    <rdf:type rdf:resource="http://minecraft.example.org/Ore"/>
+    <rdfs:label>Copper_Ore</rdfs:label>
+    <mc:requiresPickaxe rdf:resource="http://minecraft.example.org/tool/Stone_Pickaxe"/>
+    <mc:hasAbundance>Very common</mc:hasAbundance>
+    <mc:foundInBiome rdf:resource="http://minecraft.example.org/biome/DripstoneCaves"/>
+    <mc:foundInLayer rdf:resource="http://minecraft.example.org/layer/-16_to_112"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Chainmail_Set">
+    <rdf:type rdf:resource="http://minecraft.example.org/ArmorSet"/>
+    <rdfs:label>Chainmail Set</rdfs:label>
+    <mc:hasHelmet rdf:resource="http://minecraft.example.org/armor/Chainmail_Helmet"/>
+    <mc:hasChestplate rdf:resource="http://minecraft.example.org/armor/Chainmail_Chestplate"/>
+    <mc:hasLeggings rdf:resource="http://minecraft.example.org/armor/Chainmail_Leggings"/>
+    <mc:hasBoots rdf:resource="http://minecraft.example.org/armor/Chainmail_Boots"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Wooden_Sword_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Wooden_Sword"/>
+    <mc:recipeGrid>[[null, "Oak_Planks", null], [null, "Oak_Planks", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:Oak_Planks_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:Oak_Planks_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Oak_Planks"/>
+    <mc:Stick_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:Stick_Count>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Shears">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/SpecialTool"/>
+    <rdfs:label>Shears</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">238</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Shears_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Golden_Pickaxe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/MiningTool"/>
+    <rdfs:label>Golden Pickaxe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Golden_Pickaxe_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Wooden_Hoe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Wooden_Hoe"/>
+    <mc:recipeGrid>[["Oak_Planks", "Oak_Planks", null], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasOak_PlanksCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasOak_PlanksCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Oak_Planks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Iron_Leggings">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Iron Leggings</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Iron_Leggings_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Iron_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">225</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Ore">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Iron_Chestplate">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Iron Chestplate</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Iron_Chestplate_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Iron_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Stone_Pickaxe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/MiningTool"/>
+    <rdfs:label>Stone Pickaxe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Stone_Pickaxe_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/layer/0_to_320">
+    <rdf:type rdf:resource="http://minecraft.example.org/Layer"/>
+    <rdfs:label>0 to 320</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Iron_Hoe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Iron_Hoe"/>
+    <mc:recipeGrid>[["Iron_Ingot", "Iron_Ingot", null], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasIron_IngotCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasIron_IngotCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Iron_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Wooden_Hoe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/FarmingTool"/>
+    <rdfs:label>Wooden Hoe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Wooden_Hoe_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Golden_Sword_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Golden_Sword"/>
+    <mc:recipeGrid>[[null, "Gold_Ingot", null], [null, "Gold_Ingot", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:Gold_Ingot_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:Gold_Ingot_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Gold_Ingot"/>
+    <mc:Stick_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:Stick_Count>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Tool">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/ore/Lapis_Lazuli_Ore">
+    <rdf:type rdf:resource="http://minecraft.example.org/Ore"/>
+    <rdfs:label>Lapis_Lazuli_Ore</rdfs:label>
+    <mc:requiresPickaxe rdf:resource="http://minecraft.example.org/tool/Stone_Pickaxe"/>
+    <mc:hasAbundance>Rare</mc:hasAbundance>
+    <mc:isUniversal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</mc:isUniversal>
+    <mc:foundInLayer rdf:resource="http://minecraft.example.org/layer/-64_to_64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Wooden_Axe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/MiningTool"/>
+    <rdfs:label>Wooden Axe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Wooden_Axe_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Fishing_Rod">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/SpecialTool"/>
+    <rdfs:label>Fishing Rod</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Fishing_Rod_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Diamond_Axe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/MiningTool"/>
+    <rdfs:label>Diamond Axe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1561</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Diamond_Axe_Recipe"/>
+    <mc:usesMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/hasGold_IngotCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Flint_and_Steel_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Flint_And_Steel"/>
+    <mc:recipeGrid>[[null, null, null], ["Iron_Ingot", "Flint", null], [null, null, null]]</mc:recipeGrid>
+    <mc:hasIron_IngotCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasIron_IngotCount>
+    <mc:hasFlintCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasFlintCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Iron_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Diamond_Hoe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/FarmingTool"/>
+    <rdfs:label>Diamond Hoe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1561</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Diamond_Hoe_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/biome/DripstoneCaves">
+    <rdf:type rdf:resource="http://minecraft.example.org/Biome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Chainmail_Leggings">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Chainmail Leggings</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Chainmail_Leggings_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Chainmail_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">225</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Iron_Sword">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/CombatTool"/>
+    <rdfs:label>Iron Sword</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</mc:hasDurability>
+    <mc:hasAttackDamage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</mc:hasAttackDamage>
+    <mc:hasAttackSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</mc:hasAttackSpeed>
+    <mc:hasDPS rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.6</mc:hasDPS>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Iron_Sword_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Leather_Tunic">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Leather Tunic</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Leather_Tunic_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Leather_Set"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/hasStickCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Diamond_Count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Leather_Cap_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Leather_Cap"/>
+    <mc:recipeGrid>[[null, null, null], ["Leather", "Leather", "Leather"], ["Leather", null, "Leather"]]</mc:recipeGrid>
+    <mc:Leather_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</mc:Leather_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Leather"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/layer/-16_to_112">
+    <rdf:type rdf:resource="http://minecraft.example.org/Layer"/>
+    <rdfs:label>-16 to 112</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Wooden_Axe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Wooden_Axe"/>
+    <mc:recipeGrid>[["Oak_Planks", "Oak_Planks", null], ["Oak_Planks", "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasOak_PlanksCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasOak_PlanksCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Oak_Planks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/biome/Windswept_Gravelly_Hills">
+    <rdf:type rdf:resource="http://minecraft.example.org/Biome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/hasOak_PlanksCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Stone_Axe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Stone_Axe"/>
+    <mc:recipeGrid>[["Cobblestone", "Cobblestone", null], ["Cobblestone", "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasCobblestoneCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasCobblestoneCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Cobblestone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Iron_Set">
+    <rdf:type rdf:resource="http://minecraft.example.org/ArmorSet"/>
+    <rdfs:label>Iron Set</rdfs:label>
+    <mc:hasHelmet rdf:resource="http://minecraft.example.org/armor/Iron_Helmet"/>
+    <mc:hasChestplate rdf:resource="http://minecraft.example.org/armor/Iron_Chestplate"/>
+    <mc:hasLeggings rdf:resource="http://minecraft.example.org/armor/Iron_Leggings"/>
+    <mc:hasBoots rdf:resource="http://minecraft.example.org/armor/Iron_Boots"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Diamond_Pickaxe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/MiningTool"/>
+    <rdfs:label>Diamond Pickaxe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1561</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Diamond_Pickaxe_Recipe"/>
+    <mc:usesMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Diamond_Chestplate_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Diamond_Chestplate"/>
+    <mc:recipeGrid>[["Diamond", null, "Diamond"], ["Diamond", "Diamond", "Diamond"], ["Diamond", "Diamond", "Diamond"]]</mc:recipeGrid>
+    <mc:Diamond_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</mc:Diamond_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Wooden_Pickaxe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Wooden_Pickaxe"/>
+    <mc:recipeGrid>[["Oak_Planks", "Oak_Planks", "Oak_Planks"], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasOak_PlanksCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasOak_PlanksCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Oak_Planks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Spyglass">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/SpecialTool"/>
+    <rdfs:label>Spyglass</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Spyglass_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Leather_Pants_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Leather_Pants"/>
+    <mc:recipeGrid>[["Leather", "Leather", "Leather"], ["Leather", null, "Leather"], ["Leather", null, "Leather"]]</mc:recipeGrid>
+    <mc:Leather_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</mc:Leather_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Leather"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Diamond_Set">
+    <rdf:type rdf:resource="http://minecraft.example.org/ArmorSet"/>
+    <rdfs:label>Diamond Set</rdfs:label>
+    <mc:hasHelmet rdf:resource="http://minecraft.example.org/armor/Diamond_Helmet"/>
+    <mc:hasChestplate rdf:resource="http://minecraft.example.org/armor/Diamond_Chestplate"/>
+    <mc:hasLeggings rdf:resource="http://minecraft.example.org/armor/Diamond_Leggings"/>
+    <mc:hasBoots rdf:resource="http://minecraft.example.org/armor/Diamond_Boots"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Iron_Shovel">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/FarmingTool"/>
+    <rdfs:label>Iron Shovel</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Iron_Shovel_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Golden_Chestplate_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Golden_Chestplate"/>
+    <mc:recipeGrid>[["Gold_Ingot", null, "Gold_Ingot"], ["Gold_Ingot", "Gold_Ingot", "Gold_Ingot"], ["Gold_Ingot", "Gold_Ingot", "Gold_Ingot"]]</mc:recipeGrid>
+    <mc:Gold_Ingot_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</mc:Gold_Ingot_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Gold_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Leather_Cap">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Leather Cap</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Leather_Cap_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Leather_Set"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Iron_Pickaxe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:usesMaterial rdf:resource="http://minecraft.example.org/material/Iron_Ingot"/>
+    <mc:usesMaterial rdf:resource="http://minecraft.example.org/material/Stick"/>
+    <mc:Iron_Ingot_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:Iron_Ingot_Count>
+    <mc:Stick_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:Stick_Count>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Leather_Boots">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Leather Boots</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Leather_Boots_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Leather_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Wooden_Sword">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/CombatTool"/>
+    <rdfs:label>Wooden Sword</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</mc:hasDurability>
+    <mc:hasAttackDamage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</mc:hasAttackDamage>
+    <mc:hasAttackSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</mc:hasAttackSpeed>
+    <mc:hasDPS rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.4</mc:hasDPS>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Wooden_Sword_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Iron_Ingot">
+    <rdfs:label>Iron Ingot</rdfs:label>
+    <rdfs:label>Iron_Ingot</rdfs:label>
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Leather">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>Leather</rdfs:label>
+    <mc:hasMaterialTier rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasMaterialTier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Gold_Set">
+    <rdf:type rdf:resource="http://minecraft.example.org/ArmorSet"/>
+    <rdfs:label>Gold Set</rdfs:label>
+    <mc:hasHelmet rdf:resource="http://minecraft.example.org/armor/Golden_Helmet"/>
+    <mc:hasChestplate rdf:resource="http://minecraft.example.org/armor/Golden_Chestplate"/>
+    <mc:hasLeggings rdf:resource="http://minecraft.example.org/armor/Golden_Leggings"/>
+    <mc:hasBoots rdf:resource="http://minecraft.example.org/armor/Golden_Boots"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Diamond_Hoe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Diamond_Hoe"/>
+    <mc:recipeGrid>[["Diamond", "Diamond", null], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasDiamondCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasDiamondCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/hasStringCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Golden_Axe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/MiningTool"/>
+    <rdfs:label>Golden Axe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Golden_Axe_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Amethyst_Shard">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>Amethyst_Shard</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Iron_Helmet_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Iron_Helmet"/>
+    <mc:recipeGrid>[[null, null, null], ["Iron_Ingot", "Iron_Ingot", "Iron_Ingot"], ["Iron_Ingot", null, "Iron_Ingot"]]</mc:recipeGrid>
+    <mc:Iron_Ingot_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</mc:Iron_Ingot_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Iron_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Gold">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>Gold</rdfs:label>
+    <mc:hasMaterialTier rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasMaterialTier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Stone_Pickaxe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Stone_Pickaxe"/>
+    <mc:recipeGrid>[["Cobblestone", "Cobblestone", "Cobblestone"], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasCobblestoneCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasCobblestoneCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Cobblestone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Cobblestone">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>Cobblestone</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Brush">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/SpecialTool"/>
+    <rdfs:label>Brush</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Brush_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Diamond_Leggings_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Diamond_Leggings"/>
+    <mc:recipeGrid>[["Diamond", "Diamond", "Diamond"], ["Diamond", null, "Diamond"], ["Diamond", null, "Diamond"]]</mc:recipeGrid>
+    <mc:Diamond_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</mc:Diamond_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/ore/Coal_Ore">
+    <rdf:type rdf:resource="http://minecraft.example.org/Ore"/>
+    <rdfs:label>Coal_Ore</rdfs:label>
+    <mc:requiresPickaxe rdf:resource="http://minecraft.example.org/tool/Wooden_Pickaxe"/>
+    <mc:hasAbundance>Very common</mc:hasAbundance>
+    <mc:isUniversal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</mc:isUniversal>
+    <mc:foundInLayer rdf:resource="http://minecraft.example.org/layer/0_to_320"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Golden_Shovel_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Golden_Shovel"/>
+    <mc:recipeGrid>[[null, "Gold_Ingot", null], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasGold_IngotCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasGold_IngotCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Stick"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Stick_Count">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Wooden_Shovel">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/FarmingTool"/>
+    <rdfs:label>Wooden Shovel</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Wooden_Shovel_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Biome">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Golden_Chestplate">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Golden Chestplate</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Golden_Chestplate_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Gold_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Golden_Helmet">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Golden Helmet</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Golden_Helmet_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Gold_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/layer/-64_to_256">
+    <rdf:type rdf:resource="http://minecraft.example.org/Layer"/>
+    <rdfs:label>-64 to 256</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/layer/-16_to_320">
+    <rdf:type rdf:resource="http://minecraft.example.org/Layer"/>
+    <rdfs:label>-16 to 320</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/biome/Frozen_Peaks">
+    <rdf:type rdf:resource="http://minecraft.example.org/Biome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/hasCopper_IngotCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Gold_Ingot">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>Gold_Ingot</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Golden_Leggings">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Golden Leggings</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Golden_Leggings_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Gold_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/biome/Badlands">
+    <rdf:type rdf:resource="http://minecraft.example.org/Biome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Iron_Pickaxe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Iron_Pickaxe"/>
+    <mc:recipeGrid>[["Iron_Ingot", "Iron_Ingot", "Iron_Ingot"], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasIron_IngotCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasIron_IngotCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Iron_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Diamond_Pickaxe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Diamond_Pickaxe"/>
+    <mc:recipeGrid>[["Diamond", "Diamond", "Diamond"], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasDiamondCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</mc:hasDiamondCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Diamond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Stone_Hoe_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/tool/Stone_Hoe"/>
+    <mc:recipeGrid>[["Cobblestone", "Cobblestone", null], [null, "Stick", null], [null, "Stick", null]]</mc:recipeGrid>
+    <mc:hasCobblestoneCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasCobblestoneCount>
+    <mc:hasStickCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</mc:hasStickCount>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Cobblestone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/hasIron_IngotCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/biome/Cherry_Grove">
+    <rdf:type rdf:resource="http://minecraft.example.org/Biome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Leather_Pants">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Leather Pants</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Leather_Pants_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Leather_Set"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/FarmingTool">
+    <rdfs:subClassOf rdf:resource="http://minecraft.example.org/Tool"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/String">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>String</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/armor/Golden_Boots">
+    <rdf:type rdf:resource="http://minecraft.example.org/Armor"/>
+    <rdfs:label>Golden Boots</rdfs:label>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/recipe/Golden_Boots_Recipe"/>
+    <mc:isPartOfArmorSet rdf:resource="http://minecraft.example.org/armor/Gold_Set"/>
+    <mc:hasProtectionValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</mc:hasProtectionValue>
+    <mc:hasBaseDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</mc:hasBaseDurability>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/biome/Snowy_Slopes">
+    <rdf:type rdf:resource="http://minecraft.example.org/Biome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Chainmail_Chestplate_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Chainmail_Chestplate"/>
+    <mc:recipeGrid>[]</mc:recipeGrid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/hasAmethyst_ShardCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Iron_Hoe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdf:type rdf:resource="http://minecraft.example.org/FarmingTool"/>
+    <rdfs:label>Iron Hoe</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Iron_Hoe_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/tool/Flint_And_Steel">
+    <rdf:type rdf:resource="http://minecraft.example.org/Tool"/>
+    <rdfs:label>Flint and Steel</rdfs:label>
+    <mc:hasDurability rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</mc:hasDurability>
+    <mc:hasRecipe rdf:resource="http://minecraft.example.org/Flint_and_Steel_Recipe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Flint">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>Flint</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Golden_Leggings_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Golden_Leggings"/>
+    <mc:recipeGrid>[["Gold_Ingot", "Gold_Ingot", "Gold_Ingot"], ["Gold_Ingot", null, "Gold_Ingot"], ["Gold_Ingot", null, "Gold_Ingot"]]</mc:recipeGrid>
+    <mc:Gold_Ingot_Count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</mc:Gold_Ingot_Count>
+    <mc:primaryMaterial rdf:resource="http://minecraft.example.org/material/Gold_Ingot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/layer/-64_to_7280_to_320">
+    <rdf:type rdf:resource="http://minecraft.example.org/Layer"/>
+    <rdfs:label>-64 to 7280 to 320</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/SpecialTool">
+    <rdfs:subClassOf rdf:resource="http://minecraft.example.org/Tool"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/material/Copper_Ingot">
+    <rdf:type rdf:resource="http://minecraft.example.org/Material"/>
+    <rdfs:label>Copper_Ingot</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/biome/Windswept_Forest">
+    <rdf:type rdf:resource="http://minecraft.example.org/Biome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/usesMaterial">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://minecraft.example.org/Recipe"/>
+    <rdfs:range rdf:resource="http://minecraft.example.org/Material"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Material">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Armor">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/biome/Windswept_Hills">
+    <rdf:type rdf:resource="http://minecraft.example.org/Biome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/biome/Meadow">
+    <rdf:type rdf:resource="http://minecraft.example.org/Biome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/recipe/Chainmail_Helmet_Recipe">
+    <rdf:type rdf:resource="http://minecraft.example.org/Recipe"/>
+    <mc:isRecipeFor rdf:resource="http://minecraft.example.org/armor/Chainmail_Helmet"/>
+    <mc:recipeGrid>[[null, null, null], [null, null, null], [null, null, null]]</mc:recipeGrid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/biome/Stony_Peaks">
+    <rdf:type rdf:resource="http://minecraft.example.org/Biome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/biome/Grove">
+    <rdf:type rdf:resource="http://minecraft.example.org/Biome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/Layer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://minecraft.example.org/biome/Jagged_Peaks">
+    <rdf:type rdf:resource="http://minecraft.example.org/Biome"/>
+  </rdf:Description>
+</rdf:RDF>
