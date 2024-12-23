@@ -1,0 +1,68 @@
+
+1. Найти все музыкальные инструменты, используемые в Москве, с их продолжительностью звучания
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX music-knowledge: <http://www.semanticweb.org/user/ontologies/2024/9/music-knowledge#>
+
+SELECT ?instrument ?duration
+WHERE {
+    ?instrument rdf:type music-knowledge:Флейта .
+    ?instrument music-knowledge:содержать music-knowledge:Москва .
+    OPTIONAL {
+        ?instrument music-knowledge:продолжительность ?duration .
+    }
+}
+
+2. Найти все города, где играют на Электрогитаре, и музыкантов, связанных с этим инструментом
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX music-knowledge: <http://www.semanticweb.org/user/ontologies/2024/9/music-knowledge#>
+
+SELECT ?city ?musician
+WHERE {
+    ?instrument rdf:type music-knowledge:Электрогитара .
+    ?instrument music-knowledge:содержать ?city .
+    OPTIONAL {
+        ?musician music-knowledge:содержать ?instrument .
+    }
+}
+
+3. Получить все музыкальные инструменты, используемые в композициях, продолжительность которых превышает 5 минут
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX music-knowledge: <http://www.semanticweb.org/user/ontologies/2024/9/music-knowledge#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?composition ?instrument ?duration
+WHERE {
+    ?composition rdf:type music-knowledge:Композиция .
+    ?composition music-knowledge:содержать ?instrument .
+    ?composition music-knowledge:продолжительность ?duration .
+    FILTER(xsd:integer(?duration) > 5)
+}
+
+4. Найти всех музыкантов, которые используют флейту и живут в Москв
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX music-knowledge: <http://www.semanticweb.org/user/ontologies/2024/9/music-knowledge#>
+
+SELECT ?musician
+WHERE {
+    ?musician music-knowledge:содержать music-knowledge:Флейта .
+    ?musician music-knowledge:содержать music-knowledge:Москва .
+}
+
+5. Найти все города, связанные с музыкантами, которые играют на акустической бас-гитаре и используют более одного инструмента
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX music-knowledge: <http://www.semanticweb.org/user/ontologies/2024/9/music-knowledge#>
+
+SELECT ?city ?musician (COUNT(?instrument) AS ?instrumentCount)
+WHERE {
+    ?musician music-knowledge:содержать music-knowledge:Акустическая_бас-гитара .
+    ?musician music-knowledge:содержать ?instrument .
+    ?musician music-knowledge:содержать ?city .
+}
+GROUP BY ?city ?musician
+HAVING (COUNT(?instrument) > 1)
