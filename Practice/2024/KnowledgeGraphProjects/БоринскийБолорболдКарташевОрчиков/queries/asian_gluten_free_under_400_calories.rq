@@ -1,0 +1,19 @@
+PREFIX o: <http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#>
+
+SELECT ?recipe ?recipeName ?calories
+WHERE {
+  ?recipe a o:Recipe ;
+          o:name ?recipeName ;
+          o:belongsToCuisine ?cuisine ;
+          o:calories ?calories ;
+          o:hasDietaryRestriction ?diet .
+
+  ?cuisine a o:Cuisine ;
+           o:name "Asian" .
+
+  ?diet a o:DietaryRestriction ;
+        o:name "gluten free" .
+
+  FILTER(?calories < 400)
+}
+ORDER BY ?calories
