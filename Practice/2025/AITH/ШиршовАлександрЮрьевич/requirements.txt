@@ -5,7 +5,7 @@ matplotlib
 networkx
 openpyxl
 ampligraph
-tensorflow==2.12
+tensorflow==2.12.1
 adjustText
 seaborn
 plotly
