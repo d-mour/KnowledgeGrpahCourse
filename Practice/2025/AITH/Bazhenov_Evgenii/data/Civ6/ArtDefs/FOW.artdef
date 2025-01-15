@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>212</build>
+		<revision>884</revision>
+	</m_Version>
+	<m_TemplateName text="FOWConfig"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="FOWConfig"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="FOW_River_Parchment"/>
+							<m_XLPClass text="FOWTexture"/>
+							<m_XLPPath text="FOWTextures.xlp"/>
+							<m_BLPPackage text="FOWTextures"/>
+							<m_LibraryName text="FOWTexture"/>
+							<m_ParamName text="MidFog_RiverParchment"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>49.000000</m_r>
+							<m_g>27.000000</m_g>
+							<m_b>6.000000</m_b>
+							<m_ParamName text="TerrainHatchColor"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>45.000000</m_fValue>
+							<m_ParamName text="TerrainHatchRotation"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.040000</m_fValue>
+							<m_ParamName text="MidFog_CoastStripeThickness"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>64.000000</m_r>
+							<m_g>51.000000</m_g>
+							<m_b>17.000000</m_b>
+							<m_ParamName text="MidFog_CoastStripeColor"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>50.000000</m_fValue>
+							<m_ParamName text="TerrainHatchTileRate"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>200.000000</m_fValue>
+							<m_ParamName text="MidFog_WaterParchmentTiling"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>600.000000</m_fValue>
+							<m_ParamName text="FullFog_LineOpacityTiling"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>600.000000</m_fValue>
+							<m_ParamName text="FullFog_ParchmentTiling"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="FOW_Parchment_Light"/>
+							<m_XLPClass text="FOWTexture"/>
+							<m_XLPPath text="FOWTextures.xlp"/>
+							<m_BLPPackage text="FOWTextures"/>
+							<m_LibraryName text="FOWTexture"/>
+							<m_ParamName text="FullFog_Parchment"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="FOW/Parchment"/>
+							<m_XLPClass text="FOWTexture"/>
+							<m_XLPPath text="FOWTextures.xlp"/>
+							<m_BLPPackage text="FOWTextures"/>
+							<m_LibraryName text="FOWTexture"/>
+							<m_ParamName text="FullFog_LineOpacityNoise"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.400000</m_fValue>
+							<m_ParamName text="FullFog_LineOpacity"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>49.000000</m_r>
+							<m_g>27.000000</m_g>
+							<m_b>6.000000</m_b>
+							<m_ParamName text="FullFog_LineColor"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="MidFog_ShallowWaveJitter"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="MidFog_OceanWaveJitter"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="FOW_Water_Deep"/>
+							<m_XLPClass text="FOWTexture"/>
+							<m_XLPPath text="FOWTextures.xlp"/>
+							<m_BLPPackage text="FOWTextures"/>
+							<m_LibraryName text="FOWTexture"/>
+							<m_ParamName text="MidFog_DeepWaterParchment"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="FOW_Water_Shallow"/>
+							<m_XLPClass text="FOWTexture"/>
+							<m_XLPPath text="FOWTextures.xlp"/>
+							<m_BLPPackage text="FOWTextures"/>
+							<m_LibraryName text="FOWTexture"/>
+							<m_ParamName text="MidFog_ShallowWaterParchment"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FullFog_ParchmentRotation"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MidFog_WaterParchmentRotation"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="FullFog_DecoJitter"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FullFog_LineThicknessY"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>250.000000</m_fValue>
+							<m_ParamName text="FullFog_LineIntervalY"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>400.000000</m_fValue>
+							<m_ParamName text="FullFog_LineIntervalX"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FullFog_LineThicknessX"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>48.000000</m_fValue>
+							<m_ParamName text="MidFog_CoastalWavesExtrudeDistance"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>270.000000</m_fValue>
+							<m_ParamName text="MidFog_CoastalWavesTiling"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="FOW_Waves_Shallow_Tile"/>
+							<m_XLPClass text="FOWTexture"/>
+							<m_XLPPath text="FOWTextures.xlp"/>
+							<m_BLPPackage text="FOWTextures"/>
+							<m_LibraryName text="FOWTexture"/>
+							<m_ParamName text="MidFog_CoastalWaves"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>10.000000</m_r>
+							<m_g>39.000000</m_g>
+							<m_b>66.000000</m_b>
+							<m_ParamName text="BackgroundColor"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>49.000000</m_r>
+							<m_g>27.000000</m_g>
+							<m_b>6.000000</m_b>
+							<m_ParamName text="MidFog_FlowLineColor"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>14.000000</m_fValue>
+							<m_ParamName text="MidFog_FlowLineThickness"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.650000</m_fValue>
+							<m_ParamName text="MidFog_FlowLineOpacity"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.200000</m_fValue>
+							<m_ParamName text="MidFog_FlowLineHeightBias"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.004500</m_fValue>
+							<m_ParamName text="FogBorderUVScale"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="FogBorderNoiseIntensity"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>49.000000</m_r>
+							<m_g>27.000000</m_g>
+							<m_b>6.000000</m_b>
+							<m_ParamName text="FogBorderColor"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.300000</m_x>
+							<m_y>0.200000</m_y>
+							<m_ParamName text="MidFog_FlowLineOffset"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>50.000000</m_fValue>
+							<m_ParamName text="Models_HatchTileRate"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>45.000000</m_fValue>
+							<m_ParamName text="Models_HatchRotation"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>49.000000</m_r>
+							<m_g>27.000000</m_g>
+							<m_b>6.000000</m_b>
+							<m_ParamName text="Models_HatchColor"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>49.000000</m_r>
+							<m_g>27.000000</m_g>
+							<m_b>6.000000</m_b>
+							<m_ParamName text="Models_StrokeColor"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.900000</m_fValue>
+							<m_ParamName text="Models_StrokeOpacity"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>3.500000</m_fValue>
+							<m_ParamName text="Models_StrokeThickness"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="FOW/Parchment"/>
+							<m_XLPClass text="FOWTexture"/>
+							<m_XLPPath text="FOWTextures.xlp"/>
+							<m_BLPPackage text="FOWTextures"/>
+							<m_LibraryName text="FOWTexture"/>
+							<m_ParamName text="Models_Parchment"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.700000</m_fValue>
+							<m_ParamName text="Models_ParchmentWeight"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="FOW_CompassLines"/>
+							<m_XLPClass text="FOWTexture"/>
+							<m_XLPPath text="FOWTextures.xlp"/>
+							<m_BLPPackage text="FOWTextures"/>
+							<m_LibraryName text="FOWTexture"/>
+							<m_ParamName text="CompassLine_Texture"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>4.000000</m_fValue>
+							<m_ParamName text="CompassLine_Width"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>22.500000</m_fValue>
+							<m_ParamName text="CompassLine_SeperationAngle"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="OceanWaveSets"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>7.000000</m_fValue>
+										<m_ParamName text="Rarity"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Sprites"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Large_1"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites1"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Large_2"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites2"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Large_3"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites3"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Large_4"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites4"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Large_5"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites5"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="LargeWaves"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>5.000000</m_fValue>
+										<m_ParamName text="Rarity"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Sprites"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Med_1"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites1"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Med_2"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites2"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Med_3"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites3"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Med_4"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites4"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Med_5"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites5"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="MediumWaves"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.400000</m_fValue>
+										<m_ParamName text="Rarity"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Sprites"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Small_1"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites1"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Small_2"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites2"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Small_3"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites3"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Small_4"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites4"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Waves_Deep_Small_5"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.090000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Sprites5"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="SmallWaves"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="FullFogDecoSets"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.005000</m_fValue>
+										<m_ParamName text="Rarity"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Sprites"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_Hippocampus"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="HorseDragon"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_Compass"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="FOW_Deco_Compass"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_Squid"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="FOW_Deco_Squid"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_Wyrm"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="FOW_Deco_Wyrm"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_Snallygaster"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="FOW_Deco_Snallygaster"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_Octopus"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="FOW_Deco_Octopus"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_Neptune"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="FOW_Deco_Neptune"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_ShipSmall"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="FOW_Deco_ShipSmall"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_ShipLarge"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="FOW_Deco_ShipLarge"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_Fish"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="FOW_Deco_Fish"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="Deco"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="ShallowWaveSets"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>2.000000</m_fValue>
+										<m_ParamName text="Rarity"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Sprites"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="Waves"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="MapBorders"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Rarity"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Sprites"/>
+									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_Border_1"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="EdgeSprite"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_Border_CL"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="CornerCL"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..BLPEntryValue">
+													<m_EntryName text="FOW_Deco_Border_CR"/>
+													<m_XLPClass text="FOWSprite"/>
+													<m_XLPPath text="FOWSprites.xlp"/>
+													<m_BLPPackage text="FOWSprites"/>
+													<m_LibraryName text="FOWSprite"/>
+													<m_ParamName text="SpriteTexture"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>0.250000</m_fValue>
+													<m_ParamName text="ScaleFactor"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="CornerCR"/>
+										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="MapBorders1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="HatchTextures"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FOW_Hatch_2_Med"/>
+										<m_XLPClass text="FOWTexture"/>
+										<m_XLPPath text="FOWTextures.xlp"/>
+										<m_BLPPackage text="FOWTextures"/>
+										<m_LibraryName text="FOWTexture"/>
+										<m_ParamName text="HatchPattern"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HatchTextures1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FOW_Hatch_2_Med"/>
+										<m_XLPClass text="FOWTexture"/>
+										<m_XLPPath text="FOWTextures.xlp"/>
+										<m_BLPPackage text="FOWTextures"/>
+										<m_LibraryName text="FOWTexture"/>
+										<m_ParamName text="HatchPattern"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HatchTextures2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FOW_Hatch_3_MedLight"/>
+										<m_XLPClass text="FOWTexture"/>
+										<m_XLPPath text="FOWTextures.xlp"/>
+										<m_BLPPackage text="FOWTextures"/>
+										<m_LibraryName text="FOWTexture"/>
+										<m_ParamName text="HatchPattern"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HatchTextures3"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FOW_Hatch_4_Light"/>
+										<m_XLPClass text="FOWTexture"/>
+										<m_XLPPath text="FOWTextures.xlp"/>
+										<m_BLPPackage text="FOWTextures"/>
+										<m_LibraryName text="FOWTexture"/>
+										<m_ParamName text="HatchPattern"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HatchTextures4"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="ModelHatchTextures"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FOW_Model_Hatch_Med"/>
+										<m_XLPClass text="FOWTexture"/>
+										<m_XLPPath text="FOWTextures.xlp"/>
+										<m_BLPPackage text="FOWTextures"/>
+										<m_LibraryName text="FOWTexture"/>
+										<m_ParamName text="HatchPattern"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="ModelHatchTextures001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FOW_Model_Hatch_Med"/>
+										<m_XLPClass text="FOWTexture"/>
+										<m_XLPPath text="FOWTextures.xlp"/>
+										<m_BLPPackage text="FOWTextures"/>
+										<m_LibraryName text="FOWTexture"/>
+										<m_ParamName text="HatchPattern"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="ModelHatchTextures002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FOW_Model_Hatch_Med"/>
+										<m_XLPClass text="FOWTexture"/>
+										<m_XLPPath text="FOWTextures.xlp"/>
+										<m_BLPPackage text="FOWTextures"/>
+										<m_LibraryName text="FOWTexture"/>
+										<m_ParamName text="HatchPattern"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="ModelHatchTextures003"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="FOW_Model_Hatch_Med"/>
+										<m_XLPClass text="FOWTexture"/>
+										<m_XLPPath text="FOWTextures.xlp"/>
+										<m_BLPPackage text="FOWTextures"/>
+										<m_LibraryName text="FOWTexture"/>
+										<m_ParamName text="HatchPattern"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="ModelHatchTextures004"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Default"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

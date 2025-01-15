@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://webprotege.stanford.edu/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Nbfc8e8103d8d4e41a78266b2cd46427f"/>
+    <rdfs:subClassOf rdf:nodeID="N3d7e8192765743d1b17696351e7035d7"/>
+    <rdfs:subClassOf rdf:nodeID="Ne592dda957ed4127809e999016fe1f33"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Civilization</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Kublai_Khan_(China)">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Kublai_Khan_(China)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Catherine_de_Medici_(Magnificence)">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Catherine_de_Medici_(Magnificence)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Eleanor_of_Aquitaine">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Eleanor_of_Aquitaine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Poland">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Poland</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Jadwiga"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf19b29a929ec4349931e27930d0a49e3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R630ybmx648UvdEv7StPHK"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Julius_Caesar">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Julius_Caesar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Mali">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Mali</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Mansa_Musa"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Sundiata_Keita"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Macedon">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Macedon</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Alexander"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Jadwiga">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Jadwiga</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Tamar_the_Great">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Tamar_the_Great</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Maya">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Maya</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Lady_Six_Sky"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Norway">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Norway</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Harald_Hardrada"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Harald_Hardrada_(Varangian)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Wilhelmina">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Wilhelmina</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Māori">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Māori</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Kupe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Peter_I">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Peter_I</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Suleiman_I,_The_Magnificent">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Suleiman_I,_The_Magnificent</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Wu_Zetian">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Wu_Zetian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Scotland">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Scotland</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Robert_the_Bruce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Sumeria">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Sumeria</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Gilgamesh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Victoria">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Victoria</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/João_III">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>João_III</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Sejong">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Sejong</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Victoria_(Age_of_Steam)">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Victoria_(Age_of_Steam)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Nubia">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Nubia</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Amanitore"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Canada">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Canada</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Wilfrid_Laurier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Lady_Six_Sky">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Lady_Six_Sky</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Korea">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Korea</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Seondeok"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Sejong"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Ludwig_II">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Ludwig_II</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/China">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>China</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Wu_Zetian"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Yongle"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Qin_Shi_Huang"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Qin_(Unifier)"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Kublai_Khan_(China)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Zulu">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Zulu</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Shaka"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Phoenicia">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Phoenicia</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Dido_of_Carthage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Ottomans">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Ottomans</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Suleiman_(Muhteşem)"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Suleiman_I,_The_Magnificent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Cleopatra_VII">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Cleopatra_VII</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne592dda957ed4127809e999016fe1f33">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDtJp05OrzzU5l8RnRhnXJW"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7yItCmnRvrfTUMbJQA1Qzu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Chandragupta">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Chandragupta</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Byzantium">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Byzantium</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Theodora"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Basil_II"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Georgia">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Georgia</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Tamar_the_Great"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Pericles">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Pericles</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Japan">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Japan</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Hojo_Tokimune"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Tokugawa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8ZTe4EZyMO9c0NvKrqqNKd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="N7a451ae797b348a4b6aeb05168699ee5"/>
+    <rdfs:label>Citizen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7a451ae797b348a4b6aeb05168699ee5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDVSL2JXQXzrzVafuJXY8Go"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7yItCmnRvrfTUMbJQA1Qzu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Netherlands">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Netherlands</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Wilhelmina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Abraham_Lincoln">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Abraham_Lincoln</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/France">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>France</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Eleanor_of_Aquitaine"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Catherine_de_Medici_(Magnificence)"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Catherine_de_Medici"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Khmer">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Khmer</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Jayavarman_VII"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Kristina">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Kristina</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Pedro_II">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Pedro_II</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3d7e8192765743d1b17696351e7035d7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDgiS09l5CWWV4S9FZT65Mm"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rq5TKGz3jcdcHnSjCjnuIw"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Cleopatra_(Ptolemaic)">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Cleopatra_(Ptolemaic)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Lautaro">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Lautaro</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Catherine_de_Medici">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Catherine_de_Medici</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RB9IPkL7AbK2eV2GytXo19K">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>ruledBy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbfc8e8103d8d4e41a78266b2cd46427f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB9IPkL7AbK2eV2GytXo19K"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RDtJp05OrzzU5l8RnRhnXJW">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>owns</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Basil_II">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Basil_II</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Ethiopia">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Ethiopia</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Menelik_II"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Vietnam">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Vietnam</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Bà_Triệu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Australia">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Australia</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/John_Curtin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Egypt">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Egypt</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Cleopatra_VII"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Ramses_II"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Cleopatra_(Ptolemaic)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/England">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>England</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Eleanor_of_Aquitaine"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Elizabeth_I"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Victoria"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Victoria_(Age_of_Steam)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Kublai_Khan_(Mongolia)">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Kublai_Khan_(Mongolia)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Brazil">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Brazil</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Pedro_II"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Sweden">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Sweden</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Kristina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/America">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>America</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Teddy_Roosevelt_(Rough_Rider)"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Abraham_Lincoln"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Theodore_Roosevelt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Harald_Hardrada">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Harald_Hardrada</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Greece">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Greece</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Gorgo"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Pericles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/John_Curtin">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>John_Curtin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Hammurabi">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Hammurabi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Bà_Triệu">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Bà_Triệu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RDgiS09l5CWWV4S9FZT65Mm">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>recruit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Nader_Shah">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Nader_Shah</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Amanitore">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Amanitore</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Poundmaker_(Pitikwahanapiwiyin)">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Poundmaker_(Pitikwahanapiwiyin)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Gaul">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Gaul</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Ambiorix"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/India">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>India</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Mohandas_Karamchand_Gandhi"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Chandragupta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Pachacuti_Inca_Yupanqui">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Pachacuti_Inca_Yupanqui</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Mongolia">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Mongolia</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Genghis_Khan"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Kublai_Khan_(Mongolia)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Rq5TKGz3jcdcHnSjCjnuIw">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Unit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Babylon">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Babylon</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Hammurabi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Saladin">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Saladin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Yongle">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Yongle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf890c44655e24456be31b7f7f32ca8bd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9Ld6XzMCMJSv4YVq5FO3mP"/>
+    <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Russia">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Russia</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Peter_I"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Trajan">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Trajan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Mansa_Musa">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Mansa_Musa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Shaka">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Shaka</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Wilfrid_Laurier">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Wilfrid_Laurier</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Persia">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Persia</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Cyrus"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Nader_Shah"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Gran_Colombia">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Gran_Colombia</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Simón_Bolívar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCBZm7vIpTsFdjIElIzp1ZT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rq5TKGz3jcdcHnSjCjnuIw"/>
+    <rdfs:label>Combat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Scythia">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Scythia</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Tomyris"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Hungary">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Hungary</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Matthias_Corvinus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Tomyris">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Tomyris</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Mvemba_a_Nzinga">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Mvemba_a_Nzinga</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:webprotege:ontology:913eff1c-2e2d-4aa2-86f9-9b65aa777a7d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R79iaAddALYsMFubcNHJWqb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rq5TKGz3jcdcHnSjCjnuIw"/>
+    <rdfs:label>Civilian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RiW6aWJx4gXrYI8MVeMUOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBZm7vIpTsFdjIElIzp1ZT"/>
+    <rdfs:label>NavalCombat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Saladin_(Sultan)">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Saladin_(Sultan)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Alexander">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Alexander</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Kongo">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Kongo</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Mvemba_a_Nzinga"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Nzinga_Mbande"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBwOZ9NzAh33jRg39EfGal1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>placeOfBirth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Genghis_Khan">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Genghis_Khan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R630ybmx648UvdEv7StPHK">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>origin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Montezuma_I">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Montezuma_I</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Suleiman_(Muhteşem)">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Suleiman_(Muhteşem)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R7yItCmnRvrfTUMbJQA1Qzu">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="Nf890c44655e24456be31b7f7f32ca8bd"/>
+    <rdfs:label>City</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Aztec">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Aztec</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Montezuma_I"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Portugal">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Portugal</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/João_III"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RCxMux8q2xIpBIljp79YvKD">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBZm7vIpTsFdjIElIzp1ZT"/>
+    <rdfs:label>AirCombat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Menelik_II">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Menelik_II</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Robert_the_Bruce">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Robert_the_Bruce</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RDVSL2JXQXzrzVafuJXY8Go">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>livesIn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Teddy_Roosevelt_(Rough_Rider)">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Teddy_Roosevelt_(Rough_Rider)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Ramses_II">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Ramses_II</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Harald_Hardrada_(Varangian)">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Harald_Hardrada_(Varangian)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBh3LzmnJZE8wLcG7lpDNuG">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rq5TKGz3jcdcHnSjCjnuIw"/>
+    <rdfs:label>Hero</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Theodore_Roosevelt">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Theodore_Roosevelt</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Mapuche">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Mapuche</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Lautaro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8E0TmIvmWdhKVhNDEtuhm1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBZm7vIpTsFdjIElIzp1ZT"/>
+    <rdfs:label>Support</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R9Ld6XzMCMJSv4YVq5FO3mP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>builtBy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Philip_II">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Philip_II</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Dido_of_Carthage">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Dido_of_Carthage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Qin_Shi_Huang">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Qin_Shi_Huang</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Arabia">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Arabia</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Saladin"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Saladin_(Sultan)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Rome">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Rome</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Trajan"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Julius_Caesar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Indonesia">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Indonesia</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Gitarja"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Nf19b29a929ec4349931e27930d0a49e3"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leader</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Kupe">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Kupe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Cyrus">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Cyrus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Inca">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Inca</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Pachacuti_Inca_Yupanqui"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Sundiata_Keita">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Sundiata_Keita</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Elizabeth_I">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Elizabeth_I</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Theodora">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Theodora</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Germany">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Germany</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Ludwig_II"/>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Frederick_Barbarossa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Gilgamesh">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Gilgamesh</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Gitarja">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Gitarja</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Ambiorix">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Ambiorix</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/R8vhpeTT3Io3zAKadfXYsfh">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBZm7vIpTsFdjIElIzp1ZT"/>
+    <rdfs:label>LandCombat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Simón_Bolívar">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Simón_Bolívar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Matthias_Corvinus">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Matthias_Corvinus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Qin_(Unifier)">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Qin_(Unifier)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Hojo_Tokimune">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Hojo_Tokimune</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Seondeok">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Seondeok</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Tokugawa">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Tokugawa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Cree">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Cree</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Poundmaker_(Pitikwahanapiwiyin)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Gorgo">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Gorgo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Mohandas_Karamchand_Gandhi">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Mohandas_Karamchand_Gandhi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Jayavarman_VII">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Jayavarman_VII</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Spain">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RHLVvXdWi6EA2dvTpWq8lH"/>
+    <rdfs:label>Spain</rdfs:label>
+    <ns1:RB9IPkL7AbK2eV2GytXo19K rdf:resource="http://webprotege.stanford.edu/Philip_II"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Frederick_Barbarossa">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Frederick_Barbarossa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://webprotege.stanford.edu/Nzinga_Mbande">
+    <rdf:type rdf:resource="http://webprotege.stanford.edu/RBtVYtTDmwD9yyR2DUW0xm3"/>
+    <rdfs:label>Nzinga_Mbande</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

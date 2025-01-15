@@ -1,0 +1,61 @@
+<Firaxis key="8160503BA8F02191E10C30545B5A1DFB">
+	<Item type="mod" value="E2749E9A-8056-45CD-901B-C368C8E83DEB">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512035"/>
+		<EpicApp id="9d183674895148c6943eb129c5e9b7e3:e28419663beb4c91869e61a596fb5bb3:2F3A65C2-0883-4BF6-8C70-EDA688C66F3C"/>
+	</Item>
+	<Item type="content" value="D5642886-43D5-4CE9-9465-3A47B5C70096">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512035"/>
+		<EpicApp id="9d183674895148c6943eb129c5e9b7e3:e28419663beb4c91869e61a596fb5bb3:2F3A65C2-0883-4BF6-8C70-EDA688C66F3C"/>
+	</Item>
+	<Item type="content" value="CE8F192C-1DB7-4177-888E-F4EC3EFE7FD1">
+		<SteamApp id="512035"/>
+		<EpicApp id="9d183674895148c6943eb129c5e9b7e3:e28419663beb4c91869e61a596fb5bb3:2F3A65C2-0883-4BF6-8C70-EDA688C66F3C"/>
+	</Item>
+	<Item type="civilization" value="CIVILIZATION_MACEDON">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512035"/>
+		<EpicApp id="9d183674895148c6943eb129c5e9b7e3:e28419663beb4c91869e61a596fb5bb3:2F3A65C2-0883-4BF6-8C70-EDA688C66F3C"/>
+	</Item>
+	<Item type="leader" value="LEADER_ALEXANDER">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512035"/>
+		<EpicApp id="9d183674895148c6943eb129c5e9b7e3:e28419663beb4c91869e61a596fb5bb3:2F3A65C2-0883-4BF6-8C70-EDA688C66F3C"/>
+	</Item>
+	<Item type="civilization" value="CIVILIZATION_PERSIA">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512035"/>
+		<EpicApp id="9d183674895148c6943eb129c5e9b7e3:e28419663beb4c91869e61a596fb5bb3:2F3A65C2-0883-4BF6-8C70-EDA688C66F3C"/>
+	</Item>
+	<Item type="leader" value="LEADER_CYRUS">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512035"/>
+		<EpicApp id="9d183674895148c6943eb129c5e9b7e3:e28419663beb4c91869e61a596fb5bb3:2F3A65C2-0883-4BF6-8C70-EDA688C66F3C"/>
+	</Item>
+	<Item type="unit" value="UNIT_MACEDONIAN_HYPASPIST">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512035"/>
+		<EpicApp id="9d183674895148c6943eb129c5e9b7e3:e28419663beb4c91869e61a596fb5bb3:2F3A65C2-0883-4BF6-8C70-EDA688C66F3C"/>
+	</Item>
+	<Item type="unit" value="UNIT_MACEDONIAN_HETAIROI">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512035"/>
+		<EpicApp id="9d183674895148c6943eb129c5e9b7e3:e28419663beb4c91869e61a596fb5bb3:2F3A65C2-0883-4BF6-8C70-EDA688C66F3C"/>
+	</Item>
+	<Item type="unit" value="UNIT_PERSIAN_IMMORTAL">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512035"/>
+		<EpicApp id="9d183674895148c6943eb129c5e9b7e3:e28419663beb4c91869e61a596fb5bb3:2F3A65C2-0883-4BF6-8C70-EDA688C66F3C"/>
+	</Item>
+	<Item type="improvement" value="IMPROVEMENT_PAIRIDAEZA">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512035"/>
+		<EpicApp id="9d183674895148c6943eb129c5e9b7e3:e28419663beb4c91869e61a596fb5bb3:2F3A65C2-0883-4BF6-8C70-EDA688C66F3C"/>
+	</Item>
+	<!-- Alexander Scenario -->
+	<Item type="mod" value="2F3A65C2-0883-4BF6-8C70-EDA688C66F3C">
+		<SteamApp id="512035"/>
+		<EpicApp id="9d183674895148c6943eb129c5e9b7e3:e28419663beb4c91869e61a596fb5bb3"/>
+	</Item>	
+</Firaxis>

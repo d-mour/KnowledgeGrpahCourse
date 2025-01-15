@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<MajorStartingUnits>
+		<Delete Unit="UNIT_WARRIOR" />
+	</MajorStartingUnits>
+	<Types>
+		<Row Type="TECH_DAWN_OF_CIVILIZATION" Kind="KIND_TECH" />
+    <Delete Type="IMPROVEMENT_ZIGGURAT" />
+    <Delete Type="TRAIT_CIVILIZATION_IMPROVEMENT_ZIGGURAT" />
+	</Types>
+	<Technologies>
+		<!-- Ancient Era-->
+		<Row TechnologyType="TECH_DAWN_OF_CIVILIZATION" Name="LOC_TECH_DAWN_OF_CIVILIZATION_NAME" Description="LOC_TECH_DAWN_OF_CIVILIZATION_DESCRIPTION" Cost="1" EraType="ERA_ANCIENT" UITreeRow="0" />
+		<Update>
+			<Where TechnologyType="TECH_IRRIGATION" />
+			<Set Cost="40" />
+		</Update>
+	</Technologies>
+	<TechnologyQuotes>
+		<Row TechnologyType="TECH_DAWN_OF_CIVILIZATION" Quote="LOC_TECH_DAWN_OF_CIVILIZATION_QUOTE_1" />
+	</TechnologyQuotes>
+	<TechnologyPrereqs>
+		<!-- Ancient Era-->
+		<Row Technology="TECH_ANIMAL_HUSBANDRY" PrereqTech="TECH_DAWN_OF_CIVILIZATION" />
+		<Row Technology="TECH_ASTROLOGY" PrereqTech="TECH_DAWN_OF_CIVILIZATION" />
+		<Row Technology="TECH_MINING" PrereqTech="TECH_DAWN_OF_CIVILIZATION" />
+		<Row Technology="TECH_POTTERY" PrereqTech="TECH_DAWN_OF_CIVILIZATION" />
+		<Row Technology="TECH_SAILING" PrereqTech="TECH_DAWN_OF_CIVILIZATION" />
+	</TechnologyPrereqs>
+	<Boosts>
+		<Delete TechnologyType="TECH_IRRIGATION" />
+		<Delete TechnologyType="TECH_WRITING" />
+	</Boosts>
+	<Civilizations>
+		<Delete CivilizationType="CIVILIZATION_AMSTERDAM" />
+		<Delete CivilizationType="CIVILIZATION_BRUSSELS" />
+		<Delete CivilizationType="CIVILIZATION_BUENOS_AIRES" />
+		<Delete CivilizationType="CIVILIZATION_CARTHAGE" />
+		<Delete CivilizationType="CIVILIZATION_GENEVA" />
+		<Delete CivilizationType="CIVILIZATION_HATTUSA" />
+		<Delete CivilizationType="CIVILIZATION_HONG_KONG" />
+		<Delete CivilizationType="CIVILIZATION_JAKARTA" />
+		<Delete CivilizationType="CIVILIZATION_KABUL" />
+		<Delete CivilizationType="CIVILIZATION_KUMASI" />
+		<Delete CivilizationType="CIVILIZATION_LISBON" />
+		<Delete CivilizationType="CIVILIZATION_MOHENJO_DARO" />
+		<Delete CivilizationType="CIVILIZATION_NAN_MADOL" />
+		<Delete CivilizationType="CIVILIZATION_PRESLAV" />
+		<Delete CivilizationType="CIVILIZATION_SEOUL" />
+		<Delete CivilizationType="CIVILIZATION_STOCKHOLM" />
+		<Delete CivilizationType="CIVILIZATION_TORONTO" />
+		<Delete CivilizationType="CIVILIZATION_VALLETTA" />
+		<Delete CivilizationType="CIVILIZATION_VILNIUS" />
+		<Delete CivilizationType="CIVILIZATION_ZANZIBAR" />
+		<!-- Religious city-states -->
+		<Delete CivilizationType="CIVILIZATION_JERUSALEM" />
+		<Delete CivilizationType="CIVILIZATION_KANDY" />
+		<Delete CivilizationType="CIVILIZATION_LA_VENTA" />
+		<Delete CivilizationType="CIVILIZATION_YEREVAN" />
+	</Civilizations>
+	<Buildings>
+		<Delete BuildingType="BUILDING_HANGING_GARDENS" />
+	</Buildings>
+	<GoodyHuts>
+		<Update>
+			<Set Weight="1" />
+		</Update>
+		<Update>
+			<Where GoodyHutType="GOODYHUT_GOLD" />
+			<Set Weight="1000000" />
+		</Update>
+	</GoodyHuts>
+	<GoodyHutSubTypes>
+		<Update>
+			<Set Turn="40" Weight="1" />
+		</Update>
+		<Update>
+			<Where SubTypeGoodyHut="GOODYHUT_GRANT_SCOUT" />
+			<Set Turn="0" />
+		</Update>
+		<Update>
+			<Where SubTypeGoodyHut="GOODYHUT_SMALL_GOLD" />
+			<Set Turn="12" Weight="1000000" />
+		</Update>
+	</GoodyHutSubTypes>
+	<Civics>
+		<Update>
+			<Where CivicType="CIVIC_CODE_OF_LAWS" />
+			<Set Cost="26" />
+		</Update>
+	</Civics>
+	<GlobalParameters>
+		<Update>
+			<Where Name="RELIGION_PANTHEON_MIN_FAITH" />
+			<Set Value="75" />
+		</Update>
+	</GlobalParameters>
+	<Units>
+		<Update>
+			<Where Name="UNIT_BARBARIAN_HORSEMAN" />
+			<Set Cost="10000" />
+		</Update>
+		<Update>
+			<Where Name="UNIT_BARBARIAN_HORSE_ARCHER" />
+			<Set Cost="10000" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_TRADER" />
+			<Set PurchaseYield="NULL" />
+		</Update>
+	</Units>
+	<UnitOperations>
+		<Delete OperationType="UNITOPERATION_ALERT"/>
+	</UnitOperations>
+  <!-- AI changes for tutorial -->
+  <AiLists>
+    <Update>
+      <Where LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Tactics"/>
+      <Set ListType="Minor Civ Tactical" />
+    </Update>
+    <Update>
+      <Where LeaderType="TRAIT_LEADER_MAJOR_CIV" System="Homeland"/>
+      <Set ListType="Minor Civ Homeland" />
+    </Update>
+  </AiLists>
+  <ModifierArguments>
+    <Update>
+      <Where ModifierId="STANDARD_DIPLOMACY_RANDOM" Name="DifficultyOffset" />
+      <Set Type="None" Value="-10" />
+    </Update>
+    <Update>
+      <Where ModifierId="STANDARD_DIPLOMACY_RANDOM" Name="ReductionTurns" />
+      <Set Value="1000" />
+    </Update>
+  </ModifierArguments>
+  <!-- Barbarian changes for tutorial -->
+  <BarbarianTribes>
+    <Delete TribeType="TRIBE_CAVALRY" />
+    <Delete TribeType="TRIBE_NAVAL" />
+    <Update>
+      <Where TribeType="TRIBE_MELEE" />
+      <Set ScoutTag="CLASS_NONE" />
+    </Update>
+  </BarbarianTribes>
+  <GlobalParameters>
+    <Update>
+      <Where Name="BARBARIAN_CAMP_MINIMUM_DISTANCE_CITY"/>
+      <Set Value="12" />
+    </Update>
+  </GlobalParameters>
+</GameInfo>

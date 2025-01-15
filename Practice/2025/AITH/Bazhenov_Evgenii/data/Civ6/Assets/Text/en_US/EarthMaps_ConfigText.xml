@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<EnglishText>
+		<!-- Name and Description-->
+		<Row Tag="LOC_TSLEARTH_NAME">
+			<Text>True Start Location Earth</Text>
+		</Row>
+		<Row Tag="LOC_TSLEARTH_DESCRIPTION">
+			<Text>Civilizations start at the location of their historic capital on the Earth map.</Text>
+		</Row>
+		<Row Tag="LOC_EARTH_MAP_STANDARD_NAME">
+			<Text>Earth</Text>
+		</Row>
+		<Row Tag="LOC_EARTH_MAP_STANDARD_DESCRIPTION">
+			<Text>A representation of Earth with resources, terrain, and features reflecting their historic locations.</Text>
+		</Row>
+		<Row Tag="LOC_EARTH_MAP_HUGE_NAME">
+			<Text>Earth Huge</Text>
+		</Row>
+		<Row Tag="LOC_EARTH_MAP_HUGE_DESCRIPTION">
+			<Text>A larger sized representation of Earth with resources, terrain, and features reflecting their historic locations.</Text>
+		</Row>
+		<Row Tag="LOC_TSL_EARTH_MAP_HUGE_NAME">
+			<Text>True Start Location Earth Huge</Text>
+		</Row>
+		<Row Tag="LOC_TSL_EARTH_MAP_HUGE_DESCRIPTION">
+			<Text>Civilizations start at the location of their historic capital on the huge Earth map.</Text>
+		</Row>
+		<Row Tag="LOC_MEDITERRANEAN_LARGE_NAME">
+			<Text>Mediterranean Large</Text>
+		</Row>
+		<Row Tag="LOC_MEDITERRANEAN_LARGE_DESCRIPTION">
+			<Text>A large map of the greater Mediterranean region with resources, terrain, and features reflecting their historic locations.</Text>
+		</Row>
+		<Row Tag="LOC_TSL_MEDITERRANEAN_LARGE_NAME">
+			<Text>True Start Location Mediterranean</Text>
+		</Row>
+		<Row Tag="LOC_TSL_MEDITERRANEAN_LARGE_DESCRIPTION">
+			<Text>Civilizations start at the location of their historic capital on the large Mediterranean map.</Text>
+		</Row>
+	</EnglishText>
+</GameData>

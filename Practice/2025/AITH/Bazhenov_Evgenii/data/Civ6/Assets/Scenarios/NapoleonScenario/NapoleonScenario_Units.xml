@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Units>
+		<!-- Lowering the unit maintenance cost of units by 75% (clamped to 1 gpt).
+			Removing strategic resource requirement from all units. -->
+		<Update>
+			<Where UnitType="UNIT_SPY"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BARBARIAN_HORSEMAN"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BARBARIAN_HORSE_ARCHER"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GALLEY"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NORWEGIAN_LONGSHIP"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARCHER"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPEARMAN"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_HEAVY_CHARIOT"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BATTERING_RAM"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GREEK_HOPLITE"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SWORDSMAN"/>
+			<Set Maintenance="1" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_HORSEMAN"/>
+			<Set Maintenance="1" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SCYTHIAN_HORSE_ARCHER"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ROMAN_LEGION"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KONGO_SHIELD_BEARER"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CATAPULT"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SIEGE_TOWER"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_QUADRIREME"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_EGYPTIAN_CHARIOT_ARCHER"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JAPANESE_SAMURAI"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NORWEGIAN_BERSERKER"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KNIGHT"/>
+			<Set Maintenance="1" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_INDIAN_VARU"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARABIAN_MAMLUK"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CROSSBOWMAN"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CHINESE_CROUCHING_TIGER"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MILITARY_ENGINEER"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_PIKEMAN"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MUSKETMAN"/>
+			<Set Maintenance="1" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CARAVEL"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BOMBARD"/>
+			<Set Maintenance="1" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FRIGATE"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_PRIVATEER"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ENGLISH_SEADOG"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FIELD_CANNON"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CAVALRY"/>
+			<Set Maintenance="1" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RUSSIAN_COSSACK"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ENGLISH_REDCOAT"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FRENCH_GARDE_IMPERIALE"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MEDIC"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_IRONCLAD"/>
+			<Set Maintenance="1" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_ROUGH_RIDER"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RANGER"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_OBSERVATION_BALLOON"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BIPLANE"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_INFANTRY"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARTILLERY"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BATTLESHIP"/>
+			<Set Maintenance="2" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BRAZILIAN_MINAS_GERAES"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SUBMARINE"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GERMAN_UBOAT"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AT_CREW"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_TANK"/>
+			<Set Maintenance="2" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FIGHTER"/>
+			<Set Maintenance="2" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_P51"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BOMBER"/>
+			<Set Maintenance="2" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ANTIAIR_GUN"/>
+			<Set Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MACHINE_GUN"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AIRCRAFT_CARRIER"/>
+			<Set Maintenance="2" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_DESTROYER"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_HELICOPTER"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NUCLEAR_SUBMARINE"/>
+			<Set Maintenance="2" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MECHANIZED_INFANTRY"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ROCKET_ARTILLERY"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MOBILE_SAM"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_FIGHTER"/>
+			<Set Maintenance="2" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_BOMBER"/>
+			<Set Maintenance="2" StrategicResource=""/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MISSILE_CRUISER"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_AT"/>
+			<Set Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_ARMOR"/>
+			<Set Maintenance="2" StrategicResource=""/>
+		</Update>
+
+	</Units>
+</GameInfo>

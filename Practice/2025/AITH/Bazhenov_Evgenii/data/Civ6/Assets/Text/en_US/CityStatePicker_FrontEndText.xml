@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<FrontEndText>
+		<!-- This texted is all duplicated and new strings needed for the City-State Picker -->
+    <!-- FrontEnd -->
+    <Row Tag="LOC_CITY_STATE_PICKER_TOO_FEW_WARNING">
+      <Text>You have not selected enough City-States to fill the available City-State slots. Starting the game will result in only the selected City-States being created. Is this okay?</Text>
+    </Row>
+    <!-- Base Game -->
+    <Row Tag="LOC_CIVILIZATION_AMSTERDAM_BONUS">
+      <Text>Your [ICON_TradeRoute] Trade Routes to foreign cities earn +1 [ICON_Gold] Gold for each Luxury resource at the destination.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BRUSSELS_BONUS">
+      <Text>Your cities get +15% [ICON_Production] Production towards wonders.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BUENOS_AIRES_BONUS">
+      <Text>Your Bonus resources behave like Luxury resources, providing 1 [ICON_Amenities] Amenity per type.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CARTHAGE_BONUS">
+      <Text>Your Encampment districts provide +1 [ICON_TradeRoute] Trade Route capacity each.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_GENEVA_BONUS">
+      <Text>Your cities earn +15% [ICON_Science] Science whenever you are not at war with any civilization.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HATTUSA_BONUS">
+      <Text>Provides you with 1 of each Strategic resource you have revealed but do not own.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HONG_KONG_BONUS">
+      <Text>Your cities get +20% [ICON_Production] Production towards city projects.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_JAKARTA_BONUS">
+      <Text>Your [ICON_TradingPost] Trading Posts in foreign cities provide +1 [ICON_Gold] Gold to your [ICON_TradeRoute] Trade Routes passing through or going to the city.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_JERUSALEM_BONUS">
+      <Text>Automatically converts to the Religion you founded, and exerts pressure for that Religion as if it were a Holy City.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_KABUL_BONUS">
+      <Text>Your units receive double experience from battles they initiate.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_KANDY_BONUS">
+      <Text>Receive a [ICON_GreatWork_Relic] Relic every time you discover a new natural wonder, and earn +50% [ICON_Faith] Faith from all [ICON_GreatWork_Relic] Relics.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_KUMASI_BONUS">
+      <Text>Your [ICON_TradeRoute] Trade Routes to any city-state provide +2 [ICON_Culture] Culture and +1 [ICON_Gold] Gold for every specialty district in the origin city.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_LA_VENTA_BONUS">
+      <Text>Your Builders can now make Colossal Head improvements.[NEWLINE][NEWLINE]Colossal Heads provide +2 [ICON_Faith] Faith. +1 [ICON_Faith] Faith for every 2 adjacent Rainforest. +1 [ICON_Faith] Faith for every 2 adjacent Woods. Cannot be built on Snow or Snow Hills.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_LISBON_BONUS">
+      <Text>Your Trader units are immune to being plundered on water tiles.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MOHENJO_DARO_BONUS">
+      <Text>Your cities have full [ICON_Housing] Housing from water, as if they were all next to a River.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_NAN_MADOL_BONUS">
+      <Text>Your districts on or next to Coast or Lake tiles provide +2 [ICON_Culture] Culture.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PRESLAV_BONUS">
+      <Text>Your light and heavy cavalry units have +5 [ICON_Strength] Strength when fighting on hill tiles.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SEOUL_BONUS">
+      <Text>When you enter a new era, earn 1 random [ICON_TechBoosted] Eureka from that era.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_STOCKHOLM_BONUS">
+      <Text>Your districts provide +1 [ICON_GreatPerson] Great Person point of their type ([ICON_GreatWriter] Great Writer, [ICON_GreatArtist] Great Artist, and [ICON_GreatMusician] Great Musician for Theater Square districts).</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_TORONTO_BONUS">
+      <Text>Regional effects from your Industrial Zone and Entertainment Complex districts reach 3 tiles farther.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_VALLETTA_BONUS">
+      <Text>City Center buildings and Encampment district buildings can be bought with [ICON_Faith] Faith. Cost of purchasing Ancient, Medieval, and Renaissance Walls is reduced, but they can only be bought with [ICON_Faith] Faith.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_VILNIUS_BONUS">
+      <Text>When you enter a new era, earn 1 random [ICON_CivicBoosted] Inspiration from that era.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_YEREVAN_BONUS">
+      <Text>Your Apostle units can choose from any possible promotion instead of receiving a random promotion.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ZANZIBAR_BONUS">
+      <Text>Receive the [ICON_RESOURCE_CINNAMON] Cinnamon and [ICON_RESOURCE_CLOVES] Cloves Luxury resources. These cannot be earned any other way in the game, and provide 6 [ICON_Amenities] Amenities each.</Text>
+    </Row>
+    <!-- Expasion 1 -->
+    <Row Tag="LOC_CIVILIZATION_ANTIOCH_FRONTEND_NAME">
+      <Text>Venice</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ANTIOCH_BONUS">
+      <Text>Your [ICON_TradeRoute] Trade Routes to foreign cities earn +1 [ICON_Gold] Gold for each Luxury resource at the destination.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BABYLON_FRONTEND_NAME">
+      <Text>Anshan</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BABYLON_BONUS">
+      <Text>+2 [ICON_SCIENCE] Science from each [ICON_GreatWork_WRITING] Great Work of Writing. +1 [ICON_SCIENCE] Science from each [ICON_GreatWork_RELIC] Relic and [ICON_GreatWork_Artifact] Artifact.</Text>
+    </Row>
+    <!-- Expasion 1 Overrides -->
+    <Row Tag="LOC_CIVILIZATION_CARTHAGE_BONUS_XP1">
+      <Text>Land combat units are 20% cheaper to purchase with [ICON_GOLD] Gold for each Encampment district building in that city.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_JERUSALEM_BONUS_XP1">
+      <Text>Your cities with Holy Sites exert pressure as if they were Holy Cities (4x Religion pressure on all cities within 10 tiles).</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PRESLAV_BONUS_XP1">
+      <Text>You receive +2 Loyalty per turn in cities for each Encampment district building.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_STOCKHOLM_BONUS_XP1">
+      <Text>Your districts with a building provide +1 [ICON_GreatPerson] Great Person point of their type ([ICON_GreatWriter] Great Writer, [ICON_GreatArtist] Great Artist, and [ICON_GreatMusician] Great Musician for Theater Square districts with a building).</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_TORONTO_BONUS_XP1">
+      <Text>Regional effects from your Industrial Zone, Water Park, and Entertainment Complex districts reach 3 tiles farther.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_VILNIUS_BONUS_XP1">
+      <Text>For the highest active Alliance Level, all your Theater Square districts receive +50% adjacency bonus.</Text>
+    </Row>
+    <!-- Expasion 2 -->
+    <Row Tag="LOC_CIVILIZATION_AKKAD_FRONTEND_NAME">
+      <Text>Akkad</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_AKKAD_BONUS">
+      <Text>Melee and anti-cavalry unit's attacks do full damage to the city's Walls.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BOLOGNA_FRONTEND_NAME">
+      <Text>Bologna</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_BOLOGNA_BONUS">
+      <Text>Your districts with a building provide +1 [ICON_GreatPerson] Great Person point of their type ([ICON_GreatWriter] Great Writer, [ICON_GreatArtist] Great Artist, and [ICON_GreatMusician] Great Musician for Theater Square districts with a building).</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CAHOKIA_FRONTEND_NAME">
+      <Text>Cahokia</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CAHOKIA_BONUS">
+      <Text>Your Builders can now make Cahokia Mounds improvements.[NEWLINE][NEWLINE]Cahokia Mounds provide +3 [ICON_GOLD] Gold. Cities receive +1 [ICON_AMENITIES] Amenity from their first Cahokia Mound improvement. Upon discovering Natural History, cities receive +1 [ICON_AMENITIES] Amenity from their second Cahokia Mound improvement. +1 [ICON_FOOD] Food for every 2 adjacent Districts once Feudalism is discovered or for every adjacent District once Replaceable Parts is researched. Provides +1 [ICON_HOUSING] Housing. Receive an additional [ICON_HOUSING] Housing once Cultural Heritage is discovered. Cannot be built adjacent to other Cahokia Mounds.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CARDIFF_FRONTEND_NAME">
+      <Text>Cardiff</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CARDIFF_BONUS">
+      <Text>Cities receive +2 [ICON_Power] Power for every Harbor building.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_FEZ_FRONTEND_NAME">
+      <Text>Fez</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_FEZ_BONUS">
+      <Text>When you use a religious unit to convert a city for the first time earn 20 [ICON_SCIENCE] Science per [ICON_Citizen] Population of that city (on Standard Speed).</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MEXICO_CITY_FRONTEND_NAME">
+      <Text>Mexico City</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MEXICO_CITY_BONUS">
+      <Text>Regional effects from your Industrial Zone, Water Park, and Entertainment Complex districts reach 3 tiles farther.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_NAZCA_FRONTEND_NAME">
+      <Text>Nazca</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_NAZCA_BONUS">
+      <Text>Your Builders can now make Nazca Line improvements.[NEWLINE][NEWLINE]Nazca Lines provide +1 [ICON_Faith] Faith to adjacent tiles. +1 [ICON_Faith] Faith to adjacent tiles with a resource. +1 [ICON_FOOD] Food to adjacent Desert and Desert Hill tiles after discovering Civil Service. +1 [ICON_PRODUCTION] Production to adjacent flat tiles after researching Mass Production. +1 Appeal. Can only be built on flat Desert. This tile cannot be worked.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_NGAZARGAMU_FRONTEND_NAME">
+      <Text>Ngazargamu</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_NGAZARGAMU_BONUS">
+      <Text>Land combat or Support units are 20% cheaper to purchase with [ICON_GOLD] Gold for each Encampment district building in that city.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_RAPA_NUI_FRONTEND_NAME">
+      <Text>Rapa Nui</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_RAPA_NUI_BONUS">
+      <Text>Your Builders can now make Moai improvements.[NEWLINE][NEWLINE]Moai provide +1 [ICON_Culture] Culture. +1 [ICON_Culture] Culture for every 2 adjacent Moai. +2 [ICON_Culture] Culture if on or adjacent to a Volcanic Soil tile. +1 [ICON_Culture] Culture if adjacent to a Coast or Lake tile . Additional [ICON_Culture] Culture and [ICON_Tourism] Tourism as you advance through the Civics and Technology Tree. Can be built on Plains, Plains Hills, Grassland, Grassland Hills, or Volcanic Soil. Cannot be placed adjacent to a Woods or Rainforest tile.</Text>
+    </Row>
+    <!-- Expasion 2 Overrides -->
+    <Row Tag="LOC_CIVILIZATION_HATTUSA_BONUS_XP2">
+      <Text>Provides you with 2 of each Strategic resource per turn that you have revealed but have not improved.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ARMAGH_BONUS_XP2">
+      <Text>Your Builders can now make Monastery improvements.[NEWLINE][NEWLINE]Monasteries provide +2 [ICON_Faith] Faith. +15 HP healing for friendly religious unit on this tile that has not attacked this turn. +1 [ICON_FAITH] Faith for every 2 adjacent Districts. Provides +1 [ICON_HOUSING] Housing. Receive an additional [ICON_HOUSING] Housing once Colonialism is discovered. Cannot be built next to another Monastery.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_LA_VENTA_BONUS_XP2">
+      <Text>Your Builders can now make Colossal Head improvements.[NEWLINE][NEWLINE]Colossal Heads provide +2 [ICON_Faith] Faith. +1 [ICON_Faith] Faith for every 2 adjacent Rainforest or for every adjacent Rainforest once Humanism is discovered. +1 [ICON_Faith] Faith for every 2 adjacent Woods or for every adjacent Woods once Humanism is discovered. [ICON_TOURISM] Tourism from [ICON_FAITH] Faith once Flight is discovered. Cannot be built on Snow or Snow Hills.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_GRANADA_BONUS_XP2">
+      <Text>Your Builders can now make Alcázar improvements.[NEWLINE][NEWLINE]Alcázars provide +2 [ICON_Culture] Culture. Provides [ICON_SCIENCE] Science equal to 50% of the tile's Appeal. Occupying unit receives +4 [ICON_Strength] Defense Strength, and automatically gains 2 turns of fortification. Provides [ICON_TOURISM] Tourism after researching Flight. Cannot be built next to another Alcázar.</Text>
+    </Row>
+    <!-- VikingsLandmarks -->
+    <Row Tag="LOC_CIVILIZATION_AUCKLAND_FRONTEND_NAME">
+      <Text>Auckland</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ANTANANARIVO_FRONTEND_NAME">
+      <Text>Antananarivo</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ARMAGH_FRONTEND_NAME">
+      <Text>Armagh</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_GRANADA_FRONTEND_NAME">
+      <Text>Granada</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MUSCAT_FRONTEND_NAME">
+      <Text>Muscat</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PALENQUE_FRONTEND_NAME">
+      <Text>Mitla</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_AUCKLAND_BONUS">
+      <Text>Shallow water tiles you own provide +1 [ICON_Production] Production. Additional +1 when you reach the Industrial era.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ANTANANARIVO_BONUS">
+      <Text>Your Civilization gains +2% [ICON_Culture] Culture for each Great Person it has ever earned, up to a total of +30%.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_ARMAGH_BONUS">
+      <Text>Your Builders can now make Monastery improvements.[NEWLINE][NEWLINE]Monasteries provide +2 [ICON_Faith] Faith. +15 HP healing for friendly religious unit on this tile that has not attacked this turn. Cannot be built next to another Monastery</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_GRANADA_BONUS">
+      <Text>Your Builders can now make Alcázar improvements.[NEWLINE][NEWLINE]Alcázars provide +2 [ICON_Culture] Culture. Occupying unit receives +4 [ICON_Strength] Defense Strength, and automatically gains 2 turns of fortification. Cannot be built next to another Alcázar.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_MUSCAT_BONUS">
+      <Text>+1 [ICON_Amenities] Amenity in cities with a Commercial Hub district.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PALENQUE_BONUS">
+      <Text>City growth rate is 15% higher in cities with a Campus district.</Text>
+    </Row>
+    <!-- Babylon -->
+    <Row Tag="LOC_CIVILIZATION_AYUTTHAYA_FRONTEND_NAME">
+      <Text>Ayutthaya</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_AYUTTHAYA_BONUS">
+      <Text>Gain [ICON_CULTURE] Culture equal to 10% of the construction cost when finishing buildings.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CHINGUETTI_FRONTEND_NAME">
+      <Text>Chinguetti</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CHINGUETTI_BONUS">
+      <Text>International and domestic [ICON_TradeRoute] Trade Routes receive +1 [ICON_FAITH] Faith for every follower in this city, of your founded or majority religion.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_JOHANNESBURG_FRONTEND_NAME">
+      <Text>Johannesburg</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_JOHANNESBURG_BONUS">
+      <Text>Cities receive +1 [ICON_Production] Production for every improved resource type. After researching Industrialization it becomes +2 [ICON_PRODUCTION] Production.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_NALANDA_FRONTEND_NAME">
+      <Text>Nalanda</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_NALANDA_BONUS">
+      <Text>Your Builders can now make Mahavihara improvements.[NEWLINE][NEWLINE]+2 [ICON_SCIENCE] Science and +1 [Icon_Housing] Housing. +1 [ICON_Faith] Faith for every adjacent Holy Site district and +1 [ICON_Science] Science for every adjacent Campus district. After researching Scientific Theory receive an additional +1 [Icon_Science] Science for every adjacent Campus. When a player constructs their first Mahavihara receive a random technology. Must be built on flat terrain not adjacent to another Mahavihara.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SAMARKAND_FRONTEND_NAME">
+      <Text>Samarkand</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SAMARKAND_BONUS">
+      <Text>Your Builders can now make Trading Dome improvements.[NEWLINE][NEWLINE]+2 [ICON_GOLD] Gold. +1 [ICON_Gold] Gold for every adjacent Luxury resource. Your outgoing international [ICON_TradeRoute] Trade Routes grant +1 [ICON_GOLD] Gold per Trading Dome at the origin. Cannot be built next to another Trading Dome.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_WOLIN_FRONTEND_NAME">
+      <Text>Wolin</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_WOLIN_BONUS">
+      <Text>Receive [ICON_GreatGeneral] Great General points when a land unit defeats a major or minor civilization's unit and receive [ICON_GreatAdmiral] Great Admiral points when a naval unit defeats a major or minor civilization's unit equal to 25% of the opposing unit's strength (Standard Speed).</Text>
+    </Row>
+    <!-- GranColombia Maya -->
+    <Row Tag="LOC_CIVILIZATION_CAGUANA_FRONTEND_NAME">
+      <Text>Caguana</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_CAGUANA_BONUS">
+      <Text>Your Builders can now make Batey improvements.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture. +1 [ICON_Culture] Culture for every adjacent Bonus resource and Entertainment Complex (increased to +2 [Icon_Culture] Culture when Exploration is discovered). Provides [Icon_Tourism] Tourism after researching Flight. Cannot be built adjacent to another Batey.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HUNZA_FRONTEND_NAME">
+      <Text>Hunza</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_HUNZA_BONUS">
+      <Text>Your [ICON_TradeRoute] Trade Routes generate +1 [ICON_Gold] Gold for every 5 tiles they travel.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_LAHORE_FRONTEND_NAME">
+      <Text>Lahore</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_LAHORE_BONUS">
+      <Text>Your cities can now train Nihang units.[NEWLINE][NEWLINE]A unit with a unique Promotion tree that can be purchased with [ICON_Faith] Faith. [ICON_Strength] Combat Strength is increased when Barracks, Armory, and Military Academy buildings are first constructed.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SINGAPORE_FRONTEND_NAME">
+      <Text>Singapore</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_SINGAPORE_BONUS">
+      <Text>Your cities receive +2 [ICON_Production] Production for each foreign civilization they have a [ICON_TradeRoute] Trade Route to.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_TARUGA_FRONTEND_NAME">
+      <Text>Taruga</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_TARUGA_BONUS">
+      <Text>+5% [ICON_SCIENCE] Science in all cities for each different improved Strategic resource they have.</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_VATICAN_CITY_FRONTEND_NAME">
+      <Text>Vatican City</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_VATICAN_CITY_BONUS">
+      <Text>When you activate a [ICON_GreatPerson] Great Person they spread 400 Religious pressure of your founded (or majority) religion to cities within 10 tiles.</Text>
+    </Row>
+	</FrontEndText>
+</GameData>

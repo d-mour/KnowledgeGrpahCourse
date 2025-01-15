@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<WMDs>
+		<Update>
+			<Where WeaponType="WMD_NUCLEAR_DEVICE"/>
+			<Set ICBMStrikeRange="36" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where WeaponType="WMD_THERMONUCLEAR_DEVICE"/>
+			<Set ICBMStrikeRange="45" Maintenance="3"/>
+		</Update>
+	</WMDs>
+</GameInfo>
