@@ -1,0 +1,49 @@
+<GameInfo>
+	<!-- Disable War Weariness -->
+	<GlobalParameters>
+		<Update>
+			<Where Name="WAR_WEARINESS_LOSS_OVER_REQ_AMENITIES_AT_WAR_CITY"/>
+			<Set Value="0"/>
+		</Update>
+		<Update>
+			<Where Name="WAR_WEARINESS_LOSS_OVER_REQ_AMENITIES_FOUNDED_CITY"/>
+			<Set Value="0"/>
+		</Update>
+		<Update>
+			<Where Name="WAR_WEARINESS_LOSS_OVER_REQ_AMENITIES_NONFOUNDED_CITY"/>
+			<Set Value="0"/>
+		</Update>
+		<Update>
+			<Where Name="WAR_WEARINESS_PER_COMBAT_IN_ALLIED_LANDS"/>
+			<Set Value="0"/>
+		</Update>
+		<Update>
+			<Where Name="WAR_WEARINESS_PER_COMBAT_IN_FOREIGN_LANDS"/>
+			<Set Value="0"/>
+		</Update>
+		<Update>
+			<Where Name="WAR_WEARINESS_PER_UNIT_KILLED"/>
+			<Set Value="0"/>
+		</Update>
+		<Update>
+			<Where Name="WAR_WEARINESS_PER_WMD_LAUNCHED"/>
+			<Set Value="0"/>
+		</Update>
+		<Update>
+			<Where Name="WAR_WEARINESS_POINTS_FOR_AMENITY_LOSS"/>
+			<Set Value="0"/>
+		</Update>
+		<Update>
+			<Where Name="WAR_WEARINESS_WARMONGER_BASE"/>
+			<Set Value="0"/>
+		</Update>
+		
+	<!-- Because the map starts revealed, noone should get free envoys on meeting a city state. 
+		This fixes an issue where the first player would get all the freen envoys because the 
+		startup script reveals the map for that player first. -->
+		<Update>
+			<Where Name="INFLUENCE_TOKENS_FREE_FOR_FIRST_PLAYER_MEET"/>
+			<Set Value="0"/>
+		</Update>
+	</GlobalParameters>
+</GameInfo>

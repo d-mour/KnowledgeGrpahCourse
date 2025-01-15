@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="17462E0F-1EE1-4819-AAAA-052B5896B02A" version="1">
+	<Properties>
+		<Name>LOC_MOD_TITLE</Name>
+		<Teaser>LOC_MOD_TEASER</Teaser>
+		<Description>LOC_MOD_DESCRIPTION</Description>
+		<Authors>LOC_MOD_AUTHORS_FIRAXIS</Authors>
+		<Trusted>1784197304</Trusted>
+		<ShowInBrowser>AlwaysHidden</ShowInBrowser>
+		<EnabledByDefault>0</EnabledByDefault>
+		<DisabledAtStartup>1</DisabledAtStartup>
+    <CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="TUTORIAL_DATBASE_UPDATES">
+			<Properties>
+				<RuleSet>RULESET_TUTORIAL</RuleSet>
+			</Properties>
+			<Items>
+				<File>Tutorial_Technologies.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<ImportFiles id="TUTORIAL_IMPORT_FILES">
+			<Properties>
+				<RuleSet>RULESET_TUTORIAL</RuleSet>
+			</Properties>
+			<Items>
+				<File>TutorialScenarioBase.lua</File>
+			</Items>
+		</ImportFiles>
+    <GameplayScripts id="TUTORIAL_SCRIPT">
+      <Properties>
+        <RuleSet>RULESET_TUTORIAL</RuleSet>
+      </Properties>
+      <Items>
+        <File>Tutorial.lua</File>
+      </Items>
+    </GameplayScripts>
+	</Components>
+	<Settings>
+		<Map id="TUTORIAL_MAP">
+			<Properties>
+				<Group>Tutorial_Maps</Group>
+				<Name>LOC_TUTORIAL_MAP_NAME</Name>
+				<Description>LOC_TUTORIAL_MAP_DESCRIPTION</Description>
+			</Properties>
+			<Items>
+				<File>Tutorial.Civ6Map</File>
+			</Items>
+		</Map>
+		<Custom id="TUTORIAL_SETTINGS">
+			<Items>
+				<File>Tutorial_Config.xml</File>
+			</Items>
+		</Custom>
+		
+	</Settings>
+	<LocalizedText>
+		<Text id="LOC_MOD_TITLE">
+			<en_US>Tutorial</en_US>
+		</Text>
+		<Text id="LOC_MOD_TEASER">
+			<en_US>A basic tutorial.</en_US>
+		</Text>
+		<Text id="LOC_MOD_DESCRIPTION">
+			<en_US>This is a basic tutorial</en_US>
+		</Text>
+		<Text id="LOC_TUTORIAL_MAP_NAME">
+			<en_US>Tutorial Map</en_US>
+		</Text>
+		<Text id="LOC_TUTORIAL_MAP_DESCRIPTION">
+			<en_US>A basic tutorial</en_US>
+		</Text>
+	</LocalizedText>
+	<Files>
+		<File>Tutorial.Civ6Map</File>
+		<File>Tutorial.lua</File>
+		<File>Tutorial_Config.xml</File>
+		<File>Tutorial_Technologies.xml</File>
+		<File>TutorialScenarioBase.lua</File>
+	</Files>
+</Mod>

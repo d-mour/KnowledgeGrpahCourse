@@ -1,0 +1,39 @@
+<GameInfo>
+  <!-- Remove the Kongo civilization because it can't create its own religion. -->
+  <!-- Deleting using type -->
+  <Types>
+    <Delete Type="CIVILIZATION_KONGO"/>
+  </Types>
+  <TypeProperties>
+    <Delete Type="CIVILIZATION_KONGO"/>
+  </TypeProperties>
+
+  <!-- TEMPORARY - Explicitly delete civilization entries in each table.. -->
+  <Civilizations>
+    <Delete CivilizationType="CIVILIZATION_KONGO"/>
+  </Civilizations>
+  <CivilizationLeaders>
+    <Delete CivilizationType="CIVILIZATION_KONGO"/>
+  </CivilizationLeaders>
+  <CivilizationTraits>
+    <Delete CivilizationType="CIVILIZATION_KONGO"/>
+  </CivilizationTraits>
+  <CityNames>
+    <Delete CivilizationType="CIVILIZATION_KONGO"/>
+  </CityNames>
+  <StartBiasResources>
+    <Delete CivilizationType="CIVILIZATION_KONGO"/>
+  </StartBiasResources>
+  <StartBiasFeatures>
+    <Delete CivilizationType="CIVILIZATION_KONGO"/>
+  </StartBiasFeatures>
+  <StartBiasTerrains>
+    <Delete CivilizationType="CIVILIZATION_KONGO"/>
+  </StartBiasTerrains>
+  <StartBiasRivers>
+    <Delete CivilizationType="CIVILIZATION_KONGO"/>
+  </StartBiasRivers>
+  <CivilizationInfo>
+    <Delete CivilizationType="CIVILIZATION_KONGO"/>
+  </CivilizationInfo>
+</GameInfo>

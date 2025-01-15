@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>210</build>
+		<revision>410</revision>
+	</m_Version>
+	<m_TemplateName text="Camera"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Cameras"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>2.000000</m_fValue>
+							<m_ParamName text="DefaultZoom"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.110000</m_fValue>
+							<m_ParamName text="Bloom_Width"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.600000</m_fValue>
+							<m_ParamName text="Bloom_Strength"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Bloom_Threshold"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="ExtraExposureRange"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>3.000000</m_fValue>
+							<m_ParamName text="MinHexesVisible"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>16.000000</m_fValue>
+							<m_ParamName text="MaxHexesVisible"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="NearClip"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10000.000000</m_fValue>
+							<m_ParamName text="FarClip"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="FOVCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>45.000000</m_fValue>
+										<m_ParamName text="FOV"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="FOVCurve001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="TiltCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>45.000000</m_fValue>
+										<m_ParamName text="Tilt"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="TiltCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>55.000000</m_fValue>
+										<m_ParamName text="Tilt"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="TiltCurve2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="HeightCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>600.000000</m_fValue>
+										<m_ParamName text="Height"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HeightCurve2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>120.000000</m_fValue>
+										<m_ParamName text="Height"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HeightCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_Density"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000500</m_fValue>
+										<m_ParamName text="Fog_Density"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Density002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_Start"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1000.000000</m_fValue>
+										<m_ParamName text="Fog_Start"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Start001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>300.000000</m_fValue>
+										<m_ParamName text="Fog_Start"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Start002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>51.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>700.000000</m_fValue>
+										<m_ParamName text="Fog_Start"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Start003"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_RadialWeight"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.990000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight003"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="DEFAULT_CAMERA"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>2.000000</m_fValue>
+							<m_ParamName text="DefaultZoom"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Bloom_Width"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.450000</m_fValue>
+							<m_ParamName text="Bloom_Strength"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.850000</m_fValue>
+							<m_ParamName text="Bloom_Threshold"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.500000</m_fValue>
+							<m_ParamName text="ExtraExposureRange"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>3.000000</m_fValue>
+							<m_ParamName text="MinHexesVisible"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>16.000000</m_fValue>
+							<m_ParamName text="MaxHexesVisible"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="NearClip"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10000.000000</m_fValue>
+							<m_ParamName text="FarClip"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="FOVCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>30.000000</m_fValue>
+										<m_ParamName text="FOV"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="FOVCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>9.750000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>30.000000</m_fValue>
+										<m_ParamName text="FOV"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="FOVCurve001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="TiltCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>45.000000</m_fValue>
+										<m_ParamName text="Tilt"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="TiltCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>55.000000</m_fValue>
+										<m_ParamName text="Tilt"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="TiltCurve2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="HeightCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>880.000000</m_fValue>
+										<m_ParamName text="Height"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HeightCurve2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>180.000000</m_fValue>
+										<m_ParamName text="Height"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HeightCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_Density"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.001600</m_fValue>
+										<m_ParamName text="Fog_Density"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Density001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.001000</m_fValue>
+										<m_ParamName text="Fog_Density"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Density002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_Start"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1300.000000</m_fValue>
+										<m_ParamName text="Fog_Start"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Start001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>400.000000</m_fValue>
+										<m_ParamName text="Fog_Start"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Start002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_RadialWeight"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>66.750000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight003"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="camera1"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>2.000000</m_fValue>
+							<m_ParamName text="DefaultZoom"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.500000</m_fValue>
+							<m_ParamName text="Bloom_Width"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Bloom_Strength"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.500000</m_fValue>
+							<m_ParamName text="Bloom_Threshold"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="ExtraExposureRange"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>3.000000</m_fValue>
+							<m_ParamName text="MinHexesVisible"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>16.000000</m_fValue>
+							<m_ParamName text="MaxHexesVisible"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="NearClip"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10000.000000</m_fValue>
+							<m_ParamName text="FarClip"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="FOVCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>4.590909</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>38.000000</m_fValue>
+										<m_ParamName text="FOV"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="FOVCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>38.000000</m_fValue>
+										<m_ParamName text="FOV"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="FOVCurve001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="TiltCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>45.000000</m_fValue>
+										<m_ParamName text="Tilt"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="TiltCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>55.000000</m_fValue>
+										<m_ParamName text="Tilt"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="TiltCurve2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="HeightCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>800.000000</m_fValue>
+										<m_ParamName text="Height"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HeightCurve2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>140.000000</m_fValue>
+										<m_ParamName text="Height"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HeightCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_Density"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.003000</m_fValue>
+										<m_ParamName text="Fog_Density"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Density001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.003000</m_fValue>
+										<m_ParamName text="Fog_Density"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Density002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_Start"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1000.000000</m_fValue>
+										<m_ParamName text="Fog_Start"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Start001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>600.000000</m_fValue>
+										<m_ParamName text="Fog_Start"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Start002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_RadialWeight"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>66.750000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.500000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight003"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="camera2"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>2.000000</m_fValue>
+							<m_ParamName text="DefaultZoom"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.500000</m_fValue>
+							<m_ParamName text="Bloom_Width"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Bloom_Strength"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.500000</m_fValue>
+							<m_ParamName text="Bloom_Threshold"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="ExtraExposureRange"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>3.000000</m_fValue>
+							<m_ParamName text="MinHexesVisible"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>16.000000</m_fValue>
+							<m_ParamName text="MaxHexesVisible"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="NearClip"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10000.000000</m_fValue>
+							<m_ParamName text="FarClip"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="FOVCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>30.000000</m_fValue>
+										<m_ParamName text="FOV"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="FOVCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>45.000000</m_fValue>
+										<m_ParamName text="FOV"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="FOVCurve001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="TiltCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>45.000000</m_fValue>
+										<m_ParamName text="Tilt"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="TiltCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>55.000000</m_fValue>
+										<m_ParamName text="Tilt"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="TiltCurve2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="HeightCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>950.000000</m_fValue>
+										<m_ParamName text="Height"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HeightCurve2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>105.000000</m_fValue>
+										<m_ParamName text="Height"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HeightCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_Density"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.002000</m_fValue>
+										<m_ParamName text="Fog_Density"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Density001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.001500</m_fValue>
+										<m_ParamName text="Fog_Density"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Density002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_Start"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1100.000000</m_fValue>
+										<m_ParamName text="Fog_Start"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Start001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>600.000000</m_fValue>
+										<m_ParamName text="Fog_Start"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Start002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_RadialWeight"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>66.750000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight003"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="camera3"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>50.000000</m_fValue>
+							<m_ParamName text="DefaultZoom"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.500000</m_fValue>
+							<m_ParamName text="Bloom_Width"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Bloom_Strength"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.500000</m_fValue>
+							<m_ParamName text="Bloom_Threshold"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="ExtraExposureRange"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>3.000000</m_fValue>
+							<m_ParamName text="MinHexesVisible"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>32.000000</m_fValue>
+							<m_ParamName text="MaxHexesVisible"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="NearClip"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>50000.000000</m_fValue>
+							<m_ParamName text="FarClip"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="FOVCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>45.000000</m_fValue>
+										<m_ParamName text="FOV"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="FOVCurve001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>30.000000</m_fValue>
+										<m_ParamName text="FOV"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="FOVCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="TiltCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>55.000000</m_fValue>
+										<m_ParamName text="Tilt"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="TiltCurve2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>5.000000</m_fValue>
+										<m_ParamName text="Tilt"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="TiltCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="HeightCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>105.000000</m_fValue>
+										<m_ParamName text="Height"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HeightCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>8000.000000</m_fValue>
+										<m_ParamName text="Height"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HeightCurve2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_Density"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_Start"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_RadialWeight"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="crazy"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>2.000000</m_fValue>
+							<m_ParamName text="DefaultZoom"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.110000</m_fValue>
+							<m_ParamName text="Bloom_Width"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.600000</m_fValue>
+							<m_ParamName text="Bloom_Strength"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Bloom_Threshold"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.700000</m_fValue>
+							<m_ParamName text="ExtraExposureRange"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>3.000000</m_fValue>
+							<m_ParamName text="MinHexesVisible"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>16.000000</m_fValue>
+							<m_ParamName text="MaxHexesVisible"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="NearClip"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10000.000000</m_fValue>
+							<m_ParamName text="FarClip"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="FOVCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>4.590909</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>45.000000</m_fValue>
+										<m_ParamName text="FOV"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="FOVCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>45.000000</m_fValue>
+										<m_ParamName text="FOV"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="FOVCurve001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="TiltCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>45.000000</m_fValue>
+										<m_ParamName text="Tilt"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="TiltCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>55.000000</m_fValue>
+										<m_ParamName text="Tilt"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="TiltCurve2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="HeightCurve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>600.000000</m_fValue>
+										<m_ParamName text="Height"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HeightCurve2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>30.000000</m_fValue>
+										<m_ParamName text="Height"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="HeightCurve1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_Density"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000400</m_fValue>
+										<m_ParamName text="Fog_Density"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Density001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000600</m_fValue>
+										<m_ParamName text="Fog_Density"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Density002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_Start"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>100.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1000.000000</m_fValue>
+										<m_ParamName text="Fog_Start"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Start001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>350.000000</m_fValue>
+										<m_ParamName text="Fog_Start"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_Start002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Fog_RadialWeight"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>66.750000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.460000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>1.000000</m_fValue>
+										<m_ParamName text="Fog_RadialWeight"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Fog_RadialWeight003"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="DebugCamera"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

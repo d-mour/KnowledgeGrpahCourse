@@ -1,0 +1,1093 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- DiplomacyStatementTypes ***************************************************** -->
+	<DiplomacyStatementTypes>
+		<Row>
+			<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+		</Row>
+		<Row>
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+		</Row>
+    <Row>
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+    </Row>
+    <Row>
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+    </Row>
+    <Row>
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+    </Row>
+	</DiplomacyStatementTypes>
+
+	<!-- DiplomacyStatements ******************************************************* -->
+	<DiplomacyStatements>
+
+		<!-- WARNING_DONT_SETTLE_NEAR_ME ************************************* -->
+
+		<Row>
+      <!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+			<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>POSITIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>NEUTRAL_POSITIVE</LeaderAnimation>
+			<Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+		</Row>
+		<Row>
+      <!-- This is the "positive" response statement sent by the AI in a Happy mood when the human initiates the diplomacy -->
+			<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>POSITIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>HAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>HAPPY_POSITIVE</LeaderAnimation>
+			<Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+		</Row>
+		<Row>
+      <!-- This is the "positive" response statement sent by the AI in an Unhappy mood when the human initiates the diplomacy -->
+			<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>POSITIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>UNHAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>UNHAPPY_POSITIVE</LeaderAnimation>
+			<Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+		</Row>
+
+		<Row>
+      <!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+			<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>NEGATIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+		</Row>
+		<Row>
+      <!-- This is the "negative" response statement sent by the AI in a Happy mood when the human initiates the diplomacy -->
+			<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>NEGATIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>HAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+		</Row>
+		<Row>
+      <!-- This is the "negative" response statement sent by the AI in an Unhappy mood when the human initiates the diplomacy -->
+			<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>NEGATIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>UNHAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+		</Row>
+
+		<Row>
+      <!-- Human v. Human -->
+			<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>NONE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+		</Row>
+    
+		<Row>
+      <!-- This is the statement sent by the AI when it initiates the diplomacy -->
+			<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+			<Initiator>AI</Initiator>
+			<SubType>NONE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_DONT_SETTLE_NEAR_ME_FROM_AI</Selections>
+		</Row>
+		<Row>
+      <!-- This is the statement sent by the AI in a Happy mood when it initiates the diplomacy -->
+			<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+			<Initiator>AI</Initiator>
+			<SubType>NONE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>HAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_DONT_SETTLE_NEAR_ME_FROM_AI</Selections>
+		</Row>
+		<Row>
+      <!-- This is the statement sent by the AI in an Unhappy mood when it initiates the diplomacy -->
+			<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+			<Initiator>AI</Initiator>
+			<SubType>NONE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>UNHAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_DONT_SETTLE_NEAR_ME_FROM_AI</Selections>
+		</Row>
+
+    <Row>
+      <!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+      <Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+      <Initiator>AI</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI in a Happy mood when it initiates diplomacy and the human responds positively -->
+      <Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+      <Initiator>AI</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI in an Unhappy mood when it initiates diplomacy and the human responds positively -->
+      <Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+      <Initiator>AI</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+    </Row>
+
+	<Row>
+		<!-- This is the "negative" response statement sent by the AI when it initiates diplomacy and the human responds negatively -->
+		<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+		<Initiator>AI</Initiator>
+		<SubType>NEGATIVE</SubType>
+		<Leader>ANY</Leader>
+		<Mood>ANY</Mood>
+		<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+		<LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+		<Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+	</Row>
+	<Row>
+		<!-- This is the "negative" response statement sent by the AI in a Happy mood when it initiates diplomacy and the human responds positively -->
+		<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+		<Initiator>AI</Initiator>
+		<SubType>NEGATIVE</SubType>
+		<Leader>ANY</Leader>
+		<Mood>HAPPY</Mood>
+		<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+		<LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+		<Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+	</Row>
+	<Row>
+		<!-- This is the "negative" response statement sent by the AI in an Unhappy mood when it initiates diplomacy and the human responds positively -->
+		<Type>WARNING_DONT_SETTLE_NEAR_ME</Type>
+		<Initiator>AI</Initiator>
+		<SubType>NEGATIVE</SubType>
+		<Leader>ANY</Leader>
+		<Mood>UNHAPPY</Mood>
+		<StatementText>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+		<LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+		<Selections>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Selections>
+	</Row>
+
+
+		<!-- WARNING_TOO_MANY_TROOPS_NEAR_ME ************************************* -->
+
+		<Row>
+			<!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>POSITIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>NEUTRAL_POSITIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_EXIT</Selections>
+		</Row>
+		<Row>
+			<!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>POSITIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>HAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>HAPPY_POSITIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_EXIT</Selections>
+		</Row>
+		<Row>
+			<!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>POSITIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>UNHAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>UNHAPPY_POSITIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_EXIT</Selections>
+		</Row>
+
+		<Row>
+			<!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>NEGATIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_EXIT</Selections>
+		</Row>
+		<Row>
+			<!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>NEGATIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>HAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_EXIT</Selections>
+		</Row>
+		<Row>
+			<!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>NEGATIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>UNHAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_EXIT</Selections>
+		</Row>
+
+		<Row>
+			<!-- Human v. Human -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>NONE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_EXIT</Selections>
+		</Row>
+    
+		<Row>
+			<!-- This is the statement sent by the AI when it initiates the diplomacy -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>AI</Initiator>
+			<SubType>NONE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_FROM_AI</Selections>
+		</Row>
+		<Row>
+			<!-- This is the statement sent by the AI when it initiates the diplomacy -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>AI</Initiator>
+			<SubType>NONE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>HAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_FROM_AI</Selections>
+		</Row>
+		<Row>
+			<!-- This is the statement sent by the AI when it initiates the diplomacy -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>AI</Initiator>
+			<SubType>NONE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>UNHAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_FROM_AI</Selections>
+		</Row>
+
+		<Row>
+			<!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>AI</Initiator>
+			<SubType>POSITIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>NEUTRAL_POSITIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_EXIT</Selections>
+		</Row>
+		<Row>
+			<!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>AI</Initiator>
+			<SubType>POSITIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>HAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>HAPPY_POSITIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_EXIT</Selections>
+		</Row>
+		<Row>
+			<!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME</Type>
+			<Initiator>AI</Initiator>
+			<SubType>POSITIVE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>UNHAPPY</Mood>
+			<StatementText>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>UNHAPPY_POSITIVE</LeaderAnimation>
+			<Selections>WARNING_TOO_MANY_TROOPS_NEAR_ME_EXIT</Selections>
+		</Row>
+
+    <!-- WARNING_STOP_SPYING_ON_ME ************************************* -->
+
+    <Row>
+      <!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+
+    <Row>
+      <!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+
+    <Row>
+      <!-- Human v. Human -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>NONE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+    
+    <Row>
+      <!-- This is the statement sent by the AI when it initiates the diplomacy -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NONE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_FROM_AI</Selections>
+    </Row>
+	<Row>
+      <!-- This is the statement sent by the AI when it initiates the diplomacy -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NONE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_FROM_AI</Selections>
+    </Row>
+	<Row>
+      <!-- This is the statement sent by the AI when it initiates the diplomacy -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NONE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_FROM_AI</Selections>
+    </Row>
+
+    <Row>
+      <!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>AI</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>AI</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>AI</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+
+    <Row>
+      <!-- This is the "negative" response statement sent by the AI when it initiates diplomacy and the human responds negatively -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "negative" response statement sent by the AI when it initiates diplomacy and the human responds negatively -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "negative" response statement sent by the AI when it initiates diplomacy and the human responds negatively -->
+      <Type>WARNING_STOP_SPYING_ON_ME</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_SPYING_ON_ME_EXIT</Selections>
+    </Row>
+
+    <!-- WARNING_STOP_DIGGING_UP_ARTIFACTS ************************************* -->
+
+    <Row>
+      <!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+    <Row>
+      <!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+    <Row>
+      <!-- Human v. Human -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>NONE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+	
+
+    <Row>
+      <!-- This is the statement sent by the AI when it initiates the diplomacy -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NONE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_FROM_AI</Selections>
+    </Row>
+	<Row>
+      <!-- This is the statement sent by the AI when it initiates the diplomacy -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NONE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_FROM_AI</Selections>
+    </Row>
+	<Row>
+      <!-- This is the statement sent by the AI when it initiates the diplomacy -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NONE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_FROM_AI</Selections>
+    </Row>
+
+    <Row>
+      <!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>AI</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>AI</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>AI</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+
+    <Row>
+      <!-- This is the "negative" response statement sent by the AI when it initiates diplomacy and the human responds negatively -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "negative" response statement sent by the AI when it initiates diplomacy and the human responds negatively -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "negative" response statement sent by the AI when it initiates diplomacy and the human responds negatively -->
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Selections>
+    </Row>
+
+    <!-- WARNING_STOP_CONVERTING_MY_CITIES ************************************* -->
+
+    <Row>
+      <!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+
+    <Row>
+      <!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "negative" response statement sent by the AI when the human initiates the diplomacy -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+    <Row>
+      <!-- This is the statement sent by the AI when it initiates the diplomacy -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>HUMAN</Initiator>
+      <SubType>NONE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+    
+    <Row>
+      <!-- This is the statement sent by the AI when it initiates the diplomacy -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NONE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_FROM_AI</Selections>
+    </Row>
+	<Row>
+      <!-- This is the statement sent by the AI when it initiates the diplomacy -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NONE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_FROM_AI</Selections>
+    </Row>
+	<Row>
+      <!-- This is the statement sent by the AI when it initiates the diplomacy -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NONE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_FROM_AI</Selections>
+    </Row>
+
+	
+
+    <Row>
+      <!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>AI</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>AI</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+	<Row>
+      <!-- This is the "positive" response statement sent by the AI when it initiates diplomacy and the human responds positively -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>AI</Initiator>
+      <SubType>POSITIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_POSITIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+
+    <Row>
+      <!-- This is the "negative" response statement sent by the AI when it initiates diplomacy and the human responds negatively -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>NEUTRAL_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+    <Row>
+      <!-- This is the "negative" response statement sent by the AI when it initiates diplomacy and the human responds negatively -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>HAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>HAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+    <Row>
+      <!-- This is the "negative" response statement sent by the AI when it initiates diplomacy and the human responds negatively -->
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES</Type>
+      <Initiator>AI</Initiator>
+      <SubType>NEGATIVE</SubType>
+      <Leader>ANY</Leader>
+      <Mood>UNHAPPY</Mood>
+      <StatementText>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_$(LEADER)_$(MOOD)</StatementText>
+      <LeaderAnimation>UNHAPPY_NEGATIVE</LeaderAnimation>
+      <Selections>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Selections>
+    </Row>
+  </DiplomacyStatements>
+
+	<!-- DiplomacySelections ******************************************************* -->
+	<DiplomacySelections>
+		<!-- WARNING_DONT_SETTLE_NEAR_ME_FROM_AI ************************************* -->
+		<Row>
+			<Type>WARNING_DONT_SETTLE_NEAR_ME_FROM_AI</Type>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<Sort>0</Sort>
+			<Key>CHOICE_POSITIVE</Key>
+			<Text>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_CHOICE_POSITIVE</Text>
+		</Row>
+		<Row>
+			<Type>WARNING_DONT_SETTLE_NEAR_ME_FROM_AI</Type>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<Sort>1</Sort>
+			<Key>CHOICE_NEGATIVE</Key>
+			<Text>LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_CHOICE_NEGATIVE</Text>
+		</Row>
+		<Row>
+			<Type>WARNING_DONT_SETTLE_NEAR_ME_FROM_AI</Type>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<Sort>2</Sort>
+			<Key>CHOICE_IGNORE</Key>
+			<Text>LOC_DIPLO_CHOICE_IGNORE</Text>
+		</Row>
+		
+		<Row>
+			<Type>WARNING_DONT_SETTLE_NEAR_ME_EXIT</Type>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<Sort>0</Sort>
+			<Key>CHOICE_EXIT</Key>
+			<Text>LOC_DIPLO_CHOICE_EXIT</Text>
+		</Row>
+
+		<!-- WARNING_TOO_MANY_TROOPS_NEAR_ME_FROM_AI ************************************* -->
+		<Row>
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME_FROM_AI</Type>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<Sort>0</Sort>
+			<Key>CHOICE_POSITIVE</Key>
+			<Text>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_CHOICE_POSITIVE</Text>
+		</Row>
+		<Row>
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME_FROM_AI</Type>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<Sort>1</Sort>
+			<Key>CHOICE_NEGATIVE</Key>
+			<Text>LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_CHOICE_NEGATIVE</Text>
+      <DiplomaticActionType>DIPLOACTION_DECLARE_SURPRISE_WAR</DiplomaticActionType>
+    </Row>
+		<Row>
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME_FROM_AI</Type>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<Sort>2</Sort>
+			<Key>CHOICE_IGNORE</Key>
+			<Text>LOC_DIPLO_CHOICE_IGNORE</Text>
+		</Row>
+
+		<Row>
+			<Type>WARNING_TOO_MANY_TROOPS_NEAR_ME_EXIT</Type>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<Sort>0</Sort>
+			<Key>CHOICE_EXIT</Key>
+			<Text>LOC_DIPLO_CHOICE_EXIT</Text>
+		</Row>
+
+    <!-- WARNING_STOP_SPYING_ON_ME_FROM_AI ************************************* -->
+    <Row>
+      <Type>WARNING_STOP_SPYING_ON_ME_FROM_AI</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>0</Sort>
+      <Key>CHOICE_POSITIVE</Key>
+      <Text>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_CHOICE_POSITIVE</Text>
+    </Row>
+    <Row>
+      <Type>WARNING_STOP_SPYING_ON_ME_FROM_AI</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>1</Sort>
+      <Key>CHOICE_NEGATIVE</Key>
+      <Text>LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_CHOICE_NEGATIVE</Text>
+    </Row>
+    <Row>
+      <Type>WARNING_STOP_SPYING_ON_ME_FROM_AI</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>2</Sort>
+      <Key>CHOICE_IGNORE</Key>
+      <Text>LOC_DIPLO_CHOICE_IGNORE</Text>
+    </Row>
+
+    <Row>
+      <Type>WARNING_STOP_SPYING_ON_ME_EXIT</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>0</Sort>
+      <Key>CHOICE_EXIT</Key>
+      <Text>LOC_DIPLO_CHOICE_EXIT</Text>
+    </Row>
+
+    <!-- WARNING_STOP_DIGGING_UP_ARTIFACTS ************************************* -->
+    <Row>
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS_FROM_AI</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>0</Sort>
+      <Key>CHOICE_POSITIVE</Key>
+      <Text>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_CHOICE_POSITIVE</Text>
+    </Row>
+    <Row>
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS_FROM_AI</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>1</Sort>
+      <Key>CHOICE_NEGATIVE</Key>
+      <Text>LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_CHOICE_NEGATIVE</Text>
+    </Row>
+    <Row>
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS_FROM_AI</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>2</Sort>
+      <Key>CHOICE_IGNORE</Key>
+      <Text>LOC_DIPLO_CHOICE_IGNORE</Text>
+    </Row>
+
+    <Row>
+      <Type>WARNING_STOP_DIGGING_UP_ARTIFACTS_EXIT</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>0</Sort>
+      <Key>CHOICE_EXIT</Key>
+      <Text>LOC_DIPLO_CHOICE_EXIT</Text>
+    </Row>
+
+    <!-- WARNING_STOP_CONVERTING_MY_CITIES ************************************* -->
+    <Row>
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES_FROM_AI</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>0</Sort>
+      <Key>CHOICE_POSITIVE</Key>
+      <Text>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_CHOICE_POSITIVE</Text>
+    </Row>
+    <Row>
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES_FROM_AI</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>1</Sort>
+      <Key>CHOICE_NEGATIVE</Key>
+      <Text>LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_CHOICE_NEGATIVE</Text>
+    </Row>
+    <Row>
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES_FROM_AI</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>2</Sort>
+      <Key>CHOICE_IGNORE</Key>
+      <Text>LOC_DIPLO_CHOICE_IGNORE</Text>
+    </Row>
+
+    <Row>
+      <Type>WARNING_STOP_CONVERTING_MY_CITIES_EXIT</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>0</Sort>
+      <Key>CHOICE_EXIT</Key>
+      <Text>LOC_DIPLO_CHOICE_EXIT</Text>
+    </Row>
+
+	</DiplomacySelections>
+</GameData>
