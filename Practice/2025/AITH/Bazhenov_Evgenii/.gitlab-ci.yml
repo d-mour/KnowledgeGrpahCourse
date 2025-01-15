@@ -1,0 +1,53 @@
+default:
+  tags:
+    - docker
+  before_script:
+    - python --version
+    - curl -sSL https://install.python-poetry.org | python -
+    - export PATH="/root/.local/bin:$PATH"
+    - poetry config virtualenvs.in-project true
+
+variables:
+  IMAGE_NAME: "registry.gitlab.com/n4d-itmo/de-mozart/streamlit"
+
+cache:
+  policy: pull
+  paths:
+    - .venv
+  key:
+    files:
+      - poetry.lock
+      - pyproject.toml
+
+stages:
+  - install
+  - test
+  - deploy
+
+install:
+  stage: install
+  script: poetry install
+  cache:
+    policy: pull-push
+    paths:
+      - .venv
+    key:
+      files:
+        - poetry.lock
+        - pyproject.toml
+
+lint:
+  stage: test
+  script: make lint
+
+deploy:
+  tags:
+    - deploy
+  before_script: []
+  stage: deploy
+  only:
+    - main
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build -t $IMAGE_NAME:latest .
+    - docker push "$IMAGE_NAME:latest"

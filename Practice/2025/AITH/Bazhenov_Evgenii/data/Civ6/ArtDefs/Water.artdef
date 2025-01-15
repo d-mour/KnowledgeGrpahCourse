@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>471</build>
+		<revision>198</revision>
+	</m_Version>
+	<m_TemplateName text="WaterSettings"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="WaterSettings"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="Water/Ice"/>
+							<m_XLPClass text="Water"/>
+							<m_XLPPath text="Water.xlp"/>
+							<m_BLPPackage text="Water"/>
+							<m_LibraryName text="Water"/>
+							<m_ParamName text="IceMaterial"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="Water/River"/>
+							<m_XLPClass text="Water"/>
+							<m_XLPPath text="Water.xlp"/>
+							<m_BLPPackage text="Water"/>
+							<m_LibraryName text="Water"/>
+							<m_ParamName text="RiverMaterial"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="Water/Deep"/>
+							<m_XLPClass text="Water"/>
+							<m_XLPPath text="Water.xlp"/>
+							<m_BLPPackage text="Water"/>
+							<m_LibraryName text="Water"/>
+							<m_ParamName text="DeepMaterial"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="Water/Coast"/>
+							<m_XLPClass text="Water"/>
+							<m_XLPPath text="Water.xlp"/>
+							<m_BLPPackage text="Water"/>
+							<m_LibraryName text="Water"/>
+							<m_ParamName text="CoastMaterial"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="Water/Lake"/>
+							<m_XLPClass text="Water"/>
+							<m_XLPPath text="Water.xlp"/>
+							<m_BLPPackage text="Water"/>
+							<m_LibraryName text="Water"/>
+							<m_ParamName text="LakeMaterial"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.100000</m_fValue>
+							<m_ParamName text="CurrentNoiseStrength"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="CurrentNoiseScale"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>850.000000</m_fValue>
+							<m_ParamName text="SpecExponentDynamic"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.001000</m_fValue>
+							<m_ParamName text="FresnelF0"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>4.000000</m_fValue>
+							<m_ParamName text="EnvironmentFresnelExponent"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SSOverlayRippleStrength"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="WSOverlayRippleStrength"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="CoastalHaze_Width"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="CoastalHaze_Opacity"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="CoastalHaze_Falloff"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>5000.000000</m_fValue>
+							<m_ParamName text="SpecExponentSun"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.400000</m_fValue>
+							<m_ParamName text="RefractionScale"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="WhitecapMin"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.350000</m_fValue>
+							<m_ParamName text="WhitecapMax"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>4.000000</m_fValue>
+							<m_ParamName text="WhitecapPower"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text=""/>
+							<m_XLPClass text="Water"/>
+							<m_XLPPath text="Water.xlp"/>
+							<m_BLPPackage text="Water"/>
+							<m_LibraryName text="Water"/>
+							<m_ParamName text="SecondaryRiverMaterial"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text=""/>
+							<m_XLPClass text="Water"/>
+							<m_XLPPath text="Water.xlp"/>
+							<m_BLPPackage text="Water"/>
+							<m_LibraryName text="Water"/>
+							<m_ParamName text="SecondaryRiverMask"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="blue_noise"/>
+							<m_XLPClass text="SkyBoxTexture"/>
+							<m_XLPPath text="skybox.xlp"/>
+							<m_BLPPackage text="SkyBox"/>
+							<m_LibraryName text="SkyBoxTexture"/>
+							<m_ParamName text="DitherTexture"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="DEFAULT_WATER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

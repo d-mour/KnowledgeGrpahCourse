@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>414</build>
+		<revision>268</revision>
+	</m_Version>
+	<m_TemplateName text="UnitActivities"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="UnitActivity"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="IDLE"/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_AWAKE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="IDLE"/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_HOLD"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="IDLE"/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_SLEEP"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="IDLE"/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_HEAL"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="IDLE_FORTIFY"/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_SENTRY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="RUN"/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_INTERCEPT"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="IDLE"/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_OPERATION"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTION_1"/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_BUILD"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTION_2"/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_DIG"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTION_3"/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_CUT"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTION_A"/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTION_A"/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTION_A"/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_REPAIR"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ATTACK_1"/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ATTACK_1"/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_SPREAD_RELIGION"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ATTACK_2"/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_LAUNCH_INQUISITION"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ATTACK_3"/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_EVANGELIZE_BELIEF"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="SPAWN"/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="SPAWN"/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="SPAWN"/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_EXCAVATE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTION_1"/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_DESIGNATE_PARK"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="SPAWN"/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ACTIVITY_FOUND_RELIGION"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTION_1"/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="CREATE_DISTRICT"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Animation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTION_1"/>
+							<m_ParamName text="ExpendAnimation"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="UnitActivationAnimation"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="CREATE_WONDER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

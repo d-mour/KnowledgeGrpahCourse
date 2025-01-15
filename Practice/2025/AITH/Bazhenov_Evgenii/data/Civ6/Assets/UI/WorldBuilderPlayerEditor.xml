@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Context Name="WorldPlayerEditor">
+
+	<Container Anchor="C,C"	Size="1024,768">
+    <!-- Background and Header -->
+    <Image ID="ModalBG" Size="1024,768" Offset="0,0" Texture="WorldBuilder_BG" StretchMode="Tile" ConsumeMouse="1"/>
+    <Grid																														  Size="parent,40"						Texture="Controls_SubHeader2" ConsumeMouse="1" SliceCorner="20,2" SliceTextureSize="40,40">
+      <Label				ID="ModalScreenTitle" Anchor="C,C"								Style="FontFlair24" FontStyle="glow" ColorSet="ShellHeader" SmallCaps="28" SmallCapsLeading="0" SmallCapsType="EveryWord"/>
+    </Grid>
+    <Grid	Offset="-8,-8"	Size="parent+16,parent+16"	Style="ScreenFrame"/>
+    
+    <!-- Close Button -->
+    <Button	ID="ModalScreenClose" Anchor="R,T" Style="CloseButtonLarge" Offset="-8,-5"/>
+    
+    <!-- Content -->
+		<Grid Anchor="C,B" Size="parent-6,parent-43" Offset="0,2" Texture="Religion_OverviewFrame" SliceCorner="15,15" SliceTextureSize="34,33">
+
+      <Grid ID="TopContainer" Anchor="L,T" Size="250,parent-20" Offset="10,10" Style="DecoGrid" Color="26,61,90,255">
+
+        <!-- Players Header -->
+        <Grid Size="parent,21" Texture="Shell_SectionHeader" SliceCorner="4,10" SliceSize="300,1" SliceTextureSize="308,21" Color="20,144,140,100" Offset="0,8">
+          <Image Texture="Controls_Gradient_HalfRadial" Color="20,144,140,100" FlipY="1" Anchor="C,T" Size="225,94"/>
+          <Label Anchor="C,C" Style="ShellOptionText" WrapWidth="320" String="LOC_PLAYERS"/>
+        </Grid>
+        
+        <!-- Player Stack -->
+				<Grid Anchor="L,T" Size="parent-20,550" Offset="4,34" Texture="Controls_Slot" SliceCorner="17,17" SliceTextureSize="34,34">
+					<ScrollPanel ID="PlayerScrollPanel" Size="parent,parent-4" Anchor="C,T" Offset="0,2" Vertical="1" AutoScrollBar="0">
+						<Stack ID="PlayerStack" StackGrowth="Bottom" Anchor="C,T" StackPadding="3"/>
+              
+            <ScrollBar Anchor="R,C" Size="11,parent+4" Offset="2,0" AnchorSide="O,I" Style="ScrollVerticalBar"/>
+					</ScrollPanel>
+				</Grid>
+
+        <!-- Add/Remove Buttons -->
+				<Stack StackGrowth="Bottom" Anchor="C,B" Offset="0,20" StackPadding="5">
+					<GridButton ID="NewPlayerButton"    String="LOC_WORLDBUILDER_BUTTON_ADD_PLAYER"     Size="200,26" Style="MainButtonSmall"/>
+					<GridButton ID="NewAIPlayerButton"  String="LOC_WORLDBUILDER_BUTTON_ADD_AI_PLAYER"  Size="200,26" Style="MainButtonSmall"/>
+					<GridButton ID="RemovePlayerButton" String="LOC_WORLDBUILDER_BUTTON_REMOVE_PLAYER"  Size="200,26" Style="MainButtonSmall"/>
+				</Stack>
+        
+			</Grid>
+
+			<Grid ID="TabsContainer" Anchor="R,T" Size="parent-272, parent-16" Offset="8,8" Style="SubContainer">
+				
+				<Stack StackGrowth="Down" Anchor="L,T" StackPadding="4">
+
+					<!-- ==================================================================	-->
+					<!--	Tab Header																												-->
+					<!-- ==================================================================	-->
+					<Container ID="TabArea" Anchor="L,T" Offset="0,0" Size="parent,84">
+						<Container ID="TabContainer" Offset="0,0" Size="parent,74" />
+					</Container>
+
+					<ScrollPanel ID="Scroll" Offset="4,4" Size="parent-8,parent-140" Vertical="1" AutoScrollBar="1">
+						<Stack ID="Stack" Anchor="C,T" Offset="0,0" StackPadding="4"/>
+						<ScrollBar Anchor="R,C" Offset="2,0" Size="11,parent" AnchorSide="I,I" Style="ScrollVerticalBarAlt" />
+					</ScrollPanel>
+
+				</Stack>
+			</Grid>
+		</Grid>
+
+	</Container>
+
+	<!-- ==================================================================	-->
+	<!--	Instances																													-->
+	<!-- ==================================================================	-->
+	<Instance				Name="TabInstance">
+		<GridButton			ID="Button"					Size="40,34"  Style="ShellTab">
+      <AlphaAnim ID="Selection" Anchor="C,C" Speed="5" AlphaBegin="0" AlphaEnd="1" Cycle="Once" Function="Root" Hidden="1" >
+        <GridButton Size="parent+2,parent-2" Style="ShellTabSelected" Anchor="C,C"/>
+      </AlphaAnim>
+		</GridButton>
+	</Instance>
+
+	<!-- Non-Collapsable Rows -->
+	<Instance					Name="SimpleInstance">
+		<Stack					ID="Top"	StackGrowth="Down" />
+	</Instance>
+
+	<!-- Collapsable Row(s) area -->
+	<Instance					Name="GroupInstance">
+		<Container				ID="Top"																			 Size="parent,auto">
+			<GridButton			ID="RowHeaderButton"	Offset="0,0"	Size="parent,30"		Style="RowButton"		String="$RowHeaderButton"  />
+			<Image				ID="RowExpandCheck"		Anchor="R,T"	Offset="5,5"			Size="22,22"			Texture="Controls_ExpandButton" />
+			<ScrollPanel		ID="CollapseScroll"		Offset="0,31"	Size="parent,20"		StackGrowth="Bottom"	FullClip="1" >
+				<SlideAnim		ID="CollapseAnim"		Start="0,0"		EndOffset="0,0"			Speed="4" Cycle="Once"	Stopped="1">
+					<Stack		ID="ContentStack"		Offset="0,0"	StackGrowth="Bottom" />
+				</SlideAnim>
+			</ScrollPanel>
+		</Container>
+	</Instance>
+
+  <!-- Player Techs Tab -->
+  <Instance Name="PlayerGeneralInstance">
+    <Grid Size="385,parent" Style="DecoGrid" Color="26,61,90,255">
+      <!-- Tech Header -->
+      <Grid Size="parent,21" Offset="0,12" Texture="Shell_SectionHeader" SliceCorner="4,10" SliceSize="300,1" SliceTextureSize="308,21" Color="20,144,140,100" >
+        <Image Texture="Controls_Gradient_HalfRadial" Color="20,144,140,100" FlipY="1" Anchor="C,T" Size="225,94"/>
+        <Label Anchor="C,C" Style="ShellOptionText" WrapWidth="320" String="LOC_WORLDBUILDER_TAB_GENERAL"/>
+      </Grid>
+
+      <!-- Player Values -->
+      <Stack StackGrowth="Down" Anchor="C,T" Offset="0,50" StackPadding="5">
+        <!-- Pulldowns -->
+		<Stack Anchor="R,T" StackGrowth="Right" Padding="5">
+			<Label Anchor="L,C" Style="ShellOptionText" String="LOC_WORLDBUILDER_CIVILIZATION"/>
+			<SimplePullDown ID="CivPullDown"    Anchor="R,T" Style="PullDownBlue" ScrollThreshold="400" Size="230,24" SpaceForScroll="0" EntryInstance="InstanceOne"/>
+		</Stack>
+		<Stack Anchor="R,T" StackGrowth="Right" Padding="5">
+			<Label Anchor="L,C" Style="ShellOptionText" String="LOC_WORLDBUILDER_LEADER"/>
+			<SimplePullDown ID="LeaderPullDown" Anchor="R,T" Style="PullDownBlue" ScrollThreshold="400" Size="230,24" SpaceForScroll="0" EntryInstance="InstanceOne"/>
+		</Stack>
+		<Stack Anchor="R,T" StackGrowth="Right" Padding="5">
+			<Label Anchor="L,C" Style="ShellOptionText" String="LOC_WORLDBUILDER_CIVILIZATION_LEVEL"/>
+			<SimplePullDown ID="CivLevelPullDown" Anchor="R,T" Style="PullDownBlue" ScrollThreshold="400" Size="230,24" SpaceForScroll="0" EntryInstance="InstanceOne"/>
+		</Stack>
+		<Stack Anchor="R,T" StackGrowth="Right" Padding="5">
+			<Label Anchor="L,C" Style="ShellOptionText" String="LOC_WORLDBUILDER_ERA"/>
+			<SimplePullDown ID="EraPullDown" Anchor="R,T" Style="PullDownBlue" ScrollThreshold="400" Size="230,24" SpaceForScroll="0" EntryInstance="InstanceOne"/>
+		</Stack>
+
+        <!-- Gold Values -->
+        <Stack Anchor="R,T" StackGrowth="Right" Padding="5">
+          <Label Anchor="L,C" Style="ShellOptionText" String="LOC_WORLDBUILDER_ATTRIBUTE_GOLD"/>
+          <Grid Style="EditTextArea" Size="80,24" InnerPadding="6,6">
+            <EditBox ID="GoldEdit" Anchor="L,C" Offset="4,0" Size="parent,23" EditMode="1" Style="FontNormal14" ColorSet="BodyTextCool" FontStyle="stroke" MaxLength="22"/>
+          </Grid>
+        </Stack>
+
+        <!-- Faith Values -->
+        <Stack Anchor="R,T" StackGrowth="Right" Padding="5">
+          <Label Anchor="L,C" Style="ShellOptionText" String="LOC_WORLDBUILDER_ATTRIBUTE_FAITH"/>
+          <Grid Style="EditTextArea" Size="80,24" InnerPadding="6,6">
+            <EditBox ID="FaithEdit" Anchor="L,C" Offset="4,0" Size="parent,23" EditMode="1" Style="FontNormal14" ColorSet="BodyTextCool" FontStyle="stroke" MaxLength="22"/>
+          </Grid>
+        </Stack>
+      </Stack>
+      
+    </Grid>
+  </Instance>
+
+  <!-- Player Techs Tab -->
+	<Instance Name="PlayerTechsInstance">
+    <Grid Size="265,parent" Style="DecoGrid" Color="26,61,90,255">
+      <!-- Tech Header -->
+      <Grid Size="parent,21" Offset="0,12" Texture="Shell_SectionHeader" SliceCorner="4,10" SliceSize="300,1" SliceTextureSize="308,21" Color="20,144,140,100" >
+        <Image Texture="Controls_Gradient_HalfRadial" Color="20,144,140,100" FlipY="1" Anchor="C,T" Size="225,94"/>
+        <Label Anchor="C,C" Style="ShellOptionText" WrapWidth="320" String="LOC_WORLDBUILDER_TAB_TECHS"/>
+      </Grid>
+      
+      <!-- Tech List -->
+			<MultiSelectListBox ID="TechList" Anchor="C,B" Size="parent-6,parent-60" Offset="0,18" ListContainer="TechListContainer">
+
+        <Grid Size="parent-16,parent" Offset="1,0" Texture="Controls_Slot" SliceCorner="17,17" SliceTextureSize="34,34">
+          <ScrollPanel Size="parent-4,parent-4" Anchor="C,C" Offset="0,0" Vertical="1">
+						<Stack ID="TechListContainer" StackGrowth="Bottom" Anchor="L,T" StackPadding="3"  />
+
+						<ScrollBar Style="ScrollVerticalBar" Offset="5,0" Anchor="R,T" AnchorSide="O,I"/>
+					</ScrollPanel>
+				</Grid>
+
+				<InstanceData Name="EntryInstance" >
+					<CheckBox  Size="240,24" Style="MainCheckBox"  Anchor="L,T" ID="Button" BoxOnLeft="1"/>
+				</InstanceData>
+
+			</MultiSelectListBox>
+		</Grid>
+	</Instance>
+
+	<!-- Player Civics Tab -->
+	<Instance Name="PlayerCivicsInstance">
+    <Grid Size="325,parent" Style="DecoGrid" Color="26,61,90,255">
+      <!-- Civics Header -->
+      <Grid Size="parent,21" Offset="0,12" Texture="Shell_SectionHeader" SliceCorner="4,10" SliceSize="300,1" SliceTextureSize="308,21" Color="20,144,140,100" >
+        <Image Texture="Controls_Gradient_HalfRadial" Color="20,144,140,100" FlipY="1" Anchor="C,T" Size="225,94"/>
+        <Label Anchor="C,C" Style="ShellOptionText" WrapWidth="320" String="LOC_WORLDBUILDER_TAB_CIVICS"/>
+      </Grid>
+      
+      <!-- Civics List -->
+      <MultiSelectListBox ID="CivicsList" Anchor="C,B" Size="parent-6,parent-60" Offset="0,18" ListContainer="CivicsListContainer">
+
+        <Grid Size="parent-16,parent" Offset="1,0" Texture="Controls_Slot" SliceCorner="17,17" SliceTextureSize="34,34">
+          <ScrollPanel Size="parent-4,parent-4" Anchor="C,C" Offset="0,0" Vertical="1">
+            <Stack ID="CivicsListContainer" StackGrowth="Bottom" Anchor="L,T" StackPadding="3"  />
+
+            <ScrollBar Style="ScrollVerticalBar" Offset="5,0" Anchor="R,T" AnchorSide="O,I"/>
+          </ScrollPanel>
+        </Grid>
+
+        <InstanceData Name="EntryInstance" >
+          <CheckBox  Size="240,24" Style="MainCheckBox"  Anchor="L,T" ID="Button" BoxOnLeft="1"/>
+        </InstanceData>
+
+      </MultiSelectListBox>
+    </Grid>
+  </Instance>
+
+	<Instance Name="CityMainInstance">
+		<Container ID="Top" Size="parent,parent">
+			<!-- City List -->
+      <Grid Size="272,parent" Offset="2,0" Style="DecoGrid" Color="26,61,90,255">
+        
+        <!-- Tech Header -->
+        <Grid Size="parent,21" Offset="0,12" Texture="Shell_SectionHeader" SliceCorner="4,10" SliceSize="300,1" SliceTextureSize="308,21" Color="20,144,140,100" >
+          <Image Texture="Controls_Gradient_HalfRadial" Color="20,144,140,100" FlipY="1" Anchor="C,T" Size="225,94"/>
+          <Label Anchor="C,C" Style="ShellOptionText" WrapWidth="320" String="LOC_WORLDBUILDER_TAB_CITIES"/>
+        </Grid>
+
+        <!-- City List Stack -->
+        <Stack Anchor="L,T" Offset="5,36" StackGrowth="Bottom" StackPadding="5" >
+          <ListBox ID="CityList" Size="250,parent-115" ListContainer="CityListContainer">
+
+            <Grid Anchor="L,T" Size="parent,parent" Texture="Controls_Slot" SliceCorner="17,17" SliceTextureSize="34,34">
+              <ScrollPanel Size="parent,parent-4" Anchor="C,T" Vertical="1" Offset="0,2" AutoScrollBar="0">
+                <Stack ID="CityListContainer" StackGrowth="Bottom" Anchor="C,T" StackPadding="1"  />
+
+                <ScrollBar  Style="ScrollVerticalBar" Size="11,parent" Offset="3,0" Anchor="R,T" AnchorSide="O,I" />
+              </ScrollPanel>
+            </Grid>
+
+            <InstanceData Name="EntryInstance" >
+              <GridButton  Size="parent-4,24" Style="ButtonControl" Anchor="C,C" ID="Button"/>
+            </InstanceData>
+
+          </ListBox>
+
+          <Stack Anchor="L,B" StackGrowth="Down" Padding="5">
+            <GridButton ID="NewCityButton"    String="LOC_WORLDBUILDER_BUTTON_ADD_CITY"     Size="Parent-22,26" Style="MainButtonSmall" />
+            <GridButton ID="RemoveCityButton" String="LOC_WORLDBUILDER_BUTTON_REMOVE_CITY"  Size="Parent-22,26" Style="MainButtonSmall" />
+          </Stack>
+
+        </Stack>
+      </Grid>
+
+			<Container ID="TabsContainer" Anchor="R,T" Size="parent-286, parent-20" Offset="4,0">
+
+				<Stack StackGrowth="Down" Anchor="C,T" StackPadding="4">
+
+					<Container ID="TabArea" Anchor="C,T" Offset="0,0" Size="parent,42">
+						<Container ID="TabContainer" Offset="0,0" Size="parent,34" />
+					</Container>
+
+          <Grid Size="parent,parent-26" Offset="0,0" Style="DecoGrid" Color="26,61,90,255">
+					  <ScrollPanel ID="Scroll" Offset="0,4" Size="parent,parent" Vertical="1" AutoScrollBar="1">
+              <Stack ID="Stack" Anchor="L,T" Offset="0,1" StackPadding="4"/>
+              <ScrollBar Anchor="R,C" Offset="2,0" Size="11,parent" AnchorSide="I,I" Style="ScrollVerticalBarAlt" />
+					  </ScrollPanel>
+          </Grid>
+
+				</Stack>
+			</Container>
+
+		</Container>
+		
+	</Instance>
+	
+	<Instance Name="CityGeneralInstance">
+		<Stack StackGrowth="Bottom" Anchor="C,T" Offset="0,15" StackPadding="10">
+      
+      <!-- Header -->
+      <Grid Size="parent,21" Offset="0,0" Texture="Shell_SectionHeader" SliceCorner="4,10" SliceSize="300,1" SliceTextureSize="308,21" Color="20,144,140,100" >
+        <Image Texture="Controls_Gradient_HalfRadial" Color="20,144,140,100" FlipY="1" Anchor="C,T" Size="225,94"/>
+        <Label ID="SelectedCityName" Anchor="C,C" Style="ShellOptionText" WrapWidth="320" String=""/>
+      </Grid>
+
+      <!-- Population -->
+      <Stack Anchor="C,T" StackGrowth="Right" Padding="5">
+        <Label Anchor="L,C" Style="ShellOptionText" String="LOC_HUD_REPORTS_HEADER_POPULATION"/>
+        <Grid Style="EditTextArea" Size="80,24" InnerPadding="6,6">
+          <EditBox ID="PopulationEdit" Anchor="L,C" Offset="4,0" Size="parent,23" EditMode="1" Style="FontNormal14" ColorSet="BodyTextCool" FontStyle="stroke" MaxLength="22"/>
+        </Grid>
+      </Stack>
+      
+		</Stack>
+	</Instance>
+
+	<Instance Name="CityDistrictsInstance">
+    <Stack StackGrowth="Bottom" Anchor="C,T" Offset="0,15" StackPadding="10">
+
+      <!-- Selected City Header -->
+      <Grid Size="parent,21" Offset="0,0" Texture="Shell_SectionHeader" SliceCorner="4,10" SliceSize="300,1" SliceTextureSize="308,21" Color="20,144,140,100" >
+        <Image Texture="Controls_Gradient_HalfRadial" Color="20,144,140,100" FlipY="1" Anchor="C,T" Size="225,94"/>
+        <Label ID="SelectedCityName" Anchor="C,C" Style="ShellOptionText" WrapWidth="320" String=""/>
+      </Grid>
+
+      <!-- District List-->
+			<ListBox ID="DistrictsList" Anchor="C,T" Offset="0,0" Size="240,300" ListContainer="DistrictsListContainer">
+
+				<Grid Size="parent,parent" Texture="Controls_Slot" SliceCorner="17,17" SliceTextureSize="34,34">
+					<ScrollPanel Size="parent,parent-4" Anchor="C,T" Vertical="1" Offset="0,2" >
+						<Stack ID="DistrictsListContainer" StackGrowth="Bottom" Anchor="L,T" StackPadding="0"  />
+
+						<ScrollBar Style="ScrollVerticalBar" Offset="3,0" Anchor="R,T" AnchorSide="O,I" />
+					</ScrollPanel>
+				</Grid>
+
+				<InstanceData Name="EntryInstance" >
+					<Stack StackGrowth="Right" Anchor="C,T" StackPadding="0">
+            <Grid Size="25,25" Style="ButtonControl">
+              <CheckBox ID="HasEntry" Size="24,24" Style="MainCheckBox" Anchor="C,C" BoxOnLeft="1" />
+            </Grid>
+						<GridButton ID="Button" Size="parent-25,24" Style="ButtonControl" Anchor="C,C" FontStyle="FontNormal16"/>
+					</Stack>
+				</InstanceData>
+
+			</ListBox>
+
+      <!-- Selected District Header -->
+      <Grid Size="parent,21" Offset="0,0" Texture="Shell_SectionHeader" SliceCorner="4,10" SliceSize="300,1" SliceTextureSize="308,21" Color="20,144,140,100" >
+        <Image Texture="Controls_Gradient_HalfRadial" Color="20,144,140,100" FlipY="1" Anchor="C,T" Size="225,94"/>
+        <Label ID="SelectedDistrictName" Anchor="C,C" Style="ShellOptionText" WrapWidth="320" String=""/>
+      </Grid>
+				
+			<Stack StackGrowth="Bottom" Anchor="C,T" Offset="0,0" StackPadding="5">
+
+				<!-- Pillaged? -->
+        <GridButton ID="PillagedCheckbox" Anchor="R,T" Style="CheckBoxControl"  Size="180,24" States="8" String="LOC_WORLDBUILDER_ATTRIBUTE_PILLAGED"/>
+          
+				<!-- Garrison Damage -->
+<!--        <Stack Anchor="R,T" StackGrowth="Right" Padding="5">
+          <Label Anchor="L,C" Style="ShellOptionText" String="LOC_WORLDBUILDER_ATTRIBUTE_GARRISON_DAMAGE"/>
+          <Grid Style="EditTextArea" Size="80,24" InnerPadding="6,6">
+            <EditBox ID="GarrisonDamageEdit" Anchor="L,C" Offset="4,0" Size="parent,23" EditMode="1" Style="FontNormal14" ColorSet="BodyTextCool" FontStyle="stroke" MaxLength="22"/>
+          </Grid>
+        </Stack> -->
+
+				<!-- Outer Damage -->
+<!--        <Stack Anchor="R,T" StackGrowth="Right" Padding="5">
+          <Label Anchor="L,C" Style="ShellOptionText" String="LOC_WORLDBUILDER_ATTRIBUTE_OUTER_DAMAGE"/>
+          <Grid Style="EditTextArea" Size="80,24" InnerPadding="6,6">
+            <EditBox ID="OuterDamageEdit" Anchor="L,C" Offset="4,0" Size="parent,23" EditMode="1" Style="FontNormal14" ColorSet="BodyTextCool" FontStyle="stroke" MaxLength="22"/>
+          </Grid>
+        </Stack> -->
+
+			</Stack>
+
+		</Stack>
+
+	</Instance>
+
+	<Instance Name="CityBuildingsInstance">
+    <Stack StackGrowth="Bottom" Anchor="C,T" Offset="0,15" StackPadding="10">
+
+      <!-- Selected City Header -->
+      <Grid Size="parent,21" Offset="0,0" Texture="Shell_SectionHeader" SliceCorner="4,10" SliceSize="300,1" SliceTextureSize="308,21" Color="20,144,140,100" >
+        <Image Texture="Controls_Gradient_HalfRadial" Color="20,144,140,100" FlipY="1" Anchor="C,T" Size="225,94"/>
+        <Label ID="SelectedCityName" Anchor="C,C" Style="ShellOptionText" WrapWidth="320" String=""/>
+      </Grid>
+
+				<!-- Buildings List-->
+				<ListBox ID="BuildingsList" Anchor="C,T" Offset="0,0" Size="300,300" ListContainer="BuildingsListContainer">
+					
+          <Grid Size="parent,parent" Texture="Controls_Slot" SliceCorner="17,17" SliceTextureSize="34,34">
+            <ScrollPanel Size="parent,parent-4" Anchor="C,T" Vertical="1" Offset="0,2" >
+              <Stack ID="BuildingsListContainer" StackGrowth="Bottom" Anchor="L,T" StackPadding="0"  />
+
+              <ScrollBar Style="ScrollVerticalBar" Offset="3,0" Anchor="R,T" AnchorSide="O,I" />
+            </ScrollPanel>
+          </Grid>
+
+          <InstanceData Name="EntryInstance" >
+            <Stack StackGrowth="Right" Anchor="C,T" StackPadding="0">
+              <Grid Size="25,25" Style="ButtonControl">
+                <CheckBox ID="HasEntry" Size="24,24" Style="MainCheckBox" Anchor="C,C" BoxOnLeft="1" />
+              </Grid>
+              <GridButton ID="Button" Size="parent-25,24" Style="ButtonControl" Anchor="C,C" FontStyle="FontNormal16"/>
+            </Stack>
+          </InstanceData>
+          
+				</ListBox>
+      
+        <!-- Selected Building Header -->
+        <Grid Size="parent,21" Offset="0,0" Texture="Shell_SectionHeader" SliceCorner="4,10" SliceSize="300,1" SliceTextureSize="308,21" Color="20,144,140,100" >
+          <Image Texture="Controls_Gradient_HalfRadial" Color="20,144,140,100" FlipY="1" Anchor="C,T" Size="225,94"/>
+          <Label ID="SelectedBuildingName" Anchor="C,C" Style="ShellOptionText" WrapWidth="320" String=""/>
+        </Grid>
+      
+				<Stack StackGrowth="Bottom" Anchor="C,T" Offset="0,0" StackPadding="5">
+
+					<!-- Pillaged? -->
+          <GridButton ID="PillagedCheckbox" Anchor="C,T" Style="CheckBoxControl"  Size="180,24" States="8" String="LOC_WORLDBUILDER_ATTRIBUTE_PILLAGED"/>
+
+				</Stack>
+		</Stack>
+
+	</Instance>
+
+  <Instance Name="PlayerInstance">
+    <GridButton ID="Button" Size="parent,40" Style="ButtonControl" Anchor="C,T">
+      <Label ID="PlayerName" Anchor="L,C" Offset="56,0" Style="FontNormal14"/>
+      <Image ID="CivIconBacking" Anchor="L,C" Offset="10,0" Size="36,36" Texture="CircleBacking36">
+        <Image Anchor="C,C" Offset="0,0" Size="44,45" Texture="Controls_CircleRimSmall"/>
+        <Image ID="CivIcon" Anchor="C,C" Size="36,36" Texture="CivSymbols36"/>
+      </Image>
+    </GridButton>
+  </Instance>
+
+</Context>

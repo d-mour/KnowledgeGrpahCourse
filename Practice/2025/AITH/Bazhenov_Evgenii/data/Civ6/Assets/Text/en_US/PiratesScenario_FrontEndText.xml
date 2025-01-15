@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<FrontEndText>
+		<!-- Pirates Main Menu Multiplayer Buttons -->
+		<Row Tag="LOC_MULTIPLAYER_MATCHMAKE_PIRATES">
+			<Text>Play Pirates</Text>
+		</Row>
+		<Row Tag="LOC_MULTIPLAYER_MATCHMAKE_PIRATES_OFFLINE">
+			<Text>[ICON_CheckFail]Play Pirates</Text>
+		</Row>
+		<Row Tag="LOC_MULTIPLAYER_MATCHMAKE_PIRATES_NEW_MODE">
+			<Text>[ICON_Exclamation]Play Pirates</Text>
+		</Row>
+		<Row Tag="LOC_MULTIPLAYER_MATCHMAKE_PIRATES_TT">
+			<Text>Automatically find and join a Pirates game.[NEWLINE][NEWLINE]Plunder the open seas during the Golden Age of Piracy.</Text>
+		</Row>
+		<Row Tag="LOC_MULTIPLAYER_MATCHMAKE_PIRATES_OFFLINE_TT">
+			<Text>Multiplayer Pirates is not available while Steam is offline.</Text>
+		</Row>
+		<Row Tag="LOC_MULTIPLAYER_HOWTOPLAY_PIRATES">
+			<Text>How to Play Pirates</Text>
+		</Row>
+		<Row Tag="LOC_MULTIPLAYER_HOWTOPLAY_PIRATES_TT">
+			<Text>View a quick tutorial on Pirates.</Text>
+		</Row>
+		<Row Tag="LOC_MAINMENU_MULTIPLAYER_PIRATES_NEW_MODE_TT">
+			<Text>New Pirates mode available!</Text>
+		</Row>
+		
+		<!-- Pirates How to Play -->
+		<Row Tag="LOC_PIRATES_INTRO_NEXT">
+			<Text>Next</Text>
+		</Row>
+		<Row Tag="LOC_PIRATES_INTRO_PREVIOUS">
+			<Text>Previous</Text>
+		</Row>
+		<Row Tag="LOC_PIRATES_INTRO_PLAY">
+			<Text>Play Pirates</Text>
+		</Row>
+		<Row Tag="LOC_TUTORIAL_PIRATES_INTRO_BODY">
+			<Text>Pirates is a fast paced 60 turn scenario about the Age of Piracy for 1-4 players. The goal is to accrue the most Infamy by the turn limit. The game can be played on a historical Caribbean or the randomly generated Pirate Islands.</Text>
+		</Row>
+		<Row Tag="LOC_TUTORIAL_PIRATES_INTRO_DETAILS">
+			<Text>Pirates have no need for cities. You start with a sea worthy flagship and steal additional ships over time. </Text>
+		</Row>
+		<Row Tag="LOC_TUTORIAL_PIRATES_CREW_BODY">
+			<Text>The bigger the fleet, the bigger the plunder. Use Crew to capture damaged enemy ships and add them to your burgeoning pirate empire.  Crew can also be used to deploy Shore Parties to search for and bury hidden treasure. You recruit Crew by using the Visit Tavern unit action while your ship is adjacent to a port's city center. Taverns also provide a fresh treasure map every time you visit.</Text>
+		</Row>
+		<Row Tag="LOC_TUTORIAL_PIRATES_CREW_DETAILS">
+			<Text>Beware! Your pirate cohorts demand profit and adventure. You lose gold per turn for every ship in your fleet. Your ships will mutiny if the gold coffers run dry for too long.</Text>
+		</Row>
+		<Row Tag="LOC_TUTORIAL_PIRATES_TREASURE_BODY">
+			<Text>Treasure is the keystone of a pirate's life. Treasure chests can be found floating at sea or buried on land. You can convert your gold into Infamy by burying treasure. Treasure chests contain gold and Pirate Relics. Hide your treasure well as other pirates aim to steal your gold and Infamy.[NEWLINE][NEWLINE]Pirate Relics are powerful artifacts that possess special gameplay effects and bonuses. Relics can sometimes be found in treasure chests, treasure ships, and during tavern visits. You may equip three relics at a time and change them at any time.</Text>
+		</Row>
+		<Row Tag="LOC_TUTORIAL_PIRATES_TREASURE_DETAILS">
+			<Text>Treasure Fleets will occasionally set sail for Europe. Treasure Fleets travel with a bounty of gold and relics but are well guarded.[NEWLINE][NEWLINE]Infamous Pirates from history also sail the unfriendly seas. You can sink them to boost your own Infamy.</Text>
+		</Row>
+		<Row Tag="LOC_TUTORIAL_PIRATES_SCORING_BODY">
+			<Text>Infamy is scored by three categories:[NEWLINE]Treasure; Infamous Pirate; and Fightin'.[NEWLINE][NEWLINE]Treasure[NEWLINE][ICON_Bullet]+30 - Bury a treasure chest[NEWLINE][ICON_Bullet]+20 - Sink a treasure ship[NEWLINE][ICON_Bullet]+5 - Plunder a treasure chest[NEWLINE][ICON_Bullet]+2 - Plunder a building or district[NEWLINE][ICON_Bullet]+1 - Plunder a trade route[NEWLINE][ICON_Bullet]+1 - Plunder an improvement[NEWLINE][ICON_Bullet][NEWLINE][NEWLINE]Infamous Pirate[NEWLINE][ICON_Bullet]+15 - Sack a port[NEWLINE][ICON_Bullet]+20-50 - Sink an infamous pirate[NEWLINE][ICON_Bullet]+5 - Clear a buccaneer fort[NEWLINE][NEWLINE]Fightin'[NEWLINE][ICON_Bullet]+10 - Destroy or capture a pirate player's unit[NEWLINE][ICON_Bullet]+5 - Destroy or capture a colonial unit[NEWLINE][ICON_Bullet]+5 - Destroy or capture a buccaneer unit[NEWLINE][ICON_Bullet]+1 - Survive combat</Text>
+		</Row>
+	</FrontEndText>
+</GameData>

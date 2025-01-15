@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<RuleSets>
+		<Row>
+			<RuleSetType>RULESET_SCENARIO_NAPOLEON</RuleSetType>
+			<Name>LOC_NAPOLEON_RULESET_TITLE</Name>
+			<Description>LOC_NAPOLEON_RULESET_TEASER</Description>
+			<VictoryDomain>NapoleonScenario_Victories</VictoryDomain>
+			<SupportsSinglePlayer>0</SupportsSinglePlayer>
+			<MaxTurns>50</MaxTurns>
+		</Row>
+	</RuleSets>
+	
+	<RulesetSupportedValues>
+		<Row Ruleset="RULESET_SCENARIO_NAPOLEON" Domain="StandardEras" Value="ERA_INDUSTRIAL"/>
+	</RulesetSupportedValues>
+
+  <!-- Disable random leader pool players which are inaccessible -->
+  <RulesetUnsupportedValues>
+    <Row Ruleset="RULESET_SCENARIO_NAPOLEON" Domain="Players:StandardPlayers" Value="RANDOM_POOL1" />
+    <Row Ruleset="RULESET_SCENARIO_NAPOLEON" Domain="Players:StandardPlayers" Value="RANDOM_POOL2" />
+  </RulesetUnsupportedValues>
+
+	<Victories>
+		<Row Domain="NapoleonScenario_Victories" VictoryType="VICTORY_NAPOLEON" Name="LOC_NAPOLEON_VICTORY_TITLE" Description="LOC_NAPOLEON_VICTORY_DESC"/>
+	</Victories>
+	
+	<!-- Disable turn limit and max turns if our ruleset is selected. -->
+	<ParameterCriteria>
+		<Row ParameterId="TurnLimit" ConfigurationGroup="Game" ConfigurationId="RULESET" Operator="NotEquals" ConfigurationValue="RULESET_SCENARIO_NAPOLEON" />
+		<Row ParameterId="MaxTurns" ConfigurationGroup="Game" ConfigurationId="RULESET" Operator="NotEquals" ConfigurationValue="RULESET_SCENARIO_NAPOLEON" />
+	</ParameterCriteria>
+
+	<Parameters>
+		<!-- Using a different ParameterId to override the default values for these standard advanced settings. -->
+		<Row Key1="Ruleset" Key2="RULESET_SCENARIO_NAPOLEON" ParameterId="Napoleon_NoGoodyHuts" Name="LOC_GAME_NO_GOODY_HUTS" Description="LOC_GAME_NO_GOODY_HUTS" Domain="bool" DefaultValue="1" Visible="true" ConfigurationGroup="Game" ConfigurationId="GAME_NO_GOODY_HUTS" GroupId="AdvancedOptions" SortIndex="2010"/>
+		<Row Key1="Ruleset" Key2="RULESET_SCENARIO_NAPOLEON" ParameterId="Napoleon_NoBarbarians" Name="LOC_GAME_NO_BARBARIANS" Description="LOC_GAME_NO_BARBARIANS" Domain="bool" DefaultValue="1" Visible="true" ConfigurationGroup="Game" ConfigurationId="GAME_NO_BARBARIANS" GroupId="AdvancedOptions" SortIndex="2010"/>
+	</Parameters>
+
+	<ConfigurationUpdates>
+		<Row SourceGroup="Game" SourceId="RULESET" SourceValue="RULESET_SCENARIO_NAPOLEON" TargetGroup="Map" TargetId="MAP_SCRIPT" TargetValue="../../Assets/Maps/BalanceMaps/Balanced4.Civ6Map" Hash="0" />
+	</ConfigurationUpdates>		
+</GameInfo>
