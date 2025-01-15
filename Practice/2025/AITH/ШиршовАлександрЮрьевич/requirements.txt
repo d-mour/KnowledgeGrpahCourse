@@ -1,0 +1,12 @@
+rdflib
+owlready2
+pandas
+matplotlib
+networkx
+openpyxl
+ampligraph
+tensorflow==2.12
+adjustText
+seaborn
+plotly
+nbformat
