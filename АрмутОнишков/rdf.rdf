@@ -1,0 +1,1697 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#"
+     xml:base="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29"
+     xmlns:ex="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#have_syrup -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#have_syrup">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#иметь_добавку -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#иметь_добавку">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#иметь_зерна -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#иметь_зерна">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Зерна"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#иметь_молоко -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#иметь_молоко">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Молоко"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#иметь_обжарку -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#иметь_обжарку">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Зерна"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#иметь_объем -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#иметь_объем">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#иметь_температуру_молока -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#иметь_температуру_молока">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#количество_шотов_кофе -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#количество_шотов_кофе">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#кофе_мл -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#кофе_мл">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#молоко_мл -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#молоко_мл">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#сироп_мл -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#сироп_мл">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#сливки_мл -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#сливки_мл">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Зерна -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Зерна"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Молоко -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Молоко"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Amaro_banana_tini -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Amaro_banana_tini">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Банановый"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Baby-раф_с_ореховый_крем-брюле -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Baby-раф_с_ореховый_крем-брюле">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Миндальный"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Bananza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Bananza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Berry_whiskey_a_la_affogato -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Berry_whiskey_a_la_affogato">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Coffee_mulled_wine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Coffee_mulled_wine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Espresso_Cherry_Tonic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Espresso_Cherry_Tonic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Вишневый_сок"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тоник"/>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Floral_espresso-tonic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Floral_espresso-tonic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Дамасская_Роза"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тоник"/>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Hot_banana_cookies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Hot_banana_cookies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Банановый"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Pirate_Ice_latte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Pirate_Ice_latte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Rum_tiramisu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Rum_tiramisu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Sunrise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Sunrise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Tarragon_espresso_tonic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Tarragon_espresso_tonic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тархун"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тоник"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</иметь_объем>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</количество_шотов_кофе>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#The_Big_Lebowski -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#The_Big_Lebowski">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Tutti_Tamma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Tutti_Tamma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-капучино -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-капучино">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_молоко rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Обычное"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</иметь_объем>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</количество_шотов_кофе>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70.0</кофе_мл>
+        <молоко_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230.0</молоко_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-капучино_Хмельной_Маршмеллоу -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-капучино_Хмельной_Маршмеллоу">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Карамельный"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</иметь_объем>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-кофе_Бамблби_и_фейхоа -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-кофе_Бамблби_и_фейхоа">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-кофе_Клубника_с_мятой -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-кофе_Клубника_с_мятой">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Клубничный"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мятный"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-кофе_Нуга_в_шоколаде -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-кофе_Нуга_в_шоколаде">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-кофе_Черные_ягоды_в_молоке -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-кофе_Черные_ягоды_в_молоке">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-латте_с_бананом_и_соленой_карамелью -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-латте_с_бананом_и_соленой_карамелью">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Соленая_карамель"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-латте_с_имбирным_пряником -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-латте_с_имбирным_пряником">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Имбирный_пряник"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-латте_с_мармеладом -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-латте_с_мармеладом">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-раф_банановая_карамель -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-раф_банановая_карамель">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Карамельный"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-раф_с_бананом_и_медом -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Айс-раф_с_бананом_и_медом">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Альпийский_раф -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Альпийский_раф">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Альтернативный_кофе_Спайси -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Альтернативный_кофе_Спайси">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Амаретто -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Амаретто">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Американо -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Американо">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Американо_со_сливками -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Американо_со_сливками">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Апельсиновый_сок -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Апельсиновый_сок">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Арабика -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Арабика">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Зерна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Аэрокано_Личи-белый_Лотос -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Аэрокано_Личи-белый_Лотос">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Бамбл -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Бамбл">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Карамельный"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Апельсиновый_сок"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">255.0</иметь_объем>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.0</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Бамбл_санрайз -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Бамбл_санрайз">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Гренадин"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кокосовый"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Маракуйя"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Апельсиновый_сок"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</иметь_объем>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Банановое -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Банановое">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Молоко"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Банановый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Банановый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Банановый_латте_с_лимонным_тартом -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Банановый_латте_с_лимонным_тартом">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Банановый"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Безалкогольное_пиво -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Безалкогольное_пиво">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Безалкогольный_пунш_с_кофе -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Безалкогольный_пунш_с_кофе">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ванильный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ванильный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Веган_колд-брю_Груша_с_чаем_матча -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Веган_колд-брю_Груша_с_чаем_матча">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Грушевый"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ведьминский_раф -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ведьминский_раф">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Пряная_тыква"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Взбитые_сливки -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Взбитые_сливки">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Вишневый_сок -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Вишневый_сок">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Вода -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Вода">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Герой -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Герой">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Гренадин -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Гренадин">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Грушевый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Грушевый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Грушевый_крем-латте -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Грушевый_крем-латте">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Грушевый"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</иметь_объем>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</количество_шотов_кофе>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Грушевый_раф_с_масалой -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Грушевый_раф_с_масалой">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Дамасская_Роза -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Дамасская_Роза">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Двойной_эспрессо -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Двойной_эспрессо">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_зерна rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Робуста"/>
+        <иметь_обжарку>темная</иметь_обжарку>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Золотой_веганский_латте -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Золотой_веганский_латте">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Имбирный_пряник -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Имбирный_пряник">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Имбирный_скотч -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Имбирный_скотч">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ирландский_крем -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ирландский_крем">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Какао -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Какао">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Капучино -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Капучино">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_зерна rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Арабика"/>
+        <иметь_температуру_молока rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75.0</иметь_температуру_молока>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</количество_шотов_кофе>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0</кофе_мл>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60.0</кофе_мл>
+        <молоко_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240.0</молоко_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Капучино_XXL_со_вкусом_медовика_и_бобов_тонка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Капучино_XXL_со_вкусом_медовика_и_бобов_тонка">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Капучино_Амаретто_с_розовым_перцем -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Капучино_Амаретто_с_розовым_перцем">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Капучино_Пряная_груша -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Капучино_Пряная_груша">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Капучино_миндальный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Капучино_миндальный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_молоко rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Миндальное"/>
+        <иметь_температуру_молока rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</иметь_температуру_молока>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</кофе_мл>
+        <молоко_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</молоко_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Карамельный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Карамельный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Каштановый_айс-кофе_с_тоником -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Каштановый_айс-кофе_с_тоником">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кленовый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кленовый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Клубничный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Клубничный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кокосовое -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кокосовое">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Молоко"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кокосовый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кокосовый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кокосовый_раф -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кокосовый_раф">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кокосовый"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сливки"/>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</количество_шотов_кофе>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</кофе_мл>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70.0</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_Айсберг_с_голубым_чаем_матча -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_Айсберг_с_голубым_чаем_матча">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_В_кинотеатр -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_В_кинотеатр">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лесной_орех"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_Кощей_бессмертный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_Кощей_бессмертный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Амаретто"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Безалкогольное_пиво"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_Лимонный_тарт_с_миндалём -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_Лимонный_тарт_с_миндалём">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_Мандариновый_рай -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_Мандариновый_рай">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ванильный"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мандарин"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тоник"/>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_Мятное_яблоко -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_Мятное_яблоко">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мятный"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Яблочный"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_Пряная_сливочная_тыква -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Коктейль_Пряная_сливочная_тыква">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Корица -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Корица">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кофе_Айриш_с_Макадамией -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кофе_Айриш_с_Макадамией">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кофе_Бамбл_американо -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кофе_Бамбл_американо">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</количество_шотов_кофе>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</количество_шотов_кофе>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кофе_По-Гречески -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кофе_По-Гречески">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кофейный_напиток_с_бананом_и_баббл_гамом -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кофейный_напиток_с_бананом_и_баббл_гамом">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лавандовый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лавандовый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лайм -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лайм">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Латте -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Латте">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кокосовый"/>
+        <иметь_молоко rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Обычное"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</иметь_объем>
+        <иметь_температуру_молока rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75.0</иметь_температуру_молока>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</количество_шотов_кофе>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Латте_Груша-Бобы_Тонка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Латте_Груша-Бобы_Тонка">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Латте_Крем-Брюле_Миндаль -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Латте_Крем-Брюле_Миндаль">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Латте_с_Фалернумом_и_печеньем_Спекулос -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Латте_с_Фалернумом_и_печеньем_Спекулос">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Латте_с_имбирным_пряником_и_пралине -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Латте_с_имбирным_пряником_и_пралине">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лесной_орех -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лесной_орех">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Либерика -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Либерика">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Зерна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лимон -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лимон">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Макиато -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Макиато">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_обжарку>Средняя</иметь_обжарку>
+        <иметь_температуру_молока rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60.0</иметь_температуру_молока>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</количество_шотов_кофе>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.0</кофе_мл>
+        <молоко_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.0</молоко_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Малиновый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Малиновый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Манговый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Манговый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мандарин -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мандарин">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Маракуйя -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Маракуйя">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Миндальное -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Миндальное">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Молоко"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Миндальный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Миндальный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мокачино -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мокачино">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Морковный_раф -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Морковный_раф">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мороженое -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мороженое">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мохито -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мохито">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мятный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мятный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Карамельный"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Нитро-кофе_бамбл -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Нитро-кофе_бамбл">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Нитро-латте_Банановый_крем-брюле -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Нитро-латте_Банановый_крем-брюле">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Нитро-латте_с_арахисовым_печеньем -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Нитро-латте_с_арахисовым_печеньем">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Нитро_Ананас -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Нитро_Ананас">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Обычное -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Обычное">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Молоко"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Овсяное -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Овсяное">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Молоко"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Освежающий_кофе-тоник_с_малиной -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Освежающий_кофе-тоник_с_малиной">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Малиновый"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тоник"/>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</количество_шотов_кофе>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</количество_шотов_кофе>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Персиковый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Персиковый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Подсоленный_кофе-тоник -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Подсоленный_кофе-тоник">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Соленая_карамель"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тоник"/>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</количество_шотов_кофе>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</количество_шотов_кофе>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Пряная_тыква -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Пряная_тыква">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сливки"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">355.0</иметь_объем>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</количество_шотов_кофе>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.0</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф-кофе_Персиковый_пирог -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф-кофе_Персиковый_пирог">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Персиковый"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф-кофе_Солёная_карамель -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф-кофе_Солёная_карамель">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</иметь_объем>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</количество_шотов_кофе>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_Груша_с_розой -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_Груша_с_розой">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</иметь_объем>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</количество_шотов_кофе>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_Любовь-морковь -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_Любовь-морковь">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_Тирамису -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_Тирамису">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_груша_со_сладкой_ватой -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_груша_со_сладкой_ватой">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_с_арахисовым_печеньем_и_зимними_специями -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_с_арахисовым_печеньем_и_зимними_специями">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_с_имбирным_пряником -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_с_имбирным_пряником">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Имбирный_пряник"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_с_миндалём_и_кунжутом -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_с_миндалём_и_кунжутом">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Миндальный"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_тыквенно-карамельный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_тыквенно-карамельный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Робуста -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Робуста">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Зерна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Романтичное_утро -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Романтичное_утро">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ромовый_мокко -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ромовый_мокко">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сахар -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сахар">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Свекольный_айс-латте -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Свекольный_айс-латте">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сливки -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сливки">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сливочный_латте_с_мятой -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сливочный_латте_с_мятой">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ирландский_крем"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мятный"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Смородиновый_бархат -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Смородиновый_бархат">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Соленая_карамель -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Соленая_карамель">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тархун -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тархун">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тибетский_раф -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тибетский_раф">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тоник -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тоник">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Добавки"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Тоник"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фисташковый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фисташковый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фисташковый_холодный_раф -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фисташковый_холодный_раф">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фисташковый"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сливки"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</иметь_объем>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</количество_шотов_кофе>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Флэт_уайт -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Флэт_уайт">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_обжарку>средняя</иметь_обжарку>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</иметь_объем>
+        <иметь_температуру_молока rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75.0</иметь_температуру_молока>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</количество_шотов_кофе>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180.0</кофе_мл>
+        <молоко_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120.0</молоко_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Флэт_уайт_с_мятным_брауни -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Флэт_уайт_с_мятным_брауни">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мятный"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Шоколадный"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фраппе -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фраппе">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ванильный"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_молоко rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Обычное"/>
+        <иметь_обжарку>Средняя</иметь_обжарку>
+        <иметь_температуру_молока rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75.0</иметь_температуру_молока>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</количество_шотов_кофе>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350.0</кофе_мл>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70.0</кофе_мл>
+        <молоко_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</молоко_мл>
+        <сливки_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100.0</сливки_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фраппучино -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фраппучино">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Карамельный"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Взбитые_сливки"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_молоко rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Обычное"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">220.0</иметь_объем>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80.0</кофе_мл>
+        <молоко_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">130.0</молоко_мл>
+        <сироп_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</сироп_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фундучное -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фундучное">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Молоко"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фундучный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фундучный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Холодный_кофе_Нитро-орешек -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Холодный_кофе_Нитро-орешек">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лесной_орех"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Холодный_кофе_Персик-банан -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Холодный_кофе_Персик-банан">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Персиковый"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Холодный_кофе_Черная_смородина-трипл_сек -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Холодный_кофе_Черная_смородина-трипл_сек">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Холодный_миндальный_раф_с_медом -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Холодный_миндальный_раф_с_медом">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Миндальный"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Холодный_флэт_с_солёной_карамелью -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Холодный_флэт_с_солёной_карамелью">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Соленая_карамель"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Холодный_яблочный_кофе_с_орехом -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Холодный_яблочный_кофе_с_орехом">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лесной_орех"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Яблочный"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Цветочный_раф_с_черной_смородиной -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Цветочный_раф_с_черной_смородиной">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Цитрусовый_айс-кофе -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Цитрусовый_айс-кофе">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мохито"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Цитрусовый_нитро-кофе -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Цитрусовый_нитро-кофе">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Мохито"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Чёрный_капучино_Ванильная_сладкая_вата -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Чёрный_капучино_Ванильная_сладкая_вата">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ванильный"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Шоколадный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Шоколадный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Эспрессо -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Эспрессо">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_зерна rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Робуста"/>
+        <иметь_обжарку>темная</иметь_обжарку>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</количество_шотов_кофе>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Эспрессо-тоник -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Эспрессо-тоник">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Карамельный"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Апельсиновый_сок"/>
+        <иметь_добавку rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Лед"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350</иметь_объем>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</количество_шотов_кофе>
+        <кофе_мл rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35.0</кофе_мл>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Эспрессо_с_барбадосской_вишней_и_розовым_перцем -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Эспрессо_с_барбадосской_вишней_и_розовым_перцем">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Дамасская_Роза"/>
+        <иметь_зерна rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Робуста"/>
+        <иметь_обжарку>темная</иметь_обжарку>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Яблочный -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Яблочный">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Сироп"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кола_де_моно_(Cola_de_mono)_из_Чили -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Кола_де_моно_(Cola_de_mono)_из_Чили">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <have_syrup rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Ванильный"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_«Малина-Кокос» -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Раф_«Малина-Кокос»">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+        <иметь_объем rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</иметь_объем>
+        <количество_шотов_кофе rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</количество_шотов_кофе>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фраппучино_(Frappuccino) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фраппучино_(Frappuccino)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фраппучино_«‎Копченный_банан»‎ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Фраппучино_«‎Копченный_банан»‎">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alinaarmut/ontologies/2024/9/untitled-ontology-29#Напиток"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
