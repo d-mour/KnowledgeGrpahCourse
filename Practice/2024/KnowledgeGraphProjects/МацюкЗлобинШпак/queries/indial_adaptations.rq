@@ -1,0 +1,25 @@
+# Какая книга, написанная Индийским автором была экранизирована?
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ons: <http://www.semanticweb.org/admin/ontologies/2024/9/authors-ontology#>
+
+SELECT ?filmName ?authorName ?nationalityName
+WHERE {
+  ?film a ons:Film ;
+        ons:name ?filmName ;
+        ons:adaptedFromBook ?book .
+        
+  OPTIONAL {
+    ?film ons:hasGenre ?genreResource .
+    ?genreResource ons:name ?filmGenre .
+  }
+
+  ?book ^ons:wroteBook ?author .
+  ?author ons:name ?authorName ;
+          ons:hasNationalityOrLanguage ?nat .
+
+  ?nat ons:name ?nationalityName .
+  FILTER(?nationalityName = "India")
+}
+
+# "Shaakuntalam"	"Kalyan Bulchand Advani"	"India"
