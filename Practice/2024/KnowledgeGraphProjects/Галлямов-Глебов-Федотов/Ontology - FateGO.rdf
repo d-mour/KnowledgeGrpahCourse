@@ -1,0 +1,1264 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://kg@se.ifmo.ru/~s367583/fgo#"
+     xml:base="http://kg@se.ifmo.ru/~s367583/fgo"
+     xmlns:fgo="http://kg@se.ifmo.ru/~s367583/fgo"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:fgo1="http://kg@se.ifmo.ru/~s367583/fgo#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://kg@se.ifmo.ru/~s367583/fgo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#id -->
+
+    <owl:AnnotationProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#affectsBuffsWithTrait -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#affectsBuffsWithTrait">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Function"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Buff_Trait"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#decreases -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#decreases">
+        <owl:propertyDisjointWith rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#increases"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#effectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#effectProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#grantsBuff -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#grantsBuff">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Function"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Buff"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasAlignment -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasAlignment">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasServantTrait"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Alignment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasAtkRange -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasAtkRange">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasStat"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_ATK_Range"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasAtkRangeAtLv90 -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasAtkRangeAtLv90">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasAtkRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasAttribute -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasAttribute">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasServantTrait"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Attribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasBuffTrait -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasBuffTrait">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Buff"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Buff_Trait"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasBuffType -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasBuffType">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Buff"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasCard -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasCard"/>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasCard1 -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasCard1">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasCard"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasCard2 -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasCard2">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasCard"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasCard3 -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasCard3">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasCard"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasCard4 -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasCard4">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasCard"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasCard5 -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasCard5">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasCard"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasCardExtra -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasCardExtra">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasCard"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasClass -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasClass">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasServantTrait"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Class"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasCooldown -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasCooldown">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasSkillValue"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Turns"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasDuration -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasDuration">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Skill_Effect"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Turns"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasEffect -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasEffect">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Skill"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Skill_Effect"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasFuncType -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasFuncType">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Function"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasFunction -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasFunction">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Skill_Effect"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Function"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasGender -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasGender">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasServantTrait"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gender"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasHits -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasHits">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasHpRange -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasHpRange">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasStat"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_HP_Range"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasHpRangeAtLv90 -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasHpRangeAtLv90">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasHpRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasInstantDeathChance -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasInstantDeathChance">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasStat"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Instant_Death_Chance"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Percent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasNpGainWhenDamaged -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasNpGainWhenDamaged">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasStat"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Damaged"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Percent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasPersonality -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasPersonality">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasAlignment"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Personality"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasPolicy -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasPolicy">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasAlignment"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Policy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasPriority -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasPriority">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Skill"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Skill_Priority"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasRarity -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasRarity">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasStat"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Rarity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasRecommendedDamageServant -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasRecommendedDamageServant">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedDamageServant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasRecommendedSupportServant -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasRecommendedSupportServant">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedSupportServant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasServantTrait -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasServantTrait">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasTrait"/>
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasSkill -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasSkill">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasSkill1 -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasSkill1">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasSkill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasSkill2 -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasSkill2">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasSkill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasSkill3 -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasSkill3">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasSkill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasSkillValue -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasSkillValue">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Skill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasStarGen -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasStarGen">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasStat"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Percent"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Star_Gen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasStarWeight -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasStarWeight">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasStat"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Star_Weight"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasStat -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasStat">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Stat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedDamageServant -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedDamageServant">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedServant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedLastManServant -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedLastManServant">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedServant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedServant -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedServant">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Quest"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedSupportServant -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedSupportServant">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasSuggestedServant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasTarget -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasTarget">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Function"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Target"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasTier -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasTier">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Tier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasTrait -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasTrait">
+        <rdfs:subPropertyOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#hasTrait"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Trait"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#hasValue -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#hasValue">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Skill_Effect"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#increases -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#increases"/>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#isBaseValueOf -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#isBaseValueOf">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#requiresEnemyTrait -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#requiresEnemyTrait">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Buff"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Trait"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#requiresSelfTrait -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#requiresSelfTrait">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Buff"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Trait"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#targets -->
+
+    <owl:ObjectProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#targets">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Function"/>
+        <rdfs:range rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Target"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#value -->
+
+    <owl:DatatypeProperty rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#value">
+        <rdfs:domain rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#ATK -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#ATK">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Alignment -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Alignment">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Trait"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+        <rdfs:label>Attack Card</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_Arts -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_Arts">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card"/>
+        <rdfs:label>Arts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_Buster -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_Buster">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card"/>
+        <rdfs:label>Buster</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_Extra -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_Extra">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card"/>
+        <rdfs:label>Extra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_NP -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_NP">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card"/>
+        <rdfs:label>NP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_Quick -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_Quick">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card"/>
+        <rdfs:label>Quick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Attribute -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Attribute">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Trait"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Buff -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Buff"/>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Buff_Trait -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Buff_Trait">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Trait"/>
+        <rdfs:label>Buff Trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#C._Stars -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#C._Stars">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+        <rdfs:label>C. Stars</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+        <rdfs:label>Card Hits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Class -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Class">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Trait"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Damaged -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Damaged">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#NP_Gain"/>
+        <rdfs:label>NP Gain When Damaged</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Effect -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Effect"/>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Function -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Function"/>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element">
+        <rdfs:label>Gameplay Element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Trait -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Trait">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Trait"/>
+        <rdfs:label>Gameplay Trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Gamepress_Rating -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Gamepress_Rating">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Stat"/>
+        <rdfs:label>GamePress.gg Rating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Gender -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Gender">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Trait"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#HP -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#HP">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Instant_Death_Chance -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Instant_Death_Chance">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Percent"/>
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Stat"/>
+        <rdfs:label>Instant Death Chance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#NP_Gain -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#NP_Gain">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Percent"/>
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Stat"/>
+        <rdfs:label>NP Gain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Per_Hit -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Per_Hit">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#NP_Gain"/>
+        <rdfs:label>NP Gain Per Hit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Percent -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Percent">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Personality -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Personality">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Alignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Policy -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Policy">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Alignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Quest -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Quest"/>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Rarity -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Rarity">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Stat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Servant -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Servant"/>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Servant_ATK_Range -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Servant_ATK_Range">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#ATK"/>
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Stat"/>
+        <rdfs:label>Servant ATK (Range)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Servant_HP_Range -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Servant_HP_Range">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#HP"/>
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Stat"/>
+        <rdfs:label>Servant HP (Range)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Servant_Stat -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Stat">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+        <rdfs:label>Servant Stat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Servant_Tier -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Tier">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gamepress_Rating"/>
+        <rdfs:label>Servant Tier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Servant_Trait -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Trait">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Trait"/>
+        <rdfs:label>Servant Trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Skill -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Skill"/>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Skill_Effect -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Skill_Effect">
+        <rdfs:label>Skill Effect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Skill_Priority -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Skill_Priority">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gamepress_Rating"/>
+        <rdfs:label>Skill Lvl Up Priority</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Star_Gen -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Star_Gen">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Percent"/>
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Stat"/>
+        <rdfs:label>Star Gen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Star_Weight -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Star_Weight">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Stat"/>
+        <rdfs:label>Star Weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Target -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Target">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Times -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Times">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Trait -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Trait"/>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Turns -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Turns">
+        <rdfs:subClassOf rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Value -->
+
+    <owl:Class rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Value"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#ATK_11000-11500 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#ATK_11000-11500">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_ATK_Range"/>
+        <rdfs:label>ATK 11,000-11,500</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Arts_Damage -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Arts_Damage">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Buster_Damage -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Buster_Damage">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#C._Star_Count -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#C._Star_Count">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Card_Arts_4_Hits -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Card_Arts_4_Hits">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_Arts"/>
+        <hasHits rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits_4"/>
+        <rdfs:label>Arts (4 Hits)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Card_Buster_3_Hits -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Card_Buster_3_Hits">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_Buster"/>
+        <hasHits rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits_3"/>
+        <rdfs:label>Buster (3 Hits)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Card_Extra_5_Hits -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Card_Extra_5_Hits">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_Extra"/>
+        <hasHits rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits_5"/>
+        <rdfs:label>Extra (5 Hits)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits_3 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits_3">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits"/>
+        <rdfs:label>3 Hits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits_4 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits_4">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits"/>
+        <rdfs:label>4 Hits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits_5 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits_5">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits"/>
+        <rdfs:label>5 Hits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Card_Quick_4_Hits -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Card_Quick_4_Hits">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Attack_Card_Quick"/>
+        <hasHits rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Hits_4"/>
+        <rdfs:label>Quick (4 Hits)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Current_ATK -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Current_ATK">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Current_NP_Gain -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Current_NP_Gain">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Extra_Damage -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Extra_Damage">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#HP_13000-13500 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#HP_13000-13500">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_HP_Range"/>
+        <rdfs:label>HP 13,000-13,500</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#HP_Bar -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#HP_Bar">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#NP_Damage -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#NP_Damage">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#NP_Gauge -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#NP_Gauge">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Quick_Damage -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Quick_Damage">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Rarity_5_Stars -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Rarity_5_Stars">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Rarity"/>
+        <rdfs:label>5 Stars</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Servant_314 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Servant_314">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant"/>
+        <hasAtkRange rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#ATK_11000-11500"/>
+        <hasAtkRangeAtLv90 rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#ATK_11000-11500"/>
+        <hasAttribute rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Trait_204"/>
+        <hasCard1 rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Quick_4_Hits"/>
+        <hasCard2 rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Quick_4_Hits"/>
+        <hasCard3 rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Arts_4_Hits"/>
+        <hasCard4 rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Buster_3_Hits"/>
+        <hasCard5 rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Buster_3_Hits"/>
+        <hasCardExtra rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Card_Extra_5_Hits"/>
+        <hasClass rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Trait_105"/>
+        <hasGender rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Trait_2"/>
+        <hasHpRange rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#HP_13000-13500"/>
+        <hasHpRangeAtLv90 rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#HP_13000-13500"/>
+        <hasInstantDeathChance rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#33_Percent"/>
+        <hasNpGainWhenDamaged rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#4_Percent"/>
+        <hasPersonality rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Trait_304"/>
+        <hasPolicy rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Trait_300"/>
+        <hasRarity rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Rarity_5_Stars"/>
+        <hasStarWeight rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Star_Weight_102"/>
+        <hasTier rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Tier_EX"/>
+        <hasTrait rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Trait_2000"/>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">604200</id>
+        <rdfs:label>Koyanskaya of Light</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Skill_Cooldown -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Skill_Cooldown">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gameplay_Element"/>
+        <rdfs:label>Skill Cooldown</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Star_Weight_102 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Star_Weight_102">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Star_Weight"/>
+        <rdfs:label>SW 102</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Tier_EX -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Tier_EX">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Tier"/>
+        <rdfs:label>Tier EX</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Trait_105 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Trait_105">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Class"/>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">105</id>
+        <rdfs:label>Assassin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Trait_2 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Trait_2">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Gender"/>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</id>
+        <rdfs:label>Female</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Trait_2000 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Trait_2000">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Servant_Trait"/>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2000</id>
+        <rdfs:label>Divine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Trait_204 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Trait_204">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Attribute"/>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">204</id>
+        <rdfs:label>Beast</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Trait_300 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Trait_300">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Policy"/>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</id>
+        <rdfs:label>Lawful</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#Trait_304 -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#Trait_304">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Personality"/>
+        <id rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">304</id>
+        <rdfs:label>Evil</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#33_Percent -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#33_Percent">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Percent"/>
+        <rdfs:label>33 %</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://kg@se.ifmo.ru/~s367583/fgo#4_Percent -->
+
+    <owl:NamedIndividual rdf:about="http://kg@se.ifmo.ru/~s367583/fgo#4_Percent">
+        <rdf:type rdf:resource="http://kg@se.ifmo.ru/~s367583/fgo#Percent"/>
+        <rdfs:label>4 %</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
