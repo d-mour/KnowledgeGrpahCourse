@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5/"
+     xml:base="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-5="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Владелец -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Владелец">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевства"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Правители"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Наследник -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Наследник">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Правители"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Правители"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Предок -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Предок">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Правители"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Правители"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Принадлежность -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Принадлежность">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Правители"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Дома"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Столица -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Столица">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевства"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Населенные_пункты"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Девиз -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Девиз">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Дома"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Население -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Население">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевства"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Дома -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Дома"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевства -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевства"/>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Населенные_пункты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Населенные_пункты">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Правители -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Правители"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Баратеоны -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Баратеоны">
+        <rdf:type rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Дома"/>
+        <untitled-ontology-5:Девиз>Нам ярость</untitled-ontology-5:Девиз>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Брандон_Строитель -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Брандон_Строитель">
+        <rdf:type rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Правители"/>
+        <untitled-ontology-5:Принадлежность rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Старки"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Винтерфелл -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Винтерфелл">
+        <rdf:type rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Населенные_пункты"/>
+        <untitled-ontology-5:Владелец rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Брандон_Строитель"/>
+        <untitled-ontology-5:Население rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2000</untitled-ontology-5:Население>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Драконий_камень -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Драконий_камень">
+        <rdf:type rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Населенные_пункты"/>
+        <untitled-ontology-5:Владелец rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Станнис_Баратеон"/>
+        <untitled-ontology-5:Владелец rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Эйгон_1_Таргариен"/>
+        <untitled-ontology-5:Население rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000</untitled-ontology-5:Население>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевская_гавань -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевская_гавань">
+        <rdf:type rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Населенные_пункты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевские_земли -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевские_земли">
+        <rdf:type rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевства"/>
+        <untitled-ontology-5:Владелец rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Эйгон_1_Таргариен"/>
+        <untitled-ontology-5:Столица rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевская_гавань"/>
+        <untitled-ontology-5:Население rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000</untitled-ontology-5:Население>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Север -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Север">
+        <rdf:type rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Королевства"/>
+        <untitled-ontology-5:Владелец rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Брандон_Строитель"/>
+        <untitled-ontology-5:Столица rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Винтерфелл"/>
+        <untitled-ontology-5:Население rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9000</untitled-ontology-5:Население>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Станнис_Баратеон -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Станнис_Баратеон">
+        <rdf:type rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Правители"/>
+        <untitled-ontology-5:Предок rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Эйгон_1_Таргариен"/>
+        <untitled-ontology-5:Принадлежность rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Баратеоны"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Старки -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Старки">
+        <rdf:type rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Дома"/>
+        <untitled-ontology-5:Девиз>Зима близко</untitled-ontology-5:Девиз>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Таргариены -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Таргариены">
+        <rdf:type rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Дома"/>
+        <untitled-ontology-5:Девиз>Пламя и кровь</untitled-ontology-5:Девиз>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Эйгон_1_Таргариен -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Эйгон_1_Таргариен">
+        <rdf:type rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Правители"/>
+        <untitled-ontology-5:Наследник rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Станнис_Баратеон"/>
+        <untitled-ontology-5:Принадлежность rdf:resource="http://www.semanticweb.org/liessa/ontologies/2024/10/untitled-ontology-5#Таргариены"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
