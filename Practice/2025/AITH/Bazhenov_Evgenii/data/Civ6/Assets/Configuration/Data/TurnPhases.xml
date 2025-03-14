@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<GameInfo>
-	<TurnPhases>
-		<Row TurnPhaseType="TURNPHASE_DYNAMIC"		Name="LOC_TURNPHASE_DYNAMIC"		Description="LOC_TURNPHASE_DYNAMIC_DESC"		SortIndex="20" />
-		<Row TurnPhaseType="TURNPHASE_SIMULTANEOUS"	Name="LOC_TURNPHASE_SIMULTANEOUS"	Description="LOC_TURNPHASE_SIMULTANEOUS_DESC"	SortIndex="10" />
-	</TurnPhases>
-</GameInfo>
