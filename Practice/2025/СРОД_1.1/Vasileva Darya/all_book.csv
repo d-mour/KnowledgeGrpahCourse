@@ -1,0 +1,586 @@
+ID,READER,MINUTES,SUBSET,PROJ.,BOOK ID,CH. TITLE,PROJECT TITLE,GENRE
+198,19,8.42,train-clean-100,219,121,Chapter 01,Northanger Abbey,Fiction
+209,198,8.2,train-clean-100,219,121,Chapter 12,Northanger Abbey,Fiction
+216,403,6.3,train-clean-100,219,121,Chapter 19,Northanger Abbey,Fiction
+218,89,12.78,train-clean-100,219,121,Chapter 21,Northanger Abbey,Fiction
+219,89,12.3,train-clean-100,219,121,Chapter 22,Northanger Abbey,Fiction
+222,40,15.59,train-clean-100,219,121,Chapter 25,Northanger Abbey,Fiction
+227,19,16.77,train-clean-100,219,121,Chapter 30,Northanger Abbey,Fiction
+358,730,9.82,train-clean-100,381,84,10 - Chapter 11,"Frankenstein, or The Modern Prometheus",Fantasy / Sci-Fi
+359,730,7.9,train-clean-100,381,84,11 - Chapter 12,"Frankenstein, or The Modern Prometheus",Fantasy / Sci-Fi
+360,730,7.48,train-clean-100,381,84,12 - Chapter 13,"Frankenstein, or The Modern Prometheus",Fantasy / Sci-Fi
+368,78,10.91,train-clean-100,381,84,20 - Chapter 23,"Frankenstein, or The Modern Prometheus",Fantasy / Sci-Fi
+369,78,14.15,train-clean-100,381,84,21 - Chapter 24,"Frankenstein, or The Modern Prometheus",Fantasy / Sci-Fi
+407,2952,5.51,train-clean-100,569,1210,Of A Mirror and a Bell,Kwaidan: Stories and Studies of Strange Things,Fantasy / Sci-Fi
+408,2952,6.49,train-clean-100,569,1210,Jikininki,Kwaidan: Stories and Studies of Strange Things,Fantasy / Sci-Fi
+410,2952,13.02,train-clean-100,569,1210,Rokuro-Kubi,Kwaidan: Stories and Studies of Strange Things,Fantasy / Sci-Fi
+495,26,19.32,train-clean-100,629,376,Part 1,Journal of the Plague Year,Fiction
+496,26,5.76,train-clean-100,629,376,Part 2,Journal of the Plague Year,Fiction
+1240,103,13.44,train-clean-100,1168,45,Mrs. Rachel Lynde Is Surprised,Anne of Green Gables (version 3),Fiction
+1241,103,10.28,train-clean-100,1168,45,Matthew Cuthbert Is Surprised,Anne of Green Gables (version 3),Fiction
+2476,2436,8.92,train-clean-100,1922,19066,04 - Chapter 04,Brigands of the Moon,Fantasy / Sci-Fi
+2477,2436,8.15,train-clean-100,1922,19066,05 - Chapter 05,Brigands of the Moon,Fantasy / Sci-Fi
+2481,2436,8.08,train-clean-100,1922,19066,09 - Chapter 09,Brigands of the Moon,Fantasy / Sci-Fi
+3054,83,4.44,train-clean-100,2041,3154,Chapter 15,Surprising Adventures of Baron Munchausen,Fiction
+3185,6019,25.17,train-clean-100,2116,1831,"The Avenger, part 1",Lock and Key Library,Fiction
+4137,32,11.51,train-clean-100,2354,2046,02 - Going to the South,"Clotel, or, The President's Daughter",Fiction
+4923,3807,12.9,train-clean-100,2528,3424,Book 02  Macquarie Harbour. 1833. Chapter 10  John Rex's Revenge,For the Term of His Natural Life,Fiction
+4955,3807,9.4,train-clean-100,2528,3424,Book 03  Port Arthur. 1838. Chapter 25  The Flight,For the Term of His Natural Life,Fiction
+5140,2136,9.15,train-clean-100,2558,14851,A New Face,Uncle Silas,Fiction
+5143,2136,7.93,train-clean-100,2558,14851,A Walk In The Wood,Uncle Silas,Fiction
+5147,2136,8.11,train-clean-100,2558,14851,Lady Knollys Removes A Coverlet,Uncle Silas,Fiction
+5331,3983,12.61,train-clean-100,2575,3322,05 - Ch. 05: Mr. Carlyle's Office,East Lynne,Fiction
+5354,2836,12.53,train-clean-100,2575,3322,"28 - Ch. 25: Charming Results, pt 1",East Lynne,Fiction
+5355,2836,12.6,train-clean-100,2575,3322,"29 - Ch. 25: Charming Results, pt 2",East Lynne,Fiction
+5371,3983,12.41,train-clean-100,2575,3322,"45 - Ch. 35: A Mishap to the Blue Spectacles, pt 2",East Lynne,Fiction
+6379,1578,9.94,train-clean-100,2695,21048,04 - The Third Man from the End,Just Patty,Children / Juvenile
+7146,4214,17.45,train-clean-100,2759,45,Diana Is Invited to Tea with Tragic Results,Anne of Green Gables (version 5),Fiction
+7601,2911,11.63,train-clean-100,2832,2148,"Tell-Tale Heart, The","Works of Edgar Allan Poe, Raven Edition, Volume 2",Fantasy / Sci-Fi
+7678,5322,8.93,train-clean-100,2840,4761,20 - Chapter XX,Cossacks,Fiction
+7679,5322,8.67,train-clean-100,2840,4761,21 - Chapter XXI,Cossacks,Fiction
+7680,5322,7.42,train-clean-100,2840,4761,22 - Chapter XXII,Cossacks,Fiction
+7763,7148,8.05,train-clean-100,2850,10378,"Chapter 5, A Crisis in My Mental Historical fiction, Part 1",Autobiography,Non-fiction
+8112,3242,8.8,train-clean-100,2907,21510,Chapter 07,Legacy,Fantasy / Sci-Fi
+9554,3112,5.43,train-clean-100,3114,5978,Preface,Autobiography of Anthony Trollope,Non-fiction
+9555,3112,19.65,train-clean-100,3114,5978,My Education,Autobiography of Anthony Trollope,Non-fiction
+9960,83,11.88,train-clean-100,3158,135,Bk 08 Ch 20 part 3,Miserables Vol. 3,Fiction
+10594,1970,9.22,train-clean-100,3230,21904,He Will Never Forgive,Millionaire Baby,Mystery / Crime
+10927,4051,5.85,train-clean-100,3273,1399,Book 2 Chapter 09,"Anna Karenina, Book 2",Fiction
+11217,4051,7.02,train-clean-100,3292,976,The Golden Fleece (Part 3),Tanglewood Tales,Fantasy / Sci-Fi
+11218,4051,12.27,train-clean-100,3292,976,The Golden Fleece (Part 4),Tanglewood Tales,Fantasy / Sci-Fi
+11549,4160,8.98,train-clean-100,3315,27990,Chapter 4 Part 2: Theo's diary,Theo,Fiction
+11550,4160,9.25,train-clean-100,3315,27990,Chapter 5: The separation,Theo,Fiction
+11599,3235,5.39,train-clean-100,3318,19499,10- Measure,Music Notation and Terminology,Poetry / Short Form
+11691,83,8.73,train-clean-100,3337,27771,10 - Chapter 9 - They are Afraid of Udo,Once on a Time,Fantasy / Sci-Fi
+11701,4137,11.42,train-clean-100,3337,27771,20 - Chapter 19 - Udo Behaves Like a Gentleman,Once on a Time,Fantasy / Sci-Fi
+11702,4137,13.5,train-clean-100,3337,27771,21 - Chapter 20 - Coronel Knows a Good Story when he Hears it,Once on a Time,Fantasy / Sci-Fi
+11714,3664,7.39,train-clean-100,3339,2741,1-02 - The Borgias: Prologue,"Celebrated Crimes, Vol. 1",Mystery / Crime
+12312,254,4.37,train-clean-100,3399,8166,Chapter 1.LVIII.A prophetical Riddle,"Gargantua and Pantagruel, Book I",Fantasy / Sci-Fi
+12359,2911,4.2,train-clean-100,3406,14293,"""Fit for Drink""",Complete Book of Cheese,Non-fiction
+12529,3830,1.07,train-clean-100,3415,29543,11 - Hunting for Another Home Site,Ox-Team Days on the Oregon Trail,Non-fiction
+12530,3830,9.79,train-clean-100,3415,29543,12 - Cruising About on Puget Sound,Ox-Team Days on the Oregon Trail,Non-fiction
+12531,3830,6.44,train-clean-100,3415,29543,13 - Moving from the Columbia To Puget Sound,Ox-Team Days on the Oregon Trail,Non-fiction
+12535,3830,6.71,train-clean-100,3415,29543,17 - Finding My People,Ox-Team Days on the Oregon Trail,Non-fiction
+12761,5778,10.79,train-clean-100,3423,7882,24 - Chapter 24,Life of Kit Carson,Non-fiction
+13006,4297,10.12,train-clean-100,3440,2158,"Ch 05: ""No One Knows Anything About Him""",Prime Minister,Fiction
+13009,4297,14.92,train-clean-100,3440,2158,Ch 08: The Beginning of a New Career,Prime Minister,Fiction
+13260,3947,11.62,train-clean-100,3466,4540,16 - Chapter 16,In His Steps,Fiction
+13262,3947,10.81,train-clean-100,3466,4540,18 - Chapter 18,In His Steps,Fiction
+14133,5339,10.6,train-clean-100,3503,4537,17 - The Engagement,Sylvia's Lovers,Fiction
+14134,5339,14.53,train-clean-100,3503,4537,18 - Rejected Warnings,Sylvia's Lovers,Fiction
+14187,4160,6.86,train-clean-100,3505,11128,08 - Chapter 08 - A Suspicious Accident,Red Thumb Mark,Mystery / Crime
+15045,2911,6.23,train-clean-100,3560,6933,Intro. pt 01: Native Tribes: Divisions,Jesuits in North America in the 17th Century,Fiction
+15084,2911,3.03,train-clean-100,3560,6933,"Ch 34: The End,",Jesuits in North America in the 17th Century,Fiction
+15220,4340,21.97,train-clean-100,3569,3795,13 - Somebody Runs Away,Under the Lilacs,Children / Juvenile
+15663,4362,25.18,train-clean-100,3592,326,04 - A Perilous Night on Shasta's Summit,Steep Trails,Non-fiction
+15666,4397,5.98,train-clean-100,3592,326,07 - A Great Storm in Utah,Steep Trails,Non-fiction
+15668,4397,9.0,train-clean-100,3592,326,09 - Mormon Lilies,Steep Trails,Non-fiction
+15678,4397,10.07,train-clean-100,3592,326,19 - People and Towns of Puget Sound,Steep Trails,Non-fiction
+15787,5688,9.3,train-clean-100,3597,1000010,"04 - Part 2, Section 2",Autobiography of Cockney Tom,Unknown
+16026,4680,7.65,train-clean-100,3608,135,Bk 08 Ch 04,Miserables Vol. 4,Fiction
+16041,4680,8.89,train-clean-100,3608,135,Bk 13 Ch 01-02,Miserables Vol. 4,Fiction
+16042,4680,8.6,train-clean-100,3608,135,Bk 13 Ch 03-04,Miserables Vol. 4,Fiction
+16882,4406,13.41,train-clean-100,3653,851,01 - part 1,Narrative of the Captivity and Restoration of Mrs. Mary Rowlandson,Fiction
+16883,4406,11.71,train-clean-100,3653,851,02 - part 2,Narrative of the Captivity and Restoration of Mrs. Mary Rowlandson,Fiction
+17498,4481,11.41,train-clean-100,3683,16566,01 - Prefatory; The Doyles are Astonished,Aunt Jane's Nieces Abroad,Children / Juvenile
+17499,4481,11.15,train-clean-100,3683,16566,02 - Uncle John Makes Plans,Aunt Jane's Nieces Abroad,Children / Juvenile
+17506,1447,7.22,train-clean-100,3683,16566,09 - Count Ferralti,Aunt Jane's Nieces Abroad,Children / Juvenile
+17507,4195,7.97,train-clean-100,3683,16566,10 - The Road to Amalfi,Aunt Jane's Nieces Abroad,Children / Juvenile
+18515,5163,10.54,train-clean-100,3724,6987,14 - The Island of Marken,Five Little Peppers Abroad,Children / Juvenile
+19187,4640,7.7,train-clean-100,3762,135,Bk 1 Ch 2-3,Miserables Vol. 5,Fiction
+19188,4640,8.07,train-clean-100,3762,135,Bk 1 Ch 4,Miserables Vol. 5,Fiction
+19189,4640,9.29,train-clean-100,3762,135,Bk 1 Ch 5-6,Miserables Vol. 5,Fiction
+19192,5514,9.77,train-clean-100,3762,135,Bk 1 Ch 12-13,Miserables Vol. 5,Fiction
+19193,5514,7.62,train-clean-100,3762,135,Bk 1 Ch 14-15,Miserables Vol. 5,Fiction
+19215,5652,11.22,train-clean-100,3762,135,Bk 5 Ch 6,Miserables Vol. 5,Fiction
+19218,5393,12.77,train-clean-100,3762,135,Bk 6 Ch 1,Miserables Vol. 5,Fiction
+19219,5393,12.45,train-clean-100,3762,135,Bk 6 Ch 2,Miserables Vol. 5,Fiction
+19396,5192,6.65,train-clean-100,3767,1079,Chapter 38-42,"Life and Opinions of Tristram Shandy, Gentleman, Vol. 4",Fiction
+19397,5192,17.49,train-clean-100,3767,1079,Chapter 43,"Life and Opinions of Tristram Shandy, Gentleman, Vol. 4",Fiction
+19401,3699,5.74,train-clean-100,3767,1079,Chapter 58-59,"Life and Opinions of Tristram Shandy, Gentleman, Vol. 4",Fiction
+19402,3699,6.56,train-clean-100,3767,1079,Chapter 60-63,"Life and Opinions of Tristram Shandy, Gentleman, Vol. 4",Fiction
+20016,4898,9.59,train-clean-100,3788,17189,01 - Christmas Revived,"Autumn Leaves, Original Pieces in Prose and Verse",Poetry / Short Form
+21625,32,3.97,train-clean-100,3844,6754,01 - A Queer Place to Live,Tale of Brownie Beaver,Children / Juvenile
+21631,32,4.55,train-clean-100,3844,6754,07 - A Newfangled Newspaper,Tale of Brownie Beaver,Children / Juvenile
+21634,32,3.98,train-clean-100,3844,6754,10 - A Holiday,Tale of Brownie Beaver,Children / Juvenile
+22176,4859,5.83,train-clean-100,3859,2600,Chapter 15,"War and Peace, Book 15: 1812-1813",Children / Juvenile
+24512,5390,10.52,train-clean-100,3926,30908,Chapter 9 - The Destruction of Jerusalem,Bible in Its Making,Non-fiction
+24741,5456,2.99,train-clean-100,3935,3800,"2-05-Part II, Propositions 16 to 20",Ethics,Non-fiction
+25898,4830,12.19,train-clean-100,3982,26041,06- Madam Cluck and her Family,Aunt Jo's Scrapbag,Children / Juvenile
+25904,4830,11.86,train-clean-100,3982,26041,12- My May-Day Among Curious Birds and Beasts,Aunt Jo's Scrapbag,Children / Juvenile
+25947,5049,25.08,train-clean-100,3985,3050,03 - The Spanish-American War: The Rough Riders at Guasimas,Notes of a War Correspondent,Fiction
+26100,1970,7.44,train-clean-100,3990,22781,The Answer,32 Caliber,Fiction
+26870,4859,5.67,train-clean-100,4016,2600,Chapter 08,"War and Peace, Book 16: First Epilogue 1813-1820",Children / Juvenile
+27670,4853,8.24,train-clean-100,4043,22215,Chapter 3,Frozen Pirate,Fantasy / Sci-Fi
+27671,4853,9.02,train-clean-100,4043,22215,Chapter 4,Frozen Pirate,Fantasy / Sci-Fi
+27760,254,6.72,train-clean-100,4045,13437,Vanka,Best Russian Short Stories,Poetry / Short Form
+28415,1970,8.48,train-clean-100,4064,19087,12 - In Jerusalem,King Nobody Wanted,Non-fiction
+28433,3235,11.75,train-clean-100,4066,22409,07 - Going to Nome,Woman Who Went to Alaska,Non-fiction
+28452,3235,7.79,train-clean-100,4066,22409,26 - Good-bye to Golovin Bay,Woman Who Went to Alaska,Non-fiction
+28461,4898,15.53,train-clean-100,4067,7345,04 - The Stickeen River,Travels in Alaska,Non-fiction
+29116,3607,10.25,train-clean-100,4097,3178,35 - Chapter 35,Gilded Age,Fiction
+29340,4859,8.86,train-clean-100,4104,2600,Chapter 02,"War and Peace, Book 17: Second Epilogue",Children / Juvenile
+29405,5022,8.98,train-clean-100,4107,3634,06 - The Return of the Portfolio,Guilty River,Fiction
+29411,5022,16.14,train-clean-100,4107,3634,12 - Warned for the Last Time!,Guilty River,Fiction
+29413,4853,7.78,train-clean-100,4107,3634,14 - Gloody Settles the Account,Guilty River,Fiction
+30096,5390,7.2,train-clean-100,4131,10359,01 - Uncle John's Farm,Aunt Jane's Nieces at Millville,Children / Juvenile
+30102,5390,7.48,train-clean-100,4131,10359,07 - Louise scents a mystery,Aunt Jane's Nieces at Millville,Children / Juvenile
+33406,5104,13.37,train-clean-100,4260,24811,"13 - Part II, Eric the Red",Viking Tales,Poetry / Short Form
+33407,5104,11.67,train-clean-100,4260,24811,"14 - Part II, Leif and His New Land",Viking Tales,Poetry / Short Form
+34599,6209,8.55,train-clean-100,4314,12587,"031 - Part I, Book the Third, Chapter III - A Burden Makes a Rough Road Rougher",Man Who Laughs,Fiction
+34600,6209,7.98,train-clean-100,4314,12587,"032 - Part I, Book the Third, Chapter IV - Another Form of Desert",Man Who Laughs,Fiction
+34601,6209,8.5,train-clean-100,4314,12587,"033 - Part I, Book the Third, Chapter V - Misanthropy Plays its Pranks",Man Who Laughs,Fiction
+34605,6147,9.08,train-clean-100,4314,12587,"037 - Part II, Book the First, Chapter III - The Duchess Josiana",Man Who Laughs,Fiction
+34606,6147,7.27,train-clean-100,4314,12587,"038 - Part II, Book the First, Chapter IV - The Leader of Fashion",Man Who Laughs,Fiction
+34607,6147,8.7,train-clean-100,4314,12587,"039 - Part II, Book the First, Chapter V - Queen Anne",Man Who Laughs,Fiction
+34644,7178,17.3,train-clean-100,4314,12587,"076 - Part II, Book the Fifth, Chapter I - The Durability of Fragile Things",Man Who Laughs,Fiction
+34645,7178,7.81,train-clean-100,4314,12587,"077 - Part II, Book the Fifth, Chapter II - The Waif Knows Its Own Course",Man Who Laughs,Fiction
+34655,6385,7.75,train-clean-100,4314,12587,"087 - Part II, Book the Seventh, Chapter II - The Resemblance of a Palace to a Wood",Man Who Laughs,Fiction
+34669,6385,7.63,train-clean-100,4314,12587,"101 - Conclusion, Chapter I - A Watch-Dog may be a Guardian Angel",Man Who Laughs,Fiction
+35690,5750,5.42,train-clean-100,4356,10800,"30 - Partition 2, Section 4 , Member 1, Subsection 1",Anatomy of Melancholy Volume 2,Poetry / Short Form
+36616,2764,8.29,train-clean-100,4385,2488,02 - Pros and Cons,Twenty Thousand Leagues Under the Sea (Version 2),Fantasy / Sci-Fi
+36617,2764,7.83,train-clean-100,4385,2488,03 - As Master Wishes,Twenty Thousand Leagues Under the Sea (Version 2),Fantasy / Sci-Fi
+36619,2764,9.07,train-clean-100,4385,2488,05 - At Random!,Twenty Thousand Leagues Under the Sea (Version 2),Fantasy / Sci-Fi
+39173,5463,13.65,train-clean-100,4471,2860,"21 - Why Puck, the Pony, Was Beaten",Framley Parsonage,Fiction
+39174,5463,11.35,train-clean-100,4471,2860,22 - Hogglestock Parsonage,Framley Parsonage,Fiction
+39621,5561,6.94,train-clean-100,4485,2609,07 - Parry,Vicomte De Bragelonne,Fiction
+39921,5163,13.03,train-clean-100,4490,24874,Why Mr. Cropper Changed His Mind,"Lucy Maud Montgomery Short Stories, 1902 to 1903",Poetry / Short Form
+39938,5652,13.82,train-clean-100,4491,22775,The General Methods of Psychotherapy,Psychotherapy,Non-fiction
+39947,1355,22.31,train-clean-100,4491,22775,Psychotherapy and The Community,Psychotherapy,Non-fiction
+41232,5688,15.88,train-clean-100,4545,13610,28 Appendix A: The Influence of Menstruation on the Position of Women,"Studies in the Psychology of Sex, Volume One",Non-fiction
+41611,587,6.96,train-clean-100,4557,17811,11 - Worries and Plans,"Grace Harlowe's Junior Year at High School; or, Fast Friends in the Sororities",Children / Juvenile
+41615,5561,9.19,train-clean-100,4557,17811,"15 - A Would-Be ""Lark""","Grace Harlowe's Junior Year at High School; or, Fast Friends in the Sororities",Children / Juvenile
+41616,5561,7.73,train-clean-100,4557,17811,16 - The Juniors Forever,"Grace Harlowe's Junior Year at High School; or, Fast Friends in the Sororities",Children / Juvenile
+41619,587,6.53,train-clean-100,4557,17811,19 - The Try Out,"Grace Harlowe's Junior Year at High School; or, Fast Friends in the Sororities",Children / Juvenile
+41997,6081,8.62,train-clean-100,4570,4071,14,Monsieur Lecoq Part 1: The Inquiry,Mystery / Crime
+41998,6081,8.96,train-clean-100,4570,4071,15,Monsieur Lecoq Part 1: The Inquiry,Mystery / Crime
+42010,6081,7.53,train-clean-100,4570,4071,27,Monsieur Lecoq Part 1: The Inquiry,Mystery / Crime
+43301,5678,6.5,train-clean-100,4617,14021,"07 - Book 1 - The Advent: Chapter 3, Part 1",Lord of the World,Fantasy / Sci-Fi
+43302,5678,9.78,train-clean-100,4617,14021,"08 - Book 1 - The Advent: Chapter 3, Part 2",Lord of the World,Fantasy / Sci-Fi
+43303,5678,8.83,train-clean-100,4617,14021,"09 - Book 1 - The Advent: Chapter 3, Part 3",Lord of the World,Fantasy / Sci-Fi
+47198,5703,13.72,train-clean-100,4763,9746,02 Chapter II,Ashiel Mystery - A Detective Story,Mystery / Crime
+47212,5703,11.38,train-clean-100,4763,9746,16 Chapter XVI,Ashiel Mystery - A Detective Story,Mystery / Crime
+47246,3699,7.42,train-clean-100,4765,17780,Amos Barton - 04,Scenes of Clerical Life,Fiction
+47824,118,15.47,train-clean-100,4784,10869,13 - The Amazing Meeting in the Shadows of the Old Courtyard - part 1,Abandoned Room,Mystery / Crime
+48608,5808,13.3,train-clean-100,4813,3438,35 - Three Hundred and Forty-seventh Night to Three Hundred and Fiftieth Night,"Book of A Thousand Nights and a Night (Arabian Nights), Volume 04",Children / Juvenile
+48852,5867,23.63,train-clean-100,4820,4599,54 - The Second Visit to the Guestwick Bridge,Small House at Allington,Fiction
+54007,6078,11.24,train-clean-100,5023,1751,05 - Ill-Luck and the Fiddler,Twilight Land,Children / Juvenile
+54013,6078,13.78,train-clean-100,5023,1751,11 - The Fruit of Happiness,Twilight Land,Children / Juvenile
+54108,587,11.72,train-clean-100,5031,1839,Chapter XV,Other Things Being Equal,Fiction
+54425,5808,11.86,train-clean-100,5053,17854,14 - Frankenstein,Sport of the Gods,Fiction
+54535,5778,11.03,train-clean-100,5058,32628,25 - James McNeill Whistler,Child's Book of American Biography,Non-fiction
+55211,6000,13.56,train-clean-100,5084,362,A Girl and a Bit of Lowestoft,Miss Billy's Decision,Fiction
+56165,6064,8.3,train-clean-100,5121,34944,10 - A Sophomore,"Brenda, Her School and Her Club",Children / Juvenile
+56168,6064,7.92,train-clean-100,5121,34944,13 - Great Expectations,"Brenda, Her School and Her Club",Children / Juvenile
+57158,5789,8.46,train-clean-100,5163,5118,15 - Volume I Chapter 15,American Senator,Fiction
+57195,5789,8.56,train-clean-100,5163,5118,52 - Volume II Chapter 25,American Senator,Fiction
+57446,6476,19.0,train-clean-100,5171,13015,"The Eta Maiden and the Hatamoto, part 2",Tales of Old Japan,Children / Juvenile
+58161,5456,5.81,train-clean-100,5208,18734,"Diamond Wedding, The","Wit and Humor of America, Vol 03",Poetry / Short Form
+59157,7148,8.83,train-clean-100,5244,12600,08 - Ch.5.i - Keats: 1. The Biography,Old and New Masters,Fiction
+59171,7402,10.65,train-clean-100,5244,12600,22 - Ch.16 - Mr Bernard Shaw,Old and New Masters,Fiction
+61334,6531,21.46,train-clean-100,5317,16653,21 - Chapter 17: The Hebrews in Assyrian Historical fiction,Myths of Babylonia and Assyria,Fantasy / Sci-Fi
+61803,6836,9.04,train-clean-100,5326,35587,099 - Attempted Murder and Suicide.,Headless Horseman - A Strange Tale of Texas,Fiction
+61804,6836,8.56,train-clean-100,5326,35587,100 - Joy.,Headless Horseman - A Strange Tale of Texas,Fiction
+62014,5456,2.52,train-clean-100,5333,19323,The Woman Who Married an Owl,"Wit and Humor of America, Vol 05",Poetry / Short Form
+62043,5456,8.44,train-clean-100,5333,19323,A Bully Boat and a Brag Captain,"Wit and Humor of America, Vol 05",Poetry / Short Form
+62554,6529,13.33,train-clean-100,5350,1268,47 - Volume III Chapter 5,Mysterious Island (version 2),Fantasy / Sci-Fi
+62556,6529,11.71,train-clean-100,5350,1268,49 - Volume III Chapter 7,Mysterious Island (version 2),Fantasy / Sci-Fi
+63821,6563,11.14,train-clean-100,5397,20064,"Peter Force, Printer",Captains of Industry,Non-fiction
+65536,6367,17.34,train-clean-100,5458,24876,In the Old Valley,"Lucy Maud Montgomery Short Stories, 1905-1906",Poetry / Short Form
+66172,6437,10.51,train-clean-100,5487,1948,09 - I Become an R. M. C.,Story of a Bad Boy,Children / Juvenile
+66173,6437,14.58,train-clean-100,5487,1948,10 - I Fight Conway,Story of a Bad Boy,Children / Juvenile
+67153,3242,8.25,train-clean-100,5517,21959,03 - Letter 3,Letters from a Self-Made Merchant to His Son,Fiction
+67168,3242,7.98,train-clean-100,5517,21959,18 - Letter 18,Letters from a Self-Made Merchant to His Son,Fiction
+68772,6818,11.63,train-clean-100,5579,13110,13 - THE BOOMERANG,Aunt Jane's Nieces at Work,Children / Juvenile
+70168,6272,7.31,train-clean-100,5635,12347,11 - Chapter XI,Morgesons,Fiction
+70171,6272,9.4,train-clean-100,5635,12347,14 - Chapter XIV,Morgesons,Fiction
+70191,6272,8.43,train-clean-100,5635,12347,34 - Chapter XXXIV,Morgesons,Fiction
+70653,5789,8.13,train-clean-100,5662,21854,The Inquest,Trent's Last Case (Version 2),Mystery / Crime
+72637,4267,7.58,train-clean-100,5754,25493,Durham,Cathedral Courtship,Fiction
+74004,6367,7.7,train-clean-100,5801,24877,The Old Fellow's Letter,"Lucy Maud Montgomery Short Stories, 1907-1908",Poetry / Short Form
+76047,7067,11.85,train-clean-100,5864,1734,13 - Ch Sixth Sec 6,Secret Places of the Heart,Fiction
+76048,7067,13.33,train-clean-100,5864,1734,14 - Ch Seventh Sec 1-3,Secret Places of the Heart,Fiction
+76049,6848,8.19,train-clean-100,5864,1734,15 - Ch Seventh Sec 4-6,Secret Places of the Heart,Fiction
+76250,4441,8.45,train-clean-100,5874,37039,09 - Bills of Exchange,Red Room,Fiction
+76262,4441,7.62,train-clean-100,5874,37039,21 - A Soul Overboard,Red Room,Fiction
+76263,4441,8.98,train-clean-100,5874,37039,22 - Hard Times,Red Room,Fiction
+76332,6818,13.54,train-clean-100,5878,30905,15 - The Stranger at the Door,Boarded Up House,Children / Juvenile
+76549,6836,7.42,train-clean-100,5887,5136,"IV: From the Great Plains to the Atlantic, Part 2","Around the World on a Bicycle, Vol. 1",Non-fiction
+77897,7059,7.57,train-clean-100,5943,7502,09 - Chapter 9,Annie Kilburn,Fiction
+77900,7059,9.35,train-clean-100,5943,7502,12 - Chapter 12,Annie Kilburn,Fiction
+78186,4267,8.64,train-clean-100,5955,24432,"Road to a Woman's Heart, The","Wit and Humor of America, Vol 08",Poetry / Short Form
+80680,6925,17.07,train-clean-100,6056,27826,06 - Jackal or Tiger?,Olive Fairy Book,Children / Juvenile
+82991,7148,8.13,train-clean-100,6132,2866,02 - Chapter II,"Windsor Castle, Book 1",Fiction
+83618,7505,5.18,train-clean-100,6151,19347,17-Chapter 6. Part 2,Myths of the New World,Fantasy / Sci-Fi
+86041,7113,25.2,train-clean-100,6228,3282,25 - Rubezahl,Brown Fairy Book,Children / Juvenile
+86686,6000,4.48,train-clean-100,6262,35862,12 - King O'Toole and His Goose,Celtic Folk and Fairy Tales,Children / Juvenile
+86737,7367,25.13,train-clean-100,6263,1184,Chapter XXXIII - Roman Bandits Part 1,Count of Monte Cristo (version 2),Fiction
+86814,7302,9.76,train-clean-100,6263,1184,Chapter CVII - The Lions' Den,Count of Monte Cristo (version 2),Fiction
+86815,7302,15.33,train-clean-100,6263,1184,Chapter CVIII - The Judge,Count of Monte Cristo (version 2),Fiction
+86964,7226,14.13,train-clean-100,6269,38556,"09 - The Rock River, CHAPTER VII.  Storm-Bound at Erie",Historic Waterways,Non-fiction
+86965,7226,10.92,train-clean-100,6269,38556,"10 - The Rock River, CHAPTER VIII. The Last Day Out",Historic Waterways,Non-fiction
+88364,7059,8.11,train-clean-100,6329,13029,CHAPTER XVI - CALIFORNIA AND AMERICA,Art of the Moving Picture,Other
+90542,7190,16.48,train-clean-100,6419,34468,02 - The Identity of the Final Victim,Christopher Quarles College Professor and Master Detective,Mystery / Crime
+90543,7190,8.74,train-clean-100,6419,34468,03 - The Riddle of the Circular Counters,Christopher Quarles College Professor and Master Detective,Mystery / Crime
+90848,7402,14.36,train-clean-100,6433,19207,07 - THE LOST HALF-HOUR,Firelight Fairy Book,Children / Juvenile
+91083,7278,8.9,train-clean-100,6442,35950,26 - Geo. W. Childs,Lives of Poor Boys Who Became Famous,Non-fiction
+91186,7447,9.3,train-clean-100,6448,18284,06 - The Piano and Piano Players,For Every Music Lover,Other
+91187,7447,15.94,train-clean-100,6448,18284,07 - The Poetry and Leadership of Chopin,For Every Music Lover,Other
+91208,4788,8.22,train-clean-100,6450,15268,His Work in Philosophy,John Stuart Mill; His Life and Works,Non-fiction
+92310,7264,7.02,train-clean-100,6499,18018,05 - Chapter 5,Free Press,Mystery / Crime
+92314,7264,7.07,train-clean-100,6499,18018,09 - Chapter 9,Free Press,Mystery / Crime
+92316,7264,9.32,train-clean-100,6499,18018,11 - Chapter 11,Free Press,Mystery / Crime
+92432,7312,5.44,train-clean-100,6502,8642,Letter from Hon. Lewis Cass Jr.,Woman in the Nineteenth Century,Fiction
+92939,696,9.5,train-clean-100,6518,25652,Edith Cavell,Treasury of Heroes and Heroines,Other
+93314,696,15.61,train-clean-100,6530,39324,"13 The Lover, The Girl and The Onlooker",Literary Sense,Fiction
+93938,6454,8.25,train-clean-100,6563,25333,11 The Letters Change Hands Again,Great K. & A. Train-Robbery,Fiction
+94904,4788,9.37,train-clean-100,6608,5669,07 - Chapter 4A,Considerations on Representative Government,Non-fiction
+96661,6476,6.16,train-clean-100,6675,2395,Part 1 Ch. 4: The Assembling of the Heroes and the Building of the Ships,Golden Fleece and the Heroes Who Lived Before Achilles,Fantasy / Sci-Fi
+100289,5750,19.65,train-clean-100,6794,27448,08 - Chapter 8 - The Indian in College and the Professions,Indian To-day,Non-fiction
+100429,7517,7.45,train-clean-100,6800,5803,09 - The Pond,Not That It Matters,Non-fiction
+100437,7517,8.24,train-clean-100,6800,5803,17 - A Household Book,Not That It Matters,Non-fiction
+100442,7517,8.6,train-clean-100,6800,5803,22 - At the Bookstall,Not That It Matters,Non-fiction
+100596,6415,7.64,train-clean-100,6808,21639,The Elusive Kate Ferris,When Patty Went to College,Fiction
+102419,7511,12.59,train-clean-100,6874,28572,08 - Elizabeth's Romance,Letters on an Elk Hunt,Non-fiction
+102420,7511,12.42,train-clean-100,6874,28572,09 - The Hunt,Letters on an Elk Hunt,Non-fiction
+102518,7859,7.05,train-clean-100,6876,37756,12 - The Coming of the Saracens,Byzantine Empire,Fiction
+102519,7859,10.86,train-clean-100,6876,37756,13 - The First Anarchy,Byzantine Empire,Fiction
+102521,7859,3.66,train-clean-100,6876,37756,15 - The Iconoclasts (A.D. 720-802),Byzantine Empire,Fiction
+103416,4018,8.85,train-clean-100,6916,1693,05 - Chapter V,Dangerous Days,Fiction
+104730,7278,8.06,train-clean-100,6958,20183,14 - Chapter 3B,John Quincy Adams,Non-fiction
+105409,7635,14.64,train-clean-100,6984,60,30 - THE SCHOONER,Scarlet Pimpernel (Version 2),Fiction
+105661,7635,10.41,train-clean-100,6999,19213,"Chapter 29, part 1","Historical fiction of England from the Invasion of Julius Caesar to the Revolution of 1688, Volume 1C",Fiction
+107312,4018,8.74,train-clean-100,7084,3760,"15 - Book II, chapter ix","Sybil, or the Two Nations",Fiction
+107338,4018,7.58,train-clean-100,7084,3760,"41 - Book IV, chapter ix","Sybil, or the Two Nations",Fiction
+107462,6454,8.9,train-clean-100,7089,9363,"Backstairs of the Mind, The",Best British Short Stories of 1922,Poetry / Short Form
+111615,6415,8.84,train-clean-100,7302,22699,06 - Confessions of a Colyumist,Pipefuls,Non-fiction
+112586,8014,4.34,train-clean-100,7347,41666,00 - Preface,Story of Ancient Irish Civilisation,Non-fiction
+112602,8014,7.58,train-clean-100,7347,41666,16 - How the People Dressed,Story of Ancient Irish Civilisation,Non-fiction
+116629,6415,8.71,train-clean-100,7565,14627,Chapter 7: A Thunder Clap,Veronica,Children / Juvenile
+118101,8051,7.9,train-clean-100,7670,15263,01 - Several Arrivals From Different Places,"Underground Railroad, Part 2",Non-fiction
+119902,8051,8.34,train-clean-100,7812,14055,War Bread,Food Guide for War Service at Home,Non-fiction
+120342,6454,8.07,train-clean-100,7868,32455,Christmas Waits In Boston Part 1,Christmas Eve and Christmas Day,Fiction
+121026,40,9.45,train-clean-100,47,1184,The Abbes Chamb,Count of Monte Cristo,Fiction
+121082,60,20.18,train-clean-100,47,1184,The Beggar,Count of Monte Cristo,Fiction
+121119,1034,16.71,train-clean-100,47,1184,The Law,Count of Monte Cristo,Fiction
+121124,125,15.77,train-clean-100,47,1184,Danglars Signature,Count of Monte Cristo,Fiction
+121342,125,9.41,train-clean-100,55,805,Bk2 Ch5 Pt1,This Side of Paradise,Fiction
+121553,87,25.1,train-clean-100,67,1004,"Bk 3, Paradise: Canto XII - Canto XVI",Divine Comedy,Poetry / Short Form
+121652,289,8.6,train-clean-100,74,5312,Introduction,Mother Goose in Prose,Children / Juvenile
+121665,289,11.05,train-clean-100,74,5312,Little Bo-Peep,Mother Goose in Prose,Children / Juvenile
+121721,118,4.88,train-clean-100,78,1989,Letter B,Foolish Dictionary,Poetry / Short Form
+121908,163,3.16,train-clean-100,85,14328,"Bk 5: Section I, and Song I: Chance",Consolation of Philosophy,Non-fiction
+121914,39,11.31,train-clean-100,86,158,Vol. 1 Ch. 01,Emma,Fiction
+121915,39,6.68,train-clean-100,86,158,Vol. 1 Ch. 02,Emma,Fiction
+121916,39,7.07,train-clean-100,86,158,Vol. 1 Ch. 03,Emma,Fiction
+122150,196,9.87,train-clean-100,97,5658,Chapter 2,Lord Jim,Fiction
+122152,196,7.91,train-clean-100,97,5658,Chapter 4,Lord Jim,Fiction
+122159,196,7.46,train-clean-100,97,5658,Chapter 11,Lord Jim,Fiction
+122255,201,8.78,train-clean-100,104,964,Little John and the Tanner of Blyth,Merry Adventures of Robin Hood,Children / Juvenile
+122425,211,13.28,train-clean-100,120,1257,HIS MAJESTY KING LOUIS XIII,Three Musketeers,Fiction
+122442,211,11.94,train-clean-100,120,1257,THE RENDEZVOUS,Three Musketeers,Fiction
+122538,226,8.46,train-clean-100,126,3659,14 - In Deryck's Safe Control,Rosary,Fiction
+122615,1502,7.89,train-clean-100,132,940,Chapter 25,Last of the Mohicans,Fiction
+122619,1502,17.16,train-clean-100,132,940,Chapter 29,Last of the Mohicans,Fiction
+122819,426,7.87,train-clean-100,145,47,A Question of Color,Anne of Avonlea,Fiction
+122821,426,9.6,train-clean-100,145,47,Facts and Fancies,Anne of Avonlea,Fiction
+122822,426,7.74,train-clean-100,145,47,A Jonah Day,Anne of Avonlea,Fiction
+122947,163,21.9,train-clean-100,152,4363,Our Virtues,Beyond Good and Evil,Non-fiction
+123289,887,8.79,train-clean-100,174,3748,Chapter 36,Journey to the Interior of the Earth,Fantasy / Sci-Fi
+123290,887,7.39,train-clean-100,174,3748,Chapter 37,Journey to the Interior of the Earth,Fantasy / Sci-Fi
+123291,887,8.94,train-clean-100,174,3748,Chapter 38,Journey to the Interior of the Earth,Fantasy / Sci-Fi
+123349,27,12.4,train-clean-100,184,1468,"Chapter V, Part 3","Historical fiction of England, from the Accession of James II - (Volume 1, Chapter 05)",Fiction
+123501,446,13.8,train-clean-100,205,62,Chapter 03,Princess of Mars,Fantasy / Sci-Fi
+123502,446,11.21,train-clean-100,205,62,Chapter 04,Princess of Mars,Fantasy / Sci-Fi
+123504,302,8.7,train-clean-100,205,62,Chapter 06,Princess of Mars,Fantasy / Sci-Fi
+123516,302,7.5,train-clean-100,205,62,Chapter 18,Princess of Mars,Fantasy / Sci-Fi
+123523,302,8.85,train-clean-100,205,62,Chapter 25,Princess of Mars,Fantasy / Sci-Fi
+123719,481,7.84,train-clean-100,220,600,Part 2 Chapter 2,Notes from the Underground,Fiction
+123720,481,17.24,train-clean-100,220,600,Part 2 Chapter 3,Notes from the Underground,Fiction
+123857,445,5.97,train-clean-100,229,1041,Sonnets 91-100,Shakespeare's Sonnets,Poetry / Short Form
+123860,445,5.11,train-clean-100,229,1041,Sonnets 121-130,Shakespeare's Sonnets,Poetry / Short Form
+124139,200,8.37,train-clean-100,253,1342,Chapter 8,Pride and Prejudice,Fiction
+124140,200,8.33,train-clean-100,253,1342,Chapter 9,Pride and Prejudice,Fiction
+124146,322,7.0,train-clean-100,253,1342,Chapter 20,Pride and Prejudice,Fiction
+124147,322,18.2,train-clean-100,253,1342,Chapters 21-22,Pride and Prejudice,Fiction
+124404,311,25.17,train-clean-100,269,59,Chapter 5,Discourse on the Method of Rightly Conducting Ones Reason and of Seeking Truth,Fantasy / Sci-Fi
+124548,1246,10.67,train-clean-100,279,543,Chapter 35,Main Street,Fiction
+124550,1246,9.56,train-clean-100,279,543,Chapter 37,Main Street,Fiction
+124566,1183,0.54,train-clean-100,280,24055,"<a href=""http://bartleby.com/44/1/13.html"">Book 13</a>",Sayings of Confucius,Non-fiction
+124588,118,4.71,train-clean-100,281,6917,04-05 Savareen's Disappearance - Chapter 5,Gerrard Street Mystery and Other Weird Tales,Mystery / Crime
+124992,27,7.74,train-clean-100,305,8318,Part 1 (Chapters 1-8),Bible (DRV) Apocrypha/Deuterocanon: Judith,Non-fiction
+125237,1081,22.62,train-clean-100,319,14971,Rise of John de Witt. The First English War,Historical fiction of Holland,Fiction
+126107,150,9.55,train-clean-100,369,697,Put Me In Again.,Light Princess,Children / Juvenile
+126112,150,8.91,train-clean-100,369,697,This is Very Kind of You,Light Princess,Children / Juvenile
+126290,458,4.29,train-clean-100,375,2591,"Cat and Mouse in Partnership, The",Grimms' Fairy Tales,Children / Juvenile
+126294,458,4.1,train-clean-100,375,2591,Fundevogel,Grimms' Fairy Tales,Children / Juvenile
+126305,458,8.9,train-clean-100,375,2591,"Little Peasant, The",Grimms' Fairy Tales,Children / Juvenile
+126784,200,8.44,train-clean-100,413,9845,Chapter 5,Spy,Fiction
+126790,298,10.24,train-clean-100,413,9845,Chapter 11,Spy,Fiction
+126791,298,14.76,train-clean-100,413,9845,Chapter 12,Spy,Fiction
+126831,198,10.31,train-clean-100,415,5342,16 - The Ghostly Bell,Story Girl,Fiction
+126855,403,7.09,train-clean-100,416,501,The Seventh Chapter - The Bridge of Apes,Story of Doctor Dolittle,Children / Juvenile
+126975,412,22.38,train-clean-100,424,204,04 - The Flying Stars,Innocence of Father Brown,Mystery / Crime
+127535,307,8.8,train-clean-100,449,120,Chapter 29,Treasure Island,Fiction
+127539,307,8.49,train-clean-100,449,120,Chapter 33,Treasure Island,Fiction
+127540,307,7.83,train-clean-100,449,120,Chapter 34,Treasure Island,Fiction
+127705,254,9.01,train-clean-100,464,7091,Chapter 13 The Early Historical fiction of the Valley,Yosemite,Non-fiction
+127786,201,16.41,train-clean-100,480,5921,Chapter 28,Don Quixote - Vol. 1,Fiction
+128339,403,11.75,train-clean-100,510,98,III.VI: Triumph,Tale of Two Cities,Fiction
+128618,1081,2.56,train-clean-100,530,18542,FIFTEEN WAYS TO COOK PERCH,How to Cook Fish,Non-fiction
+128659,1183,2.2,train-clean-100,533,18992,Childhood,Current Superstitions,Children / Juvenile
+128684,911,19.65,train-clean-100,534,32547,The Place of Affectional Facts in a World of Pure Experience,Essays in Radical Empiricism,Fiction
+128982,441,8.18,train-clean-100,562,17188,The Pirate who could not Swim,Buccaneers and Pirates of Our Coasts,Children / Juvenile
+128985,332,19.0,train-clean-100,562,17188,"The Story of Roc, the Brazilian",Buccaneers and Pirates of Our Coasts,Children / Juvenile
+128988,441,8.04,train-clean-100,562,17188,A Resurrected Pirate,Buccaneers and Pirates of Our Coasts,Children / Juvenile
+129061,669,19.07,train-clean-100,563,599,Sunday After the Battle,Vanity Fair,Fiction
+129074,669,6.1,train-clean-100,563,599,"Which Contains Births, Marriages, and Deaths",Vanity Fair,Fiction
+129236,1088,7.16,train-clean-100,573,2944,Essay 05 - Love,"Essays, First Series",Non-fiction
+129766,328,19.35,train-clean-100,606,370,When I parted with my brother...,Fortunes and Misfortunes of the Famous Moll Flanders,Fiction
+129977,198,6.51,train-clean-100,620,161,Chapter 18,Sense and Sensibility,Fiction
+130108,441,8.97,train-clean-100,626,73,Chapter 16,Red Badge of Courage,Fiction
+130550,1447,5.24,train-clean-100,649,18362,Miscellaneous Phrases: Easy-going to the point of lethargy - Hopelessly belated in its appearance,Fifteen Thousand Useful Phrases,Non-fiction
+130551,1447,7.13,train-clean-100,649,18362,Miscellaneous Phrases: I adjured him - Its dominating and inspiring influence,Fifteen Thousand Useful Phrases,Non-fiction
+130552,1447,5.59,train-clean-100,649,18362,Miscellaneous Phrases: Jealous and formidable foes - Quixotically generous about money,Fifteen Thousand Useful Phrases,Non-fiction
+130578,911,4.17,train-clean-100,650,11938,"Boy Who Found His Father, The","Folklore of the Santal Parganas, Vol. 1",Children / Juvenile
+130644,248,8.1,train-clean-100,655,7469,Chapter 04,Daniel Deronda,Fiction
+130652,248,8.97,train-clean-100,655,7469,Chapter 12,Daniel Deronda,Fiction
+130697,248,8.06,train-clean-100,655,7469,Chapter 57,Daniel Deronda,Fiction
+130739,831,12.3,train-clean-100,659,1264,01 - Chapters 01 to 03,Wheels of Chance,Fiction
+130746,831,12.91,train-clean-100,659,1264,08 - Chapters 23 to 25,Wheels of Chance,Fiction
+130880,229,19.56,train-clean-100,665,2488,A New Proposition from Captain Nemo,Twenty Thousand Leagues Under the Sea,Fantasy / Sci-Fi
+130894,405,17.27,train-clean-100,665,2488,Shortage of Air,Twenty Thousand Leagues Under the Sea,Fantasy / Sci-Fi
+130895,405,7.76,train-clean-100,665,2488,From Cape Horn to the Amazon,Twenty Thousand Leagues Under the Sea,Fantasy / Sci-Fi
+130898,839,19.95,train-clean-100,665,2488,In Latitude 47 degrees 24' and Longitude 17 degrees 28',Twenty Thousand Leagues Under the Sea,Fantasy / Sci-Fi
+131041,909,7.05,train-clean-100,670,1404,Federalist No. 68 by Alexander Hamilton,Federalist Papers,Fiction
+131044,909,7.77,train-clean-100,670,1404,Federalist No. 71 by Alexander Hamilton,Federalist Papers,Fiction
+131045,909,10.18,train-clean-100,670,1404,Federalist No. 72 by Alexander Hamilton,Federalist Papers,Fiction
+131096,2910,22.33,train-clean-100,672,4925,Cupid and Psyche,Bulfinchs Mythology: The Age of Fable,Fantasy / Sci-Fi
+131231,3240,16.49,train-clean-100,677,22472,Chapter 7-a,Book of the Damned,Fiction
+131232,3240,8.59,train-clean-100,677,22472,Chapter 7-b,Book of the Damned,Fiction
+131532,226,8.09,train-clean-100,697,969,Chapter X,Tenant of Wildfell Hall,Fiction
+131533,226,8.66,train-clean-100,697,969,Chapter XI,Tenant of Wildfell Hall,Fiction
+132112,625,13.5,train-clean-100,727,408,"Chapter 7 - Of the Black Belt, part 2",Souls of Black Folk,Non-fiction
+132118,625,11.51,train-clean-100,727,408,Chapter 11 - Of the Passing of the First-Born,Souls of Black Folk,Non-fiction
+132570,2007,12.59,train-clean-100,759,3268,"Vol 03, Ch. 06, part 1",Mysteries of Udolpho,Fiction
+132655,150,6.67,train-clean-100,761,19942,Chapter 30,Candide,Fiction
+132847,1116,7.46,train-clean-100,778,3454,"Groac'h of Isle of Lok, France",Lilac Fairy Book,Children / Juvenile
+132851,1116,5.19,train-clean-100,778,3454,"Brownie of Lake, France",Lilac Fairy Book,Children / Juvenile
+133255,1183,2.56,train-clean-100,802,20190,"<a href=""http://www.newness-of-life.com/librivox/cyclopedia/cyclopedia_38_triemens-2240-ads-4.doc"">Advertisements, Part 4.</a>",Handy Cyclopedia of Things Worth Knowing,Non-fiction
+133256,1183,4.41,train-clean-100,802,20190,"<a href=""http://www.newness-of-life.com/librivox/cyclopedia/cyclopedia_39_triemens-2256-ads-5.doc"">Advertisements, Part 5.</a>",Handy Cyclopedia of Things Worth Knowing,Non-fiction
+133433,1040,15.7,train-clean-100,816,16,When Wendy Grew Up,Peter Pan,Fiction
+133695,1098,18.31,train-clean-100,836,2833,Chapter 07,Portrait of a Lady Vol 1,Fiction
+133699,1069,12.96,train-clean-100,836,2833,Chapter 11,Portrait of a Lady Vol 1,Fiction
+133709,1069,12.19,train-clean-100,836,2833,Chapter 21,Portrait of a Lady Vol 1,Fiction
+134315,1088,12.93,train-clean-100,874,2688,Chapter IX,Clue of the Twisted Candle,Mystery / Crime
+134318,1088,5.09,train-clean-100,874,2688,Chapter XII,Clue of the Twisted Candle,Mystery / Crime
+134435,1455,14.19,train-clean-100,877,416,"Godliness, Part II, also concerning Jesse Bentley","Winesburg, Ohio",Fiction
+134440,233,14.08,train-clean-100,877,416,Respectability,"Winesburg, Ohio",Fiction
+135589,1334,23.89,train-clean-100,941,6471,Chapter XXVII,Children of the New Forest,Children / Juvenile
+135815,1246,4.86,train-clean-100,956,2441,JOHNNY CHUCK JOINS THE CLASS -- The Woodchuck and his ways.,Burgess Animal Book for Children,Children / Juvenile
+135842,1363,10.93,train-clean-100,956,2441,"UNC' BILLY AND OLD MRS. POSSUM -- The Virginia Opossum, which is the only American Marsupial.",Burgess Animal Book for Children,Children / Juvenile
+135883,1235,9.96,train-clean-100,958,5664,<b>The Merchant and the Genie</b>,"Arabian Nights Entertainments, Volume 01",Children / Juvenile
+135884,1235,9.04,train-clean-100,958,5664,The Story of the First Old Man and the Hind,"Arabian Nights Entertainments, Volume 01",Children / Juvenile
+135887,1235,6.09,train-clean-100,958,5664,The Story of the Grecian King and the Physician Douban,"Arabian Nights Entertainments, Volume 01",Children / Juvenile
+135914,1594,25.1,train-clean-100,958,5664,"<b>The Historical fiction of Ganem, Son of Abou Ayoub, and Known by the Surname of Love's Slave</b>, part c","Arabian Nights Entertainments, Volume 01",Children / Juvenile
+135982,3607,11.85,train-clean-100,963,2814,05 - After the Race,Dubliners,Fiction
+137572,1116,12.46,train-clean-100,1039,20830,Learning to Live Together,Good Housekeeping Marriage Book,Non-fiction
+138028,2989,12.68,train-clean-100,1069,5946,04 - Chapters 6-7,Don Quixote - Vol. 2,Fiction
+138035,2989,12.53,train-clean-100,1069,5946,11 - Chapters 19-20,Don Quixote - Vol. 2,Fiction
+138246,1263,8.19,train-clean-100,1078,83,20 Minutes Past Ten to 47 Minutes Past Ten P.M. (p. 108),Round the Moon,Fantasy / Sci-Fi
+138263,1455,10.94,train-clean-100,1078,83,Grave Questions (p. 202),Round the Moon,Fantasy / Sci-Fi
+139304,1363,10.94,train-clean-100,1124,12163,THE AWAKENING (1400 words),Sleeper Awakes,Fantasy / Sci-Fi
+139310,2893,11.79,train-clean-100,1124,12163,THE PEOPLE MARCH (2000 words),Sleeper Awakes,Fantasy / Sci-Fi
+139322,2893,12.62,train-clean-100,1124,12163,THE UNDER-SIDE (2200 words),Sleeper Awakes,Fantasy / Sci-Fi
+139469,2002,24.94,train-clean-100,1133,18247,"16 Vol 2, Ch 05",Last Man,Fantasy / Sci-Fi
+139804,1263,7.05,train-clean-100,1149,14770,20 - Brief,Life in a Thousand Worlds,Fiction
+140045,1578,6.57,train-clean-100,1158,498,"Ch. XI - ""The Stirring Of The Powers""",Rebecca of Sunnybrook Farm,Children / Juvenile
+140047,1553,11.6,train-clean-100,1158,498,Ch. XIII - Snow-White; Rose-Red,Rebecca of Sunnybrook Farm,Children / Juvenile
+140048,1553,10.89,train-clean-100,1158,498,Ch. XIV - Mr. Aladdin,Rebecca of Sunnybrook Farm,Children / Juvenile
+140049,1578,8.49,train-clean-100,1158,498,Ch. XV - The Banquet Lamp,Rebecca of Sunnybrook Farm,Children / Juvenile
+140277,250,3.7,train-clean-100,1176,15082,Preface,Life of the Spirit and the Life of Today,Other
+141149,1723,25.12,train-clean-100,1211,944,10-1 - Tierra del Fuego,Voyage of the Beagle,Fiction
+141719,1992,12.29,train-clean-100,1250,18972,Chapter 16,Zadig or the Book of Fate,Fiction
+141777,1263,9.93,train-clean-100,1254,19090,Chapter 5,Star Hunter,Fantasy / Sci-Fi
+142276,250,15.14,train-clean-100,1284,4276,Chapter 02,North and South,Fiction
+142286,250,6.32,train-clean-100,1284,4276,Chapter 12,North and South,Fiction
+142371,2817,15.84,train-clean-100,1288,507,"Book 4, Chapter 32: Mrs. Poyser ""Has Her Say Out""",Adam Bede,Fiction
+142380,2817,9.3,train-clean-100,1288,507,"Book 5, Chapter 41: The Eve of the Trial",Adam Bede,Fiction
+142393,1963,11.96,train-clean-100,1288,507,"Book 6, Chapter 54: The Meeting on the Hill",Adam Bede,Fiction
+142396,1737,4.74,train-clean-100,1289,291,Prologue: The Olympians,Golden Age,Fiction
+142397,1737,8.29,train-clean-100,1289,291,A Holiday,Golden Age,Fiction
+142776,1963,5.79,train-clean-100,1319,10136,012 - Recipes. Chapter 6. Part 5.,Book of Household Management,Fiction
+142912,1743,7.48,train-clean-100,1321,3074,THE WATCHMAN OF THE OLD ORCHARD: The Kingbird and the Great Crested Flycatcher.,Burgess Bird Book for Children,Children / Juvenile
+142913,1743,6.87,train-clean-100,1321,3074,OLD CLOTHES AND OLD HOUSES: The Wood Peewee and Some Nesting Places.,Burgess Bird Book for Children,Children / Juvenile
+142914,1743,6.95,train-clean-100,1321,3074,LONGBILL AND TEETER: The Woodcock and the Spotted Sandpiper.,Burgess Bird Book for Children,Children / Juvenile
+142933,1624,10.32,train-clean-100,1321,3074,PETER SEES ROSEBREAST AND FINDS REDCOAT: The Rose-breasted Grosbeak and the Scarlet Tanager.,Burgess Bird Book for Children,Children / Juvenile
+143879,1926,7.48,train-clean-100,1377,2834,Chapter 31,Portrait of a Lady Vol 2,Fiction
+145015,2391,24.54,train-clean-100,1440,17797,Chapter 2: Description of Steventon--Life at Steventon--Changes of Habits and Customs in the last Century,Memoir of Jane Austen,Non-fiction
+145458,254,4.96,train-clean-100,1462,3688,Introduction by A.A. Milne,Chronicles of Clovis,Poetry / Short Form
+145702,1898,3.78,train-clean-100,1477,640,The Dragon and His Grandmother,Yellow Fairy Book,Children / Juvenile
+145706,2092,19.9,train-clean-100,1477,640,The Grateful Beasts,Yellow Fairy Book,Children / Juvenile
+145709,2092,5.2,train-clean-100,1477,640,The Crow,Yellow Fairy Book,Children / Juvenile
+145715,1898,10.35,train-clean-100,1477,640,Fairer-than-a-Fairy,Yellow Fairy Book,Children / Juvenile
+145720,1898,3.81,train-clean-100,1477,640,In the Land of Souls,Yellow Fairy Book,Children / Juvenile
+145724,1898,7.09,train-clean-100,1477,640,The Flower Queen's Daughter,Yellow Fairy Book,Children / Juvenile
+146161,1737,3.17,train-clean-100,1503,21032,Leaf Pattern for Half-Square Shawl,Exercises in Knitting,Other
+147036,1963,7.44,train-clean-100,1546,20912,THE CONFESSION OF ODETTE RIDER,Daffodil Mystery,Mystery / Crime
+147979,1926,11.53,train-clean-100,1592,19810,"Book 2 (The Hired Girls), Chapter 7",My Antonia,Fiction
+147987,1926,6.18,train-clean-100,1592,19810,"Book 2 (The Hired Girls), Chapter 15",My Antonia,Fiction
+148436,1867,8.29,train-clean-100,1605,11093,The First Day,Trailin'!,Fiction
+148989,1737,8.84,train-clean-100,1628,3499,Waiting,Jo's Boys,Fiction
+149482,2514,25.11,train-clean-100,1660,1000006,"Book Sixth, Chapter 3",Wings of the Dove,Unknown
+149877,2007,12.62,train-clean-100,1676,5267,A Glittering Night Flower: The Use of a Name,Sister Carrie,Fiction
+150130,2182,9.63,train-clean-100,1682,1557,Chapter 17,Men of Iron,Fiction
+150351,1841,7.05,train-clean-100,1693,22302,The Native Inhabitants of the Pacific Slope,Western United States,Other
+152137,2416,8.62,train-clean-100,1778,1218,P-1 Ch 6-A Devil's Work,Adventures of Jimmie Dale,Fiction
+152139,2416,16.55,train-clean-100,1778,1218,P-1 Ch 6-C Devil's Work,Adventures of Jimmie Dale,Fiction
+152253,2289,5.58,train-clean-100,1784,3725,Attila the Hun,Famous Men of the Middle Ages,Fiction
+152254,2289,6.35,train-clean-100,1784,3725,Genseric the Vandal,Famous Men of the Middle Ages,Fiction
+152257,2289,5.94,train-clean-100,1784,3725,Justinian,Famous Men of the Middle Ages,Fiction
+152258,2289,7.21,train-clean-100,1784,3725,Mohammed,Famous Men of the Middle Ages,Fiction
+152900,2384,20.21,train-clean-100,1817,4229,"Vol I Ch 2: Plan and Preparations, pt 3","South Pole; an account of the Norwegian Antarctic expedition in the Fram, 1910-12",Fiction
+152918,2843,25.18,train-clean-100,1817,4229,"Vol II Ch 11: Through the Mountains, pt 2","South Pole; an account of the Norwegian Antarctic expedition in the Fram, 1910-12",Fiction
+154071,1867,7.28,train-clean-100,1880,11880,Two Apparitions,Ronicky Doone,Fiction
+154075,1867,9.6,train-clean-100,1880,11880,The Strange Bargain,Ronicky Doone,Fiction
+154825,2518,13.02,train-clean-100,1918,10743,Chapter 10 Part (1) THE ESCAPE,Moonfleet,Fiction
+154826,2518,12.05,train-clean-100,1918,10743,Chapter 10 Part (2) THE ESCAPE,Moonfleet,Fiction
+155990,233,10.64,train-clean-100,1965,3335,"Ch 15-The Peace of Righteousness, pt 1",Theodore Roosevelt: an Autobiography,Non-fiction
+156745,2691,9.41,train-clean-100,2011,11146,Chapter XVII,Expedition of the Donner Party and its Tragic Fate,Fiction
+156750,2691,7.51,train-clean-100,2011,11146,Chapter XXII,Expedition of the Donner Party and its Tragic Fate,Fiction
+156755,2691,8.24,train-clean-100,2011,11146,Chapter XXVII,Expedition of the Donner Party and its Tragic Fate,Fiction
+158077,4088,20.61,train-clean-100,2095,3604,"The Suffrage War Policy, The First Arrests",Jailed For Freedom,Other
+158079,4088,4.54,train-clean-100,2095,3604,August Riots,Jailed For Freedom,Other
+158083,3259,25.19,train-clean-100,2095,3604,Administration Terrorism,Jailed For Freedom,Other
+159771,1841,9.52,train-clean-100,2179,24872,Chapters 19 - 21,Tale of Master Meadow Mouse,Children / Juvenile
+166424,3486,16.03,train-clean-100,2501,3479,The Smiting Thing,Metal Monster,Fantasy / Sci-Fi
+166446,3486,9.05,train-clean-100,2501,3479,The Drums Of Destiny,Metal Monster,Fantasy / Sci-Fi
+167602,3214,7.29,train-clean-100,2562,2600,Chapter 14,"War and Peace, Book 10: 1812",Children / Juvenile
+167606,3214,8.57,train-clean-100,2562,2600,Chapter 18,"War and Peace, Book 10: 1812",Children / Juvenile
+167607,3214,9.23,train-clean-100,2562,2600,Chapter 19,"War and Peace, Book 10: 1812",Children / Juvenile
+168623,1624,11.71,train-clean-100,2614,135,Bk 03 Ch 02: Two Complete Portraits,Miserables Vol. 2,Fiction
+170151,2196,7.97,train-clean-100,2664,6911,5 - Failure as a Success,Majesty of Calmness,Non-fiction
+170379,2196,7.37,train-clean-100,2677,22814,Chapter 12 - The Nature of Hypnosis,Practical Guide to Self-Hypnosis,Other
+171006,3440,7.11,train-clean-100,2709,6440,14 - Chapter Eleventh,Elsie Dinsmore,Children / Juvenile
+171009,3440,18.07,train-clean-100,2709,6440,17 - Chapter Fourteenth,Elsie Dinsmore,Children / Juvenile
+171115,3723,12.52,train-clean-100,2715,2850,"09 - Book 1, Ch 17-18",Wars of the Jews,Fiction
+171631,3723,12.55,train-clean-100,2732,23772,11 - Devotion 11,Devotions upon Emergent Occasions,Poetry / Short Form
+172162,3436,11.75,train-clean-100,2752,4926,Ch 09: The Adventure of the Cart,Age of Chivalry,Children / Juvenile
+172171,3436,13.5,train-clean-100,2752,4926,Ch 18: Perceval,Age of Chivalry,Children / Juvenile
+172357,460,5.57,train-clean-100,2761,3533,00 - Preface,Sunshine Sketches of a Little Town (version 2),Fiction
+172359,460,19.66,train-clean-100,2761,3533,02 - The Speculations of Jefferson Thorpe,Sunshine Sketches of a Little Town (version 2),Fiction
+173564,3168,10.37,train-clean-100,2813,2600,Chapter 31,"War and Peace, Book 11: 1812",Children / Juvenile
+173565,3168,13.53,train-clean-100,2813,2600,Chapter 32,"War and Peace, Book 11: 1812",Children / Juvenile
+173592,3879,9.27,train-clean-100,2816,3721,"Ch 06 (1564, 1565) Famine - War - Succor",Pioneers of France in the New World,Fiction
+174172,2196,9.9,train-clean-100,2843,13193,Supreme Control of Age,Supreme Personality,Other
+174923,3879,15.83,train-clean-100,2877,18640,Ch 06: Phineas and His Old Friends,Phineas Redux,Fiction
+175658,3526,7.95,train-clean-100,2912,1028,Chapter IX,Professor,Fiction
+175950,3699,5.43,train-clean-100,2927,1079,Chapter 25-27,"Life and Opinions of Tristram Shandy, Gentleman Vol. 2",Fiction
+176651,3526,5.43,train-clean-100,2954,5122,01 - Chapter 01,Trail of the Lonesome Pine,Fiction
+176653,3526,11.8,train-clean-100,2954,5122,03 - Chapter 03,Trail of the Lonesome Pine,Fiction
+178355,3664,8.68,train-clean-100,3047,10030,Chapter 15: Champion Buffalo Killer,"Life of Honorable William F. Cody, Known as Buffalo Bill The Famous Hunter, Scout and Guide",Non-fiction
+178366,3664,8.99,train-clean-100,3047,10030,Chapter 26: Sight-Seeing,"Life of Honorable William F. Cody, Known as Buffalo Bill The Famous Hunter, Scout and Guide",Non-fiction
+178459,3982,14.43,train-clean-100,3049,1098,Chapter 29,Turmoil (Growth Trilogy Vol 1),Fiction
+179154,2159,8.96,train-clean-100,3082,19342,05 - Amusing experiments,"Complete Hypnotism, Mesmerism, Mind-Reading and Spiritualism",Fiction
+179156,2159,8.1,train-clean-100,3082,19342,07 - How the subject feels under hypnotization,"Complete Hypnotism, Mesmerism, Mind-Reading and Spiritualism",Fiction
+179157,2159,8.06,train-clean-100,3082,19342,08 - Self-hypnotization,"Complete Hypnotism, Mesmerism, Mind-Reading and Spiritualism",Fiction
+179183,1841,8.56,train-clean-100,3084,27683,The Seeing Hand,World I Live In,Other
+180298,374,14.78,train-clean-100,3133,1608,16 - Chapter 16,Camille,Fiction
+180299,374,10.38,train-clean-100,3133,1608,17 - Chapter 17,Camille,Fiction
+180923,3857,6.66,train-clean-100,3165,27969,Part 7,County Regiment,Fiction
+181173,2182,8.53,train-clean-100,3179,479,03 - Chapter 03,Little Lord Fauntleroy (version 2),Children / Juvenile
+181183,2182,6.99,train-clean-100,3179,479,13 - Chapter 13,Little Lord Fauntleroy (version 2),Children / Juvenile
+182255,3982,10.64,train-clean-100,3227,4020,14 - The Great Fight for Clean Government pt 1,Arcadian Adventures with the Idle Rich,Fiction
+182315,3857,10.37,train-clean-100,3233,6882,Part 1,This Simian World,Poetry / Short Form
+182317,3857,8.14,train-clean-100,3233,6882,Part 3,This Simian World,Poetry / Short Form
+186175,4014,6.38,train-clean-100,3424,22079,07 - The Timely Rescue,Brighton Boys in the Radio Service,Children / Juvenile
+186176,4014,6.17,train-clean-100,3424,22079,08 - Death of the Spy,Brighton Boys in the Radio Service,Children / Juvenile
+186179,4014,7.73,train-clean-100,3424,22079,11 - Tapping the Enemy's Wire,Brighton Boys in the Radio Service,Children / Juvenile
+186183,4014,4.93,train-clean-100,3424,22079,15 - The Surprise Attack - Promotion,Brighton Boys in the Radio Service,Children / Juvenile
+186236,4195,4.69,train-clean-100,3428,10123,23 - Patsy Adopts an Uncle,Aunt Jane's Nieces,Children / Juvenile
+186237,4195,7.06,train-clean-100,3428,10123,24 - Home Again,Aunt Jane's Nieces,Children / Juvenile
+186238,4195,5.36,train-clean-100,3428,10123,25 - Uncle John Acts Queerly,Aunt Jane's Nieces,Children / Juvenile
+216547,6880,25.1,train-clean-100,4861,360,Preface,What is Property? An Inquiry into the Principle of Right and of Government,Non-fiction
+216552,6181,25.09,train-clean-100,4861,360,"Chapter Two, Part 3",What is Property? An Inquiry into the Principle of Right and of Government,Non-fiction
+220959,6385,9.71,train-clean-100,5086,19289,"[Part 2: Some Christian Subjects] 16. Outward Forms and Symbols Must be Used to Convey Intellectual Conceptions, 17. The Birth of Christ, 18. The Greatness of Christ is Due to His Perfections",Some Answered Questions,Non-fiction
+246940,8465,6.84,train-clean-100,6286,5976,52 - Advice in the Dark,"Thomas Wingfold, Curate",Fiction
+246942,8465,5.89,train-clean-100,6286,5976,54 - Helen Alone,"Thomas Wingfold, Curate",Fiction
+246943,8465,5.57,train-clean-100,6286,5976,55 - A Haunted Soul,"Thomas Wingfold, Curate",Fiction
+246947,8465,6.58,train-clean-100,6286,5976,59 - Sleep,"Thomas Wingfold, Curate",Fiction
+246956,7278,8.05,train-clean-100,6286,5976,68 - After the Sermon,"Thomas Wingfold, Curate",Fiction
+246962,8425,7.13,train-clean-100,6286,5976,74 - Helen and the Curate,"Thomas Wingfold, Curate",Fiction
+248638,4813,12.25,train-clean-100,6371,21895,Milton and the Blue Hills,Old Coast Road From Boston to Plymouth,Non-fiction
+248641,4813,12.88,train-clean-100,6371,21895,Ecclesiastical Hingham,Old Coast Road From Boston to Plymouth,Non-fiction
+252322,6848,7.41,train-clean-100,6545,33556,Glencore Castle,Fortunes of Glencore,Fiction
+252323,6848,9.57,train-clean-100,6545,33556,"Billy Traynor-Poet, Pedlar and Physician",Fortunes of Glencore,Fiction
+258958,7505,8.4,train-clean-100,6801,40077,Chapter 6 - Psychic Income,Principles of Economics with Applications to Practical Problems,Non-fiction
+258964,7505,11.54,train-clean-100,6801,40077,Chapter 12 - Increase of Rent-Bearers and of Rents,Principles of Economics with Applications to Practical Problems,Non-fiction
+261139,8629,15.52,train-clean-100,6885,5162,What Followed the Striking of the Clock,Agatha Webb,Fiction
+261140,8629,9.62,train-clean-100,6885,5162,A Witness Lost,Agatha Webb,Fiction
+262281,8609,9.17,train-clean-100,6923,9192,Chapter XVI - Much To Alter.,Channings,Fiction
+270782,8975,25.11,train-clean-100,7296,38219,Archaic Remnants and Infantilism in the Dream,General Introduction to Psychoanalysis,Other
+271888,7078,25.14,train-clean-100,7350,40999,III -The Masked Circe,Stolen Souls,Fiction
+274112,8063,6.74,train-clean-100,7451,2710,01 - Malaga,Louise de la Valliere,Fiction
+274115,8063,6.56,train-clean-100,7451,2710,04 - The Rat and the Cheese,Louise de la Valliere,Fiction
+274116,8063,6.43,train-clean-100,7451,2710,05 - Planchet's Country-House,Louise de la Valliere,Fiction
+274117,8063,5.35,train-clean-100,7451,2710,06 - Showing What Could Be Seen from Planchet's House,Louise de la Valliere,Fiction
+274318,8108,11.98,train-clean-100,7459,10624,A Psychical Invasion part 6,John Silence,Fantasy / Sci-Fi
+274345,8095,8.5,train-clean-100,7460,19215,"Chapter 50, part 1","Historical fiction of England from the Invasion of Julius Caesar to the Revolution of 1688, Volume 1E",Fiction
+274346,8095,12.71,train-clean-100,7460,19215,"Chapter 50, part 2","Historical fiction of England from the Invasion of Julius Caesar to the Revolution of 1688, Volume 1E",Fiction
+274348,8095,3.82,train-clean-100,7460,19215,"Chapter 50, part 4","Historical fiction of England from the Invasion of Julius Caesar to the Revolution of 1688, Volume 1E",Fiction
+274369,8226,13.41,train-clean-100,7460,19215,"Chapter 55, part 4","Historical fiction of England from the Invasion of Julius Caesar to the Revolution of 1688, Volume 1E",Fiction
+274371,8226,11.77,train-clean-100,7460,19215,"Chapter 55, part 6","Historical fiction of England from the Invasion of Julius Caesar to the Revolution of 1688, Volume 1E",Fiction
+274553,8238,14.54,train-clean-100,7469,2150,08 - Mystification,"Works of Edgar Allan Poe, Raven Edition, Volume 4",Fantasy / Sci-Fi
+274562,7780,23.5,train-clean-100,7469,2150,17 - The Landscape Garden,"Works of Edgar Allan Poe, Raven Edition, Volume 4",Fantasy / Sci-Fi
+275181,8098,7.75,train-clean-100,7496,8075,"07 - A Droll Fox-Trap, C. A. Stephens",Junior Classics Volume 8: Animal and Nature Stories,Children / Juvenile
+275193,8123,6.55,train-clean-100,7496,8075,"19 - Jeff the Inquisitive, Rush C. Hawkins",Junior Classics Volume 8: Animal and Nature Stories,Children / Juvenile
+275209,8123,7.81,train-clean-100,7496,8075,"35 - The Butterfly's Children, Mrs. Alfred Gatty",Junior Classics Volume 8: Animal and Nature Stories,Children / Juvenile
+275216,8123,10.79,train-clean-100,7496,8075,"42 - The Beech and the Oak, Carl Ewald",Junior Classics Volume 8: Animal and Nature Stories,Children / Juvenile
+278252,8098,8.55,train-clean-100,7612,42214,"A Peculiar, Cold Day",On A Donkey's Hurricane Deck,Non-fiction
+278278,8098,8.88,train-clean-100,7612,42214,Baby Girl Named For Pod,On A Donkey's Hurricane Deck,Non-fiction
+279790,8312,12.16,train-clean-100,7683,19734,The Blue Bird Part 1,Fairy Book,Children / Juvenile
+279791,8312,12.98,train-clean-100,7683,19734,The Blue Bird Part 2,Fairy Book,Children / Juvenile
+280354,8108,6.18,train-clean-100,7706,15202,Orpheus,"Young Folks' Treasury, Volume 2",Fantasy / Sci-Fi
+280359,8108,6.88,train-clean-100,7706,15202,The Punishment Of Loki,"Young Folks' Treasury, Volume 2",Fantasy / Sci-Fi
+280382,8014,2.5,train-clean-100,7706,15202,How Horatius Held The Bridge,"Young Folks' Treasury, Volume 2",Fantasy / Sci-Fi
+283227,8609,15.93,train-clean-100,7829,5773,Chapter 17 The church-rate,Annals of a Quiet Neighbourhood,Fiction
+283452,8238,10.54,train-clean-100,7839,26950,Introduction,Humorous Ghost Stories,Fantasy / Sci-Fi
+283478,7800,7.81,train-clean-100,7840,42630,"A Broken Window, and Glorious News",Outdoor Chums in the Big Woods,Children / Juvenile
+283492,7800,8.65,train-clean-100,7840,42630,Did Teddy Know?,Outdoor Chums in the Big Woods,Children / Juvenile
+283493,7800,8.75,train-clean-100,7840,42630,The Big Moose,Outdoor Chums in the Big Woods,Children / Juvenile
+284756,8088,25.06,train-clean-100,7897,29607,From the Oceans Depths by Sewell Peaslee Wright,"Astounding Stories 03, March 1930",Fantasy / Sci-Fi
+285357,6563,10.44,train-clean-100,7920,793,Chapter 03   Germany's Rise to Military Airship Supremacy   Part 2,Aeroplanes and Dirigibles of War,Fiction
+286667,8419,7.25,train-clean-100,7981,35002,The Dance of the Sand-hill Cranes,Among the Pond People,Children / Juvenile
+286673,8468,8.7,train-clean-100,7981,35002,The Slow Little Mud Turtle,Among the Pond People,Children / Juvenile
+286676,8419,7.32,train-clean-100,7981,35002,The Clever Water-Adder,Among the Pond People,Children / Juvenile
+286681,8324,5.36,train-clean-100,7981,35002,Two Little Crayfishes Quarrel,Among the Pond People,Children / Juvenile
+286682,8324,11.56,train-clean-100,7981,35002,The Lucky Mink,Among the Pond People,Children / Juvenile
+286683,8324,8.24,train-clean-100,7981,35002,The Playful Muskrats,Among the Pond People,Children / Juvenile
+287363,8580,8.32,train-clean-100,8007,1282,A Warning by Telegraph,Tom Swift Among the Diamond Makers,Children / Juvenile
+287364,8580,11.5,train-clean-100,8007,1282,Dropping a Stowaway,Tom Swift Among the Diamond Makers,Children / Juvenile
+287369,4267,8.92,train-clean-100,8007,1282,The Landslide,Tom Swift Among the Diamond Makers,Children / Juvenile
+287387,8425,6.75,train-clean-100,8008,43005,Chapter VIII,Inevitable,Fiction
+291444,8425,4.78,train-clean-100,8106,13042,To the Public,"Knickerbocker's Historical fiction of New York, Vol. 1",Fiction
+292520,8425,6.49,train-clean-100,8145,36508,Poems by J.R. Dos Passos,Eight Harvard Poets,Poetry / Short Form
+293469,8419,5.44,train-clean-100,8172,34943,The Tree Frog's Story,Among the Meadow People,Children / Juvenile
+293473,8419,5.2,train-clean-100,8172,34943,The Dignified Walking-Sticks,Among the Meadow People,Children / Juvenile
+293952,8747,23.49,train-clean-100,8185,42056,The New Page,Red Window,Mystery / Crime
+294123,8797,22.76,train-clean-100,8193,4953,The Yellow Peril,"Revolution, and other Essays",Non-fiction
+294466,4788,7.45,train-clean-100,8203,43699,Chapter 2,Phantom Town Mystery,Children / Juvenile
+294887,8468,8.77,train-clean-100,8217,15263,"Portraits And Sketches - Lewis Tappan, Part 1","Underground Railroad, Part 5",Non-fiction
+295198,8468,7.76,train-clean-100,8231,2486,Mother Magpie's Mischief,Queer Little Folks,Fiction
+295385,8051,8.99,train-clean-100,8241,13042,"Book VI, Chapter I","Knickerbocker's Historical fiction of New York, Vol. 2",Fiction
+295462,8770,9.53,train-clean-100,8244,22925,How Emancipation Came to Pass,Story of Young Abraham Lincoln,Non-fiction
+295463,8770,5.92,train-clean-100,8244,22925,The Glory of Gettysburg,Story of Young Abraham Lincoln,Non-fiction
+295465,8770,9.68,train-clean-100,8244,22925,"Lieutenant Tad Lincoln, Patriot",Story of Young Abraham Lincoln,Non-fiction
+295947,7794,11.52,train-clean-100,8268,15164,The Grateful Foxes,Folk Tales Every Child Should Know,Children / Juvenile
+295948,7794,5.81,train-clean-100,8268,15164,The Badger's Money,Folk Tales Every Child Should Know,Children / Juvenile
+295955,7794,7.9,train-clean-100,8268,15164,The Dragon And The Prince,Folk Tales Every Child Should Know,Children / Juvenile
+298025,3374,6.96,train-clean-100,8361,12060,Prologue/Confessions of an Awkward Man (Julius to Lucinda),Lucinda,Fiction
+298026,3374,9.58,train-clean-100,8361,12060,Dithyrambic Fantasy on the Loveliest of Situations,Lucinda,Fiction
+298032,3374,8.63,train-clean-100,8361,12060,Two Letters: Two,Lucinda,Fiction
+298545,8838,12.55,train-clean-100,8386,10446,"The Croxley Master - I, part 1",Green Flag and Other Stories of War and Sport,Fiction
+298546,8838,12.51,train-clean-100,8386,10446,"The Croxley Master - I, part 2",Green Flag and Other Stories of War and Sport,Fiction
+300880,6064,8.82,train-clean-100,8473,44326,Chapter 10,Wanted: A Husband,Fiction
+305212,8630,10.5,train-clean-100,8645,35941,How Augustine Went to Carthage and How Patricius Died a Christian Death,Life of Saint Monica,Fiction
+305213,8630,13.0,train-clean-100,8645,35941,"How St. Monica Lived in the Days of Her Widowhood, and How She Put All Her Trust in God",Life of Saint Monica,Fiction
