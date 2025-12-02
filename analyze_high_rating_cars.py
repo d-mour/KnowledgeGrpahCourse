@@ -158,18 +158,22 @@ def analyze_high_rating_cars():
         print(f"   Максимум: {max(hp_values)}")
     
     if city_mpg_values:
-        print(f"\n🏙️ РАСХОД В ГОРОДЕ (MPG):")
-        print(f"   Среднее: {statistics.mean(city_mpg_values):.1f}")
-        print(f"   Медиана: {statistics.median(city_mpg_values):.1f}")
-        print(f"   Минимум: {min(city_mpg_values):.1f}")
-        print(f"   Максимум: {max(city_mpg_values):.1f}")
+        # Конвертируем MPG в l/100km
+        city_l_values = [235.2 / mpg for mpg in city_mpg_values]
+        print(f"\n🏙️ РАСХОД В ГОРОДЕ (l/100km):")
+        print(f"   Среднее: {statistics.mean(city_l_values):.1f}")
+        print(f"   Медиана: {statistics.median(city_l_values):.1f}")
+        print(f"   Минимум: {min(city_l_values):.1f}")
+        print(f"   Максимум: {max(city_l_values):.1f}")
     
     if highway_mpg_values:
-        print(f"\n🛣️ РАСХОД НА ТРАССЕ (MPG):")
-        print(f"   Среднее: {statistics.mean(highway_mpg_values):.1f}")
-        print(f"   Медиана: {statistics.median(highway_mpg_values):.1f}")
-        print(f"   Минимум: {min(highway_mpg_values):.1f}")
-        print(f"   Максимум: {max(highway_mpg_values):.1f}")
+        # Конвертируем MPG в l/100km
+        highway_l_values = [235.2 / mpg for mpg in highway_mpg_values]
+        print(f"\n🛣️ РАСХОД НА ТРАССЕ (l/100km):")
+        print(f"   Среднее: {statistics.mean(highway_l_values):.1f}")
+        print(f"   Медиана: {statistics.median(highway_l_values):.1f}")
+        print(f"   Минимум: {min(highway_l_values):.1f}")
+        print(f"   Максимум: {max(highway_l_values):.1f}")
     
     if years:
         print(f"\n📅 ГОДЫ ВЫПУСКА:")
