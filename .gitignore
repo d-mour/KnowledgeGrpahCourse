@@ -1,3 +1,29 @@
 venv/
 venv/*
 .DS_STORE
+
+# Большие файлы embeddings
+embeddings/
+kg_embeddings/
+kg_embeddings_pykeen/
+
+# Файлы моделей и данных
+*.pkl
+*.pth
+*.npy
+*.h5
+*.hdf5
+
+# Изображения
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Временные файлы
+temp_*.tsv
+temp_*.csv
+*.tmp
+
+# Онтологии (если большие)
+# cars_ontology.owl
