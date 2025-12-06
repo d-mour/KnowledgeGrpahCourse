@@ -230,25 +230,26 @@ def predict_tail(model, head_name: str, relation_name: str,
     print(f"\n🔍 Предсказание: ({head_name}, {relation_name}, ?)")
     print(f"   Head ID: {head_id}, Relation ID: {relation_id}")
     
-    # Предсказываем все возможные tail
-    head_tensor = torch.tensor([head_id])
-    relation_tensor = torch.tensor([relation_id])
+    num_entities = model.num_entities
     
-    # Получаем scores для всех возможных tail
-    # PyKEEN использует batch для предсказаний
-    scores = model.score_hrt(head_tensor, relation_tensor, None)
+    hrt_batch = torch.zeros((num_entities, 3), dtype=torch.long)
+    hrt_batch[:, 0] = head_id
+    hrt_batch[:, 1] = relation_id
+    hrt_batch[:, 2] = torch.arange(num_entities)
     
-    # Если scores - это tensor с размерностью [batch_size, num_entities]
-    if len(scores.shape) > 1:
-        scores = scores[0]  # Берем первый batch
+    with torch.no_grad():
+        scores = model.score_hrt(hrt_batch)
     
-    # Сортируем по убыванию score
-    top_scores, top_indices = torch.topk(scores, k=min(top_k, len(scores)), dim=-1)
+    scores = scores.squeeze(-1)
+    
+    top_scores, top_indices = torch.topk(scores, k=min(top_k, len(scores)))
+    tail_ids = top_indices.tolist()
+    scores_list = top_scores.tolist()
     
     results = []
-    for score, idx in zip(top_scores[0], top_indices[0]):
-        tail_name = id_to_entity.get(int(idx.item()), f"Entity_{int(idx.item())}")
-        results.append((tail_name, float(score.item())))
+    for tail_id, score in zip(tail_ids, scores_list):
+        tail_name = id_to_entity.get(int(tail_id), f"Entity_{int(tail_id)}")
+        results.append((tail_name, float(score)))
     
     return results
 
@@ -271,24 +272,26 @@ def predict_head(model, relation_name: str, tail_name: str,
     print(f"\n🔍 Предсказание: (?, {relation_name}, {tail_name})")
     print(f"   Tail ID: {tail_id}, Relation ID: {relation_id}")
     
-    # Предсказываем все возможные head
-    relation_tensor = torch.tensor([relation_id])
-    tail_tensor = torch.tensor([tail_id])
+    num_entities = model.num_entities
     
-    # Получаем scores для всех возможных head
-    scores = model.score_hrt(None, relation_tensor, tail_tensor)
+    hrt_batch = torch.zeros((num_entities, 3), dtype=torch.long)
+    hrt_batch[:, 0] = torch.arange(num_entities)
+    hrt_batch[:, 1] = relation_id
+    hrt_batch[:, 2] = tail_id
     
-    # Если scores - это tensor с размерностью [batch_size, num_entities]
-    if len(scores.shape) > 1:
-        scores = scores[0]  # Берем первый batch
+    with torch.no_grad():
+        scores = model.score_hrt(hrt_batch)
     
-    # Сортируем по убыванию score
-    top_scores, top_indices = torch.topk(scores, k=min(top_k, len(scores)), dim=-1)
+    scores = scores.squeeze(-1)
+    
+    top_scores, top_indices = torch.topk(scores, k=min(top_k, len(scores)))
+    head_ids = top_indices.tolist()
+    scores_list = top_scores.tolist()
     
     results = []
-    for score, idx in zip(top_scores[0], top_indices[0]):
-        head_name = id_to_entity.get(int(idx.item()), f"Entity_{int(idx.item())}")
-        results.append((head_name, float(score.item())))
+    for head_id, score in zip(head_ids, scores_list):
+        head_name_result = id_to_entity.get(int(head_id), f"Entity_{int(head_id)}")
+        results.append((head_name_result, float(score)))
     
     return results
 
@@ -300,22 +303,22 @@ def find_similar_entities(model, entity_name: str, entity_to_id: dict, id_to_ent
     
     entity_id = entity_to_id[entity_name]
     
-    # Получаем embedding сущности
-    entity_embedding = model.entity_embeddings[entity_id]
+    with torch.no_grad():
+        all_entity_ids = torch.arange(model.num_entities, dtype=torch.long)
+        all_embeddings = model.entity_representations[0](all_entity_ids)
+        
+        entity_embedding = all_embeddings[entity_id]
+        
+        similarities = torch.nn.functional.cosine_similarity(
+            entity_embedding.unsqueeze(0), all_embeddings, dim=1
+        )
     
-    # Вычисляем косинусное сходство со всеми сущностями
-    all_embeddings = model.entity_embeddings
-    similarities = torch.nn.functional.cosine_similarity(
-        entity_embedding.unsqueeze(0), all_embeddings, dim=1
-    )
-    
-    # Получаем топ-k (исключая саму сущность)
     top_scores, top_indices = torch.topk(similarities, k=min(top_k + 1, len(similarities)), dim=-1)
     
     results = []
     for score, idx in zip(top_scores, top_indices):
         idx_val = int(idx.item())
-        if idx_val != entity_id:  # Исключаем саму сущность
+        if idx_val != entity_id:
             similar_name = id_to_entity.get(idx_val, f"Entity_{idx_val}")
             results.append((similar_name, float(score.item())))
             if len(results) >= top_k:
