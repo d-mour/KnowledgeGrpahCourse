@@ -1,0 +1,503 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wow: <http://example.org/wowkg#> .
+
+wow: a owl:Ontology ;
+ rdfs:label "WoW Knowledge Graph Ontology"@en , "Онтология графа знаний WoW"@ru ;
+ rdfs:comment "Начальная онтология для графа знаний World of Warcraft: предметы, источники добычи, активности, классы/спеки и их связи."@ru .
+
+#################################################################
+# Classes
+#################################################################
+
+wow:WoWEntity a owl:Class ;
+ rdfs:label "WoW Entity"@en , "Сущность WoW"@ru .
+
+wow:PlayerClass a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Player Class"@en , "Класс персонажа"@ru .
+
+wow:Specialization a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Specialization"@en , "Специализация"@ru .
+
+wow:Role a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Role"@en , "Роль"@ru .
+
+wow:Item a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Item"@en , "Предмет"@ru .
+
+# --- ДОБАВЛЕННЫЕ ПОДКЛАССЫ ПРЕДМЕТОВ ---
+wow:Consumable a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Consumable"@en , "Расходник"@ru .
+
+wow:Gem a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Gem"@en , "Самоцвет"@ru .
+
+wow:Enchant a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Enchant"@en , "Чары"@ru .
+# ----------------------------------------
+
+# --- ПОДКЛАССЫ ПРЕДМЕТОВ ЭКИПИРОВКИ ---
+wow:Weapon a owl:Class ;
+ rdfs:subClassOf wow:Item ;
+ rdfs:label "Weapon"@en , "Оружие"@ru .
+
+wow:Armor a owl:Class ;
+ rdfs:subClassOf wow:Item ;
+ rdfs:label "Armor"@en , "Броня"@ru .
+
+wow:Trinket a owl:Class ;
+ rdfs:subClassOf wow:Item ;
+ rdfs:label "Trinket"@en , "Тринкет"@ru .
+
+wow:Ring a owl:Class ;
+ rdfs:subClassOf wow:Item ;
+ rdfs:label "Ring"@en , "Кольцо"@ru .
+
+wow:Neck a owl:Class ;
+ rdfs:subClassOf wow:Item ;
+ rdfs:label "Necklace"@en , "Ожерелье"@ru .
+
+wow:Back a owl:Class ;
+ rdfs:subClassOf wow:Item ;
+ rdfs:label "Cloak"@en , "Плащ"@ru .
+
+wow:OffHand a owl:Class ;
+ rdfs:subClassOf wow:Item ;
+ rdfs:label "Off-hand"@en , "Левая рука"@ru .
+# ----------------------------------------
+
+# --- ТИПЫ ОРУЖИЯ (ДОПОЛНЕНИЕ К WOW:WEAPON) ---
+wow:MeleeWeapon a owl:Class ; rdfs:subClassOf wow:Weapon ; rdfs:label "Melee Weapon"@en, "Оружие ближнего боя"@ru .
+wow:RangedWeapon a owl:Class ; rdfs:subClassOf wow:Weapon ; rdfs:label "Ranged Weapon"@en, "Оружие дальнего боя"@ru .
+
+wow:Sword a owl:Class ; rdfs:subClassOf wow:MeleeWeapon ; rdfs:label "Sword"@en, "Меч"@ru .
+wow:Axe a owl:Class ; rdfs:subClassOf wow:MeleeWeapon ; rdfs:label "Axe"@en, "Топор"@ru .
+wow:Mace a owl:Class ; rdfs:subClassOf wow:MeleeWeapon ; rdfs:label "Mace"@en, "Дробящее"@ru .
+wow:Dagger a owl:Class ; rdfs:subClassOf wow:MeleeWeapon ; rdfs:label "Dagger"@en, "Кинжал"@ru .
+wow:FistWeapon a owl:Class ; rdfs:subClassOf wow:MeleeWeapon ; rdfs:label "Fist Weapon"@en, "Кастет"@ru .
+wow:Polearm a owl:Class ; rdfs:subClassOf wow:MeleeWeapon ; rdfs:label "Polearm"@en, "Древковое"@ru .
+wow:Staff a owl:Class ; rdfs:subClassOf wow:MeleeWeapon ; rdfs:label "Staff"@en, "Посох"@ru .
+wow:Shield a owl:Class ; rdfs:subClassOf wow:OffHand ; rdfs:label "Shield"@en, "Щит"@ru .
+
+wow:Bow a owl:Class ; rdfs:subClassOf wow:RangedWeapon ; rdfs:label "Bow"@en, "Лук"@ru .
+wow:Gun a owl:Class ; rdfs:subClassOf wow:RangedWeapon ; rdfs:label "Gun"@en, "Ружье"@ru .
+# ------------------------------------------------
+
+wow:Effect a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Effect"@en , "Эффект"@ru .
+
+wow:Stat a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Stat"@en , "Стат"@ru .
+
+wow:Slot a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Slot"@en , "Слот экипировки"@ru .
+
+wow:ArmorType a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Armor Type"@en , "Тип брони"@ru .
+
+wow:Activity a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Activity"@en , "Активность"@ru .
+
+wow:Dungeon a owl:Class ;
+ rdfs:subClassOf wow:Activity ;
+ rdfs:label "Dungeon"@en , "Подземелье"@ru .
+
+wow:Raid a owl:Class ;
+ rdfs:subClassOf wow:Activity ;
+ rdfs:label "Raid"@en , "Рейд"@ru .
+
+wow:PvP a owl:Class ;
+ rdfs:subClassOf wow:Activity ;
+ rdfs:label "PvP"@en .
+
+# --- ДОБАВЛЕННЫЕ ПОДКЛАССЫ АКТИВНОСТЕЙ ---
+wow:WorldBoss a owl:Class ; rdfs:subClassOf wow:Activity ; rdfs:label "World Boss"@en, "Мировой босс"@ru .
+wow:OpenWorld a owl:Class ; rdfs:subClassOf wow:Activity ; rdfs:label "Open World"@en, "Открытый мир"@ru .
+# ----------------------------------------
+
+wow:Source a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Source"@en , "Источник"@ru .
+
+wow:Boss a owl:Class ;
+ rdfs:subClassOf wow:Source ;
+ rdfs:label "Boss"@en , "Босс"@ru .
+
+wow:Vendor a owl:Class ;
+ rdfs:subClassOf wow:Source ;
+ rdfs:label "Vendor"@en , "Вендор"@ru .
+
+wow:Quest a owl:Class ;
+ rdfs:subClassOf wow:Source ;
+ rdfs:label "Quest"@en , "Квест"@ru .
+
+# --- ДОБАВЛЕННЫЕ ПОДКЛАССЫ ИСТОЧНИКОВ ---
+wow:Crafting a owl:Class ; rdfs:subClassOf wow:Source ; rdfs:label "Crafting"@en, "Крафт (Профессия)"@ru .
+wow:WorldDrop a owl:Class ; rdfs:subClassOf wow:Source ; rdfs:label "World Drop"@en, "Мировой дроп"@ru .
+# ----------------------------------------
+
+wow:Difficulty a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Difficulty"@en , "Сложность"@ru .
+
+wow:Season a owl:Class ;
+ rdfs:subClassOf wow:WoWEntity ;
+ rdfs:label "Season/Patch"@en , "Сезон/Патч"@ru .
+
+# --- ДОБАВЛЕННЫЕ КЛАССЫ ПРОФЕССИЙ ---
+wow:Profession a owl:Class ; rdfs:subClassOf wow:WoWEntity ; rdfs:label "Profession"@en, "Профессия"@ru .
+
+wow:CraftingProfession a owl:Class ; rdfs:subClassOf wow:Profession ; rdfs:label "Crafting Profession"@en, "Производящая профессия"@ru .
+wow:GatheringProfession a owl:Class ; rdfs:subClassOf wow:Profession ; rdfs:label "Gathering Profession"@en, "Собирающая профессия"@ru .
+# ----------------------------------------
+
+#################################################################
+# Object Properties (БЕЗ ИЗМЕНЕНИЙ)
+#################################################################
+
+wow:hasSpecialization a owl:ObjectProperty ;
+ rdfs:domain wow:PlayerClass ;
+ rdfs:range wow:Specialization ;
+ rdfs:label "has specialization"@en , "имеет специализацию"@ru ;
+ owl:inverseOf wow:ofClass .
+
+wow:ofClass a owl:ObjectProperty ;
+ rdfs:domain wow:Specialization ;
+ rdfs:range wow:PlayerClass ;
+ rdfs:label "of class"@en , "класса"@ru .
+
+wow:hasRole a owl:ObjectProperty ;
+ rdfs:domain wow:Specialization ;
+ rdfs:range wow:Role ;
+ rdfs:label "has role"@en , "имеет роль"@ru .
+
+wow:suitableFor a owl:ObjectProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range wow:Specialization ;
+ rdfs:label "suitable for"@en , "подходит для спеки"@ru .
+
+wow:hasSlotObj a owl:ObjectProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range wow:Slot ;
+ rdfs:label "has slot"@en , "слот"@ru .
+
+wow:hasArmorType a owl:ObjectProperty ;
+ rdfs:domain wow:Armor ;
+ rdfs:range wow:ArmorType ;
+ rdfs:label "has armor type"@en , "тип брони"@ru .
+
+wow:dropsFrom a owl:ObjectProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range wow:Source ;
+ rdfs:label "drops from"@en , "добывается у"@ru .
+
+wow:locatedIn a owl:ObjectProperty ;
+ rdfs:domain wow:Source ;
+ rdfs:range wow:Activity ;
+ rdfs:label "located in"@en , "находится в"@ru .
+
+wow:hasEffect a owl:ObjectProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range wow:Effect ;
+ rdfs:label "has effect"@en , "содержит эффект"@ru .
+
+wow:effectiveIn a owl:ObjectProperty ;
+ rdfs:domain wow:Effect ;
+ rdfs:range wow:Activity ;
+ rdfs:label "effective in"@en , "эффективен в"@ru .
+
+wow:synergizesWith a owl:ObjectProperty ;
+ rdfs:domain wow:Trinket ;
+ rdfs:range wow:Specialization ;
+ rdfs:label "synergizes with"@en , "синергирует с"@ru .
+
+wow:conflictsWith a owl:ObjectProperty , owl:SymmetricProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range wow:Item ;
+ rdfs:label "conflicts with"@en , "конфликтует с"@ru .
+
+wow:alternativeTo a owl:ObjectProperty , owl:SymmetricProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range wow:Item ;
+ rdfs:label "alternative to"@en , "альтернатива"@ru .
+
+wow:usesEnchant a owl:ObjectProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range wow:Enchant ;
+ rdfs:label "uses enchant"@en , "использует чары"@ru .
+
+wow:usesGem a owl:ObjectProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range wow:Gem ;
+ rdfs:label "uses gem"@en , "использует самоцвет"@ru .
+
+wow:providesStat a owl:ObjectProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range wow:Stat ;
+ rdfs:label "provides stat"@en , "даёт стат"@ru .
+
+wow:requiresClass a owl:ObjectProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range wow:PlayerClass ;
+ rdfs:label "requires class"@en , "требует класс"@ru .
+
+wow:hasDifficulty a owl:ObjectProperty ;
+ rdfs:domain wow:Activity ;
+ rdfs:range wow:Difficulty ;
+ rdfs:label "has difficulty"@en , "сложность"@ru .
+
+wow:inSeason a owl:ObjectProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range wow:Season ;
+ rdfs:label "in season/patch"@en , "в сезоне/патче"@ru .
+
+#################################################################
+# Datatype Properties (БЕЗ ИЗМЕНЕНИЙ)
+#################################################################
+
+wow:itemId a owl:DatatypeProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range xsd:integer ;
+ rdfs:label "item id"@en .
+
+wow:itemLevel a owl:DatatypeProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range xsd:integer ;
+ rdfs:label "item level"@en , "уровень предмета"@ru .
+
+wow:requiredLevel a owl:DatatypeProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range xsd:integer ;
+ rdfs:label "required level"@en , "требуемый уровень"@ru .
+
+wow:quality a owl:DatatypeProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range xsd:string ;
+ rdfs:label "quality"@en , "качество"@ru .
+
+wow:dropRate a owl:DatatypeProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range xsd:decimal ;
+ rdfs:label "drop rate"@en , "шанс дропа"@ru .
+
+wow:slotName a owl:DatatypeProperty ;
+ rdfs:domain wow:Item ;
+ rdfs:range xsd:string ;
+ rdfs:label "slot name (text)"@en .
+
+wow:name a owl:DatatypeProperty ;
+ rdfs:domain wow:WoWEntity ;
+ rdfs:range xsd:string ;
+ rdfs:label "name"@en , "название"@ru .
+
+wow:url a owl:DatatypeProperty ;
+ rdfs:domain wow:WoWEntity ;
+ rdfs:range xsd:anyURI ;
+ rdfs:label "URL"@en .
+
+#################################################################
+# Individuals (seed data & controlled vocabularies)
+# --- ДОБАВЛЕНЫ ВСЕ КЛАССЫ И СПЕЦИАЛИЗАЦИИ ---
+#################################################################
+
+# Roles
+wow:Role_DPS a wow:Role ; rdfs:label "DPS"@en .
+wow:Role_Healer a wow:Role ; rdfs:label "Healer"@en , "Хил"@ru .
+wow:Role_Tank a wow:Role ; rdfs:label "Tank"@en , "Танк"@ru .
+
+# Armor types
+wow:Cloth a wow:ArmorType ; rdfs:label "Cloth"@en , "Ткань"@ru .
+wow:Leather a wow:ArmorType ; rdfs:label "Leather"@en , "Кожа"@ru .
+wow:Mail a wow:ArmorType ; rdfs:label "Mail"@en , "Кольчуга"@ru .
+wow:Plate a wow:ArmorType ; rdfs:label "Plate"@en , "Латы"@ru .
+
+# Slots (subset)
+wow:Slot_Head a wow:Slot ; rdfs:label "Head"@en .
+wow:Slot_Neck a wow:Slot ; rdfs:label "Neck"@en .
+wow:Slot_Shoulders a wow:Slot ; rdfs:label "Shoulders"@en .
+wow:Slot_Chest a wow:Slot ; rdfs:label "Chest"@en .
+wow:Slot_Waist a wow:Slot ; rdfs:label "Waist"@en .
+wow:Slot_Legs a wow:Slot ; rdfs:label "Legs"@en .
+wow:Slot_Feet a wow:Slot ; rdfs:label "Feet"@en .
+wow:Slot_Wrist a wow:Slot ; rdfs:label "Wrist"@en .
+wow:Slot_Hands a wow:Slot ; rdfs:label "Hands"@en .
+wow:Slot_Finger a wow:Slot ; rdfs:label "Finger"@en .
+wow:Slot_Trinket a wow:Slot ; rdfs:label "Trinket"@en .
+wow:Slot_Back a wow:Slot ; rdfs:label "Back"@en .
+wow:Slot_MainHand a wow:Slot ; rdfs:label "Main Hand"@en .
+wow:Slot_OffHand a wow:Slot ; rdfs:label "Off Hand"@en .
+wow:Slot_TwoHand a wow:Slot ; rdfs:label "Two Hand"@en .
+
+# Difficulties
+wow:Difficulty_Normal a wow:Difficulty ; rdfs:label "Normal"@en .
+wow:Difficulty_Heroic a wow:Difficulty ; rdfs:label "Heroic"@en .
+wow:Difficulty_Mythic a wow:Difficulty ; rdfs:label "Mythic"@en .
+wow:Difficulty_MythicPlus a wow:Difficulty ; rdfs:label "Mythic+"@en .
+wow:Difficulty_LFR a wow:Difficulty ; rdfs:label "Raid Finder (LFR)"@en .
+wow:Difficulty_M0 a wow:Difficulty ; rdfs:label "Mythic 0 (M0)"@en .
+
+# Stats (subset)
+wow:Stat_Crit a wow:Stat ; rdfs:label "Critical Strike"@en , "Крит"@ru .
+wow:Stat_Haste a wow:Stat ; rdfs:label "Haste"@en , "Скорость"@ru .
+wow:Stat_Mastery a wow:Stat ; rdfs:label "Mastery"@en , "Искусность"@ru .
+wow:Stat_Versatility a wow:Stat ; rdfs:label "Versatility"@en , "Универсальность"@ru .
+wow:Stat_Intellect a wow:Stat ; rdfs:label "Intellect"@en , "Интеллект"@ru .
+wow:Stat_Agility a wow:Stat ; rdfs:label "Agility"@en , "Ловкость"@ru .
+wow:Stat_Strength a wow:Stat ; rdfs:label "Strength"@en , "Сила"@ru .
+wow:Stat_Stamina a wow:Stat ; rdfs:label "Stamina"@en , "Выносливость"@ru .
+wow:Stat_Avoidance a wow:Stat ; rdfs:label "Avoidance"@en , "Избежание"@ru .
+wow:Stat_Leech a wow:Stat ; rdfs:label "Leech"@en , "Самоисцеление"@ru .
+
+# ---------------------------------------------------------------
+# ВСЕ КЛАССЫ И СПЕЦИАЛИЗАЦИИ
+# ---------------------------------------------------------------
+
+# DEATH KNIGHT (РЫЦАРЬ СМЕРТИ)
+wow:Class_DK a wow:PlayerClass ; rdfs:label "Death Knight"@en , "Рыцарь Смерти"@ru ;
+ wow:hasSpecialization wow:Spec_DK_Blood, wow:Spec_DK_Frost, wow:Spec_DK_Unholy .
+wow:Spec_DK_Blood a wow:Specialization ; rdfs:label "Blood"@en , "Кровь"@ru ; wow:hasRole wow:Role_Tank ; wow:ofClass wow:Class_DK .
+wow:Spec_DK_Frost a wow:Specialization ; rdfs:label "Frost"@en , "Лед"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_DK .
+wow:Spec_DK_Unholy a wow:Specialization ; rdfs:label "Unholy"@en , "Нечестивость"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_DK .
+
+# DEMON HUNTER (ОХОТНИК НА ДЕМОНОВ)
+wow:Class_DemonHunter a wow:PlayerClass ; rdfs:label "Demon Hunter"@en , "Охотник на демонов"@ru ;
+ wow:hasSpecialization wow:Spec_DH_Havoc, wow:Spec_DH_Vengeance .
+wow:Spec_DH_Havoc a wow:Specialization ; rdfs:label "Havoc"@en , "Истребление"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_DemonHunter .
+wow:Spec_DH_Vengeance a wow:Specialization ; rdfs:label "Vengeance"@en , "Месть"@ru ; wow:hasRole wow:Role_Tank ; wow:ofClass wow:Class_DemonHunter .
+
+# DRUID (ДРУИД)
+wow:Class_Druid a wow:PlayerClass ; rdfs:label "Druid"@en , "Друид"@ru ;
+ wow:hasSpecialization wow:Spec_Druid_Balance, wow:Spec_Druid_Feral, wow:Spec_Druid_Guardian, wow:Spec_Druid_Restoration .
+wow:Spec_Druid_Balance a wow:Specialization ; rdfs:label "Balance"@en , "Баланс"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Druid .
+wow:Spec_Druid_Feral a wow:Specialization ; rdfs:label "Feral"@en , "Сила зверя"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Druid .
+wow:Spec_Druid_Guardian a wow:Specialization ; rdfs:label "Guardian"@en , "Страж"@ru ; wow:hasRole wow:Role_Tank ; wow:ofClass wow:Class_Druid .
+wow:Spec_Druid_Restoration a wow:Specialization ; rdfs:label "Restoration"@en , "Исцеление"@ru ; wow:hasRole wow:Role_Healer ; wow:ofClass wow:Class_Druid .
+
+# EVOKER (ПРИЗЫВАТЕЛЬ)
+wow:Class_Evoker a wow:PlayerClass ; rdfs:label "Evoker"@en , "Призыватель"@ru ;
+ wow:hasSpecialization wow:Spec_Evoker_Devastation, wow:Spec_Evoker_Preservation, wow:Spec_Evoker_Augmentation .
+wow:Spec_Evoker_Devastation a wow:Specialization ; rdfs:label "Devastation"@en , "Опустошение"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Evoker .
+wow:Spec_Evoker_Preservation a wow:Specialization ; rdfs:label "Preservation"@en , "Хранитель"@ru ; wow:hasRole wow:Role_Healer ; wow:ofClass wow:Class_Evoker .
+wow:Spec_Evoker_Augmentation a wow:Specialization ; rdfs:label "Augmentation"@en , "Усилитель"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Evoker .
+
+# HUNTER (ОХОТНИК)
+wow:Class_Hunter a wow:PlayerClass ; rdfs:label "Hunter"@en , "Охотник"@ru ;
+ wow:hasSpecialization wow:Spec_Hunter_BeastMastery, wow:Spec_Hunter_Marksmanship, wow:Spec_Hunter_Survival .
+wow:Spec_Hunter_BeastMastery a wow:Specialization ; rdfs:label "Beast Mastery"@en , "Повелитель зверей"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Hunter .
+wow:Spec_Hunter_Marksmanship a wow:Specialization ; rdfs:label "Marksmanship"@en , "Стрельба"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Hunter .
+wow:Spec_Hunter_Survival a wow:Specialization ; rdfs:label "Survival"@en , "Выживание"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Hunter .
+
+# MAGE (МАГ)
+wow:Class_Mage a wow:PlayerClass ; rdfs:label "Mage"@en , "Маг"@ru ;
+ wow:hasSpecialization wow:Spec_Mage_Arcane, wow:Spec_Mage_Fire, wow:Spec_Mage_Frost .
+wow:Spec_Mage_Arcane a wow:Specialization ; rdfs:label "Arcane"@en , "Тайная магия"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Mage .
+wow:Spec_Mage_Fire a wow:Specialization ; rdfs:label "Fire"@en , "Огонь"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Mage .
+wow:Spec_Mage_Frost a wow:Specialization ; rdfs:label "Frost"@en , "Лед"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Mage .
+
+# MONK (МОНАХ)
+wow:Class_Monk a wow:PlayerClass ; rdfs:label "Monk"@en , "Монах"@ru ;
+ wow:hasSpecialization wow:Spec_Monk_Brewmaster, wow:Spec_Monk_Mistweaver, wow:Spec_Monk_Windwalker .
+wow:Spec_Monk_Brewmaster a wow:Specialization ; rdfs:label "Brewmaster"@en , "Хмелевар"@ru ; wow:hasRole wow:Role_Tank ; wow:ofClass wow:Class_Monk .
+wow:Spec_Monk_Mistweaver a wow:Specialization ; rdfs:label "Mistweaver"@en , "Ткач туманов"@ru ; wow:hasRole wow:Role_Healer ; wow:ofClass wow:Class_Monk .
+wow:Spec_Monk_Windwalker a wow:Specialization ; rdfs:label "Windwalker"@en , "Танцующий с ветром"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Monk .
+
+# PALADIN (ПАЛАДИН)
+wow:Class_Paladin a wow:PlayerClass ; rdfs:label "Paladin"@en , "Паладин"@ru ;
+ wow:hasSpecialization wow:Spec_Paladin_Holy, wow:Spec_Paladin_Protection, wow:Spec_Paladin_Retribution .
+wow:Spec_Paladin_Holy a wow:Specialization ; rdfs:label "Holy"@en , "Свет"@ru ; wow:hasRole wow:Role_Healer ; wow:ofClass wow:Class_Paladin .
+wow:Spec_Paladin_Protection a wow:Specialization ; rdfs:label "Protection"@en , "Защита"@ru ; wow:hasRole wow:Role_Tank ; wow:ofClass wow:Class_Paladin .
+wow:Spec_Paladin_Retribution a wow:Specialization ; rdfs:label "Retribution"@en , "Воздаяние"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Paladin .
+
+# PRIEST (ЖРЕЦ)
+wow:Class_Priest a wow:PlayerClass ; rdfs:label "Priest"@en , "Жрец"@ru ;
+ wow:hasSpecialization wow:Spec_Priest_Discipline, wow:Spec_Priest_Holy, wow:Spec_Priest_Shadow .
+wow:Spec_Priest_Discipline a wow:Specialization ; rdfs:label "Discipline"@en , "Дисциплина"@ru ; wow:hasRole wow:Role_Healer ; wow:ofClass wow:Class_Priest .
+wow:Spec_Priest_Holy a wow:Specialization ; rdfs:label "Holy"@en , "Свет"@ru ; wow:hasRole wow:Role_Healer ; wow:ofClass wow:Class_Priest .
+wow:Spec_Priest_Shadow a wow:Specialization ; rdfs:label "Shadow"@en , "Тьма"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Priest .
+
+# ROGUE (РАЗБОЙНИК)
+wow:Class_Rogue a wow:PlayerClass ; rdfs:label "Rogue"@en , "Разбойник"@ru ;
+ wow:hasSpecialization wow:Spec_Rogue_Assassination, wow:Spec_Rogue_Outlaw, wow:Spec_Rogue_Subtlety .
+wow:Spec_Rogue_Assassination a wow:Specialization ; rdfs:label "Assassination"@en , "Ликвидация"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Rogue .
+wow:Spec_Rogue_Outlaw a wow:Specialization ; rdfs:label "Outlaw"@en , "Головорез"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Rogue .
+wow:Spec_Rogue_Subtlety a wow:Specialization ; rdfs:label "Subtlety"@en , "Скрытность"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Rogue .
+
+# SHAMAN (ШАМАН)
+wow:Class_Shaman a wow:PlayerClass ; rdfs:label "Shaman"@en , "Шаман"@ru ;
+ wow:hasSpecialization wow:Spec_Shaman_Elemental, wow:Spec_Shaman_Enhancement, wow:Spec_Shaman_Restoration .
+wow:Spec_Shaman_Elemental a wow:Specialization ; rdfs:label "Elemental"@en , "Стихии"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Shaman .
+wow:Spec_Shaman_Enhancement a wow:Specialization ; rdfs:label "Enhancement"@en , "Совершенствование"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Shaman .
+wow:Spec_Shaman_Restoration a wow:Specialization ; rdfs:label "Restoration"@en , "Исцеление"@ru ; wow:hasRole wow:Role_Healer ; wow:ofClass wow:Class_Shaman .
+
+# WARLOCK (ЧЕРНОКНИЖНИК)
+wow:Class_Warlock a wow:PlayerClass ; rdfs:label "Warlock"@en , "Чернокнижник"@ru ;
+ wow:hasSpecialization wow:Spec_Warlock_Affliction, wow:Spec_Warlock_Demonology, wow:Spec_Warlock_Destruction .
+wow:Spec_Warlock_Affliction a wow:Specialization ; rdfs:label "Affliction"@en , "Колдовство"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Warlock .
+wow:Spec_Warlock_Demonology a wow:Specialization ; rdfs:label "Demonology"@en , "Демонология"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Warlock .
+wow:Spec_Warlock_Destruction a wow:Specialization ; rdfs:label "Destruction"@en , "Разрушение"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Warlock .
+
+# WARRIOR (ВОИН)
+wow:Class_Warrior a wow:PlayerClass ; rdfs:label "Warrior"@en , "Воин"@ru ;
+ wow:hasSpecialization wow:Spec_Warrior_Arms, wow:Spec_Warrior_Fury, wow:Spec_Warrior_Protection .
+wow:Spec_Warrior_Arms a wow:Specialization ; rdfs:label "Arms"@en , "Оружие"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Warrior .
+wow:Spec_Warrior_Fury a wow:Specialization ; rdfs:label "Fury"@en , "Неистовство"@ru ; wow:hasRole wow:Role_DPS ; wow:ofClass wow:Class_Warrior .
+wow:Spec_Warrior_Protection a wow:Specialization ; rdfs:label "Protection"@en , "Защита"@ru ; wow:hasRole wow:Role_Tank ; wow:ofClass wow:Class_Warrior .
+
+# ---------------------------------------------------------------
+# Professions added
+# ---------------------------------------------------------------
+wow:Prof_Alchemy a wow:CraftingProfession ; rdfs:label "Alchemy"@en , "Алхимия"@ru .
+wow:Prof_Blacksmithing a wow:CraftingProfession ; rdfs:label "Blacksmithing"@en , "Кузнечное дело"@ru .
+wow:Prof_Enchanting a wow:CraftingProfession ; rdfs:label "Enchanting"@en , "Наложение чар"@ru .
+wow:Prof_Engineering a wow:CraftingProfession ; rdfs:label "Engineering"@en , "Инженерное дело"@ru .
+wow:Prof_Inscription a wow:CraftingProfession ; rdfs:label "Inscription"@en , "Начертание"@ru .
+wow:Prof_Jewelcrafting a wow:CraftingProfession ; rdfs:label "Jewelcrafting"@en , "Ювелирное дело"@ru .
+wow:Prof_Leatherworking a wow:CraftingProfession ; rdfs:label "Leatherworking"@en , "Кожевничество"@ru .
+wow:Prof_Tailoring a wow:CraftingProfession ; rdfs:label "Tailoring"@en , "Портняжное дело"@ru .
+wow:Prof_Cooking a wow:CraftingProfession ; rdfs:label "Cooking"@en , "Кулинария"@ru .
+
+wow:Prof_Herbalism a wow:GatheringProfession ; rdfs:label "Herbalism"@en , "Травничество"@ru .
+wow:Prof_Mining a wow:GatheringProfession ; rdfs:label "Mining"@en , "Горное дело"@ru .
+wow:Prof_Skinning a wow:GatheringProfession ; rdfs:label "Skinning"@en , "Снятие шкур"@ru .
+wow:Prof_Archaeology a wow:GatheringProfession ; rdfs:label "Archaeology"@en , "Археология"@ru .
+# ---------------------------------------------------------------
+
+# Activities & sources (example)
+wow:Activity_MythicPlus a wow:Dungeon ;
+ rdfs:label "Mythic+ Dungeons"@en ;
+ wow:hasDifficulty wow:Difficulty_MythicPlus .
+
+wow:Dungeon_Z a wow:Dungeon ; rdfs:label "Dungeon Z"@en .
+wow:Boss_Y a wow:Boss ; rdfs:label "Boss Y"@en ; wow:locatedIn wow:Dungeon_Z .
+
+# Items (example)
+wow:Trinket_Flame_X a wow:Trinket ;
+ rdfs:label "Flame X"@en ;
+ wow:suitableFor wow:Spec_Mage_Fire ;
+ wow:hasEffect wow:Effect_DoT ;
+ wow:dropsFrom wow:Boss_Y ;
+ wow:hasSlotObj wow:Slot_Trinket ;
+ wow:itemLevel 522 ;
+ wow:quality "Epic" .
+
+wow:Effect_DoT a wow:Effect ; rdfs:label "Periodic Fire Damage"@en ;
+ wow:effectiveIn wow:Activity_MythicPlus ;
+ wow:providesStat wow:Stat_Intellect .
+
+# Season / Patch example
+wow:Season_DF_S4 a wow:Season ; rdfs:label "Dragonflight Season 4"@en .
+wow:Trinket_Flame_X wow:inSeason wow:Season_DF_S4 .
