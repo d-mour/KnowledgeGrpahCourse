@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#moveSpeedMelee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#healthReplenishAmp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#healAmp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#hasRole">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#ItemRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#NoTargetActiveAbility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#ActiveAbility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#spellDamageAmp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#moveSpeed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#hasAbility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#statusResist">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#damageMelee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#manaEfficiency">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#PointTargetActiveAbility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#ActiveAbility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#AbilityEffect">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#manaCost">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#intelligence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#AuraAbility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#strength">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#manaRegen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#health">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#manaRegenAmp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#spellDamageBonus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#hasSlot">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#BuildSchema"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#BuildSchemaSlot"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#DotaItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#moveSpeedRanged">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#damage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#mana">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#lifesteal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#attackSpeed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#abilityDamageAmp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#castSpeed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#enemyHealReduction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#UnitTargetActiveAbility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#ActiveAbility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#damagePerSecond">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#maxHealthPerSec">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#attackDamageBonus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#healReduction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#PassiveAbility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#BuildSchema">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#bonusMagicalDamage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#hasItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#BuildSchemaSlot"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#DotaItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#NeutralItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#hasEffect">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#AbilityEffect"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#armorReduction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#magicResist">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#hasQuantity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#BuildSchemaSlot"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#magicResistanceReduction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#BuildSchemaSlot">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#intAsDps">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#ActiveAbility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#healthRegenBonus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#spellLifestealAmp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#ItemRole">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#healthRestored">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#castRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#projectileSpeed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#criticalDamage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#tier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#NeutralItem"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#spellLifestealHeroes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#DotaItem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#cooldown">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#ToggleAbility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#dmgDealtAsBonusDmg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Ability"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#evasion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#spellRadius">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#cost">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#DotaItem"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#slowResist">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#armor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#spellLifestealCreeps">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#hasBuildSchema">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#DotaItem"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#BuildSchema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#spellDamage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#healthRegen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#attackRangeRanged">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#agility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#allAttributes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#damageRanged">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/lavrent/ontologies/2025/9/kg-dota#Item"/>
+  </rdf:Description>
+</rdf:RDF>
