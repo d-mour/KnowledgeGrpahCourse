@@ -1,0 +1,90 @@
+1. Предметы категории Core, которые стоят больше 4000 золота
+PREFIX : <http://dota2.ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?item ?itemName ?cost WHERE {
+    ?item rdf:type :Item ;
+          rdfs:label ?itemName ;
+          :hasCost ?cost ;
+          :hasItemType "Core" .
+    FILTER(?cost > 4000)
+}
+ORDER BY DESC(?cost)
+
+2. Предметы поддержки стоимостью от 500 до 1500 золота
+PREFIX : <http://dota2.ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?item ?itemName ?cost ?itemType WHERE {
+    ?item rdf:type :Item ;
+          rdfs:label ?itemName ;
+          :hasCost ?cost ;
+          :hasItemType ?itemType .
+    FILTER(?cost >= 500 && ?cost <= 1500 && ?itemType = "Support")
+}
+ORDER BY ?cost
+3. Способности с кулдауном больше 60 секунд 
+PREFIX : <http://dota2.ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?ability ?abilityName ?hero ?heroName ?cooldown ?manaCost WHERE {
+    ?hero rdf:type :Hero ;
+          rdfs:label ?heroName ;
+          :hasAbility ?ability .
+    ?ability rdf:type :Ability ;
+             rdfs:label ?abilityName ;
+             :hasCooldown ?cooldown ;
+             :hasManaCost ?manaCost .
+    FILTER(?cooldown >= 60)
+}
+ORDER BY DESC(?cooldown)
+4. Способности с нулевой стоимостью маны и типом Passive
+PREFIX : <http://dota2.ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?ability ?abilityName ?hero ?heroName WHERE {
+    ?hero rdf:type :Hero ;
+          rdfs:label ?heroName ;
+          :hasAbility ?ability .
+    ?ability rdf:type :Ability ;
+             rdfs:label ?abilityName ;
+             :hasAbilityType "Passive" ;
+             :hasManaCost 0 .
+}
+ORDER BY ?heroName
+
+5. Герои с высоким пикратом (больше 1000 игр)
+PREFIX : <http://dota2.ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?hero ?heroName ?pickRate ?winRate ?role WHERE {
+    ?hero rdf:type :Hero ;
+          rdfs:label ?heroName ;
+          :hasPickRate ?pickRate ;
+          :hasWinRate ?winRate ;
+          :hasRole ?role .
+    FILTER(?pickRate > 1000)
+}
+ORDER BY DESC(?pickRate)
+
+PREFIX : <http://dota2.ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?hero ?heroName ?pickRate ?winRate ?role WHERE {
+    ?hero rdf:type :Hero ;
+          rdfs:label ?heroName ;
+          :hasPickRate ?pickRate ;
+          :hasWinRate ?winRate ;
+          :hasRole ?role .
+    FILTER(?pickRate > 1000)
+}
+ORDER BY DESC(?pickRate)
+6. Герои с винрейтом выше 50%
+PREFIX : <http://dota2.ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?hero ?heroName ?winRate ?pickRate WHERE {
+    ?hero rdf:type :Hero ;
+          rdfs:label ?heroName ;
+          :hasWinRate ?winRate ;
+          :hasPickRate ?pickRate .
+    FILTER(?winRate > 0.5)
+}
+ORDER BY DESC(?winRate)
