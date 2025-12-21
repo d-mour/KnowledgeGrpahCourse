@@ -6,7 +6,7 @@
 
 This project implements a knowledge graph for **Brawl Stars**, a popular mobile game. The work includes ontology design, knowledge graph population, semantic data processing with RDFlib/OWLReady, and embedding generation for entities.
 
-The project follows the course requirements with all six required components:
+The project follows the course requirements with all five required components:
 
 | Component | File | Description |
 |-----------|------|-------------|
@@ -53,22 +53,5 @@ The populated knowledge graph contains:
 2. Similar abilities have close vector representations
 3. Game mode preferences can be predicted from embeddings
 4. The knowledge graph enables complex queries not possible in the original game data
+5. Load data from Brawl Stars API
 
-**Applications:**
-- Brawler recommendation system
-- Game balance analysis
-- New character design suggestions
-- Matchmaking optimization
-
-## Future Work
-
-1. **Expand Ontology** - Add items, skins, and player statistics
-2. **Improve Embeddings** - Experiment with ComplEx, RotatE models
-3. **Real-time Updates** - Connect to Brawl Stars API for live data
-
-## References
-
-1. Brawl Stars Official Documentation
-2. RDFlib Documentation
-3. TransE: Translating Embeddings for Modeling Multi-relational Data (Bordes et al., 2013)
-4. Course materials on Knowledge Graph construction
