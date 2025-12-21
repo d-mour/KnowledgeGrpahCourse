@@ -1,0 +1,1970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Lace-FlowerVine">
+    <water>Keep soil mix moist</water>
+    <humidity>50% or higher</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>African violets and other Gesneriads</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#sun">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Fiddle-LeafFig">
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>At least 4 h of direct sun</sun>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SatinPellionia">
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#KangarooVine">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#RedFloweringCrassula">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ParlorPalm">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <sun>75 ft-c to 200 ft-c</sun>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Ponytail">
+    <water>Soil mix can become moderately dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <humidity>5% to 24%</humidity>
+    <sun>At least 4 h of direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#AluminumPlant">
+    <soil>Foliage plants</soil>
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>50% or higher</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ToyCypress">
+    <sun>At least 4 h of direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <soil>Succulents and cacti</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ParvaSansevieria">
+    <soil>Succulents and cacti</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <humidity>5% to 24%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Bird’sNestAnthurium">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <humidity>50% or higher</humidity>
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MadagascarPeriwinkle">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <soil>Flowering house plants</soil>
+    <humidity>50% or higher</humidity>
+    <sun>At least 4 h of direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#AfricanViolets">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>African violets and other Gesneriads</soil>
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BlueEuphorbia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#CubanLaurel">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Rabbit’sFootFern">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Keep soil mix moist</water>
+    <humidity>50% or higher</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Bromeliads</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#NorfolkIslandPine">
+    <humidity>25% to 49%</humidity>
+    <water>Keep soil mix moist</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#DancingBulb">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+    <soil>Bromeliads</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#type">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Bird’sNestFern">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>75 ft-c to 200 ft-c</sun>
+    <soil>Ferns</soil>
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Blue-FloweredTorch">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Bromeliads</soil>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#RexBegonia">
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#CandlePlant">
+    <temperature>65°F n, 75°F d</temperature>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SpottedDumbCane">
+    <sun>75 ft-c to 200 ft-c</sun>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MarbleQueen">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#RosaryVine">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#temperature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BoxwoodBeauty">
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <water>Surface of soil mix should dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SpiceOrchid">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Orchids</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>50% or higher</humidity>
+    <water>Keep soil mix moist</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ChristmasKalanchoe">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#WaxPlant">
+    <temperature>65°F n, 75°F d</temperature>
+    <water>Surface of soil mix should dry</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PurplishCoralBerry">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <soil>Bromeliads</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#JapaneseAralia">
+    <soil>Foliage plants</soil>
+    <temperature>50°F n, 65°F d</temperature>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>75 ft-c to 200 ft-c</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PurpleHeart">
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <soil>Foliage plants</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SilverQueen">
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>75 ft-c to 200 ft-c</sun>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Schefflera">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Turk’sCap">
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Keep soil mix moist</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ButtonFern">
+    <soil>Ferns</soil>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <humidity>25% to 49%</humidity>
+    <water>Keep soil mix moist</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SweetFlag">
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <water>Keep soil mix moist</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#JewelLeafPlant">
+    <water>Soil mix can become moderately dry</water>
+    <soil>Succulents and cacti</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SilverVase">
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Bromeliads</soil>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MotherFern">
+    <sun>75 ft-c to 200 ft-c</sun>
+    <humidity>25% to 49%</humidity>
+    <water>Keep soil mix moist</water>
+    <soil>Ferns</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SweetheartHoya">
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N19eae889b574404c8c0cc6d3f2b34883">
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#fruits"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#produce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ShrimpPlant">
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Bougainvillea">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>5% to 24%</humidity>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <water>Soil mix can become moderately dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#StripedInchPlant">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#StripedTorch">
+    <humidity>50% or higher</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Bromeliads</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#CowWebHouseleek">
+    <soil>Succulents and cacti</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+    <temperature>50°F n, 65°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Bishop’sCap">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Soil mix can become moderately dry</water>
+    <soil>Succulents and cacti</soil>
+    <humidity>5% to 24%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PlushVine">
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#CubanHolly">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ScarletViolet">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>African violets and other Gesneriads</soil>
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>50% or higher</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BelmoreSentryPalm">
+    <sun>75 ft-c to 200 ft-c</sun>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#FingerOxalis">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+    <humidity>25% to 49%</humidity>
+    <soil>Flowering house plants</soil>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Chrysanthemum">
+    <water>Keep soil mix moist</water>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ArtilleryPlant">
+    <soil>Foliage plants</soil>
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>50% or higher</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ScarletStar">
+    <soil>Bromeliads</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>50% or higher</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#LittleZebraPlant">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <humidity>5% to 24%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#AlgerianIvy">
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>50°F n, 65°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Flowering house plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SilverPothos">
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>75 ft-c to 200 ft-c</sun>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#produce">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:nodeID="Ne776064c01e3443d9fe55076fdcda1d2"/>
+    <rdfs:range rdf:nodeID="N19eae889b574404c8c0cc6d3f2b34883"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MistletoeFicus">
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#LittleTreeCactus">
+    <sun>At least 4 h of direct sun</sun>
+    <water>Soil mix can become moderately dry</water>
+    <humidity>5% to 24%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MingAralia">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#HouseHollyFern">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Ferns</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#WanderingJew">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PrayerPlant">
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MiniatureSweetFlag">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Azaleas">
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>50% or higher</humidity>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <temperature>50°F n, 65°F d</temperature>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ClippedWindowPlant">
+    <water>Soil mix can become moderately dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <humidity>5% to 24%</humidity>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BirdsnestSansevieria">
+    <soil>Succulents and cacti</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>5% to 24%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#VariegatedSpiderPlant">
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PurplePassion">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#IrishMittens">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <sun>At least 4 h of direct sun</sun>
+    <water>Soil mix can become moderately dry</water>
+    <humidity>5% to 24%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ZebraBasketVine">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>African violets and other Gesneriads</soil>
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Crinkle-LeafPlant">
+    <soil>Succulents and cacti</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#color">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#flower"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MetallicLeafBegonia">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#CorncobCactus">
+    <soil>Succulents and cacti</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Soil mix can become moderately dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#FloweringInchPlant">
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MiniatureAgave">
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>5% to 24%</humidity>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Devil’sBackbone">
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#EmeraldQueen">
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#WeepingFig">
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PropellerPlant">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <sun>At least 4 h of direct sun</sun>
+    <humidity>25% to 49%</humidity>
+    <water>Soil mix can become moderately dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PiggybackPlant">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <temperature>50°F n, 65°F d</temperature>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#FluffyRuffles">
+    <soil>Ferns</soil>
+    <humidity>50% or higher</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <water>Surface of soil mix should dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Nephthytis">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Podocarpus">
+    <water>Surface of soil mix should dry</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ChristmasCactus">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#LadyslipperOrchids">
+    <temperature>65°F n, 75°F d</temperature>
+    <soil>Orchids</soil>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#RedOxalis">
+    <water>Surface of soil mix should dry</water>
+    <sun>At least 4 h of direct sun</sun>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#TiPlant">
+    <water>Surface of soil mix should dry</water>
+    <temperature>50°F n, 65°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Crown-of-Thorns">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Soil mix can become moderately dry</water>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Succulents and cacti</soil>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PeaceLily">
+    <soil>Foliage plants</soil>
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Poinsettia">
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Croton">
+    <water>Keep soil mix moist</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Foliage plants</soil>
+    <humidity>50% or higher</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#RedNervePlant">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#StrawberryGeranium">
+    <temperature>50°F n, 65°F d</temperature>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#water">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Gloxinia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <soil>African violets and other Gesneriads</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>50% or higher</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BotanicalWonderPlant">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <temperature>50°F n, 65°F d</temperature>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Hyacinth">
+    <soil>Flowering house plants</soil>
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <temperature>50°F n, 65°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#RoyalWineBromeliad">
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <soil>Bromeliads</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#CornPlant">
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#EnglishIvy">
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>50°F n, 65°F d</temperature>
+    <soil>Flowering house plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Queen’sTears">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+    <soil>Bromeliads</soil>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfcba541720514cd091ae60ff8c080745">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#produce"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#with-fruits"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#rise">
+    <rdfs:domain rdf:nodeID="Nc75149c87f7d4dfda68c89ede26763b9"/>
+    <rdfs:range rdf:nodeID="Nda411a74fccf4df48e2f9e298729baea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Coffee">
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Fuchsias">
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>50% or higher</humidity>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Flowering house plants</soil>
+    <temperature>50°F n, 65°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Coleus">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#OrchidCacti">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Flowering house plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BabyTears">
+    <temperature>65°F n, 75°F d</temperature>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>50% or higher</humidity>
+    <water>Keep soil mix moist</water>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Ardisia">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#DwarfSchefflera">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#EgyptianStarCluster">
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#CarrionFlower">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <water>Surface of soil mix should dry</water>
+    <sun>At least 4 h of direct sun</sun>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#YellowShrimpPlant">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ChenilePlant">
+    <humidity>25% to 49%</humidity>
+    <soil>Flowering house plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <sun>At least 4 h of direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nda411a74fccf4df48e2f9e298729baea">
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#flower"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#produce"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MiniatureMaranta">
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#RoseCalathea">
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MiniatureGrapeIvy">
+    <humidity>25% to 49%</humidity>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#DwarfRoseStripeStar">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>25% to 49%</humidity>
+    <soil>Bromeliads</soil>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Amaryllis">
+    <soil>Flowering house plants</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#IvyGeranium">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>50°F n, 65°F d</temperature>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#StiffPheasantLeaf">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <soil>Bromeliads</soil>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#VariegatedCenturyPlant">
+    <water>Soil mix can become moderately dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <sun>At least 4 h of direct sun</sun>
+    <humidity>5% to 24%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#HindustanGentian">
+    <humidity>50% or higher</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <water>Keep soil mix moist</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>African violets and other Gesneriads</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Peregrian">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#GoldDustDracaena">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#FingernailPlant">
+    <soil>Bromeliads</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <water>Surface of soil mix should dry</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BusyLizzieImpatiens">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+    <soil>Flowering house plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#FlameViolet">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>African violets and other Gesneriads</soil>
+    <humidity>50% or higher</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#LeatherPeperomia">
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#GoldenPothos">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MedicinePlant">
+    <temperature>70°F n, 85°F d</temperature>
+    <water>Soil mix can become moderately dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <humidity>5% to 24%</humidity>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne59c0b1059ed41539f1946b541224121">
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#fruits"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#produce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#LadyPalm">
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#EmeraldRipple">
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SpinelessYucca">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>5% to 24%</humidity>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#StaghornFern">
+    <soil>Ferns</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Crossandra">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SpiderPlant">
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Keep soil mix moist</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#FloweringMaple">
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <temperature>50°F n, 65°F d</temperature>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Flowering house plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ChineseEvergreen">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <sun>75 ft-c to 200 ft-c</sun>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#GoldfishPlant">
+    <humidity>50% or higher</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>African violets and other Gesneriads</soil>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Keep soil mix moist</water>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SilverKing">
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>75 ft-c to 200 ft-c</sun>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#FoxtailFern">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#WaxBegonia">
+    <water>Surface of soil mix should dry</water>
+    <sun>At least 4 h of direct sun</sun>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>50°F n, 65°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PeacockPlant">
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Keep soil mix moist</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SwedishIvy">
+    <soil>Foliage plants</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#FlamingSword">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Bromeliads</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Zonata">
+    <temperature>65°F n, 75°F d</temperature>
+    <water>Surface of soil mix should dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+    <soil>Bromeliads</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PersianShield">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PigmyDatePalm">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MagicFlower">
+    <soil>African violets and other Gesneriads</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Keep soil mix moist</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ZebraPlant">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Bromeliads</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <soil>Foliage plants</soil>
+    <water>Keep soil mix moist</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#FalseAralia">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#CandelabraPlant">
+    <soil>Succulents and cacti</soil>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>5% to 24%</humidity>
+    <water>Soil mix can become moderately dry</water>
+    <sun>At least 4 h of direct sun</sun>
+    <temperature>70°F n, 85°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PloverEggs">
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MiniaturePouchFlower">
+    <water>Keep soil mix moist</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>African violets and other Gesneriads</soil>
+    <humidity>50% or higher</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#GrapeLeafIvy">
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PlumeAsparagus">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#blooming">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#house-plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#OxTongue">
+    <humidity>25% to 49%</humidity>
+    <water>Soil mix can become moderately dry</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#DwarfFiddle-LeafFig">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ZebraHaworthia">
+    <soil>Succulents and cacti</soil>
+    <sun>At least 4 h of direct sun</sun>
+    <humidity>5% to 24%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MoldedWax">
+    <water>Soil mix can become moderately dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <humidity>5% to 24%</humidity>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Allamanda">
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>50% or higher</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BambooPalm">
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>75 ft-c to 200 ft-c</sun>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#HouseGeranium">
+    <sun>At least 4 h of direct sun</sun>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>50°F n, 65°F d</temperature>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#UrnPlant">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Bromeliads</soil>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ArecaPalm">
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Keep soil mix moist</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#house-plant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#RattlesnakeTail">
+    <water>Soil mix can become moderately dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>5% to 24%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Succulents and cacti</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#FirecrackerPlant">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <humidity>50% or higher</humidity>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Caladium">
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <humidity>50% or higher</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#WafflePlant">
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#KentiaPalm">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Silver-NervedFittonia">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Keep soil mix moist</water>
+    <humidity>50% or higher</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#WhiteVelvet">
+    <temperature>65°F n, 75°F d</temperature>
+    <humidity>25% to 49%</humidity>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Fiddle-LeafPhilodendron">
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>75 ft-c to 200 ft-c</sun>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BostonFern">
+    <humidity>50% or higher</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Ferns</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#TricolorBromeliad">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Bromeliads</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MiniatureBird’sNest">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <soil>Bromeliads</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#StarWindowPlant">
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <soil>Succulents and cacti</soil>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>5% to 24%</humidity>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#EuropeanFanPalm">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <humidity>25% to 49%</humidity>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SickleThorn">
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MaidenhairFern">
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>50% or higher</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Ferns</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#LipstickVine">
+    <temperature>65°F n, 75°F d</temperature>
+    <soil>African violets and other Gesneriads</soil>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Keep soil mix moist</water>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Red-SprayRuellia">
+    <soil>Flowering house plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#SilverandGoldDyckia">
+    <humidity>5% to 24%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Bromeliads</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Milkbush">
+    <water>Surface of soil mix should dry</water>
+    <soil>Flowering house plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#WaxCissus">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Soil mix can become moderately dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>5% to 24%</humidity>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#DwarfCreepingFig">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#WindowLeaf">
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>75 ft-c to 200 ft-c</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Florida">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#RattlesnakePlant">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+    <soil>Foliage plants</soil>
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PandaPlant">
+    <humidity>25% to 49%</humidity>
+    <water>Soil mix can become moderately dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ShowySedum">
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+    <soil>Succulents and cacti</soil>
+    <water>Surface of soil mix should dry</water>
+    <temperature>50°F n, 65°F d</temperature>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#DwarfCrystalAnthurium">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Keep soil mix moist</water>
+    <humidity>50% or higher</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PhilodendronPertusum">
+    <temperature>65°F n, 75°F d</temperature>
+    <humidity>25% to 49%</humidity>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#VariegatedBalfourAralia">
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PearlyMoonstones">
+    <temperature>65°F n, 75°F d</temperature>
+    <soil>Succulents and cacti</soil>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <sun>At least 4 h of direct sun</sun>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BonsaiNatalPlum">
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Flowering house plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ChineseHibiscus">
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <water>Surface of soil mix should dry</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#QueenAgave">
+    <sun>At least 4 h of direct sun</sun>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Heart-LeafPhilodendron">
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PeruvianAppleCactus">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Soil mix can become moderately dry</water>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Succulents and cacti</soil>
+    <humidity>5% to 24%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#PowderPuff">
+    <sun>At least 4 h of direct sun</sun>
+    <water>Soil mix can become moderately dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <humidity>5% to 24%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#ExoticaPerfection">
+    <soil>Foliage plants</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#RubberPlant">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Selloum">
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#KafirLily">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <soil>Flowering house plants</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#size">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#flower"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Warneckii">
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#CastIronPlant">
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>75 ft-c to 200 ft-c</sun>
+    <humidity>5% to 24%</humidity>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Arab’sTurban">
+    <humidity>25% to 49%</humidity>
+    <water>Soil mix can become moderately dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Red-NervedFittonia">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Foliage plants</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Keep soil mix moist</water>
+    <humidity>50% or higher</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#DwarfPurpleKalanchoe">
+    <water>Soil mix can become moderately dry</water>
+    <soil>Succulents and cacti</soil>
+    <sun>At least 4 h of direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#RootingFig">
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MexicanSnowball">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <humidity>5% to 24%</humidity>
+    <water>Soil mix can become moderately dry</water>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#flower">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#JanetCraig">
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#JadePlant">
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#succulent">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#foliage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BabyRubberTree">
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Pineapple">
+    <water>Keep soil mix moist</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Bromeliads</soil>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BrevifoliaAloe">
+    <humidity>5% to 24%</humidity>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <soil>Succulents and cacti</soil>
+    <water>Soil mix can become moderately dry</water>
+    <sun>At least 4 h of direct sun</sun>
+    <temperature>70°F n, 85°F d</temperature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Slipperwort">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <humidity>50% or higher</humidity>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <temperature>50°F n, 65°F d</temperature>
+    <soil>Flowering house plants</soil>
+    <water>Keep soil mix moist</water>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#FishtailPalm">
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#BlackAlloplectus">
+    <soil>African violets and other Gesneriads</soil>
+    <humidity>25% to 49%</humidity>
+    <water>Keep soil mix moist</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#LaceCactus">
+    <temperature>65°F n, 75°F d</temperature>
+    <soil>Succulents and cacti</soil>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <humidity>5% to 24%</humidity>
+    <water>Soil mix can become moderately dry</water>
+    <sun>At least 4 h of direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#without-fruits">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#blooming"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Gold-BandedSansevieria">
+    <water>Surface of soil mix should dry</water>
+    <soil>Succulents and cacti</soil>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <temperature>65°F n, 75°F d</temperature>
+    <humidity>5% to 24%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#CalamondinOrange">
+    <soil>Flowering house plants</soil>
+    <temperature>50°F n, 65°F d</temperature>
+    <sun>At least 4 h of direct sun</sun>
+    <humidity>25% to 49%</humidity>
+    <water>Surface of soil mix should dry</water>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#foliage">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#house-plant"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#MaunaLoa">
+    <humidity>25% to 49%</humidity>
+    <water>Keep soil mix moist</water>
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Foliage plants</soil>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc75149c87f7d4dfda68c89ede26763b9">
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#blooming"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#produce"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+    <rdfs:domain rdf:nodeID="Nfcba541720514cd091ae60ff8c080745"/>
+    <rdfs:range rdf:nodeID="Ne59c0b1059ed41539f1946b541224121"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne776064c01e3443d9fe55076fdcda1d2">
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#produce"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#with-fruits"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Marginata">
+    <water>Surface of soil mix should dry</water>
+    <soil>Foliage plants</soil>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Kalanchoe">
+    <rise rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#kalanchoe-flower"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <temperature>5-25</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#without-fruits"/>
+    <sun>high</sun>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#mini-tree">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#foliage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#Ixora">
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>At least 4 h of direct sun</sun>
+    <soil>Flowering house plants</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#kalanchoe-flower">
+    <size>small</size>
+    <color>multicolor</color>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#flower"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#cactus">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#foliage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#with-fruits">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#blooming"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#FlamingoFlower">
+    <sun>Over 200 ft-c, not direct sun</sun>
+    <soil>Ferns</soil>
+    <humidity>50% or higher</humidity>
+    <water>Keep soil mix moist</water>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#fruits">
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#CapePrimrose">
+    <soil>African violets and other Gesneriads</soil>
+    <water>Surface of soil mix should dry</water>
+    <humidity>25% to 49%</humidity>
+    <temperature>65°F n, 75°F d</temperature>
+    <rdf:type rdf:resource="http://www.semanticweb.org/volka/ontologies/2021/3/untitled-ontology-4#plant"/>
+    <sun>Over 200 ft-c, not direct sun</sun>
+  </rdf:Description>
+</rdf:RDF>

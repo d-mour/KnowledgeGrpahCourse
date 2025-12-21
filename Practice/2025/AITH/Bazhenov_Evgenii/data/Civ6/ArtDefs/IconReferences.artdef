@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>421</build>
+		<revision>621</revision>
+	</m_Version>
+	<m_TemplateName text="IconReferences"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Icons"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Military32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>8</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Military45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>8</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_MILITARY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_GreatPerson32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>10</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_GreatPerson45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>10</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_GREATPERSON"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Discover32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>10</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Discover45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>10</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_DISCOVER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Diplomacy32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>9</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Diplomacy45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>9</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_DIPLOMACY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Religion32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>10</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Religion45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>10</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_RELIGION"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Spy32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>10</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Spy45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>10</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_ESPIONAGE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Settlement32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>10</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Settlement45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>10</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_SETTLEMENT"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Culture32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>9</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Culture45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>9</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_CULTURE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Victory32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>10</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Victory45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>10</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_VICTORY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_City32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>8</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_City45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>8</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_CITY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Science32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>8</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Science45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>8</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_SCIENCE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Barbarians32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>12</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_Barbarians45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>12</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_BARBARIAN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Leader_All45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>6</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_LEADER_ALL"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_All32"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>32</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>8</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Gossip_All45"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>45</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>8</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_GOSSIP_ALL"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="ThumbsUp"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>22</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_THUMBS_UP"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="IconData"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="ThumbsDown"/>
+										<m_XLPClass text="UITexture"/>
+										<m_XLPPath text="icons.xlp"/>
+										<m_BLPPackage text="UI/Icons"/>
+										<m_LibraryName text="UITexture"/>
+										<m_ParamName text="Texture"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>22</m_nValue>
+										<m_ParamName text="Size"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Baseline"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Civ6_IconReferences_IconData"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ICON_THUMBS_DOWN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="Aliases"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_BARBARIAN"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_BARBARIAN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_SCIENCE"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_SCIENCE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_CITY"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_CITY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_VICTORY"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_VICTORY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_CULTURE"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_CULTURE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_SETTLEMENT"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_SETTLEMENT"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_ESPIONAGE"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_ESPIONAGE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_RELIGION"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_RELIGION"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_DIPLOMACY"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_DIPLOMACY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_DISCOVER"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_DISCOVER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_GREATPERSON"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_GREATPERSON"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_MILITARY"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_MILITARY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_LEADER_ALL"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="LEADER_ALL"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="ICON_GOSSIP_ALL"/>
+							<m_RootCollectionName text="Icons"/>
+							<m_ArtDefPath text="IconReferences.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="IconReferences"/>
+							<m_ParamName text="OtherIconName"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="GOSSIP_ALL"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

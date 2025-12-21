@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_TERRAIN"/>
+		<Row Kind="KIND_TERRAIN_CLASS"/>
+	</Kinds>
+	<Types>
+		<Row Type="TERRAIN_CLASS_GRASS" Kind="KIND_TERRAIN_CLASS"/>
+		<Row Type="TERRAIN_CLASS_MOUNTAIN" Kind="KIND_TERRAIN_CLASS"/>
+		<Row Type="TERRAIN_CLASS_PLAINS" Kind="KIND_TERRAIN_CLASS"/>
+		<Row Type="TERRAIN_CLASS_DESERT" Kind="KIND_TERRAIN_CLASS"/>
+		<Row Type="TERRAIN_CLASS_TUNDRA" Kind="KIND_TERRAIN_CLASS"/>
+		<Row Type="TERRAIN_CLASS_SNOW" Kind="KIND_TERRAIN_CLASS"/>
+		<Row Type="TERRAIN_CLASS_WATER" Kind="KIND_TERRAIN_CLASS"/>
+		
+		<Row Type="TERRAIN_GRASS" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_GRASS_HILLS" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_GRASS_MOUNTAIN" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_PLAINS" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_PLAINS_HILLS" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_PLAINS_MOUNTAIN" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_DESERT" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_DESERT_HILLS" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_DESERT_MOUNTAIN" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_TUNDRA" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_TUNDRA_HILLS" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_TUNDRA_MOUNTAIN" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_SNOW" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_SNOW_HILLS" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_SNOW_MOUNTAIN" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_COAST" Kind="KIND_TERRAIN"/>
+		<Row Type="TERRAIN_OCEAN" Kind="KIND_TERRAIN"/>
+	</Types>
+	<Terrains>
+		<Row TerrainType="TERRAIN_GRASS" Name="LOC_TERRAIN_GRASS_NAME" MovementCost="1" InfluenceCost="1" AntiquityPriority="2"/>
+		<Row TerrainType="TERRAIN_GRASS_HILLS" Name="LOC_TERRAIN_GRASS_HILLS_NAME" Hills="true" MovementCost="2" InfluenceCost="1" SightModifier="1" SightThroughModifier="1" DefenseModifier="3" AntiquityPriority="2"/>
+		<Row TerrainType="TERRAIN_GRASS_MOUNTAIN" Name="LOC_TERRAIN_GRASS_MOUNTAIN_NAME" Mountain="true" MovementCost="1" InfluenceCost="3" SightModifier="2" SightThroughModifier="2" Impassable="1" Appeal="1"/>
+		<Row TerrainType="TERRAIN_PLAINS" Name="LOC_TERRAIN_PLAINS_NAME" MovementCost="1" InfluenceCost="1" AntiquityPriority="2"/>
+		<Row TerrainType="TERRAIN_PLAINS_HILLS" Name="LOC_TERRAIN_PLAINS_HILLS_NAME" Hills="true" MovementCost="2" InfluenceCost="1" SightModifier="1" SightThroughModifier="1" DefenseModifier="3" AntiquityPriority="2"/>
+		<Row TerrainType="TERRAIN_PLAINS_MOUNTAIN" Name="LOC_TERRAIN_PLAINS_MOUNTAIN_NAME" Mountain="true" MovementCost="1" InfluenceCost="3" SightModifier="2" SightThroughModifier="2" Impassable="1" Appeal="1"/>
+		<Row TerrainType="TERRAIN_DESERT" Name="LOC_TERRAIN_DESERT_NAME" MovementCost="1" InfluenceCost="2" AntiquityPriority="5"/>
+		<Row TerrainType="TERRAIN_DESERT_HILLS" Name="LOC_TERRAIN_DESERT_HILLS_NAME" Hills="true" MovementCost="2" InfluenceCost="2" SightModifier="1" SightThroughModifier="1" DefenseModifier="3" AntiquityPriority="5"/>
+		<Row TerrainType="TERRAIN_DESERT_MOUNTAIN" Name="LOC_TERRAIN_DESERT_MOUNTAIN_NAME" Mountain="true" MovementCost="1" InfluenceCost="3" SightModifier="2" SightThroughModifier="2" Impassable="1" Appeal="1"/>
+		<Row TerrainType="TERRAIN_TUNDRA" Name="LOC_TERRAIN_TUNDRA_NAME" MovementCost="1" InfluenceCost="2" AntiquityPriority="3"/>
+		<Row TerrainType="TERRAIN_TUNDRA_HILLS" Name="LOC_TERRAIN_TUNDRA_HILLS_NAME" Hills="true" MovementCost="2" InfluenceCost="2" SightModifier="1" SightThroughModifier="1" DefenseModifier="3" AntiquityPriority="3"/>
+		<Row TerrainType="TERRAIN_TUNDRA_MOUNTAIN" Name="LOC_TERRAIN_TUNDRA_MOUNTAIN_NAME" Mountain="true" MovementCost="1" InfluenceCost="3" SightModifier="2" SightThroughModifier="2" Impassable="1" Appeal="1"/>
+		<Row TerrainType="TERRAIN_SNOW" Name="LOC_TERRAIN_SNOW_NAME" MovementCost="1" InfluenceCost="2" AntiquityPriority="1"/>
+		<Row TerrainType="TERRAIN_SNOW_HILLS" Name="LOC_TERRAIN_SNOW_HILLS_NAME" Hills="true" MovementCost="2" InfluenceCost="2" SightModifier="1" SightThroughModifier="1" DefenseModifier="3" AntiquityPriority="1"/>
+		<Row TerrainType="TERRAIN_SNOW_MOUNTAIN" Name="LOC_TERRAIN_SNOW_MOUNTAIN_NAME" Mountain="true" MovementCost="1" InfluenceCost="3" SightModifier="2" SightThroughModifier="2" Impassable="1" Appeal="1"/>
+		<Row TerrainType="TERRAIN_COAST" Name="LOC_TERRAIN_COAST_NAME" Water="true" ShallowWater="true" MovementCost="1" InfluenceCost="2" AntiquityPriority="2" Appeal="1"/>
+		<Row TerrainType="TERRAIN_OCEAN" Name="LOC_TERRAIN_OCEAN_NAME" Water="true" MovementCost="1" InfluenceCost="1"/>
+	</Terrains>
+	<Terrain_YieldChanges>
+		<Row TerrainType="TERRAIN_GRASS" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row TerrainType="TERRAIN_GRASS_HILLS" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row TerrainType="TERRAIN_PLAINS" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row TerrainType="TERRAIN_PLAINS_HILLS" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row TerrainType="TERRAIN_TUNDRA" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row TerrainType="TERRAIN_TUNDRA_HILLS" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row TerrainType="TERRAIN_COAST" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row TerrainType="TERRAIN_COAST" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row TerrainType="TERRAIN_OCEAN" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row TerrainType="TERRAIN_GRASS_HILLS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row TerrainType="TERRAIN_PLAINS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row TerrainType="TERRAIN_PLAINS_HILLS" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row TerrainType="TERRAIN_TUNDRA_HILLS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row TerrainType="TERRAIN_SNOW_HILLS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row TerrainType="TERRAIN_DESERT_HILLS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Terrain_YieldChanges>
+	<TerrainClasses>
+		<Row TerrainClassType="TERRAIN_CLASS_GRASS" Name="LOC_TERRAIN_CLASS_GRASS_NAME"/>
+		<Row TerrainClassType="TERRAIN_CLASS_MOUNTAIN" Name="LOC_TERRAIN_CLASS_MOUNTAIN_NAME"/>
+		<Row TerrainClassType="TERRAIN_CLASS_PLAINS" Name="LOC_TERRAIN_CLASS_PLAINS_NAME"/>
+		<Row TerrainClassType="TERRAIN_CLASS_DESERT" Name="LOC_TERRAIN_CLASS_DESERT_NAME"/>
+		<Row TerrainClassType="TERRAIN_CLASS_TUNDRA" Name="LOC_TERRAIN_CLASS_TUNDRA_NAME"/>
+		<Row TerrainClassType="TERRAIN_CLASS_SNOW" Name="LOC_TERRAIN_CLASS_SNOW_NAME"/>
+		<Row TerrainClassType="TERRAIN_CLASS_WATER" Name="LOC_TERRAIN_CLASS_WATER_NAME"/>
+	</TerrainClasses>
+	<TerrainClass_Terrains>
+		<Row TerrainClassType="TERRAIN_CLASS_GRASS" TerrainType="TERRAIN_GRASS"/>
+		<Row TerrainClassType="TERRAIN_CLASS_GRASS" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row TerrainClassType="TERRAIN_CLASS_MOUNTAIN" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row TerrainClassType="TERRAIN_CLASS_PLAINS" TerrainType="TERRAIN_PLAINS"/>
+		<Row TerrainClassType="TERRAIN_CLASS_PLAINS" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row TerrainClassType="TERRAIN_CLASS_MOUNTAIN" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row TerrainClassType="TERRAIN_CLASS_DESERT" TerrainType="TERRAIN_DESERT"/>
+		<Row TerrainClassType="TERRAIN_CLASS_DESERT" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row TerrainClassType="TERRAIN_CLASS_MOUNTAIN" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row TerrainClassType="TERRAIN_CLASS_TUNDRA" TerrainType="TERRAIN_TUNDRA"/>
+		<Row TerrainClassType="TERRAIN_CLASS_TUNDRA" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row TerrainClassType="TERRAIN_CLASS_MOUNTAIN" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row TerrainClassType="TERRAIN_CLASS_SNOW" TerrainType="TERRAIN_SNOW"/>
+		<Row TerrainClassType="TERRAIN_CLASS_SNOW" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row TerrainClassType="TERRAIN_CLASS_MOUNTAIN" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row TerrainClassType="TERRAIN_CLASS_WATER" TerrainType="TERRAIN_COAST"/>
+		<Row TerrainClassType="TERRAIN_CLASS_WATER" TerrainType="TERRAIN_OCEAN"/>
+	</TerrainClass_Terrains>
+</GameInfo>

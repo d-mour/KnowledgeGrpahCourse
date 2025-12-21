@@ -1,0 +1,3526 @@
+@prefix : <http://www.semanticweb.org/root/ontologies/2025/0/dota2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/root/ontologies/2025/0/dota2#> .
+
+<http://www.semanticweb.org/root/ontologies/2025/0/dota2> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#bestVersus
+:bestVersus rdf:type owl:ObjectProperty ;
+            rdfs:domain :hero ;
+            rdfs:range :hero .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#buysItem
+:buysItem rdf:type owl:ObjectProperty ;
+          rdfs:domain :hero ;
+          rdfs:range :item .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#hasRole
+:hasRole rdf:type owl:ObjectProperty ;
+         rdfs:domain :hero ;
+         rdfs:range :role .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#relativeTo
+:relativeTo rdf:type owl:ObjectProperty ,
+                     owl:SymmetricProperty ,
+                     owl:TransitiveProperty ;
+            rdfs:domain :hero ;
+            rdfs:range :hero .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero_attack_type
+:hero_attack_type rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :hero ;
+                  rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero_name
+:hero_name rdf:type owl:DatatypeProperty ;
+           rdfs:domain :hero ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#item_name
+:item_name rdf:type owl:DatatypeProperty ;
+           rdfs:domain :item ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#role_name
+:role_name rdf:type owl:DatatypeProperty ;
+           rdfs:domain :role ;
+           rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#agile_hero
+:agile_hero rdf:type owl:Class ;
+            rdfs:subClassOf :hero .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero
+:hero rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#intellectual_hero
+:intellectual_hero rdf:type owl:Class ;
+                   rdfs:subClassOf :hero .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#item
+:item rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#role
+:role rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#strong_hero
+:strong_hero rdf:type owl:Class ;
+             rdfs:subClassOf :hero .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#universal_hero
+:universal_hero rdf:type owl:Class ;
+                rdfs:subClassOf :hero .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Abaddon
+:Abaddon rdf:type owl:NamedIndividual ,
+                  :universal_hero ;
+         :bestVersus :Anti-Mage ,
+                     :Bristleback ,
+                     :Clinkz ,
+                     :Dazzle ,
+                     :Disruptor ,
+                     :Phantom-Assassin ,
+                     :Phantom-Lancer ,
+                     :Riki ,
+                     :Spectre ,
+                     :Undying ;
+         :buysItem :diadem ,
+                   :ogre_axe ,
+                   :pavise ;
+         :hasRole :Carry ,
+                  :Durable ,
+                  :Support ;
+         :hero_attack_type "Melee" ;
+         :hero_name "Abaddon" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Alchemist
+:Alchemist rdf:type owl:NamedIndividual ,
+                    :strong_hero ;
+           :bestVersus :Ancient-Apparition ,
+                       :Arc-Warden ,
+                       :Axe ,
+                       :Drow-Ranger ,
+                       :Phantom-Lancer ,
+                       :Phoenix ,
+                       :Riki ,
+                       :Shadow-Shaman ,
+                       :Silencer ,
+                       :Witch-Doctor ;
+           :buysItem :blink ,
+                     :ogre_axe ,
+                     :radiance ;
+           :hasRole :Carry ,
+                    :Disabler ,
+                    :Durable ,
+                    :Initiator ,
+                    :Nuker ,
+                    :Support ;
+           :hero_attack_type "Melee" ;
+           :hero_name "Alchemist" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Ancient-Apparition
+:Ancient-Apparition rdf:type owl:NamedIndividual ,
+                             :intellectual_hero ;
+                    :bestVersus :Axe ,
+                                :Chaos-Knight ,
+                                :Dark-Seer ,
+                                :Juggernaut ,
+                                :Morphling ,
+                                :Phoenix ,
+                                :Razor ,
+                                :Troll-Warlord ,
+                                :Undying ,
+                                :Void-Spirit ;
+                    :buysItem :arcane_boots ,
+                              :shadow_amulet ,
+                              :staff_of_wizardry ;
+                    :hasRole :Disabler ,
+                             :Nuker ,
+                             :Support ;
+                    :hero_attack_type "Ranged" ;
+                    :hero_name "Ancient-Apparition" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Anti-Mage
+:Anti-Mage rdf:type owl:NamedIndividual ,
+                    :agile_hero ;
+           :bestVersus :Arc-Warden ,
+                       :Broodmother ,
+                       :Chaos-Knight ,
+                       :Death-Prophet ,
+                       :Enchantress ,
+                       :Faceless-Void ,
+                       :Naga-Siren ,
+                       :Phantom-Lancer ,
+                       :Razor ,
+                       :Visage ;
+           :buysItem :blade_of_alacrity ,
+                     :diadem ,
+                     :yasha ;
+           :hasRole :Carry ,
+                    :Escape ,
+                    :Nuker ;
+           :hero_attack_type "Melee" ;
+           :hero_name "Anti-Mage" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Arc-Warden
+:Arc-Warden rdf:type owl:NamedIndividual ,
+                     :agile_hero ;
+            :bestVersus :Ancient-Apparition ,
+                        :Axe ,
+                        :Drow-Ranger ,
+                        :Lich ,
+                        :Riki ,
+                        :Silencer ,
+                        :Skywrath-Mage ,
+                        :Slark ,
+                        :Snapfire ,
+                        :Witch-Doctor ;
+            :buysItem :maelstrom ,
+                      :mithril_hammer ,
+                      :staff_of_wizardry ;
+            :hasRole :Carry ,
+                     :Escape ,
+                     :Nuker ;
+            :hero_attack_type "Ranged" ;
+            :hero_name "Arc-Warden" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Axe
+:Axe rdf:type owl:NamedIndividual ,
+              :strong_hero ;
+     :bestVersus :Anti-Mage ,
+                 :Bristleback ,
+                 :Lone-Druid ,
+                 :Naga-Siren ,
+                 :Riki ,
+                 :Silencer ,
+                 :Skywrath-Mage ,
+                 :Tinker ,
+                 :Viper ,
+                 :Wraith-King ;
+     :buysItem :blade_mail ,
+               :blink ,
+               :ogre_axe ;
+     :hasRole :Carry ,
+              :Disabler ,
+              :Durable ,
+              :Initiator ;
+     :hero_attack_type "Melee" ;
+     :hero_name "Axe" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Bane
+:Bane rdf:type owl:NamedIndividual ,
+               :universal_hero ;
+      :bestVersus :Arc-Warden ,
+                  :Bristleback ,
+                  :Dawnbreaker ,
+                  :Kunkka ,
+                  :Meepo ,
+                  :Necrophos ,
+                  :Nyx-Assassin ,
+                  :Sniper ,
+                  :Warlock ,
+                  :Witch-Doctor ;
+      :buysItem :aether_lens ,
+                :arcane_boots ,
+                :staff_of_wizardry ;
+      :hasRole :Disabler ,
+               :Durable ,
+               :Nuker ,
+               :Support ;
+      :relativeTo :Faceless-Void ;
+      :hero_attack_type "Ranged" ;
+      :hero_name "Bane" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Batrider
+:Batrider rdf:type owl:NamedIndividual ,
+                   :universal_hero ;
+          :bestVersus :Arc-Warden ,
+                      :Axe ,
+                      :Dazzle ,
+                      :Medusa ,
+                      :Outworld-Destroyer ,
+                      :Phantom-Assassin ,
+                      :Razor ,
+                      :Silencer ,
+                      :Skywrath-Mage ,
+                      :Wraith-King ;
+          :buysItem :blink ,
+                    :force_staff ,
+                    :staff_of_wizardry ;
+          :hasRole :Disabler ,
+                   :Escape ,
+                   :Initiator ;
+          :hero_attack_type "Ranged" ;
+          :hero_name "Batrider" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Beastmaster
+:Beastmaster rdf:type owl:NamedIndividual ,
+                      :universal_hero ;
+             :bestVersus :Abaddon ,
+                         :Bloodseeker ,
+                         :Drow-Ranger ,
+                         :Huskar ,
+                         :Juggernaut ,
+                         :Lich ,
+                         :Slark ,
+                         :Spectre ,
+                         :Tinker ,
+                         :Wraith-King ;
+             :buysItem :blade_of_alacrity ,
+                       :ogre_axe ,
+                       :ultimate_scepter ;
+             :hasRole :Disabler ,
+                      :Durable ,
+                      :Initiator ,
+                      :Nuker ;
+             :hero_attack_type "Melee" ;
+             :hero_name "Beastmaster" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Bloodseeker
+:Bloodseeker rdf:type owl:NamedIndividual ,
+                      :agile_hero ;
+             :bestVersus :Ancient-Apparition ,
+                         :Dark-Seer ,
+                         :Doom ,
+                         :Drow-Ranger ,
+                         :Huskar ,
+                         :Lifestealer ,
+                         :Naga-Siren ,
+                         :Outworld-Destroyer ,
+                         :Tinker ,
+                         :Underlord ;
+             :buysItem :blade_of_alacrity ,
+                       :mithril_hammer ,
+                       :ogre_axe ;
+             :hasRole :Carry ,
+                      :Disabler ,
+                      :Initiator ,
+                      :Nuker ;
+             :hero_attack_type "Melee" ;
+             :hero_name "Bloodseeker" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Bounty-Hunter
+:Bounty-Hunter rdf:type owl:NamedIndividual ,
+                        :agile_hero ;
+               :bestVersus :Ancient-Apparition ,
+                           :Anti-Mage ,
+                           :Brewmaster ,
+                           :Chaos-Knight ,
+                           :Grimstroke ,
+                           :Medusa ,
+                           :Necrophos ,
+                           :Riki ,
+                           :Techies ,
+                           :Tinker ;
+               :buysItem :ogre_axe ,
+                         :point_booster ,
+                         :staff_of_wizardry ;
+               :hasRole :Escape ,
+                        :Nuker ;
+               :hero_attack_type "Melee" ;
+               :hero_name "Bounty-Hunter" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Brewmaster
+:Brewmaster rdf:type owl:NamedIndividual ,
+                     :universal_hero ;
+            :bestVersus :Arc-Warden ,
+                        :Drow-Ranger ,
+                        :Lycan ,
+                        :Meepo ,
+                        :Muerta ,
+                        :Necrophos ,
+                        :Silencer ,
+                        :Techies ,
+                        :Venomancer ,
+                        :Wraith-King ;
+            :buysItem :radiance ,
+                      :relic ,
+                      :talisman_of_evasion ;
+            :hasRole :Carry ,
+                     :Disabler ,
+                     :Durable ,
+                     :Initiator ,
+                     :Nuker ;
+            :hero_attack_type "Melee" ;
+            :hero_name "Brewmaster" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Bristleback
+:Bristleback rdf:type owl:NamedIndividual ,
+                      :strong_hero ;
+             :bestVersus :Ancient-Apparition ,
+                         :Death-Prophet ,
+                         :Lycan ,
+                         :Medusa ,
+                         :Necrophos ,
+                         :Spectre ,
+                         :Tidehunter ,
+                         :Visage ,
+                         :Weaver ,
+                         :Witch-Doctor ;
+             :buysItem :aghanims_shard ,
+                       :blade_of_alacrity ,
+                       :point_booster ;
+             :hasRole :Carry ,
+                      :Durable ,
+                      :Initiator ,
+                      :Nuker ;
+             :hero_attack_type "Melee" ;
+             :hero_name "Bristleback" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Broodmother
+:Broodmother rdf:type owl:NamedIndividual ,
+                      :universal_hero ;
+             :bestVersus :Arc-Warden ,
+                         :Bane ,
+                         :Bristleback ,
+                         :Chaos-Knight ,
+                         :Dazzle ,
+                         :Lifestealer ,
+                         :Lycan ,
+                         :Riki ,
+                         :Tinker ,
+                         :Underlord ;
+             :buysItem :oblivion_staff ,
+                       :ogre_axe ,
+                       :orchid ;
+             :hasRole :Carry ,
+                      :Escape ,
+                      :Nuker ,
+                      :Pusher ;
+             :hero_attack_type "Melee" ;
+             :hero_name "Broodmother" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Carry
+:Carry rdf:type owl:NamedIndividual ,
+                :role ;
+       :role_name "Carry" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Centaur-Warrunner
+:Centaur-Warrunner rdf:type owl:NamedIndividual ,
+                            :strong_hero ;
+                   :bestVersus :Abaddon ,
+                               :Anti-Mage ,
+                               :Arc-Warden ,
+                               :Axe ,
+                               :Drow-Ranger ,
+                               :Jakiro ,
+                               :Night-Stalker ,
+                               :Outworld-Destroyer ,
+                               :Phantom-Assassin ,
+                               :Riki ;
+                   :buysItem :blade_mail ,
+                             :blink ,
+                             :ring_of_tarrasque ;
+                   :hasRole :Disabler ,
+                            :Durable ,
+                            :Escape ,
+                            :Initiator ,
+                            :Nuker ;
+                   :hero_attack_type "Melee" ;
+                   :hero_name "Centaur-Warrunner" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Chaos-Knight
+:Chaos-Knight rdf:type owl:NamedIndividual ,
+                       :strong_hero ;
+              :bestVersus :Arc-Warden ,
+                          :Dawnbreaker ,
+                          :Dazzle ,
+                          :Death-Prophet ,
+                          :Faceless-Void ,
+                          :Juggernaut ,
+                          :Meepo ,
+                          :Primal-Beast ,
+                          :Queen-of-Pain ,
+                          :Void-Spirit ;
+              :buysItem :armlet ,
+                        :blitz_knuckles ,
+                        :oblivion_staff ;
+              :hasRole :Carry ,
+                       :Disabler ,
+                       :Durable ,
+                       :Initiator ,
+                       :Pusher ;
+              :hero_attack_type "Melee" ;
+              :hero_name "Chaos-Knight" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Chen
+:Chen rdf:type owl:NamedIndividual ,
+               :universal_hero ;
+      :bestVersus :Anti-Mage ,
+                  :Arc-Warden ,
+                  :Bane ,
+                  :Broodmother ,
+                  :Drow-Ranger ,
+                  :Lone-Druid ,
+                  :Necrophos ,
+                  :Outworld-Destroyer ,
+                  :Riki ,
+                  :Snapfire ;
+      :buysItem :ancient_janggo ,
+                :arcane_boots ,
+                :mekansm ;
+      :hasRole :Pusher ,
+               :Support ;
+      :hero_attack_type "Ranged" ;
+      :hero_name "Chen" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Clinkz
+:Clinkz rdf:type owl:NamedIndividual ,
+                 :agile_hero ;
+        :bestVersus :Death-Prophet ,
+                    :Drow-Ranger ,
+                    :Huskar ,
+                    :Io ,
+                    :Muerta ,
+                    :Night-Stalker ,
+                    :Slark ,
+                    :Spectre ,
+                    :Tinker ,
+                    :Warlock ;
+        :buysItem :blade_of_alacrity ,
+                  :dragon_lance ,
+                  :mithril_hammer ;
+        :hasRole :Carry ,
+                 :Escape ,
+                 :Pusher ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Clinkz" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Clockwerk
+:Clockwerk rdf:type owl:NamedIndividual ,
+                    :universal_hero ;
+           :bestVersus :Anti-Mage ,
+                       :Earthshaker ,
+                       :Meepo ,
+                       :Night-Stalker ,
+                       :Oracle ,
+                       :Phantom-Assassin ,
+                       :Skywrath-Mage ,
+                       :Slardar ,
+                       :Snapfire ,
+                       :Spirit-Breaker ;
+           :buysItem :pavise ,
+                     :solar_crest ,
+                     :staff_of_wizardry ;
+           :hasRole :Disabler ,
+                    :Durable ,
+                    :Initiator ,
+                    :Nuker ;
+           :hero_attack_type "Melee" ;
+           :hero_name "Clockwerk" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Crystal-Maiden
+:Crystal-Maiden rdf:type owl:NamedIndividual ,
+                         :intellectual_hero ;
+                :bestVersus :Anti-Mage ,
+                            :Arc-Warden ,
+                            :Bloodseeker ,
+                            :Dazzle ,
+                            :Huskar ,
+                            :Outworld-Destroyer ,
+                            :Phantom-Lancer ,
+                            :Sand-King ,
+                            :Sniper ,
+                            :Spectre ;
+                :buysItem :glimmer_cape ,
+                          :shadow_amulet ,
+                          :staff_of_wizardry ;
+                :hasRole :Disabler ,
+                         :Nuker ,
+                         :Support ;
+                :relativeTo :Lina ;
+                :hero_attack_type "Ranged" ;
+                :hero_name "Crystal-Maiden" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Dark-Seer
+:Dark-Seer rdf:type owl:NamedIndividual ,
+                    :universal_hero ;
+           :bestVersus :Abaddon ,
+                       :Arc-Warden ,
+                       :Bane ,
+                       :Dazzle ,
+                       :Drow-Ranger ,
+                       :Necrophos ,
+                       :Phantom-Lancer ,
+                       :Tusk ,
+                       :Viper ,
+                       :Wraith-King ;
+           :buysItem :mekansm ,
+                     :pipe ,
+                     :ring_of_tarrasque ;
+           :hasRole :Disabler ,
+                    :Escape ,
+                    :Initiator ;
+           :hero_attack_type "Melee" ;
+           :hero_name "Dark-Seer" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Dark-Willow
+:Dark-Willow rdf:type owl:NamedIndividual ,
+                      :universal_hero ;
+             :bestVersus :Anti-Mage ,
+                         :Phantom-Lancer ,
+                         :Silencer ,
+                         :Slark ,
+                         :Sven ,
+                         :Techies ,
+                         :Underlord ,
+                         :Venomancer ,
+                         :Viper ,
+                         :Witch-Doctor ;
+             :buysItem :blink ,
+                       :cyclone ,
+                       :staff_of_wizardry ;
+             :hasRole :Disabler ,
+                      :Escape ,
+                      :Nuker ,
+                      :Support ;
+             :hero_attack_type "Ranged" ;
+             :hero_name "Dark-Willow" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Dawnbreaker
+:Dawnbreaker rdf:type owl:NamedIndividual ,
+                      :strong_hero ;
+             :bestVersus :Drow-Ranger ,
+                         :Queen-of-Pain ,
+                         :Riki ,
+                         :Spirit-Breaker ,
+                         :Underlord ,
+                         :Undying ,
+                         :Viper ,
+                         :Warlock ,
+                         :Witch-Doctor ,
+                         :Wraith-King ;
+             :buysItem :blade_mail ,
+                       :broadsword ,
+                       :ogre_axe ;
+             :hasRole :Carry ,
+                      :Durable ;
+             :hero_attack_type "Melee" ;
+             :hero_name "Dawnbreaker" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Dazzle
+:Dazzle rdf:type owl:NamedIndividual ,
+                 :universal_hero ;
+        :bestVersus :Bristleback ,
+                    :Drow-Ranger ,
+                    :Keeper-of-the-Light ,
+                    :Lifestealer ,
+                    :Meepo ,
+                    :Mirana ,
+                    :Outworld-Destroyer ,
+                    :Troll-Warlord ,
+                    :Void-Spirit ,
+                    :Witch-Doctor ;
+        :buysItem :aghanims_shard ,
+                  :blade_of_alacrity ,
+                  :staff_of_wizardry ;
+        :hasRole :Disabler ,
+                 :Nuker ,
+                 :Support ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Dazzle" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Death-Prophet
+:Death-Prophet rdf:type owl:NamedIndividual ,
+                        :intellectual_hero ;
+               :bestVersus :Bane ,
+                           :Jakiro ,
+                           :Lifestealer ,
+                           :Meepo ,
+                           :Necrophos ,
+                           :Night-Stalker ,
+                           :Omniknight ,
+                           :Outworld-Destroyer ,
+                           :Phantom-Lancer ,
+                           :Riki ;
+               :buysItem :ogre_axe ,
+                         :staff_of_wizardry ,
+                         :vitality_booster ;
+               :hasRole :Carry ,
+                        :Disabler ,
+                        :Nuker ,
+                        :Pusher ;
+               :hero_attack_type "Ranged" ;
+               :hero_name "Death-Prophet" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Disabler
+:Disabler rdf:type owl:NamedIndividual ,
+                   :role ;
+          :role_name "Disabler" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Disruptor
+:Disruptor rdf:type owl:NamedIndividual ,
+                    :intellectual_hero ;
+           :bestVersus :Arc-Warden ,
+                       :Bristleback ,
+                       :Dazzle ,
+                       :Dragon-Knight ,
+                       :Huskar ,
+                       :Lone-Druid ,
+                       :Naga-Siren ,
+                       :Sven ,
+                       :Vengeful-Spirit ,
+                       :Viper ;
+           :buysItem :arcane_boots ,
+                     :shadow_amulet ,
+                     :staff_of_wizardry ;
+           :hasRole :Disabler ,
+                    :Initiator ,
+                    :Nuker ,
+                    :Support ;
+           :hero_attack_type "Ranged" ;
+           :hero_name "Disruptor" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Doom
+:Doom rdf:type owl:NamedIndividual ,
+               :strong_hero ;
+      :bestVersus :Arc-Warden ,
+                  :Bane ,
+                  :Chaos-Knight ,
+                  :Huskar ,
+                  :Io ,
+                  :Necrophos ,
+                  :Outworld-Destroyer ,
+                  :Phantom-Lancer ,
+                  :Silencer ,
+                  :Slark ;
+      :buysItem :ancient_janggo ,
+                :blink ,
+                :ogre_axe ;
+      :hasRole :Carry ,
+               :Disabler ,
+               :Durable ,
+               :Initiator ,
+               :Nuker ;
+      :hero_attack_type "Melee" ;
+      :hero_name "Doom" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Dragon-Knight
+:Dragon-Knight rdf:type owl:NamedIndividual ,
+                        :strong_hero ;
+               :bestVersus :Drow-Ranger ,
+                           :Jakiro ,
+                           :Lifestealer ,
+                           :Mars ,
+                           :Muerta ,
+                           :Pangolier ,
+                           :Phantom-Lancer ,
+                           :Pugna ,
+                           :Riki ,
+                           :Slark ;
+               :buysItem :broadsword ,
+                         :mask_of_madness ,
+                         :ogre_axe ;
+               :hasRole :Carry ,
+                        :Disabler ,
+                        :Durable ,
+                        :Initiator ,
+                        :Nuker ,
+                        :Pusher ;
+               :relativeTo :Jakiro ,
+                           :Winter-Wyvern ;
+               :hero_attack_type "Melee" ;
+               :hero_name "Dragon-Knight" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Drow-Ranger
+:Drow-Ranger rdf:type owl:NamedIndividual ,
+                      :agile_hero ;
+             :bestVersus :Axe ,
+                         :Bounty-Hunter ,
+                         :Meepo ,
+                         :Omniknight ,
+                         :Phantom-Lancer ,
+                         :Razor ,
+                         :Sniper ,
+                         :Tidehunter ,
+                         :Ursa ,
+                         :Wraith-King ;
+             :buysItem :blade_of_alacrity ,
+                       :dragon_lance ,
+                       :staff_of_wizardry ;
+             :hasRole :Carry ,
+                      :Disabler ,
+                      :Pusher ;
+             :hero_attack_type "Ranged" ;
+             :hero_name "Drow-Ranger" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Durable
+:Durable rdf:type owl:NamedIndividual ,
+                  :role ;
+         :role_name "Durable" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Earth-Spirit
+:Earth-Spirit rdf:type owl:NamedIndividual ,
+                       :strong_hero ;
+              :bestVersus :Abaddon ,
+                          :Anti-Mage ,
+                          :Arc-Warden ,
+                          :Juggernaut ,
+                          :Legion-Commander ,
+                          :Lich ,
+                          :Morphling ,
+                          :Queen-of-Pain ,
+                          :Spectre ,
+                          :Viper ;
+              :buysItem :blade_mail ,
+                        :mithril_hammer ,
+                        :ogre_axe ;
+              :hasRole :Disabler ,
+                       :Durable ,
+                       :Escape ,
+                       :Initiator ,
+                       :Nuker ;
+              :relativeTo :Ember-Spirit ,
+                          :Storm-Spirit ,
+                          :Void-Spirit ;
+              :hero_attack_type "Melee" ;
+              :hero_name "Earth-Spirit" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Earthshaker
+:Earthshaker rdf:type owl:NamedIndividual ,
+                      :strong_hero ;
+             :bestVersus :Arc-Warden ,
+                         :Centaur-Warrunner ,
+                         :Chaos-Knight ,
+                         :Dazzle ,
+                         :Huskar ,
+                         :Juggernaut ,
+                         :Kunkka ,
+                         :Sand-King ,
+                         :Spectre ,
+                         :Witch-Doctor ;
+             :buysItem :blink ,
+                       :ogre_axe ,
+                       :point_booster ;
+             :hasRole :Disabler ,
+                      :Initiator ,
+                      :Nuker ,
+                      :Support ;
+             :hero_attack_type "Melee" ;
+             :hero_name "Earthshaker" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Elder-Titan
+:Elder-Titan rdf:type owl:NamedIndividual ,
+                      :strong_hero ;
+             :bestVersus :Bane ,
+                         :Drow-Ranger ,
+                         :Io ,
+                         :Meepo ,
+                         :Necrophos ,
+                         :Night-Stalker ,
+                         :Razor ,
+                         :Riki ,
+                         :Silencer ,
+                         :Tusk ;
+             :buysItem :ancient_janggo ,
+                       :ogre_axe ,
+                       :staff_of_wizardry ;
+             :hasRole :Disabler ,
+                      :Durable ,
+                      :Initiator ,
+                      :Nuker ;
+             :hero_attack_type "Melee" ;
+             :hero_name "Elder-Titan" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Ember-Spirit
+:Ember-Spirit rdf:type owl:NamedIndividual ,
+                       :agile_hero ;
+              :bestVersus :Arc-Warden ,
+                          :Bane ,
+                          :Death-Prophet ,
+                          :Lycan ,
+                          :Phantom-Assassin ,
+                          :Phantom-Lancer ,
+                          :Pugna ,
+                          :Shadow-Shaman ,
+                          :Spectre ,
+                          :Viper ;
+              :buysItem :mage_slayer ,
+                        :mithril_hammer ,
+                        :oblivion_staff ;
+              :hasRole :Carry ,
+                       :Disabler ,
+                       :Escape ,
+                       :Initiator ,
+                       :Nuker ;
+              :relativeTo :Earth-Spirit ,
+                          :Storm-Spirit ,
+                          :Void-Spirit ;
+              :hero_attack_type "Melee" ;
+              :hero_name "Ember-Spirit" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Enchantress
+:Enchantress rdf:type owl:NamedIndividual ,
+                      :intellectual_hero ;
+             :bestVersus :Abaddon ,
+                         :Chaos-Knight ,
+                         :Drow-Ranger ,
+                         :Earthshaker ,
+                         :Grimstroke ,
+                         :Phantom-Lancer ,
+                         :Silencer ,
+                         :Spectre ,
+                         :Ursa ,
+                         :Viper ;
+             :buysItem :blade_of_alacrity ,
+                       :dragon_lance ,
+                       :staff_of_wizardry ;
+             :hasRole :Disabler ,
+                      :Durable ,
+                      :Pusher ,
+                      :Support ;
+             :relativeTo :Natures-Prophet ,
+                         :Terrorblade ;
+             :hero_attack_type "Ranged" ;
+             :hero_name "Enchantress" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Enigma
+:Enigma rdf:type owl:NamedIndividual ,
+                 :universal_hero ;
+        :bestVersus :Ancient-Apparition ,
+                    :Arc-Warden ,
+                    :Bloodseeker ,
+                    :Dazzle ,
+                    :Lifestealer ,
+                    :Medusa ,
+                    :Skywrath-Mage ,
+                    :Spectre ,
+                    :Treant-Protector ,
+                    :Visage ;
+        :buysItem :blink ,
+                  :boots_of_bearing ,
+                  :ogre_axe ;
+        :hasRole :Disabler ,
+                 :Initiator ,
+                 :Pusher ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Enigma" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Escape
+:Escape rdf:type owl:NamedIndividual ,
+                 :role ;
+        :role_name "Escape" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Faceless-Void
+:Faceless-Void rdf:type owl:NamedIndividual ,
+                        :agile_hero ;
+               :bestVersus :Ancient-Apparition ,
+                           :Bloodseeker ,
+                           :Earth-Spirit ,
+                           :Juggernaut ,
+                           :Kunkka ,
+                           :Lone-Druid ,
+                           :Marci ,
+                           :Razor ,
+                           :Riki ,
+                           :Spectre ;
+               :buysItem :blade_of_alacrity ,
+                         :maelstrom ,
+                         :mithril_hammer ;
+               :hasRole :Carry ,
+                        :Disabler ,
+                        :Durable ,
+                        :Escape ,
+                        :Initiator ;
+               :relativeTo :Bane ;
+               :hero_attack_type "Melee" ;
+               :hero_name "Faceless-Void" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Grimstroke
+:Grimstroke rdf:type owl:NamedIndividual ,
+                     :intellectual_hero ;
+            :bestVersus :Clinkz ,
+                        :Drow-Ranger ,
+                        :Jakiro ,
+                        :Legion-Commander ,
+                        :Nyx-Assassin ,
+                        :Phantom-Assassin ,
+                        :Phantom-Lancer ,
+                        :Silencer ,
+                        :Skywrath-Mage ,
+                        :Spectre ;
+            :buysItem :aether_lens ,
+                      :aghanims_shard ,
+                      :arcane_boots ;
+            :hasRole :Disabler ,
+                     :Escape ,
+                     :Nuker ,
+                     :Support ;
+            :hero_attack_type "Ranged" ;
+            :hero_name "Grimstroke" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Gyrocopter
+:Gyrocopter rdf:type owl:NamedIndividual ,
+                     :agile_hero ;
+            :bestVersus :Abaddon ,
+                        :Anti-Mage ,
+                        :Arc-Warden ,
+                        :Dazzle ,
+                        :Juggernaut ,
+                        :Necrophos ,
+                        :Shadow-Shaman ,
+                        :Silencer ,
+                        :Treant-Protector ,
+                        :Undying ;
+            :buysItem :blade_of_alacrity ,
+                      :ogre_axe ,
+                      :staff_of_wizardry ;
+            :hasRole :Carry ,
+                     :Disabler ,
+                     :Nuker ;
+            :hero_attack_type "Ranged" ;
+            :hero_name "Gyrocopter" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Hoodwink
+:Hoodwink rdf:type owl:NamedIndividual ,
+                   :agile_hero ;
+          :bestVersus :Ancient-Apparition ,
+                      :Arc-Warden ,
+                      :Beastmaster ,
+                      :Bloodseeker ,
+                      :Drow-Ranger ,
+                      :Grimstroke ,
+                      :Lion ,
+                      :Meepo ,
+                      :Omniknight ,
+                      :Winter-Wyvern ;
+          :buysItem :rod_of_atos ,
+                    :staff_of_wizardry ,
+                    :vitality_booster ;
+          :hasRole :Disabler ,
+                   :Escape ,
+                   :Nuker ,
+                   :Support ;
+          :hero_attack_type "Ranged" ;
+          :hero_name "Hoodwink" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Huskar
+:Huskar rdf:type owl:NamedIndividual ,
+                 :strong_hero ;
+        :bestVersus :Anti-Mage ,
+                    :Bane ,
+                    :Batrider ,
+                    :Dawnbreaker ,
+                    :Faceless-Void ,
+                    :Invoker ,
+                    :Night-Stalker ,
+                    :Oracle ,
+                    :Skywrath-Mage ,
+                    :Underlord ;
+        :buysItem :blade_of_alacrity ,
+                  :ogre_axe ,
+                  :sange ;
+        :hasRole :Carry ,
+                 :Durable ,
+                 :Initiator ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Huskar" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Initiator
+:Initiator rdf:type owl:NamedIndividual ,
+                    :role ;
+           :role_name "Initiator" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Invoker
+:Invoker rdf:type owl:NamedIndividual ,
+                  :universal_hero ;
+         :bestVersus :Abaddon ,
+                     :Anti-Mage ,
+                     :Lifestealer ,
+                     :Omniknight ,
+                     :Outworld-Destroyer ,
+                     :Phantom-Lancer ,
+                     :Silencer ,
+                     :Slark ,
+                     :Sven ,
+                     :Undying ;
+         :buysItem :blade_of_alacrity ,
+                   :dragon_lance ,
+                   :oblivion_staff ;
+         :hasRole :Carry ,
+                  :Disabler ,
+                  :Escape ,
+                  :Nuker ,
+                  :Pusher ;
+         :hero_attack_type "Ranged" ;
+         :hero_name "Invoker" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Io
+:Io rdf:type owl:NamedIndividual ,
+             :universal_hero ;
+    :bestVersus :Arc-Warden ,
+                :Dazzle ,
+                :Drow-Ranger ,
+                :Enchantress ,
+                :Legion-Commander ,
+                :Lone-Druid ,
+                :Meepo ,
+                :Morphling ,
+                :Riki ,
+                :Tinker ;
+    :buysItem :diadem ,
+              :holy_locket ,
+              :mekansm ;
+    :hasRole :Escape ,
+             :Nuker ,
+             :Support ;
+    :hero_attack_type "Ranged" ;
+    :hero_name "Io" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Jakiro
+:Jakiro rdf:type owl:NamedIndividual ,
+                 :intellectual_hero ;
+        :bestVersus :Bounty-Hunter ,
+                    :Bristleback ,
+                    :Dark-Seer ,
+                    :Medusa ,
+                    :Night-Stalker ,
+                    :Phoenix ,
+                    :Pugna ,
+                    :Tinker ,
+                    :Underlord ,
+                    :Wraith-King ;
+        :buysItem :arcane_boots ,
+                  :cyclone ,
+                  :staff_of_wizardry ;
+        :hasRole :Disabler ,
+                 :Nuker ,
+                 :Pusher ,
+                 :Support ;
+        :relativeTo :Dragon-Knight ,
+                    :Winter-Wyvern ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Jakiro" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Juggernaut
+:Juggernaut rdf:type owl:NamedIndividual ,
+                     :agile_hero ;
+            :bestVersus :Anti-Mage ,
+                        :Arc-Warden ,
+                        :Bristleback ,
+                        :Clinkz ,
+                        :Dazzle ,
+                        :Lone-Druid ,
+                        :Phantom-Lancer ,
+                        :Sand-King ,
+                        :Snapfire ,
+                        :Troll-Warlord ;
+            :buysItem :blade_of_alacrity ,
+                      :ogre_axe ,
+                      :yasha ;
+            :hasRole :Carry ,
+                     :Escape ,
+                     :Pusher ;
+            :hero_attack_type "Melee" ;
+            :hero_name "Juggernaut" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Keeper-of-the-Light
+:Keeper-of-the-Light rdf:type owl:NamedIndividual ,
+                              :intellectual_hero ;
+                     :bestVersus :Axe ,
+                                 :Bristleback ,
+                                 :Broodmother ,
+                                 :Huskar ,
+                                 :Marci ,
+                                 :Phantom-Lancer ,
+                                 :Riki ,
+                                 :Sand-King ,
+                                 :Spectre ,
+                                 :Treant-Protector ;
+                     :buysItem :point_booster ,
+                               :spirit_vessel ,
+                               :vitality_booster ;
+                     :hasRole :Disabler ,
+                              :Nuker ,
+                              :Support ;
+                     :hero_attack_type "Ranged" ;
+                     :hero_name "Keeper-of-the-Light" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Kez
+:Kez rdf:type owl:NamedIndividual ,
+              :agile_hero ;
+     :hasRole :Carry ,
+              :Disabler ,
+              :Escape ;
+     :hero_attack_type "Melee" ;
+     :hero_name "Kez" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Kunkka
+:Kunkka rdf:type owl:NamedIndividual ,
+                 :strong_hero ;
+        :bestVersus :Axe ,
+                    :Bloodseeker ,
+                    :Drow-Ranger ,
+                    :Jakiro ,
+                    :Phantom-Assassin ,
+                    :Phantom-Lancer ,
+                    :Sand-King ,
+                    :Silencer ,
+                    :Slark ,
+                    :Spectre ;
+        :buysItem :blade_mail ,
+                  :ogre_axe ,
+                  :staff_of_wizardry ;
+        :hasRole :Carry ,
+                 :Disabler ,
+                 :Durable ,
+                 :Initiator ,
+                 :Nuker ,
+                 :Support ;
+        :hero_attack_type "Melee" ;
+        :hero_name "Kunkka" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Legion-Commander
+:Legion-Commander rdf:type owl:NamedIndividual ,
+                           :strong_hero ;
+                  :bestVersus :Arc-Warden ,
+                              :Brewmaster ,
+                              :Meepo ,
+                              :Naga-Siren ,
+                              :Night-Stalker ,
+                              :Shadow-Shaman ,
+                              :Terrorblade ,
+                              :Tinker ,
+                              :Troll-Warlord ,
+                              :Viper ;
+                  :buysItem :blade_mail ,
+                            :blink ,
+                            :ogre_axe ;
+                  :hasRole :Carry ,
+                           :Disabler ,
+                           :Durable ,
+                           :Initiator ,
+                           :Nuker ;
+                  :hero_attack_type "Melee" ;
+                  :hero_name "Legion-Commander" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Leshrac
+:Leshrac rdf:type owl:NamedIndividual ,
+                  :intellectual_hero ;
+         :bestVersus :Bounty-Hunter ,
+                     :Dawnbreaker ,
+                     :Elder-Titan ,
+                     :Lone-Druid ,
+                     :Meepo ,
+                     :Phantom-Assassin ,
+                     :Phantom-Lancer ,
+                     :Riki ,
+                     :Spectre ,
+                     :Tinker ;
+         :buysItem :kaya ,
+                   :ogre_axe ,
+                   :staff_of_wizardry ;
+         :hasRole :Carry ,
+                  :Disabler ,
+                  :Nuker ,
+                  :Pusher ,
+                  :Support ;
+         :hero_attack_type "Ranged" ;
+         :hero_name "Leshrac" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Lich
+:Lich rdf:type owl:NamedIndividual ,
+               :intellectual_hero ;
+      :bestVersus :Anti-Mage ,
+                  :Drow-Ranger ,
+                  :Enigma ,
+                  :Legion-Commander ,
+                  :Meepo ,
+                  :Outworld-Destroyer ,
+                  :Pangolier ,
+                  :Razor ,
+                  :Ringmaster ,
+                  :Undying ;
+      :buysItem :aghanims_shard ,
+                :blink ,
+                :shadow_amulet ;
+      :hasRole :Nuker ,
+               :Support ;
+      :hero_attack_type "Ranged" ;
+      :hero_name "Lich" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Lifestealer
+:Lifestealer rdf:type owl:NamedIndividual ,
+                      :strong_hero ;
+             :bestVersus :Anti-Mage ,
+                         :Arc-Warden ,
+                         :Faceless-Void ,
+                         :Juggernaut ,
+                         :Muerta ,
+                         :Phantom-Lancer ,
+                         :Slark ,
+                         :Tinker ,
+                         :Viper ,
+                         :Winter-Wyvern ;
+             :buysItem :blade_of_alacrity ,
+                       :ogre_axe ,
+                       :radiance ;
+             :hasRole :Carry ,
+                      :Disabler ,
+                      :Durable ,
+                      :Escape ;
+             :hero_attack_type "Melee" ;
+             :hero_name "Lifestealer" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Lina
+:Lina rdf:type owl:NamedIndividual ,
+               :intellectual_hero ;
+      :bestVersus :Anti-Mage ,
+                  :Bloodseeker ,
+                  :Bristleback ,
+                  :Dawnbreaker ,
+                  :Huskar ,
+                  :Jakiro ,
+                  :Ringmaster ,
+                  :Tidehunter ,
+                  :Venomancer ,
+                  :Witch-Doctor ;
+      :buysItem :blade_of_alacrity ,
+                :ogre_axe ,
+                :staff_of_wizardry ;
+      :hasRole :Carry ,
+               :Disabler ,
+               :Nuker ,
+               :Support ;
+      :relativeTo :Crystal-Maiden ;
+      :hero_attack_type "Ranged" ;
+      :hero_name "Lina" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Lion
+:Lion rdf:type owl:NamedIndividual ,
+               :intellectual_hero ;
+      :bestVersus :Bane ,
+                  :Dazzle ,
+                  :Disruptor ,
+                  :Earthshaker ,
+                  :Huskar ,
+                  :Medusa ,
+                  :Naga-Siren ,
+                  :Silencer ,
+                  :Underlord ,
+                  :Undying ;
+      :buysItem :blink ,
+                :shadow_amulet ,
+                :staff_of_wizardry ;
+      :hasRole :Disabler ,
+               :Initiator ,
+               :Nuker ,
+               :Support ;
+      :hero_attack_type "Ranged" ;
+      :hero_name "Lion" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Lone-Druid
+:Lone-Druid rdf:type owl:NamedIndividual ,
+                     :universal_hero ;
+            :bestVersus :Broodmother ,
+                        :Clinkz ,
+                        :Dawnbreaker ,
+                        :Dazzle ,
+                        :Meepo ,
+                        :Oracle ,
+                        :Phantom-Lancer ,
+                        :Riki ,
+                        :Shadow-Shaman ,
+                        :Skywrath-Mage ;
+            :buysItem :aghanims_shard ,
+                      :diffusal_blade ,
+                      :mithril_hammer ;
+            :hasRole :Carry ,
+                     :Durable ,
+                     :Pusher ;
+            :hero_attack_type "Ranged" ;
+            :hero_name "Lone-Druid" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Luna
+:Luna rdf:type owl:NamedIndividual ,
+               :agile_hero ;
+      :bestVersus :Arc-Warden ,
+                  :Dazzle ,
+                  :Drow-Ranger ,
+                  :Grimstroke ,
+                  :Huskar ,
+                  :Lich ,
+                  :Phantom-Assassin ,
+                  :Slark ,
+                  :Snapfire ,
+                  :Tinker ;
+      :buysItem :blade_of_alacrity ,
+                :diadem ,
+                :yasha ;
+      :hasRole :Carry ,
+               :Nuker ,
+               :Pusher ;
+      :hero_attack_type "Ranged" ;
+      :hero_name "Luna" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Lycan
+:Lycan rdf:type owl:NamedIndividual ,
+                :universal_hero ;
+       :bestVersus :Arc-Warden ,
+                   :Dazzle ,
+                   :Enigma ,
+                   :Juggernaut ,
+                   :Keeper-of-the-Light ,
+                   :Meepo ,
+                   :Oracle ,
+                   :Sven ,
+                   :Visage ,
+                   :Void-Spirit ;
+       :buysItem :diadem ,
+                 :echo_sabre ,
+                 :ogre_axe ;
+       :hasRole :Carry ,
+                :Durable ,
+                :Escape ,
+                :Pusher ;
+       :hero_attack_type "Melee" ;
+       :hero_name "Lycan" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Magnus
+:Magnus rdf:type owl:NamedIndividual ,
+                 :universal_hero ;
+        :bestVersus :Anti-Mage ,
+                    :Arc-Warden ,
+                    :Dark-Willow ,
+                    :Earthshaker ,
+                    :Necrophos ,
+                    :Phantom-Assassin ,
+                    :Phantom-Lancer ,
+                    :Snapfire ,
+                    :Tinker ,
+                    :Visage ;
+        :buysItem :aghanims_shard ,
+                  :blink ,
+                  :ogre_axe ;
+        :hasRole :Disabler ,
+                 :Escape ,
+                 :Initiator ,
+                 :Nuker ;
+        :hero_attack_type "Melee" ;
+        :hero_name "Magnus" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Marci
+:Marci rdf:type owl:NamedIndividual ,
+                :universal_hero ;
+       :bestVersus :Axe ,
+                   :Dazzle ,
+                   :Grimstroke ,
+                   :Juggernaut ,
+                   :Lifestealer ,
+                   :Oracle ,
+                   :Outworld-Destroyer ,
+                   :Phantom-Lancer ,
+                   :Ursa ,
+                   :Viper ;
+       :buysItem :mithril_hammer ,
+                 :ogre_axe ,
+                 :phase_boots ;
+       :hasRole :Carry ,
+                :Disabler ,
+                :Escape ,
+                :Initiator ,
+                :Support ;
+       :hero_attack_type "Melee" ;
+       :hero_name "Marci" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Mars
+:Mars rdf:type owl:NamedIndividual ,
+               :strong_hero ;
+      :bestVersus :Abaddon ,
+                  :Arc-Warden ,
+                  :Dazzle ,
+                  :Drow-Ranger ,
+                  :Earthshaker ,
+                  :Huskar ,
+                  :Silencer ,
+                  :Tinker ,
+                  :Ursa ,
+                  :Warlock ;
+      :buysItem :blink ,
+                :mithril_hammer ,
+                :ogre_axe ;
+      :hasRole :Carry ,
+               :Disabler ,
+               :Durable ,
+               :Initiator ;
+      :relativeTo :Zeus ;
+      :hero_attack_type "Melee" ;
+      :hero_name "Mars" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Medusa
+:Medusa rdf:type owl:NamedIndividual ,
+                 :agile_hero ;
+        :bestVersus :Abaddon ,
+                    :Beastmaster ,
+                    :Huskar ,
+                    :Morphling ,
+                    :Outworld-Destroyer ,
+                    :Phantom-Lancer ,
+                    :Silencer ,
+                    :Techies ,
+                    :Undying ,
+                    :Witch-Doctor ;
+        :buysItem :claymore ,
+                  :diadem ,
+                  :manta ;
+        :hasRole :Carry ,
+                 :Disabler ,
+                 :Durable ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Medusa" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Meepo
+:Meepo rdf:type owl:NamedIndividual ,
+                :agile_hero ;
+       :bestVersus :Arc-Warden ,
+                   :Bloodseeker ,
+                   :Clinkz ,
+                   :Dawnbreaker ,
+                   :Lina ,
+                   :Razor ,
+                   :Skywrath-Mage ,
+                   :Spectre ,
+                   :Storm-Spirit ,
+                   :Tusk ;
+       :buysItem :blade_of_alacrity ,
+                 :ogre_axe ,
+                 :point_booster ;
+       :hasRole :Carry ,
+                :Disabler ,
+                :Escape ,
+                :Initiator ,
+                :Nuker ,
+                :Pusher ;
+       :hero_attack_type "Melee" ;
+       :hero_name "Meepo" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Mirana
+:Mirana rdf:type owl:NamedIndividual ,
+                 :universal_hero ;
+        :bestVersus :Abaddon ,
+                    :Brewmaster ,
+                    :Faceless-Void ,
+                    :Magnus ,
+                    :Necrophos ,
+                    :Night-Stalker ,
+                    :Outworld-Destroyer ,
+                    :Silencer ,
+                    :Slark ,
+                    :Tinker ;
+        :buysItem :aghanims_shard ,
+                  :blade_of_alacrity ,
+                  :staff_of_wizardry ;
+        :hasRole :Carry ,
+                 :Disabler ,
+                 :Escape ,
+                 :Nuker ,
+                 :Support ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Mirana" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Monkey-King
+:Monkey-King rdf:type owl:NamedIndividual ,
+                      :agile_hero ;
+             :bestVersus :Drow-Ranger ,
+                         :Earthshaker ,
+                         :Marci ,
+                         :Medusa ,
+                         :Necrophos ,
+                         :Oracle ,
+                         :Pugna ,
+                         :Riki ,
+                         :Spectre ,
+                         :Visage ;
+             :buysItem :maelstrom ,
+                       :mithril_hammer ,
+                       :ogre_axe ;
+             :hasRole :Carry ,
+                      :Disabler ,
+                      :Escape ,
+                      :Initiator ;
+             :hero_attack_type "Melee" ;
+             :hero_name "Monkey-King" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Morphling
+:Morphling rdf:type owl:NamedIndividual ,
+                    :agile_hero ;
+           :bestVersus :Arc-Warden ,
+                       :Bounty-Hunter ,
+                       :Dazzle ,
+                       :Jakiro ,
+                       :Necrophos ,
+                       :Omniknight ,
+                       :Phantom-Assassin ,
+                       :Phantom-Lancer ,
+                       :Ringmaster ,
+                       :Tusk ;
+           :buysItem :blade_of_alacrity ,
+                     :diadem ,
+                     :yasha ;
+           :hasRole :Carry ,
+                    :Disabler ,
+                    :Durable ,
+                    :Escape ,
+                    :Nuker ;
+           :hero_attack_type "Ranged" ;
+           :hero_name "Morphling" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Muerta
+:Muerta rdf:type owl:NamedIndividual ,
+                 :intellectual_hero ;
+        :bestVersus :Chaos-Knight ,
+                    :Dazzle ,
+                    :Juggernaut ,
+                    :Legion-Commander ,
+                    :Lich ,
+                    :Meepo ,
+                    :Queen-of-Pain ,
+                    :Riki ,
+                    :Tidehunter ,
+                    :Undying ;
+        :buysItem :rod_of_atos ,
+                  :staff_of_wizardry ,
+                  :vitality_booster ;
+        :hasRole :Carry ,
+                 :Disabler ,
+                 :Nuker ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Muerta" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Naga-Siren
+:Naga-Siren rdf:type owl:NamedIndividual ,
+                     :agile_hero ;
+            :bestVersus :Abaddon ,
+                        :Arc-Warden ,
+                        :Bounty-Hunter ,
+                        :Drow-Ranger ,
+                        :Huskar ,
+                        :Lich ,
+                        :Night-Stalker ,
+                        :Pugna ,
+                        :Troll-Warlord ,
+                        :Winter-Wyvern ;
+            :buysItem :arcane_boots ,
+                      :diadem ,
+                      :manta ;
+            :hasRole :Carry ,
+                     :Disabler ,
+                     :Escape ,
+                     :Initiator ,
+                     :Pusher ,
+                     :Support ;
+            :hero_attack_type "Melee" ;
+            :hero_name "Naga-Siren" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Natures-Prophet
+:Natures-Prophet rdf:type owl:NamedIndividual ,
+                          :intellectual_hero ;
+                 :bestVersus :Axe ,
+                             :Clinkz ,
+                             :Dazzle ,
+                             :Drow-Ranger ,
+                             :Earthshaker ,
+                             :Necrophos ,
+                             :Phantom-Assassin ,
+                             :Riki ,
+                             :Skywrath-Mage ,
+                             :Witch-Doctor ;
+                 :buysItem :maelstrom ,
+                           :mithril_hammer ,
+                           :staff_of_wizardry ;
+                 :hasRole :Carry ,
+                          :Escape ,
+                          :Nuker ,
+                          :Pusher ;
+                 :relativeTo :Enchantress ,
+                             :Terrorblade ;
+                 :hero_attack_type "Ranged" ;
+                 :hero_name "Natures-Prophet" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Necrophos
+:Necrophos rdf:type owl:NamedIndividual ,
+                    :intellectual_hero ;
+           :bestVersus :Dawnbreaker ,
+                       :Earth-Spirit ,
+                       :Huskar ,
+                       :Juggernaut ,
+                       :Oracle ,
+                       :Outworld-Destroyer ,
+                       :Spirit-Breaker ,
+                       :Sven ,
+                       :Underlord ,
+                       :Warlock ;
+           :buysItem :aghanims_shard ,
+                     :radiance ,
+                     :talisman_of_evasion ;
+           :hasRole :Carry ,
+                    :Disabler ,
+                    :Durable ,
+                    :Nuker ;
+           :hero_attack_type "Ranged" ;
+           :hero_name "Necrophos" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Night-Stalker
+:Night-Stalker rdf:type owl:NamedIndividual ,
+                        :strong_hero ;
+               :bestVersus :Arc-Warden ,
+                           :Dazzle ,
+                           :Meepo ,
+                           :Omniknight ,
+                           :Phantom-Assassin ,
+                           :Phantom-Lancer ,
+                           :Pudge ,
+                           :Razor ,
+                           :Ringmaster ,
+                           :Underlord ;
+               :buysItem :blink ,
+                         :mithril_hammer ,
+                         :ogre_axe ;
+               :hasRole :Carry ,
+                        :Disabler ,
+                        :Durable ,
+                        :Initiator ,
+                        :Nuker ;
+               :hero_attack_type "Melee" ;
+               :hero_name "Night-Stalker" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Nuker
+:Nuker rdf:type owl:NamedIndividual ,
+                :role ;
+       :role_name "Nuker" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Nyx-Assassin
+:Nyx-Assassin rdf:type owl:NamedIndividual ,
+                       :universal_hero ;
+              :bestVersus :Huskar ,
+                          :Kunkka ,
+                          :Meepo ,
+                          :Morphling ,
+                          :Phantom-Assassin ,
+                          :Razor ,
+                          :Timbersaw ,
+                          :Underlord ,
+                          :Warlock ,
+                          :Winter-Wyvern ;
+              :buysItem :dagon ,
+                        :dagon_2 ,
+                        :diadem ;
+              :hasRole :Disabler ,
+                       :Escape ,
+                       :Initiator ,
+                       :Nuker ;
+              :hero_attack_type "Melee" ;
+              :hero_name "Nyx-Assassin" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Ogre-Magi
+:Ogre-Magi rdf:type owl:NamedIndividual ,
+                    :strong_hero ;
+           :bestVersus :Batrider ,
+                       :Chaos-Knight ,
+                       :Death-Prophet ,
+                       :Huskar ,
+                       :Mars ,
+                       :Omniknight ,
+                       :Skywrath-Mage ,
+                       :Spectre ,
+                       :Sven ,
+                       :Warlock ;
+           :buysItem :arcane_boots ,
+                     :hand_of_midas ,
+                     :pavise ;
+           :hasRole :Disabler ,
+                    :Durable ,
+                    :Initiator ,
+                    :Nuker ,
+                    :Support ;
+           :hero_attack_type "Melee" ;
+           :hero_name "Ogre-Magi" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Omniknight
+:Omniknight rdf:type owl:NamedIndividual ,
+                     :strong_hero ;
+            :bestVersus :Arc-Warden ,
+                        :Dazzle ,
+                        :Huskar ,
+                        :Io ,
+                        :Legion-Commander ,
+                        :Lich ,
+                        :Lina ,
+                        :Mars ,
+                        :Oracle ,
+                        :Phantom-Assassin ;
+            :buysItem :arcane_boots ,
+                      :pavise ,
+                      :solar_crest ;
+            :hasRole :Durable ,
+                     :Nuker ,
+                     :Support ;
+            :hero_attack_type "Melee" ;
+            :hero_name "Omniknight" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Oracle
+:Oracle rdf:type owl:NamedIndividual ,
+                 :intellectual_hero ;
+        :bestVersus :Abaddon ,
+                    :Arc-Warden ,
+                    :Bloodseeker ,
+                    :Dazzle ,
+                    :Nyx-Assassin ,
+                    :Outworld-Destroyer ,
+                    :Queen-of-Pain ,
+                    :Sniper ,
+                    :Tidehunter ,
+                    :Warlock ;
+        :buysItem :aether_lens ,
+                  :arcane_boots ,
+                  :diadem ;
+        :hasRole :Disabler ,
+                 :Escape ,
+                 :Nuker ,
+                 :Support ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Oracle" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Outworld-Destroyer
+:Outworld-Destroyer rdf:type owl:NamedIndividual ,
+                             :intellectual_hero ;
+                    :bestVersus :Arc-Warden ,
+                                :Chaos-Knight ,
+                                :Disruptor ,
+                                :Drow-Ranger ,
+                                :Grimstroke ,
+                                :Legion-Commander ,
+                                :Mars ,
+                                :Silencer ,
+                                :Spectre ,
+                                :Tinker ;
+                    :buysItem :blade_of_alacrity ,
+                              :staff_of_wizardry ,
+                              :witch_blade ;
+                    :hasRole :Carry ,
+                             :Disabler ,
+                             :Nuker ;
+                    :hero_attack_type "Ranged" ;
+                    :hero_name "Outworld-Destroyer" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Pangolier
+:Pangolier rdf:type owl:NamedIndividual ,
+                    :universal_hero ;
+           :bestVersus :Abaddon ,
+                       :Dazzle ,
+                       :Drow-Ranger ,
+                       :Meepo ,
+                       :Oracle ,
+                       :Shadow-Shaman ,
+                       :Silencer ,
+                       :Skywrath-Mage ,
+                       :Spectre ,
+                       :Witch-Doctor ;
+           :buysItem :blade_of_alacrity ,
+                     :ogre_axe ,
+                     :staff_of_wizardry ;
+           :hasRole :Carry ,
+                    :Disabler ,
+                    :Durable ,
+                    :Escape ,
+                    :Initiator ,
+                    :Nuker ;
+           :hero_attack_type "Melee" ;
+           :hero_name "Pangolier" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Phantom-Assassin
+:Phantom-Assassin rdf:type owl:NamedIndividual ,
+                           :agile_hero ;
+                  :bestVersus :Anti-Mage ,
+                              :Axe ,
+                              :Lich ,
+                              :Medusa ,
+                              :Outworld-Destroyer ,
+                              :Pangolier ,
+                              :Phantom-Lancer ,
+                              :Riki ,
+                              :Spectre ,
+                              :Warlock ;
+                  :buysItem :bfury ,
+                            :mithril_hammer ,
+                            :ogre_axe ;
+                  :hasRole :Carry ,
+                           :Escape ;
+                  :hero_attack_type "Melee" ;
+                  :hero_name "Phantom-Assassin" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Phantom-Lancer
+:Phantom-Lancer rdf:type owl:NamedIndividual ,
+                         :agile_hero ;
+                :bestVersus :Bloodseeker ,
+                            :Bristleback ,
+                            :Chaos-Knight ,
+                            :Dazzle ,
+                            :Io ,
+                            :Lycan ,
+                            :Oracle ,
+                            :Shadow-Fiend ,
+                            :Tinker ,
+                            :Viper ;
+                :buysItem :blade_of_alacrity ,
+                          :point_booster ,
+                          :staff_of_wizardry ;
+                :hasRole :Carry ,
+                         :Escape ,
+                         :Nuker ,
+                         :Pusher ;
+                :hero_attack_type "Melee" ;
+                :hero_name "Phantom-Lancer" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Phoenix
+:Phoenix rdf:type owl:NamedIndividual ,
+                  :universal_hero ;
+         :bestVersus :Arc-Warden ,
+                     :Bounty-Hunter ,
+                     :Huskar ,
+                     :Lycan ,
+                     :Necrophos ,
+                     :Outworld-Destroyer ,
+                     :Phantom-Assassin ,
+                     :Phantom-Lancer ,
+                     :Sand-King ,
+                     :Silencer ;
+         :buysItem :pavise ,
+                   :solar_crest ,
+                   :staff_of_wizardry ;
+         :hasRole :Disabler ,
+                  :Escape ,
+                  :Initiator ,
+                  :Nuker ,
+                  :Support ;
+         :hero_attack_type "Ranged" ;
+         :hero_name "Phoenix" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Primal-Beast
+:Primal-Beast rdf:type owl:NamedIndividual ,
+                       :strong_hero ;
+              :bestVersus :Ancient-Apparition ,
+                          :Arc-Warden ,
+                          :Huskar ,
+                          :Juggernaut ,
+                          :Legion-Commander ,
+                          :Medusa ,
+                          :Phantom-Lancer ,
+                          :Snapfire ,
+                          :Undying ,
+                          :Wraith-King ;
+              :buysItem :blade_mail ,
+                        :mithril_hammer ,
+                        :ogre_axe ;
+              :hasRole :Disabler ,
+                       :Durable ,
+                       :Initiator ;
+              :hero_attack_type "Melee" ;
+              :hero_name "Primal-Beast" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Puck
+:Puck rdf:type owl:NamedIndividual ,
+               :intellectual_hero ;
+      :bestVersus :Bristleback ,
+                  :Necrophos ,
+                  :Oracle ,
+                  :Phoenix ,
+                  :Riki ,
+                  :Terrorblade ,
+                  :Tinker ,
+                  :Underlord ,
+                  :Vengeful-Spirit ,
+                  :Witch-Doctor ;
+      :buysItem :blink ,
+                :oblivion_staff ,
+                :witch_blade ;
+      :hasRole :Disabler ,
+               :Escape ,
+               :Initiator ,
+               :Nuker ;
+      :hero_attack_type "Ranged" ;
+      :hero_name "Puck" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Pudge
+:Pudge rdf:type owl:NamedIndividual ,
+                :strong_hero ;
+       :bestVersus :Anti-Mage ,
+                   :Arc-Warden ,
+                   :Axe ,
+                   :Marci ,
+                   :Oracle ,
+                   :Phantom-Lancer ,
+                   :Ringmaster ,
+                   :Spectre ,
+                   :Tinker ,
+                   :Underlord ;
+       :buysItem :aether_lens ,
+                 :ogre_axe ,
+                 :staff_of_wizardry ;
+       :hasRole :Disabler ,
+                :Durable ,
+                :Initiator ,
+                :Nuker ;
+       :hero_attack_type "Melee" ;
+       :hero_name "Pudge" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Pugna
+:Pugna rdf:type owl:NamedIndividual ,
+                :intellectual_hero ;
+       :bestVersus :Anti-Mage ,
+                   :Axe ,
+                   :Bloodseeker ,
+                   :Clinkz ,
+                   :Lich ,
+                   :Outworld-Destroyer ,
+                   :Phantom-Assassin ,
+                   :Spectre ,
+                   :Techies ,
+                   :Warlock ;
+       :buysItem :arcane_boots ,
+                 :glimmer_cape ,
+                 :shadow_amulet ;
+       :hasRole :Nuker ,
+                :Pusher ;
+       :hero_attack_type "Ranged" ;
+       :hero_name "Pugna" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Pusher
+:Pusher rdf:type owl:NamedIndividual ,
+                 :role ;
+        :role_name "Pusher" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Queen-of-Pain
+:Queen-of-Pain rdf:type owl:NamedIndividual ,
+                        :intellectual_hero ;
+               :bestVersus :Bloodseeker ,
+                           :Clinkz ,
+                           :Dazzle ,
+                           :Io ,
+                           :Lich ,
+                           :Phantom-Assassin ,
+                           :Razor ,
+                           :Silencer ,
+                           :Slardar ,
+                           :Ursa ;
+               :buysItem :dagon ,
+                         :kaya ,
+                         :staff_of_wizardry ;
+               :hasRole :Carry ,
+                        :Escape ,
+                        :Nuker ;
+               :hero_attack_type "Ranged" ;
+               :hero_name "Queen-of-Pain" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Razor
+:Razor rdf:type owl:NamedIndividual ,
+                :agile_hero ;
+       :bestVersus :Arc-Warden ,
+                   :Bounty-Hunter ,
+                   :Bristleback ,
+                   :Juggernaut ,
+                   :Oracle ,
+                   :Troll-Warlord ,
+                   :Viper ,
+                   :Visage ,
+                   :Void-Spirit ,
+                   :Witch-Doctor ;
+       :buysItem :mithril_hammer ,
+                 :ogre_axe ,
+                 :yasha ;
+       :hasRole :Carry ,
+                :Durable ,
+                :Nuker ,
+                :Pusher ;
+       :hero_attack_type "Ranged" ;
+       :hero_name "Razor" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Riki
+:Riki rdf:type owl:NamedIndividual ,
+               :agile_hero ;
+      :bestVersus :Brewmaster ,
+                  :Disruptor ,
+                  :Huskar ,
+                  :Meepo ,
+                  :Phoenix ,
+                  :Spectre ,
+                  :Sven ,
+                  :Templar-Assassin ,
+                  :Troll-Warlord ,
+                  :Void-Spirit ;
+      :buysItem :blade_of_alacrity ,
+                :diffusal_blade ,
+                :point_booster ;
+      :hasRole :Carry ,
+               :Disabler ,
+               :Escape ;
+      :hero_attack_type "Melee" ;
+      :hero_name "Riki" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Ringmaster
+:Ringmaster rdf:type owl:NamedIndividual ,
+                     :intellectual_hero ;
+            :bestVersus :Lich ,
+                        :Lina ,
+                        :Morphling ,
+                        :Night-Stalker ,
+                        :Pudge ;
+            :buysItem :arcane_boots ,
+                      :staff_of_wizardry ;
+            :hasRole :Disabler ,
+                     :Escape ,
+                     :Nuker ,
+                     :Support ;
+            :hero_attack_type "Ranged" ;
+            :hero_name "Ringmaster" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Rubick
+:Rubick rdf:type owl:NamedIndividual ,
+                 :intellectual_hero ;
+        :bestVersus :Anti-Mage ,
+                    :Arc-Warden ,
+                    :Bloodseeker ,
+                    :Phantom-Lancer ,
+                    :Queen-of-Pain ,
+                    :Spectre ,
+                    :Spirit-Breaker ,
+                    :Tinker ,
+                    :Underlord ,
+                    :Witch-Doctor ;
+        :buysItem :aether_lens ,
+                  :blink ,
+                  :staff_of_wizardry ;
+        :hasRole :Disabler ,
+                 :Nuker ,
+                 :Support ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Rubick" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Sand-King
+:Sand-King rdf:type owl:NamedIndividual ,
+                    :universal_hero ;
+           :bestVersus :Arc-Warden ,
+                       :Lich ,
+                       :Medusa ,
+                       :Meepo ,
+                       :Oracle ,
+                       :Phantom-Lancer ,
+                       :Pugna ,
+                       :Tinker ,
+                       :Warlock ,
+                       :Witch-Doctor ;
+           :buysItem :blink ,
+                     :bloodstone ,
+                     :soul_booster ;
+           :hasRole :Disabler ,
+                    :Escape ,
+                    :Initiator ,
+                    :Nuker ,
+                    :Support ;
+           :hero_attack_type "Melee" ;
+           :hero_name "Sand-King" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Shadow-Demon
+:Shadow-Demon rdf:type owl:NamedIndividual ,
+                       :intellectual_hero ;
+              :bestVersus :Abaddon ,
+                          :Ancient-Apparition ,
+                          :Drow-Ranger ,
+                          :Juggernaut ,
+                          :Oracle ,
+                          :Riki ,
+                          :Shadow-Fiend ,
+                          :Silencer ,
+                          :Witch-Doctor ,
+                          :Wraith-King ;
+              :buysItem :arcane_boots ,
+                        :glimmer_cape ,
+                        :shadow_amulet ;
+              :hasRole :Disabler ,
+                       :Initiator ,
+                       :Nuker ,
+                       :Support ;
+              :hero_attack_type "Ranged" ;
+              :hero_name "Shadow-Demon" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Shadow-Fiend
+:Shadow-Fiend rdf:type owl:NamedIndividual ,
+                       :agile_hero ;
+              :bestVersus :Anti-Mage ,
+                          :Arc-Warden ,
+                          :Dazzle ,
+                          :Ember-Spirit ,
+                          :Juggernaut ,
+                          :Kunkka ,
+                          :Meepo ,
+                          :Razor ,
+                          :Spectre ,
+                          :Underlord ;
+              :buysItem :blade_of_alacrity ,
+                        :claymore ,
+                        :dragon_lance ;
+              :hasRole :Carry ,
+                       :Nuker ;
+              :hero_attack_type "Ranged" ;
+              :hero_name "Shadow-Fiend" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Shadow-Shaman
+:Shadow-Shaman rdf:type owl:NamedIndividual ,
+                        :intellectual_hero ;
+               :bestVersus :Arc-Warden ,
+                           :Bloodseeker ,
+                           :Clinkz ,
+                           :Drow-Ranger ,
+                           :Enchantress ,
+                           :Huskar ,
+                           :Meepo ,
+                           :Riki ,
+                           :Tidehunter ,
+                           :Ursa ;
+               :buysItem :aether_lens ,
+                         :arcane_boots ,
+                         :blink ;
+               :hasRole :Disabler ,
+                        :Initiator ,
+                        :Nuker ,
+                        :Pusher ,
+                        :Support ;
+               :hero_attack_type "Ranged" ;
+               :hero_name "Shadow-Shaman" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Silencer
+:Silencer rdf:type owl:NamedIndividual ,
+                   :intellectual_hero ;
+          :bestVersus :Anti-Mage ,
+                      :Dawnbreaker ,
+                      :Dazzle ,
+                      :Earth-Spirit ,
+                      :Lich ,
+                      :Primal-Beast ,
+                      :Spectre ,
+                      :Tidehunter ,
+                      :Winter-Wyvern ,
+                      :Zeus ;
+          :buysItem :force_staff ,
+                    :power_treads ,
+                    :staff_of_wizardry ;
+          :hasRole :Carry ,
+                   :Disabler ,
+                   :Initiator ,
+                   :Nuker ,
+                   :Support ;
+          :hero_attack_type "Ranged" ;
+          :hero_name "Silencer" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Skywrath-Mage
+:Skywrath-Mage rdf:type owl:NamedIndividual ,
+                        :intellectual_hero ;
+               :bestVersus :Anti-Mage ,
+                           :Brewmaster ,
+                           :Bristleback ,
+                           :Earthshaker ,
+                           :Kunkka ,
+                           :Mars ,
+                           :Omniknight ,
+                           :Oracle ,
+                           :Phantom-Lancer ,
+                           :Razor ;
+               :buysItem :arcane_boots ,
+                         :staff_of_wizardry ,
+                         :vitality_booster ;
+               :hasRole :Disabler ,
+                        :Nuker ,
+                        :Support ;
+               :hero_attack_type "Ranged" ;
+               :hero_name "Skywrath-Mage" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Slardar
+:Slardar rdf:type owl:NamedIndividual ,
+                  :strong_hero ;
+         :bestVersus :Ancient-Apparition ,
+                     :Arc-Warden ,
+                     :Bloodseeker ,
+                     :Bristleback ,
+                     :Chaos-Knight ,
+                     :Dazzle ,
+                     :Keeper-of-the-Light ,
+                     :Lich ,
+                     :Lycan ,
+                     :Night-Stalker ;
+         :buysItem :aghanims_shard ,
+                   :blink ,
+                   :ogre_axe ;
+         :hasRole :Carry ,
+                  :Disabler ,
+                  :Durable ,
+                  :Escape ,
+                  :Initiator ;
+         :hero_attack_type "Melee" ;
+         :hero_name "Slardar" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Slark
+:Slark rdf:type owl:NamedIndividual ,
+                :agile_hero ;
+       :bestVersus :Abaddon ,
+                   :Anti-Mage ,
+                   :Bristleback ,
+                   :Dark-Seer ,
+                   :Monkey-King ,
+                   :Phantom-Lancer ,
+                   :Skywrath-Mage ,
+                   :Snapfire ,
+                   :Tinker ,
+                   :Viper ;
+       :buysItem :blade_of_alacrity ,
+                 :diffusal_blade ,
+                 :ogre_axe ;
+       :hasRole :Carry ,
+                :Disabler ,
+                :Escape ,
+                :Nuker ;
+       :hero_attack_type "Melee" ;
+       :hero_name "Slark" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Snapfire
+:Snapfire rdf:type owl:NamedIndividual ,
+                   :universal_hero ;
+          :bestVersus :Chaos-Knight ,
+                      :Dazzle ,
+                      :Huskar ,
+                      :Io ,
+                      :Lich ,
+                      :Lone-Druid ,
+                      :Phantom-Lancer ,
+                      :Riki ,
+                      :Underlord ,
+                      :Wraith-King ;
+          :buysItem :arcane_boots ,
+                    :force_staff ,
+                    :staff_of_wizardry ;
+          :hasRole :Disabler ,
+                   :Escape ,
+                   :Nuker ,
+                   :Support ;
+          :relativeTo :Timbersaw ;
+          :hero_attack_type "Ranged" ;
+          :hero_name "Snapfire" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Sniper
+:Sniper rdf:type owl:NamedIndividual ,
+                 :agile_hero ;
+        :bestVersus :Anti-Mage ,
+                    :Earthshaker ,
+                    :Faceless-Void ,
+                    :Juggernaut ,
+                    :Lich ,
+                    :Outworld-Destroyer ,
+                    :Razor ,
+                    :Spectre ,
+                    :Tinker ,
+                    :Warlock ;
+        :buysItem :blade_of_alacrity ,
+                  :maelstrom ,
+                  :mithril_hammer ;
+        :hasRole :Carry ,
+                 :Nuker ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Sniper" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Spectre
+:Spectre rdf:type owl:NamedIndividual ,
+                  :agile_hero ;
+         :bestVersus :Chaos-Knight ,
+                     :Dazzle ,
+                     :Drow-Ranger ,
+                     :Elder-Titan ,
+                     :Lifestealer ,
+                     :Lina ,
+                     :Medusa ,
+                     :Phantom-Lancer ,
+                     :Razor ,
+                     :Underlord ;
+         :buysItem :blade_of_alacrity ,
+                   :diadem ,
+                   :yasha ;
+         :hasRole :Carry ,
+                  :Durable ,
+                  :Escape ;
+         :hero_attack_type "Melee" ;
+         :hero_name "Spectre" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Spirit-Breaker
+:Spirit-Breaker rdf:type owl:NamedIndividual ,
+                         :strong_hero ;
+                :bestVersus :Axe ,
+                            :Earth-Spirit ,
+                            :Elder-Titan ,
+                            :Io ,
+                            :Medusa ,
+                            :Meepo ,
+                            :Nyx-Assassin ,
+                            :Phantom-Lancer ,
+                            :Silencer ,
+                            :Spectre ;
+                :buysItem :blitz_knuckles ,
+                          :broadsword ,
+                          :shadow_amulet ;
+                :hasRole :Carry ,
+                         :Disabler ,
+                         :Durable ,
+                         :Escape ,
+                         :Initiator ;
+                :hero_attack_type "Melee" ;
+                :hero_name "Spirit-Breaker" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Storm-Spirit
+:Storm-Spirit rdf:type owl:NamedIndividual ,
+                       :intellectual_hero ;
+              :bestVersus :Brewmaster ,
+                          :Clinkz ,
+                          :Dazzle ,
+                          :Drow-Ranger ,
+                          :Lich ,
+                          :Phantom-Assassin ,
+                          :Phantom-Lancer ,
+                          :Skywrath-Mage ,
+                          :Viper ,
+                          :Void-Spirit ;
+              :buysItem :blitz_knuckles ,
+                        :oblivion_staff ,
+                        :ogre_axe ;
+              :hasRole :Carry ,
+                       :Disabler ,
+                       :Escape ,
+                       :Initiator ,
+                       :Nuker ;
+              :relativeTo :Earth-Spirit ,
+                          :Ember-Spirit ,
+                          :Void-Spirit ;
+              :hero_attack_type "Ranged" ;
+              :hero_name "Storm-Spirit" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Support
+:Support rdf:type owl:NamedIndividual ,
+                  :role ;
+         :role_name "Support" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Sven
+:Sven rdf:type owl:NamedIndividual ,
+               :strong_hero ;
+      :bestVersus :Bloodseeker ,
+                  :Dazzle ,
+                  :Drow-Ranger ,
+                  :Earth-Spirit ,
+                  :Huskar ,
+                  :Juggernaut ,
+                  :Visage ,
+                  :Witch-Doctor ,
+                  :Wraith-King ,
+                  :Zeus ;
+      :buysItem :broadsword ,
+                :echo_sabre ,
+                :ogre_axe ;
+      :hasRole :Carry ,
+               :Disabler ,
+               :Durable ,
+               :Initiator ,
+               :Nuker ;
+      :hero_attack_type "Melee" ;
+      :hero_name "Sven" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Techies
+:Techies rdf:type owl:NamedIndividual ,
+                  :universal_hero ;
+         :bestVersus :Anti-Mage ,
+                     :Axe ,
+                     :Drow-Ranger ,
+                     :Lich ,
+                     :Lone-Druid ,
+                     :Nyx-Assassin ,
+                     :Phantom-Lancer ,
+                     :Snapfire ,
+                     :Tinker ,
+                     :Witch-Doctor ;
+         :buysItem :arcane_boots ,
+                   :ogre_axe ,
+                   :staff_of_wizardry ;
+         :hasRole :Disabler ,
+                  :Nuker ;
+         :hero_attack_type "Ranged" ;
+         :hero_name "Techies" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Templar-Assassin
+:Templar-Assassin rdf:type owl:NamedIndividual ,
+                           :agile_hero ;
+                  :bestVersus :Ancient-Apparition ,
+                              :Anti-Mage ,
+                              :Arc-Warden ,
+                              :Axe ,
+                              :Bloodseeker ,
+                              :Bounty-Hunter ,
+                              :Night-Stalker ,
+                              :Oracle ,
+                              :Spectre ,
+                              :Void-Spirit ;
+                  :buysItem :blink ,
+                            :desolator ,
+                            :mithril_hammer ;
+                  :hasRole :Carry ,
+                           :Escape ;
+                  :hero_attack_type "Ranged" ;
+                  :hero_name "Templar-Assassin" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Terrorblade
+:Terrorblade rdf:type owl:NamedIndividual ,
+                      :agile_hero ;
+             :bestVersus :Abaddon ,
+                         :Anti-Mage ,
+                         :Chaos-Knight ,
+                         :Meepo ,
+                         :Phantom-Assassin ,
+                         :Phantom-Lancer ,
+                         :Skywrath-Mage ,
+                         :Snapfire ,
+                         :Spectre ,
+                         :Wraith-King ;
+             :buysItem :aghanims_shard ,
+                       :blade_of_alacrity ,
+                       :yasha ;
+             :hasRole :Carry ,
+                      :Nuker ,
+                      :Pusher ;
+             :relativeTo :Enchantress ,
+                         :Natures-Prophet ;
+             :hero_attack_type "Melee" ;
+             :hero_name "Terrorblade" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Tidehunter
+:Tidehunter rdf:type owl:NamedIndividual ,
+                     :strong_hero ;
+            :bestVersus :Chaos-Knight ,
+                        :Earthshaker ,
+                        :Ember-Spirit ,
+                        :Huskar ,
+                        :Juggernaut ,
+                        :Monkey-King ,
+                        :Omniknight ,
+                        :Phantom-Lancer ,
+                        :Snapfire ,
+                        :Terrorblade ;
+            :buysItem :aghanims_shard ,
+                      :blink ,
+                      :vladmir ;
+            :hasRole :Carry ,
+                     :Disabler ,
+                     :Durable ,
+                     :Initiator ,
+                     :Nuker ;
+            :hero_attack_type "Melee" ;
+            :hero_name "Tidehunter" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Timbersaw
+:Timbersaw rdf:type owl:NamedIndividual ,
+                    :strong_hero ;
+           :bestVersus :Anti-Mage ,
+                       :Bloodseeker ,
+                       :Bounty-Hunter ,
+                       :Dazzle ,
+                       :Earth-Spirit ,
+                       :Faceless-Void ,
+                       :Medusa ,
+                       :Phantom-Lancer ,
+                       :Silencer ,
+                       :Witch-Doctor ;
+           :buysItem :kaya ,
+                     :ogre_axe ,
+                     :staff_of_wizardry ;
+           :hasRole :Durable ,
+                    :Escape ,
+                    :Nuker ;
+           :relativeTo :Snapfire ;
+           :hero_attack_type "Melee" ;
+           :hero_name "Timbersaw" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Tinker
+:Tinker rdf:type owl:NamedIndividual ,
+                 :intellectual_hero ;
+        :bestVersus :Dark-Seer ,
+                    :Disruptor ,
+                    :Elder-Titan ,
+                    :Ember-Spirit ,
+                    :Faceless-Void ,
+                    :Grimstroke ,
+                    :Huskar ,
+                    :Juggernaut ,
+                    :Meepo ,
+                    :Riki ;
+        :buysItem :arcane_boots ,
+                  :diadem ,
+                  :holy_locket ;
+        :hasRole :Carry ,
+                 :Nuker ,
+                 :Pusher ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Tinker" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Tiny
+:Tiny rdf:type owl:NamedIndividual ,
+               :strong_hero ;
+      :bestVersus :Ancient-Apparition ,
+                  :Axe ,
+                  :Huskar ,
+                  :Mars ,
+                  :Outworld-Destroyer ,
+                  :Phantom-Assassin ,
+                  :Phantom-Lancer ,
+                  :Razor ,
+                  :Riki ,
+                  :Ursa ;
+      :buysItem :blink ,
+                :diadem ,
+                :ogre_axe ;
+      :hasRole :Carry ,
+               :Disabler ,
+               :Durable ,
+               :Initiator ,
+               :Nuker ,
+               :Pusher ;
+      :hero_attack_type "Melee" ;
+      :hero_name "Tiny" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Treant-Protector
+:Treant-Protector rdf:type owl:NamedIndividual ,
+                           :strong_hero ;
+                  :bestVersus :Bane ,
+                              :Grimstroke ,
+                              :Jakiro ,
+                              :Monkey-King ,
+                              :Silencer ,
+                              :Skywrath-Mage ,
+                              :Slark ,
+                              :Spirit-Breaker ,
+                              :Tidehunter ,
+                              :Wraith-King ;
+                  :buysItem :aghanims_shard ,
+                            :arcane_boots ,
+                            :blink ;
+                  :hasRole :Disabler ,
+                           :Durable ,
+                           :Escape ,
+                           :Initiator ,
+                           :Support ;
+                  :hero_attack_type "Melee" ;
+                  :hero_name "Treant-Protector" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Troll-Warlord
+:Troll-Warlord rdf:type owl:NamedIndividual ,
+                        :agile_hero ;
+               :bestVersus :Arc-Warden ,
+                           :Bounty-Hunter ,
+                           :Bristleback ,
+                           :Keeper-of-the-Light ,
+                           :Medusa ,
+                           :Snapfire ,
+                           :Spectre ,
+                           :Underlord ,
+                           :Undying ,
+                           :Ursa ;
+               :buysItem :blade_of_alacrity ,
+                         :ogre_axe ,
+                         :yasha ;
+               :hasRole :Carry ,
+                        :Disabler ,
+                        :Durable ,
+                        :Pusher ;
+               :hero_attack_type "Ranged" ;
+               :hero_name "Troll-Warlord" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Tusk
+:Tusk rdf:type owl:NamedIndividual ,
+               :strong_hero ;
+      :bestVersus :Ancient-Apparition ,
+                  :Arc-Warden ,
+                  :Dazzle ,
+                  :Drow-Ranger ,
+                  :Huskar ,
+                  :Legion-Commander ,
+                  :Lina ,
+                  :Phantom-Assassin ,
+                  :Skywrath-Mage ,
+                  :Ursa ;
+      :buysItem :blink ,
+                :ogre_axe ,
+                :pavise ;
+      :hasRole :Disabler ,
+               :Initiator ,
+               :Nuker ;
+      :hero_attack_type "Melee" ;
+      :hero_name "Tusk" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Underlord
+:Underlord rdf:type owl:NamedIndividual ,
+                    :strong_hero ;
+           :bestVersus :Anti-Mage ,
+                       :Arc-Warden ,
+                       :Disruptor ,
+                       :Io ,
+                       :Muerta ,
+                       :Riki ,
+                       :Skywrath-Mage ,
+                       :Techies ,
+                       :Tidehunter ,
+                       :Viper ;
+           :buysItem :pipe ,
+                     :ring_of_tarrasque ,
+                     :staff_of_wizardry ;
+           :hasRole :Disabler ,
+                    :Durable ,
+                    :Escape ,
+                    :Nuker ,
+                    :Support ;
+           :hero_attack_type "Melee" ;
+           :hero_name "Underlord" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Undying
+:Undying rdf:type owl:NamedIndividual ,
+                  :strong_hero ;
+         :bestVersus :Bristleback ,
+                     :Dazzle ,
+                     :Lifestealer ,
+                     :Lone-Druid ,
+                     :Mars ,
+                     :Outworld-Destroyer ,
+                     :Razor ,
+                     :Skywrath-Mage ,
+                     :Spectre ,
+                     :Witch-Doctor ;
+         :buysItem :arcane_boots ,
+                   :broadsword ,
+                   :pavise ;
+         :hasRole :Disabler ,
+                  :Durable ,
+                  :Nuker ,
+                  :Support ;
+         :hero_attack_type "Melee" ;
+         :hero_name "Undying" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Ursa
+:Ursa rdf:type owl:NamedIndividual ,
+               :agile_hero ;
+      :bestVersus :Dawnbreaker ,
+                  :Earthshaker ,
+                  :Faceless-Void ,
+                  :Medusa ,
+                  :Phantom-Lancer ,
+                  :Pugna ,
+                  :Tinker ,
+                  :Underlord ,
+                  :Undying ,
+                  :Void-Spirit ;
+      :buysItem :bfury ,
+                :blink ,
+                :mithril_hammer ;
+      :hasRole :Carry ,
+               :Disabler ,
+               :Durable ;
+      :hero_attack_type "Melee" ;
+      :hero_name "Ursa" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Vengeful-Spirit
+:Vengeful-Spirit rdf:type owl:NamedIndividual ,
+                          :universal_hero ;
+                 :bestVersus :Alchemist ,
+                             :Ancient-Apparition ,
+                             :Anti-Mage ,
+                             :Arc-Warden ,
+                             :Bristleback ,
+                             :Drow-Ranger ,
+                             :Io ,
+                             :Juggernaut ,
+                             :Lycan ,
+                             :Riki ;
+                 :buysItem :blade_of_alacrity ,
+                           :point_booster ,
+                           :staff_of_wizardry ;
+                 :hasRole :Disabler ,
+                          :Escape ,
+                          :Initiator ,
+                          :Nuker ,
+                          :Support ;
+                 :hero_attack_type "Ranged" ;
+                 :hero_name "Vengeful-Spirit" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Venomancer
+:Venomancer rdf:type owl:NamedIndividual ,
+                     :universal_hero ;
+            :bestVersus :Anti-Mage ,
+                        :Dawnbreaker ,
+                        :Dazzle ,
+                        :Drow-Ranger ,
+                        :Juggernaut ,
+                        :Lich ,
+                        :Mirana ,
+                        :Sniper ,
+                        :Tinker ,
+                        :Underlord ;
+            :buysItem :guardian_greaves ,
+                      :mekansm ,
+                      :staff_of_wizardry ;
+            :hasRole :Disabler ,
+                     :Initiator ,
+                     :Nuker ,
+                     :Pusher ,
+                     :Support ;
+            :hero_attack_type "Ranged" ;
+            :hero_name "Venomancer" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Viper
+:Viper rdf:type owl:NamedIndividual ,
+                :agile_hero ;
+       :bestVersus :Huskar ,
+                   :Meepo ,
+                   :Necrophos ,
+                   :Pugna ,
+                   :Riki ,
+                   :Shadow-Shaman ,
+                   :Silencer ,
+                   :Spectre ,
+                   :Spirit-Breaker ,
+                   :Tidehunter ;
+       :buysItem :blade_of_alacrity ,
+                 :dragon_lance ,
+                 :staff_of_wizardry ;
+       :hasRole :Carry ,
+                :Disabler ,
+                :Durable ,
+                :Initiator ;
+       :hero_attack_type "Ranged" ;
+       :hero_name "Viper" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Visage
+:Visage rdf:type owl:NamedIndividual ,
+                 :universal_hero ;
+        :bestVersus :Ancient-Apparition ,
+                    :Arc-Warden ,
+                    :Bloodseeker ,
+                    :Lone-Druid ,
+                    :Oracle ,
+                    :Outworld-Destroyer ,
+                    :Phantom-Lancer ,
+                    :Riki ,
+                    :Undying ,
+                    :Wraith-King ;
+        :buysItem :boots_of_bearing ,
+                  :pipe ,
+                  :ring_of_tarrasque ;
+        :hasRole :Disabler ,
+                 :Durable ,
+                 :Nuker ,
+                 :Pusher ,
+                 :Support ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Visage" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Void-Spirit
+:Void-Spirit rdf:type owl:NamedIndividual ,
+                      :universal_hero ;
+             :bestVersus :Arc-Warden ,
+                         :Bloodseeker ,
+                         :Death-Prophet ,
+                         :Drow-Ranger ,
+                         :Keeper-of-the-Light ,
+                         :Lich ,
+                         :Phantom-Lancer ,
+                         :Sand-King ,
+                         :Spectre ,
+                         :Witch-Doctor ;
+             :buysItem :blade_of_alacrity ,
+                       :ogre_axe ,
+                       :staff_of_wizardry ;
+             :hasRole :Carry ,
+                      :Disabler ,
+                      :Escape ,
+                      :Nuker ;
+             :relativeTo :Earth-Spirit ,
+                         :Ember-Spirit ,
+                         :Storm-Spirit ;
+             :hero_attack_type "Melee" ;
+             :hero_name "Void-Spirit" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Warlock
+:Warlock rdf:type owl:NamedIndividual ,
+                  :intellectual_hero ;
+         :bestVersus :Anti-Mage ,
+                     :Axe ,
+                     :Dark-Seer ,
+                     :Dragon-Knight ,
+                     :Drow-Ranger ,
+                     :Gyrocopter ,
+                     :Lone-Druid ,
+                     :Medusa ,
+                     :Monkey-King ,
+                     :Silencer ;
+         :buysItem :arcane_boots ,
+                   :glimmer_cape ,
+                   :shadow_amulet ;
+         :hasRole :Disabler ,
+                  :Initiator ,
+                  :Support ;
+         :hero_attack_type "Ranged" ;
+         :hero_name "Warlock" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Weaver
+:Weaver rdf:type owl:NamedIndividual ,
+                 :agile_hero ;
+        :bestVersus :Ancient-Apparition ,
+                    :Arc-Warden ,
+                    :Axe ,
+                    :Death-Prophet ,
+                    :Medusa ,
+                    :Meepo ,
+                    :Night-Stalker ,
+                    :Outworld-Destroyer ,
+                    :Riki ,
+                    :Tidehunter ;
+        :buysItem :blade_of_alacrity ,
+                  :maelstrom ,
+                  :mithril_hammer ;
+        :hasRole :Carry ,
+                 :Escape ;
+        :hero_attack_type "Ranged" ;
+        :hero_name "Weaver" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Windranger
+:Windranger rdf:type owl:NamedIndividual ,
+                     :universal_hero ;
+            :bestVersus :Anti-Mage ,
+                        :Arc-Warden ,
+                        :Dazzle ,
+                        :Huskar ,
+                        :Lich ,
+                        :Medusa ,
+                        :Muerta ,
+                        :Undying ,
+                        :Viper ,
+                        :Winter-Wyvern ;
+            :buysItem :maelstrom ,
+                      :mithril_hammer ,
+                      :staff_of_wizardry ;
+            :hasRole :Carry ,
+                     :Disabler ,
+                     :Escape ,
+                     :Nuker ,
+                     :Support ;
+            :hero_attack_type "Ranged" ;
+            :hero_name "Windranger" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Winter-Wyvern
+:Winter-Wyvern rdf:type owl:NamedIndividual ,
+                        :universal_hero ;
+               :bestVersus :Arc-Warden ,
+                           :Beastmaster ,
+                           :Clockwerk ,
+                           :Dawnbreaker ,
+                           :Earthshaker ,
+                           :Lich ,
+                           :Skywrath-Mage ,
+                           :Spectre ,
+                           :Ursa ,
+                           :Warlock ;
+               :buysItem :arcane_boots ,
+                         :blink ,
+                         :staff_of_wizardry ;
+               :hasRole :Disabler ,
+                        :Nuker ,
+                        :Support ;
+               :relativeTo :Dragon-Knight ,
+                           :Jakiro ;
+               :hero_attack_type "Ranged" ;
+               :hero_name "Winter-Wyvern" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Witch-Doctor
+:Witch-Doctor rdf:type owl:NamedIndividual ,
+                       :intellectual_hero ;
+              :bestVersus :Bloodseeker ,
+                          :Drow-Ranger ,
+                          :Elder-Titan ,
+                          :Io ,
+                          :Keeper-of-the-Light ,
+                          :Slark ,
+                          :Spectre ,
+                          :Spirit-Breaker ,
+                          :Tidehunter ,
+                          :Viper ;
+              :buysItem :aghanims_shard ,
+                        :glimmer_cape ,
+                        :shadow_amulet ;
+              :hasRole :Disabler ,
+                       :Nuker ,
+                       :Support ;
+              :hero_attack_type "Ranged" ;
+              :hero_name "Witch-Doctor" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Wraith-King
+:Wraith-King rdf:type owl:NamedIndividual ,
+                      :strong_hero ;
+             :bestVersus :Anti-Mage ,
+                         :Clinkz ,
+                         :Io ,
+                         :Kunkka ,
+                         :Mars ,
+                         :Night-Stalker ,
+                         :Outworld-Destroyer ,
+                         :Skywrath-Mage ,
+                         :Spectre ,
+                         :Witch-Doctor ;
+             :buysItem :armlet ,
+                       :blink ,
+                       :mithril_hammer ;
+             :hasRole :Carry ,
+                      :Disabler ,
+                      :Durable ,
+                      :Initiator ,
+                      :Support ;
+             :hero_attack_type "Melee" ;
+             :hero_name "Wraith-King" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#Zeus
+:Zeus rdf:type owl:NamedIndividual ,
+               :intellectual_hero ;
+      :bestVersus :Anti-Mage ,
+                  :Arc-Warden ,
+                  :Bloodseeker ,
+                  :Chaos-Knight ,
+                  :Drow-Ranger ,
+                  :Mars ,
+                  :Night-Stalker ,
+                  :Outworld-Destroyer ,
+                  :Pugna ,
+                  :Riki ;
+      :buysItem :ogre_axe ,
+                :point_booster ,
+                :staff_of_wizardry ;
+      :hasRole :Carry ,
+               :Nuker ;
+      :relativeTo :Mars ;
+      :hero_attack_type "Ranged" ;
+      :hero_name "Zeus" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#aether_lens
+:aether_lens rdf:type owl:NamedIndividual ,
+                      :item ;
+             :item_name "aether_lens" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#aghanims_shard
+:aghanims_shard rdf:type owl:NamedIndividual ,
+                         :item ;
+                :item_name "aghanims_shard" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#ancient_janggo
+:ancient_janggo rdf:type owl:NamedIndividual ,
+                         :item ;
+                :item_name "ancient_janggo" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#arcane_boots
+:arcane_boots rdf:type owl:NamedIndividual ,
+                       :item ;
+              :item_name "arcane_boots" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#armlet
+:armlet rdf:type owl:NamedIndividual ,
+                 :item ;
+        :item_name "armlet" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#bfury
+:bfury rdf:type owl:NamedIndividual ,
+                :item ;
+       :item_name "bfury" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#blade_mail
+:blade_mail rdf:type owl:NamedIndividual ,
+                     :item ;
+            :item_name "blade_mail" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#blade_of_alacrity
+:blade_of_alacrity rdf:type owl:NamedIndividual ,
+                            :item ;
+                   :item_name "blade_of_alacrity" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#blink
+:blink rdf:type owl:NamedIndividual ,
+                :item ;
+       :item_name "blink" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#blitz_knuckles
+:blitz_knuckles rdf:type owl:NamedIndividual ,
+                         :item ;
+                :item_name "blitz_knuckles" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#bloodstone
+:bloodstone rdf:type owl:NamedIndividual ,
+                     :item ;
+            :item_name "bloodstone" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#boots_of_bearing
+:boots_of_bearing rdf:type owl:NamedIndividual ,
+                           :item ;
+                  :item_name "boots_of_bearing" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#broadsword
+:broadsword rdf:type owl:NamedIndividual ,
+                     :item ;
+            :item_name "broadsword" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#claymore
+:claymore rdf:type owl:NamedIndividual ,
+                   :item ;
+          :item_name "claymore" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#cyclone
+:cyclone rdf:type owl:NamedIndividual ,
+                  :item ;
+         :item_name "cyclone" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#dagon
+:dagon rdf:type owl:NamedIndividual ,
+                :item ;
+       :item_name "dagon" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#dagon_2
+:dagon_2 rdf:type owl:NamedIndividual ,
+                  :item ;
+         :item_name "dagon_2" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#desolator
+:desolator rdf:type owl:NamedIndividual ,
+                    :item ;
+           :item_name "desolator" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#diadem
+:diadem rdf:type owl:NamedIndividual ,
+                 :item ;
+        :item_name "diadem" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#diffusal_blade
+:diffusal_blade rdf:type owl:NamedIndividual ,
+                         :item ;
+                :item_name "diffusal_blade" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#dragon_lance
+:dragon_lance rdf:type owl:NamedIndividual ,
+                       :item ;
+              :item_name "dragon_lance" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#echo_sabre
+:echo_sabre rdf:type owl:NamedIndividual ,
+                     :item ;
+            :item_name "echo_sabre" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#force_staff
+:force_staff rdf:type owl:NamedIndividual ,
+                      :item ;
+             :item_name "force_staff" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#glimmer_cape
+:glimmer_cape rdf:type owl:NamedIndividual ,
+                       :item ;
+              :item_name "glimmer_cape" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#guardian_greaves
+:guardian_greaves rdf:type owl:NamedIndividual ,
+                           :item ;
+                  :item_name "guardian_greaves" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#hand_of_midas
+:hand_of_midas rdf:type owl:NamedIndividual ,
+                        :item ;
+               :item_name "hand_of_midas" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#holy_locket
+:holy_locket rdf:type owl:NamedIndividual ,
+                      :item ;
+             :item_name "holy_locket" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#kaya
+:kaya rdf:type owl:NamedIndividual ,
+               :item ;
+      :item_name "kaya" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#maelstrom
+:maelstrom rdf:type owl:NamedIndividual ,
+                    :item ;
+           :item_name "maelstrom" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#mage_slayer
+:mage_slayer rdf:type owl:NamedIndividual ,
+                      :item ;
+             :item_name "mage_slayer" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#manta
+:manta rdf:type owl:NamedIndividual ,
+                :item ;
+       :item_name "manta" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#mask_of_madness
+:mask_of_madness rdf:type owl:NamedIndividual ,
+                          :item ;
+                 :item_name "mask_of_madness" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#mekansm
+:mekansm rdf:type owl:NamedIndividual ,
+                  :item ;
+         :item_name "mekansm" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#mithril_hammer
+:mithril_hammer rdf:type owl:NamedIndividual ,
+                         :item ;
+                :item_name "mithril_hammer" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#oblivion_staff
+:oblivion_staff rdf:type owl:NamedIndividual ,
+                         :item ;
+                :item_name "oblivion_staff" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#ogre_axe
+:ogre_axe rdf:type owl:NamedIndividual ,
+                   :item ;
+          :item_name "ogre_axe" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#orchid
+:orchid rdf:type owl:NamedIndividual ,
+                 :item ;
+        :item_name "orchid" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#pavise
+:pavise rdf:type owl:NamedIndividual ,
+                 :item ;
+        :item_name "pavise" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#phase_boots
+:phase_boots rdf:type owl:NamedIndividual ,
+                      :item ;
+             :item_name "phase_boots" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#pipe
+:pipe rdf:type owl:NamedIndividual ,
+               :item ;
+      :item_name "pipe" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#point_booster
+:point_booster rdf:type owl:NamedIndividual ,
+                        :item ;
+               :item_name "point_booster" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#power_treads
+:power_treads rdf:type owl:NamedIndividual ,
+                       :item ;
+              :item_name "power_treads" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#radiance
+:radiance rdf:type owl:NamedIndividual ,
+                   :item ;
+          :item_name "radiance" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#relic
+:relic rdf:type owl:NamedIndividual ,
+                :item ;
+       :item_name "relic" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#ring_of_tarrasque
+:ring_of_tarrasque rdf:type owl:NamedIndividual ,
+                            :item ;
+                   :item_name "ring_of_tarrasque" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#rod_of_atos
+:rod_of_atos rdf:type owl:NamedIndividual ,
+                      :item ;
+             :item_name "rod_of_atos" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#sange
+:sange rdf:type owl:NamedIndividual ,
+                :item ;
+       :item_name "sange" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#shadow_amulet
+:shadow_amulet rdf:type owl:NamedIndividual ,
+                        :item ;
+               :item_name "shadow_amulet" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#solar_crest
+:solar_crest rdf:type owl:NamedIndividual ,
+                      :item ;
+             :item_name "solar_crest" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#soul_booster
+:soul_booster rdf:type owl:NamedIndividual ,
+                       :item ;
+              :item_name "soul_booster" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#spirit_vessel
+:spirit_vessel rdf:type owl:NamedIndividual ,
+                        :item ;
+               :item_name "spirit_vessel" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#staff_of_wizardry
+:staff_of_wizardry rdf:type owl:NamedIndividual ,
+                            :item ;
+                   :item_name "staff_of_wizardry" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#talisman_of_evasion
+:talisman_of_evasion rdf:type owl:NamedIndividual ,
+                              :item ;
+                     :item_name "talisman_of_evasion" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#ultimate_scepter
+:ultimate_scepter rdf:type owl:NamedIndividual ,
+                           :item ;
+                  :item_name "ultimate_scepter" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#vitality_booster
+:vitality_booster rdf:type owl:NamedIndividual ,
+                           :item ;
+                  :item_name "vitality_booster" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#vladmir
+:vladmir rdf:type owl:NamedIndividual ,
+                  :item ;
+         :item_name "vladmir" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#witch_blade
+:witch_blade rdf:type owl:NamedIndividual ,
+                      :item ;
+             :item_name "witch_blade" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2025/0/dota2#yasha
+:yasha rdf:type owl:NamedIndividual ,
+                :item ;
+       :item_name "yasha" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

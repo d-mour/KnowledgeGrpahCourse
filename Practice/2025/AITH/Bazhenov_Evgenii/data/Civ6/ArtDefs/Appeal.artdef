@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>182</build>
+		<revision>871</revision>
+	</m_Version>
+	<m_TemplateName text="Appeal"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="AppealTags"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="Appeal Min"/>
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>-1</m_nValue>
+							<m_ParamName text="Appeal Max"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ANY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>4</m_nValue>
+							<m_ParamName text="Appeal Min"/>
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1000</m_nValue>
+							<m_ParamName text="Appeal Max"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="BREATHTAKING"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>2</m_nValue>
+							<m_ParamName text="Appeal Min"/>
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="Appeal Max"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="CHARMING"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>-1</m_nValue>
+							<m_ParamName text="Appeal Min"/>
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="Appeal Max"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="AVERAGE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>-3</m_nValue>
+							<m_ParamName text="Appeal Min"/>
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>-2</m_nValue>
+							<m_ParamName text="Appeal Max"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNINVITING"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>-1000</m_nValue>
+							<m_ParamName text="Appeal Min"/>
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>-4</m_nValue>
+							<m_ParamName text="Appeal Max"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="DISGUSTING"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

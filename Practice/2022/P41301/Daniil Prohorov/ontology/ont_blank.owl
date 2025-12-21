@@ -1,0 +1,130 @@
+@prefix : <urn:webprotege:ontology:1cc6e406-a19d-4ad7-a907-3df0ae0d7643> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:bike> .
+
+<urn:bike> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/OWLObjectPropertyImpl_80519a02_6a45_430f_ad5d_9716121ba1ce
+<http://webprotege.stanford.edu/OWLObjectPropertyImpl_80519a02_6a45_430f_ad5d_9716121ba1ce> rdf:type owl:ObjectProperty ;
+                                                                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                            rdf:type owl:FunctionalProperty ,
+                                                                                                     owl:AsymmetricProperty ;
+                                                                                            rdfs:domain <http://webprotege.stanford.edu/part> ;
+                                                                                            rdfs:range <http://webprotege.stanford.edu/brand> ;
+                                                                                            rdfs:label "hasBrand" .
+
+
+###  http://webprotege.stanford.edu/RBpo587FamQD3vY7rumWGtC
+<http://webprotege.stanford.edu/RBpo587FamQD3vY7rumWGtC> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdf:type owl:FunctionalProperty ,
+                                                                  owl:AsymmetricProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/part> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/categorie> ;
+                                                         rdfs:label "hasCategorie" .
+
+
+###  http://webprotege.stanford.edu/RC9mzqBrZ4jgSsGBd473v0E
+<http://webprotege.stanford.edu/RC9mzqBrZ4jgSsGBd473v0E> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/part> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/feature> ;
+                                                         rdfs:label "hasFeature" .
+
+
+###  http://webprotege.stanford.edu/RDwAfb9CUA8XkG7Kht6IjJu
+<http://webprotege.stanford.edu/RDwAfb9CUA8XkG7Kht6IjJu> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/feature> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/value> ;
+                                                         rdfs:label "hasValue" .
+
+
+###  http://webprotege.stanford.edu/RUpLYddBrSyAR616tLnBrl
+<http://webprotege.stanford.edu/RUpLYddBrSyAR616tLnBrl> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/feature> ;
+                                                        rdfs:range <http://webprotege.stanford.edu/name> ;
+                                                        rdfs:label "hasName" .
+
+
+###  urn:bike#contain
+:contain rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdf:type owl:TransitiveProperty ;
+         rdfs:domain <http://webprotege.stanford.edu/brand> ,
+                     <http://webprotege.stanford.edu/part> ;
+         rdfs:range <http://webprotege.stanford.edu/categorie> ,
+                    <http://webprotege.stanford.edu/part> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  urn:bike#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain <http://webprotege.stanford.edu/brand> ,
+                  <http://webprotege.stanford.edu/categorie> ,
+                  <http://webprotege.stanford.edu/name> ,
+                  <http://webprotege.stanford.edu/part> ;
+      rdfs:range xsd:string .
+
+
+###  urn:bike#price
+:price rdf:type owl:DatatypeProperty ;
+       rdfs:domain <http://webprotege.stanford.edu/part> ;
+       rdfs:range xsd:float .
+
+
+###  urn:bike#val
+:val rdf:type owl:DatatypeProperty ;
+     rdfs:domain <http://webprotege.stanford.edu/value> ;
+     rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/brand
+<http://webprotege.stanford.edu/brand> rdf:type owl:Class ;
+                                       rdfs:label "Brand" .
+
+
+###  http://webprotege.stanford.edu/categorie
+<http://webprotege.stanford.edu/categorie> rdf:type owl:Class ;
+                                           rdfs:label "Categorie" .
+
+
+###  http://webprotege.stanford.edu/feature
+<http://webprotege.stanford.edu/feature> rdf:type owl:Class ;
+                                         rdfs:label "Feature" .
+
+
+###  http://webprotege.stanford.edu/name
+<http://webprotege.stanford.edu/name> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://webprotege.stanford.edu/feature> ;
+                                      rdfs:label "Name" .
+
+
+###  http://webprotege.stanford.edu/part
+<http://webprotege.stanford.edu/part> rdf:type owl:Class ;
+                                      rdfs:label "Part" .
+
+
+###  http://webprotege.stanford.edu/value
+<http://webprotege.stanford.edu/value> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://webprotege.stanford.edu/feature> ;
+                                       rdfs:label "Value" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

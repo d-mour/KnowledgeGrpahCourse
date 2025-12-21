@@ -1,0 +1,417 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/nik/ontologies/2024/11/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/nik/ontologies/2024/11/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/nik/ontologies/2024/11/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nationality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#autor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alexander_Belyaev"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alexander_Pushkin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amphibian_Man"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#And_did_those_feet_in_ancient_time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boris_Godunov"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crime_and_Punishment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Demons_Dostoevsky_novel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eugene_Onegin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fantasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fiction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#French"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fyodor_Dostoevsky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heart_of_Darkness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jordan_Ifueko"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joseph_Conrad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nigeria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Novel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poetry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raybearer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Romantic_poetry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Russian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ruy_Blas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Science_fiction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Brothers_Karamazov"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Hunchback_of_Notre-Dame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Marriage_of_Heaven_and_Hell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#United_Kingdom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Victor_Hugo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#William_Blake"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#bornOn"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasNationality"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#writesGenre"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#wrote"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#autor"/>
+        <NamedIndividual IRI="#Alexander_Belyaev"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#autor"/>
+        <NamedIndividual IRI="#Alexander_Pushkin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Amphibian_Man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#And_did_those_feet_in_ancient_time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Boris_Godunov"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Crime_and_Punishment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Demons_Dostoevsky_novel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Eugene_Onegin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Fantasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Fiction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nationality"/>
+        <NamedIndividual IRI="#French"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#autor"/>
+        <NamedIndividual IRI="#Fyodor_Dostoevsky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Heart_of_Darkness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#autor"/>
+        <NamedIndividual IRI="#Jordan_Ifueko"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#autor"/>
+        <NamedIndividual IRI="#Joseph_Conrad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nationality"/>
+        <NamedIndividual IRI="#Nigeria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Novel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Poetry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Raybearer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Romantic_poetry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nationality"/>
+        <NamedIndividual IRI="#Russian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Ruy_Blas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Science_fiction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#The_Brothers_Karamazov"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#The_Hunchback_of_Notre-Dame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#The_Marriage_of_Heaven_and_Hell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nationality"/>
+        <NamedIndividual IRI="#United_Kingdom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#autor"/>
+        <NamedIndividual IRI="#Victor_Hugo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#autor"/>
+        <NamedIndividual IRI="#William_Blake"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#bornOn"/>
+        <IRI>#Alexander_Belyaev</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasNationality"/>
+        <IRI>#Alexander_Belyaev</IRI>
+        <IRI>#Russian</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#writesGenre"/>
+        <IRI>#Alexander_Belyaev</IRI>
+        <IRI>#Science_fiction</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#wrote"/>
+        <IRI>#Alexander_Belyaev</IRI>
+        <IRI>#Amphibian_Man</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#bornOn"/>
+        <IRI>#Alexander_Pushkin</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1799-06-06T00:00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasNationality"/>
+        <IRI>#Alexander_Pushkin</IRI>
+        <IRI>#Russian</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#writesGenre"/>
+        <IRI>#Alexander_Pushkin</IRI>
+        <IRI>#Novel</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#wrote"/>
+        <IRI>#Alexander_Pushkin</IRI>
+        <IRI>#Boris_Godunov</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#wrote"/>
+        <IRI>#Alexander_Pushkin</IRI>
+        <IRI>#Eugene_Onegin</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#bornOn"/>
+        <IRI>#Fyodor_Dostoevsky</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1821-11-11T00:00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasNationality"/>
+        <IRI>#Fyodor_Dostoevsky</IRI>
+        <IRI>#Russian</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#writesGenre"/>
+        <IRI>#Fyodor_Dostoevsky</IRI>
+        <IRI>#Novel</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#wrote"/>
+        <IRI>#Fyodor_Dostoevsky</IRI>
+        <IRI>#Crime_and_Punishment</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#wrote"/>
+        <IRI>#Fyodor_Dostoevsky</IRI>
+        <IRI>#Demons_Dostoevsky_novel</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#wrote"/>
+        <IRI>#Fyodor_Dostoevsky</IRI>
+        <IRI>#The_Brothers_Karamazov</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#bornOn"/>
+        <IRI>#Jordan_Ifueko</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1993-08-16T00:00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasNationality"/>
+        <IRI>#Jordan_Ifueko</IRI>
+        <IRI>#Nigeria</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#writesGenre"/>
+        <IRI>#Jordan_Ifueko</IRI>
+        <IRI>#Fantasy</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#wrote"/>
+        <IRI>#Jordan_Ifueko</IRI>
+        <IRI>#Raybearer</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#bornOn"/>
+        <IRI>#Joseph_Conrad</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1857-12-03T00:00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasNationality"/>
+        <IRI>#Joseph_Conrad</IRI>
+        <IRI>#United_Kingdom</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#writesGenre"/>
+        <IRI>#Joseph_Conrad</IRI>
+        <IRI>#Fiction</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#wrote"/>
+        <IRI>#Joseph_Conrad</IRI>
+        <IRI>#Heart_of_Darkness</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#bornOn"/>
+        <IRI>#Victor_Hugo</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1802-02-26T00:00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasNationality"/>
+        <IRI>#Victor_Hugo</IRI>
+        <IRI>#French</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#writesGenre"/>
+        <IRI>#Victor_Hugo</IRI>
+        <IRI>#Novel</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#writesGenre"/>
+        <IRI>#Victor_Hugo</IRI>
+        <IRI>#Poetry</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#wrote"/>
+        <IRI>#Victor_Hugo</IRI>
+        <IRI>#Ruy_Blas</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#wrote"/>
+        <IRI>#Victor_Hugo</IRI>
+        <IRI>#The_Hunchback_of_Notre-Dame</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#bornOn"/>
+        <IRI>#William_Blake</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1757-11-28T00:00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasNationality"/>
+        <IRI>#William_Blake</IRI>
+        <IRI>#United_Kingdom</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#writesGenre"/>
+        <IRI>#William_Blake</IRI>
+        <IRI>#Romantic_poetry</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#wrote"/>
+        <IRI>#William_Blake</IRI>
+        <IRI>#And_did_those_feet_in_ancient_time</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#wrote"/>
+        <IRI>#William_Blake</IRI>
+        <IRI>#The_Marriage_of_Heaven_and_Hell</IRI>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

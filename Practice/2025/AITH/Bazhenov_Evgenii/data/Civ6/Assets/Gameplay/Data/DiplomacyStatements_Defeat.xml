@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- DiplomacyStatementTypes ***************************************************** -->
+	<DiplomacyStatementTypes>
+		<Row>
+			<Type>DEFEAT</Type>
+		</Row>
+	</DiplomacyStatementTypes>
+	<!-- DiplomacyStatements ******************************************************* -->
+	<DiplomacyStatements>
+		<Row>
+			<Type>DEFEAT</Type>
+			<Initiator>HUMAN</Initiator>
+			<SubType>NONE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<StatementText>LOC_DIPLO_DEFEAT_FROM_HUMAN_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>DEFEAT</LeaderAnimation>
+			<Selections>DEFEAT_FROM_HUMAN</Selections>
+		</Row>
+		<Row>
+			<Type>DEFEAT</Type>
+			<Initiator>AI</Initiator>
+			<SubType>NONE</SubType>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<StatementText>LOC_DIPLO_DEFEAT_FROM_AI_$(LEADER)_$(MOOD)</StatementText>
+			<LeaderAnimation>DEFEAT</LeaderAnimation>
+			<Selections>DEFEAT_FROM_AI</Selections>
+		</Row>
+	</DiplomacyStatements>
+	<!-- DiplomacySelections ******************************************************* -->
+	<DiplomacySelections>
+		<Row>
+			<Type>DEFEAT_FROM_AI</Type>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<Sort>0</Sort>
+			<Key>CHOICE_EXIT</Key>
+			<Text>LOC_DIPLO_CHOICE_EXIT</Text>
+		</Row>
+		<Row>
+			<Type>DEFEAT_FROM_HUMAN</Type>
+			<Leader>ANY</Leader>
+			<Mood>ANY</Mood>
+			<Sort>0</Sort>
+			<Key>CHOICE_EXIT</Key>
+			<Text>LOC_DIPLO_CHOICE_EXIT</Text>
+		</Row>
+	</DiplomacySelections>
+</GameData>
