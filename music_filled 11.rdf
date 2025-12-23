@@ -1,0 +1,1892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:mr="http://example.org/music_recommendation#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_YourHeartsSomewhereElse">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Your Heart’s Somewhere Else</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Amsterdam">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amsterdam</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternative"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiepop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_MyTurntoBeMe">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My Turn to Be Me</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_TheMorning">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Morning</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloons"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_ambient"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_dubstep"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_jazz"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_nusoul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rhythmandblues"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rnbswing"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soul"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_LonelyStar">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lonely Star</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Thursday"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_BehindtheWallofSleep">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behind the Wall of Sleep</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_NeverFade">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Never Fade</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_AmericanBoy">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Boy</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#album_NightVisions">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Album"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Night Visions</mr:name>
+    <mr:createdBy rdf:resource="http://example.org/music_recommendation#artist_ImagineDragons"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternative"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativeindierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_brostep"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronicrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electropop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_newwavepostpunkrevival"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_folkpop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiepop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_jerseyclub"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indietronica"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_MyTurntoBe">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My Turn to Be</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_TheMorningSlimKbonusremix">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Morning (Slim K bonus remix)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloonsChoppedScrewed"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_classicmetal">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic metal</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_BabyBlue">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baby Blue</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_HalfwaytoTexas">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Halfway to Texas</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_RatSalad">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rat Salad</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Paranoid"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_doommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_metal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_traditionaldoommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicbritishmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_hardrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rockcoveredby5classicpopandrockrockcoveredby14classicpopandrockrock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#similarTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+    <rdfs:range rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_electronic">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electronic</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_HouseofBalloonsGlassTableGirls">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">House of Balloons / Glass Table Girls</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloons"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_contemporaryrb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_dubstep"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_hiphop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_jazz"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rnbswing"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_trance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_LivefortheLittleThings">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live for the Little Things</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#period_2010s">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#TimePeriod"/>
+    <mr:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</mr:startDate>
+    <mr:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-31</mr:endDate>
+    <mr:decadeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010s</mr:decadeLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_BleedingOut">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bleeding Out</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternative"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_HearMe">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hear Me</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternative"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indietronica"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_JacktheStripperFairiesWearBoots">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jack the Stripper / Fairies Wear Boots</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Paranoid"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_doommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_metal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_traditionaldoommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicbritishmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_hardrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rockcoveredby5classicpopandrockrockcoveredby14classicpopandrockrock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#album_TaylorsSongs">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Album"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taylor’s Songs</mr:name>
+    <mr:createdBy rdf:resource="http://example.org/music_recommendation#artist_TaylorSwift"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_ElectricFuneral">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electric Funeral</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Paranoid"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_doommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_metal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_traditionaldoommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicbritishmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_hardrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rockclassicpopandrock1970"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_RideOn">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ride On</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_ComingDownSlimKremix">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coming Down (Slim K remix)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloonsChoppedScrewed"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#artist_TheWeeknd">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Artist"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Weeknd</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_ThePartytheAfterParty">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Party &amp; the After Party</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloons"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_ambient"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_jazz"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_nusoul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rhythmandblues"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rnbswing"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soulrb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_HoustonRodeo">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Houston Rodeo</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_TheRiver">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The River</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_WhatYouNeedSlimKremix">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What You Need (Slim K remix)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloonsChoppedScrewed"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#album_Paranoid">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Album"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paranoid</mr:name>
+    <mr:createdBy rdf:resource="http://example.org/music_recommendation#artist_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_doommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_metal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_traditionaldoommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bestsongsever"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicbritishmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_hardrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_1960s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_britishmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_club"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_generalheavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavypsych"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rockcoveredby5classicpopandrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soundtrack"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rockclassicpopandrock1970"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rockcoveredby5classicpopandrockrockcoveredby14classicpopandrockrock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_NothingLefttoSayRocks">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nothing Left to Say / Rocks</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternative"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_TheFall">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Fall</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_EchoesofSilence"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_EvilWomanDontPlayYourGamesWithMe">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evil Woman (Don’t Play Your Games With Me)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_albumrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_britishmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_doommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_hardrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_metal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_GoSlow">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Go Slow</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_2004DemoCD"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_EveryNight">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Every Night</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternative"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_ThePartyTheAfterPartySlimKremix">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Party &amp; The After Party (Slim K remix)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloonsChoppedScrewed"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_MaryJo">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mary Jo</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#album_BlackSabbath">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Album"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Sabbath</mr:name>
+    <mr:createdBy rdf:resource="http://example.org/music_recommendation#artist_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bestsongsever"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicbritishmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_doommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_hardrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_metal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_albumrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_britishmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_1960s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_club"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_generalheavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavypsych"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_traditionaldoommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rockcoveredby5classicpopandrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soundtrack"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rockcoveredby5classicpopandrockrockcoveredby14classicpopandrockrock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_WorkingMan">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Working Man</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_ThisHereGuitar">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This Here Guitar</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_SameGirl">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Same Girl</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_IronMan">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iron Man</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Paranoid"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_doommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_metal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_traditionaldoommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bestsongsever"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicbritishmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_hardrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rockcoveredby5classicpopandrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soundtrack"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_GailsSong">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gail's Song</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_2004DemoCD"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_soundtrack">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soundtrack</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_WickedGames">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wicked Games</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloons"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_nusoul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_reggae"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rnbswing"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_trance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_InthePouringRain">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In the Pouring Rain</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_IUsedtoFly">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I Used to Fly</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_SameOldSong">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Same Old Song</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_EchoesofSilence"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Fallen">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fallen</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_WhyDoYouTellMe">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Why Do You Tell Me?</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_ALittleMoreLikeYou">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Little More Like You</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_HighforThis">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High for This</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloons"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_ambient"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_dubstep"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_jazz"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_lovecanadianindiernbsoulrbelectronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rhythmandblues"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rnbswing"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soulrb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_urbansoul"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_WhatToWear">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What To Wear</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_2004DemoCD"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_TheMorningSlimKremix">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Morning (Slim K remix)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloonsChoppedScrewed"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#album_VolumeTwo">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Album"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volume Two</mr:name>
+    <mr:createdBy rdf:resource="http://example.org/music_recommendation#artist_TaylorSwift"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_WarPigsLukesWall">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">War Pigs / Luke’s Wall</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Paranoid"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_doommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_metal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_traditionaldoommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bestsongsever"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicbritishmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_hardrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#album_HouseofBalloons">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Album"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">House of Balloons</mr:name>
+    <mr:createdBy rdf:resource="http://example.org/music_recommendation#artist_TheWeeknd"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_ambient"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_dubstep"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_jazz"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_lovecanadianindiernbsoulrbelectronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rhythmandblues"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rnbswing"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soulrb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_urbansoul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_contemporaryrb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_hiphop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_trance"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_nusoul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_reggae"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_neosoul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indietronica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#album_2004DemoCD">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Album"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004 Demo CD</mr:name>
+    <mr:createdBy rdf:resource="http://example.org/music_recommendation#artist_TaylorSwift"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Paranoid">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paranoid</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Paranoid"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_doommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_metal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_traditionaldoommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_1960s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bestsongsever"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_britishmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicbritishmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicmetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_classicrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_club"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_generalheavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_hardrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavypsych"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#Track">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#album_Thursday">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Album"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thursday</mr:name>
+    <mr:createdBy rdf:resource="http://example.org/music_recommendation#artist_TheWeeknd"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_ItsTime">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It’s Time</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternative"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativeindierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_folkpop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiepop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_newwavepostpunkrevival"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_PlanetCaravan">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planet Caravan</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Paranoid"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_doommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_metal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_traditionaldoommetal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#album_TaylorSwiftDemo">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Album"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taylor Swift Demo</mr:name>
+    <mr:createdBy rdf:resource="http://example.org/music_recommendation#artist_TaylorSwift"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_alternativeindierock">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative/indie rock</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Selene">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selene</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_classic">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Warning">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warning</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_TheKnowing">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Knowing</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloons"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_jazz"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_trance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_TheKnowingSlimKremix">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Knowing (Slim K remix)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloonsChoppedScrewed"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_heavypsych">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heavy psych</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_LoftMusicSlimKremix">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loft Music (Slim K remix)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloonsChoppedScrewed"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_TheWizard">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Wizard</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_LuckyYoumix">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucky You (mix)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_SleepingVillage">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleeping Village</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_KidintheCrowd">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kid in the Crowd</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_urbansoul">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urban soul</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_NIB">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N.I.B.</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_SpinningAround">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinning Around</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#period_2000s">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#TimePeriod"/>
+    <mr:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-01-01</mr:startDate>
+    <mr:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-31</mr:endDate>
+    <mr:decadeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000s</mr:decadeLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_OneSidedGoodbye">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One‐Sided Goodbye</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_BeautifulEyesdemo">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beautiful Eyes (demo)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_2004DemoCD"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Sugar">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_LuckyYou">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucky You</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_YourPicture">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Your Picture</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_2004DemoCD"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_HoneyBaby">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honey Baby</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Radioactive">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radioactive</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternative"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativeindierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_brostep"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronicrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electropop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_newwavepostpunkrevival"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Tennessee">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennessee</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_pop">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pop</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Demons">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Demons</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternative"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativeindierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Underdog">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Underdog</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternative"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_animatedcoverart">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animated cover art</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_TheZone">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Zone</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Thursday"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_OnTopoftheWorld">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">On Top of the World</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternative"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativeindierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_folkpop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_jerseyclub"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_newwavepostpunkrevival"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_ThatsLife">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">That's Life</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Mandolin">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandolin</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#Artist">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#MusicEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_SmokeyBlackNights">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smokey Black Nights</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Tiptoe">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiptoe</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_NightVisions"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternative"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electropop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indierock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_animatedcoverart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_rock">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rock</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_ForYou">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For You</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_2004DemoCD"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_SmokeyBlackNightsacoustic">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smokey Black Nights (acoustic)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_EchoesofSilence">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echoes of Silence</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_EchoesofSilence"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#startDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/music_recommendation#TimePeriod"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_countrymusic">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">country music</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_electronicrock">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electronic rock</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_PointofView">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Point of View</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_VolumeTwo"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_LoftMusic">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loft Music</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloons"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_ambient"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_dubstep"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indietronica"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_neosoul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rhythmandblues"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rnbswing"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soulrb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_traditionaldoommetal">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">traditional doom metal</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_ComingDown">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coming Down</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloons"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_ambient"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indie"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_jazz"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_neosoul"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rhythmandblues"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rnbswing"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_soul"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Outside">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outside</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_EchoesofSilence"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#album_EchoesofSilence">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Album"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echoes of Silence</mr:name>
+    <mr:createdBy rdf:resource="http://example.org/music_recommendation#artist_TheWeeknd"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_BeautifulDays">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beautiful Days</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Thursday">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thursday</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Thursday"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_rockclassicpopandrock1970">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rock_classic pop and rock_1970</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Initiation">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Initiation</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_EchoesofSilence"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Next">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Next</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_EchoesofSilence"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_SomeoneLovesYou">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Someone Loves You</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_2004DemoCD"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#releasedIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+    <rdfs:range rdf:resource="http://example.org/music_recommendation#TimePeriod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_SmokeyBlackNightsMix">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smokey Black Nights (Mix)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#MusicEntity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_WhatYouNeed">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What You Need</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloons"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_alternativerb"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_ambient"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_electronic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_jazz"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_rhythmandblues"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_classicrock">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic rock</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_RollingStone">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rolling Stone</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Thursday"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_HeavenorLasVegas">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heaven or Las Vegas</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Thursday"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_rockcoveredby5classicpopandrock">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rock_covered by 5_classic pop and rock</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_indiepop">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indie pop</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_WickedGamesSlimKremix">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wicked Games (Slim K remix)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloonsChoppedScrewed"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_bestsongsever">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">best songs ever</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_rockcoveredby5classicpopandrockrockcoveredby14classicpopandrockrock">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rock_covered by 5_classic pop and rock_rock_covered by 14_classic pop and rock_rock</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_LuckyYouacoustic">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucky You (acoustic)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_HouseofBalloonsGlassTableGirlsSlimKremix">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">House of Balloons/Glass Table Girls (Slim K remix)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloonsChoppedScrewed"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_rnbswing">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rnb/swing</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Fire">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fire</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorsSongs"/>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_TaylorSwiftDemo"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_pop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_DD">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D.D.</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_EchoesofSilence"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_synthpop">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synth-pop</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#releaseYear">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Gone">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gone</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Thursday"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_alternativerb">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative r&amp;b</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#artist_BlackSabbath">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Artist"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Sabbath</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_poprock">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pop rock</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_contemporaryrb">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contemporary r&amp;b</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_HighforThisSlimKremix">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High for This (Slim K remix)</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_HouseofBalloonsChoppedScrewed"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_soulrb">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soul/r&amp;b</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_XOTheHost">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XO / The Host</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_EchoesofSilence"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#Album">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_BlackSabbath">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Sabbath</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_HandofDoom">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hand of Doom</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Paranoid"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_bluesrock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_doommetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_metal"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_traditionaldoommetal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Today">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Today</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_2004DemoCD"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gYear">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#createdBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+    <rdfs:range rdf:resource="http://example.org/music_recommendation#Artist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_TheBirdsPt2">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Birds, Pt. 2</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Thursday"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_LifeoftheParty">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Life of the Party</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Thursday"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Heaven">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heaven</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_2004DemoCD"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_WaspBehindtheWallofSleepBassicallyNIB">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasp / Behind the Wall of Sleep / Bassically / N.I.B.</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_lovecanadianindiernbsoulrbelectronic">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">love/canadian/indie/rnb/soul/r&amp;b/electronic</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_electropop">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electropop</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#TimePeriod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Angelina">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angelina</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_2004DemoCD"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_country"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrymusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_countrypop"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_indiefolk"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_popmusic"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_poprock"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_synthpop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_Montreal">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montreal</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_EchoesofSilence"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#artist_ImagineDragons">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Artist"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imagine Dragons</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_metal">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metal</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_ABitofFingerSleepingVillageWarning">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Bit of Finger / Sleeping Village / Warning</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_rhythmandblues">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhythm and blues</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_doommetal">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doom metal</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_britishmetal">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">british metal</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_indie">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indie</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_jazz">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jazz</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/music_recommendation#MusicEntity"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_You">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">You</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_2004DemoCD"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2000s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_hiphop">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hiphop</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#period_1970s">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#TimePeriod"/>
+    <mr:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1970-01-01</mr:startDate>
+    <mr:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1979-12-31</mr:endDate>
+    <mr:decadeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1970s</mr:decadeLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#hasGenre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+    <rdfs:range rdf:resource="http://example.org/music_recommendation#Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_ambient">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ambient</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_dubstep">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dubstep</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_indiefolk">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indie folk</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_WickedWorld">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wicked World</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_BlackSabbath"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1970</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_1970s"/>
+    <mr:hasGenre rdf:resource="http://example.org/music_recommendation#genre_heavymetal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_generalheavymetal">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general heavy metal</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_rb">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">r&amp;b</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_jerseyclub">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jersey club</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_popmusic">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pop music</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_folkpop">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">folk pop</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_bluesrock">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blues rock</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_newwavepostpunkrevival">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new wave/post-punk revival</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_soul">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soul</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_heavymetal">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heavy metal</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#decadeLabel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/music_recommendation#TimePeriod"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_alternative">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_reggae">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reggae</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_alternativerock">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative rock</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#album_HouseofBalloonsChoppedScrewed">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Album"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">House of Balloons (Chopped &amp; Screwed)</mr:name>
+    <mr:createdBy rdf:resource="http://example.org/music_recommendation#artist_TheWeeknd"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_countrypop">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">country pop</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_indietronica">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indietronica</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_country">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">country</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_nusoul">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nusoul</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_trance">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trance</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#endDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/music_recommendation#TimePeriod"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_classicbritishmetal">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classic british metal</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_neosoul">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neo soul</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#track_TheBirdsPt1">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Track"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Birds, Pt. 1</mr:name>
+    <mr:partOfAlbum rdf:resource="http://example.org/music_recommendation#album_Thursday"/>
+    <mr:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</mr:releaseYear>
+    <mr:releasedIn rdf:resource="http://example.org/music_recommendation#period_2010s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_hardrock">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hard rock</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_club">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">club</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#MusicalWork">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#MusicEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_brostep">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brostep</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#artist_TaylorSwift">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Artist"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taylor Swift</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_albumrock">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">album rock</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#Genre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#MusicEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_1960s">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1960s</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#genre_indierock">
+    <rdf:type rdf:resource="http://example.org/music_recommendation#Genre"/>
+    <mr:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indie rock</mr:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/music_recommendation#partOfAlbum">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/music_recommendation#Track"/>
+    <rdfs:range rdf:resource="http://example.org/music_recommendation#Album"/>
+  </rdf:Description>
+</rdf:RDF>
