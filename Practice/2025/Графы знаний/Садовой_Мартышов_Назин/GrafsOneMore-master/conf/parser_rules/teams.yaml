@@ -1,0 +1,14 @@
+- name: Parse teams
+  url: https://game8.co/games/Genshin-Impact/archives/301819
+  csv_file: teams.csv
+  pre_pattern: table:[6-145]
+  setnull: true  
+  rules:
+    - name: Character 1
+      rule: td:0/a:0:text   
+    - name: Character 2
+      rule: td:1/a:0:text  
+    - name: Character 3
+      rule: td:2/a:0:text  
+    - name: Character 4
+      rule: td:3/a:0:text    
