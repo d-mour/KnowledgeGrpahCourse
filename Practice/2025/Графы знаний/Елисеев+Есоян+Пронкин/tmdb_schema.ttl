@@ -1,0 +1,146 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix fr:   <http://example.org/film-rating#> .
+
+####################################################
+# КЛАССЫ
+####################################################
+
+fr:Movie        a rdfs:Class .
+fr:Person       a rdfs:Class .
+fr:Genre        a rdfs:Class .
+fr:Company      a rdfs:Class .
+fr:Country      a rdfs:Class .
+fr:Language     a rdfs:Class .
+fr:Keyword      a rdfs:Class .
+fr:CastRole     a rdfs:Class .
+fr:CrewRole     a rdfs:Class .
+
+####################################################
+# ОБЪЕКТНЫЕ СВОЙСТВА (основные)
+####################################################
+
+fr:hasGenre a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  fr:Genre .
+
+fr:hasKeyword a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  fr:Keyword .
+
+fr:producedBy a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  fr:Company .
+
+fr:producedInCountry a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  fr:Country .
+
+fr:spokenLanguage a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  fr:Language .
+
+fr:originalLanguage a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  fr:Language .
+
+fr:hasCast a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  fr:CastRole .
+
+fr:hasCrew a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  fr:CrewRole .
+
+fr:playedBy a rdf:Property ;
+    rdfs:domain fr:CastRole ;
+    rdfs:range  fr:Person .
+
+fr:creditsPerson a rdf:Property ;
+    rdfs:domain fr:CrewRole ;
+    rdfs:range  fr:Person .
+
+####################################################
+# ОБЪЕКТНЫЕ СВОЙСТВА — УДОБНЫЕ ШОРТКАТЫ
+####################################################
+
+# Кто режиссировал фильм (дублирует CrewRole с job="Director")
+fr:directedBy a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  fr:Person .
+
+# Упрощённая ссылка на актёров (дублирует CastRole → Person)
+fr:hasActor a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  fr:Person .
+
+# Упрощённая связь с любым участником съёмок (cast + crew)
+fr:involvedPerson a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  fr:Person .
+
+####################################################
+# ДАТАТАЙПНЫЕ СВОЙСТВА
+####################################################
+
+fr:movieTitle a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  xsd:string .
+
+fr:originalTitle a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  xsd:string .
+
+fr:budget a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  xsd:integer .
+
+fr:revenue a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  xsd:integer .
+
+# Материализованное свойство для удобства аналитики
+fr:profit a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  xsd:integer .
+
+fr:runtime a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  xsd:decimal .
+
+fr:voteAverage a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  xsd:decimal .
+
+fr:voteCount a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  xsd:integer .
+
+fr:popularity a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  xsd:decimal .
+
+fr:releaseDate a rdf:Property ;
+    rdfs:domain fr:Movie ;
+    rdfs:range  xsd:date .
+
+fr:characterName a rdf:Property ;
+    rdfs:domain fr:CastRole ;
+    rdfs:range  xsd:string .
+
+fr:castOrder a rdf:Property ;
+    rdfs:domain fr:CastRole ;
+    rdfs:range  xsd:integer .
+
+fr:crewJob a rdf:Property ;
+    rdfs:domain fr:CrewRole ;
+    rdfs:range  xsd:string .
+
+fr:crewDepartment a rdf:Property ;
+    rdfs:domain fr:CrewRole ;
+    rdfs:range  xsd:string .
+
+# Универсальный удобный label
+fr:label a rdf:Property ;
+    rdfs:range xsd:string .
