@@ -1,0 +1,101 @@
+﻿link_id,mention_text,entity_type,audio_event_type,confidence
+mm_audio_link_00001,hypertensive,Disease,murmur_present,0.55
+mm_audio_link_00001,Famotidine,Disease,murmur_present,0.55
+mm_audio_link_00001,hypertensive,Chemical,murmur_present,0.55
+mm_audio_link_00001,Famotidine,Chemical,murmur_present,0.55
+mm_audio_link_00002,hypotensive,Disease,murmur_present,0.55
+mm_audio_link_00002,congestive heart failure,Disease,murmur_present,0.55
+mm_audio_link_00002,famotidine,Disease,murmur_present,0.55
+mm_audio_link_00002,hypotensive,Chemical,murmur_present,0.55
+mm_audio_link_00002,congestive heart failure,Chemical,murmur_present,0.55
+mm_audio_link_00002,famotidine,Chemical,murmur_present,0.55
+mm_audio_link_00003,hypertensive,Disease,murmur_present,0.55
+mm_audio_link_00003,cardiac disease,Disease,murmur_present,0.55
+mm_audio_link_00003,famotidine,Disease,murmur_present,0.55
+mm_audio_link_00003,hypertensive,Chemical,murmur_present,0.55
+mm_audio_link_00003,cardiac disease,Chemical,murmur_present,0.55
+mm_audio_link_00003,famotidine,Chemical,murmur_present,0.55
+mm_audio_link_00004,hypertensive,Disease,murmur_present,0.55
+mm_audio_link_00004,cardiac arrhythmia,Disease,murmur_present,0.55
+mm_audio_link_00005,cardiac asystole,Disease,murmur_present,0.55
+mm_audio_link_00005,dyskinesia,Disease,murmur_present,0.55
+mm_audio_link_00006,depression,Disease,murmur_present,0.55
+mm_audio_link_00006,neurologic impairment,Disease,murmur_present,0.55
+mm_audio_link_00007,bradyarrhythmias,Disease,murmur_present,0.55
+mm_audio_link_00007,dyskinesia,Disease,murmur_present,0.55
+mm_audio_link_00008,fasciculations,Disease,murmur_present,0.55
+mm_audio_link_00009,tetanic,Disease,murmur_absent,0.55
+mm_audio_link_00010,Fasciculations,Disease,murmur_absent,0.55
+mm_audio_link_00011,fasciculation,Disease,murmur_absent,0.55
+mm_audio_link_00012,fasciculation,Disease,murmur_absent,0.55
+mm_audio_link_00013,twitch,Disease,murmur_absent,0.55
+mm_audio_link_00014,tetanus,Disease,murmur_absent,0.55
+mm_audio_link_00015,Fasciculations,Disease,murmur_absent,0.55
+mm_audio_link_00016,fasciculation,Disease,murmur_absent,0.55
+mm_audio_link_00017,fasciculation,Disease,murmur_absent,0.55
+mm_audio_link_00018,overdosage,Disease,murmur_absent,0.55
+mm_audio_link_00019,chronic renal failure,Disease,murmur_absent,0.55
+mm_audio_link_00020,nephropathy,Disease,murmur_absent,0.55
+mm_audio_link_00021,renal failure,Disease,murmur_absent,0.55
+mm_audio_link_00022,proteinuria,Disease,murmur_absent,0.55
+mm_audio_link_00023,hypertension,Disease,murmur_absent,0.55
+mm_audio_link_00024,glomerulosclerosis,Disease,murmur_absent,0.55
+mm_audio_link_00025,renal failure,Disease,murmur_present,0.55
+mm_audio_link_00026,nephropathy,Disease,murmur_present,0.55
+mm_audio_link_00027,proteinuria,Disease,murmur_present,0.55
+mm_audio_link_00028,hypertension,Disease,murmur_present,0.55
+mm_audio_link_00029,chronic renal failure,Disease,murmur_unknown,0.55
+mm_audio_link_00030,Crohn's disease,Disease,murmur_unknown,0.55
+mm_audio_link_00031,Crohn's disease,Disease,murmur_absent,0.55
+mm_audio_link_00032,Crohn's disease,Disease,murmur_absent,0.55
+mm_audio_link_00033,nausea,Disease,murmur_absent,0.55
+mm_audio_link_00034,Crohn's disease,Disease,murmur_absent,0.55
+mm_audio_link_00035,inflammatory bowel disease,Disease,murmur_present,0.55
+mm_audio_link_00036,myocardial injury,Disease,murmur_present,0.55
+mm_audio_link_00037,schizophrenic,Disease,murmur_present,0.55
+mm_audio_link_00038,myocardial injury,Disease,murmur_present,0.55
+mm_audio_link_00039,myocardial infarction,Disease,murmur_present,0.55
+mm_audio_link_00040,ischemia,Disease,murmur_present,0.55
+mm_audio_link_00041,bundle branch block,Disease,murmur_present,0.55
+mm_audio_link_00042,tardive dystonia,Disease,murmur_present,0.55
+mm_audio_link_00043,tardive dyskinesia,Disease,murmur_absent,0.55
+mm_audio_link_00044,parkinsonism,Disease,murmur_absent,0.55
+mm_audio_link_00045,dystonia,Disease,murmur_absent,0.55
+mm_audio_link_00046,tardive dystonia,Disease,murmur_absent,0.55
+mm_audio_link_00047,Ocular and auditory toxicity,Disease,murmur_absent,0.55
+mm_audio_link_00048,Ocular toxicity,Disease,murmur_absent,0.55
+mm_audio_link_00049,auditory toxicity,Disease,murmur_absent,0.55
+mm_audio_link_00050,audiovisual toxicity,Disease,murmur_absent,0.55
+mm_audio_link_00051,visual or auditory toxicity,Disease,murmur_absent,0.55
+mm_audio_link_00052,visual toxicity,Disease,murmur_absent,0.55
+mm_audio_link_00053,auditory toxicity,Disease,murmur_unknown,0.55
+mm_audio_link_00054,Visual toxicity,Disease,murmur_unknown,0.55
+mm_audio_link_00055,dyschromatopsy,Disease,murmur_unknown,0.55
+mm_audio_link_00056,a loss of visual acuity,Disease,murmur_absent,0.55
+mm_audio_link_00057,pigmentary retinal deposits,Disease,murmur_absent,0.55
+mm_audio_link_00058,Auditory toxicity,Disease,murmur_absent,0.55
+mm_audio_link_00059,neurosensorial hearing loss,Disease,murmur_absent,0.55
+mm_audio_link_00060,hearing loss,Disease,murmur_absent,0.55
+mm_audio_link_00061,toxicity,Disease,murmur_absent,0.55
+mm_audio_link_00062,audiovisual toxicity,Disease,murmur_absent,0.55
+mm_audio_link_00063,Myasthenia gravis,Disease,murmur_absent,0.55
+mm_audio_link_00064,neuromuscular disease,Disease,murmur_present,0.55
+mm_audio_link_00065,quadriplegic,Disease,murmur_present,0.55
+mm_audio_link_00066,preeclampsia,Disease,murmur_present,0.55
+mm_audio_link_00067,postsynaptic neuromuscular blockade,Disease,murmur_present,0.55
+mm_audio_link_00068,paralysis,Disease,murmur_absent,0.55
+mm_audio_link_00069,myasthenia gravis,Disease,murmur_absent,0.55
+mm_audio_link_00070,disorder of neuromuscular transmission,Disease,murmur_absent,0.55
+mm_audio_link_00071,hemorrhagic,Disease,murmur_absent,0.55
+mm_audio_link_00072,hemorrhagic cystitis,Disease,murmur_present,0.55
+mm_audio_link_00073,cystitis,Disease,murmur_present,0.55
+mm_audio_link_00074,bladder damage,Disease,murmur_present,0.55
+mm_audio_link_00075,pain,Disease,murmur_present,0.55
+mm_audio_link_00076,migraine,Disease,murmur_present,0.55
+mm_audio_link_00077,migraine,Disease,murmur_present,0.55
+mm_audio_link_00078,migraine,Disease,murmur_present,0.55
+mm_audio_link_00079,migraine,Disease,murmur_present,0.55
+mm_audio_link_00080,migraine,Disease,murmur_present,0.55
+mm_audio_link_00081,migraine,Disease,murmur_present,0.55
+mm_audio_link_00082,pain,Disease,murmur_present,0.55
+mm_audio_link_00083,migraine,Disease,murmur_present,0.55

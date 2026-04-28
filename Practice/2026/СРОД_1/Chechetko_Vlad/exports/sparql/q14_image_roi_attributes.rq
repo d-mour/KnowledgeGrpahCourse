@@ -1,0 +1,6 @@
+PREFIX ex: <https://example.org/medical-multimodal-kg/>
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?finding_id ?size ?severity ?area_ratio ?bbox WHERE { ?a a ex:ImageAttribute ; ex:finding_id ?finding_id ; ex:size ?size ; ex:severity ?severity . OPTIONAL { ?a ex:area_ratio ?area_ratio . } OPTIONAL { ?a ex:bbox ?bbox . } } LIMIT 100
