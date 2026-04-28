@@ -1,0 +1,101 @@
+﻿mention_id,mention_text,entity_type,kb,concept
+mention_txtdoc_0_p0_3,Naloxone,Chemical,MESH,D009270
+mention_txtdoc_0_p0_3,Naloxone,Chemical,MESH,D014262
+mention_txtdoc_0_p0_3,Naloxone,Chemical,MESH,D015738
+mention_txtdoc_0_p0_3,Tricuspid valve regurgitation,Chemical,MESH,D009270
+mention_txtdoc_0_p0_3,Tricuspid valve regurgitation,Chemical,MESH,D014262
+mention_txtdoc_0_p0_3,Tricuspid valve regurgitation,Chemical,MESH,D015738
+mention_txtdoc_0_p0_3,Famotidine,Chemical,MESH,D009270
+mention_txtdoc_0_p0_3,Famotidine,Chemical,MESH,D014262
+mention_txtdoc_0_p0_3,Famotidine,Chemical,MESH,D015738
+mention_txtdoc_0_p0_3,Naloxone,Disease,MESH,D009270
+mention_txtdoc_0_p0_3,Naloxone,Disease,MESH,D014262
+mention_txtdoc_0_p0_3,Naloxone,Disease,MESH,D015738
+mention_txtdoc_0_p0_3,Tricuspid valve regurgitation,Disease,MESH,D009270
+mention_txtdoc_0_p0_3,Tricuspid valve regurgitation,Disease,MESH,D014262
+mention_txtdoc_0_p0_3,Tricuspid valve regurgitation,Disease,MESH,D015738
+mention_txtdoc_0_p0_3,Famotidine,Disease,MESH,D009270
+mention_txtdoc_0_p0_3,Famotidine,Disease,MESH,D014262
+mention_txtdoc_0_p0_3,Famotidine,Disease,MESH,D015738
+mention_txtdoc_0_p0_4,clonidine,Chemical,MESH,D003000
+mention_txtdoc_0_p0_4,clonidine,Chemical,MESH,D016651
+mention_txtdoc_0_p0_4,clonidine,Chemical,MESH,D003693
+mention_txtdoc_0_p0_4,lithium carbonate,Chemical,MESH,D003000
+mention_txtdoc_0_p0_4,lithium carbonate,Chemical,MESH,D016651
+mention_txtdoc_0_p0_4,lithium carbonate,Chemical,MESH,D003693
+mention_txtdoc_0_p0_4,delirium,Chemical,MESH,D003000
+mention_txtdoc_0_p0_4,delirium,Chemical,MESH,D016651
+mention_txtdoc_0_p0_4,delirium,Chemical,MESH,D003693
+mention_txtdoc_0_p0_4,clonidine,Disease,MESH,D003000
+mention_txtdoc_0_p0_4,clonidine,Disease,MESH,D016651
+mention_txtdoc_0_p0_4,clonidine,Disease,MESH,D003693
+mention_txtdoc_0_p0_4,lithium carbonate,Disease,MESH,D003000
+mention_txtdoc_0_p0_4,lithium carbonate,Disease,MESH,D016651
+mention_txtdoc_0_p0_4,lithium carbonate,Disease,MESH,D003693
+mention_txtdoc_0_p0_4,delirium,Disease,MESH,D003000
+mention_txtdoc_0_p0_4,delirium,Disease,MESH,D016651
+mention_txtdoc_0_p0_4,delirium,Disease,MESH,D003693
+mention_txtdoc_0_p1_5,hypertensive,Disease,MESH,D006973
+mention_txtdoc_0_p1_5,hypertensive,Disease,MESH,D015738
+mention_txtdoc_0_p1_5,Famotidine,Disease,MESH,D006973
+mention_txtdoc_0_p1_5,Famotidine,Disease,MESH,D015738
+mention_txtdoc_0_p1_5,hypertensive,Chemical,MESH,D006973
+mention_txtdoc_0_p1_5,hypertensive,Chemical,MESH,D015738
+mention_txtdoc_0_p1_5,Famotidine,Chemical,MESH,D006973
+mention_txtdoc_0_p1_5,Famotidine,Chemical,MESH,D015738
+mention_txtdoc_0_p1_6,clonidine,Chemical,MESH,D003000
+mention_txtdoc_0_p1_6,clonidine,Chemical,MESH,D014262
+mention_txtdoc_0_p1_6,clonidine,Chemical,MESH,D014456
+mention_txtdoc_0_p1_6,tricuspid regurgitation,Chemical,MESH,D003000
+mention_txtdoc_0_p1_6,tricuspid regurgitation,Chemical,MESH,D014262
+mention_txtdoc_0_p1_6,tricuspid regurgitation,Chemical,MESH,D014456
+mention_txtdoc_0_p1_6,ulcers,Chemical,MESH,D003000
+mention_txtdoc_0_p1_6,ulcers,Chemical,MESH,D014262
+mention_txtdoc_0_p1_6,ulcers,Chemical,MESH,D014456
+mention_txtdoc_0_p1_6,clonidine,Disease,MESH,D003000
+mention_txtdoc_0_p1_6,clonidine,Disease,MESH,D014262
+mention_txtdoc_0_p1_6,clonidine,Disease,MESH,D014456
+mention_txtdoc_0_p1_6,tricuspid regurgitation,Disease,MESH,D003000
+mention_txtdoc_0_p1_6,tricuspid regurgitation,Disease,MESH,D014262
+mention_txtdoc_0_p1_6,tricuspid regurgitation,Disease,MESH,D014456
+mention_txtdoc_0_p1_6,ulcers,Disease,MESH,D003000
+mention_txtdoc_0_p1_6,ulcers,Disease,MESH,D014262
+mention_txtdoc_0_p1_6,ulcers,Disease,MESH,D014456
+mention_txtdoc_0_p1_7,nalozone,Chemical,,
+mention_txtdoc_0_p1_7,nalozone,Chemical,MESH,D001282
+mention_txtdoc_0_p1_7,nalozone,Chemical,MESH,D003693
+mention_txtdoc_0_p1_7,atrial flutter,Chemical,,
+mention_txtdoc_0_p1_7,atrial flutter,Chemical,MESH,D001282
+mention_txtdoc_0_p1_7,atrial flutter,Chemical,MESH,D003693
+mention_txtdoc_0_p1_7,delirium,Chemical,,
+mention_txtdoc_0_p1_7,delirium,Chemical,MESH,D001282
+mention_txtdoc_0_p1_7,delirium,Chemical,MESH,D003693
+mention_txtdoc_0_p1_7,nalozone,Disease,,
+mention_txtdoc_0_p1_7,nalozone,Disease,MESH,D001282
+mention_txtdoc_0_p1_7,nalozone,Disease,MESH,D003693
+mention_txtdoc_0_p1_7,atrial flutter,Disease,,
+mention_txtdoc_0_p1_7,atrial flutter,Disease,MESH,D001282
+mention_txtdoc_0_p1_7,atrial flutter,Disease,MESH,D003693
+mention_txtdoc_0_p1_7,delirium,Disease,,
+mention_txtdoc_0_p1_7,delirium,Disease,MESH,D001282
+mention_txtdoc_0_p1_7,delirium,Disease,MESH,D003693
+mention_txtdoc_0_p1_8,hypotensive,Disease,MESH,D007022
+mention_txtdoc_0_p1_8,hypotensive,Disease,MESH,D006333
+mention_txtdoc_0_p1_8,hypotensive,Disease,MESH,D015738
+mention_txtdoc_0_p1_8,congestive heart failure,Disease,MESH,D007022
+mention_txtdoc_0_p1_8,congestive heart failure,Disease,MESH,D006333
+mention_txtdoc_0_p1_8,congestive heart failure,Disease,MESH,D015738
+mention_txtdoc_0_p1_8,famotidine,Disease,MESH,D007022
+mention_txtdoc_0_p1_8,famotidine,Disease,MESH,D006333
+mention_txtdoc_0_p1_8,famotidine,Disease,MESH,D015738
+mention_txtdoc_0_p1_8,hypotensive,Chemical,MESH,D007022
+mention_txtdoc_0_p1_8,hypotensive,Chemical,MESH,D006333
+mention_txtdoc_0_p1_8,hypotensive,Chemical,MESH,D015738
+mention_txtdoc_0_p1_8,congestive heart failure,Chemical,MESH,D007022
+mention_txtdoc_0_p1_8,congestive heart failure,Chemical,MESH,D006333
+mention_txtdoc_0_p1_8,congestive heart failure,Chemical,MESH,D015738
+mention_txtdoc_0_p1_8,famotidine,Chemical,MESH,D007022
+mention_txtdoc_0_p1_8,famotidine,Chemical,MESH,D006333
+mention_txtdoc_0_p1_8,famotidine,Chemical,MESH,D015738
+mention_txtdoc_0_p1_9,alpha-methyldopa,Chemical,MESH,D008750
+mention_txtdoc_0_p1_9,alpha-methyldopa,Chemical,MESH,D008094
