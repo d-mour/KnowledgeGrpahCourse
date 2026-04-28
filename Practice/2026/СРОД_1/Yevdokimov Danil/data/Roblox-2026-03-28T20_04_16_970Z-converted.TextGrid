@@ -1,0 +1,376 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 172.73358276643992 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "disaster" 
+        xmin = 0 
+        xmax = 172.73358276643992 
+        intervals: size = 39 
+        intervals [1]:
+            xmin = 0 
+            xmax = 73.2552930495615 
+            text = "" 
+        intervals [2]:
+            xmin = 73.2552930495615 
+            xmax = 73.90190476190477 
+            text = "virus" 
+        intervals [3]:
+            xmin = 73.90190476190477 
+            xmax = 77.8327621498672 
+            text = "" 
+        intervals [4]:
+            xmin = 77.8327621498672 
+            xmax = 78.31507598302231 
+            text = "virus" 
+        intervals [5]:
+            xmin = 78.31507598302231 
+            xmax = 78.9526530612245 
+            text = "" 
+        intervals [6]:
+            xmin = 78.9526530612245 
+            xmax = 79.68204081632653 
+            text = "virus" 
+        intervals [7]:
+            xmin = 79.68204081632653 
+            xmax = 82.22026218050404 
+            text = "" 
+        intervals [8]:
+            xmin = 82.22026218050404 
+            xmax = 82.92403628117914 
+            text = "virus" 
+        intervals [9]:
+            xmin = 82.92403628117914 
+            xmax = 88.28808137181029 
+            text = "" 
+        intervals [10]:
+            xmin = 88.28808137181029 
+            xmax = 88.73360544217688 
+            text = "virus" 
+        intervals [11]:
+            xmin = 88.73360544217688 
+            xmax = 89.25451247165533 
+            text = "" 
+        intervals [12]:
+            xmin = 89.25451247165533 
+            xmax = 89.75573696145125 
+            text = "virus" 
+        intervals [13]:
+            xmin = 89.75573696145125 
+            xmax = 92.0492508521383 
+            text = "" 
+        intervals [14]:
+            xmin = 92.0492508521383 
+            xmax = 93.3580045351474 
+            text = "virus" 
+        intervals [15]:
+            xmin = 93.3580045351474 
+            xmax = 96.12558066783636 
+            text = "" 
+        intervals [16]:
+            xmin = 96.12558066783636 
+            xmax = 96.73236258696699 
+            text = "virus" 
+        intervals [17]:
+            xmin = 96.73236258696699 
+            xmax = 97.71254876402415 
+            text = "" 
+        intervals [18]:
+            xmin = 97.71254876402415 
+            xmax = 98.34126984126985 
+            text = "virus" 
+        intervals [19]:
+            xmin = 98.34126984126985 
+            xmax = 98.65533726811992 
+            text = "" 
+        intervals [20]:
+            xmin = 98.65533726811992 
+            xmax = 99.14507936507937 
+            text = "virus" 
+        intervals [21]:
+            xmin = 99.14507936507937 
+            xmax = 99.54217238069546 
+            text = "" 
+        intervals [22]:
+            xmin = 99.54217238069546 
+            xmax = 100.18290249433107 
+            text = "virus" 
+        intervals [23]:
+            xmin = 100.18290249433107 
+            xmax = 101.61145431003837 
+            text = "" 
+        intervals [24]:
+            xmin = 101.61145431003837 
+            xmax = 102.24935325066286 
+            text = "virus" 
+        intervals [25]:
+            xmin = 102.24935325066286 
+            xmax = 103.1361883632384 
+            text = "" 
+        intervals [26]:
+            xmin = 103.1361883632384 
+            xmax = 103.55913832199548 
+            text = "virus" 
+        intervals [27]:
+            xmin = 103.55913832199548 
+            xmax = 106.32568306636092 
+            text = "" 
+        intervals [28]:
+            xmin = 106.32568306636092 
+            xmax = 106.66517006802722 
+            text = "virus" 
+        intervals [29]:
+            xmin = 106.66517006802722 
+            xmax = 108.3290593197667 
+            text = "" 
+        intervals [30]:
+            xmin = 108.3290593197667 
+            xmax = 109.60863945578232 
+            text = "virus" 
+        intervals [31]:
+            xmin = 109.60863945578232 
+            xmax = 112.56097424293414 
+            text = " " 
+        intervals [32]:
+            xmin = 112.56097424293414 
+            xmax = 113.65006999521988 
+            text = "virus" 
+        intervals [33]:
+            xmin = 113.65006999521988 
+            xmax = 116.07719767174238 
+            text = "" 
+        intervals [34]:
+            xmin = 116.07719767174238 
+            xmax = 116.63832199546486 
+            text = "virus" 
+        intervals [35]:
+            xmin = 116.63832199546486 
+            xmax = 117.97533598286897 
+            text = "" 
+        intervals [36]:
+            xmin = 117.97533598286897 
+            xmax = 118.66458049886621 
+            text = "virus" 
+        intervals [37]:
+            xmin = 118.66458049886621 
+            xmax = 122.83720796690051 
+            text = "" 
+        intervals [38]:
+            xmin = 122.83720796690051 
+            xmax = 123.51850340136055 
+            text = "virus" 
+        intervals [39]:
+            xmin = 123.51850340136055 
+            xmax = 172.73358276643992 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "notification" 
+        xmin = 0 
+        xmax = 172.73358276643992 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 160.05189828072375 
+            text = "" 
+        intervals [2]:
+            xmin = 160.05189828072375 
+            xmax = 165.7604761904762 
+            text = "win" 
+        intervals [3]:
+            xmin = 165.7604761904762 
+            xmax = 172.73358276643992 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "player" 
+        xmin = 0 
+        xmax = 172.73358276643992 
+        intervals: size = 37 
+        intervals [1]:
+            xmin = 0 
+            xmax = 37.27287903007096 
+            text = "" 
+        intervals [2]:
+            xmin = 37.27287903007096 
+            xmax = 37.83521729135892 
+            text = "hammer" 
+        intervals [3]:
+            xmin = 37.83521729135892 
+            xmax = 44.57283609510773 
+            text = "" 
+        intervals [4]:
+            xmin = 44.57283609510773 
+            xmax = 45.23269841269841 
+            text = "hammer" 
+        intervals [5]:
+            xmin = 45.23269841269841 
+            xmax = 51.73045351473923 
+            text = "" 
+        intervals [6]:
+            xmin = 51.73045351473923 
+            xmax = 52.300068027210884 
+            text = "hammer" 
+        intervals [7]:
+            xmin = 52.300068027210884 
+            xmax = 58.838146695281715 
+            text = "" 
+        intervals [8]:
+            xmin = 58.838146695281715 
+            xmax = 59.41160997732426 
+            text = "hammer" 
+        intervals [9]:
+            xmin = 59.41160997732426 
+            xmax = 66.08697744990634 
+            text = "" 
+        intervals [10]:
+            xmin = 66.08697744990634 
+            xmax = 66.59743685480524 
+            text = "hammer" 
+        intervals [11]:
+            xmin = 66.59743685480524 
+            xmax = 73.26663659189259 
+            text = "" 
+        intervals [12]:
+            xmin = 73.26663659189259 
+            xmax = 73.8346485260771 
+            text = "hammer" 
+        intervals [13]:
+            xmin = 73.8346485260771 
+            xmax = 81.11485260770976 
+            text = "" 
+        intervals [14]:
+            xmin = 81.11485260770976 
+            xmax = 81.77036281179139 
+            text = "hammer" 
+        intervals [15]:
+            xmin = 81.77036281179139 
+            xmax = 83.34047495428365 
+            text = "" 
+        intervals [16]:
+            xmin = 83.34047495428365 
+            xmax = 83.69834467120182 
+            text = "death" 
+        intervals [17]:
+            xmin = 83.69834467120182 
+            xmax = 94.97425087256286 
+            text = "" 
+        intervals [18]:
+            xmin = 94.97425087256286 
+            xmax = 95.62083900226759 
+            text = "hammer" 
+        intervals [19]:
+            xmin = 95.62083900226759 
+            xmax = 100.22674685356078 
+            text = "" 
+        intervals [20]:
+            xmin = 100.22674685356078 
+            xmax = 100.6358276643991 
+            text = "death" 
+        intervals [21]:
+            xmin = 100.6358276643991 
+            xmax = 105.25214582482212 
+            text = "" 
+        intervals [22]:
+            xmin = 105.25214582482212 
+            xmax = 105.66115646258504 
+            text = "death" 
+        intervals [23]:
+            xmin = 105.66115646258504 
+            xmax = 110.13384656641163 
+            text = "" 
+        intervals [24]:
+            xmin = 110.13384656641163 
+            xmax = 110.84333333333333 
+            text = "death" 
+        intervals [25]:
+            xmin = 110.84333333333333 
+            xmax = 113.86788914567703 
+            text = "" 
+        intervals [26]:
+            xmin = 113.86788914567703 
+            xmax = 114.46158730158731 
+            text = "hammer" 
+        intervals [27]:
+            xmin = 114.46158730158731 
+            xmax = 120.31672922589637 
+            text = "" 
+        intervals [28]:
+            xmin = 120.31672922589637 
+            xmax = 120.65901646232903 
+            text = "death" 
+        intervals [29]:
+            xmin = 120.65901646232903 
+            xmax = 125.51327181537404 
+            text = "" 
+        intervals [30]:
+            xmin = 125.51327181537404 
+            xmax = 125.91766439909298 
+            text = "death" 
+        intervals [31]:
+            xmin = 125.91766439909298 
+            xmax = 128.4382718357986 
+            text = "" 
+        intervals [32]:
+            xmin = 128.4382718357986 
+            xmax = 128.96726120119453 
+            text = "hammer" 
+        intervals [33]:
+            xmin = 128.96726120119453 
+            xmax = 135.64979743009985 
+            text = "" 
+        intervals [34]:
+            xmin = 135.64979743009985 
+            xmax = 136.4772789115646 
+            text = "hammer" 
+        intervals [35]:
+            xmin = 136.4772789115646 
+            xmax = 160.16503401360544 
+            text = "" 
+        intervals [36]:
+            xmin = 160.16503401360544 
+            xmax = 160.91113378684807 
+            text = "death" 
+        intervals [37]:
+            xmin = 160.91113378684807 
+            xmax = 172.73358276643992 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "noise" 
+        xmin = 0 
+        xmax = 172.73358276643992 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 8.787385841702273 
+            text = "" 
+        intervals [2]:
+            xmin = 8.787385841702273 
+            xmax = 28.23084245621152 
+            text = "steps " 
+        intervals [3]:
+            xmin = 28.23084245621152 
+            xmax = 28.449718140427382 
+            text = "" 
+        intervals [4]:
+            xmin = 28.449718140427382 
+            xmax = 133.87884353741495 
+            text = "steps" 
+        intervals [5]:
+            xmin = 133.87884353741495 
+            xmax = 134.60630385487528 
+            text = "" 
+        intervals [6]:
+            xmin = 134.60630385487528 
+            xmax = 151.32827664399093 
+            text = "steps" 
+        intervals [7]:
+            xmin = 151.32827664399093 
+            xmax = 172.73358276643992 
+            text = "" 
