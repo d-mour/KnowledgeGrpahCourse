@@ -1,0 +1,6208 @@
+@prefix ex: <http://example.org/smart_home#> .
+@prefix iot: <http://www.semanticweb.org/smart_home/ontologies/2025/4/iot-multimodal#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:utt_000 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_000_t1,
+        ex:utt_000_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "автоматический",
+        "режим" .
+
+ex:utt_001 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_001_t1 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "вентиляция" .
+
+ex:utt_002 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_002_t1,
+        ex:utt_002_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:turn_on ;
+    iot:text "включи",
+        "кондиционер" .
+
+ex:utt_003 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_003_t1,
+        ex:utt_003_t2,
+        ex:utt_003_t3 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:timer_on ;
+    iot:text "включи",
+        "час",
+        "через" .
+
+ex:utt_004 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_004_t1,
+        ex:utt_004_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:turn_off ;
+    iot:text "выключи",
+        "кондиционер" .
+
+ex:utt_005 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_005_t1,
+        ex:utt_005_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "воздух",
+        "осуши" .
+
+ex:utt_006 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_006_t1,
+        ex:utt_006_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "режим",
+        "сна" .
+
+ex:utt_007 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_007_t1,
+        ex:utt_007_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:decrease_value ;
+    iot:text "прохладнее",
+        "сделай" .
+
+ex:utt_008 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_008_t1,
+        ex:utt_008_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:increase_value ;
+    iot:text "сделай",
+        "теплее" .
+
+ex:utt_009 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_009_t1,
+        ex:utt_009_t2,
+        ex:utt_009_t3,
+        ex:utt_009_t4 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:set_value ;
+    iot:text "градуса",
+        "два",
+        "двадцать",
+        "установи" .
+
+ex:utt_010 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_010_t1,
+        ex:utt_010_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "вечерний",
+        "режим" .
+
+ex:utt_011 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_011_t1,
+        ex:utt_011_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:increase_value ;
+    iot:text "добавь",
+        "света" .
+
+ex:utt_012 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_012_t1,
+        ex:utt_012_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:turn_off ;
+    iot:text "закрой",
+        "шторы" .
+
+ex:utt_013 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_013_t1,
+        ex:utt_013_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:decrease_value ;
+    iot:text "затемни",
+        "комнату" .
+
+ex:utt_014 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_014_t1,
+        ex:utt_014_t2,
+        ex:utt_014_t3,
+        ex:utt_014_t4 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:set_value ;
+    iot:text "на",
+        "открой",
+        "процентов",
+        "тридцать" .
+
+ex:utt_015 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_015_t1,
+        ex:utt_015_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:turn_on ;
+    iot:text "открой",
+        "шторы" .
+
+ex:utt_016 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_016_t1,
+        ex:utt_016_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:set_value ;
+    iot:text "приоткрой",
+        "шторы" .
+
+ex:utt_017 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_017_t1,
+        ex:utt_017_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:stop ;
+    iot:text "стоп",
+        "шторы" .
+
+ex:utt_018 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_018_t1,
+        ex:utt_018_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "режим",
+        "утренний" .
+
+ex:utt_019 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_019_t1,
+        ex:utt_019_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:set_value ;
+    iot:text "наполовину",
+        "шторы" .
+
+ex:utt_020 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_020_t1,
+        ex:utt_020_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:turn_on ;
+    iot:text "включи",
+        "свет" .
+
+ex:utt_021 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_021_t1,
+        ex:utt_021_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:turn_off ;
+    iot:text "выключи",
+        "свет" .
+
+ex:utt_022 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_022_t1,
+        ex:utt_022_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:set_value ;
+    iot:text "максимальная",
+        "яркость" .
+
+ex:utt_023 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_023_t1,
+        ex:utt_023_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "ночной",
+        "режим" .
+
+ex:utt_024 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_024_t1,
+        ex:utt_024_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:repeat ;
+    iot:text "повтори",
+        "последнее" .
+
+ex:utt_025 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_025_t1,
+        ex:utt_025_t2,
+        ex:utt_025_t3,
+        ex:utt_025_t4,
+        ex:utt_025_t5 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:timer_off ;
+    iot:text "выключится",
+        "минут",
+        "пять",
+        "свет",
+        "через" .
+
+ex:utt_026 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_026_t1,
+        ex:utt_026_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:decrease_value ;
+    iot:text "сделай",
+        "темнее" .
+
+ex:utt_027 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_027_t1,
+        ex:utt_027_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:increase_value ;
+    iot:text "сделай",
+        "ярче" .
+
+ex:utt_028 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_028_t1,
+        ex:utt_028_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "свет",
+        "тёплый" .
+
+ex:utt_029 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_029_t1,
+        ex:utt_029_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "свет",
+        "холодный" .
+
+ex:utt_030 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_030_t1,
+        ex:utt_030_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "автозакрытие",
+        "включи" .
+
+ex:utt_031 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_031_t1,
+        ex:utt_031_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "временный",
+        "доступ" .
+
+ex:utt_032 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_032_t1 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:lock ;
+    iot:text "заблокируй" .
+
+ex:utt_033 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_033_t1,
+        ex:utt_033_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:turn_off ;
+    iot:text "дверь",
+        "закрой" .
+
+ex:utt_034 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_034_t1,
+        ex:utt_034_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:query_status ;
+    iot:text "кто",
+        "там" .
+
+ex:utt_035 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_035_t1,
+        ex:utt_035_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:turn_on ;
+    iot:text "дверь",
+        "открой" .
+
+ex:utt_036 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_036_t1,
+        ex:utt_036_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:cancel ;
+    iot:text "отмени",
+        "последнее" .
+
+ex:utt_037 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_037_t1,
+        ex:utt_037_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:query_status ;
+    iot:text "историю",
+        "покажи" .
+
+ex:utt_038 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_038_t1 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:unlock ;
+    iot:text "разблокируй" .
+
+ex:utt_039 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_039_t1,
+        ex:utt_039_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "охраны",
+        "режим" .
+
+ex:utt_040 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_040_t1,
+        ex:utt_040_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:mute ;
+    iot:text "без",
+        "звука" .
+
+ex:utt_041 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_041_t1,
+        ex:utt_041_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:turn_on ;
+    iot:text "включи",
+        "телевизор" .
+
+ex:utt_042 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_042_t1 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:navigate ;
+    iot:text "выйди" .
+
+ex:utt_043 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_043_t1,
+        ex:utt_043_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:turn_off ;
+    iot:text "выключи",
+        "телевизор" .
+
+ex:utt_044 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_044_t1,
+        ex:utt_044_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:increase_value ;
+    iot:text "вверх",
+        "громкость" .
+
+ex:utt_045 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_045_t1,
+        ex:utt_045_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:decrease_value ;
+    iot:text "вниз",
+        "громкость" .
+
+ex:utt_046 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_046_t1,
+        ex:utt_046_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:navigate ;
+    iot:text "меню",
+        "открой" .
+
+ex:utt_047 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_047_t1,
+        ex:utt_047_t2,
+        ex:utt_047_t3 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "HDMI",
+        "на",
+        "переключи" .
+
+ex:utt_048 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_048_t1,
+        ex:utt_048_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:decrease_value ;
+    iot:text "канал",
+        "предыдущий" .
+
+ex:utt_049 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_049_t1,
+        ex:utt_049_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:increase_value ;
+    iot:text "канал",
+        "следующий" .
+
+ex:utt_050 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_050_t1,
+        ex:utt_050_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "автоматический",
+        "режим" .
+
+ex:utt_051 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_051_t1 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "вентиляция" .
+
+ex:utt_052 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_052_t1,
+        ex:utt_052_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:turn_on ;
+    iot:text "включи",
+        "кондиционер" .
+
+ex:utt_053 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_053_t1,
+        ex:utt_053_t2,
+        ex:utt_053_t3 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:timer_on ;
+    iot:text "включи",
+        "час",
+        "через" .
+
+ex:utt_054 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_054_t1,
+        ex:utt_054_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:turn_off ;
+    iot:text "выключи",
+        "кондиционер" .
+
+ex:utt_055 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_055_t1,
+        ex:utt_055_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "воздух",
+        "осуши" .
+
+ex:utt_056 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_056_t1,
+        ex:utt_056_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "режим",
+        "сна" .
+
+ex:utt_057 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_057_t1,
+        ex:utt_057_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:decrease_value ;
+    iot:text "прохладнее",
+        "сделай" .
+
+ex:utt_058 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_058_t1,
+        ex:utt_058_t2 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:increase_value ;
+    iot:text "сделай",
+        "теплее" .
+
+ex:utt_059 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_059_t1,
+        ex:utt_059_t2,
+        ex:utt_059_t3,
+        ex:utt_059_t4 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:set_value ;
+    iot:text "градуса",
+        "два",
+        "двадцать",
+        "установи" .
+
+ex:utt_060 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_060_t1,
+        ex:utt_060_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "вечерний",
+        "режим" .
+
+ex:utt_061 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_061_t1,
+        ex:utt_061_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:increase_value ;
+    iot:text "добавь",
+        "света" .
+
+ex:utt_062 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_062_t1,
+        ex:utt_062_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:turn_off ;
+    iot:text "закрой",
+        "шторы" .
+
+ex:utt_063 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_063_t1,
+        ex:utt_063_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:decrease_value ;
+    iot:text "затемни",
+        "комнату" .
+
+ex:utt_064 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_064_t1,
+        ex:utt_064_t2,
+        ex:utt_064_t3,
+        ex:utt_064_t4 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:set_value ;
+    iot:text "на",
+        "открой",
+        "процентов",
+        "тридцать" .
+
+ex:utt_065 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_065_t1,
+        ex:utt_065_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:turn_on ;
+    iot:text "открой",
+        "шторы" .
+
+ex:utt_066 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_066_t1,
+        ex:utt_066_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:set_value ;
+    iot:text "приоткрой",
+        "шторы" .
+
+ex:utt_067 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_067_t1,
+        ex:utt_067_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:stop ;
+    iot:text "стоп",
+        "шторы" .
+
+ex:utt_068 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_068_t1,
+        ex:utt_068_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "режим",
+        "утренний" .
+
+ex:utt_069 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_069_t1,
+        ex:utt_069_t2 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:set_value ;
+    iot:text "наполовину",
+        "шторы" .
+
+ex:utt_070 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_070_t1,
+        ex:utt_070_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:turn_on ;
+    iot:text "включи",
+        "свет" .
+
+ex:utt_071 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_071_t1,
+        ex:utt_071_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:turn_off ;
+    iot:text "выключи",
+        "свет" .
+
+ex:utt_072 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_072_t1,
+        ex:utt_072_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:set_value ;
+    iot:text "максимальная",
+        "яркость" .
+
+ex:utt_073 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_073_t1,
+        ex:utt_073_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "ночной",
+        "режим" .
+
+ex:utt_074 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_074_t1,
+        ex:utt_074_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:repeat ;
+    iot:text "повтори",
+        "последнее" .
+
+ex:utt_075 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_075_t1,
+        ex:utt_075_t2,
+        ex:utt_075_t3,
+        ex:utt_075_t4,
+        ex:utt_075_t5 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:timer_off ;
+    iot:text "выключится",
+        "минут",
+        "пять",
+        "свет",
+        "через" .
+
+ex:utt_076 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_076_t1,
+        ex:utt_076_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:decrease_value ;
+    iot:text "сделай",
+        "темнее" .
+
+ex:utt_077 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_077_t1,
+        ex:utt_077_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:increase_value ;
+    iot:text "сделай",
+        "ярче" .
+
+ex:utt_078 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_078_t1,
+        ex:utt_078_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "свет",
+        "тёплый" .
+
+ex:utt_079 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_079_t1,
+        ex:utt_079_t2 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "свет",
+        "холодный" .
+
+ex:utt_080 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_080_t1,
+        ex:utt_080_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "автозакрытие",
+        "включи" .
+
+ex:utt_081 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_081_t1,
+        ex:utt_081_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "временный",
+        "доступ" .
+
+ex:utt_082 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_082_t1 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:lock ;
+    iot:text "заблокируй" .
+
+ex:utt_083 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_083_t1,
+        ex:utt_083_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:turn_off ;
+    iot:text "дверь",
+        "закрой" .
+
+ex:utt_084 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_084_t1,
+        ex:utt_084_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:query_status ;
+    iot:text "кто",
+        "там" .
+
+ex:utt_085 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_085_t1,
+        ex:utt_085_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:turn_on ;
+    iot:text "дверь",
+        "открой" .
+
+ex:utt_086 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_086_t1,
+        ex:utt_086_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:cancel ;
+    iot:text "отмени",
+        "последнее" .
+
+ex:utt_087 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_087_t1,
+        ex:utt_087_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:query_status ;
+    iot:text "историю",
+        "покажи" .
+
+ex:utt_088 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_088_t1 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:unlock ;
+    iot:text "разблокируй" .
+
+ex:utt_089 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_089_t1,
+        ex:utt_089_t2 ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "охраны",
+        "режим" .
+
+ex:utt_090 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_090_t1,
+        ex:utt_090_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:mute ;
+    iot:text "без",
+        "звука" .
+
+ex:utt_091 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_091_t1,
+        ex:utt_091_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:turn_on ;
+    iot:text "включи",
+        "телевизор" .
+
+ex:utt_092 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_092_t1 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:navigate ;
+    iot:text "выйди" .
+
+ex:utt_093 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_093_t1,
+        ex:utt_093_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:turn_off ;
+    iot:text "выключи",
+        "телевизор" .
+
+ex:utt_094 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_094_t1,
+        ex:utt_094_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:increase_value ;
+    iot:text "вверх",
+        "громкость" .
+
+ex:utt_095 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_095_t1,
+        ex:utt_095_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:decrease_value ;
+    iot:text "вниз",
+        "громкость" .
+
+ex:utt_096 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_096_t1,
+        ex:utt_096_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:navigate ;
+    iot:text "меню",
+        "открой" .
+
+ex:utt_097 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_097_t1,
+        ex:utt_097_t2,
+        ex:utt_097_t3 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:change_mode ;
+    iot:text "HDMI",
+        "на",
+        "переключи" .
+
+ex:utt_098 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_098_t1,
+        ex:utt_098_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:decrease_value ;
+    iot:text "канал",
+        "предыдущий" .
+
+ex:utt_099 a iot:TextAnnotation ;
+    ex:hasToken ex:utt_099_t1,
+        ex:utt_099_t2 ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:increase_value ;
+    iot:text "канал",
+        "следующий" .
+
+ex:audio_000_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.758e+01 ;
+    ex:zcr 5.39e-02 ;
+    iot:duration 2.174e+00 ;
+    iot:filePath "audio/man/2/conditioner/автоматический_режим.ogg" .
+
+ex:audio_001_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.94e+01 ;
+    ex:zcr 6.42e-02 ;
+    iot:duration 1.734e+00 ;
+    iot:filePath "audio/man/2/conditioner/вентиляция.ogg" .
+
+ex:audio_002_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.4e+01 ;
+    ex:zcr 6.09e-02 ;
+    iot:duration 2.014e+00 ;
+    iot:filePath "audio/man/2/conditioner/включи_кондиционер.ogg" .
+
+ex:audio_003_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.878e+01 ;
+    ex:zcr 9.03e-02 ;
+    iot:duration 1.974e+00 ;
+    iot:filePath "audio/man/2/conditioner/включи_через_час.ogg" .
+
+ex:audio_004_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.394e+01 ;
+    ex:zcr 5.96e-02 ;
+    iot:duration 2.213e+00 ;
+    iot:filePath "audio/man/2/conditioner/выключи_кондиционер.ogg" .
+
+ex:audio_005_ann a iot:AudioAnnotation ;
+    ex:mfccMean -3.103e+01 ;
+    ex:zcr 5.94e-02 ;
+    iot:duration 2.014e+00 ;
+    iot:filePath "audio/man/2/conditioner/осуши_воздух.ogg" .
+
+ex:audio_006_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.983e+01 ;
+    ex:zcr 5.56e-02 ;
+    iot:duration 1.573e+00 ;
+    iot:filePath "audio/man/2/conditioner/режим_сна.ogg" .
+
+ex:audio_007_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.729e+01 ;
+    ex:zcr 4.19e-02 ;
+    iot:duration 1.774e+00 ;
+    iot:filePath "audio/man/2/conditioner/сделай_прохладнее.ogg" .
+
+ex:audio_008_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.479e+01 ;
+    ex:zcr 4.93e-02 ;
+    iot:duration 1.734e+00 ;
+    iot:filePath "audio/man/2/conditioner/сделай_теплее.ogg" .
+
+ex:audio_009_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.691e+01 ;
+    ex:zcr 6.85e-02 ;
+    iot:duration 2.534e+00 ;
+    iot:filePath "audio/man/2/conditioner/установи_22_градуса.ogg" .
+
+ex:audio_010_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.547e+01 ;
+    ex:zcr 4.18e-02 ;
+    iot:duration 1.893e+00 ;
+    iot:filePath "audio/man/2/curtains/вечерний_режим.ogg" .
+
+ex:audio_011_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.782e+01 ;
+    ex:zcr 5.02e-02 ;
+    iot:duration 1.734e+00 ;
+    iot:filePath "audio/man/2/curtains/добавь_света.ogg" .
+
+ex:audio_012_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.587e+01 ;
+    ex:zcr 4.33e-02 ;
+    iot:duration 1.694e+00 ;
+    iot:filePath "audio/man/2/curtains/закрой_шторы.ogg" .
+
+ex:audio_013_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.624e+01 ;
+    ex:zcr 4.78e-02 ;
+    iot:duration 1.853e+00 ;
+    iot:filePath "audio/man/2/curtains/затемни_комнату.ogg" .
+
+ex:audio_014_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.529e+01 ;
+    ex:zcr 7.01e-02 ;
+    iot:duration 2.253e+00 ;
+    iot:filePath "audio/man/2/curtains/открой_на_30_процентов.ogg" .
+
+ex:audio_015_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.687e+01 ;
+    ex:zcr 4.06e-02 ;
+    iot:duration 1.653e+00 ;
+    iot:filePath "audio/man/2/curtains/открой_шторы.ogg" .
+
+ex:audio_016_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.636e+01 ;
+    ex:zcr 4e-02 ;
+    iot:duration 2.174e+00 ;
+    iot:filePath "audio/man/2/curtains/приоткрой_шторы.ogg" .
+
+ex:audio_017_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.67e+01 ;
+    ex:zcr 4.95e-02 ;
+    iot:duration 1.774e+00 ;
+    iot:filePath "audio/man/2/curtains/стоп_шторы.ogg" .
+
+ex:audio_018_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.551e+01 ;
+    ex:zcr 3.54e-02 ;
+    iot:duration 1.813e+00 ;
+    iot:filePath "audio/man/2/curtains/утренний_режим.ogg" .
+
+ex:audio_019_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.435e+01 ;
+    ex:zcr 3.66e-02 ;
+    iot:duration 2.054e+00 ;
+    iot:filePath "audio/man/2/curtains/шторы_наполовину.ogg" .
+
+ex:audio_020_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.523e+01 ;
+    ex:zcr 8.45e-02 ;
+    iot:duration 1.454e+00 ;
+    iot:filePath "audio/man/2/lamp/включи_свет.ogg" .
+
+ex:audio_021_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.091e+01 ;
+    ex:zcr 6.1e-02 ;
+    iot:duration 1.573e+00 ;
+    iot:filePath "audio/man/2/lamp/выключи_свет.ogg" .
+
+ex:audio_022_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.014e+01 ;
+    ex:zcr 6.06e-02 ;
+    iot:duration 1.933e+00 ;
+    iot:filePath "audio/man/2/lamp/максимальная_яркость.ogg" .
+
+ex:audio_023_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.286e+01 ;
+    ex:zcr 4.78e-02 ;
+    iot:duration 2.014e+00 ;
+    iot:filePath "audio/man/2/lamp/ночной_режим.ogg" .
+
+ex:audio_024_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.06e+01 ;
+    ex:zcr 5.37e-02 ;
+    iot:duration 1.853e+00 ;
+    iot:filePath "audio/man/2/lamp/повтори_последнее.ogg" .
+
+ex:audio_025_ann a iot:AudioAnnotation ;
+    ex:mfccMean -1.939e+01 ;
+    ex:zcr 5.77e-02 ;
+    iot:duration 2.974e+00 ;
+    iot:filePath "audio/man/2/lamp/свет_выключится_через_5_минут.ogg" .
+
+ex:audio_026_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.057e+01 ;
+    ex:zcr 4.51e-02 ;
+    iot:duration 1.694e+00 ;
+    iot:filePath "audio/man/2/lamp/сделай_темнее.ogg" .
+
+ex:audio_027_ann a iot:AudioAnnotation ;
+    ex:mfccMean -1.989e+01 ;
+    ex:zcr 5.27e-02 ;
+    iot:duration 1.573e+00 ;
+    iot:filePath "audio/man/2/lamp/сделай_ярче.ogg" .
+
+ex:audio_028_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.309e+01 ;
+    ex:zcr 5.42e-02 ;
+    iot:duration 1.254e+00 ;
+    iot:filePath "audio/man/2/lamp/тёплый_свет.ogg" .
+
+ex:audio_029_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.011e+01 ;
+    ex:zcr 4.19e-02 ;
+    iot:duration 1.613e+00 ;
+    iot:filePath "audio/man/2/lamp/холодный_свет.ogg" .
+
+ex:audio_030_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.463e+01 ;
+    ex:zcr 5.71e-02 ;
+    iot:duration 2.293e+00 ;
+    iot:filePath "audio/man/2/lock/автозакрытие_включи.ogg" .
+
+ex:audio_031_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.619e+01 ;
+    ex:zcr 5.38e-02 ;
+    iot:duration 1.974e+00 ;
+    iot:filePath "audio/man/2/lock/временный_доступ.ogg" .
+
+ex:audio_032_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.808e+01 ;
+    ex:zcr 5.11e-02 ;
+    iot:duration 1.853e+00 ;
+    iot:filePath "audio/man/2/lock/заблокируй.ogg" .
+
+ex:audio_033_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.565e+01 ;
+    ex:zcr 5.74e-02 ;
+    iot:duration 1.774e+00 ;
+    iot:filePath "audio/man/2/lock/закрой_дверь.ogg" .
+
+ex:audio_034_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.941e+01 ;
+    ex:zcr 2.81e-02 ;
+    iot:duration 1.573e+00 ;
+    iot:filePath "audio/man/2/lock/кто_там.ogg" .
+
+ex:audio_035_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.733e+01 ;
+    ex:zcr 3.6e-02 ;
+    iot:duration 1.694e+00 ;
+    iot:filePath "audio/man/2/lock/открой_дверь.ogg" .
+
+ex:audio_036_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.619e+01 ;
+    ex:zcr 4.36e-02 ;
+    iot:duration 2.213e+00 ;
+    iot:filePath "audio/man/2/lock/отмени_последнее.ogg" .
+
+ex:audio_037_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.805e+01 ;
+    ex:zcr 4.39e-02 ;
+    iot:duration 2.293e+00 ;
+    iot:filePath "audio/man/2/lock/покажи_историю.ogg" .
+
+ex:audio_038_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.856e+01 ;
+    ex:zcr 4.19e-02 ;
+    iot:duration 1.893e+00 ;
+    iot:filePath "audio/man/2/lock/разблокируй.ogg" .
+
+ex:audio_039_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.421e+01 ;
+    ex:zcr 3.01e-02 ;
+    iot:duration 1.893e+00 ;
+    iot:filePath "audio/man/2/lock/режим_охраны.ogg" .
+
+ex:audio_040_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.383e+01 ;
+    ex:zcr 2.31e-02 ;
+    iot:duration 1.413e+00 ;
+    iot:filePath "audio/man/2/tv/без_звука.ogg" .
+
+ex:audio_041_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.367e+01 ;
+    ex:zcr 6.66e-02 ;
+    iot:duration 1.734e+00 ;
+    iot:filePath "audio/man/2/tv/включи_телевизор.ogg" .
+
+ex:audio_042_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.685e+01 ;
+    ex:zcr 3.03e-02 ;
+    iot:duration 1.534e+00 ;
+    iot:filePath "audio/man/2/tv/выйди.ogg" .
+
+ex:audio_043_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.313e+01 ;
+    ex:zcr 5.61e-02 ;
+    iot:duration 1.893e+00 ;
+    iot:filePath "audio/man/2/tv/выключи_телевизор.ogg" .
+
+ex:audio_044_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.458e+01 ;
+    ex:zcr 4.78e-02 ;
+    iot:duration 1.774e+00 ;
+    iot:filePath "audio/man/2/tv/громкость_вверх.ogg" .
+
+ex:audio_045_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.493e+01 ;
+    ex:zcr 7.97e-02 ;
+    iot:duration 1.734e+00 ;
+    iot:filePath "audio/man/2/tv/громкость_вниз.ogg" .
+
+ex:audio_046_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.568e+01 ;
+    ex:zcr 2.68e-02 ;
+    iot:duration 1.694e+00 ;
+    iot:filePath "audio/man/2/tv/открой_меню.ogg" .
+
+ex:audio_047_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.226e+01 ;
+    ex:zcr 3.8e-02 ;
+    iot:duration 2.134e+00 ;
+    iot:filePath "audio/man/2/tv/переключи_на_hdmi.ogg" .
+
+ex:audio_048_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.362e+01 ;
+    ex:zcr 3e-02 ;
+    iot:duration 1.974e+00 ;
+    iot:filePath "audio/man/2/tv/предыдущий_канал.ogg" .
+
+ex:audio_049_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.452e+01 ;
+    ex:zcr 5.3e-02 ;
+    iot:duration 1.933e+00 ;
+    iot:filePath "audio/man/2/tv/следующий_канал.ogg" .
+
+ex:audio_050_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.331e+01 ;
+    ex:zcr 7.39e-02 ;
+    iot:duration 2.514e+00 ;
+    iot:filePath "audio/woman/1/conditioner/автоматический_режим.ogg" .
+
+ex:audio_051_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.546e+01 ;
+    ex:zcr 6.45e-02 ;
+    iot:duration 2.253e+00 ;
+    iot:filePath "audio/woman/1/conditioner/вентиляция.ogg" .
+
+ex:audio_052_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.386e+01 ;
+    ex:zcr 7.48e-02 ;
+    iot:duration 2.413e+00 ;
+    iot:filePath "audio/woman/1/conditioner/включи_кондиционер.ogg" .
+
+ex:audio_053_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.428e+01 ;
+    ex:zcr 8.98e-02 ;
+    iot:duration 2.494e+00 ;
+    iot:filePath "audio/woman/1/conditioner/включи_через_час.ogg" .
+
+ex:audio_054_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.275e+01 ;
+    ex:zcr 6.66e-02 ;
+    iot:duration 2.373e+00 ;
+    iot:filePath "audio/woman/1/conditioner/выключи_кондиционер.ogg" .
+
+ex:audio_055_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.561e+01 ;
+    ex:zcr 8.6e-02 ;
+    iot:duration 2.373e+00 ;
+    iot:filePath "audio/woman/1/conditioner/осуши_воздух.ogg" .
+
+ex:audio_056_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.629e+01 ;
+    ex:zcr 7.18e-02 ;
+    iot:duration 2.353e+00 ;
+    iot:filePath "audio/woman/1/conditioner/режим_сна.ogg" .
+
+ex:audio_057_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.452e+01 ;
+    ex:zcr 5.06e-02 ;
+    iot:duration 2.253e+00 ;
+    iot:filePath "audio/woman/1/conditioner/сделай_прохладнее.ogg" .
+
+ex:audio_058_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.445e+01 ;
+    ex:zcr 5.59e-02 ;
+    iot:duration 1.653e+00 ;
+    iot:filePath "audio/woman/1/conditioner/сделай_теплее.ogg" .
+
+ex:audio_059_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.436e+01 ;
+    ex:zcr 7.33e-02 ;
+    iot:duration 3.233e+00 ;
+    iot:filePath "audio/woman/1/conditioner/установи_22_градуса.ogg" .
+
+ex:audio_060_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.391e+01 ;
+    ex:zcr 5.73e-02 ;
+    iot:duration 2.913e+00 ;
+    iot:filePath "audio/woman/1/curtains/вечерний_режим.ogg" .
+
+ex:audio_061_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.41e+01 ;
+    ex:zcr 5.96e-02 ;
+    iot:duration 2.074e+00 ;
+    iot:filePath "audio/woman/1/curtains/добавь_света.ogg" .
+
+ex:audio_062_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.585e+01 ;
+    ex:zcr 7.13e-02 ;
+    iot:duration 2.253e+00 ;
+    iot:filePath "audio/woman/1/curtains/закрой_шторы.ogg" .
+
+ex:audio_063_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.518e+01 ;
+    ex:zcr 5.55e-02 ;
+    iot:duration 2.494e+00 ;
+    iot:filePath "audio/woman/1/curtains/затемни_комнату.ogg" .
+
+ex:audio_064_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.369e+01 ;
+    ex:zcr 7.25e-02 ;
+    iot:duration 2.853e+00 ;
+    iot:filePath "audio/woman/1/curtains/открой_на_30_процентов.ogg" .
+
+ex:audio_065_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.53e+01 ;
+    ex:zcr 6.86e-02 ;
+    iot:duration 2.353e+00 ;
+    iot:filePath "audio/woman/1/curtains/открой_шторы.ogg" .
+
+ex:audio_066_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.38e+01 ;
+    ex:zcr 5.95e-02 ;
+    iot:duration 2.114e+00 ;
+    iot:filePath "audio/woman/1/curtains/приоткрой_шторы.ogg" .
+
+ex:audio_067_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.852e+01 ;
+    ex:zcr 9e-02 ;
+    iot:duration 2.933e+00 ;
+    iot:filePath "audio/woman/1/curtains/стоп_шторы.ogg" .
+
+ex:audio_068_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.482e+01 ;
+    ex:zcr 4.48e-02 ;
+    iot:duration 2.554e+00 ;
+    iot:filePath "audio/woman/1/curtains/утренний_режим.ogg" .
+
+ex:audio_069_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.329e+01 ;
+    ex:zcr 5.06e-02 ;
+    iot:duration 2.373e+00 ;
+    iot:filePath "audio/woman/1/curtains/шторы_наполовину.ogg" .
+
+ex:audio_070_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.741e+01 ;
+    ex:zcr 9.44e-02 ;
+    iot:duration 2.353e+00 ;
+    iot:filePath "audio/woman/1/lamp/включи_свет.ogg" .
+
+ex:audio_071_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.873e+01 ;
+    ex:zcr 8.17e-02 ;
+    iot:duration 2.853e+00 ;
+    iot:filePath "audio/woman/1/lamp/выключи_свет.ogg" .
+
+ex:audio_072_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.338e+01 ;
+    ex:zcr 6.07e-02 ;
+    iot:duration 2.713e+00 ;
+    iot:filePath "audio/woman/1/lamp/максимальная_яркость.ogg" .
+
+ex:audio_073_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.3e+01 ;
+    ex:zcr 4.42e-02 ;
+    iot:duration 2.054e+00 ;
+    iot:filePath "audio/woman/1/lamp/ночной_режим.ogg" .
+
+ex:audio_074_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.295e+01 ;
+    ex:zcr 4.36e-02 ;
+    iot:duration 2.094e+00 ;
+    iot:filePath "audio/woman/1/lamp/повтори_последнее.ogg" .
+
+ex:audio_075_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.556e+01 ;
+    ex:zcr 7.34e-02 ;
+    iot:duration 3.713e+00 ;
+    iot:filePath "audio/woman/1/lamp/свет_выключится_через_5_минут.ogg" .
+
+ex:audio_076_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.559e+01 ;
+    ex:zcr 6.89e-02 ;
+    iot:duration 2.474e+00 ;
+    iot:filePath "audio/woman/1/lamp/сделай_темнее.ogg" .
+
+ex:audio_077_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.586e+01 ;
+    ex:zcr 7.59e-02 ;
+    iot:duration 2.773e+00 ;
+    iot:filePath "audio/woman/1/lamp/сделай_ярче.ogg" .
+
+ex:audio_078_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.717e+01 ;
+    ex:zcr 6.68e-02 ;
+    iot:duration 2.793e+00 ;
+    iot:filePath "audio/woman/1/lamp/тёплый_свет.ogg" .
+
+ex:audio_079_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.34e+01 ;
+    ex:zcr 6.57e-02 ;
+    iot:duration 1.754e+00 ;
+    iot:filePath "audio/woman/1/lamp/холодный_свет.ogg" .
+
+ex:audio_080_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.609e+01 ;
+    ex:zcr 7.83e-02 ;
+    iot:duration 3.293e+00 ;
+    iot:filePath "audio/woman/1/lock/автозакрытие_включи.ogg" .
+
+ex:audio_081_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.526e+01 ;
+    ex:zcr 5.57e-02 ;
+    iot:duration 2.614e+00 ;
+    iot:filePath "audio/woman/1/lock/временный_доступ.ogg" .
+
+ex:audio_082_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.533e+01 ;
+    ex:zcr 6.47e-02 ;
+    iot:duration 2.313e+00 ;
+    iot:filePath "audio/woman/1/lock/заблокируй.ogg" .
+
+ex:audio_083_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.626e+01 ;
+    ex:zcr 6.08e-02 ;
+    iot:duration 2.154e+00 ;
+    iot:filePath "audio/woman/1/lock/закрой_дверь.ogg" .
+
+ex:audio_084_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.855e+01 ;
+    ex:zcr 6.22e-02 ;
+    iot:duration 2.373e+00 ;
+    iot:filePath "audio/woman/1/lock/кто_там.ogg" .
+
+ex:audio_085_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.325e+01 ;
+    ex:zcr 4.07e-02 ;
+    iot:duration 1.653e+00 ;
+    iot:filePath "audio/woman/1/lock/открой_дверь.ogg" .
+
+ex:audio_086_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.804e+01 ;
+    ex:zcr 6.94e-02 ;
+    iot:duration 3.233e+00 ;
+    iot:filePath "audio/woman/1/lock/отмени_последнее.ogg" .
+
+ex:audio_087_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.704e+01 ;
+    ex:zcr 7.35e-02 ;
+    iot:duration 2.373e+00 ;
+    iot:filePath "audio/woman/1/lock/покажи_историю.ogg" .
+
+ex:audio_088_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.696e+01 ;
+    ex:zcr 6.44e-02 ;
+    iot:duration 2.454e+00 ;
+    iot:filePath "audio/woman/1/lock/разблокируй.ogg" .
+
+ex:audio_089_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.501e+01 ;
+    ex:zcr 5.77e-02 ;
+    iot:duration 2.373e+00 ;
+    iot:filePath "audio/woman/1/lock/режим_охраны.ogg" .
+
+ex:audio_090_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.629e+01 ;
+    ex:zcr 7.72e-02 ;
+    iot:duration 2.793e+00 ;
+    iot:filePath "audio/woman/1/tv/без_звука.ogg" .
+
+ex:audio_091_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.504e+01 ;
+    ex:zcr 6.7e-02 ;
+    iot:duration 2.614e+00 ;
+    iot:filePath "audio/woman/1/tv/включи_телевизор.ogg" .
+
+ex:audio_092_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.722e+01 ;
+    ex:zcr 4.5e-02 ;
+    iot:duration 2.034e+00 ;
+    iot:filePath "audio/woman/1/tv/выйди.ogg" .
+
+ex:audio_093_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.449e+01 ;
+    ex:zcr 5.38e-02 ;
+    iot:duration 2.514e+00 ;
+    iot:filePath "audio/woman/1/tv/выключи_телевизор.ogg" .
+
+ex:audio_094_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.643e+01 ;
+    ex:zcr 6.4e-02 ;
+    iot:duration 3.233e+00 ;
+    iot:filePath "audio/woman/1/tv/громкость_вверх.ogg" .
+
+ex:audio_095_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.519e+01 ;
+    ex:zcr 7.16e-02 ;
+    iot:duration 3.253e+00 ;
+    iot:filePath "audio/woman/1/tv/громкость_вниз.ogg" .
+
+ex:audio_096_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.561e+01 ;
+    ex:zcr 4.69e-02 ;
+    iot:duration 2.074e+00 ;
+    iot:filePath "audio/woman/1/tv/открой_меню.ogg" .
+
+ex:audio_097_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.441e+01 ;
+    ex:zcr 6.56e-02 ;
+    iot:duration 3.733e+00 ;
+    iot:filePath "audio/woman/1/tv/переключи_на_hdmi.ogg" .
+
+ex:audio_098_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.474e+01 ;
+    ex:zcr 4.93e-02 ;
+    iot:duration 2.494e+00 ;
+    iot:filePath "audio/woman/1/tv/предыдущий_канал.ogg" .
+
+ex:audio_099_ann a iot:AudioAnnotation ;
+    ex:mfccMean -2.07e+01 ;
+    ex:zcr 5.33e-02 ;
+    iot:duration 2.313e+00 ;
+    iot:filePath "audio/woman/1/tv/следующий_канал.ogg" .
+
+ex:utt_000_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "автоматический" ;
+    ex:upos "ADJ" ;
+    iot:text "автоматический" .
+
+ex:utt_000_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "режим" ;
+    ex:upos "NOUN" ;
+    iot:text "режим" .
+
+ex:utt_001_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "вентиляция" ;
+    ex:upos "NOUN" ;
+    iot:text "вентиляция" .
+
+ex:utt_002_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "включи" ;
+    ex:upos "VERB" ;
+    iot:text "включи" .
+
+ex:utt_002_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "кондиционер" ;
+    ex:upos "NOUN" ;
+    iot:text "кондиционер" .
+
+ex:utt_003_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "включи" ;
+    ex:upos "VERB" ;
+    iot:text "включи" .
+
+ex:utt_003_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "через" ;
+    ex:upos "ADP" ;
+    iot:text "через" .
+
+ex:utt_003_t3 a ex:Token ;
+    ex:iobTag "B-TIME" ;
+    ex:lemma "час" ;
+    ex:upos "NOUN" ;
+    iot:text "час" .
+
+ex:utt_004_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "выключи" ;
+    ex:upos "VERB" ;
+    iot:text "выключи" .
+
+ex:utt_004_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "кондиционер" ;
+    ex:upos "NOUN" ;
+    iot:text "кондиционер" .
+
+ex:utt_005_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "осуши" ;
+    ex:upos "VERB" ;
+    iot:text "осуши" .
+
+ex:utt_005_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "воздух" ;
+    ex:upos "NOUN" ;
+    iot:text "воздух" .
+
+ex:utt_006_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "режим" ;
+    ex:upos "NOUN" ;
+    iot:text "режим" .
+
+ex:utt_006_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "сна" ;
+    ex:upos "NOUN" ;
+    iot:text "сна" .
+
+ex:utt_007_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "сделай" ;
+    ex:upos "VERB" ;
+    iot:text "сделай" .
+
+ex:utt_007_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "прохладнее" ;
+    ex:upos "ADJ" ;
+    iot:text "прохладнее" .
+
+ex:utt_008_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "сделай" ;
+    ex:upos "VERB" ;
+    iot:text "сделай" .
+
+ex:utt_008_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "теплее" ;
+    ex:upos "ADJ" ;
+    iot:text "теплее" .
+
+ex:utt_009_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "установи" ;
+    ex:upos "VERB" ;
+    iot:text "установи" .
+
+ex:utt_009_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "двадцать" ;
+    ex:upos "NUM" ;
+    iot:text "двадцать" .
+
+ex:utt_009_t3 a ex:Token ;
+    ex:iobTag "I-VALUE" ;
+    ex:lemma "два" ;
+    ex:upos "NUM" ;
+    iot:text "два" .
+
+ex:utt_009_t4 a ex:Token ;
+    ex:iobTag "I-VALUE" ;
+    ex:lemma "градуса" ;
+    ex:upos "NOUN" ;
+    iot:text "градуса" .
+
+ex:utt_010_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "вечерний" ;
+    ex:upos "ADJ" ;
+    iot:text "вечерний" .
+
+ex:utt_010_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "режим" ;
+    ex:upos "NOUN" ;
+    iot:text "режим" .
+
+ex:utt_011_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "добавь" ;
+    ex:upos "VERB" ;
+    iot:text "добавь" .
+
+ex:utt_011_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "света" ;
+    ex:upos "NOUN" ;
+    iot:text "света" .
+
+ex:utt_012_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "закрой" ;
+    ex:upos "VERB" ;
+    iot:text "закрой" .
+
+ex:utt_012_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "шторы" ;
+    ex:upos "NOUN" ;
+    iot:text "шторы" .
+
+ex:utt_013_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "затемни" ;
+    ex:upos "VERB" ;
+    iot:text "затемни" .
+
+ex:utt_013_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "комнату" ;
+    ex:upos "NOUN" ;
+    iot:text "комнату" .
+
+ex:utt_014_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "открой" ;
+    ex:upos "VERB" ;
+    iot:text "открой" .
+
+ex:utt_014_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "на" ;
+    ex:upos "ADP" ;
+    iot:text "на" .
+
+ex:utt_014_t3 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "тридцать" ;
+    ex:upos "NUM" ;
+    iot:text "тридцать" .
+
+ex:utt_014_t4 a ex:Token ;
+    ex:iobTag "I-VALUE" ;
+    ex:lemma "процентов" ;
+    ex:upos "NOUN" ;
+    iot:text "процентов" .
+
+ex:utt_015_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "открой" ;
+    ex:upos "VERB" ;
+    iot:text "открой" .
+
+ex:utt_015_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "шторы" ;
+    ex:upos "NOUN" ;
+    iot:text "шторы" .
+
+ex:utt_016_t1 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "приоткрой" ;
+    ex:upos "VERB" ;
+    iot:text "приоткрой" .
+
+ex:utt_016_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "шторы" ;
+    ex:upos "NOUN" ;
+    iot:text "шторы" .
+
+ex:utt_017_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "стоп" ;
+    ex:upos "X" ;
+    iot:text "стоп" .
+
+ex:utt_017_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "шторы" ;
+    ex:upos "NOUN" ;
+    iot:text "шторы" .
+
+ex:utt_018_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "утренний" ;
+    ex:upos "ADJ" ;
+    iot:text "утренний" .
+
+ex:utt_018_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "режим" ;
+    ex:upos "NOUN" ;
+    iot:text "режим" .
+
+ex:utt_019_t1 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "шторы" ;
+    ex:upos "NOUN" ;
+    iot:text "шторы" .
+
+ex:utt_019_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "наполовину" ;
+    ex:upos "X" ;
+    iot:text "наполовину" .
+
+ex:utt_020_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "включи" ;
+    ex:upos "VERB" ;
+    iot:text "включи" .
+
+ex:utt_020_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "свет" ;
+    ex:upos "NOUN" ;
+    iot:text "свет" .
+
+ex:utt_021_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "выключи" ;
+    ex:upos "VERB" ;
+    iot:text "выключи" .
+
+ex:utt_021_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "свет" ;
+    ex:upos "NOUN" ;
+    iot:text "свет" .
+
+ex:utt_022_t1 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "максимальная" ;
+    ex:upos "ADJ" ;
+    iot:text "максимальная" .
+
+ex:utt_022_t2 a ex:Token ;
+    ex:iobTag "I-VALUE" ;
+    ex:lemma "яркость" ;
+    ex:upos "NOUN" ;
+    iot:text "яркость" .
+
+ex:utt_023_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "ночной" ;
+    ex:upos "ADJ" ;
+    iot:text "ночной" .
+
+ex:utt_023_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "режим" ;
+    ex:upos "NOUN" ;
+    iot:text "режим" .
+
+ex:utt_024_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "повтори" ;
+    ex:upos "VERB" ;
+    iot:text "повтори" .
+
+ex:utt_024_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "последнее" ;
+    ex:upos "ADJ" ;
+    iot:text "последнее" .
+
+ex:utt_025_t1 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "свет" ;
+    ex:upos "NOUN" ;
+    iot:text "свет" .
+
+ex:utt_025_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "выключится" ;
+    ex:upos "VERB" ;
+    iot:text "выключится" .
+
+ex:utt_025_t3 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "через" ;
+    ex:upos "ADP" ;
+    iot:text "через" .
+
+ex:utt_025_t4 a ex:Token ;
+    ex:iobTag "B-TIME" ;
+    ex:lemma "пять" ;
+    ex:upos "NUM" ;
+    iot:text "пять" .
+
+ex:utt_025_t5 a ex:Token ;
+    ex:iobTag "I-TIME" ;
+    ex:lemma "минут" ;
+    ex:upos "NOUN" ;
+    iot:text "минут" .
+
+ex:utt_026_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "сделай" ;
+    ex:upos "VERB" ;
+    iot:text "сделай" .
+
+ex:utt_026_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "темнее" ;
+    ex:upos "ADJ" ;
+    iot:text "темнее" .
+
+ex:utt_027_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "сделай" ;
+    ex:upos "VERB" ;
+    iot:text "сделай" .
+
+ex:utt_027_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "ярче" ;
+    ex:upos "ADJ" ;
+    iot:text "ярче" .
+
+ex:utt_028_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "тёплый" ;
+    ex:upos "ADJ" ;
+    iot:text "тёплый" .
+
+ex:utt_028_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "свет" ;
+    ex:upos "NOUN" ;
+    iot:text "свет" .
+
+ex:utt_029_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "холодный" ;
+    ex:upos "ADJ" ;
+    iot:text "холодный" .
+
+ex:utt_029_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "свет" ;
+    ex:upos "NOUN" ;
+    iot:text "свет" .
+
+ex:utt_030_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "автозакрытие" ;
+    ex:upos "NOUN" ;
+    iot:text "автозакрытие" .
+
+ex:utt_030_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "включи" ;
+    ex:upos "VERB" ;
+    iot:text "включи" .
+
+ex:utt_031_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "временный" ;
+    ex:upos "ADJ" ;
+    iot:text "временный" .
+
+ex:utt_031_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "доступ" ;
+    ex:upos "NOUN" ;
+    iot:text "доступ" .
+
+ex:utt_032_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "заблокируй" ;
+    ex:upos "VERB" ;
+    iot:text "заблокируй" .
+
+ex:utt_033_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "закрой" ;
+    ex:upos "VERB" ;
+    iot:text "закрой" .
+
+ex:utt_033_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "дверь" ;
+    ex:upos "NOUN" ;
+    iot:text "дверь" .
+
+ex:utt_034_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "кто" ;
+    ex:upos "PRON" ;
+    iot:text "кто" .
+
+ex:utt_034_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "там" ;
+    ex:upos "ADV" ;
+    iot:text "там" .
+
+ex:utt_035_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "открой" ;
+    ex:upos "VERB" ;
+    iot:text "открой" .
+
+ex:utt_035_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "дверь" ;
+    ex:upos "NOUN" ;
+    iot:text "дверь" .
+
+ex:utt_036_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "отмени" ;
+    ex:upos "VERB" ;
+    iot:text "отмени" .
+
+ex:utt_036_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "последнее" ;
+    ex:upos "ADJ" ;
+    iot:text "последнее" .
+
+ex:utt_037_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "покажи" ;
+    ex:upos "VERB" ;
+    iot:text "покажи" .
+
+ex:utt_037_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "историю" ;
+    ex:upos "NOUN" ;
+    iot:text "историю" .
+
+ex:utt_038_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "разблокируй" ;
+    ex:upos "VERB" ;
+    iot:text "разблокируй" .
+
+ex:utt_039_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "режим" ;
+    ex:upos "NOUN" ;
+    iot:text "режим" .
+
+ex:utt_039_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "охраны" ;
+    ex:upos "NOUN" ;
+    iot:text "охраны" .
+
+ex:utt_040_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "без" ;
+    ex:upos "ADP" ;
+    iot:text "без" .
+
+ex:utt_040_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "звука" ;
+    ex:upos "X" ;
+    iot:text "звука" .
+
+ex:utt_041_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "включи" ;
+    ex:upos "VERB" ;
+    iot:text "включи" .
+
+ex:utt_041_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "телевизор" ;
+    ex:upos "NOUN" ;
+    iot:text "телевизор" .
+
+ex:utt_042_t1 a ex:Token ;
+    ex:iobTag "B-ACTION" ;
+    ex:lemma "выйди" ;
+    ex:upos "VERB" ;
+    iot:text "выйди" .
+
+ex:utt_043_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "выключи" ;
+    ex:upos "VERB" ;
+    iot:text "выключи" .
+
+ex:utt_043_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "телевизор" ;
+    ex:upos "NOUN" ;
+    iot:text "телевизор" .
+
+ex:utt_044_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "громкость" ;
+    ex:upos "NOUN" ;
+    iot:text "громкость" .
+
+ex:utt_044_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "вверх" ;
+    ex:upos "X" ;
+    iot:text "вверх" .
+
+ex:utt_045_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "громкость" ;
+    ex:upos "NOUN" ;
+    iot:text "громкость" .
+
+ex:utt_045_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "вниз" ;
+    ex:upos "X" ;
+    iot:text "вниз" .
+
+ex:utt_046_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "открой" ;
+    ex:upos "VERB" ;
+    iot:text "открой" .
+
+ex:utt_046_t2 a ex:Token ;
+    ex:iobTag "B-ACTION" ;
+    ex:lemma "меню" ;
+    ex:upos "NOUN" ;
+    iot:text "меню" .
+
+ex:utt_047_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "переключи" ;
+    ex:upos "VERB" ;
+    iot:text "переключи" .
+
+ex:utt_047_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "на" ;
+    ex:upos "ADP" ;
+    iot:text "на" .
+
+ex:utt_047_t3 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "hdmi" ;
+    ex:upos "X" ;
+    iot:text "HDMI" .
+
+ex:utt_048_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "предыдущий" ;
+    ex:upos "X" ;
+    iot:text "предыдущий" .
+
+ex:utt_048_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "канал" ;
+    ex:upos "NOUN" ;
+    iot:text "канал" .
+
+ex:utt_049_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "следующий" ;
+    ex:upos "X" ;
+    iot:text "следующий" .
+
+ex:utt_049_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "канал" ;
+    ex:upos "NOUN" ;
+    iot:text "канал" .
+
+ex:utt_050_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "автоматический" ;
+    ex:upos "ADJ" ;
+    iot:text "автоматический" .
+
+ex:utt_050_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "режим" ;
+    ex:upos "NOUN" ;
+    iot:text "режим" .
+
+ex:utt_051_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "вентиляция" ;
+    ex:upos "NOUN" ;
+    iot:text "вентиляция" .
+
+ex:utt_052_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "включи" ;
+    ex:upos "VERB" ;
+    iot:text "включи" .
+
+ex:utt_052_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "кондиционер" ;
+    ex:upos "NOUN" ;
+    iot:text "кондиционер" .
+
+ex:utt_053_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "включи" ;
+    ex:upos "VERB" ;
+    iot:text "включи" .
+
+ex:utt_053_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "через" ;
+    ex:upos "ADP" ;
+    iot:text "через" .
+
+ex:utt_053_t3 a ex:Token ;
+    ex:iobTag "B-TIME" ;
+    ex:lemma "час" ;
+    ex:upos "NOUN" ;
+    iot:text "час" .
+
+ex:utt_054_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "выключи" ;
+    ex:upos "VERB" ;
+    iot:text "выключи" .
+
+ex:utt_054_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "кондиционер" ;
+    ex:upos "NOUN" ;
+    iot:text "кондиционер" .
+
+ex:utt_055_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "осуши" ;
+    ex:upos "VERB" ;
+    iot:text "осуши" .
+
+ex:utt_055_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "воздух" ;
+    ex:upos "NOUN" ;
+    iot:text "воздух" .
+
+ex:utt_056_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "режим" ;
+    ex:upos "NOUN" ;
+    iot:text "режим" .
+
+ex:utt_056_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "сна" ;
+    ex:upos "NOUN" ;
+    iot:text "сна" .
+
+ex:utt_057_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "сделай" ;
+    ex:upos "VERB" ;
+    iot:text "сделай" .
+
+ex:utt_057_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "прохладнее" ;
+    ex:upos "ADJ" ;
+    iot:text "прохладнее" .
+
+ex:utt_058_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "сделай" ;
+    ex:upos "VERB" ;
+    iot:text "сделай" .
+
+ex:utt_058_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "теплее" ;
+    ex:upos "ADJ" ;
+    iot:text "теплее" .
+
+ex:utt_059_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "установи" ;
+    ex:upos "VERB" ;
+    iot:text "установи" .
+
+ex:utt_059_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "двадцать" ;
+    ex:upos "NUM" ;
+    iot:text "двадцать" .
+
+ex:utt_059_t3 a ex:Token ;
+    ex:iobTag "I-VALUE" ;
+    ex:lemma "два" ;
+    ex:upos "NUM" ;
+    iot:text "два" .
+
+ex:utt_059_t4 a ex:Token ;
+    ex:iobTag "I-VALUE" ;
+    ex:lemma "градуса" ;
+    ex:upos "NOUN" ;
+    iot:text "градуса" .
+
+ex:utt_060_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "вечерний" ;
+    ex:upos "ADJ" ;
+    iot:text "вечерний" .
+
+ex:utt_060_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "режим" ;
+    ex:upos "NOUN" ;
+    iot:text "режим" .
+
+ex:utt_061_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "добавь" ;
+    ex:upos "VERB" ;
+    iot:text "добавь" .
+
+ex:utt_061_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "света" ;
+    ex:upos "NOUN" ;
+    iot:text "света" .
+
+ex:utt_062_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "закрой" ;
+    ex:upos "VERB" ;
+    iot:text "закрой" .
+
+ex:utt_062_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "шторы" ;
+    ex:upos "NOUN" ;
+    iot:text "шторы" .
+
+ex:utt_063_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "затемни" ;
+    ex:upos "VERB" ;
+    iot:text "затемни" .
+
+ex:utt_063_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "комнату" ;
+    ex:upos "NOUN" ;
+    iot:text "комнату" .
+
+ex:utt_064_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "открой" ;
+    ex:upos "VERB" ;
+    iot:text "открой" .
+
+ex:utt_064_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "на" ;
+    ex:upos "ADP" ;
+    iot:text "на" .
+
+ex:utt_064_t3 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "тридцать" ;
+    ex:upos "NUM" ;
+    iot:text "тридцать" .
+
+ex:utt_064_t4 a ex:Token ;
+    ex:iobTag "I-VALUE" ;
+    ex:lemma "процентов" ;
+    ex:upos "NOUN" ;
+    iot:text "процентов" .
+
+ex:utt_065_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "открой" ;
+    ex:upos "VERB" ;
+    iot:text "открой" .
+
+ex:utt_065_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "шторы" ;
+    ex:upos "NOUN" ;
+    iot:text "шторы" .
+
+ex:utt_066_t1 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "приоткрой" ;
+    ex:upos "VERB" ;
+    iot:text "приоткрой" .
+
+ex:utt_066_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "шторы" ;
+    ex:upos "NOUN" ;
+    iot:text "шторы" .
+
+ex:utt_067_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "стоп" ;
+    ex:upos "X" ;
+    iot:text "стоп" .
+
+ex:utt_067_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "шторы" ;
+    ex:upos "NOUN" ;
+    iot:text "шторы" .
+
+ex:utt_068_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "утренний" ;
+    ex:upos "ADJ" ;
+    iot:text "утренний" .
+
+ex:utt_068_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "режим" ;
+    ex:upos "NOUN" ;
+    iot:text "режим" .
+
+ex:utt_069_t1 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "шторы" ;
+    ex:upos "NOUN" ;
+    iot:text "шторы" .
+
+ex:utt_069_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "наполовину" ;
+    ex:upos "X" ;
+    iot:text "наполовину" .
+
+ex:utt_070_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "включи" ;
+    ex:upos "VERB" ;
+    iot:text "включи" .
+
+ex:utt_070_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "свет" ;
+    ex:upos "NOUN" ;
+    iot:text "свет" .
+
+ex:utt_071_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "выключи" ;
+    ex:upos "VERB" ;
+    iot:text "выключи" .
+
+ex:utt_071_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "свет" ;
+    ex:upos "NOUN" ;
+    iot:text "свет" .
+
+ex:utt_072_t1 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "максимальная" ;
+    ex:upos "ADJ" ;
+    iot:text "максимальная" .
+
+ex:utt_072_t2 a ex:Token ;
+    ex:iobTag "I-VALUE" ;
+    ex:lemma "яркость" ;
+    ex:upos "NOUN" ;
+    iot:text "яркость" .
+
+ex:utt_073_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "ночной" ;
+    ex:upos "ADJ" ;
+    iot:text "ночной" .
+
+ex:utt_073_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "режим" ;
+    ex:upos "NOUN" ;
+    iot:text "режим" .
+
+ex:utt_074_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "повтори" ;
+    ex:upos "VERB" ;
+    iot:text "повтори" .
+
+ex:utt_074_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "последнее" ;
+    ex:upos "ADJ" ;
+    iot:text "последнее" .
+
+ex:utt_075_t1 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "свет" ;
+    ex:upos "NOUN" ;
+    iot:text "свет" .
+
+ex:utt_075_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "выключится" ;
+    ex:upos "VERB" ;
+    iot:text "выключится" .
+
+ex:utt_075_t3 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "через" ;
+    ex:upos "ADP" ;
+    iot:text "через" .
+
+ex:utt_075_t4 a ex:Token ;
+    ex:iobTag "B-TIME" ;
+    ex:lemma "пять" ;
+    ex:upos "NUM" ;
+    iot:text "пять" .
+
+ex:utt_075_t5 a ex:Token ;
+    ex:iobTag "I-TIME" ;
+    ex:lemma "минут" ;
+    ex:upos "NOUN" ;
+    iot:text "минут" .
+
+ex:utt_076_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "сделай" ;
+    ex:upos "VERB" ;
+    iot:text "сделай" .
+
+ex:utt_076_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "темнее" ;
+    ex:upos "ADJ" ;
+    iot:text "темнее" .
+
+ex:utt_077_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "сделай" ;
+    ex:upos "VERB" ;
+    iot:text "сделай" .
+
+ex:utt_077_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "ярче" ;
+    ex:upos "ADJ" ;
+    iot:text "ярче" .
+
+ex:utt_078_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "тёплый" ;
+    ex:upos "ADJ" ;
+    iot:text "тёплый" .
+
+ex:utt_078_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "свет" ;
+    ex:upos "NOUN" ;
+    iot:text "свет" .
+
+ex:utt_079_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "холодный" ;
+    ex:upos "ADJ" ;
+    iot:text "холодный" .
+
+ex:utt_079_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "свет" ;
+    ex:upos "NOUN" ;
+    iot:text "свет" .
+
+ex:utt_080_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "автозакрытие" ;
+    ex:upos "NOUN" ;
+    iot:text "автозакрытие" .
+
+ex:utt_080_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "включи" ;
+    ex:upos "VERB" ;
+    iot:text "включи" .
+
+ex:utt_081_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "временный" ;
+    ex:upos "ADJ" ;
+    iot:text "временный" .
+
+ex:utt_081_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "доступ" ;
+    ex:upos "NOUN" ;
+    iot:text "доступ" .
+
+ex:utt_082_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "заблокируй" ;
+    ex:upos "VERB" ;
+    iot:text "заблокируй" .
+
+ex:utt_083_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "закрой" ;
+    ex:upos "VERB" ;
+    iot:text "закрой" .
+
+ex:utt_083_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "дверь" ;
+    ex:upos "NOUN" ;
+    iot:text "дверь" .
+
+ex:utt_084_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "кто" ;
+    ex:upos "PRON" ;
+    iot:text "кто" .
+
+ex:utt_084_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "там" ;
+    ex:upos "ADV" ;
+    iot:text "там" .
+
+ex:utt_085_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "открой" ;
+    ex:upos "VERB" ;
+    iot:text "открой" .
+
+ex:utt_085_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "дверь" ;
+    ex:upos "NOUN" ;
+    iot:text "дверь" .
+
+ex:utt_086_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "отмени" ;
+    ex:upos "VERB" ;
+    iot:text "отмени" .
+
+ex:utt_086_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "последнее" ;
+    ex:upos "ADJ" ;
+    iot:text "последнее" .
+
+ex:utt_087_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "покажи" ;
+    ex:upos "VERB" ;
+    iot:text "покажи" .
+
+ex:utt_087_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "историю" ;
+    ex:upos "NOUN" ;
+    iot:text "историю" .
+
+ex:utt_088_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "разблокируй" ;
+    ex:upos "VERB" ;
+    iot:text "разблокируй" .
+
+ex:utt_089_t1 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "режим" ;
+    ex:upos "NOUN" ;
+    iot:text "режим" .
+
+ex:utt_089_t2 a ex:Token ;
+    ex:iobTag "I-MODE" ;
+    ex:lemma "охраны" ;
+    ex:upos "NOUN" ;
+    iot:text "охраны" .
+
+ex:utt_090_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "без" ;
+    ex:upos "ADP" ;
+    iot:text "без" .
+
+ex:utt_090_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "звука" ;
+    ex:upos "X" ;
+    iot:text "звука" .
+
+ex:utt_091_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "включи" ;
+    ex:upos "VERB" ;
+    iot:text "включи" .
+
+ex:utt_091_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "телевизор" ;
+    ex:upos "NOUN" ;
+    iot:text "телевизор" .
+
+ex:utt_092_t1 a ex:Token ;
+    ex:iobTag "B-ACTION" ;
+    ex:lemma "выйди" ;
+    ex:upos "VERB" ;
+    iot:text "выйди" .
+
+ex:utt_093_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "выключи" ;
+    ex:upos "VERB" ;
+    iot:text "выключи" .
+
+ex:utt_093_t2 a ex:Token ;
+    ex:iobTag "B-DEVICE" ;
+    ex:lemma "телевизор" ;
+    ex:upos "NOUN" ;
+    iot:text "телевизор" .
+
+ex:utt_094_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "громкость" ;
+    ex:upos "NOUN" ;
+    iot:text "громкость" .
+
+ex:utt_094_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "вверх" ;
+    ex:upos "X" ;
+    iot:text "вверх" .
+
+ex:utt_095_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "громкость" ;
+    ex:upos "NOUN" ;
+    iot:text "громкость" .
+
+ex:utt_095_t2 a ex:Token ;
+    ex:iobTag "B-VALUE" ;
+    ex:lemma "вниз" ;
+    ex:upos "X" ;
+    iot:text "вниз" .
+
+ex:utt_096_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "открой" ;
+    ex:upos "VERB" ;
+    iot:text "открой" .
+
+ex:utt_096_t2 a ex:Token ;
+    ex:iobTag "B-ACTION" ;
+    ex:lemma "меню" ;
+    ex:upos "NOUN" ;
+    iot:text "меню" .
+
+ex:utt_097_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "переключи" ;
+    ex:upos "VERB" ;
+    iot:text "переключи" .
+
+ex:utt_097_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "на" ;
+    ex:upos "ADP" ;
+    iot:text "на" .
+
+ex:utt_097_t3 a ex:Token ;
+    ex:iobTag "B-MODE" ;
+    ex:lemma "hdmi" ;
+    ex:upos "X" ;
+    iot:text "HDMI" .
+
+ex:utt_098_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "предыдущий" ;
+    ex:upos "X" ;
+    iot:text "предыдущий" .
+
+ex:utt_098_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "канал" ;
+    ex:upos "NOUN" ;
+    iot:text "канал" .
+
+ex:utt_099_t1 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "следующий" ;
+    ex:upos "X" ;
+    iot:text "следующий" .
+
+ex:utt_099_t2 a ex:Token ;
+    ex:iobTag "O" ;
+    ex:lemma "канал" ;
+    ex:upos "NOUN" ;
+    iot:text "канал" .
+
+ex:video_000_ann a iot:VideoAnnotation ;
+    ex:frameCount 99 ;
+    iot:duration 3.3e+00 ;
+    iot:filePath "video/man/2/conditioner/круг_лицо.webm" .
+
+ex:video_001_ann a iot:VideoAnnotation ;
+    ex:frameCount 117 ;
+    iot:duration 3.9e+00 ;
+    iot:filePath "video/man/2/conditioner/круг_сбоку.webm" .
+
+ex:video_002_ann a iot:VideoAnnotation ;
+    ex:frameCount 92 ;
+    iot:duration 3.07e+00 ;
+    iot:filePath "video/man/2/conditioner/ладоньстоп_лицо.webm" .
+
+ex:video_003_ann a iot:VideoAnnotation ;
+    ex:frameCount 97 ;
+    iot:duration 3.23e+00 ;
+    iot:filePath "video/man/2/conditioner/ладоньстоп_сбоку.webm" .
+
+ex:video_004_ann a iot:VideoAnnotation ;
+    ex:frameCount 72 ;
+    iot:duration 2.4e+00 ;
+    iot:filePath "video/man/2/conditioner/свайп_лицо.webm" .
+
+ex:video_005_ann a iot:VideoAnnotation ;
+    ex:frameCount 86 ;
+    iot:duration 2.87e+00 ;
+    iot:filePath "video/man/2/conditioner/свайп_сбоку.webm" .
+
+ex:video_006_ann a iot:VideoAnnotation ;
+    ex:frameCount 104 ;
+    iot:duration 3.47e+00 ;
+    iot:filePath "video/man/2/conditioner/хлопок_лицо.webm" .
+
+ex:video_007_ann a iot:VideoAnnotation ;
+    ex:frameCount 102 ;
+    iot:duration 3.4e+00 ;
+    iot:filePath "video/man/2/conditioner/хлопок_сбоку.webm" .
+
+ex:video_008_ann a iot:VideoAnnotation ;
+    ex:frameCount 106 ;
+    iot:duration 3.53e+00 ;
+    iot:filePath "video/man/2/conditioner/щелчок_лицо.webm" .
+
+ex:video_009_ann a iot:VideoAnnotation ;
+    ex:frameCount 92 ;
+    iot:duration 3.07e+00 ;
+    iot:filePath "video/man/2/conditioner/щелчок_сбоку.webm" .
+
+ex:video_010_ann a iot:VideoAnnotation ;
+    ex:frameCount 99 ;
+    iot:duration 3.3e+00 ;
+    iot:filePath "video/man/2/curtains/круг_лицо.webm" .
+
+ex:video_011_ann a iot:VideoAnnotation ;
+    ex:frameCount 117 ;
+    iot:duration 3.9e+00 ;
+    iot:filePath "video/man/2/curtains/круг_сбоку.webm" .
+
+ex:video_012_ann a iot:VideoAnnotation ;
+    ex:frameCount 92 ;
+    iot:duration 3.07e+00 ;
+    iot:filePath "video/man/2/curtains/ладоньстоп_лицо.webm" .
+
+ex:video_013_ann a iot:VideoAnnotation ;
+    ex:frameCount 97 ;
+    iot:duration 3.23e+00 ;
+    iot:filePath "video/man/2/curtains/ладоньстоп_сбоку.webm" .
+
+ex:video_014_ann a iot:VideoAnnotation ;
+    ex:frameCount 72 ;
+    iot:duration 2.4e+00 ;
+    iot:filePath "video/man/2/curtains/свайп_лицо.webm" .
+
+ex:video_015_ann a iot:VideoAnnotation ;
+    ex:frameCount 86 ;
+    iot:duration 2.87e+00 ;
+    iot:filePath "video/man/2/curtains/свайп_сбоку.webm" .
+
+ex:video_016_ann a iot:VideoAnnotation ;
+    ex:frameCount 99 ;
+    iot:duration 3.3e+00 ;
+    iot:filePath "video/man/2/lamp/круг_лицо.webm" .
+
+ex:video_017_ann a iot:VideoAnnotation ;
+    ex:frameCount 117 ;
+    iot:duration 3.9e+00 ;
+    iot:filePath "video/man/2/lamp/круг_сбоку.webm" .
+
+ex:video_018_ann a iot:VideoAnnotation ;
+    ex:frameCount 92 ;
+    iot:duration 3.07e+00 ;
+    iot:filePath "video/man/2/lamp/ладоньстоп_лицо.webm" .
+
+ex:video_019_ann a iot:VideoAnnotation ;
+    ex:frameCount 97 ;
+    iot:duration 3.23e+00 ;
+    iot:filePath "video/man/2/lamp/ладоньстоп_сбоку.webm" .
+
+ex:video_020_ann a iot:VideoAnnotation ;
+    ex:frameCount 104 ;
+    iot:duration 3.47e+00 ;
+    iot:filePath "video/man/2/lamp/хлопок_лицо.webm" .
+
+ex:video_021_ann a iot:VideoAnnotation ;
+    ex:frameCount 102 ;
+    iot:duration 3.4e+00 ;
+    iot:filePath "video/man/2/lamp/хлопок_сбоку.webm" .
+
+ex:video_022_ann a iot:VideoAnnotation ;
+    ex:frameCount 92 ;
+    iot:duration 3.07e+00 ;
+    iot:filePath "video/man/2/lock/ладоньстоп_лицо.webm" .
+
+ex:video_023_ann a iot:VideoAnnotation ;
+    ex:frameCount 97 ;
+    iot:duration 3.23e+00 ;
+    iot:filePath "video/man/2/lock/ладоньстоп_сбоку.webm" .
+
+ex:video_024_ann a iot:VideoAnnotation ;
+    ex:frameCount 87 ;
+    iot:duration 2.9e+00 ;
+    iot:filePath "video/man/2/lock/поднятиеруки_лицо.webm" .
+
+ex:video_025_ann a iot:VideoAnnotation ;
+    ex:frameCount 123 ;
+    iot:duration 4.1e+00 ;
+    iot:filePath "video/man/2/lock/поднятиеруки_сбоку.webm" .
+
+ex:video_026_ann a iot:VideoAnnotation ;
+    ex:frameCount 104 ;
+    iot:duration 3.47e+00 ;
+    iot:filePath "video/man/2/lock/хлопок_лицо.webm" .
+
+ex:video_027_ann a iot:VideoAnnotation ;
+    ex:frameCount 102 ;
+    iot:duration 3.4e+00 ;
+    iot:filePath "video/man/2/lock/хлопок_сбоку.webm" .
+
+ex:video_028_ann a iot:VideoAnnotation ;
+    ex:frameCount 99 ;
+    iot:duration 3.3e+00 ;
+    iot:filePath "video/man/2/tv/круг_лицо.webm" .
+
+ex:video_029_ann a iot:VideoAnnotation ;
+    ex:frameCount 117 ;
+    iot:duration 3.9e+00 ;
+    iot:filePath "video/man/2/tv/круг_сбоку.webm" .
+
+ex:video_030_ann a iot:VideoAnnotation ;
+    ex:frameCount 92 ;
+    iot:duration 3.07e+00 ;
+    iot:filePath "video/man/2/tv/ладоньстоп_лицо.webm" .
+
+ex:video_031_ann a iot:VideoAnnotation ;
+    ex:frameCount 97 ;
+    iot:duration 3.23e+00 ;
+    iot:filePath "video/man/2/tv/ладоньстоп_сбоку.webm" .
+
+ex:video_032_ann a iot:VideoAnnotation ;
+    ex:frameCount 87 ;
+    iot:duration 2.9e+00 ;
+    iot:filePath "video/man/2/tv/поднятиеруки_лицо.webm" .
+
+ex:video_033_ann a iot:VideoAnnotation ;
+    ex:frameCount 123 ;
+    iot:duration 4.1e+00 ;
+    iot:filePath "video/man/2/tv/поднятиеруки_сбоку.webm" .
+
+ex:video_034_ann a iot:VideoAnnotation ;
+    ex:frameCount 72 ;
+    iot:duration 2.4e+00 ;
+    iot:filePath "video/man/2/tv/свайп_лицо.webm" .
+
+ex:video_035_ann a iot:VideoAnnotation ;
+    ex:frameCount 86 ;
+    iot:duration 2.87e+00 ;
+    iot:filePath "video/man/2/tv/свайп_сбоку.webm" .
+
+ex:video_036_ann a iot:VideoAnnotation ;
+    ex:frameCount 104 ;
+    iot:duration 3.47e+00 ;
+    iot:filePath "video/man/2/tv/хлопок_лицо.webm" .
+
+ex:video_037_ann a iot:VideoAnnotation ;
+    ex:frameCount 102 ;
+    iot:duration 3.4e+00 ;
+    iot:filePath "video/man/2/tv/хлопок_сбоку.webm" .
+
+ex:video_038_ann a iot:VideoAnnotation ;
+    ex:frameCount 106 ;
+    iot:duration 3.53e+00 ;
+    iot:filePath "video/man/2/tv/щелчок_лицо.webm" .
+
+ex:video_039_ann a iot:VideoAnnotation ;
+    ex:frameCount 92 ;
+    iot:duration 3.07e+00 ;
+    iot:filePath "video/man/2/tv/щелчок_сбоку.webm" .
+
+ex:video_040_ann a iot:VideoAnnotation ;
+    ex:frameCount 101 ;
+    iot:duration 3.37e+00 ;
+    iot:filePath "video/woman/1/conditioner/круг_лицо.webm" .
+
+ex:video_041_ann a iot:VideoAnnotation ;
+    ex:frameCount 89 ;
+    iot:duration 2.97e+00 ;
+    iot:filePath "video/woman/1/conditioner/круг_сбоку.webm" .
+
+ex:video_042_ann a iot:VideoAnnotation ;
+    ex:frameCount 94 ;
+    iot:duration 3.13e+00 ;
+    iot:filePath "video/woman/1/conditioner/ладоньстоп_лицо.webm" .
+
+ex:video_043_ann a iot:VideoAnnotation ;
+    ex:frameCount 98 ;
+    iot:duration 3.27e+00 ;
+    iot:filePath "video/woman/1/conditioner/ладоньстоп_сбоку.webm" .
+
+ex:video_044_ann a iot:VideoAnnotation ;
+    ex:frameCount 103 ;
+    iot:duration 3.43e+00 ;
+    iot:filePath "video/woman/1/conditioner/свайп_лицо.webm" .
+
+ex:video_045_ann a iot:VideoAnnotation ;
+    ex:frameCount 75 ;
+    iot:duration 2.5e+00 ;
+    iot:filePath "video/woman/1/conditioner/свайп_сбоку.webm" .
+
+ex:video_046_ann a iot:VideoAnnotation ;
+    ex:frameCount 103 ;
+    iot:duration 3.43e+00 ;
+    iot:filePath "video/woman/1/conditioner/хлопок_лицо.webm" .
+
+ex:video_047_ann a iot:VideoAnnotation ;
+    ex:frameCount 119 ;
+    iot:duration 3.97e+00 ;
+    iot:filePath "video/woman/1/conditioner/хлопок_сбоку.webm" .
+
+ex:video_048_ann a iot:VideoAnnotation ;
+    ex:frameCount 77 ;
+    iot:duration 2.57e+00 ;
+    iot:filePath "video/woman/1/conditioner/щелчок_лицо.webm" .
+
+ex:video_049_ann a iot:VideoAnnotation ;
+    ex:frameCount 77 ;
+    iot:duration 2.57e+00 ;
+    iot:filePath "video/woman/1/conditioner/щелчок_сбоку.webm" .
+
+ex:video_050_ann a iot:VideoAnnotation ;
+    ex:frameCount 101 ;
+    iot:duration 3.37e+00 ;
+    iot:filePath "video/woman/1/curtains/круг_лицо.webm" .
+
+ex:video_051_ann a iot:VideoAnnotation ;
+    ex:frameCount 89 ;
+    iot:duration 2.97e+00 ;
+    iot:filePath "video/woman/1/curtains/круг_сбоку.webm" .
+
+ex:video_052_ann a iot:VideoAnnotation ;
+    ex:frameCount 94 ;
+    iot:duration 3.13e+00 ;
+    iot:filePath "video/woman/1/curtains/ладоньстоп_лицо.webm" .
+
+ex:video_053_ann a iot:VideoAnnotation ;
+    ex:frameCount 98 ;
+    iot:duration 3.27e+00 ;
+    iot:filePath "video/woman/1/curtains/ладоньстоп_сбоку.webm" .
+
+ex:video_054_ann a iot:VideoAnnotation ;
+    ex:frameCount 103 ;
+    iot:duration 3.43e+00 ;
+    iot:filePath "video/woman/1/curtains/свайп_лицо.webm" .
+
+ex:video_055_ann a iot:VideoAnnotation ;
+    ex:frameCount 75 ;
+    iot:duration 2.5e+00 ;
+    iot:filePath "video/woman/1/curtains/свайп_сбоку.webm" .
+
+ex:video_056_ann a iot:VideoAnnotation ;
+    ex:frameCount 101 ;
+    iot:duration 3.37e+00 ;
+    iot:filePath "video/woman/1/lamp/круг_лицо.webm" .
+
+ex:video_057_ann a iot:VideoAnnotation ;
+    ex:frameCount 89 ;
+    iot:duration 2.97e+00 ;
+    iot:filePath "video/woman/1/lamp/круг_сбоку.webm" .
+
+ex:video_058_ann a iot:VideoAnnotation ;
+    ex:frameCount 94 ;
+    iot:duration 3.13e+00 ;
+    iot:filePath "video/woman/1/lamp/ладоньстоп_лицо.webm" .
+
+ex:video_059_ann a iot:VideoAnnotation ;
+    ex:frameCount 98 ;
+    iot:duration 3.27e+00 ;
+    iot:filePath "video/woman/1/lamp/ладоньстоп_сбоку.webm" .
+
+ex:video_060_ann a iot:VideoAnnotation ;
+    ex:frameCount 103 ;
+    iot:duration 3.43e+00 ;
+    iot:filePath "video/woman/1/lamp/хлопок_лицо.webm" .
+
+ex:video_061_ann a iot:VideoAnnotation ;
+    ex:frameCount 119 ;
+    iot:duration 3.97e+00 ;
+    iot:filePath "video/woman/1/lamp/хлопок_сбоку.webm" .
+
+ex:video_062_ann a iot:VideoAnnotation ;
+    ex:frameCount 94 ;
+    iot:duration 3.13e+00 ;
+    iot:filePath "video/woman/1/lock/ладоньстоп_лицо.webm" .
+
+ex:video_063_ann a iot:VideoAnnotation ;
+    ex:frameCount 98 ;
+    iot:duration 3.27e+00 ;
+    iot:filePath "video/woman/1/lock/ладоньстоп_сбоку.webm" .
+
+ex:video_064_ann a iot:VideoAnnotation ;
+    ex:frameCount 112 ;
+    iot:duration 3.73e+00 ;
+    iot:filePath "video/woman/1/lock/поднятиеруки_лицо.webm" .
+
+ex:video_065_ann a iot:VideoAnnotation ;
+    ex:frameCount 112 ;
+    iot:duration 3.73e+00 ;
+    iot:filePath "video/woman/1/lock/поднятиеруки_сбоку.webm" .
+
+ex:video_066_ann a iot:VideoAnnotation ;
+    ex:frameCount 103 ;
+    iot:duration 3.43e+00 ;
+    iot:filePath "video/woman/1/lock/хлопок_лицо.webm" .
+
+ex:video_067_ann a iot:VideoAnnotation ;
+    ex:frameCount 119 ;
+    iot:duration 3.97e+00 ;
+    iot:filePath "video/woman/1/lock/хлопок_сбоку.webm" .
+
+ex:video_068_ann a iot:VideoAnnotation ;
+    ex:frameCount 101 ;
+    iot:duration 3.37e+00 ;
+    iot:filePath "video/woman/1/tv/круг_лицо.webm" .
+
+ex:video_069_ann a iot:VideoAnnotation ;
+    ex:frameCount 89 ;
+    iot:duration 2.97e+00 ;
+    iot:filePath "video/woman/1/tv/круг_сбоку.webm" .
+
+ex:video_070_ann a iot:VideoAnnotation ;
+    ex:frameCount 94 ;
+    iot:duration 3.13e+00 ;
+    iot:filePath "video/woman/1/tv/ладоньстоп_лицо.webm" .
+
+ex:video_071_ann a iot:VideoAnnotation ;
+    ex:frameCount 98 ;
+    iot:duration 3.27e+00 ;
+    iot:filePath "video/woman/1/tv/ладоньстоп_сбоку.webm" .
+
+ex:video_072_ann a iot:VideoAnnotation ;
+    ex:frameCount 112 ;
+    iot:duration 3.73e+00 ;
+    iot:filePath "video/woman/1/tv/поднятиеруки_лицо.webm" .
+
+ex:video_073_ann a iot:VideoAnnotation ;
+    ex:frameCount 112 ;
+    iot:duration 3.73e+00 ;
+    iot:filePath "video/woman/1/tv/поднятиеруки_сбоку.webm" .
+
+ex:video_074_ann a iot:VideoAnnotation ;
+    ex:frameCount 103 ;
+    iot:duration 3.43e+00 ;
+    iot:filePath "video/woman/1/tv/свайп_лицо.webm" .
+
+ex:video_075_ann a iot:VideoAnnotation ;
+    ex:frameCount 75 ;
+    iot:duration 2.5e+00 ;
+    iot:filePath "video/woman/1/tv/свайп_сбоку.webm" .
+
+ex:video_076_ann a iot:VideoAnnotation ;
+    ex:frameCount 103 ;
+    iot:duration 3.43e+00 ;
+    iot:filePath "video/woman/1/tv/хлопок_лицо.webm" .
+
+ex:video_077_ann a iot:VideoAnnotation ;
+    ex:frameCount 119 ;
+    iot:duration 3.97e+00 ;
+    iot:filePath "video/woman/1/tv/хлопок_сбоку.webm" .
+
+ex:video_078_ann a iot:VideoAnnotation ;
+    ex:frameCount 77 ;
+    iot:duration 2.57e+00 ;
+    iot:filePath "video/woman/1/tv/щелчок_лицо.webm" .
+
+ex:video_079_ann a iot:VideoAnnotation ;
+    ex:frameCount 77 ;
+    iot:duration 2.57e+00 ;
+    iot:filePath "video/woman/1/tv/щелчок_сбоку.webm" .
+
+ex:cancel a iot:Intent ;
+    rdfs:label "cancel" .
+
+ex:mute a iot:Intent ;
+    rdfs:label "mute" .
+
+ex:repeat a iot:Intent ;
+    rdfs:label "repeat" .
+
+ex:stop a iot:Intent ;
+    rdfs:label "stop" .
+
+ex:timer_off a iot:Intent ;
+    rdfs:label "timer_off" .
+
+ex:timer_on a iot:Intent ;
+    rdfs:label "timer_on" .
+
+ex:unlock a iot:Intent ;
+    rdfs:label "unlock" .
+
+ex:audio_010 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_010,
+        ex:video_011,
+        ex:video_012,
+        ex:video_013,
+        ex:video_014,
+        ex:video_015 ;
+    iot:hasAudioAnnotation ex:audio_010_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "вечерний режим" .
+
+ex:audio_011 a iot:AudioCommand ;
+    ex:intent "increase_value" ;
+    iot:correspondsTo ex:video_010,
+        ex:video_011,
+        ex:video_012,
+        ex:video_013,
+        ex:video_014,
+        ex:video_015 ;
+    iot:hasAudioAnnotation ex:audio_011_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:increase_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "добавь света" .
+
+ex:audio_012 a iot:AudioCommand ;
+    ex:intent "turn_off" ;
+    iot:correspondsTo ex:video_010,
+        ex:video_011,
+        ex:video_012,
+        ex:video_013,
+        ex:video_014,
+        ex:video_015 ;
+    iot:hasAudioAnnotation ex:audio_012_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:turn_off ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "закрой шторы" .
+
+ex:audio_013 a iot:AudioCommand ;
+    ex:intent "decrease_value" ;
+    iot:correspondsTo ex:video_010,
+        ex:video_011,
+        ex:video_012,
+        ex:video_013,
+        ex:video_014,
+        ex:video_015 ;
+    iot:hasAudioAnnotation ex:audio_013_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:decrease_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "затемни комнату" .
+
+ex:audio_014 a iot:AudioCommand ;
+    ex:intent "set_value" ;
+    iot:correspondsTo ex:video_010,
+        ex:video_011,
+        ex:video_012,
+        ex:video_013,
+        ex:video_014,
+        ex:video_015 ;
+    iot:hasAudioAnnotation ex:audio_014_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:set_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "открой на тридцать процентов" .
+
+ex:audio_015 a iot:AudioCommand ;
+    ex:intent "turn_on" ;
+    iot:correspondsTo ex:video_010,
+        ex:video_011,
+        ex:video_012,
+        ex:video_013,
+        ex:video_014,
+        ex:video_015 ;
+    iot:hasAudioAnnotation ex:audio_015_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:turn_on ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "открой шторы" .
+
+ex:audio_016 a iot:AudioCommand ;
+    ex:intent "set_value" ;
+    iot:correspondsTo ex:video_010,
+        ex:video_011,
+        ex:video_012,
+        ex:video_013,
+        ex:video_014,
+        ex:video_015 ;
+    iot:hasAudioAnnotation ex:audio_016_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:set_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "приоткрой шторы" .
+
+ex:audio_017 a iot:AudioCommand ;
+    ex:intent "stop" ;
+    iot:correspondsTo ex:video_010,
+        ex:video_011,
+        ex:video_012,
+        ex:video_013,
+        ex:video_014,
+        ex:video_015 ;
+    iot:hasAudioAnnotation ex:audio_017_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:stop ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "стоп шторы" .
+
+ex:audio_018 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_010,
+        ex:video_011,
+        ex:video_012,
+        ex:video_013,
+        ex:video_014,
+        ex:video_015 ;
+    iot:hasAudioAnnotation ex:audio_018_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "утренний режим" .
+
+ex:audio_019 a iot:AudioCommand ;
+    ex:intent "set_value" ;
+    iot:correspondsTo ex:video_010,
+        ex:video_011,
+        ex:video_012,
+        ex:video_013,
+        ex:video_014,
+        ex:video_015 ;
+    iot:hasAudioAnnotation ex:audio_019_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:set_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "шторы наполовину" .
+
+ex:audio_020 a iot:AudioCommand ;
+    ex:intent "turn_on" ;
+    iot:correspondsTo ex:video_016,
+        ex:video_017,
+        ex:video_018,
+        ex:video_019,
+        ex:video_020,
+        ex:video_021 ;
+    iot:hasAudioAnnotation ex:audio_020_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:turn_on ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "включи свет" .
+
+ex:audio_021 a iot:AudioCommand ;
+    ex:intent "turn_off" ;
+    iot:correspondsTo ex:video_016,
+        ex:video_017,
+        ex:video_018,
+        ex:video_019,
+        ex:video_020,
+        ex:video_021 ;
+    iot:hasAudioAnnotation ex:audio_021_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:turn_off ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "выключи свет" .
+
+ex:audio_022 a iot:AudioCommand ;
+    ex:intent "set_value" ;
+    iot:correspondsTo ex:video_016,
+        ex:video_017,
+        ex:video_018,
+        ex:video_019,
+        ex:video_020,
+        ex:video_021 ;
+    iot:hasAudioAnnotation ex:audio_022_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:set_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "максимальная яркость" .
+
+ex:audio_023 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_016,
+        ex:video_017,
+        ex:video_018,
+        ex:video_019,
+        ex:video_020,
+        ex:video_021 ;
+    iot:hasAudioAnnotation ex:audio_023_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "ночной режим" .
+
+ex:audio_024 a iot:AudioCommand ;
+    ex:intent "repeat" ;
+    iot:correspondsTo ex:video_016,
+        ex:video_017,
+        ex:video_018,
+        ex:video_019,
+        ex:video_020,
+        ex:video_021 ;
+    iot:hasAudioAnnotation ex:audio_024_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:repeat ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "повтори последнее" .
+
+ex:audio_025 a iot:AudioCommand ;
+    ex:intent "timer_off" ;
+    iot:correspondsTo ex:video_016,
+        ex:video_017,
+        ex:video_018,
+        ex:video_019,
+        ex:video_020,
+        ex:video_021 ;
+    iot:hasAudioAnnotation ex:audio_025_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:timer_off ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "свет выключится через пять минут" .
+
+ex:audio_026 a iot:AudioCommand ;
+    ex:intent "decrease_value" ;
+    iot:correspondsTo ex:video_016,
+        ex:video_017,
+        ex:video_018,
+        ex:video_019,
+        ex:video_020,
+        ex:video_021 ;
+    iot:hasAudioAnnotation ex:audio_026_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:decrease_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "сделай темнее" .
+
+ex:audio_027 a iot:AudioCommand ;
+    ex:intent "increase_value" ;
+    iot:correspondsTo ex:video_016,
+        ex:video_017,
+        ex:video_018,
+        ex:video_019,
+        ex:video_020,
+        ex:video_021 ;
+    iot:hasAudioAnnotation ex:audio_027_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:increase_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "сделай ярче" .
+
+ex:audio_028 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_016,
+        ex:video_017,
+        ex:video_018,
+        ex:video_019,
+        ex:video_020,
+        ex:video_021 ;
+    iot:hasAudioAnnotation ex:audio_028_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "тёплый свет" .
+
+ex:audio_029 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_016,
+        ex:video_017,
+        ex:video_018,
+        ex:video_019,
+        ex:video_020,
+        ex:video_021 ;
+    iot:hasAudioAnnotation ex:audio_029_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "холодный свет" .
+
+ex:audio_030 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_022,
+        ex:video_023,
+        ex:video_024,
+        ex:video_025,
+        ex:video_026,
+        ex:video_027 ;
+    iot:hasAudioAnnotation ex:audio_030_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "автозакрытие включи" .
+
+ex:audio_031 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_022,
+        ex:video_023,
+        ex:video_024,
+        ex:video_025,
+        ex:video_026,
+        ex:video_027 ;
+    iot:hasAudioAnnotation ex:audio_031_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "временный доступ" .
+
+ex:audio_032 a iot:AudioCommand ;
+    ex:intent "lock" ;
+    iot:correspondsTo ex:video_022,
+        ex:video_023,
+        ex:video_024,
+        ex:video_025,
+        ex:video_026,
+        ex:video_027 ;
+    iot:hasAudioAnnotation ex:audio_032_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:lock ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "заблокируй" .
+
+ex:audio_033 a iot:AudioCommand ;
+    ex:intent "turn_off" ;
+    iot:correspondsTo ex:video_022,
+        ex:video_023,
+        ex:video_024,
+        ex:video_025,
+        ex:video_026,
+        ex:video_027 ;
+    iot:hasAudioAnnotation ex:audio_033_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:turn_off ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "закрой дверь" .
+
+ex:audio_034 a iot:AudioCommand ;
+    ex:intent "query_status" ;
+    iot:correspondsTo ex:video_022,
+        ex:video_023,
+        ex:video_024,
+        ex:video_025,
+        ex:video_026,
+        ex:video_027 ;
+    iot:hasAudioAnnotation ex:audio_034_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:query_status ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "кто там" .
+
+ex:audio_035 a iot:AudioCommand ;
+    ex:intent "turn_on" ;
+    iot:correspondsTo ex:video_022,
+        ex:video_023,
+        ex:video_024,
+        ex:video_025,
+        ex:video_026,
+        ex:video_027 ;
+    iot:hasAudioAnnotation ex:audio_035_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:turn_on ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "открой дверь" .
+
+ex:audio_036 a iot:AudioCommand ;
+    ex:intent "cancel" ;
+    iot:correspondsTo ex:video_022,
+        ex:video_023,
+        ex:video_024,
+        ex:video_025,
+        ex:video_026,
+        ex:video_027 ;
+    iot:hasAudioAnnotation ex:audio_036_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:cancel ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "отмени последнее" .
+
+ex:audio_037 a iot:AudioCommand ;
+    ex:intent "query_status" ;
+    iot:correspondsTo ex:video_022,
+        ex:video_023,
+        ex:video_024,
+        ex:video_025,
+        ex:video_026,
+        ex:video_027 ;
+    iot:hasAudioAnnotation ex:audio_037_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:query_status ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "покажи историю" .
+
+ex:audio_038 a iot:AudioCommand ;
+    ex:intent "unlock" ;
+    iot:correspondsTo ex:video_022,
+        ex:video_023,
+        ex:video_024,
+        ex:video_025,
+        ex:video_026,
+        ex:video_027 ;
+    iot:hasAudioAnnotation ex:audio_038_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:unlock ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "разблокируй" .
+
+ex:audio_039 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_022,
+        ex:video_023,
+        ex:video_024,
+        ex:video_025,
+        ex:video_026,
+        ex:video_027 ;
+    iot:hasAudioAnnotation ex:audio_039_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "режим охраны" .
+
+ex:audio_060 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_050,
+        ex:video_051,
+        ex:video_052,
+        ex:video_053,
+        ex:video_054,
+        ex:video_055 ;
+    iot:hasAudioAnnotation ex:audio_060_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "вечерний режим" .
+
+ex:audio_061 a iot:AudioCommand ;
+    ex:intent "increase_value" ;
+    iot:correspondsTo ex:video_050,
+        ex:video_051,
+        ex:video_052,
+        ex:video_053,
+        ex:video_054,
+        ex:video_055 ;
+    iot:hasAudioAnnotation ex:audio_061_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:increase_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "добавь света" .
+
+ex:audio_062 a iot:AudioCommand ;
+    ex:intent "turn_off" ;
+    iot:correspondsTo ex:video_050,
+        ex:video_051,
+        ex:video_052,
+        ex:video_053,
+        ex:video_054,
+        ex:video_055 ;
+    iot:hasAudioAnnotation ex:audio_062_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:turn_off ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "закрой шторы" .
+
+ex:audio_063 a iot:AudioCommand ;
+    ex:intent "decrease_value" ;
+    iot:correspondsTo ex:video_050,
+        ex:video_051,
+        ex:video_052,
+        ex:video_053,
+        ex:video_054,
+        ex:video_055 ;
+    iot:hasAudioAnnotation ex:audio_063_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:decrease_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "затемни комнату" .
+
+ex:audio_064 a iot:AudioCommand ;
+    ex:intent "set_value" ;
+    iot:correspondsTo ex:video_050,
+        ex:video_051,
+        ex:video_052,
+        ex:video_053,
+        ex:video_054,
+        ex:video_055 ;
+    iot:hasAudioAnnotation ex:audio_064_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:set_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "открой на тридцать процентов" .
+
+ex:audio_065 a iot:AudioCommand ;
+    ex:intent "turn_on" ;
+    iot:correspondsTo ex:video_050,
+        ex:video_051,
+        ex:video_052,
+        ex:video_053,
+        ex:video_054,
+        ex:video_055 ;
+    iot:hasAudioAnnotation ex:audio_065_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:turn_on ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "открой шторы" .
+
+ex:audio_066 a iot:AudioCommand ;
+    ex:intent "set_value" ;
+    iot:correspondsTo ex:video_050,
+        ex:video_051,
+        ex:video_052,
+        ex:video_053,
+        ex:video_054,
+        ex:video_055 ;
+    iot:hasAudioAnnotation ex:audio_066_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:set_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "приоткрой шторы" .
+
+ex:audio_067 a iot:AudioCommand ;
+    ex:intent "stop" ;
+    iot:correspondsTo ex:video_050,
+        ex:video_051,
+        ex:video_052,
+        ex:video_053,
+        ex:video_054,
+        ex:video_055 ;
+    iot:hasAudioAnnotation ex:audio_067_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:stop ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "стоп шторы" .
+
+ex:audio_068 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_050,
+        ex:video_051,
+        ex:video_052,
+        ex:video_053,
+        ex:video_054,
+        ex:video_055 ;
+    iot:hasAudioAnnotation ex:audio_068_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "утренний режим" .
+
+ex:audio_069 a iot:AudioCommand ;
+    ex:intent "set_value" ;
+    iot:correspondsTo ex:video_050,
+        ex:video_051,
+        ex:video_052,
+        ex:video_053,
+        ex:video_054,
+        ex:video_055 ;
+    iot:hasAudioAnnotation ex:audio_069_ann ;
+    iot:hasDevice ex:curtains ;
+    iot:hasIntent ex:set_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "шторы наполовину" .
+
+ex:audio_070 a iot:AudioCommand ;
+    ex:intent "turn_on" ;
+    iot:correspondsTo ex:video_056,
+        ex:video_057,
+        ex:video_058,
+        ex:video_059,
+        ex:video_060,
+        ex:video_061 ;
+    iot:hasAudioAnnotation ex:audio_070_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:turn_on ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "включи свет" .
+
+ex:audio_071 a iot:AudioCommand ;
+    ex:intent "turn_off" ;
+    iot:correspondsTo ex:video_056,
+        ex:video_057,
+        ex:video_058,
+        ex:video_059,
+        ex:video_060,
+        ex:video_061 ;
+    iot:hasAudioAnnotation ex:audio_071_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:turn_off ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "выключи свет" .
+
+ex:audio_072 a iot:AudioCommand ;
+    ex:intent "set_value" ;
+    iot:correspondsTo ex:video_056,
+        ex:video_057,
+        ex:video_058,
+        ex:video_059,
+        ex:video_060,
+        ex:video_061 ;
+    iot:hasAudioAnnotation ex:audio_072_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:set_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "максимальная яркость" .
+
+ex:audio_073 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_056,
+        ex:video_057,
+        ex:video_058,
+        ex:video_059,
+        ex:video_060,
+        ex:video_061 ;
+    iot:hasAudioAnnotation ex:audio_073_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "ночной режим" .
+
+ex:audio_074 a iot:AudioCommand ;
+    ex:intent "repeat" ;
+    iot:correspondsTo ex:video_056,
+        ex:video_057,
+        ex:video_058,
+        ex:video_059,
+        ex:video_060,
+        ex:video_061 ;
+    iot:hasAudioAnnotation ex:audio_074_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:repeat ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "повтори последнее" .
+
+ex:audio_075 a iot:AudioCommand ;
+    ex:intent "timer_off" ;
+    iot:correspondsTo ex:video_056,
+        ex:video_057,
+        ex:video_058,
+        ex:video_059,
+        ex:video_060,
+        ex:video_061 ;
+    iot:hasAudioAnnotation ex:audio_075_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:timer_off ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "свет выключится через пять минут" .
+
+ex:audio_076 a iot:AudioCommand ;
+    ex:intent "decrease_value" ;
+    iot:correspondsTo ex:video_056,
+        ex:video_057,
+        ex:video_058,
+        ex:video_059,
+        ex:video_060,
+        ex:video_061 ;
+    iot:hasAudioAnnotation ex:audio_076_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:decrease_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "сделай темнее" .
+
+ex:audio_077 a iot:AudioCommand ;
+    ex:intent "increase_value" ;
+    iot:correspondsTo ex:video_056,
+        ex:video_057,
+        ex:video_058,
+        ex:video_059,
+        ex:video_060,
+        ex:video_061 ;
+    iot:hasAudioAnnotation ex:audio_077_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:increase_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "сделай ярче" .
+
+ex:audio_078 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_056,
+        ex:video_057,
+        ex:video_058,
+        ex:video_059,
+        ex:video_060,
+        ex:video_061 ;
+    iot:hasAudioAnnotation ex:audio_078_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "тёплый свет" .
+
+ex:audio_079 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_056,
+        ex:video_057,
+        ex:video_058,
+        ex:video_059,
+        ex:video_060,
+        ex:video_061 ;
+    iot:hasAudioAnnotation ex:audio_079_ann ;
+    iot:hasDevice ex:lamp ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "холодный свет" .
+
+ex:audio_080 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_062,
+        ex:video_063,
+        ex:video_064,
+        ex:video_065,
+        ex:video_066,
+        ex:video_067 ;
+    iot:hasAudioAnnotation ex:audio_080_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "автозакрытие включи" .
+
+ex:audio_081 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_062,
+        ex:video_063,
+        ex:video_064,
+        ex:video_065,
+        ex:video_066,
+        ex:video_067 ;
+    iot:hasAudioAnnotation ex:audio_081_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "временный доступ" .
+
+ex:audio_082 a iot:AudioCommand ;
+    ex:intent "lock" ;
+    iot:correspondsTo ex:video_062,
+        ex:video_063,
+        ex:video_064,
+        ex:video_065,
+        ex:video_066,
+        ex:video_067 ;
+    iot:hasAudioAnnotation ex:audio_082_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:lock ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "заблокируй" .
+
+ex:audio_083 a iot:AudioCommand ;
+    ex:intent "turn_off" ;
+    iot:correspondsTo ex:video_062,
+        ex:video_063,
+        ex:video_064,
+        ex:video_065,
+        ex:video_066,
+        ex:video_067 ;
+    iot:hasAudioAnnotation ex:audio_083_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:turn_off ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "закрой дверь" .
+
+ex:audio_084 a iot:AudioCommand ;
+    ex:intent "query_status" ;
+    iot:correspondsTo ex:video_062,
+        ex:video_063,
+        ex:video_064,
+        ex:video_065,
+        ex:video_066,
+        ex:video_067 ;
+    iot:hasAudioAnnotation ex:audio_084_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:query_status ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "кто там" .
+
+ex:audio_085 a iot:AudioCommand ;
+    ex:intent "turn_on" ;
+    iot:correspondsTo ex:video_062,
+        ex:video_063,
+        ex:video_064,
+        ex:video_065,
+        ex:video_066,
+        ex:video_067 ;
+    iot:hasAudioAnnotation ex:audio_085_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:turn_on ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "открой дверь" .
+
+ex:audio_086 a iot:AudioCommand ;
+    ex:intent "cancel" ;
+    iot:correspondsTo ex:video_062,
+        ex:video_063,
+        ex:video_064,
+        ex:video_065,
+        ex:video_066,
+        ex:video_067 ;
+    iot:hasAudioAnnotation ex:audio_086_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:cancel ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "отмени последнее" .
+
+ex:audio_087 a iot:AudioCommand ;
+    ex:intent "query_status" ;
+    iot:correspondsTo ex:video_062,
+        ex:video_063,
+        ex:video_064,
+        ex:video_065,
+        ex:video_066,
+        ex:video_067 ;
+    iot:hasAudioAnnotation ex:audio_087_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:query_status ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "покажи историю" .
+
+ex:audio_088 a iot:AudioCommand ;
+    ex:intent "unlock" ;
+    iot:correspondsTo ex:video_062,
+        ex:video_063,
+        ex:video_064,
+        ex:video_065,
+        ex:video_066,
+        ex:video_067 ;
+    iot:hasAudioAnnotation ex:audio_088_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:unlock ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "разблокируй" .
+
+ex:audio_089 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_062,
+        ex:video_063,
+        ex:video_064,
+        ex:video_065,
+        ex:video_066,
+        ex:video_067 ;
+    iot:hasAudioAnnotation ex:audio_089_ann ;
+    iot:hasDevice ex:lock ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "режим охраны" .
+
+ex:navigate a iot:Intent ;
+    rdfs:label "navigate" .
+
+ex:query_status a iot:Intent ;
+    rdfs:label "query_status" .
+
+ex:поднятиеруки a iot:GestureType ;
+    iot:gestureDescription "Поднятие руки" .
+
+ex:щелчок a iot:GestureType ;
+    iot:gestureDescription "Щелчок пальцами" .
+
+ex:audio_000 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_000,
+        ex:video_001,
+        ex:video_002,
+        ex:video_003,
+        ex:video_004,
+        ex:video_005,
+        ex:video_006,
+        ex:video_007,
+        ex:video_008,
+        ex:video_009 ;
+    iot:hasAudioAnnotation ex:audio_000_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "автоматический режим" .
+
+ex:audio_001 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_000,
+        ex:video_001,
+        ex:video_002,
+        ex:video_003,
+        ex:video_004,
+        ex:video_005,
+        ex:video_006,
+        ex:video_007,
+        ex:video_008,
+        ex:video_009 ;
+    iot:hasAudioAnnotation ex:audio_001_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "вентиляция" .
+
+ex:audio_002 a iot:AudioCommand ;
+    ex:intent "turn_on" ;
+    iot:correspondsTo ex:video_000,
+        ex:video_001,
+        ex:video_002,
+        ex:video_003,
+        ex:video_004,
+        ex:video_005,
+        ex:video_006,
+        ex:video_007,
+        ex:video_008,
+        ex:video_009 ;
+    iot:hasAudioAnnotation ex:audio_002_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:turn_on ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "включи кондиционер" .
+
+ex:audio_003 a iot:AudioCommand ;
+    ex:intent "timer_on" ;
+    iot:correspondsTo ex:video_000,
+        ex:video_001,
+        ex:video_002,
+        ex:video_003,
+        ex:video_004,
+        ex:video_005,
+        ex:video_006,
+        ex:video_007,
+        ex:video_008,
+        ex:video_009 ;
+    iot:hasAudioAnnotation ex:audio_003_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:timer_on ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "включи через час" .
+
+ex:audio_004 a iot:AudioCommand ;
+    ex:intent "turn_off" ;
+    iot:correspondsTo ex:video_000,
+        ex:video_001,
+        ex:video_002,
+        ex:video_003,
+        ex:video_004,
+        ex:video_005,
+        ex:video_006,
+        ex:video_007,
+        ex:video_008,
+        ex:video_009 ;
+    iot:hasAudioAnnotation ex:audio_004_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:turn_off ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "выключи кондиционер" .
+
+ex:audio_005 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_000,
+        ex:video_001,
+        ex:video_002,
+        ex:video_003,
+        ex:video_004,
+        ex:video_005,
+        ex:video_006,
+        ex:video_007,
+        ex:video_008,
+        ex:video_009 ;
+    iot:hasAudioAnnotation ex:audio_005_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "осуши воздух" .
+
+ex:audio_006 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_000,
+        ex:video_001,
+        ex:video_002,
+        ex:video_003,
+        ex:video_004,
+        ex:video_005,
+        ex:video_006,
+        ex:video_007,
+        ex:video_008,
+        ex:video_009 ;
+    iot:hasAudioAnnotation ex:audio_006_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "режим сна" .
+
+ex:audio_007 a iot:AudioCommand ;
+    ex:intent "decrease_value" ;
+    iot:correspondsTo ex:video_000,
+        ex:video_001,
+        ex:video_002,
+        ex:video_003,
+        ex:video_004,
+        ex:video_005,
+        ex:video_006,
+        ex:video_007,
+        ex:video_008,
+        ex:video_009 ;
+    iot:hasAudioAnnotation ex:audio_007_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:decrease_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "сделай прохладнее" .
+
+ex:audio_008 a iot:AudioCommand ;
+    ex:intent "increase_value" ;
+    iot:correspondsTo ex:video_000,
+        ex:video_001,
+        ex:video_002,
+        ex:video_003,
+        ex:video_004,
+        ex:video_005,
+        ex:video_006,
+        ex:video_007,
+        ex:video_008,
+        ex:video_009 ;
+    iot:hasAudioAnnotation ex:audio_008_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:increase_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "сделай теплее" .
+
+ex:audio_009 a iot:AudioCommand ;
+    ex:intent "set_value" ;
+    iot:correspondsTo ex:video_000,
+        ex:video_001,
+        ex:video_002,
+        ex:video_003,
+        ex:video_004,
+        ex:video_005,
+        ex:video_006,
+        ex:video_007,
+        ex:video_008,
+        ex:video_009 ;
+    iot:hasAudioAnnotation ex:audio_009_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:set_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "установи двадцать два градуса" .
+
+ex:audio_050 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_040,
+        ex:video_041,
+        ex:video_042,
+        ex:video_043,
+        ex:video_044,
+        ex:video_045,
+        ex:video_046,
+        ex:video_047,
+        ex:video_048,
+        ex:video_049 ;
+    iot:hasAudioAnnotation ex:audio_050_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "автоматический режим" .
+
+ex:audio_051 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_040,
+        ex:video_041,
+        ex:video_042,
+        ex:video_043,
+        ex:video_044,
+        ex:video_045,
+        ex:video_046,
+        ex:video_047,
+        ex:video_048,
+        ex:video_049 ;
+    iot:hasAudioAnnotation ex:audio_051_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "вентиляция" .
+
+ex:audio_052 a iot:AudioCommand ;
+    ex:intent "turn_on" ;
+    iot:correspondsTo ex:video_040,
+        ex:video_041,
+        ex:video_042,
+        ex:video_043,
+        ex:video_044,
+        ex:video_045,
+        ex:video_046,
+        ex:video_047,
+        ex:video_048,
+        ex:video_049 ;
+    iot:hasAudioAnnotation ex:audio_052_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:turn_on ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "включи кондиционер" .
+
+ex:audio_053 a iot:AudioCommand ;
+    ex:intent "timer_on" ;
+    iot:correspondsTo ex:video_040,
+        ex:video_041,
+        ex:video_042,
+        ex:video_043,
+        ex:video_044,
+        ex:video_045,
+        ex:video_046,
+        ex:video_047,
+        ex:video_048,
+        ex:video_049 ;
+    iot:hasAudioAnnotation ex:audio_053_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:timer_on ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "включи через час" .
+
+ex:audio_054 a iot:AudioCommand ;
+    ex:intent "turn_off" ;
+    iot:correspondsTo ex:video_040,
+        ex:video_041,
+        ex:video_042,
+        ex:video_043,
+        ex:video_044,
+        ex:video_045,
+        ex:video_046,
+        ex:video_047,
+        ex:video_048,
+        ex:video_049 ;
+    iot:hasAudioAnnotation ex:audio_054_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:turn_off ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "выключи кондиционер" .
+
+ex:audio_055 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_040,
+        ex:video_041,
+        ex:video_042,
+        ex:video_043,
+        ex:video_044,
+        ex:video_045,
+        ex:video_046,
+        ex:video_047,
+        ex:video_048,
+        ex:video_049 ;
+    iot:hasAudioAnnotation ex:audio_055_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "осуши воздух" .
+
+ex:audio_056 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_040,
+        ex:video_041,
+        ex:video_042,
+        ex:video_043,
+        ex:video_044,
+        ex:video_045,
+        ex:video_046,
+        ex:video_047,
+        ex:video_048,
+        ex:video_049 ;
+    iot:hasAudioAnnotation ex:audio_056_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "режим сна" .
+
+ex:audio_057 a iot:AudioCommand ;
+    ex:intent "decrease_value" ;
+    iot:correspondsTo ex:video_040,
+        ex:video_041,
+        ex:video_042,
+        ex:video_043,
+        ex:video_044,
+        ex:video_045,
+        ex:video_046,
+        ex:video_047,
+        ex:video_048,
+        ex:video_049 ;
+    iot:hasAudioAnnotation ex:audio_057_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:decrease_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "сделай прохладнее" .
+
+ex:audio_058 a iot:AudioCommand ;
+    ex:intent "increase_value" ;
+    iot:correspondsTo ex:video_040,
+        ex:video_041,
+        ex:video_042,
+        ex:video_043,
+        ex:video_044,
+        ex:video_045,
+        ex:video_046,
+        ex:video_047,
+        ex:video_048,
+        ex:video_049 ;
+    iot:hasAudioAnnotation ex:audio_058_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:increase_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "сделай теплее" .
+
+ex:audio_059 a iot:AudioCommand ;
+    ex:intent "set_value" ;
+    iot:correspondsTo ex:video_040,
+        ex:video_041,
+        ex:video_042,
+        ex:video_043,
+        ex:video_044,
+        ex:video_045,
+        ex:video_046,
+        ex:video_047,
+        ex:video_048,
+        ex:video_049 ;
+    iot:hasAudioAnnotation ex:audio_059_ann ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasIntent ex:set_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "установи двадцать два градуса" .
+
+ex:video_000 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_000,
+        ex:audio_001,
+        ex:audio_002,
+        ex:audio_003,
+        ex:audio_004,
+        ex:audio_005,
+        ex:audio_006,
+        ex:audio_007,
+        ex:audio_008,
+        ex:audio_009 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_000_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_001 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_000,
+        ex:audio_001,
+        ex:audio_002,
+        ex:audio_003,
+        ex:audio_004,
+        ex:audio_005,
+        ex:audio_006,
+        ex:audio_007,
+        ex:audio_008,
+        ex:audio_009 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_001_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_002 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_000,
+        ex:audio_001,
+        ex:audio_002,
+        ex:audio_003,
+        ex:audio_004,
+        ex:audio_005,
+        ex:audio_006,
+        ex:audio_007,
+        ex:audio_008,
+        ex:audio_009 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_002_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_003 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_000,
+        ex:audio_001,
+        ex:audio_002,
+        ex:audio_003,
+        ex:audio_004,
+        ex:audio_005,
+        ex:audio_006,
+        ex:audio_007,
+        ex:audio_008,
+        ex:audio_009 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_003_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_004 a iot:VideoGesture ;
+    ex:iotCommand "Переключение канала/трека/режима" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_000,
+        ex:audio_001,
+        ex:audio_002,
+        ex:audio_003,
+        ex:audio_004,
+        ex:audio_005,
+        ex:audio_006,
+        ex:audio_007,
+        ex:audio_008,
+        ex:audio_009 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:свайп ;
+    iot:hasVideoAnnotation ex:video_004_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_005 a iot:VideoGesture ;
+    ex:iotCommand "Переключение канала/трека/режима" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_000,
+        ex:audio_001,
+        ex:audio_002,
+        ex:audio_003,
+        ex:audio_004,
+        ex:audio_005,
+        ex:audio_006,
+        ex:audio_007,
+        ex:audio_008,
+        ex:audio_009 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:свайп ;
+    iot:hasVideoAnnotation ex:video_005_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_006 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_000,
+        ex:audio_001,
+        ex:audio_002,
+        ex:audio_003,
+        ex:audio_004,
+        ex:audio_005,
+        ex:audio_006,
+        ex:audio_007,
+        ex:audio_008,
+        ex:audio_009 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_006_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_007 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_000,
+        ex:audio_001,
+        ex:audio_002,
+        ex:audio_003,
+        ex:audio_004,
+        ex:audio_005,
+        ex:audio_006,
+        ex:audio_007,
+        ex:audio_008,
+        ex:audio_009 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_007_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_008 a iot:VideoGesture ;
+    ex:iotCommand "Выбор/Подтверждение" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_000,
+        ex:audio_001,
+        ex:audio_002,
+        ex:audio_003,
+        ex:audio_004,
+        ex:audio_005,
+        ex:audio_006,
+        ex:audio_007,
+        ex:audio_008,
+        ex:audio_009 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:щелчок ;
+    iot:hasVideoAnnotation ex:video_008_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_009 a iot:VideoGesture ;
+    ex:iotCommand "Выбор/Подтверждение" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_000,
+        ex:audio_001,
+        ex:audio_002,
+        ex:audio_003,
+        ex:audio_004,
+        ex:audio_005,
+        ex:audio_006,
+        ex:audio_007,
+        ex:audio_008,
+        ex:audio_009 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:щелчок ;
+    iot:hasVideoAnnotation ex:video_009_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_010 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_010,
+        ex:audio_011,
+        ex:audio_012,
+        ex:audio_013,
+        ex:audio_014,
+        ex:audio_015,
+        ex:audio_016,
+        ex:audio_017,
+        ex:audio_018,
+        ex:audio_019 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_010_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_011 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_010,
+        ex:audio_011,
+        ex:audio_012,
+        ex:audio_013,
+        ex:audio_014,
+        ex:audio_015,
+        ex:audio_016,
+        ex:audio_017,
+        ex:audio_018,
+        ex:audio_019 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_011_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_012 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_010,
+        ex:audio_011,
+        ex:audio_012,
+        ex:audio_013,
+        ex:audio_014,
+        ex:audio_015,
+        ex:audio_016,
+        ex:audio_017,
+        ex:audio_018,
+        ex:audio_019 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_012_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_013 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_010,
+        ex:audio_011,
+        ex:audio_012,
+        ex:audio_013,
+        ex:audio_014,
+        ex:audio_015,
+        ex:audio_016,
+        ex:audio_017,
+        ex:audio_018,
+        ex:audio_019 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_013_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_014 a iot:VideoGesture ;
+    ex:iotCommand "Переключение канала/трека/режима" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_010,
+        ex:audio_011,
+        ex:audio_012,
+        ex:audio_013,
+        ex:audio_014,
+        ex:audio_015,
+        ex:audio_016,
+        ex:audio_017,
+        ex:audio_018,
+        ex:audio_019 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasGestureType ex:свайп ;
+    iot:hasVideoAnnotation ex:video_014_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_015 a iot:VideoGesture ;
+    ex:iotCommand "Переключение канала/трека/режима" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_010,
+        ex:audio_011,
+        ex:audio_012,
+        ex:audio_013,
+        ex:audio_014,
+        ex:audio_015,
+        ex:audio_016,
+        ex:audio_017,
+        ex:audio_018,
+        ex:audio_019 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasGestureType ex:свайп ;
+    iot:hasVideoAnnotation ex:video_015_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_016 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_020,
+        ex:audio_021,
+        ex:audio_022,
+        ex:audio_023,
+        ex:audio_024,
+        ex:audio_025,
+        ex:audio_026,
+        ex:audio_027,
+        ex:audio_028,
+        ex:audio_029 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_016_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_017 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_020,
+        ex:audio_021,
+        ex:audio_022,
+        ex:audio_023,
+        ex:audio_024,
+        ex:audio_025,
+        ex:audio_026,
+        ex:audio_027,
+        ex:audio_028,
+        ex:audio_029 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_017_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_018 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_020,
+        ex:audio_021,
+        ex:audio_022,
+        ex:audio_023,
+        ex:audio_024,
+        ex:audio_025,
+        ex:audio_026,
+        ex:audio_027,
+        ex:audio_028,
+        ex:audio_029 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_018_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_019 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_020,
+        ex:audio_021,
+        ex:audio_022,
+        ex:audio_023,
+        ex:audio_024,
+        ex:audio_025,
+        ex:audio_026,
+        ex:audio_027,
+        ex:audio_028,
+        ex:audio_029 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_019_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_020 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_020,
+        ex:audio_021,
+        ex:audio_022,
+        ex:audio_023,
+        ex:audio_024,
+        ex:audio_025,
+        ex:audio_026,
+        ex:audio_027,
+        ex:audio_028,
+        ex:audio_029 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_020_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_021 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_020,
+        ex:audio_021,
+        ex:audio_022,
+        ex:audio_023,
+        ex:audio_024,
+        ex:audio_025,
+        ex:audio_026,
+        ex:audio_027,
+        ex:audio_028,
+        ex:audio_029 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_021_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_022 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_030,
+        ex:audio_031,
+        ex:audio_032,
+        ex:audio_033,
+        ex:audio_034,
+        ex:audio_035,
+        ex:audio_036,
+        ex:audio_037,
+        ex:audio_038,
+        ex:audio_039 ;
+    iot:hasDevice ex:lock ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_022_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_023 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_030,
+        ex:audio_031,
+        ex:audio_032,
+        ex:audio_033,
+        ex:audio_034,
+        ex:audio_035,
+        ex:audio_036,
+        ex:audio_037,
+        ex:audio_038,
+        ex:audio_039 ;
+    iot:hasDevice ex:lock ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_023_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_024 a iot:VideoGesture ;
+    ex:iotCommand "Wake-up / Активация" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_030,
+        ex:audio_031,
+        ex:audio_032,
+        ex:audio_033,
+        ex:audio_034,
+        ex:audio_035,
+        ex:audio_036,
+        ex:audio_037,
+        ex:audio_038,
+        ex:audio_039 ;
+    iot:hasDevice ex:lock ;
+    iot:hasGestureType ex:поднятиеруки ;
+    iot:hasVideoAnnotation ex:video_024_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_025 a iot:VideoGesture ;
+    ex:iotCommand "Wake-up / Активация" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_030,
+        ex:audio_031,
+        ex:audio_032,
+        ex:audio_033,
+        ex:audio_034,
+        ex:audio_035,
+        ex:audio_036,
+        ex:audio_037,
+        ex:audio_038,
+        ex:audio_039 ;
+    iot:hasDevice ex:lock ;
+    iot:hasGestureType ex:поднятиеруки ;
+    iot:hasVideoAnnotation ex:video_025_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_026 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_030,
+        ex:audio_031,
+        ex:audio_032,
+        ex:audio_033,
+        ex:audio_034,
+        ex:audio_035,
+        ex:audio_036,
+        ex:audio_037,
+        ex:audio_038,
+        ex:audio_039 ;
+    iot:hasDevice ex:lock ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_026_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_027 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_030,
+        ex:audio_031,
+        ex:audio_032,
+        ex:audio_033,
+        ex:audio_034,
+        ex:audio_035,
+        ex:audio_036,
+        ex:audio_037,
+        ex:audio_038,
+        ex:audio_039 ;
+    iot:hasDevice ex:lock ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_027_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_028 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_040,
+        ex:audio_041,
+        ex:audio_042,
+        ex:audio_043,
+        ex:audio_044,
+        ex:audio_045,
+        ex:audio_046,
+        ex:audio_047,
+        ex:audio_048,
+        ex:audio_049 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_028_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_029 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_040,
+        ex:audio_041,
+        ex:audio_042,
+        ex:audio_043,
+        ex:audio_044,
+        ex:audio_045,
+        ex:audio_046,
+        ex:audio_047,
+        ex:audio_048,
+        ex:audio_049 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_029_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_030 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_040,
+        ex:audio_041,
+        ex:audio_042,
+        ex:audio_043,
+        ex:audio_044,
+        ex:audio_045,
+        ex:audio_046,
+        ex:audio_047,
+        ex:audio_048,
+        ex:audio_049 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_030_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_031 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_040,
+        ex:audio_041,
+        ex:audio_042,
+        ex:audio_043,
+        ex:audio_044,
+        ex:audio_045,
+        ex:audio_046,
+        ex:audio_047,
+        ex:audio_048,
+        ex:audio_049 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_031_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_032 a iot:VideoGesture ;
+    ex:iotCommand "Wake-up / Активация" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_040,
+        ex:audio_041,
+        ex:audio_042,
+        ex:audio_043,
+        ex:audio_044,
+        ex:audio_045,
+        ex:audio_046,
+        ex:audio_047,
+        ex:audio_048,
+        ex:audio_049 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:поднятиеруки ;
+    iot:hasVideoAnnotation ex:video_032_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_033 a iot:VideoGesture ;
+    ex:iotCommand "Wake-up / Активация" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_040,
+        ex:audio_041,
+        ex:audio_042,
+        ex:audio_043,
+        ex:audio_044,
+        ex:audio_045,
+        ex:audio_046,
+        ex:audio_047,
+        ex:audio_048,
+        ex:audio_049 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:поднятиеруки ;
+    iot:hasVideoAnnotation ex:video_033_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_034 a iot:VideoGesture ;
+    ex:iotCommand "Переключение канала/трека/режима" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_040,
+        ex:audio_041,
+        ex:audio_042,
+        ex:audio_043,
+        ex:audio_044,
+        ex:audio_045,
+        ex:audio_046,
+        ex:audio_047,
+        ex:audio_048,
+        ex:audio_049 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:свайп ;
+    iot:hasVideoAnnotation ex:video_034_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_035 a iot:VideoGesture ;
+    ex:iotCommand "Переключение канала/трека/режима" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_040,
+        ex:audio_041,
+        ex:audio_042,
+        ex:audio_043,
+        ex:audio_044,
+        ex:audio_045,
+        ex:audio_046,
+        ex:audio_047,
+        ex:audio_048,
+        ex:audio_049 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:свайп ;
+    iot:hasVideoAnnotation ex:video_035_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_036 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_040,
+        ex:audio_041,
+        ex:audio_042,
+        ex:audio_043,
+        ex:audio_044,
+        ex:audio_045,
+        ex:audio_046,
+        ex:audio_047,
+        ex:audio_048,
+        ex:audio_049 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_036_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_037 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_040,
+        ex:audio_041,
+        ex:audio_042,
+        ex:audio_043,
+        ex:audio_044,
+        ex:audio_045,
+        ex:audio_046,
+        ex:audio_047,
+        ex:audio_048,
+        ex:audio_049 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_037_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_038 a iot:VideoGesture ;
+    ex:iotCommand "Выбор/Подтверждение" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_040,
+        ex:audio_041,
+        ex:audio_042,
+        ex:audio_043,
+        ex:audio_044,
+        ex:audio_045,
+        ex:audio_046,
+        ex:audio_047,
+        ex:audio_048,
+        ex:audio_049 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:щелчок ;
+    iot:hasVideoAnnotation ex:video_038_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_039 a iot:VideoGesture ;
+    ex:iotCommand "Выбор/Подтверждение" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_040,
+        ex:audio_041,
+        ex:audio_042,
+        ex:audio_043,
+        ex:audio_044,
+        ex:audio_045,
+        ex:audio_046,
+        ex:audio_047,
+        ex:audio_048,
+        ex:audio_049 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:щелчок ;
+    iot:hasVideoAnnotation ex:video_039_ann ;
+    iot:performedBy ex:Speaker_man_2 .
+
+ex:video_040 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_050,
+        ex:audio_051,
+        ex:audio_052,
+        ex:audio_053,
+        ex:audio_054,
+        ex:audio_055,
+        ex:audio_056,
+        ex:audio_057,
+        ex:audio_058,
+        ex:audio_059 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_040_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_041 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_050,
+        ex:audio_051,
+        ex:audio_052,
+        ex:audio_053,
+        ex:audio_054,
+        ex:audio_055,
+        ex:audio_056,
+        ex:audio_057,
+        ex:audio_058,
+        ex:audio_059 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_041_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_042 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_050,
+        ex:audio_051,
+        ex:audio_052,
+        ex:audio_053,
+        ex:audio_054,
+        ex:audio_055,
+        ex:audio_056,
+        ex:audio_057,
+        ex:audio_058,
+        ex:audio_059 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_042_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_043 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_050,
+        ex:audio_051,
+        ex:audio_052,
+        ex:audio_053,
+        ex:audio_054,
+        ex:audio_055,
+        ex:audio_056,
+        ex:audio_057,
+        ex:audio_058,
+        ex:audio_059 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_043_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_044 a iot:VideoGesture ;
+    ex:iotCommand "Переключение канала/трека/режима" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_050,
+        ex:audio_051,
+        ex:audio_052,
+        ex:audio_053,
+        ex:audio_054,
+        ex:audio_055,
+        ex:audio_056,
+        ex:audio_057,
+        ex:audio_058,
+        ex:audio_059 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:свайп ;
+    iot:hasVideoAnnotation ex:video_044_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_045 a iot:VideoGesture ;
+    ex:iotCommand "Переключение канала/трека/режима" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_050,
+        ex:audio_051,
+        ex:audio_052,
+        ex:audio_053,
+        ex:audio_054,
+        ex:audio_055,
+        ex:audio_056,
+        ex:audio_057,
+        ex:audio_058,
+        ex:audio_059 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:свайп ;
+    iot:hasVideoAnnotation ex:video_045_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_046 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_050,
+        ex:audio_051,
+        ex:audio_052,
+        ex:audio_053,
+        ex:audio_054,
+        ex:audio_055,
+        ex:audio_056,
+        ex:audio_057,
+        ex:audio_058,
+        ex:audio_059 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_046_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_047 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_050,
+        ex:audio_051,
+        ex:audio_052,
+        ex:audio_053,
+        ex:audio_054,
+        ex:audio_055,
+        ex:audio_056,
+        ex:audio_057,
+        ex:audio_058,
+        ex:audio_059 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_047_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_048 a iot:VideoGesture ;
+    ex:iotCommand "Выбор/Подтверждение" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_050,
+        ex:audio_051,
+        ex:audio_052,
+        ex:audio_053,
+        ex:audio_054,
+        ex:audio_055,
+        ex:audio_056,
+        ex:audio_057,
+        ex:audio_058,
+        ex:audio_059 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:щелчок ;
+    iot:hasVideoAnnotation ex:video_048_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_049 a iot:VideoGesture ;
+    ex:iotCommand "Выбор/Подтверждение" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_050,
+        ex:audio_051,
+        ex:audio_052,
+        ex:audio_053,
+        ex:audio_054,
+        ex:audio_055,
+        ex:audio_056,
+        ex:audio_057,
+        ex:audio_058,
+        ex:audio_059 ;
+    iot:hasDevice ex:conditioner ;
+    iot:hasGestureType ex:щелчок ;
+    iot:hasVideoAnnotation ex:video_049_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_050 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_060,
+        ex:audio_061,
+        ex:audio_062,
+        ex:audio_063,
+        ex:audio_064,
+        ex:audio_065,
+        ex:audio_066,
+        ex:audio_067,
+        ex:audio_068,
+        ex:audio_069 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_050_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_051 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_060,
+        ex:audio_061,
+        ex:audio_062,
+        ex:audio_063,
+        ex:audio_064,
+        ex:audio_065,
+        ex:audio_066,
+        ex:audio_067,
+        ex:audio_068,
+        ex:audio_069 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_051_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_052 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_060,
+        ex:audio_061,
+        ex:audio_062,
+        ex:audio_063,
+        ex:audio_064,
+        ex:audio_065,
+        ex:audio_066,
+        ex:audio_067,
+        ex:audio_068,
+        ex:audio_069 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_052_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_053 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_060,
+        ex:audio_061,
+        ex:audio_062,
+        ex:audio_063,
+        ex:audio_064,
+        ex:audio_065,
+        ex:audio_066,
+        ex:audio_067,
+        ex:audio_068,
+        ex:audio_069 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_053_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_054 a iot:VideoGesture ;
+    ex:iotCommand "Переключение канала/трека/режима" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_060,
+        ex:audio_061,
+        ex:audio_062,
+        ex:audio_063,
+        ex:audio_064,
+        ex:audio_065,
+        ex:audio_066,
+        ex:audio_067,
+        ex:audio_068,
+        ex:audio_069 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasGestureType ex:свайп ;
+    iot:hasVideoAnnotation ex:video_054_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_055 a iot:VideoGesture ;
+    ex:iotCommand "Переключение канала/трека/режима" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_060,
+        ex:audio_061,
+        ex:audio_062,
+        ex:audio_063,
+        ex:audio_064,
+        ex:audio_065,
+        ex:audio_066,
+        ex:audio_067,
+        ex:audio_068,
+        ex:audio_069 ;
+    iot:hasDevice ex:curtains ;
+    iot:hasGestureType ex:свайп ;
+    iot:hasVideoAnnotation ex:video_055_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_056 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_070,
+        ex:audio_071,
+        ex:audio_072,
+        ex:audio_073,
+        ex:audio_074,
+        ex:audio_075,
+        ex:audio_076,
+        ex:audio_077,
+        ex:audio_078,
+        ex:audio_079 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_056_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_057 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_070,
+        ex:audio_071,
+        ex:audio_072,
+        ex:audio_073,
+        ex:audio_074,
+        ex:audio_075,
+        ex:audio_076,
+        ex:audio_077,
+        ex:audio_078,
+        ex:audio_079 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_057_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_058 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_070,
+        ex:audio_071,
+        ex:audio_072,
+        ex:audio_073,
+        ex:audio_074,
+        ex:audio_075,
+        ex:audio_076,
+        ex:audio_077,
+        ex:audio_078,
+        ex:audio_079 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_058_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_059 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_070,
+        ex:audio_071,
+        ex:audio_072,
+        ex:audio_073,
+        ex:audio_074,
+        ex:audio_075,
+        ex:audio_076,
+        ex:audio_077,
+        ex:audio_078,
+        ex:audio_079 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_059_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_060 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_070,
+        ex:audio_071,
+        ex:audio_072,
+        ex:audio_073,
+        ex:audio_074,
+        ex:audio_075,
+        ex:audio_076,
+        ex:audio_077,
+        ex:audio_078,
+        ex:audio_079 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_060_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_061 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_070,
+        ex:audio_071,
+        ex:audio_072,
+        ex:audio_073,
+        ex:audio_074,
+        ex:audio_075,
+        ex:audio_076,
+        ex:audio_077,
+        ex:audio_078,
+        ex:audio_079 ;
+    iot:hasDevice ex:lamp ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_061_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_062 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_080,
+        ex:audio_081,
+        ex:audio_082,
+        ex:audio_083,
+        ex:audio_084,
+        ex:audio_085,
+        ex:audio_086,
+        ex:audio_087,
+        ex:audio_088,
+        ex:audio_089 ;
+    iot:hasDevice ex:lock ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_062_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_063 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_080,
+        ex:audio_081,
+        ex:audio_082,
+        ex:audio_083,
+        ex:audio_084,
+        ex:audio_085,
+        ex:audio_086,
+        ex:audio_087,
+        ex:audio_088,
+        ex:audio_089 ;
+    iot:hasDevice ex:lock ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_063_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_064 a iot:VideoGesture ;
+    ex:iotCommand "Wake-up / Активация" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_080,
+        ex:audio_081,
+        ex:audio_082,
+        ex:audio_083,
+        ex:audio_084,
+        ex:audio_085,
+        ex:audio_086,
+        ex:audio_087,
+        ex:audio_088,
+        ex:audio_089 ;
+    iot:hasDevice ex:lock ;
+    iot:hasGestureType ex:поднятиеруки ;
+    iot:hasVideoAnnotation ex:video_064_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_065 a iot:VideoGesture ;
+    ex:iotCommand "Wake-up / Активация" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_080,
+        ex:audio_081,
+        ex:audio_082,
+        ex:audio_083,
+        ex:audio_084,
+        ex:audio_085,
+        ex:audio_086,
+        ex:audio_087,
+        ex:audio_088,
+        ex:audio_089 ;
+    iot:hasDevice ex:lock ;
+    iot:hasGestureType ex:поднятиеруки ;
+    iot:hasVideoAnnotation ex:video_065_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_066 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_080,
+        ex:audio_081,
+        ex:audio_082,
+        ex:audio_083,
+        ex:audio_084,
+        ex:audio_085,
+        ex:audio_086,
+        ex:audio_087,
+        ex:audio_088,
+        ex:audio_089 ;
+    iot:hasDevice ex:lock ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_066_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_067 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_080,
+        ex:audio_081,
+        ex:audio_082,
+        ex:audio_083,
+        ex:audio_084,
+        ex:audio_085,
+        ex:audio_086,
+        ex:audio_087,
+        ex:audio_088,
+        ex:audio_089 ;
+    iot:hasDevice ex:lock ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_067_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_068 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_090,
+        ex:audio_091,
+        ex:audio_092,
+        ex:audio_093,
+        ex:audio_094,
+        ex:audio_095,
+        ex:audio_096,
+        ex:audio_097,
+        ex:audio_098,
+        ex:audio_099 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_068_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_069 a iot:VideoGesture ;
+    ex:iotCommand "Регулировка яркости/громкости/температуры" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_090,
+        ex:audio_091,
+        ex:audio_092,
+        ex:audio_093,
+        ex:audio_094,
+        ex:audio_095,
+        ex:audio_096,
+        ex:audio_097,
+        ex:audio_098,
+        ex:audio_099 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:круг ;
+    iot:hasVideoAnnotation ex:video_069_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_070 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_090,
+        ex:audio_091,
+        ex:audio_092,
+        ex:audio_093,
+        ex:audio_094,
+        ex:audio_095,
+        ex:audio_096,
+        ex:audio_097,
+        ex:audio_098,
+        ex:audio_099 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_070_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_071 a iot:VideoGesture ;
+    ex:iotCommand "Пауза / Стоп / Выключить" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_090,
+        ex:audio_091,
+        ex:audio_092,
+        ex:audio_093,
+        ex:audio_094,
+        ex:audio_095,
+        ex:audio_096,
+        ex:audio_097,
+        ex:audio_098,
+        ex:audio_099 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:ладоньстоп ;
+    iot:hasVideoAnnotation ex:video_071_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_072 a iot:VideoGesture ;
+    ex:iotCommand "Wake-up / Активация" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_090,
+        ex:audio_091,
+        ex:audio_092,
+        ex:audio_093,
+        ex:audio_094,
+        ex:audio_095,
+        ex:audio_096,
+        ex:audio_097,
+        ex:audio_098,
+        ex:audio_099 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:поднятиеруки ;
+    iot:hasVideoAnnotation ex:video_072_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_073 a iot:VideoGesture ;
+    ex:iotCommand "Wake-up / Активация" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_090,
+        ex:audio_091,
+        ex:audio_092,
+        ex:audio_093,
+        ex:audio_094,
+        ex:audio_095,
+        ex:audio_096,
+        ex:audio_097,
+        ex:audio_098,
+        ex:audio_099 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:поднятиеруки ;
+    iot:hasVideoAnnotation ex:video_073_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_074 a iot:VideoGesture ;
+    ex:iotCommand "Переключение канала/трека/режима" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_090,
+        ex:audio_091,
+        ex:audio_092,
+        ex:audio_093,
+        ex:audio_094,
+        ex:audio_095,
+        ex:audio_096,
+        ex:audio_097,
+        ex:audio_098,
+        ex:audio_099 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:свайп ;
+    iot:hasVideoAnnotation ex:video_074_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_075 a iot:VideoGesture ;
+    ex:iotCommand "Переключение канала/трека/режима" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_090,
+        ex:audio_091,
+        ex:audio_092,
+        ex:audio_093,
+        ex:audio_094,
+        ex:audio_095,
+        ex:audio_096,
+        ex:audio_097,
+        ex:audio_098,
+        ex:audio_099 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:свайп ;
+    iot:hasVideoAnnotation ex:video_075_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_076 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_090,
+        ex:audio_091,
+        ex:audio_092,
+        ex:audio_093,
+        ex:audio_094,
+        ex:audio_095,
+        ex:audio_096,
+        ex:audio_097,
+        ex:audio_098,
+        ex:audio_099 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_076_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_077 a iot:VideoGesture ;
+    ex:iotCommand "Вкл/выкл устройства" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_090,
+        ex:audio_091,
+        ex:audio_092,
+        ex:audio_093,
+        ex:audio_094,
+        ex:audio_095,
+        ex:audio_096,
+        ex:audio_097,
+        ex:audio_098,
+        ex:audio_099 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:хлопок ;
+    iot:hasVideoAnnotation ex:video_077_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_078 a iot:VideoGesture ;
+    ex:iotCommand "Выбор/Подтверждение" ;
+    iot:cameraAngle "лицо" ;
+    iot:correspondsTo ex:audio_090,
+        ex:audio_091,
+        ex:audio_092,
+        ex:audio_093,
+        ex:audio_094,
+        ex:audio_095,
+        ex:audio_096,
+        ex:audio_097,
+        ex:audio_098,
+        ex:audio_099 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:щелчок ;
+    iot:hasVideoAnnotation ex:video_078_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:video_079 a iot:VideoGesture ;
+    ex:iotCommand "Выбор/Подтверждение" ;
+    iot:cameraAngle "сбоку" ;
+    iot:correspondsTo ex:audio_090,
+        ex:audio_091,
+        ex:audio_092,
+        ex:audio_093,
+        ex:audio_094,
+        ex:audio_095,
+        ex:audio_096,
+        ex:audio_097,
+        ex:audio_098,
+        ex:audio_099 ;
+    iot:hasDevice ex:tv ;
+    iot:hasGestureType ex:щелчок ;
+    iot:hasVideoAnnotation ex:video_079_ann ;
+    iot:performedBy ex:Speaker_woman_1 .
+
+ex:audio_040 a iot:AudioCommand ;
+    ex:intent "mute" ;
+    iot:correspondsTo ex:video_028,
+        ex:video_029,
+        ex:video_030,
+        ex:video_031,
+        ex:video_032,
+        ex:video_033,
+        ex:video_034,
+        ex:video_035,
+        ex:video_036,
+        ex:video_037,
+        ex:video_038,
+        ex:video_039 ;
+    iot:hasAudioAnnotation ex:audio_040_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:mute ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "без звука" .
+
+ex:audio_041 a iot:AudioCommand ;
+    ex:intent "turn_on" ;
+    iot:correspondsTo ex:video_028,
+        ex:video_029,
+        ex:video_030,
+        ex:video_031,
+        ex:video_032,
+        ex:video_033,
+        ex:video_034,
+        ex:video_035,
+        ex:video_036,
+        ex:video_037,
+        ex:video_038,
+        ex:video_039 ;
+    iot:hasAudioAnnotation ex:audio_041_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:turn_on ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "включи телевизор" .
+
+ex:audio_042 a iot:AudioCommand ;
+    ex:intent "navigate" ;
+    iot:correspondsTo ex:video_028,
+        ex:video_029,
+        ex:video_030,
+        ex:video_031,
+        ex:video_032,
+        ex:video_033,
+        ex:video_034,
+        ex:video_035,
+        ex:video_036,
+        ex:video_037,
+        ex:video_038,
+        ex:video_039 ;
+    iot:hasAudioAnnotation ex:audio_042_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:navigate ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "выйди" .
+
+ex:audio_043 a iot:AudioCommand ;
+    ex:intent "turn_off" ;
+    iot:correspondsTo ex:video_028,
+        ex:video_029,
+        ex:video_030,
+        ex:video_031,
+        ex:video_032,
+        ex:video_033,
+        ex:video_034,
+        ex:video_035,
+        ex:video_036,
+        ex:video_037,
+        ex:video_038,
+        ex:video_039 ;
+    iot:hasAudioAnnotation ex:audio_043_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:turn_off ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "выключи телевизор" .
+
+ex:audio_044 a iot:AudioCommand ;
+    ex:intent "increase_value" ;
+    iot:correspondsTo ex:video_028,
+        ex:video_029,
+        ex:video_030,
+        ex:video_031,
+        ex:video_032,
+        ex:video_033,
+        ex:video_034,
+        ex:video_035,
+        ex:video_036,
+        ex:video_037,
+        ex:video_038,
+        ex:video_039 ;
+    iot:hasAudioAnnotation ex:audio_044_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:increase_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "громкость вверх" .
+
+ex:audio_045 a iot:AudioCommand ;
+    ex:intent "decrease_value" ;
+    iot:correspondsTo ex:video_028,
+        ex:video_029,
+        ex:video_030,
+        ex:video_031,
+        ex:video_032,
+        ex:video_033,
+        ex:video_034,
+        ex:video_035,
+        ex:video_036,
+        ex:video_037,
+        ex:video_038,
+        ex:video_039 ;
+    iot:hasAudioAnnotation ex:audio_045_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:decrease_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "громкость вниз" .
+
+ex:audio_046 a iot:AudioCommand ;
+    ex:intent "navigate" ;
+    iot:correspondsTo ex:video_028,
+        ex:video_029,
+        ex:video_030,
+        ex:video_031,
+        ex:video_032,
+        ex:video_033,
+        ex:video_034,
+        ex:video_035,
+        ex:video_036,
+        ex:video_037,
+        ex:video_038,
+        ex:video_039 ;
+    iot:hasAudioAnnotation ex:audio_046_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:navigate ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "открой меню" .
+
+ex:audio_047 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_028,
+        ex:video_029,
+        ex:video_030,
+        ex:video_031,
+        ex:video_032,
+        ex:video_033,
+        ex:video_034,
+        ex:video_035,
+        ex:video_036,
+        ex:video_037,
+        ex:video_038,
+        ex:video_039 ;
+    iot:hasAudioAnnotation ex:audio_047_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "переключи на HDMI" .
+
+ex:audio_048 a iot:AudioCommand ;
+    ex:intent "decrease_value" ;
+    iot:correspondsTo ex:video_028,
+        ex:video_029,
+        ex:video_030,
+        ex:video_031,
+        ex:video_032,
+        ex:video_033,
+        ex:video_034,
+        ex:video_035,
+        ex:video_036,
+        ex:video_037,
+        ex:video_038,
+        ex:video_039 ;
+    iot:hasAudioAnnotation ex:audio_048_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:decrease_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "предыдущий канал" .
+
+ex:audio_049 a iot:AudioCommand ;
+    ex:intent "increase_value" ;
+    iot:correspondsTo ex:video_028,
+        ex:video_029,
+        ex:video_030,
+        ex:video_031,
+        ex:video_032,
+        ex:video_033,
+        ex:video_034,
+        ex:video_035,
+        ex:video_036,
+        ex:video_037,
+        ex:video_038,
+        ex:video_039 ;
+    iot:hasAudioAnnotation ex:audio_049_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:increase_value ;
+    iot:performedBy ex:Speaker_man_2 ;
+    iot:text "следующий канал" .
+
+ex:audio_090 a iot:AudioCommand ;
+    ex:intent "mute" ;
+    iot:correspondsTo ex:video_068,
+        ex:video_069,
+        ex:video_070,
+        ex:video_071,
+        ex:video_072,
+        ex:video_073,
+        ex:video_074,
+        ex:video_075,
+        ex:video_076,
+        ex:video_077,
+        ex:video_078,
+        ex:video_079 ;
+    iot:hasAudioAnnotation ex:audio_090_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:mute ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "без звука" .
+
+ex:audio_091 a iot:AudioCommand ;
+    ex:intent "turn_on" ;
+    iot:correspondsTo ex:video_068,
+        ex:video_069,
+        ex:video_070,
+        ex:video_071,
+        ex:video_072,
+        ex:video_073,
+        ex:video_074,
+        ex:video_075,
+        ex:video_076,
+        ex:video_077,
+        ex:video_078,
+        ex:video_079 ;
+    iot:hasAudioAnnotation ex:audio_091_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:turn_on ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "включи телевизор" .
+
+ex:audio_092 a iot:AudioCommand ;
+    ex:intent "navigate" ;
+    iot:correspondsTo ex:video_068,
+        ex:video_069,
+        ex:video_070,
+        ex:video_071,
+        ex:video_072,
+        ex:video_073,
+        ex:video_074,
+        ex:video_075,
+        ex:video_076,
+        ex:video_077,
+        ex:video_078,
+        ex:video_079 ;
+    iot:hasAudioAnnotation ex:audio_092_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:navigate ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "выйди" .
+
+ex:audio_093 a iot:AudioCommand ;
+    ex:intent "turn_off" ;
+    iot:correspondsTo ex:video_068,
+        ex:video_069,
+        ex:video_070,
+        ex:video_071,
+        ex:video_072,
+        ex:video_073,
+        ex:video_074,
+        ex:video_075,
+        ex:video_076,
+        ex:video_077,
+        ex:video_078,
+        ex:video_079 ;
+    iot:hasAudioAnnotation ex:audio_093_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:turn_off ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "выключи телевизор" .
+
+ex:audio_094 a iot:AudioCommand ;
+    ex:intent "increase_value" ;
+    iot:correspondsTo ex:video_068,
+        ex:video_069,
+        ex:video_070,
+        ex:video_071,
+        ex:video_072,
+        ex:video_073,
+        ex:video_074,
+        ex:video_075,
+        ex:video_076,
+        ex:video_077,
+        ex:video_078,
+        ex:video_079 ;
+    iot:hasAudioAnnotation ex:audio_094_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:increase_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "громкость вверх" .
+
+ex:audio_095 a iot:AudioCommand ;
+    ex:intent "decrease_value" ;
+    iot:correspondsTo ex:video_068,
+        ex:video_069,
+        ex:video_070,
+        ex:video_071,
+        ex:video_072,
+        ex:video_073,
+        ex:video_074,
+        ex:video_075,
+        ex:video_076,
+        ex:video_077,
+        ex:video_078,
+        ex:video_079 ;
+    iot:hasAudioAnnotation ex:audio_095_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:decrease_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "громкость вниз" .
+
+ex:audio_096 a iot:AudioCommand ;
+    ex:intent "navigate" ;
+    iot:correspondsTo ex:video_068,
+        ex:video_069,
+        ex:video_070,
+        ex:video_071,
+        ex:video_072,
+        ex:video_073,
+        ex:video_074,
+        ex:video_075,
+        ex:video_076,
+        ex:video_077,
+        ex:video_078,
+        ex:video_079 ;
+    iot:hasAudioAnnotation ex:audio_096_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:navigate ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "открой меню" .
+
+ex:audio_097 a iot:AudioCommand ;
+    ex:intent "change_mode" ;
+    iot:correspondsTo ex:video_068,
+        ex:video_069,
+        ex:video_070,
+        ex:video_071,
+        ex:video_072,
+        ex:video_073,
+        ex:video_074,
+        ex:video_075,
+        ex:video_076,
+        ex:video_077,
+        ex:video_078,
+        ex:video_079 ;
+    iot:hasAudioAnnotation ex:audio_097_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:change_mode ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "переключи на HDMI" .
+
+ex:audio_098 a iot:AudioCommand ;
+    ex:intent "decrease_value" ;
+    iot:correspondsTo ex:video_068,
+        ex:video_069,
+        ex:video_070,
+        ex:video_071,
+        ex:video_072,
+        ex:video_073,
+        ex:video_074,
+        ex:video_075,
+        ex:video_076,
+        ex:video_077,
+        ex:video_078,
+        ex:video_079 ;
+    iot:hasAudioAnnotation ex:audio_098_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:decrease_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "предыдущий канал" .
+
+ex:audio_099 a iot:AudioCommand ;
+    ex:intent "increase_value" ;
+    iot:correspondsTo ex:video_068,
+        ex:video_069,
+        ex:video_070,
+        ex:video_071,
+        ex:video_072,
+        ex:video_073,
+        ex:video_074,
+        ex:video_075,
+        ex:video_076,
+        ex:video_077,
+        ex:video_078,
+        ex:video_079 ;
+    iot:hasAudioAnnotation ex:audio_099_ann ;
+    iot:hasDevice ex:tv ;
+    iot:hasIntent ex:increase_value ;
+    iot:performedBy ex:Speaker_woman_1 ;
+    iot:text "следующий канал" .
+
+ex:свайп a iot:GestureType ;
+    iot:gestureDescription "Горизонтальный свайп рукой" .
+
+ex:круг a iot:GestureType ;
+    iot:gestureDescription "Круговое вращение ладонью" .
+
+ex:хлопок a iot:GestureType ;
+    iot:gestureDescription "Двойной хлопок" .
+
+ex:decrease_value a iot:Intent ;
+    rdfs:label "decrease_value" .
+
+ex:increase_value a iot:Intent ;
+    rdfs:label "increase_value" .
+
+ex:set_value a iot:Intent ;
+    rdfs:label "set_value" .
+
+ex:turn_off a iot:Intent ;
+    rdfs:label "turn_off" .
+
+ex:turn_on a iot:Intent ;
+    rdfs:label "turn_on" .
+
+ex:ладоньстоп a iot:GestureType ;
+    iot:gestureDescription "Поднятая открытая ладонь" .
+
+ex:change_mode a iot:Intent ;
+    rdfs:label "change_mode" .
+
+ex:curtains a iot:IoTDevice .
+
+ex:lamp a iot:IoTDevice .
+
+ex:lock a iot:Intent,
+        iot:IoTDevice ;
+    rdfs:label "lock" .
+
+ex:conditioner a iot:IoTDevice .
+
+ex:tv a iot:IoTDevice .
+
+ex:Speaker_man_2 a iot:Speaker ;
+    iot:gender "male" ;
+    iot:speakerId 2 .
+
+ex:Speaker_woman_1 a iot:Speaker ;
+    iot:gender "female" ;
+    iot:speakerId 1 .
+
