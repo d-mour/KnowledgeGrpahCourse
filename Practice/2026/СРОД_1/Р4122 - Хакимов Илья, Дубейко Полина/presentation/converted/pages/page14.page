@@ -1,0 +1,130 @@
+pageType: content
+background:
+  type: solid
+  color: "#191919"
+elements:
+- elementId: shape_header
+  elementType: shape
+  bounds: [40, 40, 40, 40]
+  opacity: 0.2
+  shapeName: rect
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: text_title
+  elementType: text
+  bounds: [90, 40, 600, 40]
+  content:
+    align: [left, middle]
+    fontSize: 28
+    fontFamily: "Liter"
+    color: "#EFEFEF"
+    text: |
+      <p><strong>Видео-уровни разметки</strong></p>
+- elementId: shape_line
+  elementType: shape
+  bounds: [40, 90, 1200, 2]
+  shapeName: rect
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: table_levels
+  elementType: table
+  bounds: [40, 110, 1200, 550]
+  columnWidths: [0.15, 0.2, 0.15, 0.15, 0.2, 0.15]
+  rowHeights: [0.1, 0.3, 0.3, 0.3]
+  style:
+    fontSize: 13
+    fontFamily: "微软雅黑"
+    headerFill: "#262626"
+    headerColor: "#6366F1"
+    headerBold: true
+    bodyFill: ["#1E1E1E", "#252525"]
+    bodyColor: "#CCCCCC"
+    border:
+      style: solid
+      width: 0.5
+      color: "#333333"
+  rows:
+    - - content:
+          text: "Уровень"
+          fontSize: 13
+      - content:
+          text: "Тип разметки"
+          fontSize: 13
+      - content:
+          text: "Модальность"
+          fontSize: 13
+      - content:
+          text: "Формат"
+          fontSize: 13
+      - content:
+          text: "Визуализация"
+          fontSize: 13
+      - content:
+          text: "ID сущности"
+          fontSize: 13
+    - - content:
+          text: "7. Видео-кадровый"
+          fontSize: 13
+      - content:
+          text: "Сегментация на кадры"
+          fontSize: 13
+      - content:
+          text: "Видеопоток"
+          fontSize: 13
+      - content:
+          text: "JSON"
+          fontSize: 13
+      - content:
+          text: "CVAT, VIA"
+          fontSize: 13
+      - content:
+          text: "video_id, frame_id"
+          fontSize: 13
+    - - content:
+          text: "8. Видео-жестовый"
+          fontSize: 13
+      - content:
+          text: "Bounding box, классификация жеста"
+          fontSize: 13
+      - content:
+          text: "Видеопоток"
+          fontSize: 13
+      - content:
+          text: "JSON / COCO"
+          fontSize: 13
+      - content:
+          text: "CVAT, Label Studio"
+          fontSize: 13
+      - content:
+          text: "video_id, gesture_id"
+          fontSize: 13
+    - - content:
+          text: "9. Кросс-модальный"
+          fontSize: 13
+      - content:
+          text: "Связи audio ↔ video ↔ text"
+          fontSize: 13
+      - content:
+          text: "Мета-уровень"
+          fontSize: 13
+      - content:
+          text: "RDF / JSON-LD"
+          fontSize: 13
+      - content:
+          text: "Граф знаний"
+          fontSize: 13
+      - content:
+          text: "multimodal_event_id"
+          fontSize: 13
+- elementId: text_note
+  elementType: text
+  bounds: [40, 670, 1200, 30]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: "微软雅黑"
+    color: "#666666"
+    text: |
+      <p>Дополнение к 7 уровням аудио/текстовой разметки — 3 уровня видео и кросс-модальной интеграции</p>

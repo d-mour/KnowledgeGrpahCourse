@@ -1,0 +1,20 @@
+{
+  "fonts": [
+    {
+      "typeface": "Liter",
+      "charset": "-122",
+      "panose": "",
+      "regular": "rId20"
+    },
+    {
+      "typeface": "MiSans",
+      "charset": "-122",
+      "panose": "",
+      "regular": "rId21"
+    }
+  ],
+  "rid_to_file": {
+    "rId20": "font1.fntdata",
+    "rId21": "font2.fntdata"
+  }
+}
