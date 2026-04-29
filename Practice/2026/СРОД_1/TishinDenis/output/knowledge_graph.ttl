@@ -1,0 +1,431 @@
+@prefix ex: <http://itmo.ru/spy-multimodal#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://itmo.ru/spy-multimodal> a owl:Ontology ;
+    rdfs:label "SPY Multimodal Trading Ontology"@en,
+        "Онтология мультимодального предсказания торговых сигналов SPY"@ru ;
+    rdfs:comment "Онтология для ЛР6: связывает рыночные снимки опционной цепочки SPY, подкаст-транскрипты и торговые сигналы (BUY/SELL/HOLD) в единый граф знаний."@ru .
+
+ex:Hold a ex:Decision ;
+    rdfs:label "HOLD"@en .
+
+ex:Sell a ex:Decision ;
+    rdfs:label "SELL"@en .
+
+ex:appliesTo a owl:ObjectProperty ;
+    rdfs:label "относится к снимку"@ru ;
+    rdfs:domain ex:TradingSignal ;
+    rdfs:range ex:MarketSnapshot .
+
+ex:ask a owl:DatatypeProperty ;
+    rdfs:label "ask"@ru ;
+    rdfs:range xsd:float .
+
+ex:askSize a owl:DatatypeProperty ;
+    rdfs:label "размер ask"@ru ;
+    rdfs:range xsd:integer .
+
+ex:avgLogprob a owl:DatatypeProperty ;
+    rdfs:label "средний log-prob ASR"@ru ;
+    rdfs:range xsd:float .
+
+ex:bid a owl:DatatypeProperty ;
+    rdfs:label "bid"@ru ;
+    rdfs:range xsd:float .
+
+ex:bidSize a owl:DatatypeProperty ;
+    rdfs:label "размер bid"@ru ;
+    rdfs:range xsd:integer .
+
+ex:coOccursWith a owl:ObjectProperty ;
+    rdfs:label "со-встречается со снимком"@ru ;
+    rdfs:comment "Сегмент подкаста и рыночный снимок попали в общее временное окно."@ru ;
+    rdfs:domain ex:PodcastSegment ;
+    rdfs:range ex:MarketSnapshot .
+
+ex:compressionRatio a owl:DatatypeProperty ;
+    rdfs:label "compression ratio"@ru ;
+    rdfs:range xsd:float .
+
+ex:confidence a owl:DatatypeProperty ;
+    rdfs:label "уверенность модели"@ru ;
+    rdfs:range xsd:float .
+
+ex:decisionLabel a owl:DatatypeProperty ;
+    rdfs:label "метка решения"@ru ;
+    rdfs:range xsd:string .
+
+ex:delta a owl:DatatypeProperty ;
+    rdfs:label "delta"@ru ;
+    rdfs:range xsd:float .
+
+ex:duration a owl:DatatypeProperty ;
+    rdfs:label "длительность (с)"@ru ;
+    rdfs:range xsd:float .
+
+ex:endTime a owl:DatatypeProperty ;
+    rdfs:label "конец (с)"@ru ;
+    rdfs:range xsd:float .
+
+ex:evidencedBy a owl:ObjectProperty ;
+    rdfs:label "обоснован доказательством"@ru ;
+    rdfs:comment "Связь сигнала с любым доказательством: подкаст-сегмент, snapshot, опцион."@ru ;
+    rdfs:domain ex:TradingSignal .
+
+ex:expiry a owl:DatatypeProperty ;
+    rdfs:label "дата экспирации"@ru ;
+    rdfs:range xsd:date .
+
+ex:extrinsicValue a owl:DatatypeProperty ;
+    rdfs:label "временна́я стоимость"@ru ;
+    rdfs:range xsd:float .
+
+ex:gamma a owl:DatatypeProperty ;
+    rdfs:label "gamma"@ru ;
+    rdfs:range xsd:float .
+
+ex:hasDecision a owl:ObjectProperty ;
+    rdfs:label "имеет решение"@ru ;
+    rdfs:domain ex:TradingSignal ;
+    rdfs:range ex:Decision .
+
+ex:hasOption a owl:ObjectProperty ;
+    rdfs:label "содержит опцион"@ru ;
+    rdfs:domain ex:MarketSnapshot ;
+    rdfs:range ex:OptionContract .
+
+ex:horizonMin a owl:DatatypeProperty ;
+    rdfs:label "горизонт (мин)"@ru ;
+    rdfs:range xsd:integer .
+
+ex:intrinsicValue a owl:DatatypeProperty ;
+    rdfs:label "внутренняя стоимость"@ru ;
+    rdfs:range xsd:float .
+
+ex:ivOption a owl:DatatypeProperty ;
+    rdfs:label "implied volatility"@ru ;
+    rdfs:range xsd:float .
+
+ex:lastPrice a owl:DatatypeProperty ;
+    rdfs:label "последняя цена"@ru ;
+    rdfs:range xsd:float .
+
+ex:mentionsTicker a owl:ObjectProperty ;
+    rdfs:label "упоминает тикер"@ru ;
+    rdfs:comment "Связь подкаст-сегмента с упомянутым в нём тикером (NER)."@ru ;
+    rdfs:domain ex:PodcastSegment ;
+    rdfs:range ex:Ticker .
+
+ex:noSpeechProb a owl:DatatypeProperty ;
+    rdfs:label "вероятность отсутствия речи"@ru ;
+    rdfs:range xsd:float .
+
+ex:onTicker a owl:ObjectProperty ;
+    rdfs:label "относится к тикеру"@ru ;
+    rdfs:range ex:Ticker .
+
+ex:optionId a owl:DatatypeProperty ;
+    rdfs:label "ID опциона у брокера"@ru ;
+    rdfs:range xsd:string .
+
+ex:partOfPodcast a owl:ObjectProperty ;
+    rdfs:label "является частью подкаста"@ru ;
+    rdfs:domain ex:PodcastSegment ;
+    rdfs:range ex:Podcast .
+
+ex:pod_macro_weekly_42_seg_0 a ex:PodcastSegment ;
+    ex:avgLogprob "-0.1732"^^xsd:float ;
+    ex:compressionRatio "1.72"^^xsd:float ;
+    ex:duration "4.38"^^xsd:float ;
+    ex:endTime "4.38"^^xsd:float ;
+    ex:noSpeechProb "0.032"^^xsd:float ;
+    ex:partOfPodcast ex:pod_macro_weekly_42 ;
+    ex:polarity "neutral"^^xsd:string ;
+    ex:segmentIndex 0 ;
+    ex:startTime "0.0"^^xsd:float ;
+    ex:timestamp "2026-04-15T14:25:00+00:00"^^xsd:dateTime ;
+    ex:transcriptText "Well, of course, no surprises is an important mantra for CFOs."^^xsd:string .
+
+ex:polarity a owl:DatatypeProperty ;
+    rdfs:label "полярность"@ru ;
+    rdfs:comment "{bullish | bearish | neutral} — извлекается лексическим анализом текста."@ru ;
+    rdfs:range xsd:string .
+
+ex:rationale a owl:DatatypeProperty ;
+    rdfs:label "обоснование"@ru ;
+    rdfs:range xsd:string .
+
+ex:rho a owl:DatatypeProperty ;
+    rdfs:label "rho"@ru ;
+    rdfs:range xsd:float .
+
+ex:segmentIndex a owl:DatatypeProperty ;
+    rdfs:label "индекс сегмента"@ru ;
+    rdfs:range xsd:integer .
+
+ex:signal_snap_001 a ex:TradingSignal ;
+    ex:appliesTo ex:snap_001 ;
+    ex:confidence "0.333"^^xsd:float ;
+    ex:decisionLabel "BUY"^^xsd:string ;
+    ex:evidencedBy ex:pod_macro_weekly_42_seg_1,
+        ex:pod_macro_weekly_42_seg_2,
+        ex:pod_macro_weekly_42_seg_3 ;
+    ex:hasDecision ex:Buy ;
+    ex:horizonMin 60 ;
+    ex:onTicker ex:ticker_SPY ;
+    ex:rationale "bullish=2, bearish=1, related_segments=3"^^xsd:string ;
+    ex:timestamp "2026-04-15T14:30:00+00:00"^^xsd:dateTime .
+
+ex:signal_snap_002 a ex:TradingSignal ;
+    ex:appliesTo ex:snap_002 ;
+    ex:confidence "0.333"^^xsd:float ;
+    ex:decisionLabel "BUY"^^xsd:string ;
+    ex:evidencedBy ex:pod_macro_weekly_42_seg_1,
+        ex:pod_macro_weekly_42_seg_2,
+        ex:pod_macro_weekly_42_seg_3 ;
+    ex:hasDecision ex:Buy ;
+    ex:horizonMin 60 ;
+    ex:onTicker ex:ticker_SPY ;
+    ex:rationale "bullish=2, bearish=1, related_segments=3"^^xsd:string ;
+    ex:timestamp "2026-04-15T14:31:30+00:00"^^xsd:dateTime .
+
+ex:snapshotVolatility a owl:DatatypeProperty ;
+    rdfs:label "волатильность снимка"@ru ;
+    rdfs:range xsd:float .
+
+ex:startTime a owl:DatatypeProperty ;
+    rdfs:label "начало (с)"@ru ;
+    rdfs:range xsd:float .
+
+ex:strike a owl:DatatypeProperty ;
+    rdfs:label "страйк"@ru ;
+    rdfs:range xsd:float .
+
+ex:theta a owl:DatatypeProperty ;
+    rdfs:label "theta"@ru ;
+    rdfs:range xsd:float .
+
+ex:timestamp a owl:DatatypeProperty ;
+    rdfs:label "временна́я метка"@ru ;
+    rdfs:range xsd:dateTime .
+
+ex:transcriptText a owl:DatatypeProperty ;
+    rdfs:label "текст транскрипта"@ru ;
+    rdfs:range xsd:string .
+
+ex:underlyingPrice a owl:DatatypeProperty ;
+    rdfs:label "цена базового актива"@ru ;
+    rdfs:range xsd:float .
+
+ex:vega a owl:DatatypeProperty ;
+    rdfs:label "vega"@ru ;
+    rdfs:range xsd:float .
+
+ex:snap_001_call_0 a ex:CallOption ;
+    ex:ask "4.9"^^xsd:float ;
+    ex:askSize 95 ;
+    ex:bid "4.8"^^xsd:float ;
+    ex:bidSize 120 ;
+    ex:delta "0.55"^^xsd:float ;
+    ex:expiry "2026-05-16"^^xsd:date ;
+    ex:extrinsicValue "3.51"^^xsd:float ;
+    ex:gamma "0.052"^^xsd:float ;
+    ex:intrinsicValue "1.34"^^xsd:float ;
+    ex:ivOption "0.171"^^xsd:float ;
+    ex:lastPrice "4.85"^^xsd:float ;
+    ex:onTicker ex:ticker_SPY ;
+    ex:optionId "SPY260516C00520000"^^xsd:string ;
+    ex:rho "0.07"^^xsd:float ;
+    ex:strike "520.0"^^xsd:float ;
+    ex:theta "-0.18"^^xsd:float ;
+    ex:vega "0.42"^^xsd:float .
+
+ex:snap_001_call_1 a ex:CallOption ;
+    ex:ask "2.2"^^xsd:float ;
+    ex:askSize 180 ;
+    ex:bid "2.1"^^xsd:float ;
+    ex:bidSize 200 ;
+    ex:delta "0.32"^^xsd:float ;
+    ex:expiry "2026-05-16"^^xsd:date ;
+    ex:extrinsicValue "2.15"^^xsd:float ;
+    ex:gamma "0.061"^^xsd:float ;
+    ex:intrinsicValue "0.0"^^xsd:float ;
+    ex:ivOption "0.165"^^xsd:float ;
+    ex:lastPrice "2.15"^^xsd:float ;
+    ex:onTicker ex:ticker_SPY ;
+    ex:optionId "SPY260516C00525000"^^xsd:string ;
+    ex:rho "0.05"^^xsd:float ;
+    ex:strike "525.0"^^xsd:float ;
+    ex:theta "-0.15"^^xsd:float ;
+    ex:vega "0.38"^^xsd:float .
+
+ex:snap_001_put_0 a ex:PutOption ;
+    ex:ask "3.65"^^xsd:float ;
+    ex:askSize 100 ;
+    ex:bid "3.55"^^xsd:float ;
+    ex:bidSize 110 ;
+    ex:delta "-0.45"^^xsd:float ;
+    ex:expiry "2026-05-16"^^xsd:date ;
+    ex:extrinsicValue "3.6"^^xsd:float ;
+    ex:gamma "0.051"^^xsd:float ;
+    ex:intrinsicValue "0.0"^^xsd:float ;
+    ex:ivOption "0.182"^^xsd:float ;
+    ex:lastPrice "3.6"^^xsd:float ;
+    ex:onTicker ex:ticker_SPY ;
+    ex:optionId "SPY260516P00520000"^^xsd:string ;
+    ex:rho "-0.06"^^xsd:float ;
+    ex:strike "520.0"^^xsd:float ;
+    ex:theta "-0.17"^^xsd:float ;
+    ex:vega "0.41"^^xsd:float .
+
+ex:snap_002_call_0 a ex:CallOption ;
+    ex:ask "5.15"^^xsd:float ;
+    ex:askSize 90 ;
+    ex:bid "5.05"^^xsd:float ;
+    ex:bidSize 130 ;
+    ex:delta "0.58"^^xsd:float ;
+    ex:expiry "2026-05-16"^^xsd:date ;
+    ex:extrinsicValue "3.32"^^xsd:float ;
+    ex:gamma "0.053"^^xsd:float ;
+    ex:intrinsicValue "1.78"^^xsd:float ;
+    ex:ivOption "0.176"^^xsd:float ;
+    ex:lastPrice "5.1"^^xsd:float ;
+    ex:onTicker ex:ticker_SPY ;
+    ex:optionId "SPY260516C00520000"^^xsd:string ;
+    ex:rho "0.07"^^xsd:float ;
+    ex:strike "520.0"^^xsd:float ;
+    ex:theta "-0.18"^^xsd:float ;
+    ex:vega "0.43"^^xsd:float .
+
+ex:snap_002_put_0 a ex:PutOption ;
+    ex:ask "3.45"^^xsd:float ;
+    ex:askSize 105 ;
+    ex:bid "3.35"^^xsd:float ;
+    ex:bidSize 115 ;
+    ex:delta "-0.42"^^xsd:float ;
+    ex:expiry "2026-05-16"^^xsd:date ;
+    ex:extrinsicValue "3.4"^^xsd:float ;
+    ex:gamma "0.05"^^xsd:float ;
+    ex:intrinsicValue "0.0"^^xsd:float ;
+    ex:ivOption "0.18"^^xsd:float ;
+    ex:lastPrice "3.4"^^xsd:float ;
+    ex:onTicker ex:ticker_SPY ;
+    ex:optionId "SPY260516P00520000"^^xsd:string ;
+    ex:rho "-0.06"^^xsd:float ;
+    ex:strike "520.0"^^xsd:float ;
+    ex:theta "-0.17"^^xsd:float ;
+    ex:vega "0.41"^^xsd:float .
+
+ex:Buy a ex:Decision ;
+    rdfs:label "BUY"@en .
+
+ex:Podcast a owl:Class ;
+    rdfs:label "Подкаст"@ru ;
+    rdfs:comment "Эпизод подкаста — источник аудио-сегментов."@ru .
+
+ex:PutOption a owl:Class ;
+    rdfs:label "Пут-опцион"@ru ;
+    rdfs:subClassOf ex:OptionContract .
+
+ex:pod_macro_weekly_42_seg_1 a ex:PodcastSegment ;
+    ex:avgLogprob "-0.21"^^xsd:float ;
+    ex:coOccursWith ex:snap_001,
+        ex:snap_002 ;
+    ex:compressionRatio "1.65"^^xsd:float ;
+    ex:duration "4.72"^^xsd:float ;
+    ex:endTime "9.1"^^xsd:float ;
+    ex:mentionsTicker ex:ticker_SPY ;
+    ex:noSpeechProb "0.018"^^xsd:float ;
+    ex:partOfPodcast ex:pod_macro_weekly_42 ;
+    ex:polarity "bullish"^^xsd:string ;
+    ex:segmentIndex 1 ;
+    ex:startTime "4.38"^^xsd:float ;
+    ex:timestamp "2026-04-15T14:25:04.380000+00:00"^^xsd:dateTime ;
+    ex:transcriptText "SPY looks strong here, the bullish setup on the index is hard to ignore."^^xsd:string .
+
+ex:pod_macro_weekly_42_seg_2 a ex:PodcastSegment ;
+    ex:avgLogprob "-0.19"^^xsd:float ;
+    ex:coOccursWith ex:snap_001,
+        ex:snap_002 ;
+    ex:compressionRatio "1.7"^^xsd:float ;
+    ex:duration "5.1"^^xsd:float ;
+    ex:endTime "14.2"^^xsd:float ;
+    ex:mentionsTicker ex:ticker_SPY ;
+    ex:noSpeechProb "0.025"^^xsd:float ;
+    ex:partOfPodcast ex:pod_macro_weekly_42 ;
+    ex:polarity "bearish"^^xsd:string ;
+    ex:segmentIndex 2 ;
+    ex:startTime "9.1"^^xsd:float ;
+    ex:timestamp "2026-04-15T14:25:09.100000+00:00"^^xsd:dateTime ;
+    ex:transcriptText "I'd be cautious though, SPY may pull back if volatility spikes again."^^xsd:string .
+
+ex:pod_macro_weekly_42_seg_3 a ex:PodcastSegment ;
+    ex:avgLogprob "-0.22"^^xsd:float ;
+    ex:coOccursWith ex:snap_001,
+        ex:snap_002 ;
+    ex:compressionRatio "1.68"^^xsd:float ;
+    ex:duration "5.600000000000001"^^xsd:float ;
+    ex:endTime "19.8"^^xsd:float ;
+    ex:mentionsTicker ex:ticker_SPY ;
+    ex:noSpeechProb "0.022"^^xsd:float ;
+    ex:partOfPodcast ex:pod_macro_weekly_42 ;
+    ex:polarity "bullish"^^xsd:string ;
+    ex:segmentIndex 3 ;
+    ex:startTime "14.2"^^xsd:float ;
+    ex:timestamp "2026-04-15T14:25:14.200000+00:00"^^xsd:dateTime ;
+    ex:transcriptText "Overall I am bullish on SPY into next month's expiry."^^xsd:string .
+
+ex:CallOption a owl:Class ;
+    rdfs:label "Колл-опцион"@ru ;
+    rdfs:subClassOf ex:OptionContract .
+
+ex:OptionContract a owl:Class ;
+    rdfs:label "Опционный контракт"@ru ;
+    rdfs:comment "Конкретный опционный контракт с greeks, bid/ask, объёмами."@ru .
+
+ex:Ticker a owl:Class ;
+    rdfs:label "Тикер"@ru ;
+    rdfs:comment "Биржевой тикер актива (например, SPY)."@ru .
+
+ex:Decision a owl:Class ;
+    rdfs:label "Торговое решение"@ru ;
+    rdfs:comment "Перечислимый класс решений: Buy, Sell, Hold."@ru .
+
+ex:pod_macro_weekly_42 a ex:Podcast ;
+    rdfs:label "Macro Weekly Episode 42" ;
+    ex:timestamp "2026-04-15T14:25:00+00:00"^^xsd:dateTime .
+
+ex:snap_001 a ex:MarketSnapshot ;
+    ex:hasOption ex:snap_001_call_0,
+        ex:snap_001_call_1,
+        ex:snap_001_put_0 ;
+    ex:onTicker ex:ticker_SPY ;
+    ex:snapshotVolatility "18.0"^^xsd:float ;
+    ex:timestamp "2026-04-15T14:30:00+00:00"^^xsd:dateTime ;
+    ex:underlyingPrice "521.34"^^xsd:float .
+
+ex:snap_002 a ex:MarketSnapshot ;
+    ex:hasOption ex:snap_002_call_0,
+        ex:snap_002_put_0 ;
+    ex:onTicker ex:ticker_SPY ;
+    ex:snapshotVolatility "19.0"^^xsd:float ;
+    ex:timestamp "2026-04-15T14:31:30+00:00"^^xsd:dateTime ;
+    ex:underlyingPrice "521.78"^^xsd:float .
+
+ex:MarketSnapshot a owl:Class ;
+    rdfs:label "Рыночный снимок"@ru ;
+    rdfs:comment "Снимок состояния рынка на конкретный момент времени: цена базового актива, волатильность, опционная цепочка."@ru .
+
+ex:TradingSignal a owl:Class ;
+    rdfs:label "Торговый сигнал"@ru ;
+    rdfs:comment "Целевая метка модели: решение BUY/SELL/HOLD на конкретный snapshot, обоснованное доказательствами из других модальностей."@ru .
+
+ex:PodcastSegment a owl:Class ;
+    rdfs:label "Аудио-сегмент подкаста"@ru ;
+    rdfs:comment "Временной отрезок подкаста с транскриптом (Whisper segment)."@ru .
+
+ex:ticker_SPY a ex:Ticker ;
+    rdfs:label "SPY" .
+

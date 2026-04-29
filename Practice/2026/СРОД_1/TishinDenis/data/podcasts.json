@@ -1,0 +1,57 @@
+[
+  {
+    "podcast_id": "pod_macro_weekly_42",
+    "title": "Macro Weekly Episode 42",
+    "recorded_at": "2026-04-15T14:25:00Z",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.38,
+        "text": " Well, of course, no surprises is an important mantra for CFOs.",
+        "tokens": [50364, 1042, 11, 295, 1164, 11, 572, 22655, 307, 364, 1021, 32094, 337, 383, 18067, 82, 13, 50583],
+        "temperature": 0.0,
+        "avg_logprob": -0.1732,
+        "compression_ratio": 1.72,
+        "no_speech_prob": 0.032
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.38,
+        "end": 9.10,
+        "text": " SPY looks strong here, the bullish setup on the index is hard to ignore.",
+        "tokens": [],
+        "temperature": 0.0,
+        "avg_logprob": -0.21,
+        "compression_ratio": 1.65,
+        "no_speech_prob": 0.018
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 9.10,
+        "end": 14.20,
+        "text": " I'd be cautious though, SPY may pull back if volatility spikes again.",
+        "tokens": [],
+        "temperature": 0.0,
+        "avg_logprob": -0.19,
+        "compression_ratio": 1.70,
+        "no_speech_prob": 0.025
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 14.20,
+        "end": 19.80,
+        "text": " Overall I am bullish on SPY into next month's expiry.",
+        "tokens": [],
+        "temperature": 0.0,
+        "avg_logprob": -0.22,
+        "compression_ratio": 1.68,
+        "no_speech_prob": 0.022
+      }
+    ]
+  }
+]
