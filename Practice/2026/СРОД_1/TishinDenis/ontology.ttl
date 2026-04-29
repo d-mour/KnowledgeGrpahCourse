@@ -1,0 +1,147 @@
+@prefix :     <http://itmo.ru/spy-multimodal#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://itmo.ru/spy-multimodal> a owl:Ontology ;
+    rdfs:label "SPY Multimodal Trading Ontology"@en ;
+    rdfs:label "Онтология мультимодального предсказания торговых сигналов SPY"@ru ;
+    rdfs:comment "Онтология для ЛР6: связывает рыночные снимки опционной цепочки SPY, подкаст-транскрипты и торговые сигналы (BUY/SELL/HOLD) в единый граф знаний."@ru .
+
+#################################################################
+# КЛАССЫ
+#################################################################
+
+# --- Рыночные данные ---
+:MarketSnapshot a owl:Class ;
+    rdfs:label "Рыночный снимок"@ru ;
+    rdfs:comment "Снимок состояния рынка на конкретный момент времени: цена базового актива, волатильность, опционная цепочка."@ru .
+
+:OptionContract a owl:Class ;
+    rdfs:label "Опционный контракт"@ru ;
+    rdfs:comment "Конкретный опционный контракт с greeks, bid/ask, объёмами."@ru .
+
+:CallOption a owl:Class ;
+    rdfs:subClassOf :OptionContract ;
+    rdfs:label "Колл-опцион"@ru .
+
+:PutOption a owl:Class ;
+    rdfs:subClassOf :OptionContract ;
+    rdfs:label "Пут-опцион"@ru .
+
+:Ticker a owl:Class ;
+    rdfs:label "Тикер"@ru ;
+    rdfs:comment "Биржевой тикер актива (например, SPY)."@ru .
+
+# --- Аудио (подкасты) ---
+:Podcast a owl:Class ;
+    rdfs:label "Подкаст"@ru ;
+    rdfs:comment "Эпизод подкаста — источник аудио-сегментов."@ru .
+
+:PodcastSegment a owl:Class ;
+    rdfs:label "Аудио-сегмент подкаста"@ru ;
+    rdfs:comment "Временной отрезок подкаста с транскриптом (Whisper segment)."@ru .
+
+# --- Торговый сигнал (целевая метка) ---
+:TradingSignal a owl:Class ;
+    rdfs:label "Торговый сигнал"@ru ;
+    rdfs:comment "Целевая метка модели: решение BUY/SELL/HOLD на конкретный snapshot, обоснованное доказательствами из других модальностей."@ru .
+
+:Decision a owl:Class ;
+    rdfs:label "Торговое решение"@ru ;
+    rdfs:comment "Перечислимый класс решений: Buy, Sell, Hold."@ru .
+
+:Buy  a :Decision ; rdfs:label "BUY"@en .
+:Sell a :Decision ; rdfs:label "SELL"@en .
+:Hold a :Decision ; rdfs:label "HOLD"@en .
+
+#################################################################
+# OBJECT PROPERTIES (связи между сущностями)
+#################################################################
+
+:hasOption a owl:ObjectProperty ;
+    rdfs:domain :MarketSnapshot ;
+    rdfs:range  :OptionContract ;
+    rdfs:label  "содержит опцион"@ru .
+
+:onTicker a owl:ObjectProperty ;
+    rdfs:range :Ticker ;
+    rdfs:label "относится к тикеру"@ru .
+
+:partOfPodcast a owl:ObjectProperty ;
+    rdfs:domain :PodcastSegment ;
+    rdfs:range  :Podcast ;
+    rdfs:label  "является частью подкаста"@ru .
+
+:mentionsTicker a owl:ObjectProperty ;
+    rdfs:domain :PodcastSegment ;
+    rdfs:range  :Ticker ;
+    rdfs:label  "упоминает тикер"@ru ;
+    rdfs:comment "Связь подкаст-сегмента с упомянутым в нём тикером (NER)."@ru .
+
+:coOccursWith a owl:ObjectProperty ;
+    rdfs:domain :PodcastSegment ;
+    rdfs:range  :MarketSnapshot ;
+    rdfs:label  "со-встречается со снимком"@ru ;
+    rdfs:comment "Сегмент подкаста и рыночный снимок попали в общее временное окно."@ru .
+
+:appliesTo a owl:ObjectProperty ;
+    rdfs:domain :TradingSignal ;
+    rdfs:range  :MarketSnapshot ;
+    rdfs:label  "относится к снимку"@ru .
+
+:hasDecision a owl:ObjectProperty ;
+    rdfs:domain :TradingSignal ;
+    rdfs:range  :Decision ;
+    rdfs:label  "имеет решение"@ru .
+
+:evidencedBy a owl:ObjectProperty ;
+    rdfs:domain :TradingSignal ;
+    rdfs:label  "обоснован доказательством"@ru ;
+    rdfs:comment "Связь сигнала с любым доказательством: подкаст-сегмент, snapshot, опцион."@ru .
+
+#################################################################
+# DATATYPE PROPERTIES (атрибуты)
+#################################################################
+
+# --- Snapshot ---
+:timestamp     a owl:DatatypeProperty ; rdfs:range xsd:dateTime ; rdfs:label "временна́я метка"@ru .
+:underlyingPrice a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "цена базового актива"@ru .
+:snapshotVolatility a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "волатильность снимка"@ru .
+
+# --- Option contract ---
+:strike   a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "страйк"@ru .
+:expiry   a owl:DatatypeProperty ; rdfs:range xsd:date  ; rdfs:label "дата экспирации"@ru .
+:lastPrice a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "последняя цена"@ru .
+:bid      a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "bid"@ru .
+:ask      a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "ask"@ru .
+:bidSize  a owl:DatatypeProperty ; rdfs:range xsd:integer ; rdfs:label "размер bid"@ru .
+:askSize  a owl:DatatypeProperty ; rdfs:range xsd:integer ; rdfs:label "размер ask"@ru .
+:ivOption a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "implied volatility"@ru .
+:delta    a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "delta"@ru .
+:gamma    a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "gamma"@ru .
+:theta    a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "theta"@ru .
+:vega     a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "vega"@ru .
+:rho      a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "rho"@ru .
+:intrinsicValue a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "внутренняя стоимость"@ru .
+:extrinsicValue a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "временна́я стоимость"@ru .
+:optionId a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "ID опциона у брокера"@ru .
+
+# --- Podcast segment ---
+:segmentIndex a owl:DatatypeProperty ; rdfs:range xsd:integer ; rdfs:label "индекс сегмента"@ru .
+:startTime    a owl:DatatypeProperty ; rdfs:range xsd:float   ; rdfs:label "начало (с)"@ru .
+:endTime      a owl:DatatypeProperty ; rdfs:range xsd:float   ; rdfs:label "конец (с)"@ru .
+:duration     a owl:DatatypeProperty ; rdfs:range xsd:float   ; rdfs:label "длительность (с)"@ru .
+:transcriptText a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "текст транскрипта"@ru .
+:noSpeechProb a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "вероятность отсутствия речи"@ru .
+:avgLogprob   a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "средний log-prob ASR"@ru .
+:compressionRatio a owl:DatatypeProperty ; rdfs:range xsd:float ; rdfs:label "compression ratio"@ru .
+:polarity     a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "полярность"@ru ;
+              rdfs:comment "{bullish | bearish | neutral} — извлекается лексическим анализом текста."@ru .
+
+# --- Trading signal ---
+:decisionLabel a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "метка решения"@ru .
+:horizonMin    a owl:DatatypeProperty ; rdfs:range xsd:integer ; rdfs:label "горизонт (мин)"@ru .
+:confidence    a owl:DatatypeProperty ; rdfs:range xsd:float   ; rdfs:label "уверенность модели"@ru .
+:rationale     a owl:DatatypeProperty ; rdfs:range xsd:string  ; rdfs:label "обоснование"@ru .
