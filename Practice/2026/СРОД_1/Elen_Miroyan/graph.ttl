@@ -1,0 +1,207 @@
+@prefix ex: <http://example.org/scam/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:comm_C1 a ex:Communication ;
+    ex:classType "scam" ;
+    ex:language "en" .
+
+ex:comm_C2 a ex:Communication ;
+    ex:classType "scam" ;
+    ex:language "en" .
+
+ex:comm_C3 a ex:Communication ;
+    ex:audioId "A3" ;
+    ex:classType "legit" ;
+    ex:duration "70"^^xsd:float ;
+    ex:hasParticipant ex:participant_P5,
+        ex:participant_P6 ;
+    ex:hasUtterance ex:comm_C3_utt_U10,
+        ex:comm_C3_utt_U11 ;
+    ex:language "en" ;
+    ex:sampleRate "8000"^^xsd:int .
+
+ex:comm_C3_utt_U1_sent_S17_tok_T45 a ex:Token ;
+    ex:position "1"^^xsd:int ;
+    ex:token "Hello" .
+
+ex:comm_C3_utt_U1_sent_S17_tok_T46 a ex:Token ;
+    ex:position "2"^^xsd:int ;
+    ex:token "we" .
+
+ex:comm_C3_utt_U1_sent_S17_tok_T47 a ex:Token ;
+    ex:position "3"^^xsd:int ;
+    ex:token "are" .
+
+ex:comm_C3_utt_U1_sent_S17_tok_T48 a ex:Token ;
+    ex:position "4"^^xsd:int ;
+    ex:token "calling" .
+
+ex:comm_C3_utt_U1_sent_S17_tok_T49 a ex:Token ;
+    ex:position "5"^^xsd:int ;
+    ex:token "to" .
+
+ex:comm_C3_utt_U1_sent_S17_tok_T50 a ex:Token ;
+    ex:position "6"^^xsd:int ;
+    ex:token "confirm" .
+
+ex:comm_C3_utt_U1_sent_S17_tok_T51 a ex:Token ;
+    ex:position "7"^^xsd:int ;
+    ex:token "a" .
+
+ex:comm_C3_utt_U1_sent_S17_tok_T52 a ex:Token ;
+    ex:position "8"^^xsd:int ;
+    ex:token "recent" .
+
+ex:comm_C3_utt_U1_sent_S17_tok_T53 a ex:Token ;
+    ex:position "9"^^xsd:int ;
+    ex:token "transaction" .
+
+ex:comm_C3_utt_U1_sent_S17_tok_T54 a ex:Token ;
+    ex:position "10"^^xsd:int ;
+    ex:token "on" .
+
+ex:comm_C3_utt_U1_sent_S17_tok_T55 a ex:Token ;
+    ex:position "11"^^xsd:int ;
+    ex:token "your" .
+
+ex:comm_C3_utt_U1_sent_S17_tok_T56 a ex:Token ;
+    ex:position "12"^^xsd:int ;
+    ex:token "account" .
+
+ex:comm_C3_utt_U1_sent_S18_tok_T57 a ex:Token ;
+    ex:position "1"^^xsd:int ;
+    ex:token "Yes" .
+
+ex:comm_C3_utt_U1_sent_S18_tok_T58 a ex:Token ;
+    ex:position "2"^^xsd:int ;
+    ex:token "I" .
+
+ex:comm_C3_utt_U1_sent_S18_tok_T59 a ex:Token ;
+    ex:position "3"^^xsd:int ;
+    ex:token "made" .
+
+ex:comm_C3_utt_U1_sent_S18_tok_T60 a ex:Token ;
+    ex:position "4"^^xsd:int ;
+    ex:token "that" .
+
+ex:comm_C3_utt_U1_sent_S18_tok_T61 a ex:Token ;
+    ex:position "5"^^xsd:int ;
+    ex:token "purchase" .
+
+ex:comm_C3_utt_U1_sent_S18_tok_T62 a ex:Token ;
+    ex:position "6"^^xsd:int ;
+    ex:token "yesterday" .
+
+ex:comm_C3_utt_U1_sent_S19_tok_T63 a ex:Token ;
+    ex:position "1"^^xsd:int ;
+    ex:token "Everything" .
+
+ex:comm_C3_utt_U1_sent_S19_tok_T64 a ex:Token ;
+    ex:position "2"^^xsd:int ;
+    ex:token "is" .
+
+ex:comm_C3_utt_U1_sent_S19_tok_T65 a ex:Token ;
+    ex:position "3"^^xsd:int ;
+    ex:token "correct" .
+
+ex:token_T45 ex:lemma "hello" ;
+    ex:pos "INTJ" .
+
+ex:token_T46 ex:lemma "we" ;
+    ex:pos "PRON" .
+
+ex:token_T47 ex:lemma "be" ;
+    ex:pos "AUX" .
+
+ex:token_T48 ex:lemma "call" ;
+    ex:pos "VERB" .
+
+ex:token_T49 ex:lemma "to" ;
+    ex:pos "PART" .
+
+ex:token_T50 ex:lemma "confirm" ;
+    ex:pos "VERB" .
+
+ex:token_T51 ex:lemma "a" ;
+    ex:pos "DET" .
+
+ex:token_T52 ex:lemma "recent" ;
+    ex:pos "ADJ" .
+
+ex:token_T53 ex:lemma "transaction" ;
+    ex:pos "NOUN" .
+
+ex:token_T54 ex:lemma "on" ;
+    ex:pos "ADP" .
+
+ex:token_T55 ex:lemma "your" ;
+    ex:pos "PRON" .
+
+ex:token_T56 ex:lemma "account" ;
+    ex:pos "NOUN" .
+
+ex:token_T57 ex:lemma "yes" ;
+    ex:pos "INTJ" .
+
+ex:token_T58 ex:lemma "I" ;
+    ex:pos "PRON" .
+
+ex:token_T59 ex:lemma "make" ;
+    ex:pos "VERB" .
+
+ex:token_T60 ex:lemma "that" ;
+    ex:pos "DET" .
+
+ex:token_T61 ex:lemma "purchase" ;
+    ex:pos "NOUN" .
+
+ex:token_T62 ex:lemma "yesterday" ;
+    ex:pos "NOUN" .
+
+ex:token_T63 ex:lemma "everything" ;
+    ex:pos "PRON" .
+
+ex:token_T64 ex:lemma "be" ;
+    ex:pos "AUX" .
+
+ex:token_T65 ex:lemma "correct" ;
+    ex:pos "ADJ" .
+
+ex:comm_C3_utt_U10 a ex:Utterance ;
+    ex:discourseAct "confirmation_request" ;
+    ex:emotion "neutral_professional" ;
+    ex:energy "0.01"^^xsd:float ;
+    ex:hasSentence ex:comm_C3_utt_U10_sent_S17 ;
+    ex:intent "transaction_verification" ;
+    ex:pauseBefore "0.5"^^xsd:float ;
+    ex:pitch "190"^^xsd:int ;
+    ex:tempo "100"^^xsd:int ;
+    ex:text "Hello, we are calling to confirm a recent transaction on your account." .
+
+ex:comm_C3_utt_U10_sent_S17 a ex:Sentence ;
+    ex:text "Hello, we are calling to confirm a recent transaction on your account." .
+
+ex:comm_C3_utt_U11 a ex:Utterance ;
+    ex:discourseAct "confirmation" ;
+    ex:emotion "calm" ;
+    ex:energy "0.01"^^xsd:float ;
+    ex:hasSentence ex:comm_C3_utt_U11_sent_S18,
+        ex:comm_C3_utt_U11_sent_S19 ;
+    ex:intent "approval" ;
+    ex:pauseBefore "0.2"^^xsd:float ;
+    ex:pitch "170"^^xsd:int ;
+    ex:tempo "90"^^xsd:int ;
+    ex:text "Yes, I made that purchase yesterday. Everything is correct." .
+
+ex:comm_C3_utt_U11_sent_S18 a ex:Sentence ;
+    ex:text "Yes, I made that purchase yesterday." .
+
+ex:comm_C3_utt_U11_sent_S19 a ex:Sentence ;
+    ex:text "Everything is correct." .
+
+ex:participant_P5 a ex:Participant ;
+    ex:role "support" .
+
+ex:participant_P6 a ex:Participant ;
+    ex:role "client" .
+
