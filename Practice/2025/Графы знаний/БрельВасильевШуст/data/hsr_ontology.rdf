@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#recommendedMainStatFeet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#lightConeHasPath">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#LightCone"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#Path"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#recommendedMainStatSphere">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Path">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/hsr-ontology#LightCone"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/hsr-ontology#Character"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Fire">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#hasCavernRelic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#CavernRelics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#LightCone">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#recommendedMainStatBody">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Quantum">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#CavernRelics">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/hsr-ontology#Set"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#DEF_percent">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#HP_percent">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Character">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Harmony">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Path"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#hasSubCharacteristics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Element">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/hsr-ontology#LightCone"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/hsr-ontology#Enemies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#PlanarRelics">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/hsr-ontology#Set"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#recommendedSubStats">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#hasWeakness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Enemies"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#hasElement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#recommendedMainStatRope">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Destruction">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Path"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Enemies">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#hasAlternativeLightCones">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#LightCone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Imaginary">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Set">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Abundance">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Path"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#sourceURL">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Set"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#ATK_percent">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#DEF">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#recommendedLightCone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#LightCone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Physical">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Preservation">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Path"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#CritDMG">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#hasPlanarRelic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#PlanarRelics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#EffectRES">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#hasPath">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/hsr-ontology#Character"/>
+    <rdfs:range rdf:resource="http://example.org/hsr-ontology#Path"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Nihility">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Path"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#CritRate">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#HP">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#ATK">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#EnergyRegen">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Lightning">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#BreakEffect">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Hunt">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Path"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#EffectHitRate">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Ice">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Speed">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Characteristic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Wind">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Remembrance">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Path"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Characteristic">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/hsr-ontology#Erudition">
+    <rdf:type rdf:resource="http://example.org/hsr-ontology#Path"/>
+  </rdf:Description>
+</rdf:RDF>

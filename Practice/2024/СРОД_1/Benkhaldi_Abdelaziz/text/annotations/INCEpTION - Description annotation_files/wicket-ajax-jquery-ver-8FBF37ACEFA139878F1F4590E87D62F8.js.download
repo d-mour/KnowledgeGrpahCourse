@@ -1,0 +1,1798 @@
+
+
+
+;(function (jQuery, undefined) {
+'use strict';
+if (typeof(Wicket) === 'undefined') {
+window.Wicket = {};
+}
+if (typeof(Wicket.Head) === 'object') {
+return;
+}
+var isUndef = function (target) {
+return (typeof(target) === 'undefined' || target === null);
+};
+
+var getAjaxBaseUrl = function () {
+var baseUrl = Wicket.Ajax.baseUrl || '.';
+return baseUrl;
+};
+
+var nodeListToArray = function (nodeList) {
+var arr = [],
+nodeId;
+if (nodeList && nodeList.length) {
+for (nodeId = 0; nodeId < nodeList.length; nodeId++) {
+arr.push(nodeList.item(nodeId));
+}
+}
+return arr;
+};
+
+var FunctionsExecuter = function (functions) {
+this.functions = functions;
+
+this.current = 0;
+
+this.depth = 0; 
+
+this.processNext = function () {
+if (this.current < this.functions.length) {
+var f, run;
+f = this.functions[this.current];
+run = function () {
+try {
+var n = jQuery.proxy(this.notify, this);
+return f(n);
+}
+catch (e) {
+Wicket.Log.error("FunctionsExecuter.processNext:", e);
+return FunctionsExecuter.FAIL;
+}
+};
+run = jQuery.proxy(run, this);
+this.current++;
+if (this.depth > FunctionsExecuter.DEPTH_LIMIT) {
+
+ this.depth = 0;
+window.setTimeout(run, 1);
+} else {
+var retValue = run();
+if (isUndef(retValue) || retValue === FunctionsExecuter.ASYNC) {
+this.depth++;
+}
+return retValue;
+}
+}
+};
+this.start = function () {
+var retValue = FunctionsExecuter.DONE;
+while (retValue === FunctionsExecuter.DONE) {
+retValue = this.processNext();
+}
+};
+this.notify = function () {
+this.start();
+};
+};
+
+FunctionsExecuter.DONE = 1;
+
+FunctionsExecuter.FAIL = 2;
+
+FunctionsExecuter.ASYNC = 3;
+
+FunctionsExecuter.DEPTH_LIMIT = 1000;
+
+
+Wicket.Class = {
+create: function () {
+return function () {
+this.initialize.apply(this, arguments);
+};
+}
+};
+
+Wicket.Log = {
+enabled: false,
+log: function () {
+if (Wicket.Log.enabled && typeof(console) !== "undefined" && typeof(console.log) === 'function') {
+console.log.apply(console, arguments);
+}
+},
+debug: function () {
+if (Wicket.Log.enabled && typeof(console) !== "undefined" && typeof(console.debug) === 'function') {
+console.debug.apply(console, arguments);
+}
+},
+info: function () {
+if (Wicket.Log.enabled && typeof(console) !== "undefined" && typeof(console.info) === 'function') {
+console.info.apply(console, arguments);
+}
+},
+warn: function () {
+if (Wicket.Log.enabled && typeof(console) !== "undefined" && typeof(console.warn) === 'function') {
+console.warn.apply(console, arguments);
+}
+},
+error: function () {
+if (Wicket.Log.enabled && typeof(console) !== "undefined" && typeof(console.error) === 'function') {
+console.error.apply(console, arguments);
+}
+}
+};
+
+Wicket.Channel = Wicket.Class.create();
+Wicket.Channel.prototype = {
+initialize: function (name) {
+name = name || '0|s';
+var res = name.match(/^([^|]+)\|(d|s|a)$/);
+if (isUndef(res)) {
+this.name = '0'; 
+ this.type = 's'; 
+ }
+else {
+this.name = res[1];
+this.type = res[2];
+}
+this.callbacks = [];
+this.busy = false;
+},
+schedule: function (callback) {
+if (this.busy === false) {
+this.busy = true;
+try {
+return callback();
+} catch (exception) {
+this.busy = false;
+Wicket.Log.error("An error occurred while executing Ajax request:", exception);
+}
+} else {
+var busyChannel = "Channel '"+ this.name+"' is busy";
+if (this.type === 's') { 
+ Wicket.Log.info("%s - scheduling the callback to be executed when the previous request finish.", busyChannel);
+this.callbacks.push(callback);
+}
+else if (this.type === 'd') { 
+ Wicket.Log.info("%s - dropping all previous scheduled callbacks and scheduling a new one to be executed when the current request finish.", busyChannel);
+this.callbacks = [];
+this.callbacks.push(callback);
+} else if (this.type === 'a') { 
+ Wicket.Log.info("%s - ignoring the Ajax call because there is a running request.", busyChannel);
+}
+return null;
+}
+},
+done: function () {
+var callback = null;
+if (this.callbacks.length > 0) {
+callback = this.callbacks.shift();
+}
+if (callback !== null && typeof(callback) !== "undefined") {
+Wicket.Log.info("Calling postponed function...");
+
+ 
+ window.setTimeout(callback, 1);
+} else {
+this.busy = false;
+}
+}
+};
+
+Wicket.ChannelManager = Wicket.Class.create();
+Wicket.ChannelManager.prototype = {
+initialize: function () {
+this.channels = {};
+},
+
+ schedule: function (channel, callback) {
+var parsed = new Wicket.Channel(channel);
+var c = this.channels[parsed.name];
+if (isUndef(c)) {
+c = parsed;
+this.channels[c.name] = c;
+} else {
+c.type = parsed.type;
+}
+return c.schedule(callback);
+},
+
+ 
+ done: function (channel) {
+var parsed = new Wicket.Channel(channel);
+var c = this.channels[parsed.name];
+if (!isUndef(c)) {
+c.done();
+if (!c.busy) {
+delete this.channels[parsed.name];
+}
+}
+}
+};
+Wicket.ChannelManager.FunctionsExecuter = FunctionsExecuter;
+
+Wicket.Ajax = {};
+
+Wicket.Ajax.Call = Wicket.Class.create();
+Wicket.Ajax._currentSuspension = undefined;
+
+Wicket.Ajax.suspendCall = function () {
+var suspension = Wicket.Ajax._currentSuspension;
+if (suspension === undefined) {
+Wicket.Log.error("Can't suspend: no Ajax call in process");
+return;
+}
+
+ suspension.suspend();
+return function () {
+
+ if (suspension !== null) {
+suspension.release();
+suspension = null;
+}
+};
+};
+Wicket.Ajax.Call.prototype = {
+initialize: jQuery.noop,
+
+_initializeDefaults: function (attrs) {
+
+ if (typeof(attrs.ch) !== 'string') {
+attrs.ch = '0|s';
+}
+
+ if (typeof(attrs.wr) !== 'boolean') {
+attrs.wr = true;
+}
+
+ if (typeof(attrs.dt) !== 'string') {
+attrs.dt = 'xml';
+}
+if (typeof(attrs.m) !== 'string') {
+attrs.m = 'GET';
+}
+if (attrs.async !== false) {
+attrs.async = true;
+}
+if (!jQuery.isNumeric(attrs.rt)) {
+attrs.rt = 0;
+}
+if (attrs.pd !== true) {
+attrs.pd = false;
+}
+if (!attrs.sp) {
+attrs.sp = "bubble";
+}
+if (!attrs.sr) {
+attrs.sr = false;
+}
+},
+
+_getTarget: function (attrs) {
+var target;
+if (attrs.event) {
+target = attrs.event.target;
+} else if (!jQuery.isWindow(attrs.c)) {
+target = Wicket.$(attrs.c);
+} else {
+target = window;
+}
+return target;
+},
+
+_executeHandlers: function (handlers) {
+if (jQuery.isArray(handlers)) {
+
+ var args = Array.prototype.slice.call(arguments).slice(1);
+
+ var attrs = args[0];
+var that = this._getTarget(attrs);
+for (var i = 0; i < handlers.length; i++) {
+var handler = handlers[i];
+if (jQuery.isFunction(handler)) {
+handler.apply(that, args);
+} else {
+new Function(handler).apply(that, args);
+}
+}
+}
+},
+
+_asParamArray: function(parameters) {
+var result = [],
+value,
+name;
+if (jQuery.isArray(parameters)) {
+result = parameters;
+}
+else if (jQuery.isPlainObject(parameters)) {
+for (name in parameters) {
+if (name && parameters.hasOwnProperty(name)) {
+value = parameters[name];
+result.push({name: name, value: value});
+}
+}
+}
+for (var i = 0; i < result.length; i++) {
+if (result[i] === null) {
+result.splice(i, 1);
+i--;
+}
+}
+return result;
+},
+
+_calculateDynamicParameters: function(attrs) {
+var deps = attrs.dep,
+params = [];
+for (var i = 0; i < deps.length; i++) {
+var dep = deps[i],
+extraParam;
+if (jQuery.isFunction(dep)) {
+extraParam = dep(attrs);
+} else {
+extraParam = new Function('attrs', dep)(attrs);
+}
+extraParam = this._asParamArray(extraParam);
+params = params.concat(extraParam);
+}
+return params;
+},
+
+ajax: function (attrs) {
+this._initializeDefaults(attrs);
+var res = Wicket.channelManager.schedule(attrs.ch, Wicket.bind(function () {
+this.doAjax(attrs);
+}, this));
+return res !== null ? res: true;
+},
+
+_isPresent: function(id) {
+if (isUndef(id)) {
+
+ return true;
+}
+var element = Wicket.$(id);
+if (isUndef(element)) {
+
+ return false;
+}
+
+ return (!element.hasAttribute || !element.hasAttribute('data-wicket-placeholder'));
+},
+
+doAjax: function (attrs) {
+var
+
+ headers = {
+'Wicket-Ajax': 'true',
+'Wicket-Ajax-BaseURL': getAjaxBaseUrl()
+},
+url = attrs.u,
+
+ data = this._asParamArray(attrs.ep),
+self = this,
+
+ defaultPrecondition = [ function (attributes) {
+return self._isPresent(attributes.c) && self._isPresent(attributes.f);
+}],
+
+ context = {
+attrs: attrs,
+
+ steps: []
+},
+we = Wicket.Event,
+topic = we.Topic;
+if (Wicket.Focus.lastFocusId) {
+
+ headers["Wicket-FocusedElementId"] = Wicket.Form.encode(Wicket.Focus.lastFocusId);
+}
+self._executeHandlers(attrs.bh, attrs);
+we.publish(topic.AJAX_CALL_BEFORE, attrs);
+var preconditions = attrs.pre || [];
+preconditions = defaultPrecondition.concat(preconditions);
+if (jQuery.isArray(preconditions)) {
+var that = this._getTarget(attrs);
+for (var p = 0; p < preconditions.length; p++) {
+var precondition = preconditions[p];
+var result;
+if (jQuery.isFunction(precondition)) {
+result = precondition.call(that, attrs);
+} else {
+result = new Function(precondition).call(that, attrs);
+}
+if (result === false) {
+Wicket.Log.info("Ajax request stopped because of precondition check, url: %s", attrs.u);
+self.done(attrs);
+return false;
+}
+}
+}
+we.publish(topic.AJAX_CALL_PRECONDITION, attrs);
+if (attrs.f) {
+
+ var form = Wicket.$(attrs.f);
+data = data.concat(Wicket.Form.serializeForm(form));
+
+ if (attrs.sc) {
+var scName = attrs.sc;
+data = data.concat({name: scName, value: 1});
+}
+} else if (attrs.c && !jQuery.isWindow(attrs.c)) {
+
+ var el = Wicket.$(attrs.c);
+data = data.concat(Wicket.Form.serializeElement(el, attrs.sr));
+}
+
+ if (jQuery.isArray(attrs.dep)) {
+var dynamicData = this._calculateDynamicParameters(attrs);
+if (attrs.m.toLowerCase() === 'post') {
+data = data.concat(dynamicData);
+} else {
+var separator = url.indexOf('?') > -1 ? '&' : '?';
+url = url + separator + jQuery.param(dynamicData);
+}
+}
+var wwwFormUrlEncoded; 
+ if (attrs.mp) {
+try {
+var formData = new FormData();
+for (var i = 0; i < data.length; i++) {
+formData.append(data[i].name, data[i].value || "");
+}
+data = formData;
+wwwFormUrlEncoded = false;
+} catch (exception) {
+Wicket.Log.error("Ajax multipart not supported:", exception);
+}
+}
+Wicket.Log.info("Executing Ajax request");
+Wicket.Log.debug(attrs);
+
+ var jqXHR = jQuery.ajax({
+url: url,
+type: attrs.m,
+context: self,
+processData: wwwFormUrlEncoded,
+contentType: wwwFormUrlEncoded,
+beforeSend: function (jqXHR, settings) {
+self._executeHandlers(attrs.bsh, attrs, jqXHR, settings);
+we.publish(topic.AJAX_CALL_BEFORE_SEND, attrs, jqXHR, settings);
+if (attrs.i) {
+
+ Wicket.DOM.showIncrementally(attrs.i);
+}
+},
+data: data,
+dataType: attrs.dt,
+async: attrs.async,
+timeout: attrs.rt,
+cache: false,
+headers: headers,
+success: function(data, textStatus, jqXHR) {
+if (attrs.wr) {
+self.processAjaxResponse(data, textStatus, jqXHR, context);
+} else {
+self._executeHandlers(attrs.sh, attrs, jqXHR, data, textStatus);
+we.publish(topic.AJAX_CALL_SUCCESS, attrs, jqXHR, data, textStatus);
+}
+},
+error: function(jqXHR, textStatus, errorMessage) {
+if (jqXHR.status === 301 && jqXHR.getResponseHeader('Ajax-Location')) {
+self.processAjaxResponse(data, textStatus, jqXHR, context);
+} else {
+self.failure(context, jqXHR, errorMessage, textStatus);
+}
+},
+complete: function (jqXHR, textStatus) {
+context.steps.push(jQuery.proxy(function (notify) {
+if (attrs.i && context.isRedirecting !== true) {
+Wicket.DOM.hideIncrementally(attrs.i);
+}
+self._executeHandlers(attrs.coh, attrs, jqXHR, textStatus);
+we.publish(topic.AJAX_CALL_COMPLETE, attrs, jqXHR, textStatus);
+self.done(attrs);
+return FunctionsExecuter.DONE;
+}, self));
+var executer = new FunctionsExecuter(context.steps);
+executer.start();
+}
+});
+
+ self._executeHandlers(attrs.ah, attrs);
+we.publish(topic.AJAX_CALL_AFTER, attrs);
+return jqXHR;
+},
+
+process: function(data) {
+var context = {
+attrs: {},
+steps: []
+};
+var xmlDocument = Wicket.Xml.parse(data);
+this.loadedCallback(xmlDocument, context);
+var executer = new FunctionsExecuter(context.steps);
+executer.start();
+},
+
+processAjaxResponse: function (data, textStatus, jqXHR, context) {
+if (jqXHR.readyState === 4) {
+
+ var redirectUrl;
+try {
+redirectUrl = jqXHR.getResponseHeader('Ajax-Location');
+} catch (ignore) { 
+ }
+
+ if (typeof(redirectUrl) !== "undefined" && redirectUrl !== null && redirectUrl !== "") {
+
+ 
+ this.success(context);
+var withScheme = /^[a-z][a-z0-9+.-]*:\/\//; 
+
+
+ if (redirectUrl.charAt(0) === '/' || withScheme.test(redirectUrl)) {
+context.isRedirecting = true;
+Wicket.Ajax.redirect(redirectUrl);
+}
+else {
+var urlDepth = 0;
+while (redirectUrl.substring(0, 3) === "../") {
+urlDepth++;
+redirectUrl = redirectUrl.substring(3);
+}
+
+ var calculatedRedirect = window.location.pathname;
+while (urlDepth > -1) {
+urlDepth--;
+var i = calculatedRedirect.lastIndexOf("/");
+if (i > -1) {
+calculatedRedirect = calculatedRedirect.substring(0, i);
+}
+}
+calculatedRedirect += "/" + redirectUrl;
+context.isRedirecting = true;
+Wicket.Ajax.redirect(calculatedRedirect);
+}
+}
+else {
+
+ Wicket.Log.info("Received ajax response (%s characters)", jqXHR.responseText.length);
+Wicket.Log.debug(jqXHR.responseXML);
+
+ return this.loadedCallback(data, context);
+}
+}
+},
+
+ loadedCallback: function (envelope, context) {
+
+ 
+ 
+ 
+ 
+ 
+ try {
+var root = envelope.getElementsByTagName("ajax-response")[0];
+
+ if (isUndef(root) || root.tagName !== "ajax-response") {
+this.failure(context, null, "Could not find root <ajax-response> element", null);
+return;
+}
+var steps = context.steps;
+
+ 
+ for (var i = 0; i < root.childNodes.length; ++i) {
+var childNode = root.childNodes[i];
+if (childNode.tagName === "header-contribution") {
+this.processHeaderContribution(context, childNode);
+} else if (childNode.tagName === "priority-evaluate") {
+this.processHeaderContribution(context, childNode);
+}
+}
+
+ 
+ var stepIndexOfLastReplacedComponent = -1;
+for (var c = 0; c < root.childNodes.length; ++c) {
+var node = root.childNodes[c];
+if (node.tagName === "component") {
+if (stepIndexOfLastReplacedComponent === -1) {
+this.processFocusedComponentMark(context);
+}
+stepIndexOfLastReplacedComponent = steps.length;
+this.processComponent(context, node);
+} else if (node.tagName === "evaluate") {
+this.processHeaderContribution(context, node);
+} else if (node.tagName === "redirect") {
+this.processRedirect(context, node);
+}
+}
+if (stepIndexOfLastReplacedComponent !== -1) {
+this.processFocusedComponentReplaceCheck(steps, stepIndexOfLastReplacedComponent);
+}
+
+ this.success(context);
+} catch (exception) {
+this.failure(context, null, exception, null);
+}
+},
+
+ success: function (context) {
+context.steps.push(jQuery.proxy(function (notify) {
+Wicket.Log.info("Response processed successfully.");
+var attrs = context.attrs;
+this._executeHandlers(attrs.sh, attrs, null, null, 'success');
+Wicket.Event.publish(Wicket.Event.Topic.AJAX_CALL_SUCCESS, attrs, null, null, 'success');
+Wicket.Focus.requestFocus();
+
+ return FunctionsExecuter.DONE;
+}, this));
+},
+
+ failure: function (context, jqXHR, errorMessage, textStatus) {
+context.steps.push(jQuery.proxy(function (notify) {
+if (errorMessage) {
+Wicket.Log.error("Wicket.Ajax.Call.failure: Error while parsing response: %s", errorMessage);
+}
+var attrs = context.attrs;
+this._executeHandlers(attrs.fh, attrs, jqXHR, errorMessage, textStatus);
+Wicket.Event.publish(Wicket.Event.Topic.AJAX_CALL_FAILURE, attrs, jqXHR, errorMessage, textStatus);
+return FunctionsExecuter.DONE;
+}, this));
+},
+done: function (attrs) {
+this._executeHandlers(attrs.dh, attrs);
+Wicket.Event.publish(Wicket.Event.Topic.AJAX_CALL_DONE, attrs);
+Wicket.channelManager.done(attrs.ch);
+},
+
+ processComponent: function (context, node) {
+context.steps.push(function (notify) {
+
+ var compId = node.getAttribute("id");
+
+ var element = Wicket.$(compId);
+if (isUndef(element)) {
+Wicket.Log.error("Wicket.Ajax.Call.processComponent: Component with id '%s' was not found while trying to perform markup update. " +
+"Make sure you called component.setOutputMarkupId(true) on the component whose markup you are trying to update.", compId);
+} else {
+var text = Wicket.DOM.text(node);
+
+ Wicket.DOM.replace(element, text);
+}
+
+ return FunctionsExecuter.DONE;
+});
+},
+
+ processHeaderContribution: function (context, node) {
+var c = Wicket.Head.Contributor;
+c.processContribution(context, node);
+},
+
+ processRedirect: function (context, node) {
+var text = Wicket.DOM.text(node);
+Wicket.Log.info("Redirecting to: %s", text);
+context.isRedirecting = true;
+Wicket.Ajax.redirect(text);
+},
+
+ processFocusedComponentMark: function (context) {
+context.steps.push(function (notify) {
+Wicket.Focus.markFocusedComponent();
+
+ return FunctionsExecuter.DONE;
+});
+},
+
+ processFocusedComponentReplaceCheck: function (steps, lastReplaceComponentStep) {
+
+ steps.splice(lastReplaceComponentStep + 1, 0, function (notify) {
+Wicket.Focus.checkFocusedComponentReplaced();
+
+ return FunctionsExecuter.DONE;
+});
+}
+};
+
+Wicket.ThrottlerEntry = Wicket.Class.create();
+Wicket.ThrottlerEntry.prototype = {
+initialize: function (func) {
+this.func = func;
+this.timestamp = new Date().getTime();
+this.timeoutVar = undefined;
+},
+getTimestamp: function () {
+return this.timestamp;
+},
+getFunc: function () {
+return this.func;
+},
+setFunc: function (func) {
+this.func = func;
+},
+getTimeoutVar: function () {
+return this.timeoutVar;
+},
+setTimeoutVar: function (timeoutVar) {
+this.timeoutVar = timeoutVar;
+}
+};
+Wicket.Throttler = Wicket.Class.create();
+
+	Wicket.Throttler.entries = [];
+Wicket.Throttler.prototype = {
+
+initialize: function (postponeTimerOnUpdate) {
+this.postponeTimerOnUpdate = postponeTimerOnUpdate;
+},
+throttle: function (id, millis, func) {
+var entries = Wicket.Throttler.entries;
+var entry = entries[id];
+var me = this;
+if (typeof(entry) === 'undefined') {
+entry = new Wicket.ThrottlerEntry(func);
+entry.setTimeoutVar(window.setTimeout(function() { me.execute(id); }, millis));
+entries[id] = entry;
+} else {
+entry.setFunc(func);
+if (this.postponeTimerOnUpdate)
+{
+window.clearTimeout(entry.getTimeoutVar());
+entry.setTimeoutVar(window.setTimeout(function() { me.execute(id); }, millis));
+}
+}
+},
+execute: function (id) {
+var entries = Wicket.Throttler.entries;
+var entry = entries[id];
+if (typeof(entry) !== 'undefined') {
+var func = entry.getFunc();
+entries[id] = undefined;
+return func();
+}
+}
+};
+jQuery.extend(true, Wicket, {
+channelManager: new Wicket.ChannelManager(),
+throttler: new Wicket.Throttler(),
+$: function (arg) {
+return Wicket.DOM.get(arg);
+},
+
+$$: function (element) {
+return Wicket.DOM.inDoc(element);
+},
+
+merge: function(object1, object2) {
+return jQuery.extend({}, object1, object2);
+},
+
+bind: function(fn, context) {
+return jQuery.proxy(fn, context);
+},
+Xml: {
+parse: function (text) {
+var parser = new DOMParser();
+var xmlDocument = parser.parseFromString(text, "text/xml");
+return xmlDocument;
+}
+},
+
+Form: {
+encode: function (text) {
+if (window.encodeURIComponent) {
+return window.encodeURIComponent(text);
+} else {
+return window.escape(text);
+}
+},
+
+serializeSelect: function (select){
+var result = [];
+if (select) {
+var $select = jQuery(select);
+if ($select.length > 0 && $select.prop('disabled') === false) {
+var name = $select.prop('name');
+var values = $select.val();
+if (jQuery.isArray(values)) {
+for (var v = 0; v < values.length; v++) {
+var value = values[v];
+result.push( { name: name, value: value } );
+}
+} else {
+result.push( { name: name, value: values } );
+}
+}
+}
+return result;
+},
+
+serializeInput: function (input) {
+var result = [];
+if (input && input.type) {
+var $input = jQuery(input);
+if (input.type === 'file') {
+for (var f = 0; f < input.files.length; f++) {
+result.push({"name" : input.name, "value" : input.files[f]});
+}
+} else if (!(input.type === 'image' || input.type === 'submit')) {
+result = $input.serializeArray();
+}
+}
+return result;
+},
+
+excludeFromAjaxSerialization: {
+},
+
+serializeElement: function(element, serializeRecursively) {
+if (!element) {
+return [];
+}
+else if (typeof(element) === 'string') {
+element = Wicket.$(element);
+}
+if (Wicket.Form.excludeFromAjaxSerialization && element.id && Wicket.Form.excludeFromAjaxSerialization[element.id] === "true") {
+return [];
+}
+var tag = element.tagName.toLowerCase();
+if (tag === "select") {
+return Wicket.Form.serializeSelect(element);
+} else if (tag === "input" || tag === "textarea") {
+return Wicket.Form.serializeInput(element);
+} else {
+var result = [];
+if (serializeRecursively) {
+var elements = nodeListToArray(element.getElementsByTagName("input"));
+elements = elements.concat(nodeListToArray(element.getElementsByTagName("select")));
+elements = elements.concat(nodeListToArray(element.getElementsByTagName("textarea")));
+for (var i = 0; i < elements.length; ++i) {
+var el = elements[i];
+if (el.name && el.name !== "") {
+result = result.concat(Wicket.Form.serializeElement(el, serializeRecursively));
+}
+}
+}
+return result;
+}
+},
+serializeForm: function (form) {
+var result = [],
+elements;
+if (form) {
+if (form.tagName.toLowerCase() === 'form') {
+elements = form.elements;
+} else {
+do {
+form = form.parentNode;
+} while (form.tagName.toLowerCase() !== "form" && form.tagName.toLowerCase() !== "body");
+elements = nodeListToArray(form.getElementsByTagName("input"));
+elements = elements.concat(nodeListToArray(form.getElementsByTagName("select")));
+elements = elements.concat(nodeListToArray(form.getElementsByTagName("textarea")));
+}
+}
+for (var i = 0; i < elements.length; ++i) {
+var el = elements[i];
+if (el.name && el.name !== "") {
+result = result.concat(Wicket.Form.serializeElement(el, false));
+}
+}
+return result;
+},
+serialize: function (element, dontTryToFindRootForm) {
+if (typeof(element) === 'string') {
+element = Wicket.$(element);
+}
+if (element.tagName.toLowerCase() === "form") {
+return Wicket.Form.serializeForm(element);
+} else {
+
+ var elementBck = element;
+if (dontTryToFindRootForm !== true) {
+do {
+element = element.parentNode;
+} while(element.tagName.toLowerCase() !== "form" && element.tagName.toLowerCase() !== "body");
+}
+if (element.tagName.toLowerCase() === "form"){
+return Wicket.Form.serializeForm(element);
+} else {
+
+ 
+ var form = document.createElement("form");
+var parent = elementBck.parentNode;
+parent.replaceChild(form, elementBck);
+form.appendChild(elementBck);
+var result = Wicket.Form.serializeForm(form);
+parent.replaceChild(elementBck, form);
+return result;
+}
+}
+}
+},
+
+DOM: {
+
+show: function (e, display) {
+e = Wicket.$(e);
+if (e !== null) {
+if (isUndef(display)) {
+
+ 
+ 
+ jQuery(e).show();
+} else {
+e.style.display = display;
+}
+e.removeAttribute("hidden");
+}
+},
+
+hide: function (e) {
+e = Wicket.$(e);
+if (e !== null) {
+jQuery(e).hide();
+e.setAttribute("hidden", "");
+}
+},
+
+toggleClass: function(elementId, cssClass, Switch) {
+jQuery('#'+elementId).toggleClass(cssClass, Switch);
+},
+
+showIncrementally: function (e) {
+e = Wicket.$(e);
+if (e === null) {
+return;
+}
+var count = e.getAttribute("showIncrementallyCount");
+count = parseInt(isUndef(count) ? 0 : count, 10);
+if (count >= 0) {
+Wicket.DOM.show(e);
+}
+e.setAttribute("showIncrementallyCount", count + 1);
+},
+
+hideIncrementally: function(e) {
+e = Wicket.$(e);
+if (e === null) {
+return;
+}
+var count = e.getAttribute("showIncrementallyCount");
+count = parseInt(isUndef(count) ? 0 : count - 1, 10);
+if (count <= 0) {
+Wicket.DOM.hide(e);
+}
+e.setAttribute("showIncrementallyCount", count);
+},
+get: function (arg) {
+if (isUndef(arg)) {
+return null;
+}
+if (arguments.length > 1) {
+var e = [];
+for (var i = 0; i < arguments.length; i++) {
+e.push(Wicket.DOM.get(arguments[i]));
+}
+return e;
+} else if (typeof arg === 'string') {
+return document.getElementById(arg);
+} else {
+return arg;
+}
+},
+
+inDoc: function (element) {
+if (element === window) {
+return true;
+}
+if (typeof(element) === "string") {
+element = Wicket.$(element);
+}
+if (isUndef(element) || isUndef(element.tagName)) {
+return false;
+}
+var id = element.getAttribute('id');
+if (isUndef(id) || id === "") {
+return element.ownerDocument === document;
+}
+else {
+return document.getElementById(id) === element;
+}
+},
+
+replace: function (element, text) {
+var we = Wicket.Event;
+var topic = we.Topic;
+we.publish(topic.DOM_NODE_REMOVING, element);
+if (element.tagName.toLowerCase() === "title") {
+
+ var titleText = />(.*?)</.exec(text)[1];
+document.title = titleText;
+return;
+} else {
+
+ var cleanedText = jQuery.trim(text);
+var $newElement = jQuery(cleanedText);
+jQuery(element).replaceWith($newElement);
+}
+var newElement = Wicket.$(element.id);
+if (newElement) {
+we.publish(topic.DOM_NODE_ADDED, newElement);
+}
+},
+add: function (element, text) {
+var we = Wicket.Event;
+var topic = we.Topic;
+
+ var cleanedText = jQuery.trim(text);
+var $newElement = jQuery(cleanedText);
+jQuery(element).append($newElement);
+var newElement = Wicket.$(element.id);
+if (newElement) {
+we.publish(topic.DOM_NODE_ADDED, newElement);
+}
+},
+remove: function (element) {
+var we = Wicket.Event;
+var topic = we.Topic;
+we.publish(topic.DOM_NODE_REMOVING, element);
+jQuery(element).remove();
+},
+
+ 
+ serializeNodeChildren: function (node) {
+if (isUndef(node)) {
+return "";
+}
+var result = [];
+if (node.childNodes.length > 0) {
+for (var i = 0; i < node.childNodes.length; i++) {
+var thisNode = node.childNodes[i];
+switch (thisNode.nodeType) {
+case 1: 
+ case 5: 
+ result.push(this.serializeNode(thisNode));
+break;
+case 8: 
+ result.push("<!--");
+result.push(thisNode.nodeValue);
+result.push("-->");
+break;
+case 4: 
+ result.push("<![CDATA[");
+result.push(thisNode.nodeValue);
+result.push("]]>");
+break;
+case 3: 
+ case 2: 
+ result.push(thisNode.nodeValue);
+break;
+default:
+break;
+}
+}
+} else {
+result.push(node.textContent || node.text);
+}
+return result.join("");
+},
+serializeNode: function (node){
+if (isUndef(node)) {
+return "";
+}
+var result = [];
+result.push("<");
+result.push(node.nodeName);
+if (node.attributes && node.attributes.length > 0) {
+for (var i = 0; i < node.attributes.length; i++) {
+
+ if (node.attributes[i].nodeValue && node.attributes[i].specified) {
+result.push(" ");
+result.push(node.attributes[i].name);
+result.push("=\"");
+result.push(node.attributes[i].value);
+result.push("\"");
+}
+}
+}
+result.push(">");
+result.push(Wicket.DOM.serializeNodeChildren(node));
+result.push("</");
+result.push(node.nodeName);
+result.push(">");
+return result.join("");
+},
+
+ containsElement: function (element) {
+var id = element.getAttribute("id");
+if (id) {
+return Wicket.$(id) !== null;
+}
+else {
+return false;
+}
+},
+
+text: function (node) {
+if (isUndef(node)) {
+return "";
+}
+var result = [];
+if (node.childNodes.length > 0) {
+for (var i = 0; i < node.childNodes.length; i++) {
+var thisNode = node.childNodes[i];
+switch (thisNode.nodeType) {
+case 1: 
+ case 5: 
+ result.push(this.text(thisNode));
+break;
+case 3: 
+ case 4: 
+ result.push(thisNode.nodeValue);
+break;
+default:
+break;
+}
+}
+} else {
+result.push(node.textContent || node.text);
+}
+return result.join("");
+}
+},
+
+Ajax: {
+Call: Wicket.Ajax.Call,
+
+_handleEventCancelation: function(attrs) {
+var evt = attrs.event;
+if (evt) {
+if (attrs.pd) {
+try {
+evt.preventDefault();
+} catch (ignore) {
+
+ 
+ }
+}
+if (attrs.sp === "stop") {
+Wicket.Event.stop(evt);
+} else if (attrs.sp === "stopImmediate") {
+Wicket.Event.stop(evt, true);
+}
+}
+},
+get: function (attrs) {
+attrs.m = 'GET';
+return Wicket.Ajax.ajax(attrs);
+},
+post: function (attrs) {
+attrs.m = 'POST';
+return Wicket.Ajax.ajax(attrs);
+},
+ajax: function(attrs) {
+attrs.c = attrs.c || window;
+attrs.e = attrs.e || [ 'domready' ];
+if (!jQuery.isArray(attrs.e)) {
+attrs.e = [ attrs.e ];
+}
+jQuery.each(attrs.e, function (idx, evt) {
+Wicket.Event.add(attrs.c, evt, function (jqEvent, data) {
+var call = new Wicket.Ajax.Call();
+var attributes = jQuery.extend({}, attrs);
+if (evt !== "domready") {
+attributes.event = Wicket.Event.fix(jqEvent);
+if (data) {
+attributes.event.extraData = data;
+}
+}
+call._executeHandlers(attributes.ih, attributes);
+Wicket.Event.publish(Wicket.Event.Topic.AJAX_CALL_INIT, attributes);
+var throttlingSettings = attributes.tr;
+if (throttlingSettings) {
+var postponeTimerOnUpdate = throttlingSettings.p || false;
+var throttler = new Wicket.Throttler(postponeTimerOnUpdate);
+throttler.throttle(throttlingSettings.id, throttlingSettings.d,
+Wicket.bind(function () {
+call.ajax(attributes);
+}, this));
+}
+else {
+call.ajax(attributes);
+}
+if (evt !== "domready") {
+Wicket.Ajax._handleEventCancelation(attributes);
+}
+}, null, attrs.sel);
+});
+},
+process: function(data) {
+var call = new Wicket.Ajax.Call();
+call.process(data);
+},
+
+redirect: function(url) {
+window.location = url;
+}
+},
+
+Head: {
+Contributor: {
+
+ parse: function (headerNode) {
+
+ 
+ 
+
+ var text = Wicket.DOM.text(headerNode);
+
+ var xmldoc = Wicket.Xml.parse(text);
+return xmldoc;
+},
+
+ 
+ 
+ _checkParserError: function (node) {
+var result = false;
+if (!isUndef(node.tagName) && node.tagName.toLowerCase() === "parsererror") {
+Wicket.Log.error("Error in parsing: %s", node.textContent);
+result = true;
+}
+return result;
+},
+
+ processContribution: function (context, headerNode) {
+var xmldoc = this.parse(headerNode);
+var rootNode = xmldoc.documentElement;
+
+ if (this._checkParserError(rootNode)) {
+return;
+}
+
+ for (var i = 0; i < rootNode.childNodes.length; i++) {
+var node = rootNode.childNodes[i];
+
+ if (this._checkParserError(node)) {
+return;
+}
+if (!isUndef(node.tagName)) {
+var name = node.tagName.toLowerCase();
+
+ 
+ if (name === "wicket:link") {
+for (var j = 0; j < node.childNodes.length; ++j) {
+var childNode = node.childNodes[j];
+
+ if (childNode.nodeType === 1) {
+node = childNode;
+name = node.tagName.toLowerCase();
+break;
+}
+}
+}
+
+ if (name === "link") {
+this.processLink(context, node);
+} else if (name === "script") {
+this.processScript(context, node);
+} else if (name === "style") {
+this.processStyle(context, node);
+} else if (name === "meta") {
+this.processMeta(context, node);
+}
+} else if (node.nodeType === 8) { 
+ this.processComment(context, node);
+}
+}
+},
+
+ processLink: function (context, node) {
+context.steps.push(function (notify) {
+var res = Wicket.Head.containsElement(node, "href");
+var oldNode = res.oldNode;
+if (res.contains) {
+
+ return FunctionsExecuter.DONE;
+} else if (oldNode) {
+
+ oldNode.parentNode.removeChild(oldNode);
+}
+
+ var css = Wicket.Head.createElement("link");
+
+ var attributes = jQuery(node).prop("attributes");
+var $css = jQuery(css);
+jQuery.each(attributes, function() {
+$css.attr(this.name, this.value);
+});
+var notifyCalled = false;
+function doNotify() {
+if (!notifyCalled) {
+notifyCalled = true;
+notify();
+}
+}
+css.onerror = doNotify;
+css.onload = doNotify;
+
+ Wicket.Head.addElement(css);
+return FunctionsExecuter.ASYNC;
+});
+},
+
+ processStyle: function (context, node) {
+context.steps.push(function (notify) {
+
+ if (Wicket.DOM.containsElement(node)) {
+return FunctionsExecuter.DONE;
+}
+
+ var content = Wicket.DOM.serializeNodeChildren(node);
+
+ var style = Wicket.Head.createElement("style");
+
+ style.id = node.getAttribute("id");
+
+ style.nonce = node.getAttribute("nonce");
+var textNode = document.createTextNode(content);
+style.appendChild(textNode);
+Wicket.Head.addElement(style);
+
+ return FunctionsExecuter.DONE;
+});
+},
+
+ processScript: function (context, node) {
+context.steps.push(function (notify) {
+if (!node.getAttribute("src") && Wicket.DOM.containsElement(node)) {
+
+ return FunctionsExecuter.DONE;
+} else {
+var res = Wicket.Head.containsElement(node, "src");
+var oldNode = res.oldNode;
+if (res.contains) {
+
+ return FunctionsExecuter.DONE;
+} else if (oldNode) {
+
+ oldNode.parentNode.removeChild(oldNode);
+}
+}
+
+ var scriptDomNode = document.createElement("script");
+var attrs = node.attributes;
+for (var a = 0; a < attrs.length; a++) {
+var attr = attrs[a];
+scriptDomNode[attr.name] = attr.value;
+}
+
+ var src = node.getAttribute("src");
+if (src !== null && src !== "") {
+var onScriptReady = function () {
+notify();
+};
+
+ if (typeof(scriptDomNode.onload) !== 'undefined') {
+scriptDomNode.onload = onScriptReady;
+} else if (typeof(scriptDomNode.onreadystatechange) !== 'undefined') {
+scriptDomNode.onreadystatechange = function () {
+if (scriptDomNode.readyState === 'loaded' || scriptDomNode.readyState === 'complete') {
+onScriptReady();
+}
+};
+} else {
+
+ window.setTimeout(onScriptReady, 10);
+}
+Wicket.Head.addElement(scriptDomNode);
+return FunctionsExecuter.ASYNC;
+} else {
+var suspension = {
+suspended: 0,
+suspend: function() {
+suspension.suspended++;
+},
+release: function() {
+suspension.suspended--;
+if (suspension.suspended === 0) {
+notify();
+}
+}
+};
+
+ var text = Wicket.DOM.serializeNodeChildren(node);
+
+ text = text.replace(/^\n\/\*<!\[CDATA\[\*\/\n/, "");
+text = text.replace(/\n\/\*\]\]>\*\/\n$/, "");
+try {
+Wicket.Ajax._currentSuspension = suspension;
+scriptDomNode.innerHTML = text;
+var id = node.getAttribute("id");
+Wicket.Head.addElement(scriptDomNode, typeof(id) !== "string" || id.length === 0);
+} catch (exception) {
+Wicket.Log.error("Ajax.Call.processEvaluation: Exception evaluating javascript: %s", text, exception);
+} finally {
+Wicket.Ajax.currentSuspension = undefined;
+}
+
+ if (suspension.suspended === 0) {
+
+ return FunctionsExecuter.DONE;
+} else {
+
+ return FunctionsExecuter.ASYNC;
+}
+}
+});
+},
+processMeta: function (context, node) {
+context.steps.push(function (notify) {
+var meta = Wicket.Head.createElement("meta"),
+$meta = jQuery(meta),
+attrs = jQuery(node).prop("attributes"),
+name = node.getAttribute("name"),
+httpEquiv = node.getAttribute("http-equiv");
+if (name) {
+jQuery('meta[name="' + name + '"]').remove();
+} else if (httpEquiv) {
+jQuery('meta[http-equiv="' + httpEquiv + '"]').remove();
+}
+jQuery.each(attrs, function() {
+$meta.attr(this.name, this.value);
+});
+Wicket.Head.addElement(meta);
+return FunctionsExecuter.DONE;
+});
+},
+
+ processComment: function (context, node) {
+context.steps.push(function (notify) {
+var comment = document.createComment(node.nodeValue);
+Wicket.Head.addElement(comment);
+return FunctionsExecuter.DONE;
+});
+}
+},
+
+ createElement: function (name) {
+if (isUndef(name) || name === '') {
+Wicket.Log.error('Cannot create an element without a name');
+return;
+}
+return document.createElement(name);
+},
+
+ addElement: function (element, remove) {
+var headItems = document.querySelector('head meta[name="wicket.header.items"]');
+if (headItems) {
+headItems.parentNode.insertBefore(element, headItems);
+} else {
+var head = document.querySelector("head");
+if (head) {
+head.appendChild(element);
+}
+}
+if (remove) {
+element.parentNode.removeChild(element);
+}
+},
+
+ 
+ 
+ 
+ 
+ 
+ containsElement: function (element, mandatoryAttribute) {
+var attr = element.getAttribute(mandatoryAttribute);
+if (isUndef(attr) || attr === "") {
+return {
+contains: false
+};
+}
+var elementTagName = element.tagName.toLowerCase();
+var elementId = element.getAttribute("id");
+var head = document.getElementsByTagName("head")[0];
+if (elementTagName === "script") {
+head = document;
+}
+var nodes = head.getElementsByTagName(elementTagName);
+for (var i = 0; i < nodes.length; ++i) {
+var node = nodes[i];
+
+ 
+ 
+ if (node.tagName.toLowerCase() === elementTagName) {
+var loadedUrl = node.getAttribute(mandatoryAttribute);
+var loadedUrl_ = node.getAttribute(mandatoryAttribute+"_");
+if (loadedUrl === attr || loadedUrl_ === attr) {
+return {
+contains: true
+};
+} else if (elementId && elementId === node.getAttribute("id")) {
+return {
+contains: false,
+oldNode: node
+};
+}
+}
+}
+return {
+contains: false
+};
+}
+},
+
+
+Focus: {
+lastFocusId : "",
+refocusLastFocusedComponentAfterResponse : false,
+focusSetFromServer : false,
+focusin: function (event) {
+event = Wicket.Event.fix(event);
+var target = event.target;
+if (target) {
+var WF = Wicket.Focus;
+WF.refocusLastFocusedComponentAfterResponse = false;
+var id = target.id;
+WF.lastFocusId = id;
+Wicket.Log.info("focus set on '%s'", id);
+}
+},
+focusout: function (event) {
+event = Wicket.Event.fix(event);
+var target = event.target;
+var WF = Wicket.Focus;
+if (target && WF.lastFocusId === target.id) {
+var id = target.id;
+if (WF.refocusLastFocusedComponentAfterResponse) {
+
+ Wicket.Log.info("focus removed from '%s' but ignored because of component replacement", id);
+} else {
+WF.lastFocusId = null;
+Wicket.Log.info("focus removed from '%s'", id);
+}
+}
+},
+getFocusedElement: function () {
+var lastFocusId = Wicket.Focus.lastFocusId;
+if (lastFocusId) {
+var focusedElement = Wicket.$(lastFocusId);
+Wicket.Log.info("returned focused element:", focusedElement);
+return focusedElement;
+}
+},
+setFocusOnId: function (id) {
+var WF = Wicket.Focus;
+if (id) {
+WF.refocusLastFocusedComponentAfterResponse = true;
+WF.focusSetFromServer = true;
+WF.lastFocusId = id;
+Wicket.Log.info("focus set on '%s' from server side", id);
+} else {
+WF.refocusLastFocusedComponentAfterResponse = false;
+Wicket.Log.info("refocus focused component after request stopped from server side");
+}
+},
+
+ markFocusedComponent: function () {
+var WF = Wicket.Focus;
+var focusedElement = WF.getFocusedElement();
+if (focusedElement) {
+
+ focusedElement.wasFocusedBeforeComponentReplacements = true;
+WF.refocusLastFocusedComponentAfterResponse = true;
+WF.focusSetFromServer = false;
+} else {
+WF.refocusLastFocusedComponentAfterResponse = false;
+}
+},
+
+ checkFocusedComponentReplaced: function () {
+var WF = Wicket.Focus;
+if (WF.refocusLastFocusedComponentAfterResponse) {
+var focusedElement = WF.getFocusedElement();
+if (focusedElement) {
+if (typeof(focusedElement.wasFocusedBeforeComponentReplacements) !== "undefined") {
+
+ WF.refocusLastFocusedComponentAfterResponse = false;
+}
+} else {
+
+ WF.refocusLastFocusedComponentAfterResponse = false;
+WF.lastFocusId = "";
+}
+}
+},
+requestFocus: function() {
+
+ 
+ 
+ 
+ var WF = Wicket.Focus;
+if (WF.refocusLastFocusedComponentAfterResponse && WF.lastFocusId) {
+var toFocus = Wicket.$(WF.lastFocusId);
+if (toFocus) {
+Wicket.Log.info("Calling focus on '%s'", WF.lastFocusId);
+var safeFocus = function() {
+try {
+toFocus.focus();
+} catch (ignore) {
+
+ }
+};
+if (WF.focusSetFromServer) {
+
+ window.setTimeout(safeFocus, 0);
+} else {
+
+ var temp = toFocus.onfocus;
+toFocus.onfocus = null;
+
+ window.setTimeout(function () { safeFocus(); toFocus.onfocus = temp; }, 0);
+}
+} else {
+WF.lastFocusId = "";
+Wicket.Log.info("Couldn't set focus on element with id '%s' because it is not in the page anymore", WF.lastFocusId);
+}
+} else if (WF.refocusLastFocusedComponentAfterResponse) {
+Wicket.Log.info("last focus id was not set");
+} else {
+Wicket.Log.info("refocus last focused component not needed/allowed");
+}
+Wicket.Focus.refocusLastFocusedComponentAfterResponse = false;
+}
+},
+
+Timer: {
+
+'set': function(timerId, f, delay) {
+if (typeof(Wicket.TimerHandles) === 'undefined') {
+Wicket.TimerHandles = {};
+}
+Wicket.Timer.clear(timerId);
+Wicket.TimerHandles[timerId] = setTimeout(function() {
+Wicket.Timer.clear(timerId);
+f();
+}, delay);
+},
+
+clear: function(timerId) {
+if (Wicket.TimerHandles && Wicket.TimerHandles[timerId]) {
+clearTimeout(Wicket.TimerHandles[timerId]);
+delete Wicket.TimerHandles[timerId];
+}
+},
+
+clearAll: function() {
+var WTH = Wicket.TimerHandles;
+if (WTH) {
+for (var th in WTH) {
+if (WTH.hasOwnProperty(th)) {
+Wicket.Timer.clear(th);
+}
+}
+}
+}
+},
+
+Event: {
+idCounter: 0,
+getId: function (element) {
+var $el = jQuery(element),
+id = $el.prop("id");
+if (typeof(id) === "string" && id.length > 0) {
+return id;
+} else {
+id = "wicket-generated-id-" + Wicket.Event.idCounter++;
+$el.prop("id", id);
+return id;
+}
+},
+keyCode: function (evt) {
+return Wicket.Event.fix(evt).keyCode;
+},
+
+stop: function (evt, immediate) {
+evt = Wicket.Event.fix(evt);
+if (immediate) {
+evt.stopImmediatePropagation();
+} else {
+evt.stopPropagation();
+}
+return evt;
+},
+
+fix: function (evt) {
+return jQuery.event.fix(evt || window.event);
+},
+fire: function (element, event) {
+jQuery(element).trigger(event);
+},
+
+add: function (element, type, fn, data, selector) {
+if (type === 'domready') {
+jQuery(fn);
+} else if (type === 'load' && element === window) {
+jQuery(window).on('load', function() {
+jQuery(fn);
+});
+} else {
+var el = element;
+if (typeof(element) === 'string') {
+el = document.getElementById(element);
+}
+if (!el && Wicket.Log) {
+Wicket.Log.error("Cannot bind a listener for event '%s' because the element is not in the DOM", type, element);
+}
+jQuery(el).on(type, selector, data, fn);
+}
+return element;
+},
+
+remove: function (element, type, fn) {
+jQuery(element).off(type, fn);
+},
+
+subscribe: function (topic, subscriber) {
+if (topic) {
+jQuery(document).on(topic, subscriber);
+}
+},
+
+unsubscribe: function(topic, subscriber) {
+if (topic) {
+if (subscriber) {
+jQuery(document).off(topic, subscriber);
+} else {
+jQuery(document).off(topic);
+}
+} else {
+jQuery(document).off();
+}
+},
+
+publish: function (topic) {
+if (topic) {
+
+ var args = Array.prototype.slice.call(arguments).slice(1);
+jQuery(document).triggerHandler(topic, args);
+jQuery(document).triggerHandler('*', args);
+}
+},
+
+requestSubmit: function(form) {
+if (form.requestSubmit) {
+form.requestSubmit();
+} else {
+jQuery(form).trigger('submit');
+}
+},
+
+Topic: {
+DOM_NODE_REMOVING : '/dom/node/removing',
+DOM_NODE_ADDED : '/dom/node/added',
+AJAX_CALL_INIT : '/ajax/call/init',
+AJAX_CALL_BEFORE : '/ajax/call/before',
+AJAX_CALL_PRECONDITION : '/ajax/call/precondition',
+AJAX_CALL_BEFORE_SEND : '/ajax/call/beforeSend',
+AJAX_CALL_SUCCESS : '/ajax/call/success',
+AJAX_CALL_COMPLETE : '/ajax/call/complete',
+AJAX_CALL_AFTER : '/ajax/call/after',
+AJAX_CALL_FAILURE : '/ajax/call/failure',
+AJAX_CALL_DONE : '/ajax/call/done',
+AJAX_HANDLERS_BOUND : '/ajax/handlers/bound'
+}
+}
+});
+
+
+
+Wicket.Event.add(window, 'focusin', Wicket.Focus.focusin);
+Wicket.Event.add(window, 'focusout', Wicket.Focus.focusout);
+
+Wicket.Event.add(window, "unload", function() {
+Wicket.Timer.clearAll();
+});
+})(jQuery);

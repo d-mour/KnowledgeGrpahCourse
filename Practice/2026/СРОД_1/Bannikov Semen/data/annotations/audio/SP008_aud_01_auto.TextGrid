@@ -1,0 +1,54 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.312
+tiers? <exists>
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "BirdCallSegment"
+        xmin = 0
+        xmax = 1.312
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0
+            xmax = 0.23
+            text = ""
+        intervals [2]:
+            xmin = 0.23
+            xmax = 0.7
+            text = "species_id=SP008;signal_type=song;overlap_flag=no"
+        intervals [3]:
+            xmin = 0.7
+            xmax = 1.312
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "BackgroundSound"
+        xmin = 0
+        xmax = 1.312
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0
+            xmax = 0.23
+            text = "type=background;intensity=unknown"
+        intervals [2]:
+            xmin = 0.23
+            xmax = 0.7
+            text = ""
+        intervals [3]:
+            xmin = 0.7
+            xmax = 1.312
+            text = "type=background;intensity=unknown"
+    item [3]:
+        class = "IntervalTier"
+        name = "Meta"
+        xmin = 0
+        xmax = 1.312
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0
+            xmax = 1.312
+            text = "quality=auto_generated_energy"

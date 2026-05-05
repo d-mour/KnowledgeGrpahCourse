@@ -1,0 +1,18 @@
+#  Какие есть персонажи, которым бы
+# подошло оружие «Staff of Homa» и при этом
+# они бы имели тип атаки «крио»?
+
+PREFIX ex:  <http://example.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT ?char ?charName
+WHERE {
+    ?weapon rdf:type ex:Weapon ;
+    ex:name ?weaponName .
+    FILTER(LCASE(STR(?weaponName)) = "staff_of_homa")
+    ?char rdf:type ex:Character ;
+    ex:name ?charName ;
+    ex:Character_Element ex:cryo .
+    VALUES ?weaponProp { ex:Character_Best_Weapon ex:Character_Addition_Weapons }
+    ?char ?weaponProp ?weapon .
+}
+ORDER BY ?charName

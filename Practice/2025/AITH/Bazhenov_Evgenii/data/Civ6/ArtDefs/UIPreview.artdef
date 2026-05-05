@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>178</build>
+		<revision>824</revision>
+	</m_Version>
+	<m_TemplateName text="UIPreview"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="PreviewCams"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..Coord3DValue">
+							<m_x>50.000000</m_x>
+							<m_y>-50.000000</m_y>
+							<m_z>50.000000</m_z>
+							<m_ParamName text="Eye"/>
+						</Element>
+						<Element class="AssetObjects..Coord3DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_z>5.000000</m_z>
+							<m_ParamName text="At"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>20.000000</m_fValue>
+							<m_ParamName text="FOV"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Default"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..Coord3DValue">
+							<m_x>50.000000</m_x>
+							<m_y>-50.000000</m_y>
+							<m_z>50.000000</m_z>
+							<m_ParamName text="Eye"/>
+						</Element>
+						<Element class="AssetObjects..Coord3DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_z>5.000000</m_z>
+							<m_ParamName text="At"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>20.000000</m_fValue>
+							<m_ParamName text="FOV"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNIT_WARRIOR"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..Coord3DValue">
+							<m_x>50.000000</m_x>
+							<m_y>-50.000000</m_y>
+							<m_z>50.000000</m_z>
+							<m_ParamName text="Eye"/>
+						</Element>
+						<Element class="AssetObjects..Coord3DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_z>0.000000</m_z>
+							<m_ParamName text="At"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>60.000000</m_fValue>
+							<m_ParamName text="FOV"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNIT_ANTIAIR_TUN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..Coord3DValue">
+							<m_x>50.000000</m_x>
+							<m_y>-50.000000</m_y>
+							<m_z>50.000000</m_z>
+							<m_ParamName text="Eye"/>
+						</Element>
+						<Element class="AssetObjects..Coord3DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_z>0.000000</m_z>
+							<m_ParamName text="At"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>60.000000</m_fValue>
+							<m_ParamName text="FOV"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNIT_AMERICAN_P51"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/root/ontologies/2025/0/dota2/"
+     xml:base="http://www.semanticweb.org/root/ontologies/2025/0/dota2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#bestVersus -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#bestVersus">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#buysItem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#buysItem">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#item"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#hasRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hasRole">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#role"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#relativeTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#relativeTo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero_attack_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero_attack_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#item_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#item_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#item"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#role_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#role_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#role"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#agile_hero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#agile_hero">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#intellectual_hero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#intellectual_hero">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#item -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#item"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#strong_hero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#strong_hero">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2025/0/dota2#universal_hero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2025/0/dota2#universal_hero">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

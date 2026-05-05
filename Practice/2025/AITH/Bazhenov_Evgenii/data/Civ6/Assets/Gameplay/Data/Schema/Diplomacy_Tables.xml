@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+	<Table name="DiplomacyStatements">
+		<Column name="Type" type="text" notnull="true" unique="false" primarykey="true"/>
+		<Column name="SubType" type="text" notnull="true" unique="false" primarykey="true"/>
+		<Column name="Initiator" type="text" notnull="true" unique="false" primarykey="true"/>
+		<Column name="Leader" type="text" notnull="true" unique="false" primarykey="true"/>
+		<Column name="Mood" type="text" notnull="true" unique="false" primarykey="true"/>
+		<Column name="StatementText" type="text" unique="false"/>
+    <Column name="ReasonText" type="text" unique="false" />
+		<Column name="LeaderAnimation" type="text" unique="false"/>
+		<Column name="SceneEffect" type="text" unique="false"/>
+		<Column name="Selections" type="text" unique="false"/>
+	</Table>
+
+	<Table name="DiplomacySelections">
+		<Column name="Type" type="text" notnull="true" unique="false" primarykey="true"/>
+		<Column name="Leader" type="text" notnull="true" unique="false" primarykey="true"/>
+		<Column name="Mood" type="text" notnull="true" unique="false"/>
+		<Column name="Sort" type="integer" default="0"/>
+		<Column name="Key" type="text" notnull="true" unique="false" primarykey="true"/>
+		<Column name="Text" type="text" notnull="true" unique="false"/>
+    <Column name="Tooltip" type="text" default="" unique="false"/>
+    <Column name="DiplomaticActionType" type="text" unique="false"/>
+	</Table>
+
+	<Table name="DiplomacyMoodTypes">
+		<Column name="Type" type="text" primarykey="true" notnull="true" unique="true"/>
+	</Table>
+
+	<Table name="DiplomacyStatementTypes">
+		<Column name="Type" type="text" primarykey="true" notnull="true" unique="true"/>
+	</Table>
+
+	<Table name="DiplomacyStatementSubTypes">
+		<Column name="Type" type="text" primarykey="true" notnull="true" unique="true"/>
+	</Table>
+</GameData>

@@ -1,0 +1,642 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/ingredient/ingredient_328> a ns1:Ingredient ;
+    ns1:alternateName "говядина" ;
+    ns1:identifier 328 ;
+    ns1:name "Говядина" .
+
+<http://example.org/ingredient/ingredient_330> a ns1:Ingredient ;
+    ns1:alternateName "морковь" ;
+    ns1:identifier 330 ;
+    ns1:name "Морковь" .
+
+<http://example.org/ingredient/ingredient_339> a ns1:Ingredient ;
+    ns1:alternateName "зелень" ;
+    ns1:identifier 36,
+        339 ;
+    ns1:name "Зелень" .
+
+<http://example.org/step/step_500> a ns1:HowToStep ;
+    ns1:image "./sources/35/2.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 2:" ;
+    ns1:position 2 ;
+    ns1:text "Нарежьте мясо ка куски среднего размера." .
+
+<http://example.org/step/step_519> a ns1:HowToStep ;
+    ns1:image "./sources/36/7.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 7:" ;
+    ns1:position 7 ;
+    ns1:text "Поставьте чистую сковороду на огонь." .
+
+<http://example.org/timecode/timecode_499> a ns1:TimeCode ;
+    ns1:endTime 3 ;
+    ns1:endTimeStr "00:00:03" ;
+    ns1:forStep <http://example.org/step/step_499> ;
+    ns1:startTime 0 ;
+    ns1:startTimeStr "00:00:00" .
+
+<http://example.org/timecode/timecode_501> a ns1:TimeCode ;
+    ns1:endTime 28 ;
+    ns1:endTimeStr "00:00:28" ;
+    ns1:forStep <http://example.org/step/step_501> ;
+    ns1:startTime 3 ;
+    ns1:startTimeStr "00:00:03" .
+
+<http://example.org/timecode/timecode_502> a ns1:TimeCode ;
+    ns1:endTime 24 ;
+    ns1:endTimeStr "00:00:24" ;
+    ns1:forStep <http://example.org/step/step_502> ;
+    ns1:startTime 22 ;
+    ns1:startTimeStr "00:00:22" .
+
+<http://example.org/timecode/timecode_503> a ns1:TimeCode ;
+    ns1:endTime 32 ;
+    ns1:endTimeStr "00:00:32" ;
+    ns1:forStep <http://example.org/step/step_503> ;
+    ns1:startTime 24 ;
+    ns1:startTimeStr "00:00:24" .
+
+<http://example.org/timecode/timecode_504> a ns1:TimeCode ;
+    ns1:endTime 37 ;
+    ns1:endTimeStr "00:00:37" ;
+    ns1:forStep <http://example.org/step/step_504> ;
+    ns1:startTime 32 ;
+    ns1:startTimeStr "00:00:32" .
+
+<http://example.org/timecode/timecode_505> a ns1:TimeCode ;
+    ns1:endTime 55 ;
+    ns1:endTimeStr "00:00:55" ;
+    ns1:forStep <http://example.org/step/step_505> ;
+    ns1:startTime 37 ;
+    ns1:startTimeStr "00:00:37" .
+
+<http://example.org/timecode/timecode_506> a ns1:TimeCode ;
+    ns1:endTime 60 ;
+    ns1:endTimeStr "00:01:00" ;
+    ns1:forStep <http://example.org/step/step_506> ;
+    ns1:startTime 56 ;
+    ns1:startTimeStr "00:00:56" .
+
+<http://example.org/timecode/timecode_507> a ns1:TimeCode ;
+    ns1:endTime 70 ;
+    ns1:endTimeStr "00:01:10" ;
+    ns1:forStep <http://example.org/step/step_507> ;
+    ns1:startTime 60 ;
+    ns1:startTimeStr "00:01:00" .
+
+<http://example.org/timecode/timecode_508> a ns1:TimeCode ;
+    ns1:endTime 74 ;
+    ns1:endTimeStr "00:01:14" ;
+    ns1:forStep <http://example.org/step/step_508> ;
+    ns1:startTime 70 ;
+    ns1:startTimeStr "00:01:10" .
+
+<http://example.org/timecode/timecode_509> a ns1:TimeCode ;
+    ns1:endTime 77 ;
+    ns1:endTimeStr "00:01:17" ;
+    ns1:forStep <http://example.org/step/step_509> ;
+    ns1:startTime 74 ;
+    ns1:startTimeStr "00:01:14" .
+
+<http://example.org/timecode/timecode_510> a ns1:TimeCode ;
+    ns1:endTime 97 ;
+    ns1:endTimeStr "00:01:37" ;
+    ns1:forStep <http://example.org/step/step_510> ;
+    ns1:startTime 77 ;
+    ns1:startTimeStr "00:01:17" .
+
+<http://example.org/timecode/timecode_511> a ns1:TimeCode ;
+    ns1:endTime 120 ;
+    ns1:endTimeStr "00:02:00" ;
+    ns1:forStep <http://example.org/step/step_511> ;
+    ns1:startTime 97 ;
+    ns1:startTimeStr "00:01:37" .
+
+<http://example.org/timecode/timecode_512> a ns1:TimeCode ;
+    ns1:endTime 148 ;
+    ns1:endTimeStr "00:02:28" ;
+    ns1:forStep <http://example.org/step/step_512> ;
+    ns1:startTime 120 ;
+    ns1:startTimeStr "00:02:00" .
+
+<http://example.org/timecode/timecode_513> a ns1:TimeCode ;
+    ns1:endTime 14 ;
+    ns1:endTimeStr "00:00:14" ;
+    ns1:forStep <http://example.org/step/step_513> ;
+    ns1:startTime 0 ;
+    ns1:startTimeStr "00:00:00" .
+
+<http://example.org/timecode/timecode_514> a ns1:TimeCode ;
+    ns1:endTime 19 ;
+    ns1:endTimeStr "00:00:19" ;
+    ns1:forStep <http://example.org/step/step_514> ;
+    ns1:startTime 14 ;
+    ns1:startTimeStr "00:00:14" .
+
+<http://example.org/timecode/timecode_515> a ns1:TimeCode ;
+    ns1:endTime 30 ;
+    ns1:endTimeStr "00:00:30" ;
+    ns1:forStep <http://example.org/step/step_515> ;
+    ns1:startTime 19 ;
+    ns1:startTimeStr "00:00:19" .
+
+<http://example.org/timecode/timecode_516> a ns1:TimeCode ;
+    ns1:endTime 46 ;
+    ns1:endTimeStr "00:00:46" ;
+    ns1:forStep <http://example.org/step/step_516> ;
+    ns1:startTime 30 ;
+    ns1:startTimeStr "00:00:30" .
+
+<http://example.org/timecode/timecode_517> a ns1:TimeCode ;
+    ns1:endTime 55 ;
+    ns1:endTimeStr "00:00:55" ;
+    ns1:forStep <http://example.org/step/step_517> ;
+    ns1:startTime 46 ;
+    ns1:startTimeStr "00:00:46" .
+
+<http://example.org/timecode/timecode_518> a ns1:TimeCode ;
+    ns1:endTime 64 ;
+    ns1:endTimeStr "00:01:04" ;
+    ns1:forStep <http://example.org/step/step_518> ;
+    ns1:startTime 55 ;
+    ns1:startTimeStr "00:00:55" .
+
+<http://example.org/timecode/timecode_520> a ns1:TimeCode ;
+    ns1:endTime 76 ;
+    ns1:endTimeStr "00:01:16" ;
+    ns1:forStep <http://example.org/step/step_520> ;
+    ns1:startTime 64 ;
+    ns1:startTimeStr "00:01:04" .
+
+<http://example.org/timecode/timecode_521> a ns1:TimeCode ;
+    ns1:endTime 77 ;
+    ns1:endTimeStr "00:01:17" ;
+    ns1:forStep <http://example.org/step/step_521> ;
+    ns1:startTime 76 ;
+    ns1:startTimeStr "00:01:16" .
+
+<http://example.org/timecode/timecode_522> a ns1:TimeCode ;
+    ns1:endTime 82 ;
+    ns1:endTimeStr "00:01:22" ;
+    ns1:forStep <http://example.org/step/step_522> ;
+    ns1:startTime 77 ;
+    ns1:startTimeStr "00:01:17" .
+
+<http://example.org/timecode/timecode_523> a ns1:TimeCode ;
+    ns1:endTime 96 ;
+    ns1:endTimeStr "00:01:36" ;
+    ns1:forStep <http://example.org/step/step_523> ;
+    ns1:startTime 82 ;
+    ns1:startTimeStr "00:01:22" .
+
+<http://example.org/timecode/timecode_524> a ns1:TimeCode ;
+    ns1:endTime 104 ;
+    ns1:endTimeStr "00:01:44" ;
+    ns1:forStep <http://example.org/step/step_524> ;
+    ns1:startTime 96 ;
+    ns1:startTimeStr "00:01:36" .
+
+<http://example.org/timecode/timecode_525> a ns1:TimeCode ;
+    ns1:endTime 114 ;
+    ns1:endTimeStr "00:01:54" ;
+    ns1:forStep <http://example.org/step/step_525> ;
+    ns1:startTime 104 ;
+    ns1:startTimeStr "00:01:44" .
+
+<http://example.org/timecode/timecode_526> a ns1:TimeCode ;
+    ns1:endTime 118 ;
+    ns1:endTimeStr "00:01:58" ;
+    ns1:forStep <http://example.org/step/step_526> ;
+    ns1:startTime 114 ;
+    ns1:startTimeStr "00:01:54" .
+
+<http://example.org/timecode/timecode_527> a ns1:TimeCode ;
+    ns1:endTime 121 ;
+    ns1:endTimeStr "00:02:01" ;
+    ns1:forStep <http://example.org/step/step_527> ;
+    ns1:startTime 118 ;
+    ns1:startTimeStr "00:01:58" .
+
+<http://example.org/timecode/timecode_528> a ns1:TimeCode ;
+    ns1:endTime 154 ;
+    ns1:endTimeStr "00:02:34" ;
+    ns1:forStep <http://example.org/step/step_528> ;
+    ns1:startTime 121 ;
+    ns1:startTimeStr "00:02:01" .
+
+<http://example.org/ingredient/ingredient_331> a ns1:Ingredient ;
+    ns1:alternateName "паста" ;
+    ns1:identifier 331 ;
+    ns1:name "Томатная паста" .
+
+<http://example.org/ingredient/ingredient_332> a ns1:Ingredient ;
+    ns1:alternateName "вода" ;
+    ns1:identifier 332 ;
+    ns1:name "Вода" .
+
+<http://example.org/ingredient/ingredient_333> a ns1:Ingredient ;
+    ns1:alternateName "соль" ;
+    ns1:identifier 333 ;
+    ns1:name "Соль" .
+
+<http://example.org/ingredient/ingredient_338> a ns1:Ingredient ;
+    ns1:alternateName "капуста" ;
+    ns1:identifier 338 ;
+    ns1:name "Капуста" .
+
+<http://example.org/ingredient/ingredient_340> a ns1:Ingredient ;
+    ns1:alternateName "укроп" ;
+    ns1:identifier 340 ;
+    ns1:name "Свежий укроп" .
+
+<http://example.org/step/step_499> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_499> ;
+    ns1:image "./sources/35/1.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 1:" ;
+    ns1:position 1 ;
+    ns1:supply <http://example.org/ingredient/ingredient_327> ;
+    ns1:text "Залейте растительное масло на дно кастрюли." .
+
+<http://example.org/step/step_501> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_501> ;
+    ns1:image "./sources/35/3.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 3:" ;
+    ns1:position 3 ;
+    ns1:supply <http://example.org/ingredient/ingredient_327> ;
+    ns1:text "Выложите мясо в разогретое масло, обжарьте до потемнения." .
+
+<http://example.org/step/step_502> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_502> ;
+    ns1:image "./sources/35/4.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 4:" ;
+    ns1:position 4 ;
+    ns1:supply <http://example.org/ingredient/ingredient_329> ;
+    ns1:text "Нарежьте лук и добавьте его в кастрюлю к мясу." .
+
+<http://example.org/step/step_503> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_503> ;
+    ns1:image "./sources/35/5.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 5:" ;
+    ns1:position 5 ;
+    ns1:supply <http://example.org/ingredient/ingredient_329> ;
+    ns1:text "Нарежьте морковку на полоски и выложите к луку. Перемешайте." .
+
+<http://example.org/step/step_504> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_504> ;
+    ns1:image "./sources/35/6.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 6:" ;
+    ns1:position 6 ;
+    ns1:supply <http://example.org/ingredient/ingredient_331>,
+        <http://example.org/ingredient/ingredient_332> ;
+    ns1:text "Смешайте томатную пасту с водой, перемешайте и залейте в кастрюлю." .
+
+<http://example.org/step/step_505> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_505> ;
+    ns1:image "./sources/35/7.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 7:" ;
+    ns1:position 7 ;
+    ns1:supply <http://example.org/ingredient/ingredient_334> ;
+    ns1:text "Отварите фасоль и добавьте в кастрюлю. Посолите." .
+
+<http://example.org/step/step_506> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_506> ;
+    ns1:image "./sources/35/8.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 8:" ;
+    ns1:position 8 ;
+    ns1:supply <http://example.org/ingredient/ingredient_334>,
+        <http://example.org/ingredient/ingredient_335> ;
+    ns1:text "Нарежьте болгарский перец и высыпьте поверх фасоли." .
+
+<http://example.org/step/step_507> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_507> ;
+    ns1:image "./sources/35/9.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 9:" ;
+    ns1:position 9 ;
+    ns1:supply <http://example.org/ingredient/ingredient_336> ;
+    ns1:text "Очистите и нарежьте картофель на произвольные куски размером примерно с куски мяса, добавьте в кастрюлю." .
+
+<http://example.org/step/step_508> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_508> ;
+    ns1:image "./sources/35/10.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 10:" ;
+    ns1:position 10 ;
+    ns1:supply <http://example.org/ingredient/ingredient_335> ;
+    ns1:text "Добавьте специи, которые предпочитаете. Например, кумин, паприку, черный перец, хмели-сунели, карри." .
+
+<http://example.org/step/step_509> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_509> ;
+    ns1:image "./sources/35/11.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 11:" ;
+    ns1:position 11 ;
+    ns1:supply <http://example.org/ingredient/ingredient_337> ;
+    ns1:text "Крупно нарежьте чеснок и добавьте в кастрюлю." .
+
+<http://example.org/step/step_510> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_510> ;
+    ns1:image "./sources/35/12.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 12:" ;
+    ns1:position 12 ;
+    ns1:supply <http://example.org/ingredient/ingredient_336>,
+        <http://example.org/ingredient/ingredient_337>,
+        <http://example.org/ingredient/ingredient_338> ;
+    ns1:text "Нарежьте капусту на квадратные кусочки, не мелко.  Добавьте капусту поверх слоя картофеля, чеснока и специй. Посолите сверху." .
+
+<http://example.org/step/step_511> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_511> ;
+    ns1:image "./sources/35/13.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 13:" ;
+    ns1:position 13 ;
+    ns1:text "Накройте кастрюлю крышкой и тушите 40 минут на огне ниже среднего." .
+
+<http://example.org/step/step_512> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_512> ;
+    ns1:image "./sources/35/14.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_35> ;
+    ns1:name "Шаг 14:" ;
+    ns1:position 14 ;
+    ns1:text "Перемешайте. Мясо не следует обжаривать слишком долго, иначе можно его пересушить, достаточно добиться легкой корочки. Овощи для дымлямы должны быть нарезаны крупно, чтобы они не превратились к концу готовки в неаппетитное месиво. Овощи следует выкладывать слоями, не перемешивая до полной готовности блюда." .
+
+<http://example.org/step/step_513> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_513> ;
+    ns1:image "./sources/36/1.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 1:" ;
+    ns1:position 1 ;
+    ns1:supply <http://example.org/ingredient/ingredient_343> ;
+    ns1:text "Выложите филе на доску, кожей вниз, равномерно посолите и поперчите." .
+
+<http://example.org/step/step_514> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_514> ;
+    ns1:image "./sources/36/2.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 2:" ;
+    ns1:position 2 ;
+    ns1:supply <http://example.org/ingredient/ingredient_342>,
+        <http://example.org/ingredient/ingredient_343> ;
+    ns1:text "Посыпьте филе кукурузным крахмалом." .
+
+<http://example.org/step/step_515> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_515> ;
+    ns1:image "./sources/36/3.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 3:" ;
+    ns1:position 3 ;
+    ns1:supply <http://example.org/ingredient/ingredient_342>,
+        <http://example.org/ingredient/ingredient_343> ;
+    ns1:text "Переверните филе кожей вверх, посолите, поперчите и добавьте крахмал поверх кожи." .
+
+<http://example.org/step/step_516> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_516> ;
+    ns1:image "./sources/36/4.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 4:" ;
+    ns1:position 4 ;
+    ns1:supply <http://example.org/ingredient/ingredient_327>,
+        <http://example.org/ingredient/ingredient_343> ;
+    ns1:text "Нагрейте сковороду, налейте в нее растительное масло, выложите филе лосося на сковороду кожей вниз и обжаривайте 4 минуты на среднем огне." .
+
+<http://example.org/step/step_517> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_517> ;
+    ns1:image "./sources/36/5.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 5:" ;
+    ns1:position 5 ;
+    ns1:supply <http://example.org/ingredient/ingredient_343> ;
+    ns1:text "Переверните филе и обжаривайте еще 4 минуты." .
+
+<http://example.org/step/step_518> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_518> ;
+    ns1:image "./sources/36/6.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 6:" ;
+    ns1:position 6 ;
+    ns1:supply <http://example.org/ingredient/ingredient_343> ;
+    ns1:text "Переверните филе обратно на кожу и уберите со сковороды." .
+
+<http://example.org/step/step_520> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_520> ;
+    ns1:image "./sources/36/8.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 8:" ;
+    ns1:position 8 ;
+    ns1:supply <http://example.org/ingredient/ingredient_327>,
+        <http://example.org/ingredient/ingredient_337> ;
+    ns1:text "Очень мелко накрошите чеснок или раздавите в прессе для чеснока. Положите в сковороду сливочное масло и нарезанный чеснок." .
+
+<http://example.org/step/step_521> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_521> ;
+    ns1:image "./sources/36/9.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 9:" ;
+    ns1:position 9 ;
+    ns1:supply <http://example.org/ingredient/ingredient_337> ;
+    ns1:text "Обжарьте чеснок на слабом огне." .
+
+<http://example.org/step/step_522> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_522> ;
+    ns1:image "./sources/36/10.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 10:" ;
+    ns1:position 10 ;
+    ns1:supply <http://example.org/ingredient/ingredient_327>,
+        <http://example.org/ingredient/ingredient_344> ;
+    ns1:text "Добавьте в масло пшеничную муку и перемешайте, растворив муку в масле." .
+
+<http://example.org/step/step_523> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_523> ;
+    ns1:image "./sources/36/11.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 11:" ;
+    ns1:position 11 ;
+    ns1:supply <http://example.org/ingredient/ingredient_345> ;
+    ns1:text "Добавьте в сковороду сливки, перемешайте  и готовьте на слабом огне постоянно помешивая." .
+
+<http://example.org/step/step_524> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_524> ;
+    ns1:image "./sources/36/12.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 12:" ;
+    ns1:position 12 ;
+    ns1:supply <http://example.org/ingredient/ingredient_341> ;
+    ns1:text "Добавьте цедру лимона и перемешайте." .
+
+<http://example.org/step/step_525> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_525> ;
+    ns1:image "./sources/36/13.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 13:" ;
+    ns1:position 13 ;
+    ns1:supply <http://example.org/ingredient/ingredient_340>,
+        <http://example.org/ingredient/ingredient_345> ;
+    ns1:text "Накрошите свежий укроп. Когда сливки вскипят, добавьте укроп и перемешайте." .
+
+<http://example.org/step/step_526> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_526> ;
+    ns1:image "./sources/36/14.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 14:" ;
+    ns1:position 14 ;
+    ns1:supply <http://example.org/ingredient/ingredient_345> ;
+    ns1:text "Добавьте к сливкам лимонный сок и перемешайте." .
+
+<http://example.org/step/step_527> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_527> ;
+    ns1:image "./sources/36/15.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 15:" ;
+    ns1:position 15 ;
+    ns1:supply <http://example.org/ingredient/ingredient_343> ;
+    ns1:text "Дождитесь лёгкого загустения и переложите в сковороду филе кожей вниз." .
+
+<http://example.org/step/step_528> a ns1:HowToStep ;
+    ns1:hasTimeCode <http://example.org/timecode/timecode_528> ;
+    ns1:image "./sources/36/16.png" ;
+    ns1:isPartOf <http://example.org/recipe/recipe_36> ;
+    ns1:name "Шаг 16:" ;
+    ns1:position 16 ;
+    ns1:supply <http://example.org/ingredient/ingredient_341>,
+        <http://example.org/ingredient/ingredient_343>,
+        <http://example.org/ingredient/ingredient_344>,
+        <http://example.org/ingredient/ingredient_345> ;
+    ns1:text "Готовьте филе в соусе 1 минуту на слабом огне. Натирая цедру лимона не используйте белую часть цедры. Она горькая и только испортит блюдо. Используйте только жёлтую, внешнюю цедру лимона. Сливки в сковороду следует добавлять только после полного растворения муки, после исчезновения всех комков. После закипания сливок можно сразу выключить огонь, они загустеют при этой температуре и не будут присыхать или пригорать к сковороде. Если вы используете менее жирные сливки, добавьте больше муки, если более жирные - то муки можно взять меньше." .
+
+<http://example.org/ingredient/ingredient_329> a ns1:Ingredient ;
+    ns1:alternateName "лук" ;
+    ns1:identifier 329 ;
+    ns1:name "Лук" .
+
+<http://example.org/ingredient/ingredient_334> a ns1:Ingredient ;
+    ns1:alternateName "фасоль" ;
+    ns1:identifier 334 ;
+    ns1:name "Фасоль консервированная" .
+
+<http://example.org/ingredient/ingredient_336> a ns1:Ingredient ;
+    ns1:alternateName "картофель" ;
+    ns1:identifier 336 ;
+    ns1:name "Картофель" .
+
+<http://example.org/ingredient/ingredient_341> a ns1:Ingredient ;
+    ns1:alternateName "лимон" ;
+    ns1:identifier 341 ;
+    ns1:name "Лимон" .
+
+<http://example.org/ingredient/ingredient_342> a ns1:Ingredient ;
+    ns1:alternateName "крахмал" ;
+    ns1:identifier 342 ;
+    ns1:name "Кукурузный крахмал" .
+
+<http://example.org/ingredient/ingredient_344> a ns1:Ingredient ;
+    ns1:alternateName "мука" ;
+    ns1:identifier 344 ;
+    ns1:name "Пшеничная мука" .
+
+<http://example.org/ingredient/ingredient_335> a ns1:Ingredient ;
+    ns1:alternateName "перец" ;
+    ns1:identifier 335 ;
+    ns1:name "Болгарский перец" .
+
+<http://example.org/ingredient/ingredient_345> a ns1:Ingredient ;
+    ns1:alternateName "сливка" ;
+    ns1:identifier 35,
+        345 ;
+    ns1:name "Сливки 23%" .
+
+<http://example.org/ingredient/ingredient_337> a ns1:Ingredient ;
+    ns1:alternateName "чеснок" ;
+    ns1:identifier 337 ;
+    ns1:name "Чеснок" .
+
+<http://example.org/ingredient/ingredient_327> a ns1:Ingredient ;
+    ns1:alternateName "масло" ;
+    ns1:identifier 327 ;
+    ns1:name "Растительное масло" .
+
+<http://example.org/ingredient/ingredient_343> a ns1:Ingredient ;
+    ns1:alternateName "филе" ;
+    ns1:identifier 343 ;
+    ns1:name "Лосось, филе на коже" .
+
+<http://example.org/recipe/recipe_35> a ns1:Recipe ;
+    ns1:name "*" ;
+    ns1:recipeIngredient <http://example.org/ingredient/ingredient_327>,
+        <http://example.org/ingredient/ingredient_328>,
+        <http://example.org/ingredient/ingredient_329>,
+        <http://example.org/ingredient/ingredient_330>,
+        <http://example.org/ingredient/ingredient_331>,
+        <http://example.org/ingredient/ingredient_332>,
+        <http://example.org/ingredient/ingredient_333>,
+        <http://example.org/ingredient/ingredient_334>,
+        <http://example.org/ingredient/ingredient_335>,
+        <http://example.org/ingredient/ingredient_336>,
+        <http://example.org/ingredient/ingredient_337>,
+        <http://example.org/ingredient/ingredient_338>,
+        <http://example.org/ingredient/ingredient_339> ;
+    ns1:recipeInstructions <http://example.org/step/step_499>,
+        <http://example.org/step/step_500>,
+        <http://example.org/step/step_501>,
+        <http://example.org/step/step_502>,
+        <http://example.org/step/step_503>,
+        <http://example.org/step/step_504>,
+        <http://example.org/step/step_505>,
+        <http://example.org/step/step_506>,
+        <http://example.org/step/step_507>,
+        <http://example.org/step/step_508>,
+        <http://example.org/step/step_509>,
+        <http://example.org/step/step_510>,
+        <http://example.org/step/step_511>,
+        <http://example.org/step/step_512> ;
+    ns1:recipeYield 13 ;
+    ns1:totalTime 14 ;
+    ns1:url "https://eda.video/uzbekskaia-dymliama" ;
+    ns1:video "./sources/35/vid__35.mp4",
+        "https://eda.video/storage/videos/hkaP4I0JwaXIWXT6CpZpBr3UkdNHgvkfrGIeZ0DX.mp4" .
+
+<http://example.org/recipe/recipe_36> a ns1:Recipe ;
+    ns1:name "*" ;
+    ns1:recipeIngredient <http://example.org/ingredient/ingredient_327>,
+        <http://example.org/ingredient/ingredient_333>,
+        <http://example.org/ingredient/ingredient_335>,
+        <http://example.org/ingredient/ingredient_337>,
+        <http://example.org/ingredient/ingredient_340>,
+        <http://example.org/ingredient/ingredient_341>,
+        <http://example.org/ingredient/ingredient_342>,
+        <http://example.org/ingredient/ingredient_343>,
+        <http://example.org/ingredient/ingredient_344>,
+        <http://example.org/ingredient/ingredient_345> ;
+    ns1:recipeInstructions <http://example.org/step/step_513>,
+        <http://example.org/step/step_514>,
+        <http://example.org/step/step_515>,
+        <http://example.org/step/step_516>,
+        <http://example.org/step/step_517>,
+        <http://example.org/step/step_518>,
+        <http://example.org/step/step_519>,
+        <http://example.org/step/step_520>,
+        <http://example.org/step/step_521>,
+        <http://example.org/step/step_522>,
+        <http://example.org/step/step_523>,
+        <http://example.org/step/step_524>,
+        <http://example.org/step/step_525>,
+        <http://example.org/step/step_526>,
+        <http://example.org/step/step_527>,
+        <http://example.org/step/step_528> ;
+    ns1:recipeYield 11 ;
+    ns1:totalTime 16 ;
+    ns1:url "https://eda.video/losos-v-slivocnom-souse-na-skovorode" ;
+    ns1:video "./sources/36/vid__36.mp4",
+        "https://eda.video/storage/videos/UKM8AEDfhQvwaHZ0CVsaXTL1HswLYSxPOephdbU8.mp4" .
+

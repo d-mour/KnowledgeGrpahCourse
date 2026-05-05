@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="VICTORY_NAPOLEON" Kind="KIND_VICTORY"/>
+	</Types>
+		
+	<Victories>
+		<Update>
+			<Set EnabledByDefault="0" />
+		</Update>
+		<Update>
+			<Where VictoryType="VICTORY_DEFAULT" />
+			<Set EnabledByDefault="1" />
+		</Update>
+		<Row VictoryType="VICTORY_NAPOLEON" Name="LOC_NAPOLEON_VICTORY_TITLE" Description="LOC_NAPOLEON_VICTORY_DESC" Blurb="LOC_NAPOLEON_VICTORY_WIN_BLURB" RequirementSetId="REQUIREMENTS_NAPOLEON_VICTORY"/>
+	</Victories>
+	
+	<!--  Disabling DEFEAT_TIME because it conflicts with the MAX_TURNS_REACHED requirement -->
+	<Defeats>
+		<Update>
+			<Where DefeatType="DEFEAT_TIME" />
+			<Set EnabledByDefault="0" />
+		</Update>
+	</Defeats>
+	
+	<!-- Shared Requirements -->
+	<Requirements>
+		<Row>
+			<!-- Scenario turn limit, add to victory requirementsets that should end the game after max turns. -->
+			<RequirementId>MAX_TURNS_REACHED</RequirementId>
+			<RequirementType>REQUIREMENT_GAME_TURN_MAX_REACHED</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementStrings>
+		<Row>
+			<RequirementId>MAX_TURNS_REACHED</RequirementId>
+			<Context>VictoryProgress</Context>
+			<Text>LOC_MAX_TURNS_REACHED_PROGRESS</Text>
+		</Row>
+	</RequirementStrings>
+
+	<!-- Napoleon Victory -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_NAPOLEON_VICTORY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_NAPOLEON_VICTORY</RequirementSetId>
+			<RequirementId>MAX_TURNS_REACHED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_NAPOLEON_VICTORY</RequirementSetId>
+			<RequirementId>VICTORY_TEAM_HAS_MOST_TERRITORY</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>VICTORY_TEAM_HAS_MOST_TERRITORY</RequirementId>
+			<RequirementType>REQUIREMENT_TEAM_HAS_MOST_TERRITORY</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementStrings>
+		<Row>
+			<RequirementId>VICTORY_TEAM_HAS_MOST_TERRITORY</RequirementId>
+			<Context>VictoryProgress</Context>
+			<Text>LOC_VICTORY_NAPOLEON_PROGRESS</Text>
+		</Row>
+	</RequirementStrings>
+
+	<!-- Rankings Table data -->
+	<HistoricRankings>
+		<!-- Clear out the original entries. -->
+		<Delete></Delete>
+		
+		<Row>
+			<HistoricLeader>LOC_NAPOLEON_ENDGAME_RANKING_LEADER_1_NAME</HistoricLeader>
+			<Quote>LOC_NAPOLEON_ENDGAME_RANKING_LEADER_QUOTE</Quote>
+			<Score>700</Score>
+		</Row>
+		<Row>
+			<HistoricLeader>LOC_NAPOLEON_ENDGAME_RANKING_LEADER_2_NAME</HistoricLeader>
+			<Quote>LOC_NAPOLEON_ENDGAME_RANKING_LEADER_QUOTE</Quote>
+			<Score>600</Score>
+		</Row>
+		<Row>
+			<HistoricLeader>LOC_NAPOLEON_ENDGAME_RANKING_LEADER_3_NAME</HistoricLeader>
+			<Quote>LOC_NAPOLEON_ENDGAME_RANKING_LEADER_QUOTE</Quote>
+			<Score>500</Score>
+		</Row>
+		<Row>
+			<HistoricLeader>LOC_NAPOLEON_ENDGAME_RANKING_LEADER_4_NAME</HistoricLeader>
+			<Quote>LOC_NAPOLEON_ENDGAME_RANKING_LEADER_QUOTE</Quote>
+			<Score>400</Score>
+		</Row>
+		<Row>
+			<HistoricLeader>LOC_NAPOLEON_ENDGAME_RANKING_LEADER_5_NAME</HistoricLeader>
+			<Quote>LOC_NAPOLEON_ENDGAME_RANKING_LEADER_QUOTE</Quote>
+			<Score>300</Score>
+		</Row>
+		<Row>
+			<HistoricLeader>LOC_NAPOLEON_ENDGAME_RANKING_LEADER_6_NAME</HistoricLeader>
+			<Quote>LOC_NAPOLEON_ENDGAME_RANKING_LEADER_QUOTE</Quote>
+			<Score>0</Score>
+		</Row>
+	</HistoricRankings>
+</GameInfo>
+

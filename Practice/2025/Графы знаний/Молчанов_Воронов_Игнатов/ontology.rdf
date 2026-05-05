@@ -1,0 +1,638 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale"
+     xmlns:cr="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#описание -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#описание"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#архетипИмеетТипАтаки -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#архетипИмеетТипАтаки">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АрхетипКолоды"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипАтаки"/>
+        <rdfs:label xml:lang="ru">архетип имеет тип атаки</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#атакуетТипЦели -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#атакуетТипЦели">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипЦели"/>
+        <rdfs:label xml:lang="ru">атакует тип цели</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#имеетНазначение -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#имеетНазначение">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#НазначениеКарты"/>
+        <rdfs:label xml:lang="ru">имеет назначение</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#имеетРольВКолоде -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#имеетРольВКолоде">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#РольВКолоде"/>
+        <rdfs:label xml:lang="ru">имеет роль в колоде</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#используетсяВ -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#используетсяВ">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АрхетипКолоды"/>
+        <rdfs:label xml:lang="ru">используется в</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ключеваяКартаДля -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ключеваяКартаДля">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#используетсяВ"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АрхетипКолоды"/>
+        <rdfs:label xml:lang="ru">ключевая карта для</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#контрит -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#контрит">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#являетсяКонтрКартойДля"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:label xml:lang="ru">контрит</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#обладаетТактическойВозможностью -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#обладаетТактическойВозможностью">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТактическаяВозможность"/>
+        <rdfs:label xml:lang="ru">обладает тактической возможностью</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#рекомендуемаяЗамена -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#рекомендуемаяЗамена">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:label xml:lang="ru">рекомендуемая замена</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#хорошоСинергируетС -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#хорошоСинергируетС">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:label xml:lang="ru">хорошо синергирует с</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#являетсяКонтрКартойДля -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#являетсяКонтрКартойДля">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:label xml:lang="ru">является контр-картой для</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#стоимостьЭликсира -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#стоимостьЭликсира">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="ru">стоимость эликсира</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АрхетипКолоды -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АрхетипКолоды">
+        <rdfs:label xml:lang="ru">Архетип Колоды</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Войско -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Войско">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:label xml:lang="ru">Войско</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Заклинание -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Заклинание">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:label xml:lang="ru">Заклинание</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Здание -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Здание">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта"/>
+        <rdfs:label xml:lang="ru">Здание</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ЗданиеСпаунер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ЗданиеСпаунер">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Здание"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ОборонительноеЗдание"/>
+        <rdfs:label xml:lang="ru">Здание-спаунер</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта">
+        <rdfs:label xml:lang="ru">Карта</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#НазначениеКарты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#НазначениеКарты">
+        <rdfs:label xml:lang="ru">Назначение Карты</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ОборонительноеЗдание -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ОборонительноеЗдание">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Здание"/>
+        <rdfs:label xml:lang="ru">Оборонительное Здание</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#РольВКолоде -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#РольВКолоде">
+        <rdfs:label xml:lang="ru">Роль в колоде</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТактическаяВозможность -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТактическаяВозможность">
+        <rdfs:label xml:lang="ru">Тактическая Возможность</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипАтаки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипАтаки">
+        <rdfs:label xml:lang="ru">Тип Атаки</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипЦели -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипЦели">
+        <rdfs:label xml:lang="ru">Тип Цели</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#HeavyBeatdown -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#HeavyBeatdown">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АрхетипКолоды"/>
+        <архетипИмеетТипАтаки rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТяжелаяАтака"/>
+        <rdfs:label xml:lang="ru">Тяжелый Beatdown</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#HogCycle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#HogCycle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АрхетипКолоды"/>
+        <rdfs:label xml:lang="ru">Hog Cycle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#LogBait -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#LogBait">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АрхетипКолоды"/>
+        <rdfs:label xml:lang="ru">Log Bait</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АдскаяБашня -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АдскаяБашня">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ОборонительноеЗдание"/>
+        <атакуетТипЦели rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#НаземныеИВоздушные"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Адская башня</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АрмияСкелетов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АрмияСкелетов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Войско"/>
+        <атакуетТипЦели rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Наземные"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Армия скелетов</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Воздушные -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Воздушные">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипЦели"/>
+        <rdfs:label xml:lang="ru">Воздушные</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ВоздушныйШар -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ВоздушныйШар">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Войско"/>
+        <атакуетТипЦели rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Здания"/>
+        <являетсяКонтрКартойДля rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АдскаяБашня"/>
+        <являетсяКонтрКартойДля rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ОрдаМиньонов"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Воздушный шар</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ВсадникНаКабане -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ВсадникНаКабане">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Войско"/>
+        <атакуетТипЦели rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Здания"/>
+        <ключеваяКартаДля rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#HogCycle"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Всадник на кабане</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ГоблинскаяБочка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ГоблинскаяБочка">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Заклинание"/>
+        <используетсяВ rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#LogBait"/>
+        <обладаетТактическойВозможностью rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ПрямойУронПоБашне"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Гоблинская бочка</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ГоблинскаяХижина -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ГоблинскаяХижина">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ЗданиеСпаунер"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Гоблинская хижина</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Заморозка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Заморозка">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Заклинание"/>
+        <имеетНазначение rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#КартаПоддержки"/>
+        <контрит rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АдскаяБашня"/>
+        <контрит rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ОрдаМиньонов"/>
+        <хорошоСинергируетС rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ВоздушныйШар"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Заморозка</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Защита -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Защита">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#НазначениеКарты"/>
+        <rdfs:label xml:lang="ru">Защита</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Здания -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Здания">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипЦели"/>
+        <rdfs:label xml:lang="ru">Здания</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#КартаПоддержки -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#КартаПоддержки">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#НазначениеКарты"/>
+        <rdfs:label xml:lang="ru">Карта поддержки</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#КонтрольТерритории -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#КонтрольТерритории">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТактическаяВозможность"/>
+        <rdfs:label xml:lang="ru">Контроль территории</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ЛедянойДух -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ЛедянойДух">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Войско"/>
+        <имеетНазначение rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Защита"/>
+        <имеетНазначение rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#УскорениеЦикла"/>
+        <используетсяВ rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#HogCycle"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Ледяной дух</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Мегаминьон -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Мегаминьон">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Войско"/>
+        <атакуетТипЦели rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#НаземныеИВоздушные"/>
+        <имеетРольВКолоде rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТанкПоддержки"/>
+        <рекомендуемаяЗамена rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Рыцарь"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Мегаминьон</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Наземные -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Наземные">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипЦели"/>
+        <rdfs:label xml:lang="ru">Наземные</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#НаземныеИВоздушные -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#НаземныеИВоздушные">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипЦели"/>
+        <rdfs:label xml:lang="ru">Наземные и Воздушные</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ОрдаМиньонов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ОрдаМиньонов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Войско"/>
+        <атакуетТипЦели rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#НаземныеИВоздушные"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Орда миньонов</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ПрямойУронПоБашне -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ПрямойУронПоБашне">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТактическаяВозможность"/>
+        <rdfs:label xml:lang="ru">Прямой урон по башне</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Пушка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Пушка">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ОборонительноеЗдание"/>
+        <атакуетТипЦели rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Наземные"/>
+        <имеетНазначение rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Защита"/>
+        <используетсяВ rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#HogCycle"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Пушка</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Разряд -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Разряд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Заклинание"/>
+        <имеетНазначение rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#КартаПоддержки"/>
+        <контрит rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АдскаяБашня"/>
+        <контрит rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ОрдаМиньонов"/>
+        <хорошоСинергируетС rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ВоздушныйШар"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Разряд</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Рыцарь -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Рыцарь">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Войско"/>
+        <атакуетТипЦели rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Наземные"/>
+        <имеетРольВКолоде rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТанкПоддержки"/>
+        <используетсяВ rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#LogBait"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Рыцарь</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#СборщикЭликсира -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#СборщикЭликсира">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Здание"/>
+        <используетсяВ rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#HeavyBeatdown"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Сборщик эликсира</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Скелеты -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Скелеты">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Войско"/>
+        <имеетНазначение rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Защита"/>
+        <имеетНазначение rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#УскорениеЦикла"/>
+        <используетсяВ rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#HogCycle"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Скелеты</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Стрелы -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Стрелы">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Заклинание"/>
+        <имеетНазначение rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#КартаПоддержки"/>
+        <контрит rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ОрдаМиньонов"/>
+        <хорошоСинергируетС rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ВоздушныйШар"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Стрелы</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТанкПоддержки -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТанкПоддержки">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#РольВКолоде"/>
+        <rdfs:label xml:lang="ru">Танк поддержки</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТяжелаяАтака -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТяжелаяАтака">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипАтаки"/>
+        <rdfs:label xml:lang="ru">Тяжелая атака (Beatdown)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#УскорениеЦикла -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#УскорениеЦикла">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#НазначениеКарты"/>
+        <rdfs:label xml:lang="ru">Ускорение цикла</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Шахтер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Шахтер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Войско"/>
+        <обладаетТактическойВозможностью rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#КонтрольТерритории"/>
+        <обладаетТактическойВозможностью rdf:resource="http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ПрямойУронПоБашне"/>
+        <стоимостьЭликсира rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</стоимостьЭликсира>
+        <rdfs:label xml:lang="ru">Шахтер</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

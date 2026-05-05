@@ -1,0 +1,857 @@
+pageType: unknown
+background:
+  type: solid
+  color: "#191919"
+elements:
+- elementId: shape0
+  elementType: shape
+  bounds: [40, 40, 40, 40]
+  opacity: 0.2
+  shapeName: custom
+  path: 381000,381000;M76200 0L304800 0C346856 0 381000 34144 381000 76200L381000 304800C381000 346856 346856 381000 304800 381000L76200 381000C34144 381000 0 346856 0 304800L0 76200C0 34144 34144 0 76200 0Z
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: shape1
+  elementType: shape
+  bounds: [54.81, 46, 19, 28]
+  shapeName: rect
+- elementId: text2
+  elementType: text
+  bounds: [45.21, 41.2, 38.2, 37.6]
+  content:
+    align: [left, middle]
+    fontSize: 18
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.3
+    text: |
+      <p><strong>5</strong></p>
+- elementId: shape3
+  elementType: shape
+  bounds: [92, 48, 100, 24]
+  shapeName: rect
+- elementId: text4
+  elementType: text
+  bounds: [82.4, 43.2, 119.2, 33.6]
+  content:
+    align: [left, middle]
+    fontSize: 16
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.3
+    letterSpacing: 0.8
+    text: |
+      <p><strong>Уровень 5</strong></p>
+- elementId: shape5
+  elementType: shape
+  bounds: [40, 92, 1218, 40]
+  shapeName: rect
+- elementId: text6
+  elementType: text
+  bounds: [30.4, 87.2, 1237.2, 49.6]
+  content:
+    align: [left, middle]
+    fontSize: 36
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 0.9
+    text: |
+      <p><strong>Семантический уровень: Интенты</strong></p>
+- elementId: shape7
+  elementType: shape
+  bounds: [40, 140, 1209, 28]
+  shapeName: rect
+- elementId: text8
+  elementType: text
+  bounds: [30.4, 135.2, 1228.2, 37.6]
+  content:
+    align: [left, middle]
+    fontSize: 18
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.3
+    text: Классификация намерений — ключевой для IoT
+- elementId: shape9
+  elementType: shape
+  bounds: [40.33, 184.33, 589.67, 421.67]
+  shapeName: custom
+  path: 5616575,4016375;M114306 0L5502269 0C5565398 0 5616575 51177 5616575 114306L5616575 3902069C5616575 3965198 5565398 4016375 5502269 4016375L114306 4016375C51177 4016375 0 3965198 0 3902069L0 114306C0 51219 51219 0 114306 0Z
+  fill:
+    type: solid
+    color: "#262626"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape10
+  elementType: shape
+  bounds: [63.17, 208.67, 20, 20]
+  shapeName: custom
+  path: 190500,190500;M71438 23812C71438 17227 76758 11906 83344 11906L107156 11906C113742 11906 119063 17227 119063 23812L119063 47625C119063 54211 113742 59531 107156 59531L104180 59531L104180 83344L148828 83344C163637 83344 175617 95324 175617 110133L175617 130969L178594 130969C185179 130969 190500 136289 190500 142875L190500 166688C190500 173273 185179 178594 178594 178594L154781 178594C148196 178594 142875 173273 142875 166688L142875 142875C142875 136289 148196 130969 154781 130969L157758 130969L157758 110133C157758 105184 153777 101203 148828 101203L104180 101203L104180 130969L107156 130969C113742 130969 119063 136289 119063 142875L119063 166688C119063 173273 113742 178594 107156 178594L83344 178594C76758 178594 71438 173273 71438 166688L71438 142875C71438 136289 76758 130969 83344 130969L86320 130969L86320 101203L41672 101203C36723 101203 32742 105184 32742 110133L32742 130969L35719 130969C42304 130969 47625 136289 47625 142875L47625 166688C47625 173273 42304 178594 35719 178594L11906 178594C5321 178594 0 173273 0 166688L0 142875C0 136289 5321 130969 11906 130969L14883 130969L14883 110133C14883 95324 26863 83344 41672 83344L86320 83344L86320 59531L83344 59531C76758 59531 71438 54211 71438 47625L71438 23812Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape11
+  elementType: shape
+  bounds: [85.67, 204.67, 534, 28]
+  shapeName: rect
+- elementId: text12
+  elementType: text
+  bounds: [76.07, 199.87, 553.2, 37.6]
+  content:
+    align: [left, middle]
+    fontSize: 20
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>Иерархия классов</strong></p>
+- elementId: shape13
+  elementType: shape
+  bounds: [61, 249, 547.67, 257.67]
+  shapeName: custom
+  path: 5216525,2454275;M76205 0L5140320 0C5182407 0 5216525 34118 5216525 76205L5216525 2378070C5216525 2420157 5182407 2454275 5140320 2454275L76205 2454275C34118 2454275 0 2420157 0 2378070L0 76205C0 34146 34146 0 76205 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape14
+  elementType: shape
+  bounds: [77.33, 265.33, 92, 20]
+  shapeName: rect
+- elementId: text15
+  elementType: text
+  bounds: [67.73, 260.53, 111.2, 29.6]
+  content:
+    align: [left, middle]
+    fontSize: 14
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: |
+      <p><strong>iot_command</strong></p>
+- elementId: shape16
+  elementType: shape
+  bounds: [106.83, 296.33, 7, 14]
+  shapeName: custom
+  path: 66675,133350;M64357 60789C67613 64044 67613 69332 64357 72587L22685 114259C19430 117515 14142 117515 10887 114259C7631 111003 7631 105716 10887 102461L46673 66675L10913 30889C7657 27634 7657 22347 10913 19091C14168 15835 19456 15835 22711 19091L64383 60763Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape17
+  elementType: shape
+  bounds: [126.83, 293.33, 98, 20]
+  shapeName: rect
+- elementId: text18
+  elementType: text
+  bounds: [117.23, 288.53, 117.2, 29.6]
+  content:
+    align: [left, middle]
+    fontSize: 14
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>device_control</strong></p>
+- elementId: shape19
+  elementType: shape
+  bounds: [125.33, 321.33, 230, 32]
+  opacity: 0.2
+  shapeName: custom
+  path: 2190750,304800;M38100 0L2152650 0C2173678 0 2190750 17072 2190750 38100L2190750 266700C2190750 287728 2173678 304800 2152650 304800L38100 304800C17072 304800 0 287728 0 266700L0 38100C0 17072 17072 0 38100 0Z
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: shape20
+  elementType: shape
+  bounds: [137.33, 329.33, 60.89, 16]
+  shapeName: rect
+- elementId: text21
+  elementType: text
+  bounds: [127.73, 324.53, 80.09, 25.6]
+  content:
+    align: [left, middle]
+    fontSize: 14
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: turn_on
+- elementId: shape22
+  elementType: shape
+  bounds: [363, 321.33, 230, 32]
+  opacity: 0.2
+  shapeName: custom
+  path: 2190750,304800;M38100 0L2152650 0C2173678 0 2190750 17072 2190750 38100L2190750 266700C2190750 287728 2173678 304800 2152650 304800L38100 304800C17072 304800 0 287728 0 266700L0 38100C0 17072 17072 0 38100 0Z
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: shape23
+  elementType: shape
+  bounds: [375, 329.33, 68.58, 16]
+  shapeName: rect
+- elementId: text24
+  elementType: text
+  bounds: [365.4, 324.53, 87.78, 25.6]
+  content:
+    align: [left, middle]
+    fontSize: 14
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: turn_off
+- elementId: shape25
+  elementType: shape
+  bounds: [125.33, 361.33, 230, 32]
+  opacity: 0.2
+  shapeName: custom
+  path: 2190750,304800;M38100 0L2152650 0C2173678 0 2190750 17072 2190750 38100L2190750 266700C2190750 287728 2173678 304800 2152650 304800L38100 304800C17072 304800 0 287728 0 266700L0 38100C0 17072 17072 0 38100 0Z
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: shape26
+  elementType: shape
+  bounds: [137.33, 369.33, 76.28, 16]
+  shapeName: rect
+- elementId: text27
+  elementType: text
+  bounds: [127.73, 364.53, 95.48, 25.6]
+  content:
+    align: [left, middle]
+    fontSize: 14
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: set_value
+- elementId: shape28
+  elementType: shape
+  bounds: [363, 361.33, 230, 32]
+  opacity: 0.2
+  shapeName: custom
+  path: 2190750,304800;M38100 0L2152650 0C2173678 0 2190750 17072 2190750 38100L2190750 266700C2190750 287728 2173678 304800 2152650 304800L38100 304800C17072 304800 0 287728 0 266700L0 38100C0 17072 17072 0 38100 0Z
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: shape29
+  elementType: shape
+  bounds: [375, 369.33, 91.68, 16]
+  shapeName: rect
+- elementId: text30
+  elementType: text
+  bounds: [365.4, 364.53, 110.88, 25.6]
+  content:
+    align: [left, middle]
+    fontSize: 14
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: change_mode
+- elementId: shape31
+  elementType: shape
+  bounds: [106.83, 404.33, 7, 14]
+  shapeName: custom
+  path: 66675,133350;M64357 60789C67613 64044 67613 69332 64357 72587L22685 114259C19430 117515 14142 117515 10887 114259C7631 111003 7631 105716 10887 102461L46673 66675L10913 30889C7657 27634 7657 22347 10913 19091C14168 15835 19456 15835 22711 19091L64383 60763Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape32
+  elementType: shape
+  bounds: [126.83, 401.33, 87, 20]
+  shapeName: rect
+- elementId: text33
+  elementType: text
+  bounds: [117.23, 396.53, 106.2, 29.6]
+  content:
+    align: [left, middle]
+    fontSize: 14
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>query_status</strong></p>
+- elementId: shape34
+  elementType: shape
+  bounds: [106.83, 432.33, 7, 14]
+  shapeName: custom
+  path: 66675,133350;M64357 60789C67613 64044 67613 69332 64357 72587L22685 114259C19430 117515 14142 117515 10887 114259C7631 111003 7631 105716 10887 102461L46673 66675L10913 30889C7657 27634 7657 22347 10913 19091C14168 15835 19456 15835 22711 19091L64383 60763Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape35
+  elementType: shape
+  bounds: [126.83, 429.33, 90, 20]
+  shapeName: rect
+- elementId: text36
+  elementType: text
+  bounds: [117.23, 424.53, 109.2, 29.6]
+  content:
+    align: [left, middle]
+    fontSize: 14
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>system_meta</strong></p>
+- elementId: shape37
+  elementType: shape
+  bounds: [125.67, 457.67, 149.67, 32.67]
+  shapeName: custom
+  path: 1425575,311150;M38100 0L1387475 0C1408517 0 1425575 17058 1425575 38100L1425575 273050C1425575 294092 1408517 311150 1387475 311150L38100 311150C17058 311150 0 294092 0 273050L0 38100C0 17072 17072 0 38100 0Z
+  fill:
+    type: solid
+    color: "#262626"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape38
+  elementType: shape
+  bounds: [134, 467.33, 45.59, 14.67]
+  shapeName: rect
+- elementId: text39
+  elementType: text
+  bounds: [124.4, 462.53, 64.79, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#8F8F8F"
+    lineHeight: 1.1
+    text: cancel
+- elementId: shape40
+  elementType: shape
+  bounds: [284.1, 457.67, 149.67, 32.67]
+  shapeName: custom
+  path: 1425575,311150;M38100 0L1387475 0C1408517 0 1425575 17058 1425575 38100L1425575 273050C1425575 294092 1408517 311150 1387475 311150L38100 311150C17058 311150 0 294092 0 273050L0 38100C0 17072 17072 0 38100 0Z
+  fill:
+    type: solid
+    color: "#262626"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape41
+  elementType: shape
+  bounds: [292.44, 467.33, 45.59, 14.67]
+  shapeName: rect
+- elementId: text42
+  elementType: text
+  bounds: [282.84, 462.53, 64.79, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#8F8F8F"
+    lineHeight: 1.1
+    text: repeat
+- elementId: shape43
+  elementType: shape
+  bounds: [442.55, 457.67, 149.67, 32.67]
+  shapeName: custom
+  path: 1425575,311150;M38100 0L1387475 0C1408517 0 1425575 17058 1425575 38100L1425575 273050C1425575 294092 1408517 311150 1387475 311150L38100 311150C17058 311150 0 294092 0 273050L0 38100C0 17072 17072 0 38100 0Z
+  fill:
+    type: solid
+    color: "#262626"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape44
+  elementType: shape
+  bounds: [450.89, 467.33, 32.4, 14.67]
+  shapeName: rect
+- elementId: text45
+  elementType: text
+  bounds: [441.29, 462.53, 51.6, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#8F8F8F"
+    lineHeight: 1.1
+    text: help
+- elementId: shape46
+  elementType: shape
+  bounds: [40.33, 623, 589.67, 56.67]
+  shapeName: custom
+  path: 5616575,539750;M114297 0L5502278 0C5565402 0 5616575 51173 5616575 114297L5616575 425453C5616575 488577 5565402 539750 5502278 539750L114297 539750C51173 539750 0 488577 0 425453L0 114297C0 51215 51215 0 114297 0Z
+  fill:
+    type: solid
+    color: "#262626"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape47
+  elementType: shape
+  bounds: [59.17, 641.33, 20, 20]
+  shapeName: custom
+  path: 190500,190500;M23812 35719C23812 29133 29133 23812 35719 23812L95250 23812C101836 23812 107156 29133 107156 35719L107156 142875L142875 142875L142875 95250C142875 88664 148196 83344 154781 83344L178594 83344C185179 83344 190500 88664 190500 95250C190500 101836 185179 107156 178594 107156L166688 107156L166688 154781C166688 161367 161367 166688 154781 166688L95250 166688C88664 166688 83344 161367 83344 154781L83344 47625L47625 47625L47625 95250C47625 101836 42304 107156 35719 107156L11906 107156C5321 107156 0 101836 0 95250C0 88664 5321 83344 11906 83344L23812 83344L23812 35719Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape48
+  elementType: shape
+  bounds: [93.67, 639.33, 303, 24]
+  shapeName: rect
+- elementId: text49
+  elementType: text
+  bounds: [84.07, 634.53, 322.2, 33.6]
+  content:
+    align: [left, middle]
+    fontSize: 16
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.3
+    text: |
+      <p><strong>Модальность:</strong><span style="color:#EFEFEF"> Текст + Аудио (просодия)</span></p>
+- elementId: shape50
+  elementType: shape
+  bounds: [650.33, 184.33, 589.67, 495.67]
+  shapeName: custom
+  path: 5616575,4721225;M114301 0L5502274 0C5565401 0 5616575 51174 5616575 114301L5616575 4606924C5616575 4670051 5565401 4721225 5502274 4721225L114301 4721225C51174 4721225 0 4670051 0 4606924L0 114301C0 51174 51174 0 114301 0Z
+  fill:
+    type: solid
+    color: "#262626"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape51
+  elementType: shape
+  bounds: [671.92, 208.67, 22.5, 20]
+  shapeName: custom
+  path: 214313,190500;M134243 446C127918 -1377 121332 2307 119509 8632L71884 175320C70061 181645 73744 188230 80070 190054C86395 191877 92980 188193 94804 181868L142429 15180C144252 8855 140568 2270 134243 446ZM158279 51085C153628 55736 153628 63289 158279 67940L185589 95250L158279 122560C153628 127211 153628 134764 158279 139415C162930 144066 170483 144066 175133 139415L210852 103696C215503 99045 215503 91492 210852 86841L175133 51122C170483 46472 162930 46472 158279 51122ZM56071 51085C51420 46434 43867 46434 39216 51085L3497 86804C-1153 91455 -1153 99008 3497 103659L39216 139378C43867 144028 51420 144028 56071 139378C60722 134727 60722 127174 56071 122523L28761 95250L56034 67940C60685 63289 60685 55736 56034 51085Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape52
+  elementType: shape
+  bounds: [695.67, 204.67, 534, 28]
+  shapeName: rect
+- elementId: text53
+  elementType: text
+  bounds: [686.07, 199.87, 553.2, 37.6]
+  content:
+    align: [left, middle]
+    fontSize: 20
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>Пример разметки (JSON)</strong></p>
+- elementId: shape54
+  elementType: shape
+  bounds: [671, 249, 547.67, 328.67]
+  shapeName: custom
+  path: 5216525,3130550;M76198 0L5140327 0C5182382 0 5216525 34143 5216525 76198L5216525 3054352C5216525 3096407 5182382 3130550 5140327 3130550L76198 3130550C34143 3130550 0 3096407 0 3054352L0 76198C0 34143 34143 0 76198 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape55
+  elementType: shape
+  bounds: [691.33, 270, 12.6, 14.67]
+  shapeName: rect
+- elementId: text56
+  elementType: text
+  bounds: [681.73, 265.2, 31.8, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: '{'
+- elementId: shape57
+  elementType: shape
+  bounds: [707.33, 290.79, 98.38, 14.67]
+  shapeName: rect
+- elementId: text58
+  elementType: text
+  bounds: [697.73, 285.99, 117.58, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: '"utterance_id"'
+- elementId: shape59
+  elementType: shape
+  bounds: [806.31, 290.79, 19.2, 14.67]
+  shapeName: rect
+- elementId: text60
+  elementType: text
+  bounds: [796.71, 285.99, 38.4, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: ':'
+- elementId: shape61
+  elementType: shape
+  bounds: [819.51, 290.79, 65.39, 14.67]
+  shapeName: rect
+- elementId: text62
+  elementType: text
+  bounds: [809.91, 285.99, 84.59, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: '"utt_001"'
+- elementId: shape63
+  elementType: shape
+  bounds: [885.5, 290.79, 12.6, 14.67]
+  shapeName: rect
+- elementId: text64
+  elementType: text
+  bounds: [875.9, 285.99, 31.8, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: ','
+- elementId: shape65
+  elementType: shape
+  bounds: [707.33, 311.58, 45.59, 14.67]
+  shapeName: rect
+- elementId: text66
+  elementType: text
+  bounds: [697.73, 306.78, 64.79, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: '"text"'
+- elementId: shape67
+  elementType: shape
+  bounds: [753.53, 311.58, 157.75, 14.67]
+  shapeName: rect
+- elementId: text68
+  elementType: text
+  bounds: [743.93, 306.78, 176.95, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: '"Включи свет в спальне"'
+- elementId: shape69
+  elementType: shape
+  bounds: [911.89, 311.58, 12.6, 14.67]
+  shapeName: rect
+- elementId: text70
+  elementType: text
+  bounds: [902.29, 306.78, 31.8, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: ','
+- elementId: shape71
+  elementType: shape
+  bounds: [707.33, 332.38, 58.78, 14.67]
+  shapeName: rect
+- elementId: text72
+  elementType: text
+  bounds: [697.73, 327.58, 77.98, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: '"intent"'
+- elementId: shape73
+  elementType: shape
+  bounds: [766.72, 332.38, 12.6, 14.67]
+  shapeName: rect
+- elementId: text74
+  elementType: text
+  bounds: [757.12, 327.58, 31.8, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: '{'
+- elementId: shape75
+  elementType: shape
+  bounds: [723.33, 353.17, 71.98, 14.67]
+  shapeName: rect
+- elementId: text76
+  elementType: text
+  bounds: [713.73, 348.37, 91.18, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: '"category"'
+- elementId: shape77
+  elementType: shape
+  bounds: [795.92, 353.17, 164.34, 14.67]
+  shapeName: rect
+- elementId: text78
+  elementType: text
+  bounds: [786.32, 348.37, 183.54, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: '"device_control.turn_on"'
+- elementId: shape79
+  elementType: shape
+  bounds: [960.86, 353.17, 12.6, 14.67]
+  shapeName: rect
+- elementId: text80
+  elementType: text
+  bounds: [951.26, 348.37, 31.8, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: ','
+- elementId: shape81
+  elementType: shape
+  bounds: [723.33, 373.96, 85.18, 14.67]
+  shapeName: rect
+- elementId: text82
+  elementType: text
+  bounds: [713.73, 369.16, 104.38, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: '"confidence"'
+- elementId: shape83
+  elementType: shape
+  bounds: [809.11, 373.96, 25.8, 14.67]
+  shapeName: rect
+- elementId: text84
+  elementType: text
+  bounds: [799.51, 369.16, 45, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: '1.0'
+- elementId: shape85
+  elementType: shape
+  bounds: [835.52, 373.96, 12.6, 14.67]
+  shapeName: rect
+- elementId: text86
+  elementType: text
+  bounds: [825.92, 369.16, 31.8, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: ','
+- elementId: shape87
+  elementType: shape
+  bounds: [723.33, 394.75, 78.58, 14.67]
+  shapeName: rect
+- elementId: text88
+  elementType: text
+  bounds: [713.73, 389.95, 97.78, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: '"annotator"'
+- elementId: shape89
+  elementType: shape
+  bounds: [802.52, 394.75, 78.58, 14.67]
+  shapeName: rect
+- elementId: text90
+  elementType: text
+  bounds: [792.92, 389.95, 97.78, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: '"human_001"'
+- elementId: shape91
+  elementType: shape
+  bounds: [707.33, 415.54, 12.6, 14.67]
+  shapeName: rect
+- elementId: text92
+  elementType: text
+  bounds: [697.73, 410.74, 31.8, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: '}'
+- elementId: shape93
+  elementType: shape
+  bounds: [691.33, 436.33, 12.6, 14.67]
+  shapeName: rect
+- elementId: text94
+  elementType: text
+  bounds: [681.73, 431.53, 31.8, 24.27]
+  content:
+    align: [left, middle]
+    fontSize: 12
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: '}'
+- elementId: shape95
+  elementType: shape
+  bounds: [671, 594.33, 174.67, 64.67]
+  shapeName: custom
+  path: 1663700,615950;M76199 0L1587501 0C1629584 0 1663700 34116 1663700 76199L1663700 539751C1663700 581806 1629556 615950 1587501 615950L76199 615950C34116 615950 0 581834 0 539751L0 76199C0 34144 34144 0 76199 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape96
+  elementType: shape
+  bounds: [680.33, 606.67, 156, 16]
+  shapeName: rect
+- elementId: text97
+  elementType: text
+  bounds: [670.73, 601.87, 175.2, 25.6]
+  content:
+    align: [center, middle]
+    fontSize: 12
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.1
+    text: Категория
+- elementId: shape98
+  elementType: shape
+  bounds: [679.83, 626.67, 157, 20]
+  shapeName: rect
+- elementId: text99
+  elementType: text
+  bounds: [670.23, 621.87, 176.2, 29.6]
+  content:
+    align: [center, middle]
+    fontSize: 14
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: turn_on
+- elementId: shape100
+  elementType: shape
+  bounds: [857.89, 594.33, 174.67, 64.67]
+  shapeName: custom
+  path: 1663700,615950;M76199 0L1587501 0C1629584 0 1663700 34116 1663700 76199L1663700 539751C1663700 581806 1629556 615950 1587501 615950L76199 615950C34116 615950 0 581834 0 539751L0 76199C0 34144 34144 0 76199 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape101
+  elementType: shape
+  bounds: [867.22, 606.67, 156, 16]
+  shapeName: rect
+- elementId: text102
+  elementType: text
+  bounds: [857.62, 601.87, 175.2, 25.6]
+  content:
+    align: [center, middle]
+    fontSize: 12
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.1
+    text: Уверенность
+- elementId: shape103
+  elementType: shape
+  bounds: [866.72, 626.67, 157, 20]
+  shapeName: rect
+- elementId: text104
+  elementType: text
+  bounds: [857.12, 621.87, 176.2, 29.6]
+  content:
+    align: [center, middle]
+    fontSize: 14
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: '1.0'
+- elementId: shape105
+  elementType: shape
+  bounds: [1044.77, 594.33, 174.67, 64.67]
+  shapeName: custom
+  path: 1663700,615950;M76199 0L1587501 0C1629584 0 1663700 34116 1663700 76199L1663700 539751C1663700 581806 1629556 615950 1587501 615950L76199 615950C34116 615950 0 581834 0 539751L0 76199C0 34144 34144 0 76199 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape106
+  elementType: shape
+  bounds: [1054.1, 606.67, 156, 16]
+  shapeName: rect
+- elementId: text107
+  elementType: text
+  bounds: [1044.5, 601.87, 175.2, 25.6]
+  content:
+    align: [center, middle]
+    fontSize: 12
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.1
+    text: Аннотатор
+- elementId: shape108
+  elementType: shape
+  bounds: [1053.6, 626.67, 157, 20]
+  shapeName: rect
+- elementId: text109
+  elementType: text
+  bounds: [1044, 621.87, 176.2, 29.6]
+  content:
+    align: [center, middle]
+    fontSize: 14
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: human_001

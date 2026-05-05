@@ -1,0 +1,252 @@
+@prefix : <http://example.org/cs2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/cs2> a owl:Ontology ;
+  rdfs:label "Онтология CS2-скинов — полные данные (по 10)"@ru ;
+  rdfs:comment "По 10 индивидов каждого типа: скины, редкости, коллекции, истории цен, периоды, динамики, пользователи, портфели, сделки, прибыли, аренды, события."@ru .
+
+###############
+# КЛАССЫ
+###############
+
+:Skin a owl:Class ; rdfs:label "Скин"@ru .
+:Rarity a owl:Class ; rdfs:label "Редкость"@ru .
+:Collection a owl:Class ; rdfs:label "Коллекция"@ru .
+:PriceHistory a owl:Class ; rdfs:label "История цен"@ru .
+:TimePeriod a owl:Class ; rdfs:label "Период"@ru .
+:PriceDynamics a owl:Class ; rdfs:label "Динамика цен"@ru .
+:User a owl:Class ; rdfs:label "Пользователь"@ru .
+:Portfolio a owl:Class ; rdfs:label "Портфель"@ru .
+:Transaction a owl:Class ; rdfs:label "Сделка"@ru .
+:Profit a owl:Class ; rdfs:label "Прибыль"@ru .
+:Rental a owl:Class ; rdfs:label "Аренда"@ru .
+:Event a owl:Class ; rdfs:label "Событие"@ru .
+
+#########################
+# ОБЪЕКТНЫЕ СВОЙСТВА
+#########################
+
+:hasRarity a owl:ObjectProperty ; rdfs:domain :Skin ; rdfs:range :Rarity .
+:belongsToCollection a owl:ObjectProperty ; rdfs:domain :Skin ; rdfs:range :Collection .
+:hasPriceHistory a owl:ObjectProperty ; rdfs:domain :Skin ; rdfs:range :PriceHistory .
+:refersToTimePeriod a owl:ObjectProperty ; rdfs:domain :PriceHistory ; rdfs:range :TimePeriod .
+:hasPriceDynamics a owl:ObjectProperty ; rdfs:domain :Collection ; rdfs:range :PriceDynamics .
+:hasPortfolio a owl:ObjectProperty ; rdfs:domain :User ; rdfs:range :Portfolio .
+:includesSkin a owl:ObjectProperty ; rdfs:domain :Portfolio ; rdfs:range :Skin .
+:madeTransaction a owl:ObjectProperty ; rdfs:domain :User ; rdfs:range :Transaction .
+:hasProfit a owl:ObjectProperty ; rdfs:domain :Transaction ; rdfs:range :Profit .
+:investedIn a owl:ObjectProperty ; rdfs:domain :User ; rdfs:range :Skin .
+:hasRental a owl:ObjectProperty ; rdfs:domain :Skin ; rdfs:range :Rental .
+:rentedForEvent a owl:ObjectProperty ; rdfs:domain :Rental ; rdfs:range :Event .
+
+#########################
+# ДАТА-СВОЙСТВА
+#########################
+
+:name a owl:DatatypeProperty ; rdfs:domain owl:Thing ; rdfs:range xsd:string .
+:description a owl:DatatypeProperty ; rdfs:domain owl:Thing ; rdfs:range xsd:string .
+:uid a owl:DatatypeProperty ; rdfs:domain owl:Thing ; rdfs:range xsd:string .
+
+:price a owl:DatatypeProperty ; rdfs:domain :PriceHistory ; rdfs:range xsd:decimal .
+:currency a owl:DatatypeProperty ; rdfs:domain :PriceHistory ; rdfs:range xsd:string .
+:timestamp a owl:DatatypeProperty ; rdfs:domain :PriceHistory ; rdfs:range xsd:dateTime .
+
+:startDate a owl:DatatypeProperty ; rdfs:domain :TimePeriod ; rdfs:range xsd:dateTime .
+:endDate a owl:DatatypeProperty ; rdfs:domain :TimePeriod ; rdfs:range xsd:dateTime .
+
+:amount a owl:DatatypeProperty ; rdfs:domain :Profit ; rdfs:range xsd:decimal .
+:roi a owl:DatatypeProperty ; rdfs:domain :Profit ; rdfs:range xsd:decimal .
+
+:txType a owl:DatatypeProperty ; rdfs:domain :Transaction ; rdfs:range xsd:string .
+:txDate a owl:DatatypeProperty ; rdfs:domain :Transaction ; rdfs:range xsd:dateTime .
+
+:rentalStart a owl:DatatypeProperty ; rdfs:domain :Rental ; rdfs:range xsd:dateTime .
+:rentalEnd a owl:DatatypeProperty ; rdfs:domain :Rental ; rdfs:range xsd:dateTime .
+:rentalPrice a owl:DatatypeProperty ; rdfs:domain :Rental ; rdfs:range xsd:decimal .
+
+:eventName a owl:DatatypeProperty ; rdfs:domain :Event ; rdfs:range xsd:string .
+:eventDate a owl:DatatypeProperty ; rdfs:domain :Event ; rdfs:range xsd:dateTime .
+
+###############
+# РЕДКОСТИ (10)
+###############
+:Consumer_Grade a :Rarity ; :name "Consumer Grade"@ru .
+:Industrial_Grade a :Rarity ; :name "Industrial Grade"@ru .
+:Mil_Spec a :Rarity ; :name "Mil-Spec"@ru .
+:Restricted a :Rarity ; :name "Restricted"@ru .
+:Classified a :Rarity ; :name "Classified"@ru .
+:Covert a :Rarity ; :name "Covert"@ru .
+:Contraband a :Rarity ; :name "Contraband"@ru .
+:Exclusive a :Rarity ; :name "Exclusive (custom)"@ru .
+:Legendary a :Rarity ; :name "Legendary (custom)"@ru .
+:Mythic a :Rarity ; :name "Mythic (custom)"@ru .
+
+###############
+# КОЛЛЕКЦИИ (10)
+###############
+:Dust2_Collection a :Collection ; :name "Dust II Collection"@ru ; :hasPriceDynamics :Dyn1 .
+:Mirage_Collection a :Collection ; :name "Mirage Collection"@ru ; :hasPriceDynamics :Dyn2 .
+:Inferno_Collection a :Collection ; :name "Inferno Collection"@ru ; :hasPriceDynamics :Dyn3 .
+:Nuke_Collection a :Collection ; :name "Nuke Collection"@ru ; :hasPriceDynamics :Dyn4 .
+:Train_Collection a :Collection ; :name "Train Collection"@ru ; :hasPriceDynamics :Dyn5 .
+:Overpass_Collection a :Collection ; :name "Overpass Collection"@ru ; :hasPriceDynamics :Dyn6 .
+:Vertigo_Collection a :Collection ; :name "Vertigo Collection"@ru ; :hasPriceDynamics :Dyn7 .
+:Cache_Collection a :Collection ; :name "Cache Collection"@ru ; :hasPriceDynamics :Dyn8 .
+:Anubis_Collection a :Collection ; :name "Anubis Collection"@ru ; :hasPriceDynamics :Dyn9 .
+:Ancient_Collection a :Collection ; :name "Ancient Collection"@ru ; :hasPriceDynamics :Dyn10 .
+
+###############
+# ДИНАМИКА ЦЕН (10)
+###############
+:Dyn1 a :PriceDynamics ; :description "Ср. динамика Dust II."@ru .
+:Dyn2 a :PriceDynamics ; :description "Ср. динамика Mirage."@ru .
+:Dyn3 a :PriceDynamics ; :description "Ср. динамика Inferno."@ru .
+:Dyn4 a :PriceDynamics ; :description "Ср. динамика Nuke."@ru .
+:Dyn5 a :PriceDynamics ; :description "Ср. динамика Train."@ru .
+:Dyn6 a :PriceDynamics ; :description "Ср. динамика Overpass."@ru .
+:Dyn7 a :PriceDynamics ; :description "Ср. динамика Vertigo."@ru .
+:Dyn8 a :PriceDynamics ; :description "Ср. динамика Cache."@ru .
+:Dyn9 a :PriceDynamics ; :description "Ср. динамика Anubis."@ru .
+:Dyn10 a :PriceDynamics ; :description "Ср. динамика Ancient."@ru .
+
+###############
+# СКИНЫ (10)
+###############
+:AK47_Redline a :Skin ; :name "AK-47 | Redline"@ru ; :belongsToCollection :Phoenix_Collection ; :hasRarity :Classified .
+:AWP_Asiimov a :Skin ; :name "AWP | Asiimov"@ru ; :belongsToCollection :Dust2_Collection ; :hasRarity :Covert .
+:M4A4_Howl a :Skin ; :name "M4A4 | Howl"@ru ; :belongsToCollection :Dust2_Collection ; :hasRarity :Contraband .
+:Glock18_Fade a :Skin ; :name "Glock-18 | Fade"@ru ; :belongsToCollection :Mirage_Collection ; :hasRarity :Classified .
+:AK47_Gold_Arabesque a :Skin ; :name "AK-47 | Gold Arabesque"@ru ; :belongsToCollection :Dust2_Collection ; :hasRarity :Covert .
+:USP_S_Orion a :Skin ; :name "USP-S | Orion"@ru ; :belongsToCollection :Overpass_Collection ; :hasRarity :Classified .
+:Desert_Eagle_Blaze a :Skin ; :name "Desert Eagle | Blaze"@ru ; :belongsToCollection :Dust2_Collection ; :hasRarity :Classified .
+:Karambit_Doppler a :Skin ; :name "★ Karambit | Doppler"@ru ; :belongsToCollection :Ancient_Collection ; :hasRarity :Covert .
+:MP9_Rose_Iron a :Skin ; :name "MP9 | Rose Iron"@ru ; :belongsToCollection :Inferno_Collection ; :hasRarity :Restricted .
+:M4A1S_Printstream a :Skin ; :name "M4A1-S | Printstream"@ru ; :belongsToCollection :Cache_Collection ; :hasRarity :Covert .
+
+# Доп. коллекция для Redline
+:Phoenix_Collection a :Collection ; :name "The Phoenix Collection"@ru ; :hasPriceDynamics :Dyn11 .
+:Dyn11 a :PriceDynamics ; :description "Ср. динамика Phoenix."@ru .
+
+###############
+# ИСТОРИИ ЦЕН (10) + ПЕРИОДЫ (10)
+###############
+:TP1 a :TimePeriod ; :startDate "2024-01-01T00:00:00"^^xsd:dateTime ; :endDate "2024-01-30T23:59:59"^^xsd:dateTime .
+:TP2 a :TimePeriod ; :startDate "2024-02-01T00:00:00"^^xsd:dateTime ; :endDate "2024-03-01T23:59:59"^^xsd:dateTime .
+:TP3 a :TimePeriod ; :startDate "2024-03-01T00:00:00"^^xsd:dateTime ; :endDate "2024-03-30T23:59:59"^^xsd:dateTime .
+:TP4 a :TimePeriod ; :startDate "2024-04-01T00:00:00"^^xsd:dateTime ; :endDate "2024-04-30T23:59:59"^^xsd:dateTime .
+:TP5 a :TimePeriod ; :startDate "2024-05-01T00:00:00"^^xsd:dateTime ; :endDate "2024-05-30T23:59:59"^^xsd:dateTime .
+:TP6 a :TimePeriod ; :startDate "2024-06-01T00:00:00"^^xsd:dateTime ; :endDate "2024-06-30T23:59:59"^^xsd:dateTime .
+:TP7 a :TimePeriod ; :startDate "2024-07-01T00:00:00"^^xsd:dateTime ; :endDate "2024-07-30T23:59:59"^^xsd:dateTime .
+:TP8 a :TimePeriod ; :startDate "2024-08-01T00:00:00"^^xsd:dateTime ; :endDate "2024-08-30T23:59:59"^^xsd:dateTime .
+:TP9 a :TimePeriod ; :startDate "2024-09-01T00:00:00"^^xsd:dateTime ; :endDate "2024-09-30T23:59:59"^^xsd:dateTime .
+:TP10 a :TimePeriod ; :startDate "2024-10-01T00:00:00"^^xsd:dateTime ; :endDate "2024-10-30T23:59:59"^^xsd:dateTime .
+
+:PH1 a :PriceHistory ; :price "120.00"^^xsd:decimal ; :currency "USD" ; :timestamp "2024-01-16T12:00:00"^^xsd:dateTime ; :refersToTimePeriod :TP1 .
+:PH2 a :PriceHistory ; :price "950.00"^^xsd:decimal ; :currency "USD" ; :timestamp "2024-02-15T12:00:00"^^xsd:dateTime ; :refersToTimePeriod :TP2 .
+:PH3 a :PriceHistory ; :price "3000.00"^^xsd:decimal ; :currency "USD" ; :timestamp "2024-03-16T12:00:00"^^xsd:dateTime ; :refersToTimePeriod :TP3 .
+:PH4 a :PriceHistory ; :price "700.00"^^xsd:decimal ; :currency "USD" ; :timestamp "2024-04-15T12:00:00"^^xsd:dateTime ; :refersToTimePeriod :TP4 .
+:PH5 a :PriceHistory ; :price "5000.00"^^xsd:decimal ; :currency "USD" ; :timestamp "2024-05-15T12:00:00"^^xsd:dateTime ; :refersToTimePeriod :TP5 .
+:PH6 a :PriceHistory ; :price "320.00"^^xsd:decimal ; :currency "USD" ; :timestamp "2024-06-14T12:00:00"^^xsd:dateTime ; :refersToTimePeriod :TP6 .
+:PH7 a :PriceHistory ; :price "800.00"^^xsd:decimal ; :currency "USD" ; :timestamp "2024-07-14T12:00:00"^^xsd:dateTime ; :refersToTimePeriod :TP7 .
+:PH8 a :PriceHistory ; :price "15000.00"^^xsd:decimal ; :currency "USD" ; :timestamp "2024-08-13T12:00:00"^^xsd:dateTime ; :refersToTimePeriod :TP8 .
+:PH9 a :PriceHistory ; :price "45.00"^^xsd:decimal ; :currency "USD" ; :timestamp "2024-09-12T12:00:00"^^xsd:dateTime ; :refersToTimePeriod :TP9 .
+:PH10 a :PriceHistory ; :price "1200.00"^^xsd:decimal ; :currency "USD" ; :timestamp "2024-10-12T12:00:00"^^xsd:dateTime ; :refersToTimePeriod :TP10 .
+:AK47_Redline :hasPriceHistory :PH1 .
+:AWP_Asiimov :hasPriceHistory :PH2 .
+:M4A4_Howl :hasPriceHistory :PH3 .
+:Glock18_Fade :hasPriceHistory :PH4 .
+:AK47_Gold_Arabesque :hasPriceHistory :PH5 .
+:USP_S_Orion :hasPriceHistory :PH6 .
+:Desert_Eagle_Blaze :hasPriceHistory :PH7 .
+:Karambit_Doppler :hasPriceHistory :PH8 .
+:MP9_Rose_Iron :hasPriceHistory :PH9 .
+:M4A1S_Printstream :hasPriceHistory :PH10 .
+
+
+###############
+# ПОЛЬЗОВАТЕЛИ (10) и ПОРТФЕЛИ (10)
+###############
+:User1 a :User ; :name "Иван"@ru ; :hasPortfolio :Portfolio1 ; :madeTransaction :TX1 ; :investedIn :AK47_Redline .
+:Portfolio1 a :Portfolio ; :includesSkin :AK47_Redline .
+:User2 a :User ; :name "Анна"@ru ; :hasPortfolio :Portfolio2 ; :madeTransaction :TX2 ; :investedIn :AWP_Asiimov .
+:Portfolio2 a :Portfolio ; :includesSkin :AWP_Asiimov .
+:User3 a :User ; :name "Павел"@ru ; :hasPortfolio :Portfolio3 ; :madeTransaction :TX3 ; :investedIn :M4A4_Howl .
+:Portfolio3 a :Portfolio ; :includesSkin :M4A4_Howl .
+:User4 a :User ; :name "Ольга"@ru ; :hasPortfolio :Portfolio4 ; :madeTransaction :TX4 ; :investedIn :Glock18_Fade .
+:Portfolio4 a :Portfolio ; :includesSkin :Glock18_Fade .
+:User5 a :User ; :name "Дмитрий"@ru ; :hasPortfolio :Portfolio5 ; :madeTransaction :TX5 ; :investedIn :AK47_Gold_Arabesque .
+:Portfolio5 a :Portfolio ; :includesSkin :AK47_Gold_Arabesque .
+:User6 a :User ; :name "Мария"@ru ; :hasPortfolio :Portfolio6 ; :madeTransaction :TX6 ; :investedIn :USP_S_Orion .
+:Portfolio6 a :Portfolio ; :includesSkin :USP_S_Orion .
+:User7 a :User ; :name "Сергей"@ru ; :hasPortfolio :Portfolio7 ; :madeTransaction :TX7 ; :investedIn :Desert_Eagle_Blaze .
+:Portfolio7 a :Portfolio ; :includesSkin :Desert_Eagle_Blaze .
+:User8 a :User ; :name "Елена"@ru ; :hasPortfolio :Portfolio8 ; :madeTransaction :TX8 ; :investedIn :Karambit_Doppler .
+:Portfolio8 a :Portfolio ; :includesSkin :Karambit_Doppler .
+:User9 a :User ; :name "Никита"@ru ; :hasPortfolio :Portfolio9 ; :madeTransaction :TX9 ; :investedIn :MP9_Rose_Iron .
+:Portfolio9 a :Portfolio ; :includesSkin :MP9_Rose_Iron .
+:User10 a :User ; :name "Алиса"@ru ; :hasPortfolio :Portfolio10 ; :madeTransaction :TX10 ; :investedIn :M4A1S_Printstream .
+:Portfolio10 a :Portfolio ; :includesSkin :M4A1S_Printstream .
+
+
+###############
+# СДЕЛКИ (10) и ПРИБЫЛЬ (10)
+###############
+:TX1 a :Transaction ; :txType "buy" ; :txDate "2024-01-01T10:00:00"^^xsd:dateTime ; :hasProfit :PR1 .
+:PR1 a :Profit ; :amount "15.50"^^xsd:decimal ; :roi "0.12"^^xsd:decimal .
+:TX2 a :Transaction ; :txType "buy" ; :txDate "2024-01-11T10:00:00"^^xsd:dateTime ; :hasProfit :PR2 .
+:PR2 a :Profit ; :amount "75.00"^^xsd:decimal ; :roi "0.08"^^xsd:decimal .
+:TX3 a :Transaction ; :txType "sell" ; :txDate "2024-01-21T10:00:00"^^xsd:dateTime ; :hasProfit :PR3 .
+:PR3 a :Profit ; :amount "-120.00"^^xsd:decimal ; :roi "-0.05"^^xsd:decimal .
+:TX4 a :Transaction ; :txType "buy" ; :txDate "2024-01-31T10:00:00"^^xsd:dateTime ; :hasProfit :PR4 .
+:PR4 a :Profit ; :amount "210.00"^^xsd:decimal ; :roi "0.25"^^xsd:decimal .
+:TX5 a :Transaction ; :txType "sell" ; :txDate "2024-02-10T10:00:00"^^xsd:dateTime ; :hasProfit :PR5 .
+:PR5 a :Profit ; :amount "450.00"^^xsd:decimal ; :roi "0.15"^^xsd:decimal .
+:TX6 a :Transaction ; :txType "buy" ; :txDate "2024-02-20T10:00:00"^^xsd:dateTime ; :hasProfit :PR6 .
+:PR6 a :Profit ; :amount "-32.00"^^xsd:decimal ; :roi "-0.10"^^xsd:decimal .
+:TX7 a :Transaction ; :txType "sell" ; :txDate "2024-03-01T10:00:00"^^xsd:dateTime ; :hasProfit :PR7 .
+:PR7 a :Profit ; :amount "20.00"^^xsd:decimal ; :roi "0.05"^^xsd:decimal .
+:TX8 a :Transaction ; :txType "buy" ; :txDate "2024-03-11T10:00:00"^^xsd:dateTime ; :hasProfit :PR8 .
+:PR8 a :Profit ; :amount "300.00"^^xsd:decimal ; :roi "0.18"^^xsd:decimal .
+:TX9 a :Transaction ; :txType "buy" ; :txDate "2024-03-21T10:00:00"^^xsd:dateTime ; :hasProfit :PR9 .
+:PR9 a :Profit ; :amount "90.00"^^xsd:decimal ; :roi "0.30"^^xsd:decimal .
+:TX10 a :Transaction ; :txType "sell" ; :txDate "2024-03-31T10:00:00"^^xsd:dateTime ; :hasProfit :PR10 .
+:PR10 a :Profit ; :amount "-25.00"^^xsd:decimal ; :roi "-0.02"^^xsd:decimal .
+
+
+###############
+# СОБЫТИЯ (10) и АРЕНДЫ (10)
+###############
+:EV1 a :Event ; :eventName "BLAST Spring Final 2024"@ru ; :eventDate "2024-01-21T00:00:00"^^xsd:dateTime .
+:EV2 a :Event ; :eventName "IEM Katowice 2024"@ru ; :eventDate "2024-02-10T00:00:00"^^xsd:dateTime .
+:EV3 a :Event ; :eventName "PGL Major Copenhagen 2024"@ru ; :eventDate "2024-03-01T00:00:00"^^xsd:dateTime .
+:EV4 a :Event ; :eventName "IEM Dallas 2024"@ru ; :eventDate "2024-03-21T00:00:00"^^xsd:dateTime .
+:EV5 a :Event ; :eventName "BLAST Fall Final 2024"@ru ; :eventDate "2024-04-10T00:00:00"^^xsd:dateTime .
+:EV6 a :Event ; :eventName "IEM Cologne 2024"@ru ; :eventDate "2024-04-30T00:00:00"^^xsd:dateTime .
+:EV7 a :Event ; :eventName "ESL Pro League S20"@ru ; :eventDate "2024-05-20T00:00:00"^^xsd:dateTime .
+:EV8 a :Event ; :eventName "IEM Chengdu 2024"@ru ; :eventDate "2024-06-09T00:00:00"^^xsd:dateTime .
+:EV9 a :Event ; :eventName "BLAST World Final 2024"@ru ; :eventDate "2024-06-29T00:00:00"^^xsd:dateTime .
+:EV10 a :Event ; :eventName "IEM Sydney 2024"@ru ; :eventDate "2024-07-19T00:00:00"^^xsd:dateTime .
+:RENT1 a :Rental ; :rentalStart "2023-12-30T09:00:00"^^xsd:dateTime ; :rentalEnd "2024-01-03T21:00:00"^^xsd:dateTime ; :rentalPrice "10.00"^^xsd:decimal ; :rentedForEvent :EV1 .
+:AK47_Redline :hasRental :RENT1 .
+:RENT2 a :Rental ; :rentalStart "2024-01-19T09:00:00"^^xsd:dateTime ; :rentalEnd "2024-01-23T21:00:00"^^xsd:dateTime ; :rentalPrice "13.00"^^xsd:decimal ; :rentedForEvent :EV2 .
+:AWP_Asiimov :hasRental :RENT2 .
+:RENT3 a :Rental ; :rentalStart "2024-02-08T09:00:00"^^xsd:dateTime ; :rentalEnd "2024-02-12T21:00:00"^^xsd:dateTime ; :rentalPrice "16.00"^^xsd:decimal ; :rentedForEvent :EV3 .
+:M4A4_Howl :hasRental :RENT3 .
+:RENT4 a :Rental ; :rentalStart "2024-02-28T09:00:00"^^xsd:dateTime ; :rentalEnd "2024-03-03T21:00:00"^^xsd:dateTime ; :rentalPrice "19.00"^^xsd:decimal ; :rentedForEvent :EV4 .
+:Glock18_Fade :hasRental :RENT4 .
+:RENT5 a :Rental ; :rentalStart "2024-03-19T09:00:00"^^xsd:dateTime ; :rentalEnd "2024-03-23T21:00:00"^^xsd:dateTime ; :rentalPrice "22.00"^^xsd:decimal ; :rentedForEvent :EV5 .
+:AK47_Gold_Arabesque :hasRental :RENT5 .
+:RENT6 a :Rental ; :rentalStart "2024-04-08T09:00:00"^^xsd:dateTime ; :rentalEnd "2024-04-12T21:00:00"^^xsd:dateTime ; :rentalPrice "25.00"^^xsd:decimal ; :rentedForEvent :EV6 .
+:USP_S_Orion :hasRental :RENT6 .
+:RENT7 a :Rental ; :rentalStart "2024-04-28T09:00:00"^^xsd:dateTime ; :rentalEnd "2024-05-02T21:00:00"^^xsd:dateTime ; :rentalPrice "28.00"^^xsd:decimal ; :rentedForEvent :EV7 .
+:Desert_Eagle_Blaze :hasRental :RENT7 .
+:RENT8 a :Rental ; :rentalStart "2024-05-18T09:00:00"^^xsd:dateTime ; :rentalEnd "2024-05-22T21:00:00"^^xsd:dateTime ; :rentalPrice "31.00"^^xsd:decimal ; :rentedForEvent :EV8 .
+:Karambit_Doppler :hasRental :RENT8 .
+:RENT9 a :Rental ; :rentalStart "2024-06-07T09:00:00"^^xsd:dateTime ; :rentalEnd "2024-06-11T21:00:00"^^xsd:dateTime ; :rentalPrice "34.00"^^xsd:decimal ; :rentedForEvent :EV9 .
+:MP9_Rose_Iron :hasRental :RENT9 .
+:RENT10 a :Rental ; :rentalStart "2024-06-27T09:00:00"^^xsd:dateTime ; :rentalEnd "2024-07-01T21:00:00"^^xsd:dateTime ; :rentalPrice "37.00"^^xsd:decimal ; :rentedForEvent :EV10 .
+:M4A1S_Printstream :hasRental :RENT10 .

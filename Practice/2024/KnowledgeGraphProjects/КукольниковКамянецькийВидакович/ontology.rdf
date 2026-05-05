@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7/"
+     xml:base="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-7="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_action_material -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_action_material">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Medicine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Action_material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_auxiliary_properties -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_auxiliary_properties">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Medicine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Auxiliary_properties"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_contraindications -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_contraindications">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Medicine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Contraindications"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_expiration_date -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_expiration_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Medicine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Expiration_date"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_indications -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_indications">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Medicine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Indications"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_release_form -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_release_form">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Medicine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Release_form"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_side_effects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_side_effects">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Medicine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Side_effects"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_storage_conditions -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#have_storage_conditions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Medicine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Storage_conditions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#возрастныеОграничения -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#возрастныеОграничения"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#максимальнаяДозировка -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#максимальнаяДозировка"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#симптомыПередозировки -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#симптомыПередозировки"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#температураХранения -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#температураХранения"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Action_material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Action_material">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Auxiliary_properties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Auxiliary_properties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Contraindications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Contraindications"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Expiration_date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Expiration_date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Indications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Indications"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Medicine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Release_form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Release_form"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Side_effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Side_effects"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Storage_conditions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Storage_conditions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/moderator/ontologies/2024/9/untitled-ontology-7#Structure"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

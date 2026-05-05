@@ -1,0 +1,228 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+	<Kinds>
+		<Row Kind="KIND_RELIGION"/>
+	</Kinds>
+	<Types>
+		<Row Type="RELIGION_PANTHEON" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_BUDDHISM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CATHOLICISM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CONFUCIANISM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_HINDUISM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_ISLAM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_JUDAISM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_ORTHODOXY" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_PROTESTANTISM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_SHINTO" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_SIKHISM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_TAOISM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_ZOROASTRIANISM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CUSTOM_1"	 Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CUSTOM_2"	 Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CUSTOM_3"	 Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CUSTOM_4"	 Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CUSTOM_5"	 Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CUSTOM_6"	 Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CUSTOM_7"	 Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CUSTOM_8"	 Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CUSTOM_9"	 Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CUSTOM_10" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CUSTOM_11" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_CUSTOM_12" Kind="KIND_RELIGION"/>
+	</Types>
+	<Religions>
+		<Row>
+			<ReligionType>RELIGION_PANTHEON</ReligionType>
+			<Name>LOC_RELIGION_PANTHEON</Name>
+			<IconString>Pa</IconString>
+			<Pantheon>true</Pantheon>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_PANTHEON</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_BUDDHISM</ReligionType>
+			<Name>LOC_RELIGION_BUDDHISM</Name>
+			<IconString>Bu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_BUDDHISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CATHOLICISM</ReligionType>
+			<Name>LOC_RELIGION_CATHOLICISM</Name>
+			<IconString>Ca</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_CATHOLICISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CONFUCIANISM</ReligionType>
+			<Name>LOC_RELIGION_CONFUCIANISM</Name>
+			<IconString>Co</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_CONFUCIANISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_HINDUISM</ReligionType>
+			<Name>LOC_RELIGION_HINDUISM</Name>
+			<IconString>Hi</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_HINDUISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_ISLAM</ReligionType>
+			<Name>LOC_RELIGION_ISLAM</Name>
+			<IconString>Is</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_ISLAM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_JUDAISM</ReligionType>
+			<Name>LOC_RELIGION_JUDAISM</Name>
+			<IconString>Ju</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_JUDAISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_ORTHODOXY</ReligionType>
+			<Name>LOC_RELIGION_ORTHODOXY</Name>
+			<IconString>Or</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_ORTHODOXY</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+			<Name>LOC_RELIGION_PROTESTANTISM</Name>
+			<IconString>Pr</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_PROTESTANTISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_SHINTO</ReligionType>
+			<Name>LOC_RELIGION_SHINTO</Name>
+			<IconString>Sh</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_SHINTO</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_SIKHISM</ReligionType>
+			<Name>LOC_RELIGION_SIKHISM</Name>
+			<IconString>Si</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_SIKHISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_TAOISM</ReligionType>
+			<Name>LOC_RELIGION_TAOISM</Name>
+			<IconString>Ta</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_TAOISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_ZOROASTRIANISM</ReligionType>
+			<Name>LOC_RELIGION_ZOROASTRIANISM</Name>
+			<IconString>Zo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_ZOROASTRIANISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CUSTOM_1</ReligionType>
+			<Name>LOC_RELIGION_CUSTOM</Name>
+			<IconString>01</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_1</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CUSTOM_2</ReligionType>
+			<Name>LOC_RELIGION_CUSTOM</Name>
+			<IconString>02</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_2</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CUSTOM_3</ReligionType>
+			<Name>LOC_RELIGION_CUSTOM</Name>
+			<IconString>03</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_3</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CUSTOM_4</ReligionType>
+			<Name>LOC_RELIGION_CUSTOM</Name>
+			<IconString>04</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_4</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CUSTOM_5</ReligionType>
+			<Name>LOC_RELIGION_CUSTOM</Name>
+			<IconString>05</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_5</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CUSTOM_6</ReligionType>
+			<Name>LOC_RELIGION_CUSTOM</Name>
+			<IconString>06</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_6</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CUSTOM_7</ReligionType>
+			<Name>LOC_RELIGION_CUSTOM</Name>
+			<IconString>07</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_7</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CUSTOM_8</ReligionType>
+			<Name>LOC_RELIGION_CUSTOM</Name>
+			<IconString>08</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_8</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CUSTOM_9</ReligionType>
+			<Name>LOC_RELIGION_CUSTOM</Name>
+			<IconString>09</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_9</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CUSTOM_10</ReligionType>
+			<Name>LOC_RELIGION_CUSTOM</Name>
+			<IconString>10</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_10</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CUSTOM_11</ReligionType>
+			<Name>LOC_RELIGION_CUSTOM</Name>
+			<IconString>11</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_11</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_CUSTOM_12</ReligionType>
+			<Name>LOC_RELIGION_CUSTOM</Name>
+			<IconString>12</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_CUSTOM_12</Color>
+		</Row>
+	</Religions>
+	
+	<!-- Matches for favored religions. Leaders will try to match on leader type first, then on civ type, then choose randomly -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_T_ROOSEVELT" ReligionType="RELIGION_PROTESTANTISM"/>
+		<Row LeaderType="LEADER_SALADIN" ReligionType="RELIGION_ISLAM"/>
+		<Row LeaderType="LEADER_PEDRO" ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_QIN" ReligionType="RELIGION_TAOISM" />
+		<Row LeaderType="LEADER_VICTORIA" ReligionType="RELIGION_PROTESTANTISM" />
+		<Row LeaderType="LEADER_CATHERINE_DE_MEDICI" ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_BARBAROSSA" ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_GANDHI" ReligionType="RELIGION_HINDUISM" />
+		<Row LeaderType="LEADER_HOJO" ReligionType="RELIGION_BUDDHISM"/>
+		<Row LeaderType="LEADER_MVEMBA" ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_HARDRADA" ReligionType="RELIGION_PROTESTANTISM"/>
+		<Row LeaderType="LEADER_PETER_GREAT" ReligionType="RELIGION_ORTHODOXY"/>
+		<Row LeaderType="LEADER_PHILIP_II" ReligionType="RELIGION_CATHOLICISM"/>
+	</FavoredReligions>
+</GameData>

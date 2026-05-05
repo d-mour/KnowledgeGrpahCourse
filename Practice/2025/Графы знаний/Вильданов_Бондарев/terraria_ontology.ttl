@@ -1,0 +1,241 @@
+@prefix : <http://example.org/terraria#> .
+@prefix terr: <http://example.org/terraria#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/terraria>
+    a owl:Ontology ;
+    rdfs:label "Terraria Knowledge Graph Ontology"@en ;
+    owl:versionInfo "0.1.1" ;
+    rdfs:comment "Starter ontology for Terraria: items, NPCs, biomes, recipes, drops. Includes n-ary patterns for recipes and drops."@en .
+
+terr:Entity a owl:Class ; rdfs:label "Entity"@en .
+
+# Items
+terr:Item a owl:Class ; rdfs:subClassOf terr:Entity ; rdfs:label "Item"@en .
+terr:Weapon a owl:Class ; rdfs:subClassOf terr:Item ; rdfs:label "Weapon"@en .
+terr:Armor a owl:Class ; rdfs:subClassOf terr:Item ; rdfs:label "Armor"@en .
+terr:Accessory a owl:Class ; rdfs:subClassOf terr:Item ; rdfs:label "Accessory"@en .
+terr:Resource a owl:Class ; rdfs:subClassOf terr:Item ; rdfs:label "Resource"@en .
+terr:SummonItem a owl:Class ; rdfs:subClassOf terr:Item ; rdfs:label "Summon Item"@en .
+terr:CraftingStation a owl:Class ; rdfs:subClassOf terr:Item ; rdfs:label "Crafting Station"@en .
+
+# NPCs
+terr:NPC a owl:Class ; rdfs:subClassOf terr:Entity ; rdfs:label "NPC"@en .
+terr:Enemy a owl:Class ; rdfs:subClassOf terr:NPC ; rdfs:label "Enemy"@en .
+terr:Boss a owl:Class ; rdfs:subClassOf terr:Enemy ; rdfs:label "Boss"@en .
+terr:TownNPC a owl:Class ; rdfs:subClassOf terr:NPC ; rdfs:label "Town NPC"@en .
+
+# World
+terr:Biome a owl:Class ; rdfs:subClassOf terr:Entity ; rdfs:label "Biome"@en .
+terr:GameStage a owl:Class ; rdfs:subClassOf terr:Entity ; rdfs:label "Game Stage"@en .
+
+# Recipe & N-ary ingredient pattern
+terr:Recipe a owl:Class ; rdfs:subClassOf terr:Entity ; rdfs:label "Recipe"@en .
+terr:RecipeComponent a owl:Class ; rdfs:label "Recipe Component"@en ;
+    rdfs:comment "N-ary node that links a recipe to an input item with quantity."@en .
+
+# Drop n-ary pattern
+terr:DropEvent a owl:Class ; rdfs:label "Drop Event"@en ;
+    rdfs:comment "N-ary node capturing an item drop from an enemy with rate and quantity range."@en .
+
+# Taxonomies
+terr:DamageType a owl:Class ; rdfs:subClassOf terr:Entity ; rdfs:label "Damage Type"@en .
+
+# Disjointness
+[ a owl:AllDisjointClasses ;
+  owl:members ( terr:Weapon terr:Armor terr:Accessory terr:Resource terr:SummonItem terr:CraftingStation )
+] .
+
+[ a owl:AllDisjointClasses ;
+  owl:members ( terr:Enemy terr:TownNPC )
+] .
+
+# Object properties
+terr:produces a owl:ObjectProperty ;
+    rdfs:domain terr:Recipe ; rdfs:range terr:Item ;
+    rdfs:label "produces"@en .
+
+terr:producedBy a owl:ObjectProperty ;
+    owl:inverseOf terr:produces ;
+    rdfs:domain terr:Item ; rdfs:range terr:Recipe ;
+    rdfs:label "produced by"@en .
+
+terr:hasComponent a owl:ObjectProperty ;
+    rdfs:domain terr:Recipe ; rdfs:range terr:RecipeComponent ;
+    rdfs:label "has component"@en .
+
+terr:usesItem a owl:ObjectProperty ;
+    rdfs:domain terr:RecipeComponent ; rdfs:range terr:Item ;
+    rdfs:label "uses item"@en .
+
+terr:requiresStation a owl:ObjectProperty ;
+    rdfs:domain terr:Recipe ; rdfs:range terr:CraftingStation ;
+    rdfs:label "requires station"@en .
+
+terr:dropsFrom a owl:ObjectProperty ;
+    rdfs:domain terr:Item ; rdfs:range terr:Enemy ;
+    rdfs:label "drops from"@en .
+
+terr:soldBy a owl:ObjectProperty ;
+    rdfs:domain terr:Item ; rdfs:range terr:TownNPC ;
+    rdfs:label "sold by"@en .
+
+terr:foundInBiome a owl:ObjectProperty ;
+    rdfs:domain terr:Resource ; rdfs:range terr:Biome ;
+    rdfs:label "found in biome"@en .
+
+terr:summonsBoss a owl:ObjectProperty ;
+    rdfs:domain terr:SummonItem ; rdfs:range terr:Boss ;
+    rdfs:label "summons boss"@en .
+
+terr:availableInStage a owl:ObjectProperty ;
+    rdfs:domain terr:Entity ; rdfs:range terr:GameStage ;
+    rdfs:label "available in stage"@en .
+
+terr:hasDamageType a owl:ObjectProperty, owl:FunctionalProperty ;
+    rdfs:domain terr:Weapon ; rdfs:range terr:DamageType ;
+    rdfs:label "has damage type"@en .
+
+# DropEvent properties
+terr:dropOfItem a owl:ObjectProperty ;
+    rdfs:domain terr:DropEvent ; rdfs:range terr:Item ;
+    rdfs:label "drop of item"@en .
+
+terr:dropFromEnemy a owl:ObjectProperty ;
+    rdfs:domain terr:DropEvent ; rdfs:range terr:Enemy ;
+    rdfs:label "drop from enemy"@en .
+
+terr:dropAvailableInStage a owl:ObjectProperty ;
+    rdfs:domain terr:DropEvent ; rdfs:range terr:GameStage ;
+    rdfs:label "drop available in stage"@en .
+
+# Data properties
+terr:name a owl:DatatypeProperty ;
+    rdfs:domain terr:Entity ; rdfs:range xsd:string ; rdfs:label "name"@en .
+
+terr:dps a owl:DatatypeProperty ;
+    rdfs:domain terr:Weapon ; rdfs:range xsd:decimal ; rdfs:label "DPS"@en .
+
+terr:damage a owl:DatatypeProperty ;
+    rdfs:domain terr:Weapon ; rdfs:range xsd:integer ; rdfs:label "base damage"@en .
+
+terr:rarity a owl:DatatypeProperty ;
+    rdfs:domain terr:Item ; rdfs:range xsd:string ; rdfs:label "rarity"@en .
+
+terr:dropRate a owl:DatatypeProperty ;
+    rdfs:domain terr:DropEvent ; rdfs:range xsd:decimal ; rdfs:label "drop rate (0..1)"@en .
+
+terr:quantity a owl:DatatypeProperty ;
+    rdfs:domain terr:RecipeComponent ; rdfs:range xsd:integer ; rdfs:label "quantity"@en .
+
+terr:qtyMin a owl:DatatypeProperty ;
+    rdfs:domain terr:DropEvent ; rdfs:range xsd:integer ; rdfs:label "quantity min"@en .
+
+terr:qtyMax a owl:DatatypeProperty ;
+    rdfs:domain terr:DropEvent ; rdfs:range xsd:integer ; rdfs:label "quantity max"@en .
+
+# Individuals
+
+# Game stages
+terr:PreHardmode a terr:GameStage ; terr:name "Pre-Hardmode"@en .
+terr:Hardmode a terr:GameStage ; terr:name "Hardmode"@en .
+terr:PostPlantera a terr:GameStage ; terr:name "Post-Plantera"@en .
+terr:PostGolem a terr:GameStage ; terr:name "Post-Golem"@en .
+terr:Endgame a terr:GameStage ; terr:name "Endgame"@en .
+
+# Damage types
+terr:Melee a terr:DamageType ; terr:name "Melee"@en .
+terr:Ranged a terr:DamageType ; terr:name "Ranged"@en .
+terr:Magic a terr:DamageType ; terr:name "Magic"@en .
+terr:Summon a terr:DamageType ; terr:name "Summon"@en .
+
+# Biomes
+terr:Jungle a terr:Biome ; terr:name "Underground Jungle"@en .
+
+# Items/resources
+terr:ChlorophyteOre a terr:Resource ;
+    terr:name "Chlorophyte Ore"@en ;
+    terr:foundInBiome terr:Jungle ;
+    terr:availableInStage terr:Hardmode .
+
+terr:ChlorophyteBar a terr:Resource ;
+    terr:name "Chlorophyte Bar"@en ;
+    terr:availableInStage terr:Hardmode .
+
+terr:TurtleShell a terr:Resource ;
+    terr:name "Turtle Shell"@en ;
+    terr:availableInStage terr:Hardmode .
+
+terr:BeetleHusk a terr:Resource ;
+    terr:name "Beetle Husk"@en ;
+    terr:availableInStage terr:PostGolem .
+
+terr:BeetleArmor a terr:Armor ;
+    terr:name "Beetle Armor"@en ;
+    terr:availableInStage terr:PostGolem .
+
+# NPCs
+terr:GiantTortoise a terr:Enemy ; terr:name "Giant Tortoise"@en ;
+    terr:availableInStage terr:Hardmode .
+
+terr:Golem a terr:Boss ; terr:name "Golem"@en ;
+    terr:availableInStage terr:PostPlantera .
+
+# Simple drop links
+terr:TurtleShell terr:dropsFrom terr:GiantTortoise .
+terr:BeetleHusk  terr:dropsFrom terr:Golem .
+
+# Reified drop events (placeholder numbers)
+terr:Drop_TurtleShell a terr:DropEvent ;
+    terr:dropOfItem terr:TurtleShell ;
+    terr:dropFromEnemy terr:GiantTortoise ;
+    terr:dropAvailableInStage terr:Hardmode ;
+    terr:dropRate 0.05 ;
+    terr:qtyMin 1 ; terr:qtyMax 1 .
+
+terr:Drop_BeetleHusk a terr:DropEvent ;
+    terr:dropOfItem terr:BeetleHusk ;
+    terr:dropFromEnemy terr:Golem ;
+    terr:dropAvailableInStage terr:PostPlantera ;
+    terr:dropRate 1.0 ;
+    terr:qtyMin 4 ; terr:qtyMax 8 .
+
+# Crafting station
+terr:MythrilAnvil a terr:CraftingStation ; terr:name "Mythril/Orichalcum Anvil"@en .
+
+# Recipe: Beetle Armor (simplified)
+terr:Recipe_BeetleArmor a terr:Recipe ;
+    terr:produces terr:BeetleArmor ;
+    terr:requiresStation terr:MythrilAnvil ;
+    terr:hasComponent [
+        a terr:RecipeComponent ;
+        terr:usesItem terr:ChlorophyteBar ;
+        terr:quantity 18
+    ] ;
+    terr:hasComponent [
+        a terr:RecipeComponent ;
+        terr:usesItem terr:TurtleShell ;
+        terr:quantity 1
+    ] ;
+    terr:hasComponent [
+        a terr:RecipeComponent ;
+        terr:usesItem terr:BeetleHusk ;
+        terr:quantity 18
+    ] .
+
+# Demo weapons
+terr:TerraBlade a terr:Weapon ;
+    terr:name "Terra Blade"@en ;
+    terr:hasDamageType terr:Melee ;
+    terr:dps 120.0 ;
+    terr:availableInStage terr:Hardmode .
+
+terr:Megashark a terr:Weapon ;
+    terr:name "Megashark"@en ;
+    terr:hasDamageType terr:Ranged ;
+    terr:dps 95.0 ;
+    terr:availableInStage terr:Hardmode .

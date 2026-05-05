@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#"
+     xml:base="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#belongsToFamily -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#belongsToFamily">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#AccessoryFamily"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasRarity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasRarity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Rarity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasCritDamage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasCritDamage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasStat"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasDefense -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasDefense">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasStat"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasHealth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasHealth">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasStat"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasIntelligence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasIntelligence">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasStat"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasStat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasStat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasStrength -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasStrength">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#hasStat"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#rarityWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#rarityWeight">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Rarity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requires -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requires">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requiresCombatSkill -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requiresCombatSkill">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requires"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requiresFarmingSkill -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requiresFarmingSkill">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requires"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requiresFishingSkill -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requiresFishingSkill">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requires"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requiresLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requiresLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requires"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requiresMiningSkill -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requiresMiningSkill">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requires"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Accessory">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requires"/>
+                                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requiresLevel"/>
+                                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requires"/>
+                                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:maxCardinality>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requires"/>
+                        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#requiresLevel"/>
+                        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#belongsToFamily"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#AccessoryFamily -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#AccessoryFamily"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Rarity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Rarity">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#rarityWeight"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Common -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Common">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Rarity"/>
+        <rarityWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rarityWeight>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Epic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Epic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Rarity"/>
+        <rarityWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rarityWeight>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Legendary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Legendary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Rarity"/>
+        <rarityWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rarityWeight>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Rare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Rare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Rarity"/>
+        <rarityWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rarityWeight>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Uncommon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Uncommon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gangster/ontologies/2025/9/accessorizer-3000#Rarity"/>
+        <rarityWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rarityWeight>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

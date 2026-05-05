@@ -1,0 +1,20 @@
+<GameInfo>
+	<!-- 
+		More starting units to feel more Napoleon.
+	-->
+	<MajorStartingUnits>
+		<Update>
+			<Where Era="ERA_INDUSTRIAL" Unit="UNIT_PIKEMAN"/>
+			<Set Quantity="0"/>
+		</Update>
+		<Update>
+			<Where Era="ERA_INDUSTRIAL" Unit="UNIT_CROSSBOWMAN"/>
+			<Set Quantity="0"/>
+		</Update>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_CAVALRY" Quantity="2" NotStartTile="true"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_FIELD_CANNON" Quantity="2" NotStartTile="true"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_BOMBARD" Quantity="2" NotStartTile="true"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_MUSKETMAN" Quantity="3"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_SPY" Quantity="1" OnDistrictCreated="true"/>
+	</MajorStartingUnits>
+</GameInfo>

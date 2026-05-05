@@ -1,0 +1,548 @@
+pageType: unknown
+background:
+  type: solid
+  color: "#191919"
+elements:
+- elementId: shape0
+  elementType: shape
+  bounds: [38.04, 38.04, 38.04, 38.04]
+  opacity: 0.2
+  shapeName: custom
+  path: 362318,362318;M72464 0L289854 0C329875 0 362318 32443 362318 72464L362318 289854C362318 329875 329875 362318 289854 362318L72464 362318C32443 362318 0 329875 0 289854L0 72464C0 32443 32443 0 72464 0Z
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: shape1
+  elementType: shape
+  bounds: [47.67, 48.5, 19.26, 17.12]
+  shapeName: custom
+  path: 183423,163043;M133587 30571C128301 30571 123174 32004 118684 34615C113652 29520 107793 25253 101329 22036C110309 14394 121741 10190 133587 10190C161101 10190 183423 32481 183423 60027C183423 73242 178169 85916 168839 95246L146197 117888C136867 127218 124193 132473 110978 132473C83464 132473 61141 110181 61141 82636C61141 82158 61141 81681 61173 81203C61332 75567 66013 71140 71650 71300C77286 71459 81713 76140 81553 81776C81553 82063 81553 82349 81553 82604C81553 98877 94737 112060 111009 112060C118811 112060 126295 108971 131836 103430L154477 80789C159986 75280 163107 67765 163107 59963C163107 43690 149923 30507 133651 30507ZM87636 55186C87031 54932 86426 54581 85884 54199C81872 52129 77286 50951 72478 50951C64676 50951 57192 54040 51652 59581L29010 82222C23501 87731 20380 95246 20380 103048C20380 119321 33564 132504 49836 132504C55091 132504 60218 131103 64708 128492C69739 133587 75598 137854 82095 141070C73115 148681 61714 152917 49836 152917C22323 152917 0 130626 0 103080C0 89865 5254 77191 14585 67860L37226 45219C46556 35889 59230 30634 72446 30634C100023 30634 122282 53116 122282 80598C122282 81012 122282 81426 122282 81840C122155 87476 117474 91903 111837 91775C106201 91648 101775 86967 101902 81330C101902 81076 101902 80853 101902 80598C101902 69867 96170 60441 87636 55250Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape2
+  elementType: shape
+  bounds: [87.49, 45.65, 168.32, 22.82]
+  shapeName: rect
+- elementId: text3
+  elementType: text
+  bounds: [77.89, 40.85, 187.52, 32.42]
+  content:
+    align: [left, middle]
+    fontSize: 15.2
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.2
+    letterSpacing: 0.76
+    text: |
+      <p><strong>Cross-layer Links</strong></p>
+- elementId: shape4
+  elementType: shape
+  bounds: [38.04, 87.49, 1221.04, 38.04]
+  shapeName: rect
+- elementId: text5
+  elementType: text
+  bounds: [28.44, 82.69, 1240.24, 47.64]
+  content:
+    align: [left, middle]
+    fontSize: 34.2
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 0.9
+    text: |
+      <p><strong>Связи между уровнями</strong></p>
+- elementId: shape6
+  elementType: shape
+  bounds: [38.04, 133.14, 1212.48, 26.63]
+  shapeName: rect
+- elementId: text7
+  elementType: text
+  bounds: [28.44, 128.34, 1231.68, 36.23]
+  content:
+    align: [left, middle]
+    fontSize: 17.1
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.3
+    text: Вертикальная интеграция разметки
+- elementId: shape8
+  elementType: shape
+  bounds: [38.36, 175.29, 1202.65, 544.59]
+  shapeName: custom
+  path: 11455287,5187186;M108672 0L11346615 0C11406633 0 11455287 48654 11455287 108672L11455287 5078514C11455287 5138532 11406633 5187186 11346615 5187186L108672 5187186C48654 5187186 0 5138532 0 5078514L0 108672C0 48694 48694 0 108672 0Z
+  fill:
+    type: solid
+    color: "#262626"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape9
+  elementType: shape
+  bounds: [214.18, 198.75, 711.01, 72.91]
+  shapeName: custom
+  path: 6772327,694443;M72465 0L6699862 0C6739883 0 6772327 32444 6772327 72465L6772327 621978C6772327 661999 6739883 694443 6699862 694443L72465 694443C32444 694443 0 661999 0 621978L0 72465C0 32444 32444 0 72465 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape10
+  elementType: shape
+  bounds: [232.09, 225.7, 19.02, 19.02]
+  shapeName: custom
+  path: 181159,181159;M22645 33967C22645 27705 27705 22645 33967 22645L90579 22645C96842 22645 101902 27705 101902 33967L101902 135869L135869 135869L135869 90579C135869 84317 140929 79257 147192 79257L169837 79257C176099 79257 181159 84317 181159 90579C181159 96842 176099 101902 169837 101902L158514 101902L158514 147192C158514 153454 153454 158514 147192 158514L90579 158514C84317 158514 79257 153454 79257 147192L79257 45290L45290 45290L45290 90579C45290 96842 40230 101902 33967 101902L11322 101902C5060 101902 0 96842 0 90579C0 84317 5060 79257 11322 79257L22645 79257L22645 33967Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape11
+  elementType: shape
+  bounds: [264.89, 214.28, 115.07, 22.82]
+  shapeName: rect
+- elementId: text12
+  elementType: text
+  bounds: [255.29, 209.48, 134.27, 32.42]
+  content:
+    align: [left, middle]
+    fontSize: 15.2
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>Аудио-сегмент</strong></p>
+- elementId: shape13
+  elementType: shape
+  bounds: [264.89, 237.11, 114.12, 19.02]
+  shapeName: rect
+- elementId: text14
+  elementType: text
+  bounds: [255.29, 232.31, 133.32, 28.62]
+  content:
+    align: [left, middle]
+    fontSize: 13.3
+    fontFamily: MiSans
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: 0.5-2.1s
+- elementId: shape15
+  elementType: shape
+  bounds: [946.39, 223.79, 17.12, 22.82]
+  shapeName: custom
+  path: 163043,217391;M71926 213400C77233 218707 85852 218707 91160 213400L159094 145465C164402 140158 164402 131538 159094 126231C153787 120924 145168 120924 139860 126231L95108 170983L95108 13587C95108 6072 89037 0 81522 0C74006 0 67935 6072 67935 13587L67935 170983L23183 126231C17875 120924 9256 120924 3949 126231C-1359 131538 -1359 140158 3949 145465L71883 213400Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape16
+  elementType: shape
+  bounds: [976.82, 218.09, 89.39, 34.23]
+  opacity: 0.2
+  shapeName: custom
+  path: 851447,326086;M36231 0L815216 0C835226 0 851447 16221 851447 36231L851447 289855C851447 309865 835226 326086 815216 326086L36231 326086C16221 326086 0 309865 0 289855L0 36231C0 16235 16235 0 36231 0Z
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: shape17
+  elementType: shape
+  bounds: [988.23, 225.7, 72.94, 19.02]
+  shapeName: rect
+- elementId: text18
+  elementType: text
+  bounds: [978.63, 220.9, 92.14, 28.62]
+  content:
+    align: [left, middle]
+    fontSize: 13.3
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: |
+      <p><strong>aligns_with</strong></p>
+- elementId: shape19
+  elementType: shape
+  bounds: [259.82, 283.7, 682.48, 72.91]
+  shapeName: custom
+  path: 6500588,694443;M72465 0L6428123 0C6468145 0 6500588 32444 6500588 72465L6500588 621978C6500588 661999 6468145 694443 6428123 694443L72465 694443C32444 694443 0 661999 0 621978L0 72465C0 32444 32444 0 72465 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#6366F1"
+- elementId: shape20
+  elementType: shape
+  bounds: [277.73, 310.65, 19.02, 19.02]
+  shapeName: custom
+  path: 181159,181159;M100876 17939C99036 13905 95002 11322 90579 11322C86157 11322 82123 13905 80283 17939L21053 147192L16984 147192C10721 147192 5661 152251 5661 158514C5661 164777 10721 169837 16984 169837L48120 169837C54383 169837 59443 164777 59443 158514C59443 152251 54383 147192 48120 147192L45962 147192L53746 130208L127448 130208L135232 147192L133074 147192C126811 147192 121752 152251 121752 158514C121752 164777 126811 169837 133074 169837L164211 169837C170473 169837 175533 164777 175533 158514C175533 152251 170473 147192 164211 147192L160142 147192L100911 17939ZM117046 107563L64113 107563L90579 49819L117046 107563Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape21
+  elementType: shape
+  bounds: [310.54, 299.24, 138.84, 22.82]
+  shapeName: rect
+- elementId: text22
+  elementType: text
+  bounds: [300.94, 294.44, 158.04, 32.42]
+  content:
+    align: [left, middle]
+    fontSize: 15.2
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>Токен "включи"</strong></p>
+- elementId: shape23
+  elementType: shape
+  bounds: [310.54, 322.06, 137.89, 19.02]
+  shapeName: rect
+- elementId: text24
+  elementType: text
+  bounds: [300.94, 317.26, 157.09, 28.62]
+  content:
+    align: [left, middle]
+    fontSize: 13.3
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: Лексический уровень
+- elementId: shape25
+  elementType: shape
+  bounds: [963.92, 308.75, 17.12, 22.82]
+  shapeName: custom
+  path: 163043,217391;M71926 213400C77233 218707 85852 218707 91160 213400L159094 145465C164402 140158 164402 131538 159094 126231C153787 120924 145168 120924 139860 126231L95108 170983L95108 13587C95108 6072 89037 0 81522 0C74006 0 67935 6072 67935 13587L67935 170983L23183 126231C17875 120924 9256 120924 3949 126231C-1359 131538 -1359 140158 3949 145465L71883 213400Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape26
+  elementType: shape
+  bounds: [994.35, 303.04, 71.32, 34.23]
+  opacity: 0.2
+  shapeName: custom
+  path: 679346,326086;M36231 0L643115 0C663125 0 679346 16221 679346 36231L679346 289855C679346 309865 663125 326086 643115 326086L36231 326086C16221 326086 0 309865 0 289855L0 36231C0 16235 16235 0 36231 0Z
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: shape27
+  elementType: shape
+  bounds: [1005.77, 310.65, 55.4, 19.02]
+  shapeName: rect
+- elementId: text28
+  elementType: text
+  bounds: [996.17, 305.85, 74.6, 28.62]
+  content:
+    align: [left, middle]
+    fontSize: 13.3
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: |
+      <p><strong>has_pos</strong></p>
+- elementId: shape29
+  elementType: shape
+  bounds: [305.47, 368.66, 609.25, 72.91]
+  shapeName: custom
+  path: 5803126,694443;M72465 0L5730661 0C5770683 0 5803126 32444 5803126 72465L5803126 621978C5803126 661999 5770683 694443 5730661 694443L72465 694443C32444 694443 0 661999 0 621978L0 72465C0 32444 32444 0 72465 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape30
+  elementType: shape
+  bounds: [321, 387.99, 56.11, 34.23]
+  shapeName: custom
+  path: 534419,326086;M36231 0L498188 0C518198 0 534419 16221 534419 36231L534419 289855C534419 309865 518198 326086 498188 326086L36231 326086C16221 326086 0 309865 0 289855L0 36231C0 16235 16235 0 36231 0Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape31
+  elementType: shape
+  bounds: [321, 387.99, 63.71, 34.23]
+  shapeName: rect
+- elementId: text32
+  elementType: text
+  bounds: [322.81, 388.9, 60.09, 32.42]
+  content:
+    align: [left, middle]
+    fontSize: 15.2
+    fontFamily: MiSans
+    color: "$light"
+    lineHeight: 1.2
+    text: |
+      <p><strong>VERB</strong></p>
+- elementId: shape33
+  elementType: shape
+  bounds: [388.7, 384.19, 216.82, 22.82]
+  shapeName: rect
+- elementId: text34
+  elementType: text
+  bounds: [379.1, 379.39, 236.02, 32.42]
+  content:
+    align: [left, middle]
+    fontSize: 15.2
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>Морфосинтаксический</strong></p>
+- elementId: shape35
+  elementType: shape
+  bounds: [388.7, 407.01, 215.87, 19.02]
+  shapeName: rect
+- elementId: text36
+  elementType: text
+  bounds: [379.1, 402.21, 235.07, 28.62]
+  content:
+    align: [left, middle]
+    fontSize: 13.3
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: Mood=Imp|Number=Sing|Person=2
+- elementId: shape37
+  elementType: shape
+  bounds: [936.01, 393.7, 17.12, 22.82]
+  shapeName: custom
+  path: 163043,217391;M71926 213400C77233 218707 85852 218707 91160 213400L159094 145465C164402 140158 164402 131538 159094 126231C153787 120924 145168 120924 139860 126231L95108 170983L95108 13587C95108 6072 89037 0 81522 0C74006 0 67935 6072 67935 13587L67935 170983L23183 126231C17875 120924 9256 120924 3949 126231C-1359 131538 -1359 140158 3949 145465L71883 213400Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape38
+  elementType: shape
+  bounds: [966.44, 387.99, 99.85, 34.23]
+  opacity: 0.2
+  shapeName: custom
+  path: 951085,326086;M36231 0L914853 0C934863 0 951085 16221 951085 36231L951085 289855C951085 309865 934863 326086 914853 326086L36231 326086C16221 326086 0 309865 0 289855L0 36231C0 16235 16235 0 36231 0Z
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: shape39
+  elementType: shape
+  bounds: [977.85, 395.6, 83.32, 19.02]
+  shapeName: rect
+- elementId: text40
+  elementType: text
+  bounds: [968.25, 390.8, 102.52, 28.62]
+  content:
+    align: [left, middle]
+    fontSize: 13.3
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: |
+      <p><strong>governed_by</strong></p>
+- elementId: shape41
+  elementType: shape
+  bounds: [351.11, 453.61, 595.94, 72.91]
+  shapeName: custom
+  path: 5676315,694443;M72465 0L5603850 0C5643871 0 5676315 32444 5676315 72465L5676315 621978C5676315 661999 5643871 694443 5603850 694443L72465 694443C32444 694443 0 661999 0 621978L0 72465C0 32444 32444 0 72465 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape42
+  elementType: shape
+  bounds: [369.02, 480.55, 19.02, 19.02]
+  shapeName: custom
+  path: 181159,181159;M0 28306C0 18930 7607 11322 16984 11322L50951 11322C60327 11322 67935 18930 67935 28306L67935 33967L113224 33967L113224 28306C113224 18930 120832 11322 130208 11322L164175 11322C173552 11322 181159 18930 181159 28306L181159 62273C181159 71650 173552 79257 164175 79257L130208 79257C120832 79257 113224 71650 113224 62273L113224 56612L67935 56612L67935 62273C67935 64856 67333 67333 66307 69527L90579 101902L118886 101902C128262 101902 135869 109509 135869 118886L135869 152853C135869 162229 128262 169837 118886 169837L84918 169837C75542 169837 67935 162229 67935 152853L67935 118886C67935 116303 68536 113826 69562 111632L45290 79257L16984 79257C7607 79257 0 71650 0 62273L0 28306Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape43
+  elementType: shape
+  bounds: [401.83, 469.14, 159.76, 22.82]
+  shapeName: rect
+- elementId: text44
+  elementType: text
+  bounds: [392.23, 464.34, 178.96, 32.42]
+  content:
+    align: [left, middle]
+    fontSize: 15.2
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>root</strong></p>
+- elementId: shape45
+  elementType: shape
+  bounds: [401.83, 491.97, 158.81, 19.02]
+  shapeName: rect
+- elementId: text46
+  elementType: text
+  bounds: [392.23, 487.17, 178.01, 28.62]
+  content:
+    align: [left, middle]
+    fontSize: 13.3
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: Синтаксический уровень
+- elementId: shape47
+  elementType: shape
+  bounds: [968.07, 478.65, 17.12, 22.82]
+  shapeName: custom
+  path: 163043,217391;M71926 213400C77233 218707 85852 218707 91160 213400L159094 145465C164402 140158 164402 131538 159094 126231C153787 120924 145168 120924 139860 126231L95108 170983L95108 13587C95108 6072 89037 0 81522 0C74006 0 67935 6072 67935 13587L67935 170983L23183 126231C17875 120924 9256 120924 3949 126231C-1359 131538 -1359 140158 3949 145465L71883 213400Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape48
+  elementType: shape
+  bounds: [998.5, 472.95, 67.52, 34.23]
+  opacity: 0.2
+  shapeName: custom
+  path: 643114,326086;M36231 0L606883 0C626893 0 643114 16221 643114 36231L643114 289855C643114 309865 626893 326086 606883 326086L36231 326086C16221 326086 0 309865 0 289855L0 36231C0 16235 16235 0 36231 0Z
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: shape49
+  elementType: shape
+  bounds: [1009.92, 480.55, 51.25, 19.02]
+  shapeName: rect
+- elementId: text50
+  elementType: text
+  bounds: [1000.32, 475.75, 70.45, 28.62]
+  content:
+    align: [left, middle]
+    fontSize: 13.3
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: |
+      <p><strong>realizes</strong></p>
+- elementId: shape51
+  elementType: shape
+  bounds: [396.76, 538.56, 511.3, 72.91]
+  shapeName: custom
+  path: 4870158,694443;M72465 0L4797692 0C4837714 0 4870158 32444 4870158 72465L4870158 621978C4870158 661999 4837714 694443 4797692 694443L72465 694443C32444 694443 0 661999 0 621978L0 72465C0 32444 32444 0 72465 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#6366F1"
+- elementId: shape52
+  elementType: shape
+  bounds: [414.67, 565.51, 19.02, 19.02]
+  shapeName: custom
+  path: 181159,181159;M158514 90579C158514 53085 128074 22645 90579 22645C53085 22645 22645 53085 22645 90579C22645 128074 53085 158514 90579 158514C128074 158514 158514 128074 158514 90579ZM0 90579C0 40587 40587 0 90579 0C140572 0 181159 40587 181159 90579C181159 140572 140572 181159 90579 181159C40587 181159 0 140572 0 90579ZM90579 118886C106202 118886 118886 106202 118886 90579C118886 74957 106202 62273 90579 62273C74957 62273 62273 74957 62273 90579C62273 106202 74957 118886 90579 118886ZM90579 39629C118700 39629 141530 62459 141530 90579C141530 118700 118700 141530 90579 141530C62459 141530 39629 118700 39629 90579C39629 62459 62459 39629 90579 39629ZM79257 90579C79257 84330 84330 79257 90579 79257C96829 79257 101902 84330 101902 90579C101902 96829 96829 101902 90579 101902C84330 101902 79257 96829 79257 90579Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape53
+  elementType: shape
+  bounds: [447.48, 554.1, 155.01, 22.82]
+  shapeName: rect
+- elementId: text54
+  elementType: text
+  bounds: [437.88, 549.3, 174.21, 32.42]
+  content:
+    align: [left, middle]
+    fontSize: 15.2
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>Intent: turn_on</strong></p>
+- elementId: shape55
+  elementType: shape
+  bounds: [447.48, 576.92, 154.06, 19.02]
+  shapeName: rect
+- elementId: text56
+  elementType: text
+  bounds: [437.88, 572.12, 173.26, 28.62]
+  content:
+    align: [left, middle]
+    fontSize: 13.3
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: Семантический уровень
+- elementId: shape57
+  elementType: shape
+  bounds: [928.91, 563.61, 17.12, 22.82]
+  shapeName: custom
+  path: 163043,217391;M71926 213400C77233 218707 85852 218707 91160 213400L159094 145465C164402 140158 164402 131538 159094 126231C153787 120924 145168 120924 139860 126231L95108 170983L95108 13587C95108 6072 89037 0 81522 0C74006 0 67935 6072 67935 13587L67935 170983L23183 126231C17875 120924 9256 120924 3949 126231C-1359 131538 -1359 140158 3949 145465L71883 213400Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape58
+  elementType: shape
+  bounds: [959.34, 557.9, 106.51, 34.23]
+  opacity: 0.2
+  shapeName: custom
+  path: 1014490,326086;M36231 0L978259 0C998269 0 1014490 16221 1014490 36231L1014490 289855C1014490 309865 998269 326086 978259 326086L36231 326086C16221 326086 0 309865 0 289855L0 36231C0 16235 16235 0 36231 0Z
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: shape59
+  elementType: shape
+  bounds: [970.75, 565.51, 90.42, 19.02]
+  shapeName: rect
+- elementId: text60
+  elementType: text
+  bounds: [961.15, 560.71, 109.62, 28.62]
+  content:
+    align: [left, middle]
+    fontSize: 13.3
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: |
+      <p><strong>has_argument</strong></p>
+- elementId: shape61
+  elementType: shape
+  bounds: [442.41, 623.52, 623.52, 72.91]
+  shapeName: custom
+  path: 5938996,694443;M72465 0L5866530 0C5906552 0 5938996 32444 5938996 72465L5938996 621978C5938996 661999 5906552 694443 5866530 694443L72465 694443C32444 694443 0 661999 0 621978L0 72465C0 32444 32444 0 72465 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#6366F1"
+- elementId: shape62
+  elementType: shape
+  bounds: [460.32, 650.46, 19.02, 19.02]
+  shapeName: custom
+  path: 181159,181159;M11499 33967L11499 86864C11499 92879 13870 98647 18116 102893L86051 170827C94896 179673 109226 179673 118072 170827L170969 117930C179814 109085 179814 94755 170969 85909L103034 17974C98788 13693 93056 11322 87041 11322L34144 11322C21654 11322 11499 21477 11499 33967ZM51128 39629C57377 39629 62450 44702 62450 50951C62450 57200 57377 62273 51128 62273C44879 62273 39805 57200 39805 50951C39805 44702 44879 39629 51128 39629Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape63
+  elementType: shape
+  bounds: [493.13, 639.05, 205.41, 22.82]
+  shapeName: rect
+- elementId: text64
+  elementType: text
+  bounds: [483.53, 634.25, 224.61, 32.42]
+  content:
+    align: [left, middle]
+    fontSize: 15.2
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>Slot: DEVICE=light</strong></p>
+- elementId: shape65
+  elementType: shape
+  bounds: [493.13, 661.87, 204.46, 19.02]
+  shapeName: rect
+- elementId: text66
+  elementType: text
+  bounds: [483.53, 657.07, 223.66, 28.62]
+  content:
+    align: [left, middle]
+    fontSize: 13.3
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: Семантический уровень (слоты)

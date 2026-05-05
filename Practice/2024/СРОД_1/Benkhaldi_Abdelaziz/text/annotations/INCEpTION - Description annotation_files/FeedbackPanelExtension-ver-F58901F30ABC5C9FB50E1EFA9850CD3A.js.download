@@ -1,0 +1,51 @@
+
+class FeedbackPanelExtension {
+
+constructor(feedbackPanelId) {
+this.panelId = feedbackPanelId;
+}
+
+addInfoToFeedbackPanel(msg) {
+this.addMsgToFeedbackPanel(msg, 'alert-info');
+}
+
+addWarningToFeedbackPanel(msg) {
+this.addMsgToFeedbackPanel(msg, 'alert-warning');
+}
+
+addErrorToFeedbackPanel(msg) {
+this.addMsgToFeedbackPanel(msg, 'alert-danger');
+}
+
+addMsgToFeedbackPanel(msg, msgClass) {
+this.feedbackPanel = document.getElementById(this.panelId);
+
+ let msgItem = document.createElement('li');
+msgItem.classList.add('alert', 'alert-dismissible', msgClass);
+
+ let msgCloseLink = this.createCloseLink();
+msgItem.appendChild(msgCloseLink);
+
+ let msgSpan = document.createElement('span');
+msgSpan.textContent = msg;
+msgItem.appendChild(msgSpan);
+
+ var feedbackMsgList = this.feedbackPanel.querySelector('ul');
+if (feedbackMsgList == null){
+feedbackMsgList = document.createElement('ul');
+feedbackMsgList.className = 'feedbackPanel';
+this.feedbackPanel.appendChild(feedbackMsgList);
+}
+feedbackMsgList.appendChild(msgItem);
+bootstrapFeedbackPanelFade();
+}
+createCloseLink() {
+var closeLink = document.createElement('button');
+closeLink.classList.add('btn-close');
+closeLink.setAttribute('type', 'button');
+closeLink.setAttribute('data-bs-dismiss', 'alert');
+closeLink.setAttribute('aria-label', 'close');
+closeLink.href = "#";
+return closeLink;
+}
+}

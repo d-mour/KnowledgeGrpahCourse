@@ -1,0 +1,1381 @@
+{
+    "data": [
+        {
+            "perk_id": 101,
+            "name": "Windows of Opportunity",
+            "count": 32195,
+            "pick_rate": 34.91,
+            "escape_rate": 32.46,
+            "survivors": 32195,
+            "escapes": 10449
+        },
+        {
+            "perk_id": 73,
+            "name": "Lithe",
+            "count": 20066,
+            "pick_rate": 21.76,
+            "escape_rate": 32.75,
+            "survivors": 20066,
+            "escapes": 6572
+        },
+        {
+            "perk_id": 8,
+            "name": "Resilience",
+            "count": 15544,
+            "pick_rate": 16.86,
+            "escape_rate": 33.94,
+            "survivors": 15544,
+            "escapes": 5275
+        },
+        {
+            "perk_id": 2,
+            "name": "Deja Vu",
+            "count": 14213,
+            "pick_rate": 15.41,
+            "escape_rate": 32.36,
+            "survivors": 14213,
+            "escapes": 4599
+        },
+        {
+            "perk_id": 32,
+            "name": "Sprint Burst",
+            "count": 13368,
+            "pick_rate": 14.5,
+            "escape_rate": 34.91,
+            "survivors": 13368,
+            "escapes": 4667
+        },
+        {
+            "perk_id": 30,
+            "name": "Adrenaline",
+            "count": 12168,
+            "pick_rate": 13.19,
+            "escape_rate": 31.68,
+            "survivors": 12168,
+            "escapes": 3855
+        },
+        {
+            "perk_id": 78,
+            "name": "Dead Hard",
+            "count": 11239,
+            "pick_rate": 12.19,
+            "escape_rate": 33.36,
+            "survivors": 11239,
+            "escapes": 3749
+        },
+        {
+            "perk_id": 68,
+            "name": "Unbreakable",
+            "count": 9200,
+            "pick_rate": 9.98,
+            "escape_rate": 32.41,
+            "survivors": 9200,
+            "escapes": 2982
+        },
+        {
+            "perk_id": 57,
+            "name": "Decisive Strike",
+            "count": 9148,
+            "pick_rate": 9.92,
+            "escape_rate": 34.95,
+            "survivors": 9148,
+            "escapes": 3197
+        },
+        {
+            "perk_id": 27,
+            "name": "Bond",
+            "count": 9035,
+            "pick_rate": 9.8,
+            "escape_rate": 32.22,
+            "survivors": 9035,
+            "escapes": 2911
+        },
+        {
+            "perk_id": 262,
+            "name": "Finesse",
+            "count": 8938,
+            "pick_rate": 9.69,
+            "escape_rate": 33.75,
+            "survivors": 8938,
+            "escapes": 3017
+        },
+        {
+            "perk_id": 37,
+            "name": "Iron Will",
+            "count": 8680,
+            "pick_rate": 9.41,
+            "escape_rate": 31.23,
+            "survivors": 8680,
+            "escapes": 2711
+        },
+        {
+            "perk_id": 29,
+            "name": "Prove Thyself",
+            "count": 7200,
+            "pick_rate": 7.81,
+            "escape_rate": 31.19,
+            "survivors": 7200,
+            "escapes": 2246
+        },
+        {
+            "perk_id": 51,
+            "name": "Balanced Landing",
+            "count": 7195,
+            "pick_rate": 7.8,
+            "escape_rate": 33.98,
+            "survivors": 7195,
+            "escapes": 2445
+        },
+        {
+            "perk_id": 13,
+            "name": "We'll Make It",
+            "count": 7085,
+            "pick_rate": 7.68,
+            "escape_rate": 31.74,
+            "survivors": 7085,
+            "escapes": 2249
+        },
+        {
+            "perk_id": 14,
+            "name": "Kindred",
+            "count": 6786,
+            "pick_rate": 7.36,
+            "escape_rate": 32.12,
+            "survivors": 6786,
+            "escapes": 2180
+        },
+        {
+            "perk_id": 145,
+            "name": "Off the Record",
+            "count": 6787,
+            "pick_rate": 7.36,
+            "escape_rate": 35.49,
+            "survivors": 6787,
+            "escapes": 2409
+        },
+        {
+            "perk_id": 178,
+            "name": "Flashbang",
+            "count": 6550,
+            "pick_rate": 7.1,
+            "escape_rate": 29.4,
+            "survivors": 6550,
+            "escapes": 1926
+        },
+        {
+            "perk_id": 35,
+            "name": "Self-Care",
+            "count": 5137,
+            "pick_rate": 5.57,
+            "escape_rate": 33.95,
+            "survivors": 5137,
+            "escapes": 1744
+        },
+        {
+            "perk_id": 3,
+            "name": "Hope",
+            "count": 4821,
+            "pick_rate": 5.23,
+            "escape_rate": 34.7,
+            "survivors": 4821,
+            "escapes": 1673
+        },
+        {
+            "perk_id": 223,
+            "name": "Background Player",
+            "count": 4584,
+            "pick_rate": 4.97,
+            "escape_rate": 27.64,
+            "survivors": 4584,
+            "escapes": 1267
+        },
+        {
+            "perk_id": 33,
+            "name": "Botany Knowledge",
+            "count": 4572,
+            "pick_rate": 4.96,
+            "escape_rate": 33.92,
+            "survivors": 4572,
+            "escapes": 1551
+        },
+        {
+            "perk_id": 176,
+            "name": "Blast Mine",
+            "count": 4325,
+            "pick_rate": 4.69,
+            "escape_rate": 31.82,
+            "survivors": 4325,
+            "escapes": 1376
+        },
+        {
+            "perk_id": 175,
+            "name": "Resurgence",
+            "count": 4290,
+            "pick_rate": 4.65,
+            "escape_rate": 35.08,
+            "survivors": 4290,
+            "escapes": 1505
+        },
+        {
+            "perk_id": 31,
+            "name": "Quick & Quiet",
+            "count": 3837,
+            "pick_rate": 4.16,
+            "escape_rate": 30.68,
+            "survivors": 3837,
+            "escapes": 1177
+        },
+        {
+            "perk_id": -1,
+            "name": "First Empty Slot",
+            "count": 3516,
+            "pick_rate": 3.81,
+            "escape_rate": 32.62,
+            "survivors": 3516,
+            "escapes": 1147
+        },
+        {
+            "perk_id": 117,
+            "name": "Head On",
+            "count": 3364,
+            "pick_rate": 3.65,
+            "escape_rate": 28.48,
+            "survivors": 3364,
+            "escapes": 958
+        },
+        {
+            "perk_id": 72,
+            "name": "Alert",
+            "count": 3125,
+            "pick_rate": 3.39,
+            "escape_rate": 31.9,
+            "survivors": 3125,
+            "escapes": 997
+        },
+        {
+            "perk_id": 4,
+            "name": "Lightweight",
+            "count": 3044,
+            "pick_rate": 3.3,
+            "escape_rate": 30.55,
+            "survivors": 3044,
+            "escapes": 930
+        },
+        {
+            "perk_id": 235,
+            "name": "Dramaturgy",
+            "count": 2832,
+            "pick_rate": 3.07,
+            "escape_rate": 36.94,
+            "survivors": 2832,
+            "escapes": 1046
+        },
+        {
+            "perk_id": 34,
+            "name": "Empathy",
+            "count": 2728,
+            "pick_rate": 2.96,
+            "escape_rate": 29.66,
+            "survivors": 2728,
+            "escapes": 809
+        },
+        {
+            "perk_id": 106,
+            "name": "Deliverance",
+            "count": 2683,
+            "pick_rate": 2.91,
+            "escape_rate": 33.73,
+            "survivors": 2683,
+            "escapes": 905
+        },
+        {
+            "perk_id": 99,
+            "name": "Boil Over",
+            "count": 2686,
+            "pick_rate": 2.91,
+            "escape_rate": 27.85,
+            "survivors": 2686,
+            "escapes": 748
+        },
+        {
+            "perk_id": 113,
+            "name": "Distortion",
+            "count": 2593,
+            "pick_rate": 2.81,
+            "escape_rate": 33.63,
+            "survivors": 2593,
+            "escapes": 872
+        },
+        {
+            "perk_id": 186,
+            "name": "Overcome",
+            "count": 2441,
+            "pick_rate": 2.65,
+            "escape_rate": 31.71,
+            "survivors": 2441,
+            "escapes": 774
+        },
+        {
+            "perk_id": 131,
+            "name": "Inner Strength",
+            "count": 2322,
+            "pick_rate": 2.52,
+            "escape_rate": 32.9,
+            "survivors": 2322,
+            "escapes": 764
+        },
+        {
+            "perk_id": 130,
+            "name": "Fixated",
+            "count": 2252,
+            "pick_rate": 2.44,
+            "escape_rate": 33.35,
+            "survivors": 2252,
+            "escapes": 751
+        },
+        {
+            "perk_id": 254,
+            "name": "Strength in Shadows",
+            "count": 2193,
+            "pick_rate": 2.38,
+            "escape_rate": 32.97,
+            "survivors": 2193,
+            "escapes": 723
+        },
+        {
+            "perk_id": 53,
+            "name": "Urban Evasion",
+            "count": 2191,
+            "pick_rate": 2.38,
+            "escape_rate": 31.4,
+            "survivors": 2191,
+            "escapes": 688
+        },
+        {
+            "perk_id": 184,
+            "name": "Boon: Circle of Healing",
+            "count": 2188,
+            "pick_rate": 2.37,
+            "escape_rate": 32.18,
+            "survivors": 2188,
+            "escapes": 704
+        },
+        {
+            "perk_id": 38,
+            "name": "Saboteur",
+            "count": 2087,
+            "pick_rate": 2.26,
+            "escape_rate": 26.21,
+            "survivors": 2087,
+            "escapes": 547
+        },
+        {
+            "perk_id": 80,
+            "name": "We're Gonna Live Forever",
+            "count": 2080,
+            "pick_rate": 2.26,
+            "escape_rate": 30.43,
+            "survivors": 2080,
+            "escapes": 633
+        },
+        {
+            "perk_id": 276,
+            "name": "Shoulder the Burden",
+            "count": 1927,
+            "pick_rate": 2.09,
+            "escape_rate": 36.59,
+            "survivors": 1927,
+            "escapes": 705
+        },
+        {
+            "perk_id": 230,
+            "name": "Made for This",
+            "count": 1910,
+            "pick_rate": 2.07,
+            "escape_rate": 30.99,
+            "survivors": 1910,
+            "escapes": 592
+        },
+        {
+            "perk_id": 156,
+            "name": "Built to Last",
+            "count": 1889,
+            "pick_rate": 2.05,
+            "escape_rate": 31.87,
+            "survivors": 1889,
+            "escapes": 602
+        },
+        {
+            "perk_id": 139,
+            "name": "Breakout",
+            "count": 1889,
+            "pick_rate": 2.05,
+            "escape_rate": 23.82,
+            "survivors": 1889,
+            "escapes": 450
+        },
+        {
+            "perk_id": 242,
+            "name": "Chemical Trap",
+            "count": 1817,
+            "pick_rate": 1.97,
+            "escape_rate": 32.47,
+            "survivors": 1817,
+            "escapes": 590
+        },
+        {
+            "perk_id": 210,
+            "name": "Hyperfocus",
+            "count": 1780,
+            "pick_rate": 1.93,
+            "escape_rate": 34.55,
+            "survivors": 1780,
+            "escapes": 615
+        },
+        {
+            "perk_id": 94,
+            "name": "Stake Out",
+            "count": 1761,
+            "pick_rate": 1.91,
+            "escape_rate": 35.15,
+            "survivors": 1761,
+            "escapes": 619
+        },
+        {
+            "perk_id": 138,
+            "name": "Any Means Necessary",
+            "count": 1731,
+            "pick_rate": 1.88,
+            "escape_rate": 34.03,
+            "survivors": 1731,
+            "escapes": 589
+        },
+        {
+            "perk_id": 237,
+            "name": "Plot Twist",
+            "count": 1732,
+            "pick_rate": 1.88,
+            "escape_rate": 30.83,
+            "survivors": 1732,
+            "escapes": 534
+        },
+        {
+            "perk_id": 205,
+            "name": "Wiretap",
+            "count": 1717,
+            "pick_rate": 1.86,
+            "escape_rate": 33.66,
+            "survivors": 1717,
+            "escapes": 578
+        },
+        {
+            "perk_id": 88,
+            "name": "Vigil",
+            "count": 1588,
+            "pick_rate": 1.72,
+            "escape_rate": 33.44,
+            "survivors": 1588,
+            "escapes": 531
+        },
+        {
+            "perk_id": 105,
+            "name": "Autodidact",
+            "count": 1485,
+            "pick_rate": 1.61,
+            "escape_rate": 30.57,
+            "survivors": 1485,
+            "escapes": 454
+        },
+        {
+            "perk_id": 209,
+            "name": "Reassurance",
+            "count": 1448,
+            "pick_rate": 1.57,
+            "escape_rate": 37.02,
+            "survivors": 1448,
+            "escapes": 536
+        },
+        {
+            "perk_id": 67,
+            "name": "Left Behind",
+            "count": 1442,
+            "pick_rate": 1.56,
+            "escape_rate": 34.47,
+            "survivors": 1442,
+            "escapes": 497
+        },
+        {
+            "perk_id": 11,
+            "name": "Spine Chill",
+            "count": 1411,
+            "pick_rate": 1.53,
+            "escape_rate": 25.09,
+            "survivors": 1411,
+            "escapes": 354
+        },
+        {
+            "perk_id": 188,
+            "name": "Boon: Exponential",
+            "count": 1414,
+            "pick_rate": 1.53,
+            "escape_rate": 32.04,
+            "survivors": 1414,
+            "escapes": 453
+        },
+        {
+            "perk_id": 95,
+            "name": "Tenacity",
+            "count": 1390,
+            "pick_rate": 1.51,
+            "escape_rate": 31.29,
+            "survivors": 1390,
+            "escapes": 435
+        },
+        {
+            "perk_id": 66,
+            "name": "Borrowed Time",
+            "count": 1376,
+            "pick_rate": 1.49,
+            "escape_rate": 31.03,
+            "survivors": 1376,
+            "escapes": 427
+        },
+        {
+            "perk_id": -2,
+            "name": "Second Empty Slot",
+            "count": 1367,
+            "pick_rate": 1.48,
+            "escape_rate": 30.43,
+            "survivors": 1367,
+            "escapes": 416
+        },
+        {
+            "perk_id": 140,
+            "name": "Lucky Break",
+            "count": 1367,
+            "pick_rate": 1.48,
+            "escape_rate": 29.41,
+            "survivors": 1367,
+            "escapes": 402
+        },
+        {
+            "perk_id": 185,
+            "name": "Boon: Shadow Step",
+            "count": 1356,
+            "pick_rate": 1.47,
+            "escape_rate": 33.04,
+            "survivors": 1356,
+            "escapes": 448
+        },
+        {
+            "perk_id": 216,
+            "name": "Quick Gambit",
+            "count": 1352,
+            "pick_rate": 1.47,
+            "escape_rate": 32.84,
+            "survivors": 1352,
+            "escapes": 444
+        },
+        {
+            "perk_id": 100,
+            "name": "Dance With Me",
+            "count": 1316,
+            "pick_rate": 1.43,
+            "escape_rate": 30.78,
+            "survivors": 1316,
+            "escapes": 405
+        },
+        {
+            "perk_id": 121,
+            "name": "Flip-Flop",
+            "count": 1315,
+            "pick_rate": 1.43,
+            "escape_rate": 27.3,
+            "survivors": 1315,
+            "escapes": 359
+        },
+        {
+            "perk_id": 1,
+            "name": "Dark Sense",
+            "count": 1311,
+            "pick_rate": 1.42,
+            "escape_rate": 29.52,
+            "survivors": 1311,
+            "escapes": 387
+        },
+        {
+            "perk_id": 74,
+            "name": "Technician",
+            "count": 1208,
+            "pick_rate": 1.31,
+            "escape_rate": 28.23,
+            "survivors": 1208,
+            "escapes": 341
+        },
+        {
+            "perk_id": 247,
+            "name": "Champion of Light",
+            "count": 1175,
+            "pick_rate": 1.27,
+            "escape_rate": 30.55,
+            "survivors": 1175,
+            "escapes": 359
+        },
+        {
+            "perk_id": 268,
+            "name": "Eyes of Belmont",
+            "count": 1136,
+            "pick_rate": 1.23,
+            "escape_rate": 33.54,
+            "survivors": 1136,
+            "escapes": 381
+        },
+        {
+            "perk_id": 215,
+            "name": "Fogwise",
+            "count": 1011,
+            "pick_rate": 1.1,
+            "escape_rate": 31.95,
+            "survivors": 1011,
+            "escapes": 323
+        },
+        {
+            "perk_id": 132,
+            "name": "Babysitter",
+            "count": 1010,
+            "pick_rate": 1.1,
+            "escape_rate": 33.07,
+            "survivors": 1010,
+            "escapes": 334
+        },
+        {
+            "perk_id": 236,
+            "name": "Scene Partner",
+            "count": 1017,
+            "pick_rate": 1.1,
+            "escape_rate": 32.35,
+            "survivors": 1017,
+            "escapes": 329
+        },
+        {
+            "perk_id": 260,
+            "name": "Bardic Inspiration",
+            "count": 983,
+            "pick_rate": 1.07,
+            "escape_rate": 30.01,
+            "survivors": 983,
+            "escapes": 295
+        },
+        {
+            "perk_id": 157,
+            "name": "Desperate Measures",
+            "count": 969,
+            "pick_rate": 1.05,
+            "escape_rate": 33.54,
+            "survivors": 969,
+            "escapes": 325
+        },
+        {
+            "perk_id": 243,
+            "name": "Light-footed",
+            "count": 946,
+            "pick_rate": 1.03,
+            "escape_rate": 30.76,
+            "survivors": 946,
+            "escapes": 291
+        },
+        {
+            "perk_id": 177,
+            "name": "Bite the Bullet",
+            "count": 953,
+            "pick_rate": 1.03,
+            "escape_rate": 33.26,
+            "survivors": 953,
+            "escapes": 317
+        },
+        {
+            "perk_id": 28,
+            "name": "Leader",
+            "count": 922,
+            "pick_rate": 1,
+            "escape_rate": 29.61,
+            "survivors": 922,
+            "escapes": 273
+        },
+        {
+            "perk_id": 6,
+            "name": "Plunderer's Instinct",
+            "count": 924,
+            "pick_rate": 1,
+            "escape_rate": 30.3,
+            "survivors": 924,
+            "escapes": 280
+        },
+        {
+            "perk_id": 255,
+            "name": "Wicked",
+            "count": 913,
+            "pick_rate": 0.99,
+            "escape_rate": 33.19,
+            "survivors": 913,
+            "escapes": 303
+        },
+        {
+            "perk_id": -3,
+            "name": "Third Empty Slot",
+            "count": 914,
+            "pick_rate": 0.99,
+            "escape_rate": 30.2,
+            "survivors": 914,
+            "escapes": 276
+        },
+        {
+            "perk_id": 164,
+            "name": "Power Struggle",
+            "count": 895,
+            "pick_rate": 0.97,
+            "escape_rate": 28.83,
+            "survivors": 895,
+            "escapes": 258
+        },
+        {
+            "perk_id": 93,
+            "name": "Detective's Hunch",
+            "count": 887,
+            "pick_rate": 0.96,
+            "escape_rate": 34.16,
+            "survivors": 887,
+            "escapes": 303
+        },
+        {
+            "perk_id": 58,
+            "name": "Object of Obsession",
+            "count": 885,
+            "pick_rate": 0.96,
+            "escape_rate": 28.59,
+            "survivors": 885,
+            "escapes": 253
+        },
+        {
+            "perk_id": 5,
+            "name": "No One Left Behind",
+            "count": 885,
+            "pick_rate": 0.96,
+            "escape_rate": 30.28,
+            "survivors": 885,
+            "escapes": 268
+        },
+        {
+            "perk_id": 52,
+            "name": "Streetwise",
+            "count": 879,
+            "pick_rate": 0.95,
+            "escape_rate": 32.54,
+            "survivors": 879,
+            "escapes": 286
+        },
+        {
+            "perk_id": 275,
+            "name": "Clean Break",
+            "count": 868,
+            "pick_rate": 0.94,
+            "escape_rate": 37.67,
+            "survivors": 868,
+            "escapes": 327
+        },
+        {
+            "perk_id": 107,
+            "name": "Diversion",
+            "count": 857,
+            "pick_rate": 0.93,
+            "escape_rate": 29.52,
+            "survivors": 857,
+            "escapes": 253
+        },
+        {
+            "perk_id": 253,
+            "name": "Invocation: Weaving Spiders",
+            "count": 847,
+            "pick_rate": 0.92,
+            "escape_rate": 29.04,
+            "survivors": 847,
+            "escapes": 246
+        },
+        {
+            "perk_id": 36,
+            "name": "Calm Spirit",
+            "count": 852,
+            "pick_rate": 0.92,
+            "escape_rate": 31.69,
+            "survivors": 852,
+            "escapes": 270
+        },
+        {
+            "perk_id": 144,
+            "name": "For the People",
+            "count": 833,
+            "pick_rate": 0.9,
+            "escape_rate": 34.45,
+            "survivors": 833,
+            "escapes": 287
+        },
+        {
+            "perk_id": 64,
+            "name": "Open-Handed",
+            "count": 811,
+            "pick_rate": 0.88,
+            "escape_rate": 31.69,
+            "survivors": 811,
+            "escapes": 257
+        },
+        {
+            "perk_id": 193,
+            "name": "Empathic Connection",
+            "count": 792,
+            "pick_rate": 0.86,
+            "escape_rate": 30.93,
+            "survivors": 792,
+            "escapes": 245
+        },
+        {
+            "perk_id": 200,
+            "name": "Overzealous",
+            "count": 774,
+            "pick_rate": 0.84,
+            "escape_rate": 33.98,
+            "survivors": 774,
+            "escapes": 263
+        },
+        {
+            "perk_id": 134,
+            "name": "Second Wind",
+            "count": 769,
+            "pick_rate": 0.83,
+            "escape_rate": 35.76,
+            "survivors": 769,
+            "escapes": 275
+        },
+        {
+            "perk_id": 79,
+            "name": "No Mither",
+            "count": 744,
+            "pick_rate": 0.81,
+            "escape_rate": 28.23,
+            "survivors": 744,
+            "escapes": 210
+        },
+        {
+            "perk_id": 163,
+            "name": "Deception",
+            "count": 726,
+            "pick_rate": 0.79,
+            "escape_rate": 27.69,
+            "survivors": 726,
+            "escapes": 201
+        },
+        {
+            "perk_id": 274,
+            "name": "Invocation: Treacherous Crows",
+            "count": 715,
+            "pick_rate": 0.78,
+            "escape_rate": 34.97,
+            "survivors": 715,
+            "escapes": 250
+        },
+        {
+            "perk_id": 7,
+            "name": "Premonition",
+            "count": 697,
+            "pick_rate": 0.76,
+            "escape_rate": 29.56,
+            "survivors": 697,
+            "escapes": 206
+        },
+        {
+            "perk_id": 9,
+            "name": "Slippery Meat",
+            "count": 696,
+            "pick_rate": 0.75,
+            "escape_rate": 28.02,
+            "survivors": 696,
+            "escapes": 195
+        },
+        {
+            "perk_id": 10,
+            "name": "Small Game",
+            "count": 664,
+            "pick_rate": 0.72,
+            "escape_rate": 28.92,
+            "survivors": 664,
+            "escapes": 192
+        },
+        {
+            "perk_id": 119,
+            "name": "Solidarity",
+            "count": 665,
+            "pick_rate": 0.72,
+            "escape_rate": 28.42,
+            "survivors": 665,
+            "escapes": 189
+        },
+        {
+            "perk_id": 89,
+            "name": "Wake Up!",
+            "count": 642,
+            "pick_rate": 0.7,
+            "escape_rate": 34.74,
+            "survivors": 642,
+            "escapes": 223
+        },
+        {
+            "perk_id": 169,
+            "name": "Smash Hit",
+            "count": 639,
+            "pick_rate": 0.69,
+            "escape_rate": 30.99,
+            "survivors": 639,
+            "escapes": 198
+        },
+        {
+            "perk_id": 152,
+            "name": "Soul Guard",
+            "count": 626,
+            "pick_rate": 0.68,
+            "escape_rate": 28.59,
+            "survivors": 626,
+            "escapes": 179
+        },
+        {
+            "perk_id": 199,
+            "name": "Residual Manifest",
+            "count": 621,
+            "pick_rate": 0.67,
+            "escape_rate": 29.63,
+            "survivors": 621,
+            "escapes": 184
+        },
+        {
+            "perk_id": 12,
+            "name": "This Is Not Happening",
+            "count": 584,
+            "pick_rate": 0.63,
+            "escape_rate": 29.62,
+            "survivors": 584,
+            "escapes": 173
+        },
+        {
+            "perk_id": 63,
+            "name": "Ace in the Hole",
+            "count": 571,
+            "pick_rate": 0.62,
+            "escape_rate": 29.95,
+            "survivors": 571,
+            "escapes": 171
+        },
+        {
+            "perk_id": 229,
+            "name": "Troubleshooter",
+            "count": 560,
+            "pick_rate": 0.61,
+            "escape_rate": 33.57,
+            "survivors": 560,
+            "escapes": 188
+        },
+        {
+            "perk_id": 174,
+            "name": "Counterforce",
+            "count": 561,
+            "pick_rate": 0.61,
+            "escape_rate": 34.94,
+            "survivors": 561,
+            "escapes": 196
+        },
+        {
+            "perk_id": 214,
+            "name": "Potential Energy",
+            "count": 557,
+            "pick_rate": 0.6,
+            "escape_rate": 29.8,
+            "survivors": 557,
+            "escapes": 166
+        },
+        {
+            "perk_id": -4,
+            "name": "Fourth Empty Slot",
+            "count": 548,
+            "pick_rate": 0.59,
+            "escape_rate": 29.38,
+            "survivors": 548,
+            "escapes": 161
+        },
+        {
+            "perk_id": 118,
+            "name": "Poised",
+            "count": 529,
+            "pick_rate": 0.57,
+            "escape_rate": 33.46,
+            "survivors": 529,
+            "escapes": 177
+        },
+        {
+            "perk_id": 269,
+            "name": "Exultation",
+            "count": 515,
+            "pick_rate": 0.56,
+            "escape_rate": 33.2,
+            "survivors": 515,
+            "escapes": 171
+        },
+        {
+            "perk_id": 168,
+            "name": "Fast Track",
+            "count": 515,
+            "pick_rate": 0.56,
+            "escape_rate": 29.51,
+            "survivors": 515,
+            "escapes": 152
+        },
+        {
+            "perk_id": 59,
+            "name": "Sole Survivor",
+            "count": 470,
+            "pick_rate": 0.51,
+            "escape_rate": 37.45,
+            "survivors": 470,
+            "escapes": 176
+        },
+        {
+            "perk_id": 112,
+            "name": "Breakdown",
+            "count": 441,
+            "pick_rate": 0.48,
+            "escape_rate": 31.52,
+            "survivors": 441,
+            "escapes": 139
+        },
+        {
+            "perk_id": 183,
+            "name": "Clairvoyance",
+            "count": 423,
+            "pick_rate": 0.46,
+            "escape_rate": 32.62,
+            "survivors": 423,
+            "escapes": 138
+        },
+        {
+            "perk_id": 111,
+            "name": "Aftercare",
+            "count": 424,
+            "pick_rate": 0.46,
+            "escape_rate": 33.49,
+            "survivors": 424,
+            "escapes": 142
+        },
+        {
+            "perk_id": 263,
+            "name": "Hardened",
+            "count": 413,
+            "pick_rate": 0.45,
+            "escape_rate": 32.93,
+            "survivors": 413,
+            "escapes": 136
+        },
+        {
+            "perk_id": 206,
+            "name": "Reactive Healing",
+            "count": 402,
+            "pick_rate": 0.44,
+            "escape_rate": 48.01,
+            "survivors": 402,
+            "escapes": 193
+        },
+        {
+            "perk_id": 259,
+            "name": "Mirrored Illusion",
+            "count": 394,
+            "pick_rate": 0.43,
+            "escape_rate": 35.28,
+            "survivors": 394,
+            "escapes": 139
+        },
+        {
+            "perk_id": 151,
+            "name": "Repressed Alliance",
+            "count": 390,
+            "pick_rate": 0.42,
+            "escape_rate": 34.62,
+            "survivors": 390,
+            "escapes": 135
+        },
+        {
+            "perk_id": 162,
+            "name": "Appraisal",
+            "count": 384,
+            "pick_rate": 0.42,
+            "escape_rate": 32.03,
+            "survivors": 384,
+            "escapes": 123
+        },
+        {
+            "perk_id": 122,
+            "name": "Mettle of Man",
+            "count": 368,
+            "pick_rate": 0.4,
+            "escape_rate": 20.65,
+            "survivors": 368,
+            "escapes": 76
+        },
+        {
+            "perk_id": 224,
+            "name": "Blood Rush",
+            "count": 363,
+            "pick_rate": 0.39,
+            "escape_rate": 36.09,
+            "survivors": 363,
+            "escapes": 131
+        },
+        {
+            "perk_id": 198,
+            "name": "Inner Focus",
+            "count": 338,
+            "pick_rate": 0.37,
+            "escape_rate": 33.14,
+            "survivors": 338,
+            "escapes": 112
+        },
+        {
+            "perk_id": 270,
+            "name": "Moment of Glory",
+            "count": 331,
+            "pick_rate": 0.36,
+            "escape_rate": 31.12,
+            "survivors": 331,
+            "escapes": 103
+        },
+        {
+            "perk_id": 187,
+            "name": "Corrective Action",
+            "count": 328,
+            "pick_rate": 0.36,
+            "escape_rate": 34.76,
+            "survivors": 328,
+            "escapes": 114
+        },
+        {
+            "perk_id": 194,
+            "name": "Boon: Dark Theory",
+            "count": 325,
+            "pick_rate": 0.35,
+            "escape_rate": 32,
+            "survivors": 325,
+            "escapes": 104
+        },
+        {
+            "perk_id": 221,
+            "name": "Friendly Competition",
+            "count": 284,
+            "pick_rate": 0.31,
+            "escape_rate": 30.99,
+            "survivors": 284,
+            "escapes": 88
+        },
+        {
+            "perk_id": 241,
+            "name": "Lucky Star",
+            "count": 267,
+            "pick_rate": 0.29,
+            "escape_rate": 37.45,
+            "survivors": 267,
+            "escapes": 100
+        },
+        {
+            "perk_id": 264,
+            "name": "Specialist",
+            "count": 250,
+            "pick_rate": 0.27,
+            "escape_rate": 27.6,
+            "survivors": 250,
+            "escapes": 69
+        },
+        {
+            "perk_id": 231,
+            "name": "Scavenger",
+            "count": 247,
+            "pick_rate": 0.27,
+            "escape_rate": 36.84,
+            "survivors": 247,
+            "escapes": 91
+        },
+        {
+            "perk_id": 222,
+            "name": "Teamwork: Power of Two",
+            "count": 229,
+            "pick_rate": 0.25,
+            "escape_rate": 37.55,
+            "survivors": 229,
+            "escapes": 86
+        },
+        {
+            "perk_id": 129,
+            "name": "Better Together",
+            "count": 230,
+            "pick_rate": 0.25,
+            "escape_rate": 35.65,
+            "survivors": 230,
+            "escapes": 82
+        },
+        {
+            "perk_id": 192,
+            "name": "Parental Guidance",
+            "count": 226,
+            "pick_rate": 0.25,
+            "escape_rate": 31.86,
+            "survivors": 226,
+            "escapes": 72
+        },
+        {
+            "perk_id": 158,
+            "name": "Visionary",
+            "count": 222,
+            "pick_rate": 0.24,
+            "escape_rate": 30.18,
+            "survivors": 222,
+            "escapes": 67
+        },
+        {
+            "perk_id": 261,
+            "name": "Still Sight",
+            "count": 222,
+            "pick_rate": 0.24,
+            "escape_rate": 33.78,
+            "survivors": 222,
+            "escapes": 75
+        },
+        {
+            "perk_id": 65,
+            "name": "Up the Ante",
+            "count": 204,
+            "pick_rate": 0.22,
+            "escape_rate": 30.88,
+            "survivors": 204,
+            "escapes": 63
+        },
+        {
+            "perk_id": 120,
+            "name": "Buckle Up",
+            "count": 206,
+            "pick_rate": 0.22,
+            "escape_rate": 29.61,
+            "survivors": 206,
+            "escapes": 61
+        },
+        {
+            "perk_id": 150,
+            "name": "Blood Pact",
+            "count": 191,
+            "pick_rate": 0.21,
+            "escape_rate": 35.08,
+            "survivors": 191,
+            "escapes": 67
+        },
+        {
+            "perk_id": 249,
+            "name": "Deadline",
+            "count": 187,
+            "pick_rate": 0.2,
+            "escape_rate": 31.02,
+            "survivors": 187,
+            "escapes": 58
+        },
+        {
+            "perk_id": 133,
+            "name": "Camaraderie",
+            "count": 186,
+            "pick_rate": 0.2,
+            "escape_rate": 34.41,
+            "survivors": 186,
+            "escapes": 64
+        },
+        {
+            "perk_id": 207,
+            "name": "Low Profile",
+            "count": 177,
+            "pick_rate": 0.19,
+            "escape_rate": 33.33,
+            "survivors": 177,
+            "escapes": 59
+        },
+        {
+            "perk_id": 248,
+            "name": "Boon: Illumination",
+            "count": 176,
+            "pick_rate": 0.19,
+            "escape_rate": 31.82,
+            "survivors": 176,
+            "escapes": 56
+        },
+        {
+            "perk_id": 179,
+            "name": "Rookie Spirit",
+            "count": 163,
+            "pick_rate": 0.18,
+            "escape_rate": 26.38,
+            "survivors": 163,
+            "escapes": 43
+        },
+        {
+            "perk_id": 87,
+            "name": "Pharmacy",
+            "count": 153,
+            "pick_rate": 0.17,
+            "escape_rate": 30.72,
+            "survivors": 153,
+            "escapes": 47
+        },
+        {
+            "perk_id": 170,
+            "name": "Self-Preservation",
+            "count": 132,
+            "pick_rate": 0.14,
+            "escape_rate": 28.03,
+            "survivors": 132,
+            "escapes": 37
+        },
+        {
+            "perk_id": 220,
+            "name": "Cut Loose",
+            "count": 124,
+            "pick_rate": 0.13,
+            "escape_rate": 32.26,
+            "survivors": 124,
+            "escapes": 40
+        },
+        {
+            "perk_id": 208,
+            "name": "Better Than New",
+            "count": 119,
+            "pick_rate": 0.13,
+            "escape_rate": 31.09,
+            "survivors": 119,
+            "escapes": 37
+        },
+        {
+            "perk_id": 146,
+            "name": "Red Herring",
+            "count": 123,
+            "pick_rate": 0.13,
+            "escape_rate": 38.21,
+            "survivors": 123,
+            "escapes": 47
+        },
+        {
+            "perk_id": 225,
+            "name": "Teamwork: Collective Stealth",
+            "count": 91,
+            "pick_rate": 0.1,
+            "escape_rate": 35.16,
+            "survivors": 91,
+            "escapes": 32
+        }
+    ]
+}

@@ -1,0 +1,224 @@
+@prefix f1: <https://github.com/RogoGit/F1-knowledge-base/f1-ontology#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+f1:CarShape
+    a sh:NodeShape ;
+    sh:targetClass f1:Car ;
+    sh:property [
+        sh:path f1:isConstructedBy ;
+        sh:maxCount 1 ;
+    ] .
+    
+f1:TeamParticipationShape
+    a sh:NodeShape ;
+    sh:targetClass f1:TeamParticipation ;
+    sh:property [
+        sh:path f1:isHappendInSeason ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path f1:hasTeam ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path f1:hasDriver ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+    ] .
+    
+f1:CarDrivingShape
+    a sh:NodeShape ;
+    sh:targetClass f1:CarDriving ;
+    sh:property [
+        sh:path f1:drivingHasHappenedInSeason ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+    ] .
+
+f1:SeasonShape
+    a sh:NodeShape ;
+    sh:targetClass f1:Season ;
+    sh:property [
+        sh:path f1:seasonYear ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1950 ;
+    ] .
+    
+f1:SeasonResultShape
+    a sh:NodeShape ;
+    sh:targetClass f1:SeasonResult ;
+    sh:property [
+        sh:path f1:winsNum ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:datatype xsd:nonNegativeInteger ;
+        sh:minInclusive 0 ;
+    ] ;
+    sh:property [
+        sh:path f1:totalPoints ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:datatype xsd:double ;
+        sh:minInclusive 0 ;
+    ] ;
+    sh:property [
+        sh:path f1:totalPosition ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+        sh:datatype xsd:positiveInteger ;
+        sh:minInclusive 1 ;
+    ] .
+
+f1:ConstructorStandingShape
+    a sh:NodeShape ;
+    sh:targetClass f1:ConstructorStanding ;
+    sh:property [
+        sh:path f1:seasonConstructorResultIsRelatedTo ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+    ] .
+
+f1:DriverStandingShape
+    a sh:NodeShape ;
+    sh:targetClass f1:DriverStanding ;
+    sh:property [
+        sh:path f1:seasonDriverResultIsRelatedTo ;
+        sh:maxCount 1 ;
+        sh:minCount 1 ;
+    ] .
+
+f1:RelatedCreationShape
+    a sh:NodeShape ;
+    sh:targetClass f1:RelatedCreation ;
+    sh:property [
+        sh:path f1:ratingsNum ;
+        sh:datatype xsd:nonNegativeInteger ;
+        sh:minInclusive 0 ;
+    ] ;
+    sh:property [
+        sh:path f1:creationDate ;
+        sh:datatype xsd:date ;
+    ] .
+
+f1:BookShape
+    a sh:NodeShape ;
+    sh:targetClass f1:Book ;
+    sh:property [
+        sh:path f1:goodreadsRating ;
+        sh:datatype xsd:double ;
+        sh:minInclusive 0 ;
+    ] ;
+    sh:property [
+        sh:path f1:pages ;
+        sh:datatype xsd:nonNegativeInteger ;
+        sh:minInclusive 1 ;
+    ] ;
+    sh:property [
+        sh:path f1:reviewsNum ;
+        sh:datatype xsd:nonNegativeInteger ;
+        sh:minInclusive 0 ;
+    ] .
+
+f1:MovieShape
+    a sh:NodeShape ;
+    sh:targetClass f1:Movie ;
+    sh:property [
+        sh:path f1:imDbRating ;
+        sh:datatype xsd:double ;
+        sh:minInclusive 0 ;
+    ] ;
+    sh:property [
+        sh:path f1:metacriticRating ;
+        sh:datatype xsd:nonNegativeInteger ;
+        sh:minInclusive 0 ;
+    ] .
+
+f1:DriverShape
+    a sh:NodeShape ;
+    sh:targetClass f1:Driver ;
+    sh:property [
+        sh:path f1:birthDate ;
+        sh:datatype xsd:date ;
+    ] .
+    
+f1:DeathAccidentShape
+    a sh:NodeShape ;
+    sh:targetClass f1:DeathAccident ;
+    sh:property [
+        sh:path f1:accidentDate ;
+        sh:datatype xsd:date ;
+    ] ;
+    sh:property [
+        sh:path f1:inEvent ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+    
+f1:CircuitShape
+    a sh:NodeShape ;
+    sh:targetClass f1:Circuit ;
+    sh:property [
+        sh:path f1:circuitLocationLong ;
+        sh:datatype xsd:double ;
+        sh:minInclusive -180 ;
+        sh:maxInclusive 180 ;
+    ] ;
+    sh:property [
+        sh:path f1:circuitLocationLat ;
+        sh:datatype xsd:double ;
+        sh:minInclusive -90 ;
+        sh:maxInclusive 90 ;
+    ] .
+    
+f1:GrandPrixShape
+    a sh:NodeShape ;
+    sh:targetClass f1:GrandPrix ;
+    sh:property [
+        sh:path f1:tookPlaceIn;
+     	sh:node f1:CircuitShape ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path f1:grandPrixDate ;
+        sh:datatype xsd:date ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path f1:seasonRound ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:positiveInteger ;
+        sh:minInclusive 1 ;
+    ] ;
+    sh:property [
+        sh:path f1:totalLaps ;
+        sh:datatype xsd:positiveInteger ;
+        sh:minInclusive 1 ;
+    ] .
+    
+f1:GrandPrixResultShape
+    a sh:NodeShape ;
+    sh:targetClass f1:GrandPrixResult ;
+    sh:property [
+        sh:path f1:driverPosition ;
+        sh:datatype xsd:positiveInteger ;
+        sh:minInclusive 1 ;
+    ] . 
+    
+f1:RaceResultShape
+    a sh:NodeShape ;
+    sh:targetClass f1:RaceResult ;
+    sh:property [
+        sh:path f1:points ;
+        sh:datatype xsd:double ;
+        sh:minInclusive 0 ;
+    ] .       
+    

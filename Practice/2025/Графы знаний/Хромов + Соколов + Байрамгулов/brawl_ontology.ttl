@@ -1,0 +1,379 @@
+@prefix : <http://example.org/brawlstars#> .
+@prefix bs: <http://example.org/brawlstars#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/brawlstars>
+    a owl:Ontology ;
+    rdfs:label "Brawl Stars Ontology"@en ;
+    rdfs:comment "Компонентная онтология для игры Brawl Stars: бойцы, редкости, классы, режимы, карты, способности, гаджеты, стар-пауэры, передачи и семантические связи."@ru ;
+    owl:versionInfo "1.0.0" ;
+    rdfs:seeAlso <https://brawlify.com/brawlers/>, <https://support.supercell.com/brawl-stars/en/articles/game-modes-10.html> .
+
+bs:Entity a owl:Class ; rdfs:label "Entity"@en .
+
+bs:Brawler a owl:Class ;
+    rdfs:subClassOf bs:Entity ;
+    rdfs:label "Brawler"@en ;
+    rdfs:comment "Игровой персонаж — основной юнит."@ru .
+
+bs:Rarity a owl:Class ;
+    rdfs:subClassOf bs:Entity ;
+    rdfs:label "Rarity"@en ;
+    owl:oneOf ( bs:Common bs:Rare bs:SuperRare bs:Epic bs:Mythic bs:Legendary bs:Starting ) .
+
+bs:ClassRole a owl:Class ;
+    rdfs:subClassOf bs:Entity ;
+    rdfs:label "Class/Role"@en ;
+    owl:oneOf ( bs:DamageDealer bs:Assassin bs:Controller bs:Marksman bs:Tank bs:Artillery bs:Support ) .
+
+bs:Ability a owl:Class ; rdfs:subClassOf bs:Entity ; rdfs:label "Ability"@en .
+bs:MainAttack a owl:Class ; rdfs:subClassOf bs:Ability ; rdfs:label "Main Attack"@en .
+bs:Super a owl:Class ; rdfs:subClassOf bs:Ability ; rdfs:label "Super"@en .
+bs:Gadget a owl:Class ; rdfs:subClassOf bs:Ability ; rdfs:label "Gadget"@en .
+bs:StarPower a owl:Class ; rdfs:subClassOf bs:Ability ; rdfs:label "Star Power"@en .
+bs:Gear a owl:Class ; rdfs:subClassOf bs:Entity ; rdfs:label "Gear"@en .
+bs:Trait a owl:Class ; rdfs:subClassOf bs:Entity ; rdfs:label "Trait"@en .
+bs:GameMode a owl:Class ; rdfs:subClassOf bs:Entity ; rdfs:label "Game Mode"@en .
+bs:Map a owl:Class ; rdfs:subClassOf bs:Entity ; rdfs:label "Map"@en ; rdfs:comment "Конкретная карта, привязанная к режиму."@ru .
+bs:TeamComp a owl:Class ; rdfs:subClassOf bs:Entity ; rdfs:label "Team Composition"@en .
+
+bs:hasRarity a owl:ObjectProperty ; rdfs:domain bs:Brawler ; rdfs:range bs:Rarity ; rdfs:label "has rarity"@en .
+bs:hasClass a owl:ObjectProperty ; rdfs:domain bs:Brawler ; rdfs:range bs:ClassRole ; rdfs:label "has class/role"@en .
+bs:hasAttack a owl:ObjectProperty ; rdfs:domain bs:Brawler ; rdfs:range bs:MainAttack ; rdfs:label "has main attack"@en .
+bs:hasSuper a owl:ObjectProperty ; rdfs:domain bs:Brawler ; rdfs:range bs:Super ; rdfs:label "has super"@en .
+bs:hasGadget a owl:ObjectProperty ; rdfs:domain bs:Brawler ; rdfs:range bs:Gadget ; rdfs:label "has gadget"@en .
+bs:hasStarPower a owl:ObjectProperty ; rdfs:domain bs:Brawler ; rdfs:range bs:StarPower ; rdfs:label "has star power"@en .
+bs:hasGear a owl:ObjectProperty ; rdfs:domain bs:Brawler ; rdfs:range bs:Gear ; rdfs:label "has gear"@en .
+bs:suitedForMode a owl:ObjectProperty ; rdfs:domain bs:Brawler ; rdfs:range bs:GameMode ; rdfs:label "suited for mode"@en .
+bs:recommendedOnMap a owl:ObjectProperty ; rdfs:domain bs:Brawler ; rdfs:range bs:Map ; rdfs:label "recommended on map"@en .
+bs:playedInMode a owl:ObjectProperty ; rdfs:domain bs:Map ; rdfs:range bs:GameMode ; rdfs:label "map played in mode"@en .
+bs:counters a owl:ObjectProperty ; rdfs:domain bs:Brawler ; rdfs:range bs:Brawler ; rdfs:label "counters"@en ; owl:propertyDisjointWith bs:synergizesWith .
+bs:synergizesWith a owl:ObjectProperty ; rdfs:domain bs:Brawler ; rdfs:range bs:Brawler ; rdfs:label "synergizes with"@en .
+bs:memberOf a owl:ObjectProperty ; rdfs:domain bs:Brawler ; rdfs:range bs:TeamComp ; rdfs:label "member of team composition"@en .
+
+bs:hasHealth a owl:DatatypeProperty ; rdfs:domain bs:Brawler ; rdfs:range xsd:integer ; rdfs:label "base health"@en .
+bs:hasRange a owl:DatatypeProperty ; rdfs:domain bs:MainAttack ; rdfs:range xsd:string ; rdfs:label "range (qualitative)"@en .
+bs:hasReloadSpeed a owl:DatatypeProperty ; rdfs:domain bs:MainAttack ; rdfs:range xsd:string ; rdfs:label "reload speed (qualitative)"@en .
+bs:movementSpeed a owl:DatatypeProperty ; rdfs:domain bs:Brawler ; rdfs:range xsd:string ; rdfs:label "movement speed (qualitative)"@en .
+bs:description a owl:DatatypeProperty ; rdfs:domain bs:Entity ; rdfs:range xsd:string ; rdfs:label "description"@en .
+
+bs:Common a bs:Rarity ; rdfs:label "Common"@en .
+bs:Starting a bs:Rarity ; rdfs:label "Starting"@en .
+bs:Rare a bs:Rarity ; rdfs:label "Rare"@en .
+bs:SuperRare a bs:Rarity ; rdfs:label "Super Rare"@en .
+bs:Epic a bs:Rarity ; rdfs:label "Epic"@en .
+bs:Mythic a bs:Rarity ; rdfs:label "Mythic"@en .
+bs:Legendary a bs:Rarity ; rdfs:label "Legendary"@en .
+
+bs:DamageDealer a bs:ClassRole ; rdfs:label "Damage Dealer"@en .
+bs:Assassin a bs:ClassRole ; rdfs:label "Assassin"@en .
+bs:Controller a bs:ClassRole ; rdfs:label "Controller"@en .
+bs:Marksman a bs:ClassRole ; rdfs:label "Marksman"@en .
+bs:Tank a bs:ClassRole ; rdfs:label "Tank"@en .
+bs:Artillery a bs:ClassRole ; rdfs:label "Artillery"@en .
+bs:Support a bs:ClassRole ; rdfs:label "Support"@en .
+
+bs:GemGrab a bs:GameMode ; rdfs:label "Gem Grab"@en .
+bs:Heist a bs:GameMode ; rdfs:label "Heist"@en .
+bs:Bounty a bs:GameMode ; rdfs:label "Bounty"@en .
+bs:BrawlBall a bs:GameMode ; rdfs:label "Brawl Ball"@en .
+bs:SoloShowdown a bs:GameMode ; rdfs:label "Solo Showdown"@en .
+bs:DuoShowdown a bs:GameMode ; rdfs:label "Duo Showdown"@en .
+bs:Knockout a bs:GameMode ; rdfs:label "Knockout"@en .
+bs:HotZone a bs:GameMode ; rdfs:label "Hot Zone"@en .
+bs:Wipeout a bs:GameMode ; rdfs:label "Wipeout"@en .
+bs:Duels a bs:GameMode ; rdfs:label "Duels"@en .
+bs:VolleyBrawl a bs:GameMode ; rdfs:label "Volley Brawl"@en .
+bs:BasketBrawl a bs:GameMode ; rdfs:label "Basket Brawl"@en .
+
+bs:AcidLakes a bs:Map ; rdfs:label "Acid Lakes"@en ; bs:playedInMode bs:SoloShowdown .
+bs:BackyardBowl a bs:Map ; rdfs:label "Backyard Bowl"@en ; bs:playedInMode bs:BrawlBall .
+bs:SnakePrairie a bs:Map ; rdfs:label "Snake Prairie"@en ; bs:playedInMode bs:Bounty .
+bs:HotPotato a bs:Map ; rdfs:label "Hot Potato"@en ; bs:playedInMode bs:Heist .
+bs:GemFort a bs:Map ; rdfs:label "Gem Fort"@en ; bs:playedInMode bs:GemGrab .
+
+bs:Hypercharge a bs:Trait ; rdfs:label "Hypercharge"@en ; bs:description "Временное усиление супер-способности."@ru .
+bs:WallBreak a bs:Trait ; rdfs:label "Wall Break"@en ; bs:description "Может разрушать стены (атакой или супером)."@ru .
+bs:Healing a bs:Trait ; rdfs:label "Healing"@en ; bs:description "Лечит союзников или себя."@ru .
+
+bs:Shelly a bs:Brawler ;
+    rdfs:label "Shelly"@en ;
+    bs:hasRarity bs:Starting ;
+    bs:hasClass bs:DamageDealer ;
+    bs:movementSpeed "Fast" ;
+    bs:hasAttack bs:Shelly_Attack ;
+    bs:hasSuper bs:Shelly_Super ;
+    bs:hasGadget bs:Shelly_Gadget_FastForward, bs:Shelly_Gadget_ClayPigeons ;
+    bs:hasStarPower bs:Shelly_SP_ShellShock, bs:Shelly_SP_BandAid ;
+    bs:hasGear bs:Gear_Damage, bs:Gear_Speed ;
+    bs:suitedForMode bs:BrawlBall, bs:Knockout, bs:SoloShowdown ;
+    bs:recommendedOnMap bs:BackyardBowl, bs:AcidLakes .
+
+bs:Shelly_Attack a bs:MainAttack ; rdfs:label "Buckshot"@en ; bs:hasRange "Short" ; bs:hasReloadSpeed "Normal" .
+bs:Shelly_Super a bs:Super ; rdfs:label "Super Shell"@en ; bs:description "Конусный залп, ломающий стены и отбрасывающий врагов."@ru ; bs:hasRange "Short" .
+bs:Shelly_Gadget_FastForward a bs:Gadget ; rdfs:label "Fast Forward"@en .
+bs:Shelly_Gadget_ClayPigeons a bs:Gadget ; rdfs:label "Clay Pigeons"@en .
+bs:Shelly_SP_ShellShock a bs:StarPower ; rdfs:label "Shell Shock"@en .
+bs:Shelly_SP_BandAid a bs:StarPower ; rdfs:label "Band-Aid"@en .
+
+bs:Colt a bs:Brawler ;
+    rdfs:label "Colt"@en ;
+    bs:hasRarity bs:Rare ;
+    bs:hasClass bs:Marksman ;
+    bs:hasAttack bs:Colt_Attack ;
+    bs:hasSuper bs:Colt_Super ;
+    bs:suitedForMode bs:Bounty, bs:Heist, bs:BrawlBall ;
+    bs:recommendedOnMap bs:SnakePrairie, bs:HotPotato ;
+    bs:hasGadget bs:Colt_Gadget_Speedloader, bs:Colt_Gadget_SilverBullet ;
+    bs:hasStarPower bs:Colt_SP_SlickBoots, bs:Colt_SP_MagnumSpecial .
+
+bs:Colt_Attack a bs:MainAttack ; rdfs:label "Six-Shooters"@en ; bs:hasRange "Long" ; bs:hasReloadSpeed "Fast" .
+bs:Colt_Super a bs:Super ; rdfs:label "Bullet Storm"@en ; bs:description "Длинная линия снарядов, пробивающих препятствия."@ru .
+bs:Colt_Gadget_Speedloader a bs:Gadget ; rdfs:label "Speedloader"@en .
+bs:Colt_Gadget_SilverBullet a bs:Gadget ; rdfs:label "Silver Bullet"@en .
+bs:Colt_SP_SlickBoots a bs:StarPower ; rdfs:label "Slick Boots"@en .
+bs:Colt_SP_MagnumSpecial a bs:StarPower ; rdfs:label "Magnum Special"@en .
+
+bs:Nita a bs:Brawler ;
+    rdfs:label "Nita"@en ;
+    bs:hasRarity bs:Rare ;
+    bs:hasClass bs:Controller ;
+    bs:hasAttack bs:Nita_Attack ;
+    bs:hasSuper bs:Nita_Super ;
+    bs:suitedForMode bs:GemGrab, bs:HotZone, bs:BrawlBall ;
+    bs:hasGadget bs:Nita_Gadget_BearPaws, bs:Nita_Gadget_FauxFur ;
+    bs:hasStarPower bs:Nita_SP_BearWithMe, bs:Nita_SP_HyperBear .
+
+bs:Nita_Attack a bs:MainAttack ; rdfs:label "Rupture"@en ; bs:hasRange "Medium" ; bs:hasReloadSpeed "Normal" .
+bs:Nita_Super a bs:Super ; rdfs:label "Overbearing"@en ; bs:description "Призывает медведя, контролирующего зону."@ru .
+bs:Nita_Gadget_BearPaws a bs:Gadget ; rdfs:label "Bear Paws"@en .
+bs:Nita_Gadget_FauxFur a bs:Gadget ; rdfs:label "Faux Fur"@en .
+bs:Nita_SP_BearWithMe a bs:StarPower ; rdfs:label "Bear With Me"@en .
+bs:Nita_SP_HyperBear a bs:StarPower ; rdfs:label "Hyper Bear"@en .
+
+bs:ElPrimo a bs:Brawler ;
+    rdfs:label "El Primo"@en ;
+    bs:hasRarity bs:Rare ;
+    bs:hasClass bs:Tank ;
+    bs:hasAttack bs:ElPrimo_Attack ;
+    bs:hasSuper bs:ElPrimo_Super ;
+    bs:suitedForMode bs:BrawlBall, bs:Heist, bs:Knockout ;
+    bs:hasGadget bs:ElPrimo_Gadget_SuplexSupplement, bs:ElPrimo_Gadget_AsteroidBelt ;
+    bs:hasStarPower bs:ElPrimo_SP_ElFuego, bs:ElPrimo_SP_MeteorRush .
+
+bs:ElPrimo_Attack a bs:MainAttack ; rdfs:label "Fists of Fury"@en ; bs:hasRange "Very Short" ; bs:hasReloadSpeed "Very Fast" .
+bs:ElPrimo_Super a bs:Super ; rdfs:label "Flying Elbow Drop"@en ; bs:description "Прыжок с приземлением, разрушающий стены."@ru .
+bs:ElPrimo_Gadget_SuplexSupplement a bs:Gadget ; rdfs:label "Suplex Supplement"@en .
+bs:ElPrimo_Gadget_AsteroidBelt a bs:Gadget ; rdfs:label "Asteroid Belt"@en .
+bs:ElPrimo_SP_ElFuego a bs:StarPower ; rdfs:label "El Fuego"@en .
+bs:ElPrimo_SP_MeteorRush a bs:StarPower ; rdfs:label "Meteor Rush"@en .
+
+bs:Poco a bs:Brawler ;
+    rdfs:label "Poco"@en ;
+    bs:hasRarity bs:Rare ;
+    bs:hasClass bs:Support ;
+    bs:hasAttack bs:Poco_Attack ;
+    bs:hasSuper bs:Poco_Super ;
+    bs:suitedForMode bs:GemGrab, bs:BrawlBall, bs:HotZone ;
+    bs:hasGadget bs:Poco_Gadget_TuningFork, bs:Poco_Gadget_ScrapSymphony ;
+    bs:hasStarPower bs:Poco_SP_DaCapo, bs:Poco_SP_ScreechingSolo ;
+    bs:synergizesWith bs:ElPrimo, bs:Frank, bs:Bibi .
+
+bs:Poco_Attack a bs:MainAttack ; rdfs:label "Power Chord"@en ; bs:hasRange "Medium" ; bs:hasReloadSpeed "Normal" .
+bs:Poco_Super a bs:Super ; rdfs:label "Encore"@en ; bs:description "Исцеление союзников волной звука."@ru .
+bs:Poco_Gadget_TuningFork a bs:Gadget ; rdfs:label "Tuning Fork"@en .
+bs:Poco_Gadget_ScrapSymphony a bs:Gadget ; rdfs:label "Scrap Symphony"@en .
+bs:Poco_SP_DaCapo a bs:StarPower ; rdfs:label "Da Capo!"@en .
+bs:Poco_SP_ScreechingSolo a bs:StarPower ; rdfs:label "Screeching Solo"@en .
+
+bs:Jessie a bs:Brawler ; rdfs:label "Jessie"@en ; bs:hasRarity bs:SuperRare ; bs:hasClass bs:Controller ;
+    bs:hasAttack bs:Jessie_Attack ; bs:hasSuper bs:Jessie_Super ; bs:suitedForMode bs:GemGrab, bs:HotZone .
+bs:Jessie_Attack a bs:MainAttack ; rdfs:label "Shock Rifle"@en ; bs:hasRange "Long" .
+bs:Jessie_Super a bs:Super ; rdfs:label "Scrappy!"@en ; bs:description "Выставляет турель."@ru .
+
+bs:Brock a bs:Brawler ; rdfs:label "Brock"@en ; bs:hasRarity bs:SuperRare ; bs:hasClass bs:Artillery ;
+    bs:hasAttack bs:Brock_Attack ; bs:hasSuper bs:Brock_Super ; bs:suitedForMode bs:Bounty, bs:Heist .
+bs:Brock_Attack a bs:MainAttack ; rdfs:label "Rockin' Rocket"@en ; bs:hasRange "Very Long" .
+bs:Brock_Super a bs:Super ; rdfs:label "Rocket Rain"@en ; bs:description "Салют ракет по области."@ru .
+
+bs:Dynamike a bs:Brawler ; rdfs:label "Dynamike"@en ; bs:hasRarity bs:SuperRare ; bs:hasClass bs:Artillery ;
+    bs:hasAttack bs:Dynamike_Attack ; bs:hasSuper bs:Dynamike_Super ; bs:suitedForMode bs:Heist, bs:Bounty .
+bs:Dynamike_Attack a bs:MainAttack ; rdfs:label "Short Fuse"@en ; bs:hasRange "Long" .
+bs:Dynamike_Super a bs:Super ; rdfs:label "Big Barrel O' Boom"@en ; bs:description "Большой урон по зоне, ломает стены."@ru .
+
+bs:Bo a bs:Brawler ; rdfs:label "Bo"@en ; bs:hasRarity bs:SuperRare ; bs:hasClass bs:Controller ;
+    bs:hasAttack bs:Bo_Attack ; bs:hasSuper bs:Bo_Super ; bs:suitedForMode bs:Bounty, bs:GemGrab .
+bs:Bo_Attack a bs:MainAttack ; rdfs:label "Eagle-Eyed"@en ; bs:hasRange "Long" .
+bs:Bo_Super a bs:Super ; rdfs:label "Catch a Fox"@en ; bs:description "Устанавливает мины."@ru .
+
+bs:Tick a bs:Brawler ; rdfs:label "Tick"@en ; bs:hasRarity bs:SuperRare ; bs:hasClass bs:Artillery ;
+    bs:hasAttack bs:Tick_Attack ; bs:hasSuper bs:Tick_Super ; bs:suitedForMode bs:Bounty, bs:HotZone .
+bs:Tick_Attack a bs:MainAttack ; rdfs:label "Minimines"@en ; bs:hasRange "Very Long" .
+bs:Tick_Super a bs:Super ; rdfs:label "Headfirst"@en ; bs:description "Самонаводящаяся голова."@ru .
+
+bs:EightBit a bs:Brawler ; rdfs:label "8-Bit"@en ; bs:hasRarity bs:SuperRare ; bs:hasClass bs:Marksman ;
+    bs:hasAttack bs:E8_Attack ; bs:hasSuper bs:E8_Super ; bs:suitedForMode bs:HotZone, bs:GemGrab .
+bs:E8_Attack a bs:MainAttack ; rdfs:label "Blaster Beams"@en ; bs:hasRange "Very Long" .
+bs:E8_Super a bs:Super ; rdfs:label "Damage Booster"@en ; bs:description "Стационарный усилитель урона."@ru .
+
+bs:Rico a bs:Brawler ; rdfs:label "Rico"@en ; bs:hasRarity bs:SuperRare ; bs:hasClass bs:Marksman ;
+    bs:hasAttack bs:Rico_Attack ; bs:hasSuper bs:Rico_Super ; bs:suitedForMode bs:Bounty, bs:Heist .
+bs:Rico_Attack a bs:MainAttack ; rdfs:label "Bouncy Bullets"@en ; bs:hasRange "Long" .
+bs:Rico_Super a bs:Super ; rdfs:label "Trick Shot"@en ; bs:description "Длинная очередь рикошетящих пуль."@ru .
+
+bs:Darryl a bs:Brawler ; rdfs:label "Darryl"@en ; bs:hasRarity bs:SuperRare ; bs:hasClass bs:Tank ;
+    bs:hasAttack bs:Darryl_Attack ; bs:hasSuper bs:Darryl_Super ; bs:suitedForMode bs:Heist, bs:BrawlBall .
+bs:Darryl_Attack a bs:MainAttack ; rdfs:label "Double Deuce"@en ; bs:hasRange "Short" .
+bs:Darryl_Super a bs:Super ; rdfs:label "Barrel Roll"@en ; bs:description "Катится, отскакивая от стен."@ru .
+
+bs:Penny a bs:Brawler ; rdfs:label "Penny"@en ; bs:hasRarity bs:SuperRare ; bs:hasClass bs:Artillery ;
+    bs:hasAttack bs:Penny_Attack ; bs:hasSuper bs:Penny_Super ; bs:suitedForMode bs:Heist, bs:Bounty .
+bs:Penny_Attack a bs:MainAttack ; rdfs:label "Plunderbuss"@en ; bs:hasRange "Long" .
+bs:Penny_Super a bs:Super ; rdfs:label "Old Lobber"@en ; bs:description "Размещает пушку-мортира."@ru .
+
+bs:Carl a bs:Brawler ; rdfs:label "Carl"@en ; bs:hasRarity bs:SuperRare ; bs:hasClass bs:Marksman ;
+    bs:hasAttack bs:Carl_Attack ; bs:hasSuper bs:Carl_Super ; bs:suitedForMode bs:Heist, bs:HotZone .
+bs:Carl_Attack a bs:MainAttack ; rdfs:label "Pickaxe"@en ; bs:hasRange "Long" .
+bs:Carl_Super a bs:Super ; rdfs:label "Tailspin"@en ; bs:description "Вращение с повышенным уроном."@ru .
+
+bs:Piper a bs:Brawler ; rdfs:label "Piper"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Marksman ;
+    bs:hasAttack bs:Piper_Attack ; bs:hasSuper bs:Piper_Super ; bs:suitedForMode bs:Bounty .
+bs:Piper_Attack a bs:MainAttack ; rdfs:label "Gunbrella"@en ; bs:hasRange "Very Long" .
+bs:Piper_Super a bs:Super ; rdfs:label "Poppin'"@en ; bs:description "Прыжок с гранатами."@ru .
+
+bs:Pam a bs:Brawler ; rdfs:label "Pam"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Support ;
+    bs:hasAttack bs:Pam_Attack ; bs:hasSuper bs:Pam_Super ; bs:suitedForMode bs:HotZone, bs:GemGrab .
+bs:Pam_Attack a bs:MainAttack ; rdfs:label "Scrapstorm"@en ; bs:hasRange "Medium" .
+bs:Pam_Super a bs:Super ; rdfs:label "Mama's Kiss"@en ; bs:description "Исцеляющая станция."@ru .
+
+bs:Frank a bs:Brawler ; rdfs:label "Frank"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Tank ;
+    bs:hasAttack bs:Frank_Attack ; bs:hasSuper bs:Frank_Super ; bs:suitedForMode bs:BrawlBall, bs:HotZone .
+bs:Frank_Attack a bs:MainAttack ; rdfs:label "Hammer Hit"@en ; bs:hasRange "Short" .
+bs:Frank_Super a bs:Super ; rdfs:label "Stunning Blow"@en ; bs:description "Оглушение в конусе, ломает стены."@ru .
+
+bs:Bibi a bs:Brawler ; rdfs:label "Bibi"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Assassin ;
+    bs:hasAttack bs:Bibi_Attack ; bs:hasSuper bs:Bibi_Super ; bs:suitedForMode bs:BrawlBall, bs:Knockout .
+bs:Bibi_Attack a bs:MainAttack ; rdfs:label "Three Strikes"@en ; bs:hasRange "Short" .
+bs:Bibi_Super a bs:Super ; rdfs:label "Spitball"@en ; bs:description "Пускает шар, отскакивающий от стен."@ru .
+
+bs:Bea a bs:Brawler ; rdfs:label "Bea"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Marksman ;
+    bs:hasAttack bs:Bea_Attack ; bs:hasSuper bs:Bea_Super ; bs:suitedForMode bs:Bounty, bs:Knockout .
+bs:Bea_Attack a bs:MainAttack ; rdfs:label "Big Sting"@en ; bs:hasRange "Very Long" .
+bs:Bea_Super a bs:Super ; rdfs:label "Iron Hive"@en ; bs:description "Разбрасывает замедляющие дроны."@ru .
+
+bs:Nani a bs:Brawler ; rdfs:label "Nani"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Marksman ;
+    bs:hasAttack bs:Nani_Attack ; bs:hasSuper bs:Nani_Super ; bs:suitedForMode bs:Bounty .
+bs:Nani_Attack a bs:MainAttack ; rdfs:label "Trigger-Nometry"@en ; bs:hasRange "Very Long" .
+bs:Nani_Super a bs:Super ; rdfs:label "Manual Override"@en ; bs:description "Дистанционно управляемый дрон Peep."@ru .
+
+bs:Edgar a bs:Brawler ; rdfs:label "Edgar"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Assassin ;
+    bs:hasAttack bs:Edgar_Attack ; bs:hasSuper bs:Edgar_Super ; bs:suitedForMode bs:SoloShowdown, bs:Knockout .
+bs:Edgar_Attack a bs:MainAttack ; rdfs:label "Fight Club"@en ; bs:hasRange "Very Short" .
+bs:Edgar_Super a bs:Super ; rdfs:label "Vault"@en ; bs:description "Прыжок к цели, ускорение."@ru .
+
+bs:Griff a bs:Brawler ; rdfs:label "Griff"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:DamageDealer ;
+    bs:hasAttack bs:Griff_Attack ; bs:hasSuper bs:Griff_Super ; bs:suitedForMode bs:Heist, bs:Bounty .
+bs:Griff_Attack a bs:MainAttack ; rdfs:label "Coin Toss"@en ; bs:hasRange "Long" .
+bs:Griff_Super a bs:Super ; rdfs:label "Cashback"@en ; bs:description "Веерные купюры туда-обратно."@ru .
+
+bs:Grom a bs:Brawler ; rdfs:label "Grom"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Artillery ;
+    bs:hasAttack bs:Grom_Attack ; bs:hasSuper bs:Grom_Super ; bs:suitedForMode bs:Bounty, bs:Knockout .
+bs:Grom_Attack a bs:MainAttack ; rdfs:label "Grom Bomb"@en ; bs:hasRange "Very Long" .
+bs:Grom_Super a bs:Super ; rdfs:label "Foot Patrol"@en ; bs:description "Большая бомба, ломающая укрытия."@ru .
+
+bs:Bonnie a bs:Brawler ; rdfs:label "Bonnie"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Marksman ;
+    bs:hasAttack bs:Bonnie_Attack ; bs:hasSuper bs:Bonnie_Super ; bs:suitedForMode bs:Knockout, bs:Bounty .
+bs:Bonnie_Attack a bs:MainAttack ; rdfs:label "Bang Bang"@en ; bs:hasRange "Long" .
+bs:Bonnie_Super a bs:Super ; rdfs:label "Cannonball!"@en ; bs:description "Выпрыгивает и прыгает на цель."@ru .
+
+bs:Max a bs:Brawler ; rdfs:label "Max"@en ; bs:hasRarity bs:Mythic ; bs:hasClass bs:Support ;
+    bs:hasAttack bs:Max_Attack ; bs:hasSuper bs:Max_Super ; bs:suitedForMode bs:BrawlBall, bs:GemGrab .
+bs:Max_Attack a bs:MainAttack ; rdfs:label "Faster Blaster"@en ; bs:hasRange "Long" .
+bs:Max_Super a bs:Super ; rdfs:label "Let's Go!"@en ; bs:description "Командный спринт."@ru .
+
+bs:Gene a bs:Brawler ; rdfs:label "Gene"@en ; bs:hasRarity bs:Mythic ; bs:hasClass bs:Controller ;
+    bs:hasAttack bs:Gene_Attack ; bs:hasSuper bs:Gene_Super ; bs:suitedForMode bs:GemGrab, bs:Knockout .
+bs:Gene_Attack a bs:MainAttack ; rdfs:label "Smoke Trails"@en ; bs:hasRange "Long" .
+bs:Gene_Super a bs:Super ; rdfs:label "Magic Hand"@en ; bs:description "Притягивает противника."@ru .
+
+bs:Tara a bs:Brawler ; rdfs:label "Tara"@en ; bs:hasRarity bs:Mythic ; bs:hasClass bs:Controller ;
+    bs:hasAttack bs:Tara_Attack ; bs:hasSuper bs:Tara_Super ; bs:suitedForMode bs:Knockout, bs:HotZone .
+bs:Tara_Attack a bs:MainAttack ; rdfs:label "Triple Tarot"@en ; bs:hasRange "Long" .
+bs:Tara_Super a bs:Super ; rdfs:label "Gravity"@en ; bs:description "Притягивающая воронка."@ru .
+
+bs:Byron a bs:Brawler ; rdfs:label "Byron"@en ; bs:hasRarity bs:Mythic ; bs:hasClass bs:Support ;
+    bs:hasAttack bs:Byron_Attack ; bs:hasSuper bs:Byron_Super ; bs:suitedForMode bs:Bounty, bs:GemGrab .
+bs:Byron_Attack a bs:MainAttack ; rdfs:label "Careful Dose"@en ; bs:hasRange "Very Long" .
+bs:Byron_Super a bs:Super ; rdfs:label "Full Treatment"@en ; bs:description "Дальняя бутылка: лечит союзников, вредит врагам."@ru .
+
+bs:Sprout a bs:Brawler ; rdfs:label "Sprout"@en ; bs:hasRarity bs:Mythic ; bs:hasClass bs:Controller ;
+    bs:hasAttack bs:Sprout_Attack ; bs:hasSuper bs:Sprout_Super ; bs:suitedForMode bs:HotZone, bs:Bounty .
+bs:Sprout_Attack a bs:MainAttack ; rdfs:label "Seed Bomb"@en ; bs:hasRange "Long" .
+bs:Sprout_Super a bs:Super ; rdfs:label "Garden Mulcher"@en ; bs:description "Создает растительную стену."@ru .
+
+bs:Spike a bs:Brawler ; rdfs:label "Spike"@en ; bs:hasRarity bs:Legendary ; bs:hasClass bs:Marksman ;
+    bs:hasAttack bs:Spike_Attack ; bs:hasSuper bs:Spike_Super ; bs:suitedForMode bs:HotZone, bs:Bounty .
+bs:Spike_Attack a bs:MainAttack ; rdfs:label "Needle Grenade"@en ; bs:hasRange "Long" .
+bs:Spike_Super a bs:Super ; rdfs:label "Stick Around!"@en ; bs:description "Замедляющее поле шипов."@ru .
+
+bs:Leon a bs:Brawler ; rdfs:label "Leon"@en ; bs:hasRarity bs:Legendary ; bs:hasClass bs:Assassin ;
+    bs:hasAttack bs:Leon_Attack ; bs:hasSuper bs:Leon_Super ; bs:suitedForMode bs:SoloShowdown, bs:DuoShowdown .
+bs:Leon_Attack a bs:MainAttack ; rdfs:label "Spinner Blades"@en ; bs:hasRange "Medium" .
+bs:Leon_Super a bs:Super ; rdfs:label "Smoke Bomb"@en ; bs:description "Невидимость на короткое время."@ru .
+
+bs:Crow a bs:Brawler ; rdfs:label "Crow"@en ; bs:hasRarity bs:Legendary ; bs:hasClass bs:Assassin ;
+    bs:hasAttack bs:Crow_Attack ; bs:hasSuper bs:Crow_Super ; bs:suitedForMode bs:Bounty, bs:Knockout .
+bs:Crow_Attack a bs:MainAttack ; rdfs:label "Switchblade"@en ; bs:hasRange "Long" .
+bs:Crow_Super a bs:Super ; rdfs:label "Swoop"@en ; bs:description "Прыжок с градом кинжалов."@ru .
+
+bs:Amber a bs:Brawler ; rdfs:label "Amber"@en ; bs:hasRarity bs:Legendary ; bs:hasClass bs:DamageDealer ;
+    bs:hasAttack bs:Amber_Attack ; bs:hasSuper bs:Amber_Super ; bs:suitedForMode bs:Heist, bs:HotZone .
+bs:Amber_Attack a bs:MainAttack ; rdfs:label "Dragon's Breath"@en ; bs:hasRange "Long" .
+bs:Amber_Super a bs:Super ; rdfs:label "Torch 'Em!"@en ; bs:description "Выливает масло и поджигает."@ru .
+
+bs:Piper bs:counters bs:ElPrimo, bs:Frank .
+bs:ElPrimo bs:counters bs:Piper, bs:Brock .
+bs:Poco bs:synergizesWith bs:ElPrimo, bs:Frank .
+
+bs:Gear_Damage a bs:Gear ; rdfs:label "Damage"@en ; bs:description "Увеличение наносимого урона."@ru .
+bs:Gear_Speed a bs:Gear ; rdfs:label "Speed"@en ; bs:description "Ускорение вне кустов."@ru .
+bs:Gear_Shield a bs:Gear ; rdfs:label "Shield"@en ; bs:description "Пассивная защита."@ru .
+
+bs:Comp_Ball_Push a bs:TeamComp ; rdfs:label "Ball Push (Brawl Ball)"@en ; bs:description "Сильное проталкивание мяча."@ru .
+bs:ElPrimo bs:memberOf bs:Comp_Ball_Push .
+bs:Poco bs:memberOf bs:Comp_Ball_Push .
+bs:Bibi bs:memberOf bs:Comp_Ball_Push .
+
+bs:Comp_Bounty_Poke a bs:TeamComp ; rdfs:label "Bounty Poke"@en ; bs:description "Пикинг с дистанции и контроль карты."@ru .
+bs:Bea bs:memberOf bs:Comp_Bounty_Poke .
+bs:Piper bs:memberOf bs:Comp_Bounty_Poke .
+bs:Nani bs:memberOf bs:Comp_Bounty_Poke .
+
+bs:Bull a bs:Brawler ; rdfs:label "Bull"@en ; bs:hasRarity bs:Rare ; bs:hasClass bs:Tank .
+bs:Rosa a bs:Brawler ; rdfs:label "Rosa"@en ; bs:hasRarity bs:Rare ; bs:hasClass bs:Tank .
+bs:Barley a bs:Brawler ; rdfs:label "Barley"@en ; bs:hasRarity bs:Rare ; bs:hasClass bs:Artillery .
+
+bs:Stu a bs:Brawler ; rdfs:label "Stu"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Assassin .
+bs:Colette a bs:Brawler ; rdfs:label "Colette"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:DamageDealer .
+bs:Lola a bs:Brawler ; rdfs:label "Lola"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:DamageDealer .
+bs:Ash a bs:Brawler ; rdfs:label "Ash"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Tank .
+bs:Bonnie a bs:Brawler ; rdfs:label "Bonnie"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Marksman .
+bs:Griff a bs:Brawler ; rdfs:label "Griff"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:DamageDealer .
+bs:Grom a bs:Brawler ; rdfs:label "Grom"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Artillery .
+bs:Edgar a bs:Brawler ; rdfs:label "Edgar"@en ; bs:hasRarity bs:Epic ; bs:hasClass bs:Assassin .
+
+bs:Otis a bs:Brawler ; rdfs:label "Otis"@en ; bs:hasRarity bs:Mythic ; bs:hasClass bs:Controller .
+bs:Janet a bs:Brawler ; rdfs:label "Janet"@en ; bs:hasRarity bs:Mythic ; bs:hasClass bs:Marksman .
+bs:Squeak a bs:Brawler ; rdfs:label "Squeak"@en ; bs:hasRarity bs:Mythic ; bs:hasClass bs:Controller .
+bs:Ruffs a bs:Brawler ; rdfs:label "Colonel Ruffs"@en ; bs:hasRarity bs:Mythic ; bs:hasClass bs:Support .
+bs:Lou a bs:Brawler ; rdfs:label "Lou"@en ; bs:hasRarity bs:Mythic ; bs:hasClass bs:Controller .
+
+bs:Surge a bs:Brawler ; rdfs:label "Surge"@en ; bs:hasRarity bs:Legendary ; bs:hasClass bs:DamageDealer .
+bs:Meg a bs:Brawler ; rdfs:label "Meg"@en ; bs:hasRarity bs:Legendary ; bs:hasClass bs:DamageDealer .
+bs:Sandy a bs:Brawler ; rdfs:label "Sandy"@en ; bs:hasRarity bs:Legendary ; bs:hasClass bs:Support .
+
+[] a owl:Restriction ; owl:onProperty bs:hasRarity ; owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ; owl:onClass bs:Rarity .
+[] a owl:Restriction ; owl:onProperty bs:hasClass ; owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ; owl:onClass bs:ClassRole .

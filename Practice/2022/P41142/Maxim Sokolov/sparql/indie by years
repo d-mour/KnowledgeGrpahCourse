@@ -1,0 +1,17 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+PREFIX on: <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl#>
+PREFIX pr: <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#>
+PREFIX tag: <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/tag/>
+
+# Сколько инди игр выходило по годам
+
+SELECT ?Year (COUNT(tag:indie) AS ?Count)
+WHERE {
+    ?Game a on:Game ;
+          pr:has_tag tag:indie .
+    OPTIONAL { ?Game pr:release_date ?Date }     
+    BIND(YEAR(?Date) AS ?Year)
+}
+GROUP BY (?Year)
+ORDER BY DESC(?Year)

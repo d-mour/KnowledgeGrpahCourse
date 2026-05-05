@@ -1,0 +1,364 @@
+{
+    "data": [
+        {
+            "survivor_id": 41,
+            "name": "Sable Ward",
+            "count": 10195,
+            "pick_rate": 8.36,
+            "escape_rate": 42.01,
+            "release_date": null
+        },
+        {
+            "survivor_id": 10,
+            "name": "Feng Min",
+            "count": 6501,
+            "pick_rate": 5.33,
+            "escape_rate": 42.52,
+            "release_date": null
+        },
+        {
+            "survivor_id": 6,
+            "name": "Nea Karlsson",
+            "count": 6266,
+            "pick_rate": 5.14,
+            "escape_rate": 44.61,
+            "release_date": null
+        },
+        {
+            "survivor_id": 13,
+            "name": "Kate Denson",
+            "count": 5956,
+            "pick_rate": 4.88,
+            "escape_rate": 41.74,
+            "release_date": null
+        },
+        {
+            "survivor_id": 20,
+            "name": "Yui Kimura",
+            "count": 5830,
+            "pick_rate": 4.78,
+            "escape_rate": 41.46,
+            "release_date": null
+        },
+        {
+            "survivor_id": 43,
+            "name": "Lara Croft",
+            "count": 5680,
+            "pick_rate": 4.66,
+            "escape_rate": 40.83,
+            "release_date": null
+        },
+        {
+            "survivor_id": 28,
+            "name": "Mikaela Reid",
+            "count": 5391,
+            "pick_rate": 4.42,
+            "escape_rate": 42.61,
+            "release_date": null
+        },
+        {
+            "survivor_id": 2,
+            "name": "Meg Thomas",
+            "count": 5377,
+            "pick_rate": 4.41,
+            "escape_rate": 42.87,
+            "release_date": null
+        },
+        {
+            "survivor_id": 9,
+            "name": "Ace Visconti",
+            "count": 4244,
+            "pick_rate": 3.48,
+            "escape_rate": 52.78,
+            "release_date": null
+        },
+        {
+            "survivor_id": 44,
+            "name": "Trevor Belmont",
+            "count": 4070,
+            "pick_rate": 3.34,
+            "escape_rate": 43.02,
+            "release_date": null
+        },
+        {
+            "survivor_id": 3,
+            "name": "Claudette Morel",
+            "count": 3964,
+            "pick_rate": 3.25,
+            "escape_rate": 43.04,
+            "release_date": null
+        },
+        {
+            "survivor_id": 1,
+            "name": "Dwight Fairfield",
+            "count": 3693,
+            "pick_rate": 3.03,
+            "escape_rate": 40.13,
+            "release_date": null
+        },
+        {
+            "survivor_id": 27,
+            "name": "Leon S. Kennedy",
+            "count": 3495,
+            "pick_rate": 2.87,
+            "escape_rate": 42.49,
+            "release_date": null
+        },
+        {
+            "survivor_id": 22,
+            "name": "Cheryl Mason",
+            "count": 3265,
+            "pick_rate": 2.68,
+            "escape_rate": 47.2,
+            "release_date": null
+        },
+        {
+            "survivor_id": 32,
+            "name": "Ada Wong",
+            "count": 3008,
+            "pick_rate": 2.47,
+            "escape_rate": 44.81,
+            "release_date": null
+        },
+        {
+            "survivor_id": 7,
+            "name": "David King",
+            "count": 2933,
+            "pick_rate": 2.4,
+            "escape_rate": 43.27,
+            "release_date": null
+        },
+        {
+            "survivor_id": null,
+            "name": "Overall Average",
+            "count": 0,
+            "pick_rate": 2.27,
+            "escape_rate": 42.72,
+            "release_date": null
+        },
+        {
+            "survivor_id": 19,
+            "name": "Steve Harrington",
+            "count": 2561,
+            "pick_rate": 2.1,
+            "escape_rate": 42.68,
+            "release_date": null
+        },
+        {
+            "survivor_id": 26,
+            "name": "Jill Valentine",
+            "count": 2548,
+            "pick_rate": 2.09,
+            "escape_rate": 41.01,
+            "release_date": null
+        },
+        {
+            "survivor_id": 4,
+            "name": "Jake Park",
+            "count": 2370,
+            "pick_rate": 1.94,
+            "escape_rate": 38.52,
+            "release_date": null
+        },
+        {
+            "survivor_id": 36,
+            "name": "Renato Lyra",
+            "count": 2199,
+            "pick_rate": 1.8,
+            "escape_rate": 43.07,
+            "release_date": null
+        },
+        {
+            "survivor_id": 40,
+            "name": "Alan Wake",
+            "count": 2035,
+            "pick_rate": 1.67,
+            "escape_rate": 43.05,
+            "release_date": null
+        },
+        {
+            "survivor_id": 5,
+            "name": "William \"Bill\" Overbeck",
+            "count": 2009,
+            "pick_rate": 1.65,
+            "escape_rate": 44.35,
+            "release_date": null
+        },
+        {
+            "survivor_id": 25,
+            "name": "Yun-Jin Lee",
+            "count": 1970,
+            "pick_rate": 1.61,
+            "escape_rate": 42.79,
+            "release_date": null
+        },
+        {
+            "survivor_id": 21,
+            "name": "Zarina Kassir",
+            "count": 1824,
+            "pick_rate": 1.5,
+            "escape_rate": 41.78,
+            "release_date": null
+        },
+        {
+            "survivor_id": 18,
+            "name": "Nancy Wheeler",
+            "count": 1827,
+            "pick_rate": 1.5,
+            "escape_rate": 43.4,
+            "release_date": null
+        },
+        {
+            "survivor_id": 34,
+            "name": "Vittorio Toscano",
+            "count": 1780,
+            "pick_rate": 1.46,
+            "escape_rate": 41.24,
+            "release_date": null
+        },
+        {
+            "survivor_id": 35,
+            "name": "Thalita Lyra",
+            "count": 1737,
+            "pick_rate": 1.42,
+            "escape_rate": 40.59,
+            "release_date": null
+        },
+        {
+            "survivor_id": 42,
+            "name": "Aestri Yazar",
+            "count": 1656,
+            "pick_rate": 1.36,
+            "escape_rate": 44.02,
+            "release_date": null
+        },
+        {
+            "survivor_id": 33,
+            "name": "Rebecca Chambers",
+            "count": 1663,
+            "pick_rate": 1.36,
+            "escape_rate": 42.27,
+            "release_date": null
+        },
+        {
+            "survivor_id": 14,
+            "name": "Adam Francis",
+            "count": 1603,
+            "pick_rate": 1.31,
+            "escape_rate": 41.73,
+            "release_date": null
+        },
+        {
+            "survivor_id": 23,
+            "name": "Felix Richter",
+            "count": 1475,
+            "pick_rate": 1.21,
+            "escape_rate": 40.34,
+            "release_date": null
+        },
+        {
+            "survivor_id": 39,
+            "name": "Ellen Ripley",
+            "count": 1373,
+            "pick_rate": 1.13,
+            "escape_rate": 43.26,
+            "release_date": null
+        },
+        {
+            "survivor_id": 38,
+            "name": "Nicolas Cage",
+            "count": 1329,
+            "pick_rate": 1.09,
+            "escape_rate": 32.43,
+            "release_date": null
+        },
+        {
+            "survivor_id": null,
+            "name": "Elodie Rakoto",
+            "count": 1297,
+            "pick_rate": 1.06,
+            "escape_rate": 42.1,
+            "release_date": null
+        },
+        {
+            "survivor_id": 16,
+            "name": "Jane Romero",
+            "count": 1216,
+            "pick_rate": 1,
+            "escape_rate": 48.03,
+            "release_date": null
+        },
+        {
+            "survivor_id": null,
+            "name": "Jeff Johansen",
+            "count": 1119,
+            "pick_rate": 0.92,
+            "escape_rate": 37.35,
+            "release_date": null
+        },
+        {
+            "survivor_id": 31,
+            "name": "Haddie Kaur",
+            "count": 1061,
+            "pick_rate": 0.87,
+            "escape_rate": 45.81,
+            "release_date": null
+        },
+        {
+            "survivor_id": 8,
+            "name": "Laurie Strode",
+            "count": 963,
+            "pick_rate": 0.79,
+            "escape_rate": 42.89,
+            "release_date": null
+        },
+        {
+            "survivor_id": 11,
+            "name": "Quentin Smith",
+            "count": 906,
+            "pick_rate": 0.74,
+            "escape_rate": 43.16,
+            "release_date": null
+        },
+        {
+            "survivor_id": 17,
+            "name": "Ashley J. Williams",
+            "count": 850,
+            "pick_rate": 0.7,
+            "escape_rate": 38.94,
+            "release_date": null
+        },
+        {
+            "survivor_id": 37,
+            "name": "Gabriel Soma",
+            "count": 776,
+            "pick_rate": 0.64,
+            "escape_rate": 46.13,
+            "release_date": null
+        },
+        {
+            "survivor_id": null,
+            "name": "Detective Tapp",
+            "count": 723,
+            "pick_rate": 0.59,
+            "escape_rate": 38.87,
+            "release_date": null
+        },
+        {
+            "survivor_id": 29,
+            "name": "Jonah Vasquez",
+            "count": 680,
+            "pick_rate": 0.56,
+            "escape_rate": 39.85,
+            "release_date": null
+        },
+        {
+            "survivor_id": 30,
+            "name": "Yoichi Asakawa",
+            "count": 567,
+            "pick_rate": 0.46,
+            "escape_rate": 40.21,
+            "release_date": null
+        }
+    ]
+}

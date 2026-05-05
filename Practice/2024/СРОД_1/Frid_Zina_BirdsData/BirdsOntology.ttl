@@ -1,0 +1,109 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/#> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix s: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://www.semanticweb.org/owl/owlapi/turtle#> .
+
+<http://www.semanticweb.org/owl/owlapi/turtle#> rdf:type owl:Ontology ;
+                                                dc:title "New ontology"@en; 
+                                                dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 9 ###
+#  --------------------------- Property 0------------------------- 
+:hasVoice rdf:type owl:ObjectProperty ;
+          rdfs:label "hasVoice"@en; 
+          rdfs:domain :Bird;
+          rdfs:range :Voice . 
+#  --------------------------- Property 1------------------------- 
+:hasAppearance rdf:type owl:ObjectProperty ;
+               rdfs:label "hasAppearance"@en; 
+               rdfs:domain :Bird;
+               rdfs:range :Appearance .
+#  --------------------------- Property 2------------------------- 
+:belongsToSpecies rdf:type owl:ObjectProperty ;
+                  rdfs:label "belongsToSpecies"@en; 
+                  rdfs:domain :Bird;
+                  rdfs:range :Species . 
+#  --------------------------- Property 3------------------------- 
+:hasAction rdf:type owl:ObjectProperty ;
+           rdfs:label "hasAction"@en; 
+           rdfs:domain :Appearance;
+           rdfs:range :Action . 
+#  --------------------------- Property 4-------------------------
+:isFlying rdf:type owl:DatatypeProperty ;
+            rdfs:label "isFlying"@en; 
+            rdfs:domain :Action;
+            rdfs:range xsd:boolean . 
+#  --------------------------- Property 5-------------------------
+:isSitting rdf:type owl:DatatypeProperty ;
+           rdfs:label "isSitting"@en; 
+           rdfs:domain :Action;
+           rdfs:range xsd:boolean . 
+#  --------------------------- Property 6-------------------------														 
+:isCarrying rdf:type owl:DatatypeProperty ;
+            rdfs:label "isCarrying"@en; 
+            rdfs:domain :Action;
+            rdfs:range xsd:boolean . 
+#  --------------------------- Property 7------------------------- 													
+:isFeeding rdf:type owl:DatatypeProperty ;
+           rdfs:label "isFeeding"@en; 
+           rdfs:domain :Action;
+           rdfs:range xsd:boolean . 
+#  --------------------------- Property 8-------------------------
+:Description rdf:type owl:DatatypeProperty ;
+             rdfs:label "Description"@en; 
+             rdfs:domain :Appearance;
+             rdfs:range rdf:PlainLiteral .			 
+###  Class Definitions (Number of Classes) 11 ###
+#  --------------------------- Class  0------------------------- 
+:Bird rdf:type owl:Class; 
+      rdfs:label "Bird"@en .
+#  --------------------------- Class  1-------------------------
+:Voice rdf:type owl:Class; 
+       rdfs:label "Voice"@en .
+#  --------------------------- Class  2------------------------- 
+:Appearance rdf:type owl:Class; 
+			rdfs:label "Appearance"@en .
+#  --------------------------- Class  3------------------------- 
+:Action rdf:type owl:Class; 
+		rdfs:label "Action"@en .  
+#  --------------------------- Class  4-------------------------
+:Species rdf:type owl:Class; 
+		 rdfs:label "Species"@en . 
+#  --------------------------- Class  5------------------------- 
+:FriCoe rdf:type owl:Class; 
+        rdfs:subClassOf :Species ;
+        rdfs:label "FriCoe"@en . 
+#  --------------------------- Class  6------------------------- 														 
+:MotAlb rdf:type owl:Class; 
+        rdfs:subClassOf :Species ; 
+        rdfs:label "MotAlb"@en . 														 
+#  --------------------------- Class  7------------------------- 
+:ParMaj rdf:type owl:Class; 
+		rdfs:subClassOf :Species ;
+		rdfs:label "ParMaj"@en . 
+#  --------------------------- Class  8------------------------- 
+:PasDom rdf:type owl:Class; 
+		rdfs:subClassOf :Species ; 
+		rdfs:label "PasDom"@en .
+#  --------------------------- Class  9------------------------- 
+:StuVul rdf:type owl:Class; 
+		rdfs:subClassOf :Species ; 
+		rdfs:label "StuVul"@en .
+#  --------------------------- Class  10-------------------------
+:TurMer rdf:type owl:Class; 
+		rdfs:subClassOf :Species ; 
+		rdfs:label "TurMer"@en . 

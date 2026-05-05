@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<RuleSets>
+		<Row>
+			<RuleSetType>RULESET_TUTORIAL</RuleSetType>
+			<Name>Tutorial</Name>
+			<Description>Tutorial Description</Description>
+			<SupportsMultiPlayer>0</SupportsMultiPlayer>
+		</Row>
+	</RuleSets>
+	
+	<ConfigurationUpdates>
+		<Row SourceGroup="Game" SourceId="RULESET" SourceValue="RULESET_TUTORIAL" TargetGroup="Game" TargetId="DISABLE_SAVING" TargetValue="1" Hash="0" /> 
+	</ConfigurationUpdates>
+
+	<RulesetDomainOverrides>
+		<Row Ruleset="RULESET_TUTORIAL" ParameterId="Map" Domain="Tutorial_Maps" />
+	</RulesetDomainOverrides>
+
+	<RulesetSupportedValues>
+		<Row Ruleset="RULESET_TUTORIAL" Domain="StandardGameSpeeds" Value="GAMESPEED_QUICK" />
+		<Row Ruleset="RULESET_TUTORIAL" Domain="StandardDifficulties" Value="DIFFICULTY_SETTLER" />
+		<Row Ruleset="RULESET_TUTORIAL" Domain="StandardEras" Value="ERA_ANCIENT" />
+		<Row Ruleset="RULESET_TUTORIAL" Domain="StandardMapSizes" Value="MAPSIZE_DUEL" />
+		<Row Ruleset="RULESET_TUTORIAL" PlayerId="0" Domain="StandardPlayers" Value="LEADER_CLEOPATRA" />
+		<Row Ruleset="RULESET_TUTORIAL" PlayerId="0" Domain="StandardPlayers" Value="LEADER_GILGAMESH" />
+		<Row Ruleset="RULESET_TUTORIAL" PlayerId="1" Domain="StandardPlayers" Value="LEADER_CLEOPATRA" />
+		<Row Ruleset="RULESET_TUTORIAL" PlayerId="1" Domain="StandardPlayers" Value="LEADER_GILGAMESH" />
+	</RulesetSupportedValues>
+	
+</GameInfo>

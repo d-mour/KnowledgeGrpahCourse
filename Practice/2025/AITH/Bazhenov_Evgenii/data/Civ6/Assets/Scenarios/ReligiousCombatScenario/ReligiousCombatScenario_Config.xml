@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<RuleSets>
+		<Row>
+			<RuleSetType>RULESET_SCENARIO_RELIGIOUS_COMBAT</RuleSetType>
+			<Name>LOC_RELIGIOUS_COMBAT_RULESET_TITLE</Name>
+			<Description>LOC_RELIGIOUS_COMBAT_RULESET_TEASER</Description>
+			<VictoryDomain>ReligiousCombatScenario_Victories</VictoryDomain>
+			<SupportsSinglePlayer>0</SupportsSinglePlayer>
+		</Row>
+	</RuleSets>
+		
+	<RulesetSupportedValues>
+		<Row Ruleset="RULESET_SCENARIO_RELIGIOUS_COMBAT" Domain="StandardEras" Value="ERA_MEDIEVAL"/>
+		<Row Ruleset="RULESET_SCENARIO_RELIGIOUS_COMBAT" Domain="StandardTurnLimits" Value="TURNLIMIT_NONE"/>
+	</RulesetSupportedValues>
+	
+	<!-- Mvemba is not allowed due to the inability to create a religion and random leader pool players which are inaccessible -->
+	<!-- Nzinga is removed because the Kongo civ is removed because Mvemba was removed. -->
+	<RulesetUnsupportedValues>
+		<Row Ruleset="RULESET_SCENARIO_RELIGIOUS_COMBAT" Domain="Players:StandardPlayers" Value="LEADER_MVEMBA" />
+		<Row Ruleset="RULESET_SCENARIO_RELIGIOUS_COMBAT" Domain="Players:StandardPlayers" Value="LEADER_NZINGA_MBANDE" />
+		<Row Ruleset="RULESET_SCENARIO_RELIGIOUS_COMBAT" Domain="Players:StandardPlayers" Value="RANDOM_POOL1" />
+		<Row Ruleset="RULESET_SCENARIO_RELIGIOUS_COMBAT" Domain="Players:StandardPlayers" Value="RANDOM_POOL2" />
+	</RulesetUnsupportedValues>
+	
+	<Victories>
+		<Row Domain="ReligiousCombatScenario_Victories" VictoryType="VICTORY_RELIGIOUSCOMBAT" Name="LOC_RELIGIOUS_COMBAT_VICTORY_TITLE" Description="LOC_RELIGIOUS_COMBAT_VICTORY_DESC"/>
+	</Victories>
+	
+	<!-- Disable turn limit and max turns if our ruleset is selected. -->
+	<ParameterCriteria>
+		<Row ParameterId="TurnLimit" ConfigurationGroup="Game" ConfigurationId="RULESET" Operator="NotEquals" ConfigurationValue="RULESET_SCENARIO_RELIGIOUS_COMBAT" />
+		<Row ParameterId="MaxTurns" ConfigurationGroup="Game" ConfigurationId="RULESET" Operator="NotEquals" ConfigurationValue="RULESET_SCENARIO_RELIGIOUS_COMBAT" />
+	</ParameterCriteria>
+
+	<Parameters>
+		<!-- Using a different ParameterId to override the default values for these standard advanced settings. -->
+		<Row Key1="Ruleset" Key2="RULESET_SCENARIO_RELIGIOUS_COMBAT" ParameterId="ReligiousCombat_NoGoodyHuts" Name="LOC_GAME_NO_GOODY_HUTS" Description="LOC_GAME_NO_GOODY_HUTS" Domain="bool" DefaultValue="0" Visible="true" ConfigurationGroup="Game" ConfigurationId="GAME_NO_GOODY_HUTS" GroupId="AdvancedOptions" SortIndex="2010"/>
+		<Row Key1="Ruleset" Key2="RULESET_SCENARIO_RELIGIOUS_COMBAT" ParameterId="ReligiousCombat_NoBarbarians" Name="LOC_GAME_NO_BARBARIANS" Description="LOC_GAME_NO_BARBARIANS" Domain="bool" DefaultValue="0" Visible="true" ConfigurationGroup="Game" ConfigurationId="GAME_NO_BARBARIANS" GroupId="AdvancedOptions" SortIndex="2010"/>
+	</Parameters>
+</GameInfo>

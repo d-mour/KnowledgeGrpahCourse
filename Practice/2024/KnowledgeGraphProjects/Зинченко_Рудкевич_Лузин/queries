@@ -1,0 +1,35 @@
+1) Какие карты соответствуют заданному уровню таверны?
+SELECT ?card
+WHERE {
+    ?card ex:have_tavern_level ex:5_level .
+}
+
+2) Какова стоимость конкретной карты?
+SELECT ?cost
+WHERE {
+    ex:Bassgill  ex:worth_coin ?cost .
+}
+
+3) Все карты, которые лежат в таверне
+SELECT ?card
+WHERE {
+    ?card rdf:type ex:Card_ .
+    ex:Tavern ex:hold_card ?card .
+}
+
+4) Все карты, которые лежат в таверне, у которых уровень таверны 4_level, 5_level или 6_level
+SELECT ?card
+WHERE {
+    ?card rdf:type ex:Card_ .
+    ex:Tavern ex:hold_card ?card .
+    ?card ex:have_tavern_level ?level .
+    FILTER (?level IN (ex:4_level, ex:5_level, ex:6_level))
+}
+
+5) Уровни карт в таверне
+SELECT DISTINCT ?level
+WHERE {
+    ?card rdf:type ex:Card_ .
+    ex:Tavern ex:hold_card ?card .
+    ?card ex:have_tavern_level ?level .
+}

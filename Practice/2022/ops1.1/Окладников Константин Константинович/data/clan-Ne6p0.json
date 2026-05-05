@@ -1,0 +1,373 @@
+https://api.tanki.su/wot/clans/info/?application_id=a12842cff8d85bdbdb9e779cca01397b&clan_id=510010&fields=members_count%2Cdescription%2Ccreator_name%2Cclan_id%2Cleader_name%2Ccreator_id%2Ctag%2Cmembers.account_id%2Cmembers.account_name%2Cold_name%2Cleader_id%2Cmotto%2Cold_tag%2Cname
+{
+    "status": "ok",
+    "meta": {
+        "count": 1
+    },
+    "data": {
+        "510010": {
+            "members_count": 88,
+            "description": "Небро принимает в свои ряды активных бойцов, нацеленных на успешную игру в укрепрайонах и ГК.\nБудем рады видеть игроков (роты) которые могут помочь нам в развитии клана.\nТолько на ивент не берём!\nНаши кланы:\n1. [NE6P0] Ne6p0\n2. [NE6RO] He6p0cKo\n3. [HE6PO] He6pocko\n4.[NE6PQ] NE6PQ\n5.[NEBR0] Не6рa\n6.[NE6R0] NeBr0\n🕘Наш прайм-тайм - 20:00 - 23:00 МСК.\n❶ Онлайн 5 из 7\n❷ Общий % побед не ниже 52%.\n❸ Рейтинг эффективности по: WN8: 1600+ ( основа ) и 2000+ ( динамика ), ЛР от 7000+.\n❹ Кол-во боев не менее 15 к.\n❺ Кол-во топ техники в ангаре - исследованных от 5 танков -10 лвл.\n❻ Участие в боях на ГК, Вылазках и Наступлениях в Укрепрайоне!\n❼ Так же есть исключение, по всем вопросам обращайтесь к зам. комам.\n❽ В клане действует правило : Зашел в игру - зайди в TeamSpeak!\n\n♛https:\/\/vk.com\/public207361576 ♛",
+            "creator_name": "___l7PoPoK___",
+            "tag": "NE6P0",
+            "leader_name": "_DED_NE6P0",
+            "creator_id": 69889638,
+            "clan_id": 510010,
+            "members": [
+                {
+                    "account_name": "PeakTuBHbIu_",
+                    "account_id": 5516288
+                }, 
+                {
+                    "account_name": "zecan12345",
+                    "account_id": 22767616
+                }, 
+                {
+                    "account_name": "_NIKS0N_",
+                    "account_id": 57731587
+                }, 
+                {
+                    "account_name": "Alesha_Mur0meTc",
+                    "account_id": 24512013
+                }, 
+                {
+                    "account_name": "IDESTROYERI",
+                    "account_id": 67731984
+                }, 
+                {
+                    "account_name": "_www_007",
+                    "account_id": 2835988
+                }, 
+                {
+                    "account_name": "Na_Na_Na_Na_Na_Na_Na_Na_",
+                    "account_id": 8550434
+                }, 
+                {
+                    "account_name": "Grishkovec1",
+                    "account_id": 6632997
+                }, 
+                {
+                    "account_name": "Adskaya_Bestiya",
+                    "account_id": 3356711
+                }, 
+                {
+                    "account_name": "Gnom1kue",
+                    "account_id": 1782325
+                }, 
+                {
+                    "account_name": "tesak_007",
+                    "account_id": 4375097
+                }, 
+                {
+                    "account_name": "_CJIADKA9I_3AUKA",
+                    "account_id": 33046075
+                }, 
+                {
+                    "account_name": "467876",
+                    "account_id": 30400572
+                }, 
+                {
+                    "account_name": "Sunshine_In_The_Darkness",
+                    "account_id": 27961920
+                }, 
+                {
+                    "account_name": "_RAMA_NE6P0_777",
+                    "account_id": 108890692
+                }, 
+                {
+                    "account_name": "l_KaNo_l",
+                    "account_id": 13316172
+                }, 
+                {
+                    "account_name": "______WeReVoLF_____",
+                    "account_id": 59730516
+                }, 
+                {
+                    "account_name": "theVortex",
+                    "account_id": 30811733
+                }, 
+                {
+                    "account_name": "_TBou_nanuk_",
+                    "account_id": 5877849
+                }, 
+                {
+                    "account_name": "AHcKuJIbHuu_IIIKoJIbHuK",
+                    "account_id": 11845740
+                }, 
+                {
+                    "account_name": "StookSiti",
+                    "account_id": 781424
+                }, 
+                {
+                    "account_name": "CoJIHe4Ha9l_DeVo4Ka",
+                    "account_id": 8377467
+                }, 
+                {
+                    "account_name": "_DED_NE6P0",
+                    "account_id": 33485439
+                }, 
+                {
+                    "account_name": "KoJleco",
+                    "account_id": 108564616
+                }, 
+                {
+                    "account_name": "The_Same_Crrazyy",
+                    "account_id": 36924554
+                }, 
+                {
+                    "account_name": "exNoticed",
+                    "account_id": 11838603
+                }, 
+                {
+                    "account_name": "MaGa__6e3_DaMaGa",
+                    "account_id": 35449484
+                }, 
+                {
+                    "account_name": "NikitaProf141",
+                    "account_id": 33019542
+                }, 
+                {
+                    "account_name": "St_Rafaell",
+                    "account_id": 34087575
+                }, 
+                {
+                    "account_name": "Huk_He_TTpuDyMaL_",
+                    "account_id": 117328537
+                }, 
+                {
+                    "account_name": "4L4DIN",
+                    "account_id": 26649757
+                }, 
+                {
+                    "account_name": "ITPaBHyK_Pa3Pa6a",
+                    "account_id": 152514719
+                }, 
+                {
+                    "account_name": "Hearthless",
+                    "account_id": 11141744
+                }, 
+                {
+                    "account_name": "3uHoBuu_KoJIo6aHoB",
+                    "account_id": 152562862
+                }, 
+                {
+                    "account_name": "_DED_NEBRO_",
+                    "account_id": 109182128
+                }, 
+                {
+                    "account_name": "faraonmim",
+                    "account_id": 10639026
+                }, 
+                {
+                    "account_name": "most_have",
+                    "account_id": 79583930
+                }, 
+                {
+                    "account_name": "_EPMAK_161",
+                    "account_id": 12224970
+                }, 
+                {
+                    "account_name": "_melbun_",
+                    "account_id": 82069182
+                }, 
+                {
+                    "account_name": "Oleg_V_k",
+                    "account_id": 31761600
+                }, 
+                {
+                    "account_name": "_Mr_Kasl",
+                    "account_id": 113370305
+                }, 
+                {
+                    "account_name": "Aquaqell",
+                    "account_id": 13068488
+                }, 
+                {
+                    "account_name": "DAH9I_54",
+                    "account_id": 86612685
+                }, 
+                {
+                    "account_name": "NSS_ltd",
+                    "account_id": 16972502
+                }, 
+                {
+                    "account_name": "IIoeXaJI_9I_Ha_TaHKe",
+                    "account_id": 20133081
+                }, 
+                {
+                    "account_name": "EmiIy",
+                    "account_id": 2708701
+                }, 
+                {
+                    "account_name": "Seth_Gecko",
+                    "account_id": 771310
+                }, 
+                {
+                    "account_name": "Reinvention",
+                    "account_id": 60614464
+                }, 
+                {
+                    "account_name": "_MorkVa",
+                    "account_id": 14619900
+                }, 
+                {
+                    "account_name": "alibastr11",
+                    "account_id": 887566
+                }, 
+                {
+                    "account_name": "NanoXXX",
+                    "account_id": 20879129
+                }, 
+                {
+                    "account_name": "Darek_IQ_",
+                    "account_id": 18703643
+                }, 
+                {
+                    "account_name": "Excepti0n",
+                    "account_id": 27328284
+                }, 
+                {
+                    "account_name": "by_SAMURAI",
+                    "account_id": 80918322
+                }, 
+                {
+                    "account_name": "Dayu_StRoGo_Za_LLleku",
+                    "account_id": 14993715
+                }, 
+                {
+                    "account_name": "TTyTT___3eMJIu",
+                    "account_id": 64085818
+                }, 
+                {
+                    "account_name": "rigikwww",
+                    "account_id": 25874752
+                }, 
+                {
+                    "account_name": "___DarK_LioN___",
+                    "account_id": 16786246
+                }, 
+                {
+                    "account_name": "Andryskas",
+                    "account_id": 21900115
+                }, 
+                {
+                    "account_name": "maximuss44",
+                    "account_id": 8827735
+                }, 
+                {
+                    "account_name": "GorganFrimen",
+                    "account_id": 3065689
+                }, 
+                {
+                    "account_name": "WildEmptyInsideAILY",
+                    "account_id": 127669106
+                }, 
+                {
+                    "account_name": "__CHE_S_TER__",
+                    "account_id": 162844541
+                }, 
+                {
+                    "account_name": "k1ra_kain",
+                    "account_id": 13707136
+                }, 
+                {
+                    "account_name": "15_MunyT_ADA",
+                    "account_id": 97313153
+                }, 
+                {
+                    "account_name": "He_3JIuTE_BESa",
+                    "account_id": 25585814
+                }, 
+                {
+                    "account_name": "Zytraeus",
+                    "account_id": 88683404
+                }, 
+                {
+                    "account_name": "Sha1am0v",
+                    "account_id": 78240147
+                }, 
+                {
+                    "account_name": "ReJoy",
+                    "account_id": 67297181
+                }, 
+                {
+                    "account_name": "_RAMA_NE6PO_177",
+                    "account_id": 36381601
+                }, 
+                {
+                    "account_name": "execution_of_fate",
+                    "account_id": 145288104
+                }, 
+                {
+                    "account_name": "CJIa6blu_Mycop",
+                    "account_id": 28909483
+                }, 
+                {
+                    "account_name": "Edd_a",
+                    "account_id": 31221681
+                }, 
+                {
+                    "account_name": "_RaptoR_1",
+                    "account_id": 105141171
+                }, 
+                {
+                    "account_name": "Dominiquell",
+                    "account_id": 29185461
+                }, 
+                {
+                    "account_name": "Denis_Matt_by",
+                    "account_id": 5562294
+                }, 
+                {
+                    "account_name": "lKassablancal",
+                    "account_id": 6332860
+                }, 
+                {
+                    "account_name": "dogma77777",
+                    "account_id": 8022982
+                }, 
+                {
+                    "account_name": "CmoMamoJloG",
+                    "account_id": 31864266
+                }, 
+                {
+                    "account_name": "BlackAbaddon",
+                    "account_id": 3202514
+                }, 
+                {
+                    "account_name": "Death_Is_The_End",
+                    "account_id": 20963797
+                }, 
+                {
+                    "account_name": "x_DOK_x",
+                    "account_id": 75915226
+                }, 
+                {
+                    "account_name": "__XoD0k__",
+                    "account_id": 3672539
+                }, 
+                {
+                    "account_name": "I_Hupper_I",
+                    "account_id": 61780962
+                }, 
+                {
+                    "account_name": "_HoUsE___",
+                    "account_id": 101565927
+                }, 
+                {
+                    "account_name": "makaveli_26",
+                    "account_id": 24221171
+                }, 
+                {
+                    "account_name": "_SoniCS_",
+                    "account_id": 37120505
+                }
+            ],
+            "old_name": "Пузырики",
+            "leader_id": 33485439,
+            "motto": "Невозможно победить того, кто не сдается.",
+            "old_tag": "B_GUM",
+            "name": "Ne6p0"
+        }
+    }
+}

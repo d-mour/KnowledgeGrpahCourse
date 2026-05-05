@@ -1,0 +1,46 @@
+<Firaxis key="EAE83CF6480114176BA460395ACE4C27">
+	<Item type="mod" value="643EA320-8E1A-4CF1-A01C-00D88DDD131A">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645400"/>
+		<EpicApp id="52644b864e1f47ca9971d793117efee5:af1142559e5c4c8189886eba90693baa:7619F77B-BAA7-4912-AA6E-45C124E6ECFD"/>
+	</Item>
+	<Item type="content" value="754001AF-1B3F-43A5-8138-8FB13E2BF173">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645400"/>
+		<EpicApp id="52644b864e1f47ca9971d793117efee5:af1142559e5c4c8189886eba90693baa:7619F77B-BAA7-4912-AA6E-45C124E6ECFD"/>
+	</Item>
+	<Item type="content" value="A97C10FB-45D5-4EE7-A295-79216A4EDD98">
+		<SteamApp id="645400"/>
+		<EpicApp id="52644b864e1f47ca9971d793117efee5:af1142559e5c4c8189886eba90693baa:7619F77B-BAA7-4912-AA6E-45C124E6ECFD"/>
+	</Item>
+	<Item type="civilization" value="CIVILIZATION_NUBIA">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645400"/>
+		<EpicApp id="52644b864e1f47ca9971d793117efee5:af1142559e5c4c8189886eba90693baa:7619F77B-BAA7-4912-AA6E-45C124E6ECFD"/>
+	</Item>
+	<Item type="leader" value="LEADER_AMANITORE">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645400"/>
+		<EpicApp id="52644b864e1f47ca9971d793117efee5:af1142559e5c4c8189886eba90693baa:7619F77B-BAA7-4912-AA6E-45C124E6ECFD"/>
+	</Item>
+	<Item type="unit" value="UNIT_NUBIAN_PITATI">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645400"/>
+		<EpicApp id="52644b864e1f47ca9971d793117efee5:af1142559e5c4c8189886eba90693baa:7619F77B-BAA7-4912-AA6E-45C124E6ECFD"/>
+	</Item>
+	<Item type="building" value="BUILDING_JEBEL_BARKAL">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645400"/>
+		<EpicApp id="52644b864e1f47ca9971d793117efee5:af1142559e5c4c8189886eba90693baa:7619F77B-BAA7-4912-AA6E-45C124E6ECFD"/>
+	</Item>
+	<Item type="improvement" value="IMPROVEMENT_PYRAMID">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645400"/>
+		<EpicApp id="52644b864e1f47ca9971d793117efee5:af1142559e5c4c8189886eba90693baa:7619F77B-BAA7-4912-AA6E-45C124E6ECFD"/>
+	</Item>
+	<!-- Nubia Scenario -->
+	<Item type="mod" value="7619F77B-BAA7-4912-AA6E-45C124E6ECFD">
+		<SteamApp id="645400"/>
+		<EpicApp id="52644b864e1f47ca9971d793117efee5:af1142559e5c4c8189886eba90693baa"/>
+	</Item>	
+</Firaxis>

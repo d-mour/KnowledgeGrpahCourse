@@ -1,0 +1,22 @@
+utterance_id,local_utterance_id,dialogue_id,season,episode,speaker,utterance,emotion,sentiment,targets,start_time,end_time,audio_file
+0,0,0,8,21,Chandler,"also I was the point person on my company’s transition from the KL-5 to GR-6 system.",neutral,neutral,"['1']","00:16:16,059","00:16:21,731",dialog_0.mp3
+1,1,0,8,21,The Interviewer,"You must’ve had your hands full.",neutral,neutral,"['2']","00:16:21,940","00:16:23,442",dialog_0.mp3
+2,2,0,8,21,Chandler,"That I did. That I did.",neutral,neutral,"['3']","00:16:23,442","00:16:26,389",dialog_0.mp3
+3,3,0,8,21,The Interviewer,"So let’s talk a little bit about your duties.",neutral,neutral,"['4']","00:16:26,820","00:16:29,572",dialog_0.mp3
+4,4,0,8,21,Chandler,"My duties? All right.",surprise,positive,"['5']","00:16:34,452","00:16:40,917",dialog_0.mp3
+5,5,0,8,21,The Interviewer,"Now you’ll be heading a whole division, so you’ll have a lot of duties.",neutral,neutral,"['6']","00:16:41,126","00:16:44,337",dialog_0.mp3
+6,6,0,8,21,Chandler,"I see.",neutral,neutral,"['7']","00:16:48,800","00:16:51,886",dialog_0.mp3
+7,7,0,8,21,The Interviewer,"But there’ll be perhaps 30 people under you so you can dump a certain amount on them.",neutral,neutral,"['8']","00:16:48,800","00:16:54,514",dialog_0.mp3
+8,8,0,8,21,Chandler,"Good to know.",neutral,neutral,['9'],"00:16:59,477","00:17:00,478",dialog_0.mp3
+9,9,0,8,21,The Interviewer,"We can go into detail,",neutral,neutral,['10'],"00:17:00,478","00:17:02,719",dialog_0.mp3
+10,10,0,8,21,Chandler,"No don’t I beg of you!",fear,negative,['11'],"00:17:02,856","00:17:04,858",dialog_0.mp3
+11,11,0,8,21,The Interviewer,"All right then, we’ll have a definite answer for you on Monday, but I think I can say with some confidence, you’ll fit in well here.",neutral,neutral,['12'],"00:17:05,025","00:17:13,324",dialog_0.mp3
+12,12,0,8,21,Chandler,"Really?!",surprise,positive,['13'],"00:17:13,491","00:17:16,536",dialog_0.mp3
+13,13,0,8,21,The Interviewer,"Absolutely. You can relax",neutral,neutral,None,"00:17:17,579","00:17:20,707",dialog_0.mp3
+14,0,1,9,23,Joey,"But then who? The waitress I went out with last month?",surprise,negative,['15'],"00:36:40,364","00:36:42,824",dialog_1.mp3
+15,1,1,9,23,Rachel,"You know? Forget it!",sadness,negative,['16'],"00:36:44,368","00:36:46,578",dialog_1.mp3
+16,2,1,9,23,Joey,"No-no-no-no, no! Who, who were you talking about?",surprise,negative,['17'],"00:36:44,368","00:36:49,122",dialog_1.mp3
+17,3,1,9,23,Rachel,"No, I-I-I-I don't, I actually don't know",fear,negative,['18'],"00:36:49,290","00:36:51,791",dialog_1.mp3
+18,4,1,9,23,Joey,"Ok!",neutral,neutral,['19'],"00:36:52,376","00:36:53,543",dialog_1.mp3
+19,5,1,9,23,Joey,"All right, well...",neutral,neutral,['19'],"00:36:53,545","00:36:55,000",dialog_1.mp3
+20,8,1,9,23,Rachel,"Yeah, sure!",neutral,neutral,"None","00:36:59,425","00:37:01,439",dialog_1.mp3

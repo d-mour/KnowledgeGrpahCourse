@@ -1,0 +1,402 @@
+@prefix : <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix plants: <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#> .
+@base <http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2> .
+
+<http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#bearsFriut
+
+:bearsFriut rdf:type owl:AsymmetricProperty ,
+                     owl:ObjectProperty ;
+            
+            rdfs:range :Fruit ;
+            
+            rdfs:domain :FruitPlant .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#careSuitableFor
+
+:careSuitableFor rdf:type owl:AsymmetricProperty ,
+                          owl:ObjectProperty ;
+                 
+                 rdfs:range :Plant ;
+                 
+                 rdfs:domain :WayOfCare ;
+                 
+                 owl:inverseOf :needsCare .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#climateSuitableFor
+
+:climateSuitableFor rdf:type owl:AsymmetricProperty ,
+                             owl:ObjectProperty ;
+                    
+                    rdfs:domain :Climate ;
+                    
+                    rdfs:range :Plant ;
+                    
+                    owl:inverseOf :preferClimate .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#growsAt
+
+:growsAt rdf:type owl:AsymmetricProperty ,
+                  owl:ObjectProperty ;
+         
+         rdfs:domain :Fruit ;
+         
+         rdfs:range :FruitPlant ;
+         
+         owl:inverseOf :bearsFriut .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#needsCare
+
+:needsCare rdf:type owl:AsymmetricProperty ,
+                    owl:ObjectProperty ;
+           
+           rdfs:domain :Plant ;
+           
+           rdfs:range :WayOfCare .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#preferClimate
+
+:preferClimate rdf:type owl:AsymmetricProperty ,
+                        owl:ObjectProperty ;
+               
+               rdfs:range :Climate ;
+               
+               rdfs:domain :Plant .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#preferSoil
+
+:preferSoil rdf:type owl:AsymmetricProperty ,
+                     owl:ObjectProperty ;
+            
+            rdfs:domain :Plant ;
+            
+            rdfs:range :Soil ;
+            
+            owl:inverseOf :soilSuitableFor .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#soilSuitableFor
+
+:soilSuitableFor rdf:type owl:AsymmetricProperty ,
+                          owl:ObjectProperty ;
+                 
+                 rdfs:range :Plant ;
+                 
+                 rdfs:domain :Soil .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#climateLight
+
+:climateLight rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :Climate ;
+              
+              rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#climateMaxTemperature
+
+:climateMaxTemperature rdf:type owl:DatatypeProperty ;
+                       
+                       rdfs:domain :Climate ;
+                       
+                       rdfs:range xsd:integer .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#climateMinTemperature
+
+:climateMinTemperature rdf:type owl:DatatypeProperty ;
+                       
+                       rdfs:domain :Climate ;
+                       
+                       rdfs:range xsd:integer .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#flowerColor
+
+:flowerColor rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain :FloweringPlant ;
+             
+             rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#floweringSeason
+
+:floweringSeason rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :FloweringPlant ;
+                 
+                 rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#fruitColor
+
+:fruitColor rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :Fruit ;
+            
+            rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#fruitEdibility
+
+:fruitEdibility rdf:type owl:DatatypeProperty ;
+                
+                rdfs:domain :Fruit ;
+                
+                rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#fruitSize
+
+:fruitSize rdf:type owl:DatatypeProperty ;
+           
+           rdfs:domain :Fruit ;
+           
+           rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#plantHeight
+
+:plantHeight rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain :Plant ;
+             
+             rdfs:range xsd:nonNegativeInteger .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#soilAcidity
+
+:soilAcidity rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain :Soil ;
+             
+             rdfs:range xsd:integer .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#wateringFrequency
+
+:wateringFrequency rdf:type owl:DatatypeProperty ;
+                   
+                   rdfs:domain :Watering ;
+                   
+                   rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#wateringIntensivity
+
+:wateringIntensivity rdf:type owl:DatatypeProperty ;
+                     
+                     rdfs:domain :Watering ;
+                     
+                     rdfs:range xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Clay
+
+:Clay rdf:type owl:Class ;
+      
+      rdfs:label "Clay soil"@en ,
+                 "Глинистая почва"@ru ;
+      
+      rdfs:subClassOf :Soil .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Climate
+
+:Climate rdf:type owl:Class ;
+         
+         rdfs:label "Climate"@en ,
+                    "Климат"@ru ;
+         
+         rdfs:comment "Климатические условия (температура, освещенность, влажность)"@ru .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#FloweringPlant
+
+:FloweringPlant rdf:type owl:Class ;
+                
+                rdfs:label "Flowering plant"@en ,
+                           "Цветущее растение"@ru ;
+                
+                rdfs:subClassOf :Plant .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Fruit
+
+:Fruit rdf:type owl:Class ;
+       
+       rdfs:label "Fruit of plant"@en ,
+                  "Плод растения"@ru ;
+       
+       rdfs:comment "Плод растения, используемый человеком."@ru .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#FruitPlant
+
+:FruitPlant rdf:type owl:Class ;
+            
+            rdfs:label "Fruit plant"@en ,
+                       "Плодоносящее растение"@ru ;
+            
+            rdfs:subClassOf :Plant .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Gravel
+
+:Gravel rdf:type owl:Class ;
+        
+        rdfs:label "Gravel soil"@en ,
+                   "Гравийная почва"@ru ;
+        
+        rdfs:subClassOf :Soil .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Organic
+
+:Organic rdf:type owl:Class ;
+         
+         rdfs:label "Organic soil"@en ,
+                    "Органическая почва"@ru ;
+         
+         rdfs:subClassOf :Soil .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Plant
+
+:Plant rdf:type owl:Class ;
+       
+       rdfs:label "Plant"@en ,
+                  "Растение"@ru .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Sand
+
+:Sand rdf:type owl:Class ;
+      
+      rdfs:label "Sandy soil"@en ,
+                 "Песчанная почва"@ru ;
+      
+      rdfs:subClassOf :Soil .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Silt
+
+:Silt rdf:type owl:Class ;
+      
+      rdfs:label "Silt soil"@en ,
+                 "Алевритовая почва"@ru ;
+      
+      rdfs:subClassOf :Soil ;
+      
+      rdfs:comment "Алеврит - рыхлая мелкообломочная осадочная порода."@ru .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Soil
+
+:Soil rdf:type owl:Class ;
+      
+      rdfs:label "Soil"@en ,
+                 "Почва"@ru .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Transplant
+
+:Transplant rdf:type owl:Class ;
+            
+            rdfs:label "Пересадка"@ru ;
+            
+            rdfs:subClassOf :WayOfCare .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#Watering
+
+:Watering rdf:type owl:Class ;
+          
+          rdfs:label "Полив"@ru ;
+          
+          rdfs:subClassOf :WayOfCare .
+
+
+
+###  http://www.semanticweb.org/yuri/ontologies/2022/1/plants-2#WayOfCare
+
+:WayOfCare rdf:type owl:Class ;
+           
+           rdfs:label "Способ ухода"@ru .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net

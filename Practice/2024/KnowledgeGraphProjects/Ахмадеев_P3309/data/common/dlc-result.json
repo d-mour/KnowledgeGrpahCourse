@@ -1,0 +1,244 @@
+{
+    "data": [
+        {
+            "dlc_id": 1,
+            "name": "THE LAST BREATH",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Nurse\nNew Survivor: Nea Karlsson\nNew Map (Free): Crotus Prenn Asylum\nAn exclusive item for Nea",
+            "release_date": "2016-08-18"
+        },
+        {
+            "dlc_id": 2,
+            "name": "HALLOWEEN",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Shape\nNew Survivor: Laurie Strode\nNew Map (Free): Haddonfield – Lampkin Lane\nAn exclusive item for Laurie",
+            "release_date": "2016-10-25"
+        },
+        {
+            "dlc_id": 3,
+            "name": "OF FLESH AND MUD",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Hag\nNew Survivor: Ace Visconti\nNew Map (Free): Backwater Swamp\nAn exclusive item for Ace",
+            "release_date": "2016-12-08"
+        },
+        {
+            "dlc_id": 4,
+            "name": "SPARK OF MADNESS",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Doctor\nNew Survivor: Feng Min\nNew Map (Free): Léry’s Memorial Institute\nAn exclusive item for Feng",
+            "release_date": "2017-05-11"
+        },
+        {
+            "dlc_id": 5,
+            "name": "A LULLABY FOR THE DARK",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Huntress\nNew Survivor: David King\nNew Map (Free): Red Forest\nAn exclusive item for David",
+            "release_date": "2017-07-27"
+        },
+        {
+            "dlc_id": 6,
+            "name": "LEATHERFACE",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Cannibal",
+            "release_date": "2017-09-14"
+        },
+        {
+            "dlc_id": 7,
+            "name": "A NIGHTMARE ON ELM STREET",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Nightmare\nNew Survivor: Quentin Smith\nNew Map (Free): Springwood – Badham Preschool\nAn exclusive item for Quentin",
+            "release_date": "2017-10-26"
+        },
+        {
+            "dlc_id": 8,
+            "name": "SAW",
+            "description": "This Chapter DLC includes:\nNew Killer: The Pig\nNew Survivor: Detective Tapp\nNew Map (Free): Gideon Meat Plant – The Game\nAn exclusive item for Detective Tapp",
+            "release_date": "2018-01-23"
+        },
+        {
+            "dlc_id": 9,
+            "name": "CURTAIN CALL",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Clown\nNew Survivor: Kate Denson\nNew Map (Free): Crotus Prenn Asylum – Father Campbell's Chapel\nAn exclusive item for Kate",
+            "release_date": "2018-06-12"
+        },
+        {
+            "dlc_id": 10,
+            "name": "SHATTERED BLOODLINE",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Spirit\nNew Survivor: Adam Francis\nNew Map (Free): Yamaoka Estate – Family Residence\nAn exclusive item for Adam",
+            "release_date": "2018-09-18"
+        },
+        {
+            "dlc_id": 11,
+            "name": "DARKNESS AMONG US",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Legion\nNew Survivor: Jeff Johansen\nNew Map (Free): Ormond – Mount Ormond Resort\nAn exclusive item for Jeff",
+            "release_date": "2018-12-11"
+        },
+        {
+            "dlc_id": 12,
+            "name": "DEMISE OF THE FAITHFUL",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Plague\nNew Survivor: Jane Romero\nNew Map (Free): Red Forest – The Temple of Purgation\nAn exclusive item for Jane",
+            "release_date": "2019-03-19"
+        },
+        {
+            "dlc_id": 13,
+            "name": "ASH VS. EVIL DEAD",
+            "description": "This Chapter DLC includes:\n\nNew Survivor: Ashley J. Williams\nAn exclusive item for Ash",
+            "release_date": "2019-04-02"
+        },
+        {
+            "dlc_id": 14,
+            "name": "GHOST FACE",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Ghost Face\nAn exclusive item for The Ghost Face",
+            "release_date": "2019-06-18"
+        },
+        {
+            "dlc_id": 15,
+            "name": "STRANGER THINGS",
+            "description": "Dead by Daylight: Stranger Things includes :\nNew Killer: The Demogorgon\nNew Survivors: Nancy Wheeler and Steve Harrington\nThe Underground Complex Map is available for all players.",
+            "release_date": "2019-09-17"
+        },
+        {
+            "dlc_id": 16,
+            "name": "CURSED LEGACY",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Oni\nNew Survivor: Yui Kimura\nNew Map (Free): Yamaoka Estate – Sanctum of Wrath\nAn exclusive item for Yui",
+            "release_date": "2019-12-03"
+        },
+        {
+            "dlc_id": 17,
+            "name": "CHAINS OF HATE",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Deathslinger\nNew Survivor: Zarina Kassir\nNew Map (Free): Grave of Glenvale – Dead Dawg Saloon\nAn exclusive item for Zarina",
+            "release_date": "2020-03-10"
+        },
+        {
+            "dlc_id": 18,
+            "name": "SILENT HILL",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Executioner\nNew Survivor: Cheryl Mason\nNew Map (Free): Midwich Elementary School\nAn exclusive universal charm",
+            "release_date": "2020-06-16"
+        },
+        {
+            "dlc_id": 19,
+            "name": "DESCEND BEYOND",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Blight\nNew Survivor: Felix Richter\nAn exclusive item for Felix",
+            "release_date": "2020-09-08"
+        },
+        {
+            "dlc_id": 20,
+            "name": "A BINDING OF KIN",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Twins\nNew Survivor: Élodie Rakoto\nAn exclusive item for Élodie",
+            "release_date": "2020-12-01"
+        },
+        {
+            "dlc_id": 21,
+            "name": "ALL-KILL",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Trickster\nNew Survivor: Yun-Jin Lee\nAn exclusive item for Yun-Jin",
+            "release_date": "2021-03-30"
+        },
+        {
+            "dlc_id": 22,
+            "name": "RESIDENT EVIL",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Nemesis\nNew Survivor: Jill Valentine\nNew Survivor: Leon S. Kennedy\nNew Map (Free): Raccoon City Police Station\nAn exclusive universal charm",
+            "release_date": "2021-06-15"
+        },
+        {
+            "dlc_id": 23,
+            "name": "HELLRAISER",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Cenobite\nAn exclusive universal charm",
+            "release_date": "2021-09-07"
+        },
+        {
+            "dlc_id": 24,
+            "name": "HOUR OF THE WITCH",
+            "description": "This Chapter DLC includes:\n\nNew Survivor: Mikaela Reid\nAn exclusive item for Mikaela",
+            "release_date": "2021-10-19"
+        },
+        {
+            "dlc_id": 25,
+            "name": "PORTRAIT OF A MURDER",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Artist\nNew Survivor: Jonah Vasquez\nNew Map (Free): Forsaken Boneyard – Eyrie of Crows\nAn exclusive item for Jonah\n",
+            "release_date": "2021-11-30"
+        },
+        {
+            "dlc_id": 26,
+            "name": "SADAKO RISING",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Onryō\nNew Survivor: Yoichi Asakawa\n\nAn exclusive universal charm",
+            "release_date": "2022-03-08"
+        },
+        {
+            "dlc_id": 27,
+            "name": "ROOTS OF DREAD",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Dredge\nNew Survivor: Haddie Kaur\nNew Map (Free): The Garden of Joy\nAn exclusive item for Haddie",
+            "release_date": "2022-06-07"
+        },
+        {
+            "dlc_id": 28,
+            "name": "RESIDENT EVIL: PROJECT W",
+            "description": "This Chapter DLC includes:\n\nNew Killer: Albert Wesker (The Mastermind)\nNew Survivors: Ada Wong, Rebecca Chambers\nAn exclusive charm: Green Vial",
+            "release_date": "2022-08-30"
+        },
+        {
+            "dlc_id": 29,
+            "name": "FORGED IN FOG",
+            "description": "This Chapter DLC includes:\n\nNew Killer: The Knight\nNew Survivor: Vittorio Toscano\nNew Map (Free): The Shattered Square\nAn exclusive item for Vittorio",
+            "release_date": "2022-11-22"
+        },
+        {
+            "dlc_id": 30,
+            "name": "TOOLS OF TORMENT",
+            "description": "This Chapter DLC includes:\nNew Killer: The Skull Merchant\nNew Survivors: Thalita Lyra, Renato Lyra\nUpdated Map (Free): The MacMillan Estate\nAn exclusive item for The Skull Merchant, Thalita and Renato",
+            "release_date": "2023-03-07"
+        },
+        {
+            "dlc_id": 31,
+            "name": "END TRANSMISSION",
+            "description": "What once aided our survival became the catalyst of our destruction. Dead by Daylight’s End Transmission Chapter features :\nNew Killer: The Singularity\nNew Survivor: Gabriel Soma.\nNew Map: Toba Landing, is available for all players.",
+            "release_date": "2023-06-13"
+        },
+        {
+            "dlc_id": 32,
+            "name": "NICOLAS CAGE",
+            "description": "It’s the performance of a lifetime. Dead by Daylight’s Nicolas Cage Chapter features :\nNew Survivor: Nicolas Cage\nAn exclusive item : Teal Jacket",
+            "release_date": "2023-07-25"
+        },
+        {
+            "dlc_id": 33,
+            "name": "ALIEN",
+            "description": "Dead by Daylight: Alien includes :\nNew Killer: the Xenomorph\nNew Survivor: Ellen Ripley\nThe Nostromo Wreckage Map is available for all players.",
+            "release_date": "2023-08-29"
+        },
+        {
+            "dlc_id": 34,
+            "name": "THE GOOD GUY - CHUCKY",
+            "description": "Dead by Daylight: Chucky includes :\nNew Killer: Chucky\nExclusive Charm: Good Guys Box",
+            "release_date": "2023-11-28"
+        },
+        {
+            "dlc_id": 35,
+            "name": "ALAN WAKE",
+            "description": "This horror story never ends. Dead by Daylight: Alan Wake includes :\nNew Survivor: Alan Wake\nExclusive Charm: Nail Gun",
+            "release_date": "2024-01-30"
+        },
+        {
+            "dlc_id": 36,
+            "name": "ALL THINGS WICKED",
+            "description": "Dead by Daylight: All Things Wicked includes:\nNew Killer: The Unknown\nNew Survivor: Sable Ward\nNew Map (Free): The Greenville Square\nExclusive items: Designer Corset and Garden Casual",
+            "release_date": "2024-03-12"
+        },
+        {
+            "dlc_id": 37,
+            "name": "DUNGEONS & DRAGONS",
+            "description": "Dead by Daylight: Dungeons & Dragons includes:\nNew Killer: Vecna, The Lich\nNew Survivor: Aestri Yazar\nNew Map (Free): The Forgotten Ruins\nExclusive items: Aestri: Gilded Elven Bodice, Baermar: Gilded Brocard Shirt, Vecna: Blade of Mayhem",
+            "release_date": "2024-06-03"
+        },
+        {
+            "dlc_id": 38,
+            "name": "TOMB RAIDER",
+            "description": "Dead by Daylight: Tomb Raider includes:\nNew Survivor: Lara Croft\nExclusive Charm: Climbing Axe",
+            "release_date": "2024-07-16"
+        },
+        {
+            "dlc_id": 39,
+            "name": "CASTLEVANIA",
+            "description": "Dead by Daylight: Castlevania includes:\nNew Killer: Dracula\nNew Survivor: Trevor Belmont\nExclusive Charm: Vampire Killer",
+            "release_date": "2024-08-27"
+        },
+        {
+            "dlc_id": 40,
+            "name": "DOOMED COURSE",
+            "description": "Dead by Daylight: Doomed Course includes:\nNew Killer: The Houndmaster\nNew Survivor: Taurie Cain\nExclusive Cosmetics: The Houndmaster - Titanium Skull & Taurie Cain - Gold Tier.",
+            "release_date": "2024-11-28"
+        }
+    ]
+}

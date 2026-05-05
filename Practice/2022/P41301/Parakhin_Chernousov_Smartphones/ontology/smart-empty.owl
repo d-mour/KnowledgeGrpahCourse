@@ -1,0 +1,1045 @@
+@prefix : <http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix smh: <http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix smartphone-1: <http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#5> .
+@prefix smartphone-11: <http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#4> .
+@base <http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1> .
+
+<http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#hasChip
+smh:hasChip rdf:type owl:ObjectProperty ;
+            owl:inverseOf smh:isChipOf ;
+            rdf:type owl:FunctionalProperty ,
+                     owl:AsymmetricProperty ;
+            rdfs:domain smh:Smartphone ;
+            rdfs:range smh:Chip ;
+            rdfs:label "имеет чип"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#hasCompany
+smh:hasCompany rdf:type owl:ObjectProperty ;
+               owl:inverseOf smh:isCompanyOf ;
+               rdf:type owl:AsymmetricProperty ;
+               rdfs:domain smh:Smartphone ;
+               rdfs:range smh:Company ;
+               rdfs:label "произведен"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#hasCountry
+smh:hasCountry rdf:type owl:ObjectProperty ;
+               owl:inverseOf smh:isCountryOf ;
+               rdf:type owl:AsymmetricProperty ;
+               rdfs:domain smh:Company ;
+               rdfs:range smh:Country ;
+               rdfs:label "принадлежит стране"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#hasDisplay
+smh:hasDisplay rdf:type owl:ObjectProperty ;
+               owl:inverseOf smh:isDisplayOf ;
+               rdf:type owl:FunctionalProperty ,
+                        owl:AsymmetricProperty ;
+               rdfs:domain smh:Smartphone ;
+               rdfs:range smh:Display ;
+               rdfs:label "имеет дисплей"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#isChipOf
+smh:isChipOf rdf:type owl:ObjectProperty ,
+                      owl:AsymmetricProperty ;
+             rdfs:domain smh:Chip ;
+             rdfs:range smh:Smartphone ;
+             rdfs:label "чип установлен на"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#isCompanyOf
+smh:isCompanyOf rdf:type owl:ObjectProperty ,
+                         owl:AsymmetricProperty ;
+                rdfs:domain smh:Company ;
+                rdfs:range smh:Smartphone ;
+                rdfs:label "бренд производит модель"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#isCountryOf
+smh:isCountryOf rdf:type owl:ObjectProperty ,
+                         owl:AsymmetricProperty ;
+                rdfs:domain smh:Country ;
+                rdfs:range smh:Company ;
+                rdfs:label "страна производит смартфоны компании"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#isDisplayOf
+smh:isDisplayOf rdf:type owl:ObjectProperty ,
+                         owl:AsymmetricProperty ;
+                rdfs:domain smh:Display ;
+                rdfs:range smh:Smartphone ;
+                rdfs:label "дисплей установлен на"@ru .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#ChipProperties
+smh:ChipProperties rdf:type owl:DatatypeProperty ;
+                   rdfs:domain smh:Chip .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#CompanyProperties
+smh:CompanyProperties rdf:type owl:DatatypeProperty ;
+                      rdfs:domain smh:Company .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#CountryProperty
+smh:CountryProperty rdf:type owl:DatatypeProperty ;
+                    rdfs:domain smh:Country .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#DisplayProperties
+smh:DisplayProperties rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain smh:Display ;
+                      rdfs:label "дисплей"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#RAM
+smh:RAM rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf smh:SmartphoneProperties ;
+        rdf:type owl:FunctionalProperty ;
+        rdfs:range xsd:integer ;
+        rdfs:label "объем оперативной памяти"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#ROM
+smh:ROM rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf smh:SmartphoneProperties ;
+        rdf:type owl:FunctionalProperty ;
+        rdfs:range xsd:integer ;
+        rdfs:label "объем встроенной памяти"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#SmartphoneProperties
+smh:SmartphoneProperties rdf:type owl:DatatypeProperty ;
+                         rdfs:domain smh:Smartphone .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#autonomyScore
+smh:autonomyScore rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf smh:SmartphoneProperties ;
+                  rdf:type owl:FunctionalProperty ;
+                  rdfs:range xsd:integer ;
+                  rdfs:comment "Количество баллов, набранное смартфоном в рейтинге автономности."@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#battery
+smh:battery rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf smh:SmartphoneProperties ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:range xsd:integer ;
+            rdfs:label "емкость аккумулятора"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#cameraScore
+smh:cameraScore rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf smh:SmartphoneProperties ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:range xsd:integer ;
+                rdfs:comment "Количество баллов, набранных камерой смартфона в рейтинге DxOMark."@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#chipClass
+smh:chipClass rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf smh:ChipProperties ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:range rdfs:Literal ;
+              rdfs:comment "Класс чипа согласно рейтингу."@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#chipName
+smh:chipName rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf smh:ChipProperties ;
+             rdfs:range rdfs:Literal ;
+             rdfs:label "название чипа"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#chipScore
+smh:chipScore rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf smh:ChipProperties ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:range xsd:integer ;
+              rdfs:comment "Количество баллов в рейтинге процессоров."@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#companyName
+smh:companyName rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf smh:CompanyProperties ;
+                rdfs:range rdfs:Literal ;
+                rdfs:label "название компании"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#countryName
+smh:countryName rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf smh:CountryProperty ;
+                rdfs:range rdfs:Literal ;
+                rdfs:label "название страны"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#density
+smh:density rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf smh:DisplayProperties ;
+            rdfs:range xsd:integer ;
+            rdfs:label "плотность пикселей"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#densityRank
+smh:densityRank rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf smh:DisplayProperties ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:range rdfs:Literal ;
+                rdfs:label "класс плотности пикселей"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#diagonal
+smh:diagonal rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf smh:DisplayProperties ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:range xsd:float ;
+             rdfs:label "диагональ экрана"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#displayType
+smh:displayType rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf smh:DisplayProperties ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:range rdfs:Literal ;
+                rdfs:label "тип дисплея"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#fastCharge
+smh:fastCharge rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf smh:SmartphoneProperties ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:range xsd:boolean ;
+               rdfs:label "быстрая зарядка"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#frequency
+smh:frequency rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf smh:DisplayProperties ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:range xsd:integer ;
+              rdfs:label "частота обновления экрана"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#modelName
+smh:modelName rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf smh:SmartphoneProperties ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:range rdfs:Literal ;
+              rdfs:label "название модели"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#price
+smh:price rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf smh:SmartphoneProperties ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:range xsd:integer ;
+          rdfs:label "цена"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#protection
+smh:protection rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf smh:SmartphoneProperties ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:range xsd:boolean ;
+               rdfs:label "наличие защиты"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#resolution
+smh:resolution rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf smh:DisplayProperties ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:range rdfs:Literal ;
+               rdfs:label "разрешение"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#resolutionType
+smh:resolutionType rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf smh:DisplayProperties ;
+                   rdf:type owl:FunctionalProperty ;
+                   rdfs:range rdfs:Literal ;
+                   rdfs:label "тип разрешения"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#stereoSound
+smh:stereoSound rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf smh:SmartphoneProperties ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:range xsd:boolean ;
+                rdfs:label "наличие стереодинамиков"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#url
+smh:url rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf smh:SmartphoneProperties ;
+        rdf:type owl:FunctionalProperty ;
+        rdfs:range rdfs:Literal ;
+        rdfs:label "ссылка на страницу смартфона в магазине"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#weight
+smh:weight rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf smh:SmartphoneProperties ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:range xsd:float ;
+           rdfs:label "вес"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#weightClass
+smh:weightClass rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf smh:SmartphoneProperties ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:range rdfs:Literal ;
+                rdfs:label "класс веса"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#wirelessCharge
+smh:wirelessCharge rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf smh:SmartphoneProperties ;
+                   rdf:type owl:FunctionalProperty ;
+                   rdfs:range xsd:boolean ;
+                   rdfs:label "беспроводная зарядка"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#year
+smh:year rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf smh:SmartphoneProperties ;
+         rdf:type owl:FunctionalProperty ;
+         rdfs:range xsd:integer ;
+         rdfs:label "год релиза"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#4G
+smartphone-11:G rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf smh:SmartphoneProperties ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:range xsd:boolean ;
+                rdfs:label "наличие 4G"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#5G
+smartphone-1:G rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf smh:SmartphoneProperties ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:range xsd:boolean ;
+               rdfs:label "наличие 5G"@ru .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#Chip
+smh:Chip rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty smh:isChipOf ;
+                           owl:someValuesFrom smh:Smartphone
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty smh:chipName ;
+                           owl:someValuesFrom rdfs:Literal
+                         ] ;
+         rdfs:label "Чип"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#Compact
+smh:Compact rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty smh:hasDisplay ;
+                                                         owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty smh:diagonal ;
+                                                                              owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                   owl:onDatatype xsd:float ;
+                                                                                                   owl:withRestrictions ( [ xsd:maxExclusive "6.1"^^xsd:float
+                                                                                                                          ]
+                                                                                                                        )
+                                                                                                 ]
+                                                                            ]
+                                                       ]
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty smh:weight ;
+                                                         owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                              owl:onDatatype xsd:float ;
+                                                                              owl:withRestrictions ( [ xsd:maxExclusive "160.0"^^xsd:float
+                                                                                                     ]
+                                                                                                   )
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:label "Компактные смартфоны"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#Company
+smh:Company rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty smh:hasCountry ;
+                              owl:someValuesFrom smh:Country
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty smh:companyName ;
+                              owl:someValuesFrom rdfs:Literal
+                            ] ;
+            rdfs:label "Бренд"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#Country
+smh:Country rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty smh:isCountryOf ;
+                              owl:someValuesFrom smh:Company
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty smh:countryName ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ;
+            rdfs:label "Страна-производитель"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#Display
+smh:Display rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty smh:density ;
+                              owl:someValuesFrom xsd:integer
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty smh:diagonal ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:float
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty smh:displayType ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty smh:resolution ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty smh:resolutionType ;
+                              owl:cardinality "1"^^xsd:nonNegativeInteger
+                            ] ;
+            rdfs:label "Дисплей"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#ForBlogging
+smh:ForBlogging rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                           [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty smh:hasDisplay ;
+                                                                                    owl:someValuesFrom [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                                                                                                owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                                                owl:onProperty smh:resolutionType ;
+                                                                                                                                                owl:hasValue "Full HD+"
+                                                                                                                                              ]
+                                                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                                                owl:onProperty smh:resolutionType ;
+                                                                                                                                                owl:hasValue "WQHD"
+                                                                                                                                              ]
+                                                                                                                                            )
+                                                                                                                              ]
+                                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                                owl:onProperty smh:frequency ;
+                                                                                                                                owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                                                     owl:onDatatype xsd:integer ;
+                                                                                                                                                     owl:withRestrictions ( [ xsd:minInclusive 90
+                                                                                                                                                                            ]
+                                                                                                                                                                          )
+                                                                                                                                                   ]
+                                                                                                                              ]
+                                                                                                                            ) ;
+                                                                                                         rdf:type owl:Class
+                                                                                                       ]
+                                                                                  ]
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty smh:hasDisplay ;
+                                                                                    owl:someValuesFrom [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                                owl:onProperty smh:density ;
+                                                                                                                                owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                                                     owl:onDatatype xsd:integer ;
+                                                                                                                                                     owl:withRestrictions ( [ xsd:minInclusive 360
+                                                                                                                                                                            ]
+                                                                                                                                                                          )
+                                                                                                                                                   ]
+                                                                                                                              ]
+                                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                                owl:onProperty smh:diagonal ;
+                                                                                                                                owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                                                     owl:onDatatype xsd:float ;
+                                                                                                                                                     owl:withRestrictions ( [ xsd:minInclusive "6.1"^^xsd:float
+                                                                                                                                                                            ]
+                                                                                                                                                                          )
+                                                                                                                                                   ]
+                                                                                                                              ]
+                                                                                                                            ) ;
+                                                                                                         rdf:type owl:Class
+                                                                                                       ]
+                                                                                  ]
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty smh:RAM ;
+                                                                                    owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                         owl:onDatatype xsd:integer ;
+                                                                                                         owl:withRestrictions ( [ xsd:minInclusive 4
+                                                                                                                                ]
+                                                                                                                              )
+                                                                                                       ]
+                                                                                  ]
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty smh:ROM ;
+                                                                                    owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                         owl:onDatatype xsd:integer ;
+                                                                                                         owl:withRestrictions ( [ xsd:minInclusive 128
+                                                                                                                                ]
+                                                                                                                              )
+                                                                                                       ]
+                                                                                  ]
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty smh:fastCharge ;
+                                                                                    owl:hasValue "true"^^xsd:boolean
+                                                                                  ]
+                                                                                ) ;
+                                                             rdf:type owl:Class
+                                                           ]
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty smh:cameraScore ;
+                                                             owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                  owl:onDatatype xsd:integer ;
+                                                                                  owl:withRestrictions ( [ xsd:minExclusive 10
+                                                                                                         ]
+                                                                                                       )
+                                                                                ]
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] ;
+                rdfs:label "Для блоггеров"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#ForBusiness
+smh:ForBusiness rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty smh:hasDisplay ;
+                                                             owl:someValuesFrom [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                                                                         owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                         owl:onProperty smh:resolutionType ;
+                                                                                                                         owl:hasValue "Full HD+"
+                                                                                                                       ]
+                                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                                         owl:onProperty smh:resolutionType ;
+                                                                                                                         owl:hasValue "WQHD"
+                                                                                                                       ]
+                                                                                                                     )
+                                                                                                       ]
+                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty smh:frequency ;
+                                                                                                         owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                              owl:onDatatype xsd:integer ;
+                                                                                                                              owl:withRestrictions ( [ xsd:minInclusive 90
+                                                                                                                                                     ]
+                                                                                                                                                   )
+                                                                                                                            ]
+                                                                                                       ]
+                                                                                                     ) ;
+                                                                                  rdf:type owl:Class
+                                                                                ]
+                                                           ]
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty smh:RAM ;
+                                                             owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                  owl:onDatatype xsd:integer ;
+                                                                                  owl:withRestrictions ( [ xsd:minInclusive 4
+                                                                                                         ]
+                                                                                                       )
+                                                                                ]
+                                                           ]
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty smh:ROM ;
+                                                             owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                  owl:onDatatype xsd:integer ;
+                                                                                  owl:withRestrictions ( [ xsd:minInclusive 128
+                                                                                                         ]
+                                                                                                       )
+                                                                                ]
+                                                           ]
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty smh:fastCharge ;
+                                                             owl:hasValue "true"^^xsd:boolean
+                                                           ]
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty smh:wirelessCharge ;
+                                                             owl:hasValue "true"^^xsd:boolean
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] ;
+                rdfs:label "Для бизнесменов"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#ForElderly
+smh:ForElderly rdf:type owl:Class ;
+               owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty smh:hasDisplay ;
+                                                            owl:someValuesFrom [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                                                                        owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                        owl:onProperty smh:displayType ;
+                                                                                                                        owl:hasValue "IPS"
+                                                                                                                      ]
+                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                        owl:onProperty smh:displayType ;
+                                                                                                                        owl:hasValue "TN"
+                                                                                                                      ]
+                                                                                                                    )
+                                                                                                      ]
+                                                                                                      [ rdf:type owl:Class ;
+                                                                                                        owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                        owl:onProperty smh:resolutionType ;
+                                                                                                                        owl:hasValue "HD+"
+                                                                                                                      ]
+                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                        owl:onProperty smh:resolutionType ;
+                                                                                                                        owl:hasValue "MD+"
+                                                                                                                      ]
+                                                                                                                    )
+                                                                                                      ]
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty smh:diagonal ;
+                                                                                                        owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                             owl:onDatatype xsd:float ;
+                                                                                                                             owl:withRestrictions ( [ xsd:maxExclusive "6.1"^^xsd:float
+                                                                                                                                                    ]
+                                                                                                                                                  )
+                                                                                                                           ]
+                                                                                                      ]
+                                                                                                    ) ;
+                                                                                 rdf:type owl:Class
+                                                                               ]
+                                                          ]
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty smh:weightClass ;
+                                                            owl:hasValue "Light"
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] ;
+               rdfs:label "Для пожилых"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#ForFun
+smh:ForFun rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                      [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                                               owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty smh:hasChip ;
+                                                                                               owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                                    owl:onProperty smh:chipClass ;
+                                                                                                                    owl:hasValue "B"
+                                                                                                                  ]
+                                                                                             ]
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty smh:hasChip ;
+                                                                                               owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                                    owl:onProperty smh:chipClass ;
+                                                                                                                    owl:hasValue "C"
+                                                                                                                  ]
+                                                                                             ]
+                                                                                           )
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty smh:hasDisplay ;
+                                                                               owl:someValuesFrom [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                           owl:onProperty smh:density ;
+                                                                                                                           owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                                                owl:onDatatype xsd:integer ;
+                                                                                                                                                owl:withRestrictions ( [ xsd:minInclusive 380
+                                                                                                                                                                       ]
+                                                                                                                                                                     )
+                                                                                                                                              ]
+                                                                                                                         ]
+                                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                                           owl:onProperty smh:frequency ;
+                                                                                                                           owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                                                owl:onDatatype xsd:integer ;
+                                                                                                                                                owl:withRestrictions ( [ xsd:minInclusive 90
+                                                                                                                                                                       ]
+                                                                                                                                                                     )
+                                                                                                                                              ]
+                                                                                                                         ]
+                                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                                           owl:onProperty smh:resolutionType ;
+                                                                                                                           owl:hasValue "Full HD+"
+                                                                                                                         ]
+                                                                                                                       ) ;
+                                                                                                    rdf:type owl:Class
+                                                                                                  ]
+                                                                             ]
+                                                                           ) ;
+                                                        rdf:type owl:Class
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:label "Для развлечений"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#ForGaming
+smh:ForGaming rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                         [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                                                  owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                                  owl:onProperty smh:hasChip ;
+                                                                                                  owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                                       owl:onProperty smh:chipClass ;
+                                                                                                                       owl:hasValue "A"
+                                                                                                                     ]
+                                                                                                ]
+                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                  owl:onProperty smh:hasChip ;
+                                                                                                  owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                                       owl:onProperty smh:chipClass ;
+                                                                                                                       owl:hasValue "B"
+                                                                                                                     ]
+                                                                                                ]
+                                                                                              )
+                                                                                ]
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty smh:hasDisplay ;
+                                                                                  owl:someValuesFrom [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty smh:diagonal ;
+                                                                                                                              owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                                                   owl:onDatatype xsd:float ;
+                                                                                                                                                   owl:withRestrictions ( [ xsd:minExclusive "6.4"^^xsd:float
+                                                                                                                                                                          ]
+                                                                                                                                                                        )
+                                                                                                                                                 ]
+                                                                                                                            ]
+                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty smh:frequency ;
+                                                                                                                              owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                                                   owl:onDatatype xsd:integer ;
+                                                                                                                                                   owl:withRestrictions ( [ xsd:minInclusive 90
+                                                                                                                                                                          ]
+                                                                                                                                                                        )
+                                                                                                                                                 ]
+                                                                                                                            ]
+                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty smh:resolutionType ;
+                                                                                                                              owl:hasValue "Full HD+"
+                                                                                                                            ]
+                                                                                                                          ) ;
+                                                                                                       rdf:type owl:Class
+                                                                                                     ]
+                                                                                ]
+                                                                              ) ;
+                                                           rdf:type owl:Class
+                                                         ]
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty smh:RAM ;
+                                                           owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                owl:onDatatype xsd:integer ;
+                                                                                owl:withRestrictions ( [ xsd:minInclusive 4
+                                                                                                       ]
+                                                                                                     )
+                                                                              ]
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+              rdfs:label "Для гейминга"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#ForStudy
+smh:ForStudy rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                        [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                                                 owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                                 owl:onProperty smh:hasChip ;
+                                                                                                 owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                                      owl:onProperty smh:chipClass ;
+                                                                                                                      owl:hasValue "B"
+                                                                                                                    ]
+                                                                                               ]
+                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                 owl:onProperty smh:hasChip ;
+                                                                                                 owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                                                      owl:onProperty smh:chipClass ;
+                                                                                                                      owl:hasValue "C"
+                                                                                                                    ]
+                                                                                               ]
+                                                                                             )
+                                                                               ]
+                                                                               [ rdf:type owl:Restriction ;
+                                                                                 owl:onProperty smh:hasDisplay ;
+                                                                                 owl:someValuesFrom [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                                                                                             owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                                                                             owl:onProperty smh:resolutionType ;
+                                                                                                                                             owl:hasValue "Full HD+"
+                                                                                                                                           ]
+                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                             owl:onProperty smh:resolutionType ;
+                                                                                                                                             owl:hasValue "HD+"
+                                                                                                                                           ]
+                                                                                                                                         )
+                                                                                                                           ]
+                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                             owl:onProperty smh:frequency ;
+                                                                                                                             owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                                                  owl:onDatatype xsd:integer ;
+                                                                                                                                                  owl:withRestrictions ( [ xsd:minInclusive 60
+                                                                                                                                                                         ]
+                                                                                                                                                                       )
+                                                                                                                                                ]
+                                                                                                                           ]
+                                                                                                                         ) ;
+                                                                                                      rdf:type owl:Class
+                                                                                                    ]
+                                                                               ]
+                                                                             ) ;
+                                                          rdf:type owl:Class
+                                                        ]
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty smh:price ;
+                                                          owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                               owl:onDatatype xsd:integer ;
+                                                                               owl:withRestrictions ( [ xsd:maxInclusive 15000
+                                                                                                      ]
+                                                                                                    )
+                                                                             ]
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:label "Для учебы"@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#GoodAutonomy
+smh:GoodAutonomy rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                            [ rdf:type owl:Class ;
+                                                              owl:unionOf ( [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty smh:autonomyScore ;
+                                                                                                     owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                          owl:onDatatype xsd:integer ;
+                                                                                                                          owl:withRestrictions ( [ xsd:minInclusive 70
+                                                                                                                                                 ]
+                                                                                                                                               )
+                                                                                                                        ]
+                                                                                                   ]
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty smh:autonomyScore ;
+                                                                                                     owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                          owl:onDatatype xsd:integer ;
+                                                                                                                          owl:withRestrictions ( [ xsd:maxInclusive 79
+                                                                                                                                                 ]
+                                                                                                                                               )
+                                                                                                                        ]
+                                                                                                   ]
+                                                                                                 ) ;
+                                                                              rdf:type owl:Class
+                                                                            ]
+                                                                            [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty smh:battery ;
+                                                                                                     owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                          owl:onDatatype xsd:integer ;
+                                                                                                                          owl:withRestrictions ( [ xsd:minInclusive 4200
+                                                                                                                                                 ]
+                                                                                                                                               )
+                                                                                                                        ]
+                                                                                                   ]
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty smh:battery ;
+                                                                                                     owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                          owl:onDatatype xsd:integer ;
+                                                                                                                          owl:withRestrictions ( [ xsd:maxInclusive 5100
+                                                                                                                                                 ]
+                                                                                                                                               )
+                                                                                                                        ]
+                                                                                                   ]
+                                                                                                 ) ;
+                                                                              rdf:type owl:Class
+                                                                            ]
+                                                                          )
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
+                 rdfs:subClassOf smh:Smartphone ;
+                 rdfs:comment "Смартфоны, набравшие 70-79 баллов в рейтинге автономности, или с большим аккумулятором."@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#GoodCamera
+smh:GoodCamera rdf:type owl:Class ;
+               owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty smh:cameraScore ;
+                                                            owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                 owl:onDatatype xsd:integer ;
+                                                                                 owl:withRestrictions ( [ xsd:minInclusive 70
+                                                                                                        ]
+                                                                                                      )
+                                                                               ]
+                                                          ]
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty smh:cameraScore ;
+                                                            owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                 owl:onDatatype xsd:integer ;
+                                                                                 owl:withRestrictions ( [ xsd:maxInclusive 109
+                                                                                                        ]
+                                                                                                      )
+                                                                               ]
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] ;
+               rdfs:comment "Смартфоны с камерами, набравшими 70-109 баллов в рейтинге DxOMark."@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#GoodPerfomance
+smh:GoodPerfomance rdf:type owl:Class ;
+                   owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty smh:hasChip ;
+                                                                owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty smh:chipClass ;
+                                                                                     owl:hasValue "B"
+                                                                                   ]
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] ;
+                   rdfs:comment "Смартфоны с процессором класса B."@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#GreatAutonomy
+smh:GreatAutonomy rdf:type owl:Class ;
+                  owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                             [ rdf:type owl:Class ;
+                                                               owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty smh:autonomyScore ;
+                                                                               owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                    owl:onDatatype xsd:integer ;
+                                                                                                    owl:withRestrictions ( [ xsd:minInclusive 80
+                                                                                                                           ]
+                                                                                                                         )
+                                                                                                  ]
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty smh:battery ;
+                                                                               owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                    owl:onDatatype xsd:integer ;
+                                                                                                    owl:withRestrictions ( [ xsd:minExclusive 5100
+                                                                                                                           ]
+                                                                                                                         )
+                                                                                                  ]
+                                                                             ]
+                                                                           )
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] ;
+                  rdfs:comment "Смартфоны, набравшие более 80 баллов в рейтинге автономности, или с очень большим аккумулятором."@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#GreatCamera
+smh:GreatCamera rdf:type owl:Class ;
+                owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty smh:cameraScore ;
+                                                             owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                  owl:onDatatype xsd:integer ;
+                                                                                  owl:withRestrictions ( [ xsd:minInclusive 110
+                                                                                                         ]
+                                                                                                       )
+                                                                                ]
+                                                           ]
+                                                         ) ;
+                                      rdf:type owl:Class
+                                    ] ;
+                rdfs:comment "Смартфоны с камерой, набравшей более 110 баллов в рейтинге DxOMark."@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#GreatPerfomance
+smh:GreatPerfomance rdf:type owl:Class ;
+                    owl:equivalentClass [ owl:intersectionOf ( smh:Smartphone
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty smh:hasChip ;
+                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                      owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty smh:chipClass ;
+                                                                                                      owl:hasValue "A"
+                                                                                                    ]
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty smh:chipClass ;
+                                                                                                      owl:hasValue "A+"
+                                                                                                    ]
+                                                                                                  )
+                                                                                    ]
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
+                    rdfs:comment "Смартфоны с процессором класса A или A+."@ru .
+
+
+###  http://www.semanticweb.org/eugene/ontologies/2022/1/smartphone-1#Smartphone
+smh:Smartphone rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty smh:hasChip ;
+                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass smh:Chip
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty smh:hasCompany ;
+                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass smh:Company
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty smh:hasDisplay ;
+                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass smh:Display
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty smh:modelName ;
+                                 owl:cardinality "1"^^xsd:nonNegativeInteger
+                               ] ;
+               rdfs:label "Smartphone"@en ,
+                          "Смартфон"@ru .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( smh:Chip
+                smh:Company
+                smh:Country
+                smh:Display
+                smh:Smartphone
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

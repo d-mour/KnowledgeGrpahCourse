@@ -1,0 +1,452 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset> a void:Dataset ;
+    void:classPartition <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class0>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class1>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class10>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class11>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class12>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class2>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class3>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class4>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class5>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class6>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class7>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class8>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class9> ;
+    void:classes 13 ;
+    void:distinctObjects 13806 ;
+    void:distinctSubjects 2936 ;
+    void:properties 31 ;
+    void:propertyPartition <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property0>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property1>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property10>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property11>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property12>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property13>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property14>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property15>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property16>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property17>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property18>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property19>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property2>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property20>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property21>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property22>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property23>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property24>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property25>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property26>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property27>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property28>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property29>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property3>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property30>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property4>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property5>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property6>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property7>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property8>,
+        <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property9> ;
+    void:triples 30155 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class0> a void:Dataset ;
+    void:class owl:Ontology ;
+    void:classes 1 ;
+    void:distinctObjects 2 ;
+    void:distinctSubjects 1 ;
+    void:entities 1 ;
+    void:properties 2 ;
+    void:triples 2 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class1> a void:Dataset ;
+    void:class owl:ObjectProperty ;
+    void:classes 1 ;
+    void:distinctObjects 19 ;
+    void:distinctSubjects 8 ;
+    void:entities 8 ;
+    void:properties 6 ;
+    void:triples 35 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class10> a void:Dataset ;
+    void:class <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl#OS> ;
+    void:classes 1 ;
+    void:distinctObjects 2 ;
+    void:distinctSubjects 3 ;
+    void:entities 3 ;
+    void:properties 1 ;
+    void:triples 6 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class11> a void:Dataset ;
+    void:class <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl#Review> ;
+    void:classes 1 ;
+    void:distinctObjects 9839 ;
+    void:distinctSubjects 2442 ;
+    void:entities 2442 ;
+    void:properties 8 ;
+    void:triples 21978 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class12> a void:Dataset ;
+    void:class <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl#Tag> ;
+    void:classes 1 ;
+    void:distinctObjects 2 ;
+    void:distinctSubjects 143 ;
+    void:entities 143 ;
+    void:properties 1 ;
+    void:triples 286 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class2> a void:Dataset ;
+    void:class owl:DatatypeProperty ;
+    void:classes 1 ;
+    void:distinctObjects 24 ;
+    void:distinctSubjects 18 ;
+    void:entities 18 ;
+    void:properties 4 ;
+    void:triples 74 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class3> a void:Dataset ;
+    void:class owl:FunctionalProperty ;
+    void:classes 1 ;
+    void:distinctObjects 7 ;
+    void:distinctSubjects 2 ;
+    void:entities 2 ;
+    void:properties 4 ;
+    void:triples 10 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class4> a void:Dataset ;
+    void:class owl:Class ;
+    void:classes 1 ;
+    void:distinctObjects 12 ;
+    void:distinctSubjects 8 ;
+    void:entities 8 ;
+    void:properties 4 ;
+    void:triples 23 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class5> a void:Dataset ;
+    void:class owl:NamedIndividual ;
+    void:classes 1 ;
+    void:distinctObjects 13761 ;
+    void:distinctSubjects 2901 ;
+    void:entities 2901 ;
+    void:properties 24 ;
+    void:triples 30021 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class6> a void:Dataset ;
+    void:class <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl#DLC> ;
+    void:classes 1 ;
+    void:distinctObjects 878 ;
+    void:distinctSubjects 100 ;
+    void:entities 100 ;
+    void:properties 14 ;
+    void:triples 2340 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class7> a void:Dataset ;
+    void:class <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl#Game> ;
+    void:classes 1 ;
+    void:distinctObjects 3221 ;
+    void:distinctSubjects 100 ;
+    void:entities 100 ;
+    void:properties 17 ;
+    void:triples 5226 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class8> a void:Dataset ;
+    void:class <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl#Genre> ;
+    void:classes 1 ;
+    void:distinctObjects 2 ;
+    void:distinctSubjects 43 ;
+    void:entities 43 ;
+    void:properties 1 ;
+    void:triples 86 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_class9> a void:Dataset ;
+    void:class <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl#Language> ;
+    void:classes 1 ;
+    void:distinctObjects 2 ;
+    void:distinctSubjects 29 ;
+    void:entities 29 ;
+    void:properties 1 ;
+    void:triples 58 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property0> a void:Dataset ;
+    void:classes 1 ;
+    void:distinctObjects 1 ;
+    void:distinctSubjects 1 ;
+    void:entities 1 ;
+    void:properties 1 ;
+    void:property owl:inverseOf ;
+    void:triples 1 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property1> a void:Dataset ;
+    void:classes 13 ;
+    void:distinctObjects 13 ;
+    void:distinctSubjects 2936 ;
+    void:entities 2936 ;
+    void:properties 1 ;
+    void:property rdf:type ;
+    void:triples 5798 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property10> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 143 ;
+    void:distinctSubjects 194 ;
+    void:entities 194 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#has_tag> ;
+    void:triples 1212 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property11> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 2 ;
+    void:distinctSubjects 92 ;
+    void:entities 92 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#compatible_with> ;
+    void:triples 130 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property12> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 47 ;
+    void:distinctSubjects 29 ;
+    void:entities 29 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/game#has_dlc> ;
+    void:triples 47 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property13> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 2354 ;
+    void:distinctSubjects 2442 ;
+    void:entities 2442 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/review#title> ;
+    void:triples 2442 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property14> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 2437 ;
+    void:distinctSubjects 2442 ;
+    void:entities 2442 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/review#description> ;
+    void:triples 2442 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property15> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 169 ;
+    void:distinctSubjects 192 ;
+    void:entities 192 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#release_date> ;
+    void:triples 192 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property16> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 44 ;
+    void:distinctSubjects 44 ;
+    void:entities 44 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#changelog> ;
+    void:triples 44 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property17> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 2442 ;
+    void:distinctSubjects 2442 ;
+    void:entities 2442 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/review#id> ;
+    void:triples 2442 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property18> a void:Dataset ;
+    void:classes 1 ;
+    void:distinctObjects 3 ;
+    void:distinctSubjects 4 ;
+    void:entities 4 ;
+    void:properties 1 ;
+    void:property owl:disjointWith ;
+    void:triples 5 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property19> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 1 ;
+    void:distinctSubjects 200 ;
+    void:entities 200 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#is_pre_order> ;
+    void:triples 200 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property2> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 198 ;
+    void:distinctSubjects 199 ;
+    void:entities 199 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#lead_desc> ;
+    void:triples 199 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property20> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 200 ;
+    void:distinctSubjects 200 ;
+    void:entities 200 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#id> ;
+    void:triples 200 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property21> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 2442 ;
+    void:distinctSubjects 2442 ;
+    void:entities 2442 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/review#date> ;
+    void:triples 2442 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property22> a void:Dataset ;
+    void:classes 1 ;
+    void:distinctObjects 1 ;
+    void:distinctSubjects 2 ;
+    void:entities 2 ;
+    void:properties 1 ;
+    void:property rdfs:subClassOf ;
+    void:triples 2 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property23> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 29 ;
+    void:distinctSubjects 200 ;
+    void:entities 200 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#has_lang_support> ;
+    void:triples 1089 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property24> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 31 ;
+    void:distinctSubjects 31 ;
+    void:entities 31 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#cool_desc> ;
+    void:triples 31 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property25> a void:Dataset ;
+    void:classes 5 ;
+    void:distinctObjects 33 ;
+    void:distinctSubjects 35 ;
+    void:entities 35 ;
+    void:properties 1 ;
+    void:property rdfs:label ;
+    void:triples 35 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property26> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 2442 ;
+    void:distinctSubjects 129 ;
+    void:entities 129 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#has_review> ;
+    void:triples 2442 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property27> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 4 ;
+    void:distinctSubjects 26 ;
+    void:entities 26 ;
+    void:properties 1 ;
+    void:property rdfs:domain ;
+    void:triples 26 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property28> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 130 ;
+    void:distinctSubjects 2442 ;
+    void:entities 2442 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/review#downvotes> ;
+    void:triples 2442 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property29> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 5 ;
+    void:distinctSubjects 2442 ;
+    void:entities 2442 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/review#rating> ;
+    void:triples 2442 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property3> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 200 ;
+    void:distinctSubjects 200 ;
+    void:entities 200 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#slug> ;
+    void:triples 200 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property30> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 12 ;
+    void:distinctSubjects 26 ;
+    void:entities 26 ;
+    void:properties 1 ;
+    void:property rdfs:range ;
+    void:triples 26 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property4> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 200 ;
+    void:distinctSubjects 200 ;
+    void:entities 200 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#title> ;
+    void:triples 200 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property5> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 2 ;
+    void:distinctSubjects 200 ;
+    void:entities 200 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#active> ;
+    void:triples 200 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property6> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 43 ;
+    void:distinctSubjects 196 ;
+    void:entities 196 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#has_genre> ;
+    void:triples 580 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property7> a void:Dataset ;
+    void:classes 3 ;
+    void:distinctObjects 200 ;
+    void:distinctSubjects 200 ;
+    void:entities 200 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/product#full_desc> ;
+    void:triples 200 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property8> a void:Dataset ;
+    void:classes 1 ;
+    void:distinctObjects 1 ;
+    void:distinctSubjects 2 ;
+    void:entities 2 ;
+    void:properties 1 ;
+    void:property rdfs:subPropertyOf ;
+    void:triples 2 .
+
+<http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/dataset_property9> a void:Dataset ;
+    void:classes 2 ;
+    void:distinctObjects 138 ;
+    void:distinctSubjects 2442 ;
+    void:entities 2442 ;
+    void:properties 1 ;
+    void:property <http://www.semanticweb.org/naymoll/ontologies/2022/3/games.owl/review#upvotes> ;
+    void:triples 2442 .
+

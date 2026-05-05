@@ -1,0 +1,2517 @@
+[
+  {
+    "id": "pos_3",
+    "emotion": "pos",
+    "text_path": "data/data/pos_3.txt",
+    "text_words": [
+      {
+        "form": "ну",
+        "lemma": "ну",
+        "pos": "INTJ"
+      },
+      {
+        "form": "конечно",
+        "lemma": "конечно",
+        "pos": "ADV"
+      },
+      {
+        "form": "умница",
+        "lemma": "умница",
+        "pos": "NOUN"
+      },
+      {
+        "form": "моя",
+        "lemma": "мой",
+        "pos": "PRON"
+      }
+    ],
+    "audio_path": "data/data/pos_3.wav",
+    "audio_words": [
+      {
+        "label": "ну",
+        "start": 1.67453,
+        "end": 1.90384,
+        "duration": 0.229
+      },
+      {
+        "label": "конечно",
+        "start": 1.90384,
+        "end": 2.85382,
+        "duration": 0.95
+      },
+      {
+        "label": "умница",
+        "start": 2.85382,
+        "end": 3.60725,
+        "duration": 0.753
+      },
+      {
+        "label": "моя",
+        "start": 3.60725,
+        "end": 4.52447,
+        "duration": 0.917
+      }
+    ],
+    "tones": [
+      {
+        "label": "high",
+        "start": 1.69091,
+        "end": 2.70641,
+        "duration": 1.016
+      },
+      {
+        "label": "rise",
+        "start": 2.98485,
+        "end": 3.19778,
+        "duration": 0.213
+      },
+      {
+        "label": "mid",
+        "start": 3.19778,
+        "end": 4.37706,
+        "duration": 1.179
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.02026,
+        "end": 1.64178,
+        "duration": 1.622
+      },
+      {
+        "label": "high",
+        "start": 1.69091,
+        "end": 4.44258,
+        "duration": 2.752
+      },
+      {
+        "label": "silence",
+        "start": 4.44258,
+        "end": 5.32,
+        "duration": 0.877
+      }
+    ]
+  },
+  {
+    "id": "pos_5",
+    "emotion": "pos",
+    "text_path": "data/data/pos_5.txt",
+    "text_words": [
+      {
+        "form": "мне",
+        "lemma": "мне",
+        "pos": "PRON"
+      },
+      {
+        "form": "тоже",
+        "lemma": "тоже",
+        "pos": "CONJ"
+      },
+      {
+        "form": "радостно",
+        "lemma": "радость",
+        "pos": "ADV"
+      }
+    ],
+    "audio_path": "data/data/pos_5.wav",
+    "audio_words": [
+      {
+        "label": "мне",
+        "start": 4.25463,
+        "end": 4.62525,
+        "duration": 0.371
+      },
+      {
+        "label": "тоже",
+        "start": 4.62525,
+        "end": 4.91034,
+        "duration": 0.285
+      },
+      {
+        "label": "радостно",
+        "start": 4.91034,
+        "end": 5.85115,
+        "duration": 0.941
+      }
+    ],
+    "tones": [
+      {
+        "label": "mid",
+        "start": 3.65593,
+        "end": 4.36867,
+        "duration": 0.713
+      },
+      {
+        "label": "rise",
+        "start": 4.36867,
+        "end": 4.71078,
+        "duration": 0.342
+      },
+      {
+        "label": "mid",
+        "start": 4.71078,
+        "end": 5.79413,
+        "duration": 1.083
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.03526,
+        "end": 3.59892,
+        "duration": 3.564
+      },
+      {
+        "label": "high",
+        "start": 3.59892,
+        "end": 5.90816,
+        "duration": 2.309
+      },
+      {
+        "label": "silence",
+        "start": 5.90816,
+        "end": 9.26,
+        "duration": 3.352
+      }
+    ]
+  },
+  {
+    "id": "neut_2",
+    "emotion": "neut",
+    "text_path": "data/data/neut_2.txt",
+    "text_words": [
+      {
+        "form": "найти",
+        "lemma": "найти",
+        "pos": "VERB"
+      },
+      {
+        "form": "детектива",
+        "lemma": "детектив",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neut_2.wav",
+    "audio_words": [
+      {
+        "label": "найти",
+        "start": 1.39256,
+        "end": 1.9604,
+        "duration": 0.568
+      },
+      {
+        "label": "детективы",
+        "start": 1.98978,
+        "end": 2.6849,
+        "duration": 0.695
+      }
+    ],
+    "tones": [
+      {
+        "label": "fall",
+        "start": 1.40235,
+        "end": 1.63732,
+        "duration": 0.235
+      },
+      {
+        "label": "rise",
+        "start": 1.73522,
+        "end": 1.90166,
+        "duration": 0.166
+      },
+      {
+        "label": "fall",
+        "start": 2.03873,
+        "end": 2.18558,
+        "duration": 0.147
+      },
+      {
+        "label": "low",
+        "start": 2.3716,
+        "end": 2.60657,
+        "duration": 0.235
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.01211,
+        "end": 1.37298,
+        "duration": 1.361
+      },
+      {
+        "label": "mid",
+        "start": 1.40235,
+        "end": 2.62615,
+        "duration": 1.224
+      },
+      {
+        "label": "silence",
+        "start": 2.66532,
+        "end": 3.18,
+        "duration": 0.515
+      }
+    ]
+  },
+  {
+    "id": "pos_1",
+    "emotion": "pos",
+    "text_path": "data/data/pos_1.txt",
+    "text_words": [
+      {
+        "form": "ну",
+        "lemma": "ну",
+        "pos": "INTJ"
+      },
+      {
+        "form": "конечно",
+        "lemma": "конечно",
+        "pos": "ADV"
+      },
+      {
+        "form": "здорово",
+        "lemma": "здорово",
+        "pos": "ADV"
+      }
+    ],
+    "audio_path": "data/data/pos_1.wav",
+    "audio_words": [
+      {
+        "label": "ну",
+        "start": 0.64543,
+        "end": 0.85987,
+        "duration": 0.214
+      },
+      {
+        "label": "конечно",
+        "start": 0.85987,
+        "end": 1.38703,
+        "duration": 0.527
+      },
+      {
+        "label": "здорово",
+        "start": 1.38703,
+        "end": 2.11969,
+        "duration": 0.733
+      }
+    ],
+    "tones": [
+      {
+        "label": "mid",
+        "start": 0.69011,
+        "end": 0.82413,
+        "duration": 0.134
+      },
+      {
+        "label": "rise",
+        "start": 0.89561,
+        "end": 1.00283,
+        "duration": 0.107
+      },
+      {
+        "label": "high",
+        "start": 1.00283,
+        "end": 1.53892,
+        "duration": 0.536
+      },
+      {
+        "label": "fall",
+        "start": 1.53892,
+        "end": 2.03928,
+        "duration": 0.5
+      }
+    ],
+    "louds": [
+      {
+        "label": "low",
+        "start": 0.04679,
+        "end": 0.64543,
+        "duration": 0.599
+      },
+      {
+        "label": "high",
+        "start": 0.64543,
+        "end": 2.09289,
+        "duration": 1.447
+      },
+      {
+        "label": "low",
+        "start": 2.09289,
+        "end": 2.87023,
+        "duration": 0.777
+      }
+    ]
+  },
+  {
+    "id": "neut_4",
+    "emotion": "neut",
+    "text_path": "data/data/neut_4.txt",
+    "text_words": [
+      {
+        "form": "девчачий",
+        "lemma": "девчачий",
+        "pos": "ADJ"
+      },
+      {
+        "form": "мультфильмы",
+        "lemma": "мультфильм",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neut_4.wav",
+    "audio_words": [
+      {
+        "label": "девчачьи",
+        "start": 1.59332,
+        "end": 2.19232,
+        "duration": 0.599
+      },
+      {
+        "label": "мультфильмы",
+        "start": 2.26719,
+        "end": 2.95979,
+        "duration": 0.693
+      }
+    ],
+    "tones": [
+      {
+        "label": "mid",
+        "start": 1.70563,
+        "end": 2.3795,
+        "duration": 0.674
+      },
+      {
+        "label": "fall",
+        "start": 2.57605,
+        "end": 2.82876,
+        "duration": 0.253
+      }
+    ],
+    "louds": [
+      {
+        "label": "low",
+        "start": 0.02094,
+        "end": 1.56524,
+        "duration": 1.544
+      },
+      {
+        "label": "mid",
+        "start": 1.59332,
+        "end": 3.04,
+        "duration": 1.447
+      }
+    ]
+  },
+  {
+    "id": "neg_5",
+    "emotion": "neg",
+    "text_path": "data/data/neg_5.txt",
+    "text_words": [
+      {
+        "form": "видео",
+        "lemma": "видео",
+        "pos": "NOUN"
+      },
+      {
+        "form": "великолепный",
+        "lemma": "великолепный",
+        "pos": "ADJ"
+      },
+      {
+        "form": "век",
+        "lemma": "век",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neg_5.wav",
+    "audio_words": [
+      {
+        "label": "видео",
+        "start": 1.58176,
+        "end": 2.13969,
+        "duration": 0.558
+      },
+      {
+        "label": "великолепный",
+        "start": 2.1533,
+        "end": 2.94257,
+        "duration": 0.789
+      },
+      {
+        "label": "век",
+        "start": 2.96978,
+        "end": 3.47328,
+        "duration": 0.503
+      }
+    ],
+    "tones": [
+      {
+        "label": "high",
+        "start": 1.58176,
+        "end": 1.85392,
+        "duration": 0.272
+      },
+      {
+        "label": "mid",
+        "start": 1.92196,
+        "end": 2.3302,
+        "duration": 0.408
+      },
+      {
+        "label": "fall",
+        "start": 2.42546,
+        "end": 3.28277,
+        "duration": 0.857
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.04405,
+        "end": 1.60898,
+        "duration": 1.565
+      },
+      {
+        "label": "low",
+        "start": 1.63619,
+        "end": 3.32359,
+        "duration": 1.687
+      },
+      {
+        "label": "silence",
+        "start": 3.37803,
+        "end": 4.42,
+        "duration": 1.042
+      }
+    ]
+  },
+  {
+    "id": "neg_2",
+    "emotion": "neg",
+    "text_path": "data/data/neg_2.txt",
+    "text_words": [
+      {
+        "form": "военная",
+        "lemma": "военный",
+        "pos": "ADJ"
+      },
+      {
+        "form": "пенсия",
+        "lemma": "пенсия",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neg_2.wav",
+    "audio_words": [
+      {
+        "label": "военная",
+        "start": 1.68183,
+        "end": 2.45183,
+        "duration": 0.77
+      },
+      {
+        "label": "пенсия",
+        "start": 2.50232,
+        "end": 3.25969,
+        "duration": 0.757
+      }
+    ],
+    "tones": [
+      {
+        "label": "high",
+        "start": 1.94691,
+        "end": 2.0479,
+        "duration": 0.101
+      },
+      {
+        "label": "fall",
+        "start": 2.09839,
+        "end": 2.40134,
+        "duration": 0.303
+      },
+      {
+        "label": "rise",
+        "start": 2.55281,
+        "end": 2.80527,
+        "duration": 0.252
+      },
+      {
+        "label": "low",
+        "start": 3.00723,
+        "end": 3.19658,
+        "duration": 0.189
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.01561,
+        "end": 1.64396,
+        "duration": 1.628
+      },
+      {
+        "label": "high",
+        "start": 1.65659,
+        "end": 2.35085,
+        "duration": 0.694
+      },
+      {
+        "label": "low",
+        "start": 2.37609,
+        "end": 2.56543,
+        "duration": 0.189
+      },
+      {
+        "label": "high",
+        "start": 2.6033,
+        "end": 3.22182,
+        "duration": 0.619
+      }
+    ]
+  },
+  {
+    "id": "pos_6",
+    "emotion": "pos",
+    "text_path": "data/data/pos_6.txt",
+    "text_words": [
+      {
+        "form": "флюид",
+        "lemma": "флюид",
+        "pos": "NOUN"
+      },
+      {
+        "form": "маманя",
+        "lemma": "мама",
+        "pos": "NOUN"
+      },
+      {
+        "form": "любимая",
+        "lemma": "любимый",
+        "pos": "ADJ"
+      }
+    ],
+    "audio_path": "data/data/pos_6.wav",
+    "audio_words": [
+      {
+        "label": "привет",
+        "start": 0.23614,
+        "end": 0.7773,
+        "duration": 0.541
+      },
+      {
+        "label": "маманя",
+        "start": 0.7773,
+        "end": 1.26999,
+        "duration": 0.493
+      },
+      {
+        "label": "любимая",
+        "start": 1.26999,
+        "end": 1.98076,
+        "duration": 0.711
+      }
+    ],
+    "tones": [
+      {
+        "label": "high",
+        "start": 0.30076,
+        "end": 1.90806,
+        "duration": 1.607
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.02614,
+        "end": 0.26845,
+        "duration": 0.242
+      },
+      {
+        "label": "mid",
+        "start": 0.26845,
+        "end": 1.93229,
+        "duration": 1.664
+      },
+      {
+        "label": "silence",
+        "start": 1.93229,
+        "end": 2.62344,
+        "duration": 0.691
+      }
+    ]
+  },
+  {
+    "id": "neg_3",
+    "emotion": "neg",
+    "text_path": "data/data/neg_3.txt",
+    "text_words": [
+      {
+        "form": "мокрая",
+        "lemma": "мокрый",
+        "pos": "ADJ"
+      },
+      {
+        "form": "кроссовки",
+        "lemma": "кроссовок",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neg_3.wav",
+    "audio_words": [
+      {
+        "label": "мокрые",
+        "start": 2.60861,
+        "end": 3.23852,
+        "duration": 0.63
+      },
+      {
+        "label": "кроссовки",
+        "start": 3.25952,
+        "end": 4.22539,
+        "duration": 0.966
+      }
+    ],
+    "tones": [
+      {
+        "label": "rise",
+        "start": 2.65061,
+        "end": 2.86058,
+        "duration": 0.21
+      },
+      {
+        "label": "fall",
+        "start": 2.96556,
+        "end": 3.17553,
+        "duration": 0.21
+      },
+      {
+        "label": "low",
+        "start": 3.32251,
+        "end": 4.1204,
+        "duration": 0.798
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.02597,
+        "end": 2.60861,
+        "duration": 2.583
+      },
+      {
+        "label": "mid",
+        "start": 2.6716,
+        "end": 3.80544,
+        "duration": 1.134
+      },
+      {
+        "label": "low",
+        "start": 3.95242,
+        "end": 4.47735,
+        "duration": 0.525
+      },
+      {
+        "label": "silence",
+        "start": 4.49835,
+        "end": 6.82,
+        "duration": 2.322
+      }
+    ]
+  },
+  {
+    "id": "neut_1",
+    "emotion": "neut",
+    "text_path": "data/data/neut_1.txt",
+    "text_words": [
+      {
+        "form": "шоу",
+        "lemma": "шоу",
+        "pos": "NOUN"
+      },
+      {
+        "form": "конти",
+        "lemma": "кондитер",
+        "pos": "NOUN"
+      },
+      {
+        "form": "шоу",
+        "lemma": "шоу",
+        "pos": "NOUN"
+      },
+      {
+        "form": "кондитер",
+        "lemma": "кондитер",
+        "pos": "NOUN"
+      },
+      {
+        "form": "четвёртый",
+        "lemma": "четыре",
+        "pos": "NUM"
+      },
+      {
+        "form": "сезон",
+        "lemma": "сезон",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neut_1.wav",
+    "audio_words": [
+      {
+        "label": "шоу",
+        "start": 0.81229,
+        "end": 1.31123,
+        "duration": 0.499
+      },
+      {
+        "label": "кондитер",
+        "start": 1.31123,
+        "end": 1.93154,
+        "duration": 0.62
+      },
+      {
+        "label": "шоу",
+        "start": 1.99896,
+        "end": 2.49791,
+        "duration": 0.499
+      },
+      {
+        "label": "кондитер",
+        "start": 2.49791,
+        "end": 3.14518,
+        "duration": 0.647
+      },
+      {
+        "label": "четвертый",
+        "start": 3.14518,
+        "end": 3.65761,
+        "duration": 0.512
+      },
+      {
+        "label": "сезон",
+        "start": 3.68458,
+        "end": 4.38,
+        "duration": 0.695
+      }
+    ],
+    "tones": [
+      {
+        "label": "fall",
+        "start": 1.3382,
+        "end": 1.52699,
+        "duration": 0.189
+      },
+      {
+        "label": "fall",
+        "start": 2.20124,
+        "end": 2.47094,
+        "duration": 0.27
+      },
+      {
+        "label": "high",
+        "start": 2.78109,
+        "end": 4.17004,
+        "duration": 1.389
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.01668,
+        "end": 0.77184,
+        "duration": 0.755
+      },
+      {
+        "label": "mid",
+        "start": 0.83926,
+        "end": 4.38,
+        "duration": 3.541
+      }
+    ]
+  },
+  {
+    "id": "pos_0",
+    "emotion": "pos",
+    "text_path": "data/data/pos_0.txt",
+    "text_words": [
+      {
+        "form": "реал",
+        "lemma": "реальный",
+        "pos": "ADJ"
+      },
+      {
+        "form": "мадрид",
+        "lemma": "мадрид",
+        "pos": "NOUN"
+      },
+      {
+        "form": "вила",
+        "lemma": "жизнь",
+        "pos": "VERB"
+      },
+      {
+        "form": "реал",
+        "lemma": "реальный",
+        "pos": "ADJ"
+      }
+    ],
+    "audio_path": "data/data/pos_0.wav",
+    "audio_words": [
+      {
+        "label": "реал",
+        "start": 0.51562,
+        "end": 1.06701,
+        "duration": 0.551
+      },
+      {
+        "label": "мадрид",
+        "start": 1.06701,
+        "end": 1.52334,
+        "duration": 0.456
+      },
+      {
+        "label": "вила",
+        "start": 1.52334,
+        "end": 2.04621,
+        "duration": 0.523
+      },
+      {
+        "label": "реал",
+        "start": 2.04621,
+        "end": 2.57859,
+        "duration": 0.532
+      }
+    ],
+    "tones": [
+      {
+        "label": "mid",
+        "start": 0.53463,
+        "end": 1.31419,
+        "duration": 0.78
+      },
+      {
+        "label": "rise",
+        "start": 1.31419,
+        "end": 1.49482,
+        "duration": 0.181
+      },
+      {
+        "label": "fall",
+        "start": 1.56137,
+        "end": 1.76101,
+        "duration": 0.2
+      },
+      {
+        "label": "rise",
+        "start": 1.8846,
+        "end": 1.99868,
+        "duration": 0.114
+      },
+      {
+        "label": "fall",
+        "start": 1.99868,
+        "end": 2.53106,
+        "duration": 0.532
+      }
+    ],
+    "louds": [
+      {
+        "label": "low",
+        "start": 0.01176,
+        "end": 0.47759,
+        "duration": 0.466
+      },
+      {
+        "label": "high",
+        "start": 0.50611,
+        "end": 1.42827,
+        "duration": 0.922
+      },
+      {
+        "label": "low",
+        "start": 1.42827,
+        "end": 1.63742,
+        "duration": 0.209
+      },
+      {
+        "label": "mid",
+        "start": 1.63742,
+        "end": 2.38846,
+        "duration": 0.751
+      },
+      {
+        "label": "low",
+        "start": 2.38846,
+        "end": 3.08787,
+        "duration": 0.699
+      }
+    ]
+  },
+  {
+    "id": "pos_2",
+    "emotion": "pos",
+    "text_path": "data/data/pos_2.txt",
+    "text_words": [
+      {
+        "form": "салют",
+        "lemma": "привет",
+        "pos": "INTJ"
+      },
+      {
+        "form": "сбер",
+        "lemma": "сбер",
+        "pos": "NOUN"
+      },
+      {
+        "form": "я",
+        "lemma": "я",
+        "pos": "PRON"
+      },
+      {
+        "form": "тебя",
+        "lemma": "тебя",
+        "pos": "PRON"
+      },
+      {
+        "form": "люблю",
+        "lemma": "любить",
+        "pos": "VERB"
+      }
+    ],
+    "audio_path": "data/data/pos_2.wav",
+    "audio_words": [
+      {
+        "label": "салют",
+        "start": 2.07561,
+        "end": 2.68274,
+        "duration": 0.607
+      },
+      {
+        "label": "сбер",
+        "start": 2.68274,
+        "end": 3.20059,
+        "duration": 0.518
+      },
+      {
+        "label": "я",
+        "start": 3.20059,
+        "end": 3.59344,
+        "duration": 0.393
+      },
+      {
+        "label": "тебя",
+        "start": 3.59344,
+        "end": 4.09343,
+        "duration": 0.5
+      },
+      {
+        "label": "люблю",
+        "start": 4.11128,
+        "end": 4.50413,
+        "duration": 0.393
+      }
+    ],
+    "tones": [
+      {
+        "label": "rise",
+        "start": 2.36132,
+        "end": 2.62917,
+        "duration": 0.268
+      },
+      {
+        "label": "mid",
+        "start": 2.73631,
+        "end": 3.41487,
+        "duration": 0.679
+      },
+      {
+        "label": "rise",
+        "start": 3.41487,
+        "end": 3.53987,
+        "duration": 0.125
+      },
+      {
+        "label": "mid",
+        "start": 3.53987,
+        "end": 4.45056,
+        "duration": 0.911
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.02209,
+        "end": 2.1649,
+        "duration": 2.143
+      },
+      {
+        "label": "low",
+        "start": 2.1649,
+        "end": 4.48627,
+        "duration": 2.321
+      },
+      {
+        "label": "silence",
+        "start": 4.48627,
+        "end": 5.8,
+        "duration": 1.314
+      }
+    ]
+  },
+  {
+    "id": "neg_7",
+    "emotion": "neg",
+    "text_path": "data/data/neg_7.txt",
+    "text_words": [
+      {
+        "form": "ты",
+        "lemma": "ты",
+        "pos": "PRON"
+      },
+      {
+        "form": "можешь",
+        "lemma": "мочь",
+        "pos": "VERB"
+      },
+      {
+        "form": "вызвать",
+        "lemma": "вызывать",
+        "pos": "VERB"
+      },
+      {
+        "form": "мне",
+        "lemma": "я",
+        "pos": "PRON"
+      },
+      {
+        "form": "врача",
+        "lemma": "врач",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neg_7.wav",
+    "audio_words": [
+      {
+        "label": "ты",
+        "start": 3.38891,
+        "end": 3.59088,
+        "duration": 0.202
+      },
+      {
+        "label": "можешь",
+        "start": 3.59088,
+        "end": 4.09579,
+        "duration": 0.505
+      },
+      {
+        "label": "вызвать",
+        "start": 4.19678,
+        "end": 4.70169,
+        "duration": 0.505
+      },
+      {
+        "label": "мне",
+        "start": 4.75218,
+        "end": 5.08038,
+        "duration": 0.328
+      },
+      {
+        "label": "врача",
+        "start": 5.15611,
+        "end": 5.8125,
+        "duration": 0.656
+      }
+    ],
+    "tones": [
+      {
+        "label": "rise",
+        "start": 3.59088,
+        "end": 3.79284,
+        "duration": 0.202
+      },
+      {
+        "label": "fall",
+        "start": 3.89383,
+        "end": 4.19678,
+        "duration": 0.303
+      },
+      {
+        "label": "low",
+        "start": 4.29776,
+        "end": 5.71152,
+        "duration": 1.414
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.03123,
+        "end": 3.38891,
+        "duration": 3.358
+      },
+      {
+        "label": "mid",
+        "start": 3.41416,
+        "end": 4.6512,
+        "duration": 1.237
+      },
+      {
+        "label": "low",
+        "start": 4.70169,
+        "end": 5.73677,
+        "duration": 1.035
+      },
+      {
+        "label": "silence",
+        "start": 5.76201,
+        "end": 8.2,
+        "duration": 2.438
+      }
+    ]
+  },
+  {
+    "id": "neg_8",
+    "emotion": "neg",
+    "text_path": "data/data/neg_8.txt",
+    "text_words": [
+      {
+        "form": "весёлые",
+        "lemma": "весёлый",
+        "pos": "ADJ"
+      },
+      {
+        "form": "похороны",
+        "lemma": "похороны",
+        "pos": "NOUN"
+      },
+      {
+        "form": "десять",
+        "lemma": "десять",
+        "pos": "NUM"
+      },
+      {
+        "form": "часов",
+        "lemma": "час",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neg_8.wav",
+    "audio_words": [
+      {
+        "label": "весёлые",
+        "start": 2.3283,
+        "end": 3.26584,
+        "duration": 0.938
+      },
+      {
+        "label": "похороны",
+        "start": 3.28622,
+        "end": 4.183,
+        "duration": 0.897
+      },
+      {
+        "label": "десять",
+        "start": 4.20338,
+        "end": 4.7333,
+        "duration": 0.53
+      },
+      {
+        "label": "часов",
+        "start": 4.7333,
+        "end": 6.07846,
+        "duration": 1.345
+      }
+    ],
+    "tones": [
+      {
+        "label": "fall",
+        "start": 2.85821,
+        "end": 3.2047,
+        "duration": 0.346
+      },
+      {
+        "label": "low",
+        "start": 3.34737,
+        "end": 5.4874,
+        "duration": 2.14
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.00483,
+        "end": 2.36906,
+        "duration": 2.364
+      },
+      {
+        "label": "low",
+        "start": 2.45059,
+        "end": 5.63007,
+        "duration": 3.179
+      },
+      {
+        "label": "silence",
+        "start": 5.65046,
+        "end": 6.62,
+        "duration": 0.97
+      }
+    ]
+  },
+  {
+    "id": "neut_6",
+    "emotion": "neut",
+    "text_path": "data/data/neut_6.txt",
+    "text_words": [
+      {
+        "form": "подписка",
+        "lemma": "подписка",
+        "pos": "NOUN"
+      },
+      {
+        "form": "спорт",
+        "lemma": "спорт",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neut_6.wav",
+    "audio_words": [
+      {
+        "label": "подписка",
+        "start": 2.28337,
+        "end": 2.8171,
+        "duration": 0.534
+      },
+      {
+        "label": "спорт",
+        "start": 2.85349,
+        "end": 3.36296,
+        "duration": 0.509
+      }
+    ],
+    "tones": [
+      {
+        "label": "high",
+        "start": 2.31976,
+        "end": 2.59875,
+        "duration": 0.279
+      },
+      {
+        "label": "fall",
+        "start": 2.76858,
+        "end": 2.8171,
+        "duration": 0.049
+      },
+      {
+        "label": "mid",
+        "start": 3.03544,
+        "end": 3.18101,
+        "duration": 0.146
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.0,
+        "end": 2.27124,
+        "duration": 2.271
+      },
+      {
+        "label": "mid",
+        "start": 2.31976,
+        "end": 3.35083,
+        "duration": 1.031
+      },
+      {
+        "label": "silence",
+        "start": 3.38722,
+        "end": 3.94,
+        "duration": 0.553
+      }
+    ]
+  },
+  {
+    "id": "neut_5",
+    "emotion": "neut",
+    "text_path": "data/data/neut_5.txt",
+    "text_words": [
+      {
+        "form": "сколько",
+        "lemma": "сколько",
+        "pos": "NUM"
+      },
+      {
+        "form": "живёт",
+        "lemma": "жить",
+        "pos": "VERB"
+      }
+    ],
+    "audio_path": "data/data/neut_5.wav",
+    "audio_words": [
+      {
+        "label": "сколько",
+        "start": 1.70795,
+        "end": 2.21803,
+        "duration": 0.51
+      },
+      {
+        "label": "живет",
+        "start": 2.23146,
+        "end": 2.83551,
+        "duration": 0.604
+      }
+    ],
+    "tones": [
+      {
+        "label": "high",
+        "start": 1.96299,
+        "end": 2.11065,
+        "duration": 0.148
+      },
+      {
+        "label": "fall",
+        "start": 2.19119,
+        "end": 2.29857,
+        "duration": 0.107
+      },
+      {
+        "label": "mid",
+        "start": 2.35227,
+        "end": 2.40596,
+        "duration": 0.054
+      },
+      {
+        "label": "fall",
+        "start": 2.44623,
+        "end": 2.62073,
+        "duration": 0.175
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.0,
+        "end": 1.70795,
+        "duration": 1.708
+      },
+      {
+        "label": "low",
+        "start": 1.74822,
+        "end": 2.64758,
+        "duration": 0.899
+      },
+      {
+        "label": "silence",
+        "start": 2.67443,
+        "end": 4.33892,
+        "duration": 1.664
+      }
+    ]
+  },
+  {
+    "id": "neg_0",
+    "emotion": "neg",
+    "text_path": "data/data/neg_0.txt",
+    "text_words": [
+      {
+        "form": "выбери",
+        "lemma": "выбрать",
+        "pos": "VERB"
+      },
+      {
+        "form": "номер",
+        "lemma": "номер",
+        "pos": "NOUN"
+      },
+      {
+        "form": "один",
+        "lemma": "один",
+        "pos": "NUM"
+      }
+    ],
+    "audio_path": "data/data/neg_0.wav",
+    "audio_words": [
+      {
+        "label": "выбери",
+        "start": 3.02379,
+        "end": 3.71688,
+        "duration": 0.693
+      },
+      {
+        "label": "номер",
+        "start": 3.71688,
+        "end": 4.44297,
+        "duration": 0.726
+      },
+      {
+        "label": "один",
+        "start": 4.44297,
+        "end": 4.93804,
+        "duration": 0.495
+      }
+    ],
+    "tones": [
+      {
+        "label": "rise",
+        "start": 3.17231,
+        "end": 3.30433,
+        "duration": 0.132
+      },
+      {
+        "label": "high",
+        "start": 3.30433,
+        "end": 3.37034,
+        "duration": 0.066
+      },
+      {
+        "label": "fall",
+        "start": 3.37034,
+        "end": 3.48585,
+        "duration": 0.116
+      },
+      {
+        "label": "low",
+        "start": 3.48585,
+        "end": 3.78289,
+        "duration": 0.297
+      },
+      {
+        "label": "rise",
+        "start": 3.78289,
+        "end": 3.98092,
+        "duration": 0.198
+      },
+      {
+        "label": "high",
+        "start": 3.98092,
+        "end": 4.07993,
+        "duration": 0.099
+      },
+      {
+        "label": "fall",
+        "start": 4.07993,
+        "end": 4.49248,
+        "duration": 0.413
+      },
+      {
+        "label": "fall",
+        "start": 4.49248,
+        "end": 4.54199,
+        "duration": 0.05
+      },
+      {
+        "label": "low",
+        "start": 4.54199,
+        "end": 4.641,
+        "duration": 0.099
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.05342,
+        "end": 3.00729,
+        "duration": 2.954
+      },
+      {
+        "label": "mid",
+        "start": 3.0568,
+        "end": 5.07005,
+        "duration": 2.013
+      }
+    ]
+  },
+  {
+    "id": "neg_1",
+    "emotion": "neg",
+    "text_path": "data/data/neg_1.txt",
+    "text_words": [
+      {
+        "form": "мне",
+        "lemma": "я",
+        "pos": "PRON"
+      },
+      {
+        "form": "нужно",
+        "lemma": "нужно",
+        "pos": "VERB"
+      },
+      {
+        "form": "стоимость",
+        "lemma": "стоимость",
+        "pos": "NOUN"
+      },
+      {
+        "form": "авиабилетов",
+        "lemma": "авиабилет",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neg_1.wav",
+    "audio_words": [
+      {
+        "label": "мне",
+        "start": 2.06364,
+        "end": 2.47262,
+        "duration": 0.409
+      },
+      {
+        "label": "нужна",
+        "start": 2.47262,
+        "end": 2.82101,
+        "duration": 0.348
+      },
+      {
+        "label": "стоимость",
+        "start": 2.85131,
+        "end": 3.38147,
+        "duration": 0.53
+      },
+      {
+        "label": "авиабилета",
+        "start": 3.42691,
+        "end": 4.30546,
+        "duration": 0.879
+      }
+    ],
+    "tones": [
+      {
+        "label": "rise",
+        "start": 2.15453,
+        "end": 2.42718,
+        "duration": 0.273
+      },
+      {
+        "label": "high",
+        "start": 2.42718,
+        "end": 2.45748,
+        "duration": 0.03
+      },
+      {
+        "label": "fall",
+        "start": 2.45748,
+        "end": 2.60895,
+        "duration": 0.151
+      },
+      {
+        "label": "rise",
+        "start": 3.09367,
+        "end": 3.27544,
+        "duration": 0.182
+      },
+      {
+        "label": "low",
+        "start": 3.47235,
+        "end": 3.56324,
+        "duration": 0.091
+      },
+      {
+        "label": "fall",
+        "start": 3.83589,
+        "end": 4.10855,
+        "duration": 0.273
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.0,
+        "end": 2.06364,
+        "duration": 2.064
+      },
+      {
+        "label": "low",
+        "start": 2.07879,
+        "end": 4.30546,
+        "duration": 2.227
+      },
+      {
+        "label": "silence",
+        "start": 4.33576,
+        "end": 4.92,
+        "duration": 0.584
+      }
+    ]
+  },
+  {
+    "id": "neut_3",
+    "emotion": "neut",
+    "text_path": "data/data/neut_3.txt",
+    "text_words": [
+      {
+        "form": "кто",
+        "lemma": "кто",
+        "pos": "PRON"
+      },
+      {
+        "form": "такие",
+        "lemma": "такой",
+        "pos": "PRON"
+      },
+      {
+        "form": "арабы",
+        "lemma": "араб",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neut_3.wav",
+    "audio_words": [
+      {
+        "label": "кто",
+        "start": 2.97869,
+        "end": 3.26538,
+        "duration": 0.287
+      },
+      {
+        "label": "такие",
+        "start": 3.26538,
+        "end": 3.73126,
+        "duration": 0.466
+      },
+      {
+        "label": "арабы",
+        "start": 3.85668,
+        "end": 4.69885,
+        "duration": 0.842
+      }
+    ],
+    "tones": [
+      {
+        "label": "fall",
+        "start": 3.24746,
+        "end": 3.39081,
+        "duration": 0.143
+      },
+      {
+        "label": "low",
+        "start": 3.40873,
+        "end": 3.4804,
+        "duration": 0.072
+      },
+      {
+        "label": "mid",
+        "start": 3.56999,
+        "end": 3.76709,
+        "duration": 0.197
+      },
+      {
+        "label": "fall",
+        "start": 3.98211,
+        "end": 4.1613,
+        "duration": 0.179
+      },
+      {
+        "label": "mid",
+        "start": 4.23297,
+        "end": 4.3584,
+        "duration": 0.125
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.02216,
+        "end": 3.01452,
+        "duration": 2.992
+      },
+      {
+        "label": "low",
+        "start": 3.05036,
+        "end": 4.19713,
+        "duration": 1.147
+      },
+      {
+        "label": "silence",
+        "start": 4.26881,
+        "end": 5.82,
+        "duration": 1.551
+      }
+    ]
+  },
+  {
+    "id": "neut_0",
+    "emotion": "neut",
+    "text_path": "data/data/neut_0.txt",
+    "text_words": [
+      {
+        "form": "включи",
+        "lemma": "включить",
+        "pos": "VERB"
+      },
+      {
+        "form": "песню",
+        "lemma": "песня",
+        "pos": "NOUN"
+      },
+      {
+        "form": "скриптонита",
+        "lemma": "скриптонит",
+        "pos": "NOUN"
+      },
+      {
+        "form": "танцуй",
+        "lemma": "танцевать",
+        "pos": "VERB"
+      },
+      {
+        "form": "сама",
+        "lemma": "сам",
+        "pos": "PRON"
+      }
+    ],
+    "audio_path": "data/data/neut_0.wav",
+    "audio_words": [
+      {
+        "label": "включи",
+        "start": 1.23043,
+        "end": 1.72453,
+        "duration": 0.494
+      },
+      {
+        "label": "песню",
+        "start": 1.72453,
+        "end": 2.18202,
+        "duration": 0.457
+      },
+      {
+        "label": "скриптонита",
+        "start": 2.32842,
+        "end": 3.22512,
+        "duration": 0.897
+      },
+      {
+        "label": "танцуй",
+        "start": 3.26172,
+        "end": 3.77411,
+        "duration": 0.512
+      },
+      {
+        "label": "сама",
+        "start": 3.79241,
+        "end": 4.37801,
+        "duration": 0.586
+      }
+    ],
+    "tones": [
+      {
+        "label": "rise",
+        "start": 1.77943,
+        "end": 1.94412,
+        "duration": 0.165
+      },
+      {
+        "label": "fall",
+        "start": 2.09052,
+        "end": 2.21862,
+        "duration": 0.128
+      },
+      {
+        "label": "rise",
+        "start": 2.82252,
+        "end": 3.00552,
+        "duration": 0.183
+      },
+      {
+        "label": "mid",
+        "start": 3.33492,
+        "end": 4.23161,
+        "duration": 0.897
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.02264,
+        "end": 1.19383,
+        "duration": 1.171
+      },
+      {
+        "label": "high",
+        "start": 1.24873,
+        "end": 4.26821,
+        "duration": 3.019
+      },
+      {
+        "label": "silence",
+        "start": 4.30481,
+        "end": 5.94394,
+        "duration": 1.639
+      }
+    ]
+  },
+  {
+    "id": "pos_7",
+    "emotion": "pos",
+    "text_path": "data/data/pos_7.txt",
+    "text_words": [
+      {
+        "form": "поезжай",
+        "lemma": "поехать",
+        "pos": "VERB"
+      },
+      {
+        "form": "такой",
+        "lemma": "такой",
+        "pos": "PRON"
+      },
+      {
+        "form": "разговор",
+        "lemma": "разговор",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/pos_7.wav",
+    "audio_words": [
+      {
+        "label": "поезжай",
+        "start": 1.43818,
+        "end": 2.37584,
+        "duration": 0.938
+      },
+      {
+        "label": "такой",
+        "start": 2.37584,
+        "end": 2.82731,
+        "duration": 0.451
+      },
+      {
+        "label": "разговор",
+        "start": 2.82731,
+        "end": 3.24405,
+        "duration": 0.417
+      }
+    ],
+    "tones": [
+      {
+        "label": "high",
+        "start": 0.6047,
+        "end": 0.74361,
+        "duration": 0.139
+      },
+      {
+        "label": "mid",
+        "start": 1.48448,
+        "end": 3.12829,
+        "duration": 1.644
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.00274,
+        "end": 1.41503,
+        "duration": 1.412
+      },
+      {
+        "label": "mid",
+        "start": 1.41503,
+        "end": 3.2209,
+        "duration": 1.806
+      },
+      {
+        "label": "silence",
+        "start": 3.2209,
+        "end": 3.76,
+        "duration": 0.539
+      }
+    ]
+  },
+  {
+    "id": "pos_4",
+    "emotion": "pos",
+    "text_path": "data/data/pos_4.txt",
+    "text_words": [
+      {
+        "form": "да",
+        "lemma": "да",
+        "pos": "PART"
+      },
+      {
+        "form": "у",
+        "lemma": "у",
+        "pos": "ADP"
+      },
+      {
+        "form": "нас",
+        "lemma": "нас",
+        "pos": "PRON"
+      },
+      {
+        "form": "день",
+        "lemma": "день",
+        "pos": "NOUN"
+      },
+      {
+        "form": "прошёл",
+        "lemma": "пройти",
+        "pos": "VERB"
+      },
+      {
+        "form": "удачно",
+        "lemma": "удачно",
+        "pos": "ADV"
+      }
+    ],
+    "audio_path": "data/data/pos_4.wav",
+    "audio_words": [
+      {
+        "label": "да",
+        "start": 1.93472,
+        "end": 2.3624,
+        "duration": 0.428
+      },
+      {
+        "label": "у",
+        "start": 2.3624,
+        "end": 2.47277,
+        "duration": 0.11
+      },
+      {
+        "label": "нас",
+        "start": 2.47277,
+        "end": 2.72109,
+        "duration": 0.248
+      },
+      {
+        "label": "день",
+        "start": 2.72109,
+        "end": 2.98322,
+        "duration": 0.262
+      },
+      {
+        "label": "прошел",
+        "start": 2.98322,
+        "end": 3.53506,
+        "duration": 0.552
+      },
+      {
+        "label": "удачно",
+        "start": 3.53506,
+        "end": 4.28005,
+        "duration": 0.745
+      }
+    ],
+    "tones": [
+      {
+        "label": "high",
+        "start": 1.9899,
+        "end": 2.54175,
+        "duration": 0.552
+      },
+      {
+        "label": "fall",
+        "start": 2.54175,
+        "end": 2.65211,
+        "duration": 0.11
+      },
+      {
+        "label": "rise",
+        "start": 2.77628,
+        "end": 2.95563,
+        "duration": 0.179
+      },
+      {
+        "label": "mid",
+        "start": 2.95563,
+        "end": 4.14209,
+        "duration": 1.186
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.00327,
+        "end": 1.96231,
+        "duration": 1.959
+      },
+      {
+        "label": "mid",
+        "start": 1.96231,
+        "end": 4.48106,
+        "duration": 2.519
+      }
+    ]
+  },
+  {
+    "id": "neg_6",
+    "emotion": "neg",
+    "text_path": "data/data/neg_6.txt",
+    "text_words": [
+      {
+        "form": "камни",
+        "lemma": "камень",
+        "pos": "NOUN"
+      },
+      {
+        "form": "печени",
+        "lemma": "печень",
+        "pos": "NOUN"
+      },
+      {
+        "form": "позволяет",
+        "lemma": "позволять",
+        "pos": "VERB"
+      }
+    ],
+    "audio_path": "data/data/neg_6.wav",
+    "audio_words": [
+      {
+        "label": "а",
+        "start": 1.1169,
+        "end": 1.29346,
+        "duration": 0.177
+      },
+      {
+        "label": "мне",
+        "start": 1.29346,
+        "end": 1.52435,
+        "duration": 0.231
+      },
+      {
+        "label": "печень",
+        "start": 1.53793,
+        "end": 2.05403,
+        "duration": 0.516
+      },
+      {
+        "label": "не",
+        "start": 2.10835,
+        "end": 2.21701,
+        "duration": 0.109
+      },
+      {
+        "label": "позволяет",
+        "start": 2.25775,
+        "end": 3.12697,
+        "duration": 0.869
+      }
+    ],
+    "tones": [
+      {
+        "label": "low",
+        "start": 1.17123,
+        "end": 2.97757,
+        "duration": 1.806
+      }
+    ],
+    "louds": [
+      {
+        "label": "low",
+        "start": 0.04396,
+        "end": 4.40363,
+        "duration": 4.36
+      }
+    ]
+  },
+  {
+    "id": "neut_8",
+    "emotion": "neut",
+    "text_path": "data/data/neut_8.txt",
+    "text_words": [
+      {
+        "form": "смотреть",
+        "lemma": "смотреть",
+        "pos": "VERB"
+      },
+      {
+        "form": "фильмы",
+        "lemma": "фильм",
+        "pos": "NOUN"
+      },
+      {
+        "form": "ай",
+        "lemma": "ай",
+        "pos": "INTJ"
+      }
+    ],
+    "audio_path": "data/data/neut_8.wav",
+    "audio_words": [
+      {
+        "label": "смотреть",
+        "start": 1.71763,
+        "end": 2.37476,
+        "duration": 0.657
+      },
+      {
+        "label": "фильмы",
+        "start": 2.37476,
+        "end": 2.81761,
+        "duration": 0.443
+      },
+      {
+        "label": "о",
+        "start": 2.81761,
+        "end": 2.90332,
+        "duration": 0.086
+      },
+      {
+        "label": "войне",
+        "start": 2.90332,
+        "end": 3.53188,
+        "duration": 0.629
+      }
+    ],
+    "tones": [
+      {
+        "label": "fall",
+        "start": 1.88906,
+        "end": 1.97477,
+        "duration": 0.086
+      },
+      {
+        "label": "rise",
+        "start": 2.07477,
+        "end": 2.20334,
+        "duration": 0.129
+      },
+      {
+        "label": "mid",
+        "start": 2.41762,
+        "end": 3.23188,
+        "duration": 0.814
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.0,
+        "end": 2.03191,
+        "duration": 2.032
+      },
+      {
+        "label": "low",
+        "start": 2.03191,
+        "end": 4.64,
+        "duration": 2.608
+      }
+    ]
+  },
+  {
+    "id": "pos_8",
+    "emotion": "pos",
+    "text_path": "data/data/pos_8.txt",
+    "text_words": [
+      {
+        "form": "джой",
+        "lemma": "джой",
+        "pos": "NOUN"
+      },
+      {
+        "form": "ты",
+        "lemma": "ты",
+        "pos": "PRON"
+      },
+      {
+        "form": "коротышка",
+        "lemma": "коротышка",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/pos_8.wav",
+    "audio_words": [
+      {
+        "label": "джой",
+        "start": 0.58488,
+        "end": 0.98972,
+        "duration": 0.405
+      },
+      {
+        "label": "ты",
+        "start": 1.02403,
+        "end": 1.17499,
+        "duration": 0.151
+      },
+      {
+        "label": "крутышка",
+        "start": 1.17499,
+        "end": 1.81999,
+        "duration": 0.645
+      }
+    ],
+    "tones": [
+      {
+        "label": "mid",
+        "start": 0.63977,
+        "end": 0.9211,
+        "duration": 0.281
+      },
+      {
+        "label": "high",
+        "start": 1.05148,
+        "end": 1.12695,
+        "duration": 0.075
+      },
+      {
+        "label": "mid",
+        "start": 1.27105,
+        "end": 1.58669,
+        "duration": 0.316
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.00163,
+        "end": 0.58488,
+        "duration": 0.583
+      },
+      {
+        "label": "mid",
+        "start": 0.58488,
+        "end": 1.68276,
+        "duration": 1.098
+      },
+      {
+        "label": "silence",
+        "start": 1.68276,
+        "end": 2.22875,
+        "duration": 0.546
+      }
+    ]
+  },
+  {
+    "id": "neg_4",
+    "emotion": "neg",
+    "text_path": "data/data/neg_4.txt",
+    "text_words": [
+      {
+        "form": "великолепный",
+        "lemma": "великолепный",
+        "pos": "ADJ"
+      },
+      {
+        "form": "век",
+        "lemma": "век",
+        "pos": "NOUN"
+      },
+      {
+        "form": "двадцать",
+        "lemma": "двадцать",
+        "pos": "PRON"
+      },
+      {
+        "form": "вторая",
+        "lemma": "второй",
+        "pos": "PRON"
+      },
+      {
+        "form": "серия",
+        "lemma": "серия",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neg_4.wav",
+    "audio_words": [
+      {
+        "label": "великолепный",
+        "start": 2.11216,
+        "end": 3.23283,
+        "duration": 1.121
+      },
+      {
+        "label": "век",
+        "start": 3.25524,
+        "end": 3.7035,
+        "duration": 0.448
+      },
+      {
+        "label": "двадцать",
+        "start": 3.97246,
+        "end": 4.68969,
+        "duration": 0.717
+      },
+      {
+        "label": "вторая",
+        "start": 4.77934,
+        "end": 5.40692,
+        "duration": 0.628
+      },
+      {
+        "label": "серия",
+        "start": 5.40692,
+        "end": 6.43793,
+        "duration": 1.031
+      }
+    ],
+    "tones": [
+      {
+        "label": "high",
+        "start": 2.1794,
+        "end": 2.82939,
+        "duration": 0.65
+      },
+      {
+        "label": "low",
+        "start": 3.09835,
+        "end": 3.25524,
+        "duration": 0.157
+      },
+      {
+        "label": "rise",
+        "start": 4.06212,
+        "end": 4.30866,
+        "duration": 0.247
+      },
+      {
+        "label": "mid",
+        "start": 4.82417,
+        "end": 5.22761,
+        "duration": 0.403
+      },
+      {
+        "label": "fall",
+        "start": 5.60863,
+        "end": 5.74311,
+        "duration": 0.134
+      },
+      {
+        "label": "mid",
+        "start": 5.76553,
+        "end": 6.34827,
+        "duration": 0.583
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.00531,
+        "end": 2.15699,
+        "duration": 2.152
+      },
+      {
+        "label": "low",
+        "start": 2.1794,
+        "end": 6.32586,
+        "duration": 4.146
+      },
+      {
+        "label": "silence",
+        "start": 6.3931,
+        "end": 7.28,
+        "duration": 0.887
+      }
+    ]
+  },
+  {
+    "id": "neut_7",
+    "emotion": "neut",
+    "text_path": "data/data/neut_7.txt",
+    "text_words": [
+      {
+        "form": "сбер",
+        "lemma": "сбер",
+        "pos": "NOUN"
+      },
+      {
+        "form": "выйди",
+        "lemma": "выйти",
+        "pos": "VERB"
+      },
+      {
+        "form": "из",
+        "lemma": "из",
+        "pos": "ADP"
+      },
+      {
+        "form": "этого",
+        "lemma": "этот",
+        "pos": "PRON"
+      },
+      {
+        "form": "приложение",
+        "lemma": "приложение",
+        "pos": "NOUN"
+      }
+    ],
+    "audio_path": "data/data/neut_7.wav",
+    "audio_words": [
+      {
+        "label": "сбер",
+        "start": 0.82722,
+        "end": 1.41587,
+        "duration": 0.589
+      },
+      {
+        "label": "выйди",
+        "start": 1.41587,
+        "end": 1.78215,
+        "duration": 0.366
+      },
+      {
+        "label": "из",
+        "start": 1.78215,
+        "end": 2.05685,
+        "duration": 0.275
+      },
+      {
+        "label": "этого",
+        "start": 2.05685,
+        "end": 2.76324,
+        "duration": 0.706
+      },
+      {
+        "label": "приложения",
+        "start": 2.76324,
+        "end": 3.67892,
+        "duration": 0.916
+      }
+    ],
+    "tones": [
+      {
+        "label": "mid",
+        "start": 1.03652,
+        "end": 1.62517,
+        "duration": 0.589
+      },
+      {
+        "label": "fall",
+        "start": 1.62517,
+        "end": 1.86063,
+        "duration": 0.235
+      },
+      {
+        "label": "mid",
+        "start": 1.86063,
+        "end": 3.15567,
+        "duration": 1.295
+      },
+      {
+        "label": "fall",
+        "start": 3.15567,
+        "end": 3.40422,
+        "duration": 0.249
+      },
+      {
+        "label": "low",
+        "start": 3.43038,
+        "end": 3.54811,
+        "duration": 0.118
+      }
+    ],
+    "louds": [
+      {
+        "label": "silence",
+        "start": 0.01618,
+        "end": 0.85338,
+        "duration": 0.837
+      },
+      {
+        "label": "mid",
+        "start": 0.87954,
+        "end": 2.42313,
+        "duration": 1.544
+      },
+      {
+        "label": "low",
+        "start": 2.55394,
+        "end": 3.58735,
+        "duration": 1.033
+      },
+      {
+        "label": "silence",
+        "start": 3.67892,
+        "end": 4.24887,
+        "duration": 0.57
+      }
+    ]
+  }
+]

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>385</build>
+		<revision>97</revision>
+	</m_Version>
+	<m_TemplateName text="UnitOperations"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="UnitOperation"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="BUILD"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="IMPROVEMENT"/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_BUILD"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_BUILD_IMPROVEMENT"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="BUILD"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ROUTE"/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_BUILD"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_BUILD_ROUTE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="CLEAR_CONTAMINATION"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_DIG"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_CLEAR_CONTAMINATION"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="PILLAGE"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_PILLAGE"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_PILLAGE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="PROMOTE"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_PROMOTE"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_PROMOTE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="REMOVE_FEATURE"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_CUT"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_REMOVE_FEATURE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="REMOVE_IMPROVEMENT"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_REPAIR"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_REMOVE_IMPROVEMENT"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="REPAIR"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_REPAIR"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_REPAIR"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="HARVEST"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_DIG"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_HARVEST_RESOURCE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="SPREAD_RELIGION"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_SPREAD_RELIGION"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_SPREAD_RELIGION"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="LAUNCH_INQUISITION"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_LAUNCH_INQUISITION"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_LAUNCH_INQUISITION"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="EVANGELIZE_BELIEF"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_EVANGELIZE_BELIEF"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_EVANGELIZE_BELIEF"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="PLANT_FOREST"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_DIG"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_PLANT_FOREST"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="EXCAVATE"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_EXCAVATE"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_EXCAVATE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="DESIGNATE_PARK"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_DESIGNATE_PARK"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_DESIGNATE_PARK"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="FOUND_RELIGION"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_FOUND_RELIGION"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_FOUND_RELIGION"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="REMOVE_HERESY"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_SPREAD_RELIGION"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_REMOVE_HERESY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="BUILD"/>
+							<m_ParamName text="Activity"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="TargetType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="ACTIVITY_BUILD"/>
+							<m_ParamName text="DefaultTargetActivity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="UNITOPERATION_BUILD_IMPROVEMENT_ADJACENT"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

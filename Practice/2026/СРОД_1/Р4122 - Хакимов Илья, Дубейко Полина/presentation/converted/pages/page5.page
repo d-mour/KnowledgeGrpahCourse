@@ -1,0 +1,485 @@
+pageType: unknown
+background:
+  type: solid
+  color: "#191919"
+elements:
+- elementId: shape0
+  elementType: shape
+  bounds: [40, 40, 40, 40]
+  opacity: 0.2
+  shapeName: custom
+  path: 381000,381000;M76200 0L304800 0C346856 0 381000 34144 381000 76200L381000 304800C381000 346856 346856 381000 304800 381000L76200 381000C34144 381000 0 346856 0 304800L0 76200C0 34144 34144 0 76200 0Z
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: shape1
+  elementType: shape
+  bounds: [54.77, 46, 19, 28]
+  shapeName: rect
+- elementId: text2
+  elementType: text
+  bounds: [45.17, 41.2, 38.2, 37.6]
+  content:
+    align: [left, middle]
+    fontSize: 18
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.3
+    text: |
+      <p><strong>2</strong></p>
+- elementId: shape3
+  elementType: shape
+  bounds: [92, 48, 100, 24]
+  shapeName: rect
+- elementId: text4
+  elementType: text
+  bounds: [82.4, 43.2, 119.2, 33.6]
+  content:
+    align: [left, middle]
+    fontSize: 16
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.3
+    letterSpacing: 0.8
+    text: |
+      <p><strong>Уровень 2</strong></p>
+- elementId: shape5
+  elementType: shape
+  bounds: [40, 92, 1218, 40]
+  shapeName: rect
+- elementId: text6
+  elementType: text
+  bounds: [30.4, 87.2, 1237.2, 49.6]
+  content:
+    align: [left, middle]
+    fontSize: 36
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 0.9
+    text: |
+      <p><strong>Лексический уровень</strong></p>
+- elementId: shape7
+  elementType: shape
+  bounds: [40, 140, 1209, 28]
+  shapeName: rect
+- elementId: text8
+  elementType: text
+  bounds: [30.4, 135.2, 1228.2, 37.6]
+  content:
+    align: [left, middle]
+    fontSize: 18
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.3
+    text: Токенизация и лемматизация
+- elementId: shape9
+  elementType: shape
+  bounds: [40.33, 184.33, 589.67, 421.67]
+  shapeName: custom
+  path: 5616575,4016375;M114306 0L5502269 0C5565398 0 5616575 51177 5616575 114306L5616575 3902069C5616575 3965198 5565398 4016375 5502269 4016375L114306 4016375C51177 4016375 0 3965198 0 3902069L0 114306C0 51219 51219 0 114306 0Z
+  fill:
+    type: solid
+    color: "#262626"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape10
+  elementType: shape
+  bounds: [63.17, 208.67, 20, 20]
+  shapeName: custom
+  path: 190500,190500;M95250 190500C147820 190500 190500 147820 190500 95250C190500 42680 147820 0 95250 0C42680 0 0 42680 0 95250C0 147820 42680 190500 95250 190500ZM95250 50602C100199 50602 104180 54583 104180 59531L104180 101203C104180 106152 100199 110133 95250 110133C90301 110133 86320 106152 86320 101203L86320 59531C86320 54583 90301 50602 95250 50602ZM85316 130969C85090 127281 86929 123773 90090 121861C93251 119949 97212 119949 100373 121861C103534 123773 105373 127281 105147 130969C105373 134656 103534 138165 100373 140077C97212 141989 93251 141989 90090 140077C86929 138165 85090 134656 85316 130969Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape11
+  elementType: shape
+  bounds: [85.67, 204.67, 534, 28]
+  shapeName: rect
+- elementId: text12
+  elementType: text
+  bounds: [76.07, 199.87, 553.2, 37.6]
+  content:
+    align: [left, middle]
+    fontSize: 20
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>Правила токенизации</strong></p>
+- elementId: shape13
+  elementType: shape
+  bounds: [61, 249, 547.67, 92.67]
+  shapeName: custom
+  path: 5216525,882650;M76199 0L5140326 0C5182409 0 5216525 34116 5216525 76199L5216525 806451C5216525 848534 5182409 882650 5140326 882650L76199 882650C34116 882650 0 848534 0 806451L0 76199C0 34144 34144 0 76199 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape14
+  elementType: shape
+  bounds: [79.33, 269.33, 16, 16]
+  shapeName: custom
+  path: 152400,152400;M76200 152400C118256 152400 152400 118256 152400 76200C152400 34144 118256 0 76200 0C34144 0 0 34144 0 76200C0 118256 34144 152400 76200 152400ZM49709 49709C52507 46911 57031 46911 59799 49709L76170 66080L92541 49709C95339 46911 99864 46911 102632 49709C105400 52507 105430 57031 102632 59799L86261 76170L102632 92541C105430 95339 105430 99864 102632 102632C99834 105400 95310 105430 92541 102632L76170 86261L59799 102632C57001 105430 52477 105430 49709 102632C46940 99834 46911 95310 49709 92541L66080 76170L49709 59799C46911 57001 46911 52477 49709 49709Z
+  fill:
+    type: solid
+    color: "#FF6467"
+- elementId: shape15
+  elementType: shape
+  bounds: [105.33, 265.33, 210, 24]
+  shapeName: rect
+- elementId: text16
+  elementType: text
+  bounds: [95.73, 260.53, 229.2, 33.6]
+  content:
+    align: [left, middle]
+    fontSize: 16
+    fontFamily: Liter
+    color: "#FF6467"
+    lineHeight: 1.3
+    text: |
+      <p><strong>НЕ используем дефисы в ID</strong></p>
+- elementId: shape17
+  elementType: shape
+  bounds: [77.33, 301.33, 50, 20]
+  shapeName: rect
+- elementId: text18
+  elementType: text
+  bounds: [67.73, 296.53, 69.2, 29.6]
+  content:
+    align: [left, middle]
+    fontSize: 14
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: word-1
+- elementId: shape19
+  elementType: shape
+  bounds: [137.84, 304.33, 14, 14]
+  shapeName: custom
+  path: 133350,133350;M130902 72561C134157 69306 134157 64018 130902 60763L89230 19091C85974 15835 80687 15835 77432 19091C74176 22347 74176 27634 77432 30889L104883 58341L8334 58341C3724 58341 0 62065 0 66675C0 71285 3724 75009 8334 75009L104883 75009L77432 102461C74176 105716 74176 111003 77432 114259C80687 117515 85974 117515 89230 114259L130902 72587Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape20
+  elementType: shape
+  bounds: [169.34, 297.33, 78, 28]
+  opacity: 0.1
+  shapeName: custom
+  path: 742950,266700;M38101 0L704849 0C725892 0 742950 17058 742950 38101L742950 228599C742950 249628 725878 266700 704849 266700L38101 266700C17058 266700 0 249642 0 228599L0 38101C0 17072 17072 0 38101 0Z
+  fill:
+    type: solid
+    color: "#6366F119"
+- elementId: shape21
+  elementType: shape
+  bounds: [169.34, 297.33, 85, 28]
+  shapeName: rect
+- elementId: text22
+  elementType: text
+  bounds: [167.74, 296.53, 88.2, 29.6]
+  content:
+    align: [left, middle]
+    fontSize: 14
+    fontFamily: MiSans
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: word_001
+- elementId: shape23
+  elementType: shape
+  bounds: [61, 358.33, 547.67, 84.67]
+  shapeName: custom
+  path: 5216525,806450;M76201 0L5140324 0C5182408 0 5216525 34117 5216525 76201L5216525 730249C5216525 772333 5182408 806450 5140324 806450L76201 806450C34145 806450 0 772305 0 730249L0 76201C0 34145 34145 0 76201 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape24
+  elementType: shape
+  bounds: [79.33, 378.67, 16, 16]
+  shapeName: custom
+  path: 152400,152400;M57150 76200L45393 87957C41642 86499 37594 85725 33338 85725C14913 85725 0 100638 0 119062C0 137487 14913 152400 33338 152400C51762 152400 66675 137487 66675 119062C66675 114806 65871 110758 64443 107007L148590 22860C150703 20747 150703 17353 148590 15240C140166 6816 126534 6816 118110 15240L76200 57150L64443 45393C65901 41642 66675 37594 66675 33338C66675 14913 51762 0 33338 0C14913 0 0 14913 0 33338C0 51762 14913 66675 33338 66675C37594 66675 41642 65871 45393 64443L57150 76200ZM86291 105341L118110 137160C126534 145584 140166 145584 148590 137160C150703 135047 150703 131653 148590 129540L105341 86291L86291 105341ZM19050 33338C19050 25452 25452 19050 33337 19050C41223 19050 47625 25452 47625 33337C47625 41223 41223 47625 33338 47625C25452 47625 19050 41223 19050 33338ZM33338 104775C41223 104775 47625 111177 47625 119062C47625 126948 41223 133350 33338 133350C25452 133350 19050 126948 19050 119062C19050 111177 25452 104775 33337 104775Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape25
+  elementType: shape
+  bounds: [105.33, 374.67, 213, 24]
+  shapeName: rect
+- elementId: text26
+  elementType: text
+  bounds: [95.73, 369.87, 232.2, 33.6]
+  content:
+    align: [left, middle]
+    fontSize: 16
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.3
+    text: |
+      <p><strong>Разделяем слитные ошибки</strong></p>
+- elementId: shape27
+  elementType: shape
+  bounds: [77.33, 406.67, 92, 20]
+  shapeName: rect
+- elementId: text28
+  elementType: text
+  bounds: [67.73, 401.87, 111.2, 29.6]
+  content:
+    align: [left, middle]
+    fontSize: 14
+    fontFamily: Liter
+    color: "#8F8F8F"
+    lineHeight: 1.2
+    text: '"включисвет"'
+- elementId: shape29
+  elementType: shape
+  bounds: [179.92, 409.67, 14, 14]
+  shapeName: custom
+  path: 133350,133350;M130902 72561C134157 69306 134157 64018 130902 60763L89230 19091C85974 15835 80687 15835 77432 19091C74176 22347 74176 27634 77432 30889L104883 58341L8334 58341C3724 58341 0 62065 0 66675C0 71285 3724 75009 8334 75009L104883 75009L77432 102461C74176 105716 74176 111003 77432 114259C80687 117515 85974 117515 89230 114259L130902 72587Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape30
+  elementType: shape
+  bounds: [211.42, 406.67, 114, 20]
+  shapeName: rect
+- elementId: text31
+  elementType: text
+  bounds: [201.82, 401.87, 133.2, 29.6]
+  content:
+    align: [left, middle]
+    fontSize: 14
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.2
+    text: |
+      <p><strong>"включи" + "свет"</strong></p>
+- elementId: shape32
+  elementType: shape
+  bounds: [40.33, 623, 589.67, 56.67]
+  shapeName: custom
+  path: 5616575,539750;M114297 0L5502278 0C5565402 0 5616575 51173 5616575 114297L5616575 425453C5616575 488577 5565402 539750 5502278 539750L114297 539750C51173 539750 0 488577 0 425453L0 114297C0 51215 51215 0 114297 0Z
+  fill:
+    type: solid
+    color: "#262626"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape33
+  elementType: shape
+  bounds: [59.17, 641.33, 20, 20]
+  shapeName: custom
+  path: 190500,190500;M95250 190500C147820 190500 190500 147820 190500 95250C190500 42680 147820 0 95250 0C42680 0 0 42680 0 95250C0 147820 42680 190500 95250 190500ZM83344 59531C83344 52960 88679 47625 95250 47625C101821 47625 107156 52960 107156 59531C107156 66102 101821 71438 95250 71438C88679 71438 83344 66102 83344 59531ZM80367 83344L98227 83344C103175 83344 107156 87325 107156 92273L107156 125016L110133 125016C115081 125016 119063 128997 119063 133945C119063 138894 115081 142875 110133 142875L80367 142875C75419 142875 71438 138894 71438 133945C71438 128997 75419 125016 80367 125016L89297 125016L89297 101203L80367 101203C75419 101203 71438 97222 71438 92273C71438 87325 75419 83344 80367 83344Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape34
+  elementType: shape
+  bounds: [93.67, 639.33, 183, 24]
+  shapeName: rect
+- elementId: text35
+  elementType: text
+  bounds: [84.07, 634.53, 202.2, 33.6]
+  content:
+    align: [left, middle]
+    fontSize: 16
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.3
+    text: |
+      <p><strong>Формат:</strong><span style="color:#EFEFEF"> CoNLL-U / TSV</span></p>
+- elementId: shape36
+  elementType: shape
+  bounds: [650.33, 184.33, 589.67, 495.67]
+  shapeName: custom
+  path: 5616575,4721225;M114301 0L5502274 0C5565401 0 5616575 51174 5616575 114301L5616575 4606924C5616575 4670051 5565401 4721225 5502274 4721225L114301 4721225C51174 4721225 0 4670051 0 4606924L0 114301C0 51174 51174 0 114301 0Z
+  fill:
+    type: solid
+    color: "#262626"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape37
+  elementType: shape
+  bounds: [674.42, 208.67, 17.5, 20]
+  shapeName: custom
+  path: 166688,190500;M95250 59531L95250 95250L142875 95250L142875 59531L95250 59531ZM71438 59531L23812 59531L23812 95250L71438 95250L71438 59531ZM0 119063L0 35719C0 22585 10678 11906 23812 11906L142875 11906C156009 11906 166688 22585 166688 35719L166688 154781C166688 167915 156009 178594 142875 178594L23812 178594C10678 178594 0 167915 0 154781L0 119063ZM142875 119063L95250 119063L95250 154781L142875 154781L142875 119063ZM71438 154781L71438 119063L23812 119063L23812 154781L71438 154781Z
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: shape38
+  elementType: shape
+  bounds: [695.67, 204.67, 534, 28]
+  shapeName: rect
+- elementId: text39
+  elementType: text
+  bounds: [686.07, 199.87, 553.2, 37.6]
+  content:
+    align: [left, middle]
+    fontSize: 20
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: |
+      <p><strong>Пример разметки</strong></p>
+- elementId: table40
+  elementType: table
+  bounds: [670.67, 248.67, 549, 203]
+  style:
+    fontSize: 13.3
+    fontFamily: 微软雅黑
+    headerFill: "#191919"
+    headerColor: "#6366f1"
+    headerBorder:
+    - 
+    - 
+    - style: solid
+      width: 0.67
+      color: "#333333"
+    - 
+    bodyBorder:
+    - 
+    - 
+    - style: solid
+      width: 0.67
+      color: "#333333"
+    - 
+    bodyFill: ["#ffffff00"]
+    bodyColor: "#8f8f8f"
+    firstColumnFill: "#ffffff00"
+    firstColumnColor: "#6366f1"
+  columnWidths: [0.3011, 0.2062, 0.2299, 0.1387, 0.1241]
+  rowHeights: [0.2, 0.2, 0.2, 0.2, 0.2]
+  rows:
+  - - content:
+        align: [left, middle]
+        text: |
+          <strong>token_id</strong>
+    - content:
+        align: [left, middle]
+        text: |
+          <strong>form</strong>
+    - content:
+        align: [left, middle]
+        text: |
+          <strong>lemma</strong>
+    - content:
+        align: [left, middle]
+        text: |
+          <strong>start</strong>
+    - content:
+        align: [left, middle]
+        text: |
+          <strong>end</strong>
+  - - content:
+        align: [left, middle]
+        text: utt_001_t01
+    - content:
+        align: [left, middle]
+        color: "#EFEFEF"
+        text: Включи
+    - content:
+        align: [left, middle]
+        text: включить
+    - content:
+        align: [left, middle]
+        text: '0.5'
+    - content:
+        align: [left, middle]
+        text: '1.2'
+  - - content:
+        align: [left, middle]
+        text: utt_001_t02
+    - content:
+        align: [left, middle]
+        color: "#EFEFEF"
+        text: свет
+    - content:
+        align: [left, middle]
+        text: свет
+    - content:
+        align: [left, middle]
+        text: '1.5'
+    - content:
+        align: [left, middle]
+        text: '2.1'
+  - - content:
+        align: [left, middle]
+        text: utt_001_t03
+    - content:
+        align: [left, middle]
+        color: "#EFEFEF"
+        text: в
+    - content:
+        align: [left, middle]
+        text: в
+    - content:
+        align: [left, middle]
+        text: '2.3'
+    - content:
+        align: [left, middle]
+        text: '2.4'
+  - - content:
+        align: [left, middle]
+        text: utt_001_t04
+    - content:
+        align: [left, middle]
+        color: "#EFEFEF"
+        text: спальне
+    - content:
+        align: [left, middle]
+        text: спальня
+    - content:
+        align: [left, middle]
+        text: '2.4'
+    - content:
+        align: [left, middle]
+        text: '2.9'
+- elementId: shape41
+  elementType: shape
+  bounds: [671, 566.33, 547.67, 92.67]
+  shapeName: custom
+  path: 5216525,882650;M76199 0L5140326 0C5182409 0 5216525 34116 5216525 76199L5216525 806451C5216525 848534 5182409 882650 5140326 882650L76199 882650C34116 882650 0 848534 0 806451L0 76199C0 34144 34144 0 76199 0Z
+  fill:
+    type: solid
+    color: "#191919"
+  border:
+    style: solid
+    width: 0.67
+    color: "#333333"
+- elementId: shape42
+  elementType: shape
+  bounds: [687.33, 582.67, 130.2, 23.33]
+  shapeName: rect
+- elementId: text43
+  elementType: text
+  bounds: [677.73, 577.87, 149.4, 32.93]
+  content:
+    align: [left, middle]
+    fontSize: 16
+    fontFamily: Liter
+    color: "#6366F1"
+    lineHeight: 1.3
+    text: |
+      <p><strong>Исходный текст:</strong></p>
+- elementId: shape44
+  elementType: shape
+  bounds: [687.33, 614.67, 525, 28]
+  shapeName: rect
+- elementId: text45
+  elementType: text
+  bounds: [677.73, 609.87, 544.2, 37.6]
+  content:
+    align: [left, middle]
+    fontSize: 20
+    fontFamily: Liter
+    color: "#EFEFEF"
+    lineHeight: 1.2
+    text: «Включи свет в спальне»

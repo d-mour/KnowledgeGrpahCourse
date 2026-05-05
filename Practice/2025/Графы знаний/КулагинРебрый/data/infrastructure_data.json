@@ -1,0 +1,818 @@
+[
+    {
+        "infrastructure_name": "Film Studio",
+        "url": "https://civilization.fandom.com/wiki/Film_Studio_(Civ6)",
+        "effects": [
+            "+4  Culture",
+            "+1  Citizen slot",
+            "+1  Great Artist point per turn.",
+            "+2  Great Musician points per turn.",
+            "+1  Great Work of Music slot."
+        ]
+    },
+    {
+        "infrastructure_name": "Teddy Roosevelt (Bull Moose)",
+        "url": "https://civilization.fandom.com/wiki/Teddy_Roosevelt_(Bull_Moose)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Teddy Roosevelt (Rough Rider)",
+        "url": "https://civilization.fandom.com/wiki/Teddy_Roosevelt_(Rough_Rider)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Abraham Lincoln",
+        "url": "https://civilization.fandom.com/wiki/Abraham_Lincoln_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Madrasa",
+        "url": "https://civilization.fandom.com/wiki/Madrasa_(Civ6)",
+        "effects": [
+            "+5  Science",
+            "+1  Housing",
+            "+1  Citizen Slot",
+            "+1  Great Scientist point per turn",
+            "Bonus  Faith equal to the adjacency  Science bonus of its district"
+        ]
+    },
+    {
+        "infrastructure_name": "Saladin (Sultan)",
+        "url": "https://civilization.fandom.com/wiki/Saladin_(Sultan)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Outback Station",
+        "url": "https://civilization.fandom.com/wiki/Outback_Station_(Civ6)",
+        "effects": [
+            "+1  Food",
+            "+1  Production",
+            "+0.5  Housing",
+            "+1  Food from every adjacent Pasture",
+            "+1 ​ Production to every adjacent ​Pasture (Req.  Steam Power)",
+            "+1  Production from every 2 adjacent Outback Stations (Req.  Steam Power)",
+            "+1  Food from every 2 adjacent Outback Stations (Req.  Rapid Deployment)"
+        ]
+    },
+    {
+        "infrastructure_name": "Tlachtli",
+        "url": "https://civilization.fandom.com/wiki/Tlachtli_(Civ6)",
+        "effects": [
+            "+2  Faith+1   Culture",
+            "+2  Amenity from Entertainment",
+            "+1  Great General point per turn"
+        ]
+    },
+    {
+        "infrastructure_name": "Palgum",
+        "url": "https://civilization.fandom.com/wiki/Palgum_(Civ6)",
+        "effects": [
+            "+2  Production",
+            "+1  Housing",
+            "+1  Food to all tiles adjacent to a source of fresh water."
+        ]
+    },
+    {
+        "infrastructure_name": "Street Carnival",
+        "url": "https://civilization.fandom.com/wiki/Street_Carnival_(Civ6)",
+        "effects": [
+            "Lower",
+            "cost (27 vs. 54).",
+            "+2",
+            "from entertainment to parent"
+        ]
+    },
+    {
+        "infrastructure_name": "Copacabana",
+        "url": "https://civilization.fandom.com/wiki/Copacabana_(Civ6)",
+        "effects": [
+            "Lower Production cost (27 vs. 54)",
+            "+2 Amenities from entertainment to parent city."
+        ]
+    },
+    {
+        "infrastructure_name": "Hippodrome",
+        "url": "https://civilization.fandom.com/wiki/Hippodrome_(Civ6)",
+        "effects": [
+            "Lower Production cost (27 vs. 54).",
+            "+3 Amenities from entertainment to parent",
+            "Provides a free heavy cavalry unit when first constructed and for each building constructed. These units require no resources to create or maintain."
+        ]
+    },
+    {
+        "infrastructure_name": "Theodora",
+        "url": "https://civilization.fandom.com/wiki/Theodora_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Ice Hockey Rink",
+        "url": "https://civilization.fandom.com/wiki/Ice_Hockey_Rink_(Civ6)",
+        "effects": [
+            "+1  Amenity+2 Appeal to adjacent tiles",
+            "+1  Culture for each adjacent Tundra, Tundra Hills, Snow, and Snow Hills tile",
+            "+2  Food and  Production (Req.  Professional Sports)",
+            "+4  Culture if adjacent to a Stadium",
+            "Provides  Tourism equal to its  Culture output (Req.  Flight)"
+        ]
+    },
+    {
+        "infrastructure_name": "Great Wall",
+        "url": "https://civilization.fandom.com/wiki/Great_Wall_(Civ6)",
+        "effects": [
+            "Occupying unit receives +4  Defense Strength and 2 turns of fortification",
+            "+2  Gold from each adjacent Great Wall",
+            "+2  Culture from each adjacent Great Wall (Req.  Castles)",
+            "Provides  Tourism equal to its  Culture output (Req.  Flight)",
+            "Can only be pillaged but never removed by disasters"
+        ]
+    },
+    {
+        "infrastructure_name": "Qin Shi Huang (Unifier)",
+        "url": "https://civilization.fandom.com/wiki/Qin_Shi_Huang_(Unifier)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Kublai Khan (Chinese)",
+        "url": "https://civilization.fandom.com/wiki/Kublai_Khan_(Chinese)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Yongle",
+        "url": "https://civilization.fandom.com/wiki/Yongle_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Wu Zetian",
+        "url": "https://civilization.fandom.com/wiki/Wu_Zetian_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Mekewap",
+        "url": "https://civilization.fandom.com/wiki/Mekewap_(Civ6)",
+        "effects": [
+            "+1  Production+1  Housing",
+            "+1  Gold if adjacent to a luxury resource",
+            "+1  Production (Req.  Civil Service)",
+            "+1  Housing (Req.  Civil Service)",
+            "+2  Gold for each adjacent Luxury Resources (Req.  Cartography)",
+            "+1  Food for every two adjacent Bonus Resources (increased to every Bonus Resource with Conservation)"
+        ]
+    },
+    {
+        "infrastructure_name": "Polder",
+        "url": "https://civilization.fandom.com/wiki/Polder_(Civ6)",
+        "effects": [
+            "+1  Food+1  Food for every adjacent Polder, increasing to +2  Food for every adjacent Polder (with Replaceable Parts)",
+            "+1  Production",
+            "+0.5  Housing",
+            "+4  Gold (Req.  Civil Engineering)",
+            "+1  Production for every adjacent Polder (Req.  Replaceable Parts)",
+            "Increases  Movement cost of tile to 3."
+        ]
+    },
+    {
+        "infrastructure_name": "Sphinx",
+        "url": "https://civilization.fandom.com/wiki/Sphinx_(Civ6)",
+        "effects": [
+            "+1  Culture",
+            "+1 additional  Culture if built on Floodplains",
+            "+1 ( +2) Appeal to adjacent tiles",
+            "+1  Faith",
+            "+2  Faith if next to a Wonder",
+            "+1  Culture (Req.  Natural History)",
+            "Provides  Tourism equal to its  Culture output (Req.  Flight)"
+        ]
+    },
+    {
+        "infrastructure_name": "Cleopatra (Ptolemaic)",
+        "url": "https://civilization.fandom.com/wiki/Cleopatra_(Ptolemaic)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Ramses II",
+        "url": "https://civilization.fandom.com/wiki/Ramses_II_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Royal Navy Dockyard",
+        "url": "https://civilization.fandom.com/wiki/Royal_Navy_Dockyard_(Civ6)",
+        "effects": [
+            "Lower",
+            "cost (27 vs. 54).",
+            "+1",
+            "for all",
+            "built in Dockyard",
+            "+4",
+            "when built on a foreign continent",
+            "Major bonus",
+            "when built on a foreign continent"
+        ]
+    },
+    {
+        "infrastructure_name": "Victoria (Age of Steam)",
+        "url": "https://civilization.fandom.com/wiki/Victoria_(Age_of_Steam)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Eleanor of Aquitaine (English)",
+        "url": "https://civilization.fandom.com/wiki/Eleanor_of_Aquitaine_(English)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Elizabeth I",
+        "url": "https://civilization.fandom.com/wiki/Elizabeth_I_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Rock-Hewn Church",
+        "url": "https://civilization.fandom.com/wiki/Rock-Hewn_Church_(Civ6)",
+        "effects": [
+            "+1  Faith",
+            "+1  Faith for every adjacent Mountain and Hills tile",
+            "Provides  Tourism equal to its  Faith output (Req.  Flight)",
+            "+1 Appeal to adjacent tiles",
+            "Can only be pillaged (never destroyed) by natural disasters"
+        ]
+    },
+    {
+        "infrastructure_name": "Château",
+        "url": "https://civilization.fandom.com/wiki/Ch%C3%A2teau_(Civ6)",
+        "effects": [
+            "+2  Culture",
+            "+1  Gold",
+            "+1 Appeal to adjacent tiles",
+            "+1  Culture for each adjacent wonder, increasing to +2  Culture (with Flight)",
+            "+2  Gold if built on a River.",
+            "Provides  Tourism equal to its  Culture output (Req.  Flight)"
+        ]
+    },
+    {
+        "infrastructure_name": "Catherine de Medici (Magnificence)",
+        "url": "https://civilization.fandom.com/wiki/Catherine_de_Medici_(Magnificence)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Eleanor of Aquitaine (French)",
+        "url": "https://civilization.fandom.com/wiki/Eleanor_of_Aquitaine_(French)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Oppidum",
+        "url": "https://civilization.fandom.com/wiki/Oppidum_(Civ6)",
+        "effects": [
+            "Lower Production cost (27 vs. 54)",
+            "Acquires Outer Defenses and Ranged Strike along with the City Center once Walls have been built",
+            "Unlocks Apprenticeship when the first Oppidum is built",
+            "Major bonus (+2 Production ) for each adjacent Quarry or Strategic Resource"
+        ]
+    },
+    {
+        "infrastructure_name": "Tsikhe",
+        "url": "https://civilization.fandom.com/wiki/Tsikhe_(Civ6)",
+        "effects": [
+            "Lower Production cost (260 vs. 305 ( 300)).",
+            "+4 Faith .",
+            "+200 Outer Defense Strength.",
+            "+100% Tourism and Faith while in a Golden Age"
+        ]
+    },
+    {
+        "infrastructure_name": "Hansa",
+        "url": "https://civilization.fandom.com/wiki/Hansa_(Civ6)",
+        "effects": [
+            "Lower",
+            "cost (27 vs. 54).",
+            "Major bonus (+2) to",
+            "yield for each adjacent",
+            "Standard bonus (+1) to",
+            "yield for each adjacent"
+        ]
+    },
+    {
+        "infrastructure_name": "Ludwig II",
+        "url": "https://civilization.fandom.com/wiki/Ludwig_II_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Hacienda",
+        "url": "https://civilization.fandom.com/wiki/Hacienda_(Civ6)",
+        "effects": [
+            "+2  Gold+1  Production",
+            "+0.5  Housing",
+            "+1  Food from every 2 adjacent Plantations (increased to every Plantation with Replaceable Parts)",
+            "Plantations and Haciendas receive +1  Production for every 2 adjacent Haciendas (increased to every Hacienda with Rapid Deployment)"
+        ]
+    },
+    {
+        "infrastructure_name": "Acropolis",
+        "url": "https://civilization.fandom.com/wiki/Acropolis_(Civ6)",
+        "effects": [
+            "Lower Production cost (27 vs. 54)",
+            "Standard bonus (+1 Culture ) for each adjacent  District, +1 additional Culture if adjacent to a City Center.",
+            "Awards 1 Envoy when completed"
+        ]
+    },
+    {
+        "infrastructure_name": "Gorgo",
+        "url": "https://civilization.fandom.com/wiki/Gorgo_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Thermal Bath",
+        "url": "https://civilization.fandom.com/wiki/Thermal_Bath_(Civ6)",
+        "effects": [
+            "+2  Amenities from entertainment. This bonus extends to each City Center within 6 tiles.+2  Production. This bonus extends to each City Center within 6 tiles.",
+            "+3  Tourism and +2 additional  Amenities to this city if there is at least one Geothermal Fissure within its borders."
+        ]
+    },
+    {
+        "infrastructure_name": "Terrace Farm",
+        "url": "https://civilization.fandom.com/wiki/Terrace_Farm_(Civ6)",
+        "effects": [
+            "+1  Food +1  Housing",
+            "+1  Food for each adjacent Mountain",
+            "+1  Food from every 2 adjacent Terrace Farms, increasing to +1  Food for every Terrace Farm (Req.  Replaceable Parts)",
+            "+2  Production for each adjacent Aqueduct",
+            "+1  Production if adjacent to fresh water and not an Aqueduct"
+        ]
+    },
+    {
+        "infrastructure_name": "Stepwell",
+        "url": "https://civilization.fandom.com/wiki/Stepwell_(Civ6)",
+        "effects": [
+            "+1  Food",
+            "+1  Housing",
+            "+1  Faith if adjacent to a Holy Site",
+            "+1  Food if adjacent to a Farm",
+            "+1  Faith (Req.  Feudalism)",
+            "+1  Housing (Req.  Sanitation)",
+            "+1  Food (Req.  Professional Sports)"
+        ]
+    },
+    {
+        "infrastructure_name": "Chandragupta",
+        "url": "https://civilization.fandom.com/wiki/Chandragupta_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Kampung",
+        "url": "https://civilization.fandom.com/wiki/Kampung_(Civ6)",
+        "effects": [
+            "+1  Production",
+            "+1  Housing",
+            "+1  Food from every adjacent Fishing Boats",
+            "+1  Housing (Req.  Mass Production)",
+            "+1  Production (Req.  Civil Engineering)",
+            "Provides  Tourism for every bonus  Food (Req.  Flight)"
+        ]
+    },
+    {
+        "infrastructure_name": "Electronics Factory",
+        "url": "https://civilization.fandom.com/wiki/Electronics_Factory_(Civ6)",
+        "effects": [
+            "+4  Production to all city centers within 6 tiles",
+            "After researching the Electricity technology, this building provides an additional +4  Culture to its city.",
+            "+1  Citizen slot",
+            "+1  Great Engineer point per turn."
+        ]
+    },
+    {
+        "infrastructure_name": "Tokugawa",
+        "url": "https://civilization.fandom.com/wiki/Tokugawa_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Prasat",
+        "url": "https://civilization.fandom.com/wiki/Prasat_(Civ6)",
+        "effects": [
+            "+6  Faith",
+            "+1  Citizen slot",
+            "+1  Great Prophet point per turn.",
+            "+1  Relic slots.",
+            "Allows the purchasing of Apostles and Inquisitors with  Faith.",
+            "Grants +0.5  Culture for every  Population in this city.",
+            "Provides 10  Tourism if the city has 10 or more  Population, and 20  Tourism if the city has 20 or more  Population after Flight is researched."
+        ]
+    },
+    {
+        "infrastructure_name": "Mbanza",
+        "url": "https://civilization.fandom.com/wiki/Mbanza_(Civ6)",
+        "effects": [
+            "Lower",
+            "cost (27 vs. 54).",
+            "+2",
+            "+4"
+        ]
+    },
+    {
+        "infrastructure_name": "Nzinga Mbande",
+        "url": "https://civilization.fandom.com/wiki/Nzinga_Mbande_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Seowon",
+        "url": "https://civilization.fandom.com/wiki/Seowon_(Civ6)",
+        "effects": [
+            "Lower",
+            "cost (27 vs. 54)",
+            "Has a starting",
+            "of +4"
+        ]
+    },
+    {
+        "infrastructure_name": "Sejong",
+        "url": "https://civilization.fandom.com/wiki/Sejong_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Basilikoi Paides",
+        "url": "https://civilization.fandom.com/wiki/Basilikoi_Paides_(Civ6)",
+        "effects": [
+            "+1  Production",
+            "+1  Housing",
+            "+1  Citizen slot",
+            "+1  Great General point per turn",
+            "+25% combat experience for all melee, ranged, anti-cavalry land units, and Hetairoi trained in this city.",
+            "Gain  Science equal to 25% of the unit's cost when a non-civilian unit is created in this city.",
+            "May not be built in an Encampment district that already has a Stable."
+        ]
+    },
+    {
+        "infrastructure_name": "Suguba",
+        "url": "https://civilization.fandom.com/wiki/Suguba_(Civ6)",
+        "effects": [
+            "Lower",
+            "cost (27 vs. 54).",
+            "Major bonus",
+            "for a nearby",
+            "or",
+            "20% discount on all",
+            "and",
+            "purchases in this"
+        ]
+    },
+    {
+        "infrastructure_name": "Sundiata Keita",
+        "url": "https://civilization.fandom.com/wiki/Sundiata_Keita_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Marae",
+        "url": "https://civilization.fandom.com/wiki/Marae_(Civ6)",
+        "effects": [
+            "+1  Culture and  Faith to all of this city's tiles with a passable feature.",
+            "+1  Tourism to all of this city's tiles with a passable feature (with Flight).",
+            "No maintenance cost."
+        ]
+    },
+    {
+        "infrastructure_name": "Chemamull",
+        "url": "https://civilization.fandom.com/wiki/Chemamull_(Civ6)",
+        "effects": [
+            "+1  Production",
+            "Provides  Culture equal to 75% of its tile's Appeal.",
+            "Provides  Tourism equal to its  Culture output (Req.  Flight)"
+        ]
+    },
+    {
+        "infrastructure_name": "Observatory",
+        "url": "https://civilization.fandom.com/wiki/Observatory_(Civ6)",
+        "effects": [
+            "Lower Production cost (27 vs. 54).",
+            "Major bonus (+2 Science ) for every adjacent Plantation .",
+            "Minor bonus (+½ Science ) for every adjacent Farm or district."
+        ]
+    },
+    {
+        "infrastructure_name": "Ordu",
+        "url": "https://civilization.fandom.com/wiki/Ordu_(Civ6)",
+        "effects": [
+            "+25% combat experience for all cavalry and siege units trained in this city.",
+            "+1  Movement for all cavalry units trained in this city.",
+            "Cannot be built in an Encampment district that already has a Barracks."
+        ]
+    },
+    {
+        "infrastructure_name": "Kublai Khan (Mongolian)",
+        "url": "https://civilization.fandom.com/wiki/Kublai_Khan_(Mongolian)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Stave Church",
+        "url": "https://civilization.fandom.com/wiki/Stave_Church_(Civ6)",
+        "effects": [
+            "+4  Faith",
+            "+1  Citizen slot",
+            "+1  Great Prophet point per turn",
+            "+1  Relic slot",
+            "+1  Production for every coastal resource worked by the city",
+            "Holy Site gets an additional standard adjacency bonus (+1) from Woods"
+        ]
+    },
+    {
+        "infrastructure_name": "Harald Hardrada (Varangian)",
+        "url": "https://civilization.fandom.com/wiki/Harald_Hardrada_(Varangian)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Nubian Pyramid",
+        "url": "https://civilization.fandom.com/wiki/Nubian_Pyramid_(Civ6)",
+        "effects": [
+            "+2  Faith",
+            "+2  Food",
+            "+1  Food if adjacent to a City Center",
+            "+1  Science for each adjacent Campus",
+            "+1  Gold for each adjacent Commercial Hub",
+            "+1  Gold for each adjacent Harbor",
+            "+1  Faith for each adjacent Holy Site",
+            "+1  Production for each adjacent Industrial Zone",
+            "+1  Culture for each adjacent Theater Square"
+        ]
+    },
+    {
+        "infrastructure_name": "Grand Bazaar",
+        "url": "https://civilization.fandom.com/wiki/Grand_Bazaar_(Civ6)",
+        "effects": [
+            "Lower Production cost (220 vs. 290)",
+            "Accumulate one extra Strategic resource for every different type of Strategic resources this city has improved.",
+            "Receive 1 Amenity for every type of Luxury resource this city has improved."
+        ]
+    },
+    {
+        "infrastructure_name": "Suleiman (Muhteşem)",
+        "url": "https://civilization.fandom.com/wiki/Suleiman_(Muhte%C5%9Fem)_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Pairidaeza",
+        "url": "https://civilization.fandom.com/wiki/Pairidaeza_(Civ6)",
+        "effects": [
+            "+1  Culture",
+            "+2  Gold",
+            "+1 Appeal to adjacent tiles",
+            "+1  Culture for every adjacent Holy Site or Theater Square",
+            "+1  Gold for every adjacent Commercial Hub",
+            "+1  Gold if adjacent to a City Center",
+            "+1  Culture (Req.  Diplomatic Service)",
+            "Provides  Tourism equal to its  Culture output (Req.  Flight)"
+        ]
+    },
+    {
+        "infrastructure_name": "Nader Shah",
+        "url": "https://civilization.fandom.com/wiki/Nader_Shah_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Cothon",
+        "url": "https://civilization.fandom.com/wiki/Cothon_(Civ6)",
+        "effects": [
+            "Lower Production cost (27 vs. 54)",
+            "+50% Production towards naval units and Settlers in this city",
+            "All wounded naval units in the city's borders heal +100 HP each turn",
+            "Allows for sea lane Trade Route s (even if the district is still under construction)"
+        ]
+    },
+    {
+        "infrastructure_name": "Sukiennice",
+        "url": "https://civilization.fandom.com/wiki/Sukiennice_(Civ6)",
+        "effects": [
+            "+3  Gold+1  Citizen slot",
+            "+1  Great Merchant point per turn",
+            "International  Trade Routes from this city gain +2  Production",
+            "Domestic  Trade Routes from this city gain +4  Gold"
+        ]
+    },
+    {
+        "infrastructure_name": "Navigation School",
+        "url": "https://civilization.fandom.com/wiki/Navigation_School_(Civ6)",
+        "effects": [
+            "+25%  Production toward naval units in this city.",
+            "+1  Science for every two coast or lake tiles in this city.",
+            "+1  Great Admiral point per turn.",
+            "+4  Science",
+            "+1  Housing",
+            "+1  Citizen slot",
+            "+1  Great Scientist point per turn"
+        ]
+    },
+    {
+        "infrastructure_name": "Bath",
+        "url": "https://civilization.fandom.com/wiki/Bath_(Civ6)",
+        "effects": [
+            "Lower Production cost (18 vs. 36).",
+            "+1 Amenity",
+            "+2 Housing"
+        ]
+    },
+    {
+        "infrastructure_name": "Julius Caesar",
+        "url": "https://civilization.fandom.com/wiki/Julius_Caesar_(Civ6)",
+        "effects": [
+            "Effects not found (checked green text and info-box)"
+        ]
+    },
+    {
+        "infrastructure_name": "Lavra",
+        "url": "https://civilization.fandom.com/wiki/Lavra_(Civ6)",
+        "effects": [
+            "Lower",
+            "cost (27 vs. 54)",
+            "Expands the city's",
+            "whenever a",
+            "is used in the city",
+            "+2",
+            "points per turn instead of 1"
+        ]
+    },
+    {
+        "infrastructure_name": "Golf Course",
+        "url": "https://civilization.fandom.com/wiki/Golf_Course_(Civ6)",
+        "effects": [
+            "+1  Amenity ( +2  Amenities)+2  Gold",
+            "+1 Appeal to adjacent tiles",
+            "+1  Culture if adjacent to a City Center",
+            "+1  Culture for each adjacent Entertainment Complex",
+            "+1  Housing (Req.  Globalization)",
+            "Provides  Tourism equal to its  Culture output (Req.  Flight)"
+        ]
+    },
+    {
+        "infrastructure_name": "Kurgan",
+        "url": "https://civilization.fandom.com/wiki/Kurgan_(Civ6)",
+        "effects": [
+            "+1  Faith",
+            "+3  Gold",
+            "+1  Faith for each adjacent Pasture, increasing to +2  Faith for each adjacent Pasture (with Stirrups)",
+            "Provides  Tourism equal to its  Faith output (Req.  Flight)"
+        ]
+    },
+    {
+        "infrastructure_name": "Mission",
+        "url": "https://civilization.fandom.com/wiki/Mission_(Civ6)",
+        "effects": [
+            "+2  Faith",
+            "+2  Faith, +1  Production, and +1  Food if on a different continent than your  Capital",
+            "+1  Science for every adjacent Campus or Holy Site district",
+            "+2  Science (Req.  Cultural Heritage)",
+            "+2 Loyalty per turn for cities with a Mission next to the City Center and not on the original  Capital's continent."
+        ]
+    },
+    {
+        "infrastructure_name": "Ziggurat",
+        "url": "https://civilization.fandom.com/wiki/Ziggurat_(Civ6)",
+        "effects": [
+            "+2  Science",
+            "+1  Culture if next to a river",
+            "+1  Culture (Req.  Natural History)",
+            "Provides  Tourism equal to its  Culture output (Req.  Flight)"
+        ]
+    },
+    {
+        "infrastructure_name": "Open-Air Museum",
+        "url": "https://civilization.fandom.com/wiki/Open-Air_Museum_(Civ6)",
+        "effects": [
+            "+2 Loyalty per turn in this city.",
+            "+2  Culture and  Tourism for each type of terrain (Snow, Tundra, Desert, Plains, or Grassland) in which at least one Swedish city is founded.",
+            "Limit of one per city. Tiles with Open-Air Museums cannot be swapped."
+        ]
+    },
+    {
+        "infrastructure_name": "Thành",
+        "url": "https://civilization.fandom.com/wiki/Th%C3%A0nh_(Civ6)",
+        "effects": [
+            "Lower",
+            "cost (27 vs. 54)",
+            "+2",
+            "for every adjacent",
+            "Provides",
+            "from",
+            "adjacency bonus after researching",
+            "Is not considered a specialty",
+            "and does not require",
+            "Population"
+        ]
+    },
+    {
+        "infrastructure_name": "Ikanda",
+        "url": "https://civilization.fandom.com/wiki/Ikanda_(Civ6)",
+        "effects": [
+            "Lower",
+            "cost (27 vs. 54)",
+            "+1",
+            "25% faster training of",
+            "Allows Corps and Armies to be built even without the",
+            "building",
+            "Buildings in the Ikanda provide +2",
+            "and +1"
+        ]
+    },
+    {
+        "infrastructure_name": "Alcázar",
+        "url": "https://civilization.fandom.com/wiki/Alc%C3%A1zar_(Civ6)",
+        "effects": [
+            "+2  Culture",
+            "Occupying unit receives +4  Defense Strength and 2 turns of fortification",
+            "Provides  Tourism equal to its  Culture output (Req.  Flight)",
+            "Provides  Science equal to 50% of the tile's Appeal"
+        ]
+    },
+    {
+        "infrastructure_name": "Monastery",
+        "url": "https://civilization.fandom.com/wiki/Monastery_(Civ6)",
+        "effects": [
+            "+2  Faith Provides +15 HP healing every turn for friendly religious units",
+            "+1  Faith for every 2 adjacent districts",
+            "+1  Housing",
+            "+1 additional  Housing (Req.  Colonialism)"
+        ]
+    },
+    {
+        "infrastructure_name": "Pagoda",
+        "url": "https://civilization.fandom.com/wiki/Pagoda_(Civ6)",
+        "effects": [
+            "+3  Faith",
+            "+1  Housing",
+            "+1 Citizen slot"
+        ]
+    },
+    {
+        "infrastructure_name": "Mosque",
+        "url": "https://civilization.fandom.com/wiki/Mosque_(Civ6)",
+        "effects": [
+            "+3  Faith",
+            "Missionaries and Apostles get 1 extra Spread Religion charge."
+        ]
+    },
+    {
+        "infrastructure_name": "Wat",
+        "url": "https://civilization.fandom.com/wiki/Wat_(Civ6)",
+        "effects": [
+            "+3  Faith",
+            "+2  Science",
+            "+1  Citizen slot"
+        ]
+    },
+    {
+        "infrastructure_name": "Stupa (Civ6)",
+        "url": "https://civilization.fandom.com/wiki/Stupa_(Civ6)",
+        "effects": [
+            "+3  Faith",
+            "+1  Amenity",
+            "+1  Citizen slot"
+        ]
+    }
+]

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:myontology="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Vegetarian">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#DietaryRestriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Spaghetti_Bolognese">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Recipe"/>
+    <myontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spaghetti Bolognese</myontology:name>
+    <myontology:calories rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">600</myontology:calories>
+    <myontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45 minutes</myontology:time>
+    <myontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medium</myontology:difficulty>
+    <myontology:hasCategory rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Main_Course"/>
+    <myontology:belongsToCuisine rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Italian"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#None"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Spaghetti"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ground_Beef"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Tomato"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Onion"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Garlic"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Olive_Oil"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Salt"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Pepper"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Grilled_Cheese">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Recipe"/>
+    <myontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grilled Cheese</myontology:name>
+    <myontology:calories rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</myontology:calories>
+    <myontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 minutes</myontology:time>
+    <myontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">easy</myontology:difficulty>
+    <myontology:hasCategory rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Snack"/>
+    <myontology:belongsToCuisine rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#American"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Vegetarian"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Bread"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Cheese"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Butter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Salad">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Category"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Vegetable_Stir-fry">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Recipe"/>
+    <myontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegetable Stir-fry</myontology:name>
+    <myontology:calories rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</myontology:calories>
+    <myontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 minutes</myontology:time>
+    <myontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">easy</myontology:difficulty>
+    <myontology:hasCategory rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Main_Course"/>
+    <myontology:belongsToCuisine rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Asian"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Vegan"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Gluten-Free"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Bell_Pepper"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Carrot"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Broccoli"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Soy_Sauce"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Garlic"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Onion"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Olive_Oil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Tomato_Pasta">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Recipe"/>
+    <myontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Pasta</myontology:name>
+    <myontology:calories rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</myontology:calories>
+    <myontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 minutes</myontology:time>
+    <myontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">easy</myontology:difficulty>
+    <myontology:hasCategory rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Main_Course"/>
+    <myontology:belongsToCuisine rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Italian"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Vegetarian"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Pasta"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Tomato"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Garlic"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Olive_Oil"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Salt"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Pepper"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Vegan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#DietaryRestriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Pasta">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Peas">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Fried_Rice">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Recipe"/>
+    <myontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fried Rice</myontology:name>
+    <myontology:calories rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</myontology:calories>
+    <myontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 minutes</myontology:time>
+    <myontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medium</myontology:difficulty>
+    <myontology:hasCategory rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Main_Course"/>
+    <myontology:belongsToCuisine rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Asian"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Vegetarian"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Rice"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Eggs"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Peas"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Soy_Sauce"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Garlic"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Onion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Gluten-Free">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#DietaryRestriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Tomato_Soup">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Recipe"/>
+    <myontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomato Soup</myontology:name>
+    <myontology:calories rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</myontology:calories>
+    <myontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 minutes</myontology:time>
+    <myontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">easy</myontology:difficulty>
+    <myontology:hasCategory rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Soup"/>
+    <myontology:belongsToCuisine rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#International"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Vegetarian"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Vegan"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Gluten-Free"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Tomato"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Onion"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Garlic"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Olive_Oil"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Salt"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Pepper"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Milk">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Pepper">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Salt">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Omelette">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Recipe"/>
+    <myontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Omelette</myontology:name>
+    <myontology:calories rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</myontology:calories>
+    <myontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 minutes</myontology:time>
+    <myontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">easy</myontology:difficulty>
+    <myontology:hasCategory rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Breakfast"/>
+    <myontology:belongsToCuisine rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#French"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Vegetarian"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Eggs"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Milk"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Salt"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Pepper"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Butter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Pancakes">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Recipe"/>
+    <myontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancakes</myontology:name>
+    <myontology:calories rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">350</myontology:calories>
+    <myontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 minutes</myontology:time>
+    <myontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">easy</myontology:difficulty>
+    <myontology:hasCategory rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Dessert"/>
+    <myontology:belongsToCuisine rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#American"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Vegetarian"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Flour"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Eggs"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Milk"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Butter"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Salt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Lettuce">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Category">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Italian">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Cuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Olive_Oil">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Chicken_Salad">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Recipe"/>
+    <myontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken Salad</myontology:name>
+    <myontology:calories rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</myontology:calories>
+    <myontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 minutes</myontology:time>
+    <myontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">easy</myontology:difficulty>
+    <myontology:hasCategory rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Salad"/>
+    <myontology:belongsToCuisine rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#International"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Gluten-Free"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Chicken_Breast"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Lettuce"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Tomato"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Cucumber"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Olive_Oil"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Salt"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Pepper"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Bell_Pepper">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Tomato">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Carrot">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Garlic">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Main_Course">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Category"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#International">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Cuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Asian">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Cuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Snack">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Category"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Cheese_Sandwich">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Recipe"/>
+    <myontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheese Sandwich</myontology:name>
+    <myontology:calories rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</myontology:calories>
+    <myontology:time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 minutes</myontology:time>
+    <myontology:difficulty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">easy</myontology:difficulty>
+    <myontology:hasCategory rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Snack"/>
+    <myontology:belongsToCuisine rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#American"/>
+    <myontology:hasDietaryRestriction rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Vegetarian"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Bread"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Cheese"/>
+    <myontology:uses rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Butter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Spaghetti">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#French">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Cuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Bread">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Recipe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#DietaryRestriction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Flour">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Rice">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Soup">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Category"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Cucumber">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Cheese">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#American">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Cuisine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Broccoli">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Breakfast">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Category"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Soy_Sauce">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Butter">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ground_Beef">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Chicken_Breast">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Onion">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Eggs">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Ingredient"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Cuisine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#None">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#DietaryRestriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Dessert">
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#Category"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,1428 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.semanticweb.org/root/ontologies/2025/0/dota2", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#strong_hero",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "strong_hero"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Pudge",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Pudge"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Lifestealer",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Lifestealer"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Mars",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Mars"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Slardar",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Slardar"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Omniknight",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Omniknight"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Tusk",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Tusk"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Underlord",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Underlord"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Axe",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Axe"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Elder-Titan",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Elder-Titan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Doom",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Doom"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Tidehunter",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Tidehunter"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Treant-Protector",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Treant-Protector"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Ogre-Magi",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Ogre-Magi"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Kunkka",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Kunkka"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Chaos-Knight",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Chaos-Knight"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Spirit-Breaker",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Spirit-Breaker"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Primal-Beast",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Primal-Beast"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Legion-Commander",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Legion-Commander"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Bristleback",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Bristleback"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Night-Stalker",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Night-Stalker"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Sven",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Sven"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Undying",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Undying"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Alchemist",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Alchemist"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Huskar",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Huskar"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Wraith-King",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Wraith-King"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Earthshaker",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Earthshaker"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Tiny",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Tiny"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Timbersaw",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Timbersaw"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Dawnbreaker",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Dawnbreaker"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Centaur-Warrunner",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Centaur-Warrunner"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Dragon-Knight",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Dragon-Knight"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Earth-Spirit",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Earth-Spirit"
+      }
+    } ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#universal_hero",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "universal_hero"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Void-Spirit",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Void-Spirit"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Lycan",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Lycan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Lone-Druid",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Lone-Druid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Broodmother",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Broodmother"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Abaddon",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Abaddon"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Snapfire",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Snapfire"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Sand-King",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Sand-King"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Batrider",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Batrider"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Winter-Wyvern",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Winter-Wyvern"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Techies",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Techies"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Invoker",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Invoker"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Magnus",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Magnus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Phoenix",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Phoenix"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Enigma",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Enigma"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Mirana",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Mirana"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Dazzle",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Dazzle"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Visage",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Visage"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Dark-Seer",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Dark-Seer"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Vengeful-Spirit",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Vengeful-Spirit"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Marci",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Marci"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Venomancer",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Venomancer"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Nyx-Assassin",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Nyx-Assassin"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Bane",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Bane"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Brewmaster",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Brewmaster"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Chen",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Chen"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Clockwerk",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Clockwerk"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Beastmaster",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Beastmaster"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Pangolier",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Pangolier"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Windranger",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Windranger"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Io",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Io"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Dark-Willow",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Dark-Willow"
+      }
+    } ],
+    "id" : "10",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "hero"
+    },
+    "subClasses" : [ "7", "0", "10", "14" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#role",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "role"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Escape",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Escape"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Nuker",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Nuker"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Pusher",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Pusher"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Carry",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Carry"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Initiator",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Initiator"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Support",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Support"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Durable",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Durable"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Disabler",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Disabler"
+      }
+    } ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#agile_hero",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "agile_hero"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Templar-Assassin",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Templar-Assassin"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Phantom-Assassin",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Phantom-Assassin"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Gyrocopter",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Gyrocopter"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Naga-Siren",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Naga-Siren"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Ursa",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Ursa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Clinkz",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Clinkz"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Troll-Warlord",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Troll-Warlord"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Sniper",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Sniper"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Terrorblade",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Terrorblade"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Bounty-Hunter",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Bounty-Hunter"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Bloodseeker",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Bloodseeker"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Arc-Warden",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Arc-Warden"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Riki",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Riki"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Spectre",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Spectre"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Monkey-King",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Monkey-King"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Morphling",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Morphling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Hoodwink",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Hoodwink"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Meepo",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Meepo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Shadow-Fiend",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Shadow-Fiend"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Kez",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Kez"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Razor",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Razor"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Faceless-Void",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Faceless-Void"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Anti-Mage",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Anti-Mage"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Juggernaut",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Juggernaut"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Ember-Spirit",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Ember-Spirit"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Viper",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Viper"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Drow-Ranger",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Drow-Ranger"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Medusa",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Medusa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Phantom-Lancer",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Phantom-Lancer"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Luna",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Luna"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Weaver",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Weaver"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Slark",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Slark"
+      }
+    } ],
+    "id" : "7",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#intellectual_hero",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "intellectual_hero"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Enchantress",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Enchantress"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Jakiro",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Jakiro"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Crystal-Maiden",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Crystal-Maiden"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Grimstroke",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Grimstroke"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Puck",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Puck"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Ringmaster",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Ringmaster"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Lina",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Lina"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Shadow-Shaman",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Shadow-Shaman"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Natures-Prophet",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Natures-Prophet"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Necrophos",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Necrophos"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Ancient-Apparition",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Ancient-Apparition"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Leshrac",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Leshrac"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Shadow-Demon",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Shadow-Demon"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Outworld-Destroyer",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Outworld-Destroyer"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Lion",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Lion"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Oracle",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Oracle"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Muerta",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Muerta"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Lich",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Lich"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Death-Prophet",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Death-Prophet"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Rubick",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Rubick"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Keeper-of-the-Light",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Keeper-of-the-Light"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Pugna",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Pugna"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Skywrath-Mage",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Skywrath-Mage"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Warlock",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Warlock"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Witch-Doctor",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Witch-Doctor"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Storm-Spirit",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Storm-Spirit"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Zeus",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Zeus"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Queen-of-Pain",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Queen-of-Pain"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Tinker",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Tinker"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Disruptor",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Disruptor"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#Silencer",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "Silencer"
+      }
+    } ],
+    "id" : "14",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#item",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "item"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#boots_of_bearing",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "boots_of_bearing"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#claymore",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "claymore"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#bfury",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "bfury"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#ultimate_scepter",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "ultimate_scepter"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#dragon_lance",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "dragon_lance"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#manta",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "manta"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#talisman_of_evasion",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "talisman_of_evasion"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#pavise",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "pavise"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#radiance",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "radiance"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#broadsword",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "broadsword"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#diffusal_blade",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "diffusal_blade"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#power_treads",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "power_treads"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#arcane_boots",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "arcane_boots"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#armlet",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "armlet"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#glimmer_cape",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "glimmer_cape"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#cyclone",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "cyclone"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#sange",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "sange"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#desolator",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "desolator"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#dagon_2",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "dagon_2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#echo_sabre",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "echo_sabre"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#blitz_knuckles",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "blitz_knuckles"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#mask_of_madness",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "mask_of_madness"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#vladmir",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "vladmir"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#ring_of_tarrasque",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "ring_of_tarrasque"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#bloodstone",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "bloodstone"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#solar_crest",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "solar_crest"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#aghanims_shard",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "aghanims_shard"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#blade_of_alacrity",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "blade_of_alacrity"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#witch_blade",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "witch_blade"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#ancient_janggo",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "ancient_janggo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#maelstrom",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "maelstrom"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#ogre_axe",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "ogre_axe"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#hand_of_midas",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "hand_of_midas"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#aether_lens",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "aether_lens"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#soul_booster",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "soul_booster"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#staff_of_wizardry",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "staff_of_wizardry"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#pipe",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "pipe"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#vitality_booster",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "vitality_booster"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#diadem",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "diadem"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#relic",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "relic"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#rod_of_atos",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "rod_of_atos"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#dagon",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "dagon"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#blink",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "blink"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#shadow_amulet",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "shadow_amulet"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#guardian_greaves",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "guardian_greaves"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#oblivion_staff",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "oblivion_staff"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#holy_locket",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "holy_locket"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#kaya",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "kaya"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#mithril_hammer",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "mithril_hammer"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#yasha",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "yasha"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#mage_slayer",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "mage_slayer"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#force_staff",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "force_staff"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#mekansm",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "mekansm"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#blade_mail",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "blade_mail"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#phase_boots",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "phase_boots"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#orchid",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "orchid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#point_booster",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "point_booster"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#spirit_vessel",
+      "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+      "labels" : {
+        "IRI-based" : "spirit_vessel"
+      }
+    } ],
+    "id" : "16"
+  } ],
+  "property" : [ {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#hasRole",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasRole"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "4"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "1",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero_attack_type",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hero_attack_type"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "11"
+  }, {
+    "range" : "1",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#item_name",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "item_name"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#hero_name",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hero_name"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#bestVersus",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "bestVersus"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#buysItem",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "buysItem"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#role_name",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "role_name"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2#relativeTo",
+    "baseIri" : "http://www.semanticweb.org/root/ontologies/2025/0/dota2",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "relativeTo"
+    },
+    "domain" : "1",
+    "attributes" : [ "transitive", "object", "symmetric" ],
+    "id" : "22"
+  } ]
+}

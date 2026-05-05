@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="648CD2A8-057A-4EB5-9E41-E1F7D86B5443" version="1">
+	<Properties>
+		<Name>LOC_COLDWAR_MOD_TITLE</Name>
+		<Teaser>LOC_COLDWAR_MOD_TEASER</Teaser>
+		<Description>LOC_COLDWAR_MOD_DESCRIPTION</Description>
+		<Authors>LOC_MOD_AUTHORS_FIRAXIS</Authors>
+		<SupportsSinglePlayer>0</SupportsSinglePlayer>
+    <CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="COLDWAR_COMPONENT">
+			<Properties>
+				<RuleSet>RULESET_SCENARIO_COLDWAR</RuleSet>
+			</Properties>
+			<Items>
+				<File>ColdWarScenario_Victories.xml</File>
+				<File>ColdWarScenario_Projects.xml</File>
+				<File>ColdWarScenario_Units.xml</File>
+				<File>ColdWarScenario_WMDs.xml</File>
+				<File>ColdWarScenario_Eras.xml</File>
+				<File>ColdWarScenario_GlobalParameters.xml</File>
+				<File>ColdWarScenario_Policies.xml</File>
+				<File>ColdWarScenario_Features.xml</File>
+				<File>ColdWarScenario_Resources.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<GameplayScripts id="COLDWAR_SCRIPT_COMPONENT">
+			<Properties>
+				<RuleSet>RULESET_SCENARIO_COLDWAR</RuleSet>
+			</Properties>
+			<Items>
+				<File>ColdWarScenario_StartScript.lua</File>
+			</Items>
+		</GameplayScripts>
+	</Components>
+	<Settings>
+		<Custom id="COLDWAR_SETTING">
+			<Items>
+				<File>ColdWarScenario_Config.xml</File>
+			</Items>
+		</Custom>
+	</Settings>
+	<Files>
+		<File>ColdWarScenario_Config.xml</File>
+		<File>ColdWarScenario_Victories.xml</File>
+		<File>ColdWarScenario_StartScript.lua</File>
+		<File>ColdWarScenario_Projects.xml</File>
+		<File>ColdWarScenario_Units.xml</File>
+		<File>ColdWarScenario_WMDs.xml</File>
+		<File>ColdWarScenario_Eras.xml</File>
+		<File>ColdWarScenario_GlobalParameters.xml</File>
+		<File>ColdWarScenario_Policies.xml</File>
+		<File>ColdWarScenario_Features.xml</File>
+		<File>ColdWarScenario_Resources.xml</File>
+	</Files>
+</Mod>
