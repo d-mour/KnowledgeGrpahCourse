@@ -1,0 +1,150 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 89.7311875
+tiers? <exists>
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "BirdCallSegment"
+        xmin = 0
+        xmax = 89.7311875
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0
+            xmax = 19.63
+            text = ""
+        intervals [2]:
+            xmin = 19.63
+            xmax = 20.97
+            text = "species_id=SP009;signal_type=song;overlap_flag=no"
+        intervals [3]:
+            xmin = 20.97
+            xmax = 28.99
+            text = ""
+        intervals [4]:
+            xmin = 28.99
+            xmax = 31.09
+            text = "species_id=SP009;signal_type=song;overlap_flag=no"
+        intervals [5]:
+            xmin = 31.09
+            xmax = 38.41
+            text = ""
+        intervals [6]:
+            xmin = 38.41
+            xmax = 40.75
+            text = "species_id=SP009;signal_type=song;overlap_flag=no"
+        intervals [7]:
+            xmin = 40.75
+            xmax = 44.85
+            text = ""
+        intervals [8]:
+            xmin = 44.85
+            xmax = 45.55
+            text = "species_id=SP009;signal_type=song;overlap_flag=no"
+        intervals [9]:
+            xmin = 45.55
+            xmax = 48.43
+            text = ""
+        intervals [10]:
+            xmin = 48.43
+            xmax = 50.69
+            text = "species_id=SP009;signal_type=song;overlap_flag=no"
+        intervals [11]:
+            xmin = 50.69
+            xmax = 58
+            text = ""
+        intervals [12]:
+            xmin = 58
+            xmax = 60.17
+            text = "species_id=SP009;signal_type=song;overlap_flag=no"
+        intervals [13]:
+            xmin = 60.17
+            xmax = 74.53
+            text = ""
+        intervals [14]:
+            xmin = 74.53
+            xmax = 77.12
+            text = "species_id=SP009;signal_type=song;overlap_flag=no"
+        intervals [15]:
+            xmin = 77.12
+            xmax = 89.7311875
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "BackgroundSound"
+        xmin = 0
+        xmax = 89.7311875
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0
+            xmax = 19.63
+            text = "type=background;intensity=unknown"
+        intervals [2]:
+            xmin = 19.63
+            xmax = 20.97
+            text = ""
+        intervals [3]:
+            xmin = 20.97
+            xmax = 28.99
+            text = "type=background;intensity=unknown"
+        intervals [4]:
+            xmin = 28.99
+            xmax = 31.09
+            text = ""
+        intervals [5]:
+            xmin = 31.09
+            xmax = 38.41
+            text = "type=background;intensity=unknown"
+        intervals [6]:
+            xmin = 38.41
+            xmax = 40.75
+            text = ""
+        intervals [7]:
+            xmin = 40.75
+            xmax = 44.85
+            text = "type=background;intensity=unknown"
+        intervals [8]:
+            xmin = 44.85
+            xmax = 45.55
+            text = ""
+        intervals [9]:
+            xmin = 45.55
+            xmax = 48.43
+            text = "type=background;intensity=unknown"
+        intervals [10]:
+            xmin = 48.43
+            xmax = 50.69
+            text = ""
+        intervals [11]:
+            xmin = 50.69
+            xmax = 58
+            text = "type=background;intensity=unknown"
+        intervals [12]:
+            xmin = 58
+            xmax = 60.17
+            text = ""
+        intervals [13]:
+            xmin = 60.17
+            xmax = 74.53
+            text = "type=background;intensity=unknown"
+        intervals [14]:
+            xmin = 74.53
+            xmax = 77.12
+            text = ""
+        intervals [15]:
+            xmin = 77.12
+            xmax = 89.7311875
+            text = "type=background;intensity=unknown"
+    item [3]:
+        class = "IntervalTier"
+        name = "Meta"
+        xmin = 0
+        xmax = 89.7311875
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0
+            xmax = 89.7311875
+            text = "quality=auto_generated_energy"
