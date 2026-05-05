@@ -1,6 +1,0 @@
-PREFIX ex: <https://example.org/medical-multimodal-kg/>
-PREFIX schema: <https://schema.org/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-SELECT ?agent_id ?prompt ?response WHERE { ?p a ex:Prompt ; ex:agent_id ?agent_id ; ex:prompt_text ?prompt . OPTIONAL { ?o a ex:AgentOutput ; ex:agent_id ?agent_id ; ex:response_text ?response . } } ORDER BY ?agent_id

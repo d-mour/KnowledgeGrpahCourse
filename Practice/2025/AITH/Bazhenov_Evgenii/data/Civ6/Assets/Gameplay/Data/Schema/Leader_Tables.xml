@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<GameData>
-	<Table name="LeaderAnimations">
-		<Column name="Leader" type="text" notnull="true" unique="false" primarykey="true"/>
-		<Column name="Name" type="text" notnull="true" unique="false" primarykey="true"/>
-		<Column name="Sequence" type="text" notnull="true" unique="false"/>
-		<Column name="Initial" type="text" notnull="false" unique="false"/>
-	</Table>
-</GameData>

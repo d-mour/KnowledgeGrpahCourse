@@ -1,0 +1,3168 @@
+@prefix ex: <http://example.org/fraud-ads/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Advertisement a rdfs:Class .
+
+ex:ColorFeature a rdfs:Class .
+
+ex:Dataset a rdfs:Class .
+
+ex:Dependency a rdfs:Class .
+
+ex:ImageAnnotation a rdfs:Class .
+
+ex:LemmaPair a rdfs:Class .
+
+ex:NamedEntity a rdfs:Class .
+
+ex:OCRText a rdfs:Class .
+
+ex:POSTag a rdfs:Class .
+
+ex:Phrase a rdfs:Class .
+
+ex:Region a rdfs:Class .
+
+ex:Sentiment a rdfs:Class .
+
+ex:Signal a rdfs:Class .
+
+ex:TextAnnotation a rdfs:Class .
+
+ex:Token a rdfs:Class .
+
+ex:VisualAttribute a rdfs:Class .
+
+ex:VisualObject a rdfs:Class .
+
+ex:attributeName a rdf:Property .
+
+ex:attributeObjectId a rdf:Property .
+
+ex:attributeValue a rdf:Property .
+
+ex:bboxHeight a rdf:Property .
+
+ex:bboxWidth a rdf:Property .
+
+ex:bboxX a rdf:Property .
+
+ex:bboxY a rdf:Property .
+
+ex:belongsToRegion a rdf:Property .
+
+ex:brightness a rdf:Property .
+
+ex:classificationComment a rdf:Property .
+
+ex:colorIntensity a rdf:Property .
+
+ex:colorName a rdf:Property .
+
+ex:colorRole a rdf:Property .
+
+ex:comment a rdf:Property .
+
+ex:contrast a rdf:Property .
+
+ex:dependencyHead a rdf:Property .
+
+ex:dependencyRelation a rdf:Property .
+
+ex:dependencyToken a rdf:Property .
+
+ex:description a rdf:Property .
+
+ex:domain a rdf:Property .
+
+ex:entityText a rdf:Property .
+
+ex:entityType a rdf:Property .
+
+ex:focusArea a rdf:Property .
+
+ex:fraud_ads_multimodal_annotation a ex:Dataset ;
+    rdfs:label "fraud_ads_multimodal_annotation" ;
+    ex:hasAd ex:ad_001_ready_ooo_sale,
+        ex:ad_002_yandex_maps_income_course,
+        ex:ad_003_home_income_no_investment .
+
+ex:hasAd a rdf:Property .
+
+ex:hasColorFeature a rdf:Property .
+
+ex:hasDependency a rdf:Property .
+
+ex:hasImageAnnotation a rdf:Property .
+
+ex:hasLabel a rdf:Property .
+
+ex:hasLemmaPair a rdf:Property .
+
+ex:hasNamedEntity a rdf:Property .
+
+ex:hasOCRText a rdf:Property .
+
+ex:hasPOSTag a rdf:Property .
+
+ex:hasPhrase a rdf:Property .
+
+ex:hasRegion a rdf:Property .
+
+ex:hasSentiment a rdf:Property .
+
+ex:hasSignal a rdf:Property .
+
+ex:hasSpatialRelation a rdf:Property .
+
+ex:hasTextAnnotation a rdf:Property .
+
+ex:hasTitle a rdf:Property .
+
+ex:hasToken a rdf:Property .
+
+ex:hasVisualAttribute a rdf:Property .
+
+ex:hasVisualObject a rdf:Property .
+
+ex:layout a rdf:Property .
+
+ex:lemmaToken a rdf:Property .
+
+ex:lemmaValue a rdf:Property .
+
+ex:message a rdf:Property .
+
+ex:objectClass a rdf:Property .
+
+ex:objectId a rdf:Property .
+
+ex:objectName a rdf:Property .
+
+ex:ocrConfidence a rdf:Property .
+
+ex:ocrText a rdf:Property .
+
+ex:phraseText a rdf:Property .
+
+ex:phraseType a rdf:Property .
+
+ex:posToken a rdf:Property .
+
+ex:posValue a rdf:Property .
+
+ex:position a rdf:Property .
+
+ex:regionId a rdf:Property .
+
+ex:regionType a rdf:Property .
+
+ex:relationFrom a rdf:Property .
+
+ex:relationTo a rdf:Property .
+
+ex:relationType a rdf:Property .
+
+ex:riskLevel a rdf:Property .
+
+ex:saturation a rdf:Property .
+
+ex:sceneType a rdf:Property .
+
+ex:sentimentLabel a rdf:Property .
+
+ex:sentimentScore a rdf:Property .
+
+ex:signalCategory a rdf:Property .
+
+ex:signalText a rdf:Property .
+
+ex:syntaxStructure a rdf:Property .
+
+ex:tokenValue a rdf:Property .
+
+ex:ad_001_ready_ooo_sale a ex:Advertisement ;
+    ex:hasImageAnnotation ex:ad_001_ready_ooo_sale_image ;
+    ex:hasLabel "fraud" ;
+    ex:hasTextAnnotation ex:ad_001_ready_ooo_sale_text ;
+    ex:hasTitle "Продам ООО / Без долгов / Готовое ООО" .
+
+ex:ad_001_ready_ooo_sale_color_1 a ex:ColorFeature ;
+    ex:colorIntensity "high" ;
+    ex:colorName "red" ;
+    ex:colorRole "attention_and_urgency" .
+
+ex:ad_001_ready_ooo_sale_color_2 a ex:ColorFeature ;
+    ex:colorIntensity "high" ;
+    ex:colorName "yellow" ;
+    ex:colorRole "highlight_benefits" .
+
+ex:ad_001_ready_ooo_sale_color_3 a ex:ColorFeature ;
+    ex:colorIntensity "medium" ;
+    ex:colorName "white" ;
+    ex:colorRole "text_contrast" .
+
+ex:ad_001_ready_ooo_sale_color_4 a ex:ColorFeature ;
+    ex:colorIntensity "medium" ;
+    ex:colorName "black" ;
+    ex:colorRole "text_readability" .
+
+ex:ad_001_ready_ooo_sale_color_5 a ex:ColorFeature ;
+    ex:colorIntensity "low" ;
+    ex:colorName "blue_gray" ;
+    ex:colorRole "business_background" .
+
+ex:ad_001_ready_ooo_sale_dependency_1 a ex:Dependency ;
+    ex:dependencyRelation "ROOT" ;
+    ex:dependencyToken "ооо" .
+
+ex:ad_001_ready_ooo_sale_dependency_10 a ex:Dependency ;
+    ex:dependencyHead "руб" ;
+    ex:dependencyRelation "nummod" ;
+    ex:dependencyToken "70000" .
+
+ex:ad_001_ready_ooo_sale_dependency_11 a ex:Dependency ;
+    ex:dependencyRelation "ROOT" ;
+    ex:dependencyToken "отсутствуют" .
+
+ex:ad_001_ready_ooo_sale_dependency_12 a ex:Dependency ;
+    ex:dependencyHead "отсутствуют" ;
+    ex:dependencyRelation "nsubj" ;
+    ex:dependencyToken "задолженности" .
+
+ex:ad_001_ready_ooo_sale_dependency_13 a ex:Dependency ;
+    ex:dependencyRelation "ROOT" ;
+    ex:dependencyToken "оформляются" .
+
+ex:ad_001_ready_ooo_sale_dependency_14 a ex:Dependency ;
+    ex:dependencyHead "оформляются" ;
+    ex:dependencyRelation "advmod" ;
+    ex:dependencyToken "нотариально" .
+
+ex:ad_001_ready_ooo_sale_dependency_15 a ex:Dependency ;
+    ex:dependencyRelation "ROOT" ;
+    ex:dependencyToken "исключает" .
+
+ex:ad_001_ready_ooo_sale_dependency_16 a ex:Dependency ;
+    ex:dependencyHead "исключает" ;
+    ex:dependencyRelation "obj" ;
+    ex:dependencyToken "риски" .
+
+ex:ad_001_ready_ooo_sale_dependency_2 a ex:Dependency ;
+    ex:dependencyHead "ооо" ;
+    ex:dependencyRelation "amod" ;
+    ex:dependencyToken "готовое" .
+
+ex:ad_001_ready_ooo_sale_dependency_3 a ex:Dependency ;
+    ex:dependencyHead "выход" ;
+    ex:dependencyRelation "nsubj" ;
+    ex:dependencyToken "гарантия" .
+
+ex:ad_001_ready_ooo_sale_dependency_4 a ex:Dependency ;
+    ex:dependencyHead "истории" ;
+    ex:dependencyRelation "amod" ;
+    ex:dependencyToken "чистой" .
+
+ex:ad_001_ready_ooo_sale_dependency_5 a ex:Dependency ;
+    ex:dependencyHead "гарантия" ;
+    ex:dependencyRelation "nmod" ;
+    ex:dependencyToken "истории" .
+
+ex:ad_001_ready_ooo_sale_dependency_6 a ex:Dependency ;
+    ex:dependencyRelation "ROOT" ;
+    ex:dependencyToken "выход" .
+
+ex:ad_001_ready_ooo_sale_dependency_7 a ex:Dependency ;
+    ex:dependencyHead "выход" ;
+    ex:dependencyRelation "obl" ;
+    ex:dependencyToken "сделку" .
+
+ex:ad_001_ready_ooo_sale_dependency_8 a ex:Dependency ;
+    ex:dependencyHead "руб" ;
+    ex:dependencyRelation "nummod" ;
+    ex:dependencyToken "30000" .
+
+ex:ad_001_ready_ooo_sale_dependency_9 a ex:Dependency ;
+    ex:dependencyHead "руб" ;
+    ex:dependencyRelation "nummod" ;
+    ex:dependencyToken "10000" .
+
+ex:ad_001_ready_ooo_sale_entity_1 a ex:NamedEntity ;
+    ex:entityText "ООО «Легаси Групп»" ;
+    ex:entityType "ORG" .
+
+ex:ad_001_ready_ooo_sale_entity_10 a ex:NamedEntity ;
+    ex:entityText "СБИС" ;
+    ex:entityType "ORG" .
+
+ex:ad_001_ready_ooo_sale_entity_11 a ex:NamedEntity ;
+    ex:entityText "ОКВЭД 43.29" ;
+    ex:entityType "CODE" .
+
+ex:ad_001_ready_ooo_sale_entity_12 a ex:NamedEntity ;
+    ex:entityText "ФНС" ;
+    ex:entityType "ORG" .
+
+ex:ad_001_ready_ooo_sale_entity_13 a ex:NamedEntity ;
+    ex:entityText "70000 руб." ;
+    ex:entityType "MONEY" .
+
+ex:ad_001_ready_ooo_sale_entity_14 a ex:NamedEntity ;
+    ex:entityText "2024–2025" ;
+    ex:entityType "DATE_RANGE" .
+
+ex:ad_001_ready_ooo_sale_entity_15 a ex:NamedEntity ;
+    ex:entityText "НДС" ;
+    ex:entityType "TAX_SYSTEM" .
+
+ex:ad_001_ready_ooo_sale_entity_16 a ex:NamedEntity ;
+    ex:entityText "5 рабочих дней" ;
+    ex:entityType "TIME_PERIOD" .
+
+ex:ad_001_ready_ooo_sale_entity_2 a ex:NamedEntity ;
+    ex:entityText "9728133683" ;
+    ex:entityType "ID" .
+
+ex:ad_001_ready_ooo_sale_entity_3 a ex:NamedEntity ;
+    ex:entityText "24.05.2024" ;
+    ex:entityType "DATE" .
+
+ex:ad_001_ready_ooo_sale_entity_4 a ex:NamedEntity ;
+    ex:entityText "ИФНС №28 по г. Москве" ;
+    ex:entityType "ORG" .
+
+ex:ad_001_ready_ooo_sale_entity_5 a ex:NamedEntity ;
+    ex:entityText "Москва" ;
+    ex:entityType "GPE" .
+
+ex:ad_001_ready_ooo_sale_entity_6 a ex:NamedEntity ;
+    ex:entityText "30000 руб." ;
+    ex:entityType "MONEY" .
+
+ex:ad_001_ready_ooo_sale_entity_7 a ex:NamedEntity ;
+    ex:entityText "11 месяцев" ;
+    ex:entityType "TIME_PERIOD" .
+
+ex:ad_001_ready_ooo_sale_entity_8 a ex:NamedEntity ;
+    ex:entityText "ОСНО" ;
+    ex:entityType "TAX_SYSTEM" .
+
+ex:ad_001_ready_ooo_sale_entity_9 a ex:NamedEntity ;
+    ex:entityText "10000 руб." ;
+    ex:entityType "MONEY" .
+
+ex:ad_001_ready_ooo_sale_image a ex:ImageAnnotation ;
+    ex:brightness "medium_high" ;
+    ex:comment "Взгляд ведется от делового персонажа к заголовку, преимуществам и CTA.",
+        "Деловой образ, документы и яркие блоки создают ощущение надежности.",
+        "Красный и желтый создают сильный рекламный акцент." ;
+    ex:contrast "high" ;
+    ex:description "Визуальная разметка рекламного изображения о продаже готового ООО." ;
+    ex:domain "ready_company_sale" ;
+    ex:focusArea "main_header_and_yellow_feature_block" ;
+    ex:hasColorFeature ex:ad_001_ready_ooo_sale_color_1,
+        ex:ad_001_ready_ooo_sale_color_2,
+        ex:ad_001_ready_ooo_sale_color_3,
+        ex:ad_001_ready_ooo_sale_color_4,
+        ex:ad_001_ready_ooo_sale_color_5 ;
+    ex:hasOCRText ex:ad_001_ready_ooo_sale_ocr_1,
+        ex:ad_001_ready_ooo_sale_ocr_2,
+        ex:ad_001_ready_ooo_sale_ocr_3,
+        ex:ad_001_ready_ooo_sale_ocr_4,
+        ex:ad_001_ready_ooo_sale_ocr_5 ;
+    ex:hasRegion ex:ad_001_ready_ooo_sale_region_r1,
+        ex:ad_001_ready_ooo_sale_region_r2,
+        ex:ad_001_ready_ooo_sale_region_r3,
+        ex:ad_001_ready_ooo_sale_region_r4,
+        ex:ad_001_ready_ooo_sale_region_r5 ;
+    ex:hasSentiment ex:ad_001_ready_ooo_sale_image_sentiment ;
+    ex:hasSignal ex:ad_001_ready_ooo_sale_image_risk_markers_1,
+        ex:ad_001_ready_ooo_sale_image_risk_markers_2,
+        ex:ad_001_ready_ooo_sale_image_risk_markers_3,
+        ex:ad_001_ready_ooo_sale_image_risk_markers_4,
+        ex:ad_001_ready_ooo_sale_image_signals_1,
+        ex:ad_001_ready_ooo_sale_image_signals_2,
+        ex:ad_001_ready_ooo_sale_image_signals_3,
+        ex:ad_001_ready_ooo_sale_image_signals_4,
+        ex:ad_001_ready_ooo_sale_image_signals_5,
+        ex:ad_001_ready_ooo_sale_image_signals_6,
+        ex:ad_001_ready_ooo_sale_image_trust_markers_1,
+        ex:ad_001_ready_ooo_sale_image_trust_markers_2,
+        ex:ad_001_ready_ooo_sale_image_trust_markers_3,
+        ex:ad_001_ready_ooo_sale_image_trust_markers_4 ;
+    ex:hasSpatialRelation ex:ad_001_ready_ooo_sale_spatial_relation_1,
+        ex:ad_001_ready_ooo_sale_spatial_relation_2,
+        ex:ad_001_ready_ooo_sale_spatial_relation_3,
+        ex:ad_001_ready_ooo_sale_spatial_relation_4 ;
+    ex:hasVisualAttribute ex:ad_001_ready_ooo_sale_visual_attribute_1,
+        ex:ad_001_ready_ooo_sale_visual_attribute_2,
+        ex:ad_001_ready_ooo_sale_visual_attribute_3,
+        ex:ad_001_ready_ooo_sale_visual_attribute_4,
+        ex:ad_001_ready_ooo_sale_visual_attribute_5 ;
+    ex:hasVisualObject ex:ad_001_ready_ooo_sale_object_obj1,
+        ex:ad_001_ready_ooo_sale_object_obj2,
+        ex:ad_001_ready_ooo_sale_object_obj3,
+        ex:ad_001_ready_ooo_sale_object_obj4,
+        ex:ad_001_ready_ooo_sale_object_obj5 ;
+    ex:layout "person_left + text_blocks_right + cta_bottom" ;
+    ex:message "Продажа готового ООО с акцентом на чистую историю, отсутствие долгов, быстрое оформление и юридическую безопасность." ;
+    ex:saturation "high" ;
+    ex:sceneType "advertisement" .
+
+ex:ad_001_ready_ooo_sale_image_risk_markers_1 a ex:Signal ;
+    ex:signalCategory "risk_markers" ;
+    ex:signalText "агрессивная цветовая схема" .
+
+ex:ad_001_ready_ooo_sale_image_risk_markers_2 a ex:Signal ;
+    ex:signalCategory "risk_markers" ;
+    ex:signalText "гарантия чистой истории" .
+
+ex:ad_001_ready_ooo_sale_image_risk_markers_3 a ex:Signal ;
+    ex:signalCategory "risk_markers" ;
+    ex:signalText "сделка в день обращения" .
+
+ex:ad_001_ready_ooo_sale_image_risk_markers_4 a ex:Signal ;
+    ex:signalCategory "risk_markers" ;
+    ex:signalText "более 100 вариантов" .
+
+ex:ad_001_ready_ooo_sale_image_sentiment a ex:Sentiment ;
+    ex:comment "Сильно позитивный рекламный визуальный тон." ;
+    ex:sentimentLabel "aggressive_positive" ;
+    ex:sentimentScore "0.85"^^xsd:float .
+
+ex:ad_001_ready_ooo_sale_image_signals_1 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "крупный заголовок" .
+
+ex:ad_001_ready_ooo_sale_image_signals_2 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "яркие контрастные цвета" .
+
+ex:ad_001_ready_ooo_sale_image_signals_3 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "деловой персонаж" .
+
+ex:ad_001_ready_ooo_sale_image_signals_4 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "документы" .
+
+ex:ad_001_ready_ooo_sale_image_signals_5 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "галочка" .
+
+ex:ad_001_ready_ooo_sale_image_signals_6 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "список преимуществ" .
+
+ex:ad_001_ready_ooo_sale_image_trust_markers_1 a ex:Signal ;
+    ex:signalCategory "trust_markers" ;
+    ex:signalText "деловой стиль одежды" .
+
+ex:ad_001_ready_ooo_sale_image_trust_markers_2 a ex:Signal ;
+    ex:signalCategory "trust_markers" ;
+    ex:signalText "документы" .
+
+ex:ad_001_ready_ooo_sale_image_trust_markers_3 a ex:Signal ;
+    ex:signalCategory "trust_markers" ;
+    ex:signalText "офисный фон" .
+
+ex:ad_001_ready_ooo_sale_image_trust_markers_4 a ex:Signal ;
+    ex:signalCategory "trust_markers" ;
+    ex:signalText "галочка подтверждения" .
+
+ex:ad_001_ready_ooo_sale_lemma_1 a ex:LemmaPair ;
+    ex:lemmaToken "продам" ;
+    ex:lemmaValue "продать" .
+
+ex:ad_001_ready_ooo_sale_lemma_10 a ex:LemmaPair ;
+    ex:lemmaToken "задолженности" ;
+    ex:lemmaValue "задолженность" .
+
+ex:ad_001_ready_ooo_sale_lemma_11 a ex:LemmaPair ;
+    ex:lemmaToken "отсутствуют" ;
+    ex:lemmaValue "отсутствовать" .
+
+ex:ad_001_ready_ooo_sale_lemma_12 a ex:LemmaPair ;
+    ex:lemmaToken "оформляются" ;
+    ex:lemmaValue "оформляться" .
+
+ex:ad_001_ready_ooo_sale_lemma_13 a ex:LemmaPair ;
+    ex:lemmaToken "создаются" ;
+    ex:lemmaValue "создаваться" .
+
+ex:ad_001_ready_ooo_sale_lemma_14 a ex:LemmaPair ;
+    ex:lemmaToken "исключает" ;
+    ex:lemmaValue "исключать" .
+
+ex:ad_001_ready_ooo_sale_lemma_15 a ex:LemmaPair ;
+    ex:lemmaToken "свяжитесь" ;
+    ex:lemmaValue "связаться" .
+
+ex:ad_001_ready_ooo_sale_lemma_2 a ex:LemmaPair ;
+    ex:lemmaToken "готовое" ;
+    ex:lemmaValue "готовый" .
+
+ex:ad_001_ready_ooo_sale_lemma_3 a ex:LemmaPair ;
+    ex:lemmaToken "долгов" ;
+    ex:lemmaValue "долг" .
+
+ex:ad_001_ready_ooo_sale_lemma_4 a ex:LemmaPair ;
+    ex:lemmaToken "чистой" ;
+    ex:lemmaValue "чистый" .
+
+ex:ad_001_ready_ooo_sale_lemma_5 a ex:LemmaPair ;
+    ex:lemmaToken "истории" ;
+    ex:lemmaValue "история" .
+
+ex:ad_001_ready_ooo_sale_lemma_6 a ex:LemmaPair ;
+    ex:lemmaToken "регистрации" ;
+    ex:lemmaValue "регистрация" .
+
+ex:ad_001_ready_ooo_sale_lemma_7 a ex:LemmaPair ;
+    ex:lemmaToken "велась" ;
+    ex:lemmaValue "вестись" .
+
+ex:ad_001_ready_ooo_sale_lemma_8 a ex:LemmaPair ;
+    ex:lemmaToken "оборотов" ;
+    ex:lemmaValue "оборот" .
+
+ex:ad_001_ready_ooo_sale_lemma_9 a ex:LemmaPair ;
+    ex:lemmaToken "отчеты" ;
+    ex:lemmaValue "отчет" .
+
+ex:ad_001_ready_ooo_sale_object_obj1 a ex:VisualObject ;
+    ex:belongsToRegion "r1" ;
+    ex:objectClass "PERSON" ;
+    ex:objectId "obj1" ;
+    ex:objectName "woman" .
+
+ex:ad_001_ready_ooo_sale_object_obj2 a ex:VisualObject ;
+    ex:belongsToRegion "r1" ;
+    ex:objectClass "OBJECT" ;
+    ex:objectId "obj2" ;
+    ex:objectName "documents" .
+
+ex:ad_001_ready_ooo_sale_object_obj3 a ex:VisualObject ;
+    ex:belongsToRegion "r2" ;
+    ex:objectClass "TEXT_BLOCK" ;
+    ex:objectId "obj3" ;
+    ex:objectName "main_red_banner" .
+
+ex:ad_001_ready_ooo_sale_object_obj4 a ex:VisualObject ;
+    ex:belongsToRegion "r3" ;
+    ex:objectClass "TEXT_BLOCK" ;
+    ex:objectId "obj4" ;
+    ex:objectName "yellow_feature_block" .
+
+ex:ad_001_ready_ooo_sale_object_obj5 a ex:VisualObject ;
+    ex:belongsToRegion "r4" ;
+    ex:objectClass "SYMBOL" ;
+    ex:objectId "obj5" ;
+    ex:objectName "check_mark" .
+
+ex:ad_001_ready_ooo_sale_ocr_1 a ex:OCRText ;
+    ex:belongsToRegion "r2" ;
+    ex:ocrConfidence "0.95"^^xsd:float ;
+    ex:ocrText "ГОТОВОЕ ООО" .
+
+ex:ad_001_ready_ooo_sale_ocr_2 a ex:OCRText ;
+    ex:belongsToRegion "r2" ;
+    ex:ocrConfidence "0.9"^^xsd:float ;
+    ex:ocrText "компании 2024, 2025г" .
+
+ex:ad_001_ready_ooo_sale_ocr_3 a ex:OCRText ;
+    ex:belongsToRegion "r3" ;
+    ex:ocrConfidence "0.9"^^xsd:float ;
+    ex:ocrText "с гарантией чистой истории" .
+
+ex:ad_001_ready_ooo_sale_ocr_4 a ex:OCRText ;
+    ex:belongsToRegion "r3" ;
+    ex:ocrConfidence "0.88"^^xsd:float ;
+    ex:ocrText "без долгов, без счетов и оборотов: на НДС" .
+
+ex:ad_001_ready_ooo_sale_ocr_5 a ex:OCRText ;
+    ex:belongsToRegion "r4" ;
+    ex:ocrConfidence "0.9"^^xsd:float ;
+    ex:ocrText "ПОЛНОЕ ПЕРЕОФОРМЛЕНИЕ ЗА 5 ДНЕЙ ЧЕРЕЗ НОТАРИУСА" .
+
+ex:ad_001_ready_ooo_sale_phrase_1 a ex:Phrase ;
+    ex:phraseText "готовое ООО" ;
+    ex:phraseType "NP" .
+
+ex:ad_001_ready_ooo_sale_phrase_10 a ex:Phrase ;
+    ex:phraseText "свяжитесь с нами для консультации" ;
+    ex:phraseType "CTA" .
+
+ex:ad_001_ready_ooo_sale_phrase_2 a ex:Phrase ;
+    ex:phraseText "ООО «Легаси Групп»" ;
+    ex:phraseType "NP" .
+
+ex:ad_001_ready_ooo_sale_phrase_3 a ex:Phrase ;
+    ex:phraseText "гарантия чистой истории" ;
+    ex:phraseType "NP" .
+
+ex:ad_001_ready_ooo_sale_phrase_4 a ex:Phrase ;
+    ex:phraseText "юридический адрес" ;
+    ex:phraseType "NP" .
+
+ex:ad_001_ready_ooo_sale_phrase_5 a ex:Phrase ;
+    ex:phraseText "уставной капитал" ;
+    ex:phraseType "NP" .
+
+ex:ad_001_ready_ooo_sale_phrase_6 a ex:Phrase ;
+    ex:phraseText "деятельность не велась" ;
+    ex:phraseType "VP" .
+
+ex:ad_001_ready_ooo_sale_phrase_7 a ex:Phrase ;
+    ex:phraseText "задолженности отсутствуют" ;
+    ex:phraseType "VP" .
+
+ex:ad_001_ready_ooo_sale_phrase_8 a ex:Phrase ;
+    ex:phraseText "оформляются нотариально" ;
+    ex:phraseType "VP" .
+
+ex:ad_001_ready_ooo_sale_phrase_9 a ex:Phrase ;
+    ex:phraseText "исключает риски" ;
+    ex:phraseType "VP" .
+
+ex:ad_001_ready_ooo_sale_pos_1 a ex:POSTag ;
+    ex:posToken "продам" ;
+    ex:posValue "VERB" .
+
+ex:ad_001_ready_ooo_sale_pos_10 a ex:POSTag ;
+    ex:posToken "9728133683" ;
+    ex:posValue "NUM" .
+
+ex:ad_001_ready_ooo_sale_pos_11 a ex:POSTag ;
+    ex:posToken "24.05.2024" ;
+    ex:posValue "NUM" .
+
+ex:ad_001_ready_ooo_sale_pos_12 a ex:POSTag ;
+    ex:posToken "30000" ;
+    ex:posValue "NUM" .
+
+ex:ad_001_ready_ooo_sale_pos_13 a ex:POSTag ;
+    ex:posToken "10000" ;
+    ex:posValue "NUM" .
+
+ex:ad_001_ready_ooo_sale_pos_14 a ex:POSTag ;
+    ex:posToken "70000" ;
+    ex:posValue "NUM" .
+
+ex:ad_001_ready_ooo_sale_pos_15 a ex:POSTag ;
+    ex:posToken "отсутствуют" ;
+    ex:posValue "VERB" .
+
+ex:ad_001_ready_ooo_sale_pos_16 a ex:POSTag ;
+    ex:posToken "нотариальная" ;
+    ex:posValue "ADJ" .
+
+ex:ad_001_ready_ooo_sale_pos_17 a ex:POSTag ;
+    ex:posToken "исключает" ;
+    ex:posValue "VERB" .
+
+ex:ad_001_ready_ooo_sale_pos_18 a ex:POSTag ;
+    ex:posToken "юридически" ;
+    ex:posValue "ADV" .
+
+ex:ad_001_ready_ooo_sale_pos_2 a ex:POSTag ;
+    ex:posToken "ооо" ;
+    ex:posValue "NOUN" .
+
+ex:ad_001_ready_ooo_sale_pos_3 a ex:POSTag ;
+    ex:posToken "готовое" ;
+    ex:posValue "ADJ" .
+
+ex:ad_001_ready_ooo_sale_pos_4 a ex:POSTag ;
+    ex:posToken "гарантия" ;
+    ex:posValue "NOUN" .
+
+ex:ad_001_ready_ooo_sale_pos_5 a ex:POSTag ;
+    ex:posToken "чистой" ;
+    ex:posValue "ADJ" .
+
+ex:ad_001_ready_ooo_sale_pos_6 a ex:POSTag ;
+    ex:posToken "истории" ;
+    ex:posValue "NOUN" .
+
+ex:ad_001_ready_ooo_sale_pos_7 a ex:POSTag ;
+    ex:posToken "оперативный" ;
+    ex:posValue "ADJ" .
+
+ex:ad_001_ready_ooo_sale_pos_8 a ex:POSTag ;
+    ex:posToken "выход" ;
+    ex:posValue "NOUN" .
+
+ex:ad_001_ready_ooo_sale_pos_9 a ex:POSTag ;
+    ex:posToken "инн" ;
+    ex:posValue "NOUN" .
+
+ex:ad_001_ready_ooo_sale_region_r1 a ex:Region ;
+    ex:bboxHeight 830 ;
+    ex:bboxWidth 420 ;
+    ex:bboxX 50 ;
+    ex:bboxY 80 ;
+    ex:description "Женщина в деловом костюме с документами." ;
+    ex:position "left" ;
+    ex:regionId "r1" ;
+    ex:regionType "person" .
+
+ex:ad_001_ready_ooo_sale_region_r2 a ex:Region ;
+    ex:bboxHeight 200 ;
+    ex:bboxWidth 790 ;
+    ex:bboxX 370 ;
+    ex:bboxY 120 ;
+    ex:description "Красный блок с заголовком «ГОТОВОЕ ООО»." ;
+    ex:position "top_center_right" ;
+    ex:regionId "r2" ;
+    ex:regionType "main_header" .
+
+ex:ad_001_ready_ooo_sale_region_r3 a ex:Region ;
+    ex:bboxHeight 220 ;
+    ex:bboxWidth 700 ;
+    ex:bboxX 460 ;
+    ex:bboxY 350 ;
+    ex:description "Желтый блок со списком преимуществ." ;
+    ex:position "center_right" ;
+    ex:regionId "r3" ;
+    ex:regionType "feature_list" .
+
+ex:ad_001_ready_ooo_sale_region_r4 a ex:Region ;
+    ex:bboxHeight 120 ;
+    ex:bboxWidth 665 ;
+    ex:bboxX 525 ;
+    ex:bboxY 600 ;
+    ex:description "Красный блок с галочкой и обещанием переоформления." ;
+    ex:position "lower_center_right" ;
+    ex:regionId "r4" ;
+    ex:regionType "trust_cta_block" .
+
+ex:ad_001_ready_ooo_sale_region_r5 a ex:Region ;
+    ex:bboxHeight 70 ;
+    ex:bboxWidth 620 ;
+    ex:bboxX 545 ;
+    ex:bboxY 750 ;
+    ex:description "Блок о выходе на сделку в день обращения." ;
+    ex:position "bottom_center_right" ;
+    ex:regionId "r5" ;
+    ex:regionType "speed_cta_block" .
+
+ex:ad_001_ready_ooo_sale_spatial_relation_1 a ex:Dependency ;
+    ex:relationFrom "person" ;
+    ex:relationTo "main_header" ;
+    ex:relationType "left_of" .
+
+ex:ad_001_ready_ooo_sale_spatial_relation_2 a ex:Dependency ;
+    ex:relationFrom "feature_list" ;
+    ex:relationTo "main_header" ;
+    ex:relationType "below" .
+
+ex:ad_001_ready_ooo_sale_spatial_relation_3 a ex:Dependency ;
+    ex:relationFrom "trust_cta_block" ;
+    ex:relationTo "feature_list" ;
+    ex:relationType "below" .
+
+ex:ad_001_ready_ooo_sale_spatial_relation_4 a ex:Dependency ;
+    ex:relationFrom "documents" ;
+    ex:relationTo "person" ;
+    ex:relationType "held_by" .
+
+ex:ad_001_ready_ooo_sale_text a ex:TextAnnotation ;
+    ex:classificationComment "Объявление содержит юридические детали, но использует сильные формулировки доверия и снятия риска." ;
+    ex:comment "Текст строится как описание юридического объекта с последующим усилением доверия: чистая история, отсутствие долгов, нотариальное оформление, исключение рисков." ;
+    ex:description "Текстовая разметка объявления о продаже готового ООО. Используются юридические данные, обещания чистой истории, отсутствия долгов и быстрого оформления." ;
+    ex:hasDependency ex:ad_001_ready_ooo_sale_dependency_1,
+        ex:ad_001_ready_ooo_sale_dependency_10,
+        ex:ad_001_ready_ooo_sale_dependency_11,
+        ex:ad_001_ready_ooo_sale_dependency_12,
+        ex:ad_001_ready_ooo_sale_dependency_13,
+        ex:ad_001_ready_ooo_sale_dependency_14,
+        ex:ad_001_ready_ooo_sale_dependency_15,
+        ex:ad_001_ready_ooo_sale_dependency_16,
+        ex:ad_001_ready_ooo_sale_dependency_2,
+        ex:ad_001_ready_ooo_sale_dependency_3,
+        ex:ad_001_ready_ooo_sale_dependency_4,
+        ex:ad_001_ready_ooo_sale_dependency_5,
+        ex:ad_001_ready_ooo_sale_dependency_6,
+        ex:ad_001_ready_ooo_sale_dependency_7,
+        ex:ad_001_ready_ooo_sale_dependency_8,
+        ex:ad_001_ready_ooo_sale_dependency_9 ;
+    ex:hasLemmaPair ex:ad_001_ready_ooo_sale_lemma_1,
+        ex:ad_001_ready_ooo_sale_lemma_10,
+        ex:ad_001_ready_ooo_sale_lemma_11,
+        ex:ad_001_ready_ooo_sale_lemma_12,
+        ex:ad_001_ready_ooo_sale_lemma_13,
+        ex:ad_001_ready_ooo_sale_lemma_14,
+        ex:ad_001_ready_ooo_sale_lemma_15,
+        ex:ad_001_ready_ooo_sale_lemma_2,
+        ex:ad_001_ready_ooo_sale_lemma_3,
+        ex:ad_001_ready_ooo_sale_lemma_4,
+        ex:ad_001_ready_ooo_sale_lemma_5,
+        ex:ad_001_ready_ooo_sale_lemma_6,
+        ex:ad_001_ready_ooo_sale_lemma_7,
+        ex:ad_001_ready_ooo_sale_lemma_8,
+        ex:ad_001_ready_ooo_sale_lemma_9 ;
+    ex:hasNamedEntity ex:ad_001_ready_ooo_sale_entity_1,
+        ex:ad_001_ready_ooo_sale_entity_10,
+        ex:ad_001_ready_ooo_sale_entity_11,
+        ex:ad_001_ready_ooo_sale_entity_12,
+        ex:ad_001_ready_ooo_sale_entity_13,
+        ex:ad_001_ready_ooo_sale_entity_14,
+        ex:ad_001_ready_ooo_sale_entity_15,
+        ex:ad_001_ready_ooo_sale_entity_16,
+        ex:ad_001_ready_ooo_sale_entity_2,
+        ex:ad_001_ready_ooo_sale_entity_3,
+        ex:ad_001_ready_ooo_sale_entity_4,
+        ex:ad_001_ready_ooo_sale_entity_5,
+        ex:ad_001_ready_ooo_sale_entity_6,
+        ex:ad_001_ready_ooo_sale_entity_7,
+        ex:ad_001_ready_ooo_sale_entity_8,
+        ex:ad_001_ready_ooo_sale_entity_9 ;
+    ex:hasPOSTag ex:ad_001_ready_ooo_sale_pos_1,
+        ex:ad_001_ready_ooo_sale_pos_10,
+        ex:ad_001_ready_ooo_sale_pos_11,
+        ex:ad_001_ready_ooo_sale_pos_12,
+        ex:ad_001_ready_ooo_sale_pos_13,
+        ex:ad_001_ready_ooo_sale_pos_14,
+        ex:ad_001_ready_ooo_sale_pos_15,
+        ex:ad_001_ready_ooo_sale_pos_16,
+        ex:ad_001_ready_ooo_sale_pos_17,
+        ex:ad_001_ready_ooo_sale_pos_18,
+        ex:ad_001_ready_ooo_sale_pos_2,
+        ex:ad_001_ready_ooo_sale_pos_3,
+        ex:ad_001_ready_ooo_sale_pos_4,
+        ex:ad_001_ready_ooo_sale_pos_5,
+        ex:ad_001_ready_ooo_sale_pos_6,
+        ex:ad_001_ready_ooo_sale_pos_7,
+        ex:ad_001_ready_ooo_sale_pos_8,
+        ex:ad_001_ready_ooo_sale_pos_9 ;
+    ex:hasPhrase ex:ad_001_ready_ooo_sale_phrase_1,
+        ex:ad_001_ready_ooo_sale_phrase_10,
+        ex:ad_001_ready_ooo_sale_phrase_2,
+        ex:ad_001_ready_ooo_sale_phrase_3,
+        ex:ad_001_ready_ooo_sale_phrase_4,
+        ex:ad_001_ready_ooo_sale_phrase_5,
+        ex:ad_001_ready_ooo_sale_phrase_6,
+        ex:ad_001_ready_ooo_sale_phrase_7,
+        ex:ad_001_ready_ooo_sale_phrase_8,
+        ex:ad_001_ready_ooo_sale_phrase_9 ;
+    ex:hasSentiment ex:ad_001_ready_ooo_sale_text_sentiment ;
+    ex:hasSignal ex:ad_001_ready_ooo_sale_text_fraud_signals_1,
+        ex:ad_001_ready_ooo_sale_text_fraud_signals_2,
+        ex:ad_001_ready_ooo_sale_text_fraud_signals_3,
+        ex:ad_001_ready_ooo_sale_text_fraud_signals_4,
+        ex:ad_001_ready_ooo_sale_text_fraud_signals_5,
+        ex:ad_001_ready_ooo_sale_text_fraud_signals_6,
+        ex:ad_001_ready_ooo_sale_text_legit_like_signals_1,
+        ex:ad_001_ready_ooo_sale_text_legit_like_signals_2,
+        ex:ad_001_ready_ooo_sale_text_legit_like_signals_3,
+        ex:ad_001_ready_ooo_sale_text_legit_like_signals_4,
+        ex:ad_001_ready_ooo_sale_text_legit_like_signals_5,
+        ex:ad_001_ready_ooo_sale_text_legit_like_signals_6,
+        ex:ad_001_ready_ooo_sale_text_legit_like_signals_7 ;
+    ex:hasToken ex:ad_001_ready_ooo_sale_token_1,
+        ex:ad_001_ready_ooo_sale_token_10,
+        ex:ad_001_ready_ooo_sale_token_11,
+        ex:ad_001_ready_ooo_sale_token_12,
+        ex:ad_001_ready_ooo_sale_token_13,
+        ex:ad_001_ready_ooo_sale_token_14,
+        ex:ad_001_ready_ooo_sale_token_15,
+        ex:ad_001_ready_ooo_sale_token_16,
+        ex:ad_001_ready_ooo_sale_token_17,
+        ex:ad_001_ready_ooo_sale_token_18,
+        ex:ad_001_ready_ooo_sale_token_19,
+        ex:ad_001_ready_ooo_sale_token_2,
+        ex:ad_001_ready_ooo_sale_token_20,
+        ex:ad_001_ready_ooo_sale_token_21,
+        ex:ad_001_ready_ooo_sale_token_22,
+        ex:ad_001_ready_ooo_sale_token_23,
+        ex:ad_001_ready_ooo_sale_token_24,
+        ex:ad_001_ready_ooo_sale_token_25,
+        ex:ad_001_ready_ooo_sale_token_26,
+        ex:ad_001_ready_ooo_sale_token_27,
+        ex:ad_001_ready_ooo_sale_token_28,
+        ex:ad_001_ready_ooo_sale_token_29,
+        ex:ad_001_ready_ooo_sale_token_3,
+        ex:ad_001_ready_ooo_sale_token_30,
+        ex:ad_001_ready_ooo_sale_token_31,
+        ex:ad_001_ready_ooo_sale_token_32,
+        ex:ad_001_ready_ooo_sale_token_33,
+        ex:ad_001_ready_ooo_sale_token_34,
+        ex:ad_001_ready_ooo_sale_token_35,
+        ex:ad_001_ready_ooo_sale_token_36,
+        ex:ad_001_ready_ooo_sale_token_37,
+        ex:ad_001_ready_ooo_sale_token_38,
+        ex:ad_001_ready_ooo_sale_token_39,
+        ex:ad_001_ready_ooo_sale_token_4,
+        ex:ad_001_ready_ooo_sale_token_40,
+        ex:ad_001_ready_ooo_sale_token_41,
+        ex:ad_001_ready_ooo_sale_token_42,
+        ex:ad_001_ready_ooo_sale_token_43,
+        ex:ad_001_ready_ooo_sale_token_44,
+        ex:ad_001_ready_ooo_sale_token_45,
+        ex:ad_001_ready_ooo_sale_token_46,
+        ex:ad_001_ready_ooo_sale_token_47,
+        ex:ad_001_ready_ooo_sale_token_48,
+        ex:ad_001_ready_ooo_sale_token_49,
+        ex:ad_001_ready_ooo_sale_token_5,
+        ex:ad_001_ready_ooo_sale_token_50,
+        ex:ad_001_ready_ooo_sale_token_51,
+        ex:ad_001_ready_ooo_sale_token_52,
+        ex:ad_001_ready_ooo_sale_token_53,
+        ex:ad_001_ready_ooo_sale_token_54,
+        ex:ad_001_ready_ooo_sale_token_55,
+        ex:ad_001_ready_ooo_sale_token_56,
+        ex:ad_001_ready_ooo_sale_token_57,
+        ex:ad_001_ready_ooo_sale_token_58,
+        ex:ad_001_ready_ooo_sale_token_6,
+        ex:ad_001_ready_ooo_sale_token_7,
+        ex:ad_001_ready_ooo_sale_token_8,
+        ex:ad_001_ready_ooo_sale_token_9 ;
+    ex:riskLevel "high" ;
+    ex:syntaxStructure "NP -> юридические характеристики -> аргументы доверия -> условия сделки -> CTA" .
+
+ex:ad_001_ready_ooo_sale_text_fraud_signals_1 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "гарантия чистой истории" .
+
+ex:ad_001_ready_ooo_sale_text_fraud_signals_2 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "оперативный выход на сделку" .
+
+ex:ad_001_ready_ooo_sale_text_fraud_signals_3 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "сделка в день обращения" .
+
+ex:ad_001_ready_ooo_sale_text_fraud_signals_4 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "массовое наличие более 100 готовых ООО" .
+
+ex:ad_001_ready_ooo_sale_text_fraud_signals_5 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "акцент на отсутствии долгов и рисков" .
+
+ex:ad_001_ready_ooo_sale_text_fraud_signals_6 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "обещание юридически чистой организации" .
+
+ex:ad_001_ready_ooo_sale_text_legit_like_signals_1 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "указан ИНН" .
+
+ex:ad_001_ready_ooo_sale_text_legit_like_signals_2 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "указана дата регистрации" .
+
+ex:ad_001_ready_ooo_sale_text_legit_like_signals_3 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "указана налоговая инспекция" .
+
+ex:ad_001_ready_ooo_sale_text_legit_like_signals_4 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "указана система налогообложения" .
+
+ex:ad_001_ready_ooo_sale_text_legit_like_signals_5 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "указан ОКВЭД" .
+
+ex:ad_001_ready_ooo_sale_text_legit_like_signals_6 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "указана стоимость" .
+
+ex:ad_001_ready_ooo_sale_text_legit_like_signals_7 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "описан способ оформления через нотариуса" .
+
+ex:ad_001_ready_ooo_sale_text_sentiment a ex:Sentiment ;
+    ex:comment "Тон умеренно позитивный и убеждающий: гарантия чистой истории, без долгов, без судебных споров, исключает риски." ;
+    ex:sentimentLabel "positive_persuasive" ;
+    ex:sentimentScore "0.65"^^xsd:float .
+
+ex:ad_001_ready_ooo_sale_token_1 a ex:Token ;
+    ex:tokenValue "продам" .
+
+ex:ad_001_ready_ooo_sale_token_10 a ex:Token ;
+    ex:tokenValue "оперативный" .
+
+ex:ad_001_ready_ooo_sale_token_11 a ex:Token ;
+    ex:tokenValue "выход" .
+
+ex:ad_001_ready_ooo_sale_token_12 a ex:Token ;
+    ex:tokenValue "сделку" .
+
+ex:ad_001_ready_ooo_sale_token_13 a ex:Token ;
+    ex:tokenValue "день" .
+
+ex:ad_001_ready_ooo_sale_token_14 a ex:Token ;
+    ex:tokenValue "обращения" .
+
+ex:ad_001_ready_ooo_sale_token_15 a ex:Token ;
+    ex:tokenValue "легаси" .
+
+ex:ad_001_ready_ooo_sale_token_16 a ex:Token ;
+    ex:tokenValue "групп" .
+
+ex:ad_001_ready_ooo_sale_token_17 a ex:Token ;
+    ex:tokenValue "инн" .
+
+ex:ad_001_ready_ooo_sale_token_18 a ex:Token ;
+    ex:tokenValue "9728133683" .
+
+ex:ad_001_ready_ooo_sale_token_19 a ex:Token ;
+    ex:tokenValue "дата" .
+
+ex:ad_001_ready_ooo_sale_token_2 a ex:Token ;
+    ex:tokenValue "ооо" .
+
+ex:ad_001_ready_ooo_sale_token_20 a ex:Token ;
+    ex:tokenValue "регистрации" .
+
+ex:ad_001_ready_ooo_sale_token_21 a ex:Token ;
+    ex:tokenValue "24.05.2024" .
+
+ex:ad_001_ready_ooo_sale_token_22 a ex:Token ;
+    ex:tokenValue "ифнс" .
+
+ex:ad_001_ready_ooo_sale_token_23 a ex:Token ;
+    ex:tokenValue "москва" .
+
+ex:ad_001_ready_ooo_sale_token_24 a ex:Token ;
+    ex:tokenValue "юридический" .
+
+ex:ad_001_ready_ooo_sale_token_25 a ex:Token ;
+    ex:tokenValue "адрес" .
+
+ex:ad_001_ready_ooo_sale_token_26 a ex:Token ;
+    ex:tokenValue "30000" .
+
+ex:ad_001_ready_ooo_sale_token_27 a ex:Token ;
+    ex:tokenValue "осно" .
+
+ex:ad_001_ready_ooo_sale_token_28 a ex:Token ;
+    ex:tokenValue "уставной" .
+
+ex:ad_001_ready_ooo_sale_token_29 a ex:Token ;
+    ex:tokenValue "капитал" .
+
+ex:ad_001_ready_ooo_sale_token_3 a ex:Token ;
+    ex:tokenValue "без" .
+
+ex:ad_001_ready_ooo_sale_token_30 a ex:Token ;
+    ex:tokenValue "10000" .
+
+ex:ad_001_ready_ooo_sale_token_31 a ex:Token ;
+    ex:tokenValue "оборотов" .
+
+ex:ad_001_ready_ooo_sale_token_32 a ex:Token ;
+    ex:tokenValue "счетов" .
+
+ex:ad_001_ready_ooo_sale_token_33 a ex:Token ;
+    ex:tokenValue "нет" .
+
+ex:ad_001_ready_ooo_sale_token_34 a ex:Token ;
+    ex:tokenValue "нулевые" .
+
+ex:ad_001_ready_ooo_sale_token_35 a ex:Token ;
+    ex:tokenValue "отчеты" .
+
+ex:ad_001_ready_ooo_sale_token_36 a ex:Token ;
+    ex:tokenValue "сбис" .
+
+ex:ad_001_ready_ooo_sale_token_37 a ex:Token ;
+    ex:tokenValue "оквэд" .
+
+ex:ad_001_ready_ooo_sale_token_38 a ex:Token ;
+    ex:tokenValue "43.29" .
+
+ex:ad_001_ready_ooo_sale_token_39 a ex:Token ;
+    ex:tokenValue "задолженности" .
+
+ex:ad_001_ready_ooo_sale_token_4 a ex:Token ;
+    ex:tokenValue "долгов" .
+
+ex:ad_001_ready_ooo_sale_token_40 a ex:Token ;
+    ex:tokenValue "отсутствуют" .
+
+ex:ad_001_ready_ooo_sale_token_41 a ex:Token ;
+    ex:tokenValue "собственник" .
+
+ex:ad_001_ready_ooo_sale_token_42 a ex:Token ;
+    ex:tokenValue "нотариальная" .
+
+ex:ad_001_ready_ooo_sale_token_43 a ex:Token ;
+    ex:tokenValue "смена" .
+
+ex:ad_001_ready_ooo_sale_token_44 a ex:Token ;
+    ex:tokenValue "участника" .
+
+ex:ad_001_ready_ooo_sale_token_45 a ex:Token ;
+    ex:tokenValue "директора" .
+
+ex:ad_001_ready_ooo_sale_token_46 a ex:Token ;
+    ex:tokenValue "стоимость" .
+
+ex:ad_001_ready_ooo_sale_token_47 a ex:Token ;
+    ex:tokenValue "70000" .
+
+ex:ad_001_ready_ooo_sale_token_48 a ex:Token ;
+    ex:tokenValue "готовых" .
+
+ex:ad_001_ready_ooo_sale_token_49 a ex:Token ;
+    ex:tokenValue "ооо" .
+
+ex:ad_001_ready_ooo_sale_token_5 a ex:Token ;
+    ex:tokenValue "готовое" .
+
+ex:ad_001_ready_ooo_sale_token_50 a ex:Token ;
+    ex:tokenValue "ндс" .
+
+ex:ad_001_ready_ooo_sale_token_51 a ex:Token ;
+    ex:tokenValue "тендеры" .
+
+ex:ad_001_ready_ooo_sale_token_52 a ex:Token ;
+    ex:tokenValue "контрагенты" .
+
+ex:ad_001_ready_ooo_sale_token_53 a ex:Token ;
+    ex:tokenValue "документы" .
+
+ex:ad_001_ready_ooo_sale_token_54 a ex:Token ;
+    ex:tokenValue "риски" .
+
+ex:ad_001_ready_ooo_sale_token_55 a ex:Token ;
+    ex:tokenValue "юридически" .
+
+ex:ad_001_ready_ooo_sale_token_56 a ex:Token ;
+    ex:tokenValue "чистая" .
+
+ex:ad_001_ready_ooo_sale_token_57 a ex:Token ;
+    ex:tokenValue "организация" .
+
+ex:ad_001_ready_ooo_sale_token_58 a ex:Token ;
+    ex:tokenValue "консультация" .
+
+ex:ad_001_ready_ooo_sale_token_6 a ex:Token ;
+    ex:tokenValue "ооо" .
+
+ex:ad_001_ready_ooo_sale_token_7 a ex:Token ;
+    ex:tokenValue "гарантия" .
+
+ex:ad_001_ready_ooo_sale_token_8 a ex:Token ;
+    ex:tokenValue "чистой" .
+
+ex:ad_001_ready_ooo_sale_token_9 a ex:Token ;
+    ex:tokenValue "истории" .
+
+ex:ad_001_ready_ooo_sale_visual_attribute_1 a ex:VisualAttribute ;
+    ex:attributeName "style" ;
+    ex:attributeObjectId "obj1" ;
+    ex:attributeValue "business" .
+
+ex:ad_001_ready_ooo_sale_visual_attribute_2 a ex:VisualAttribute ;
+    ex:attributeName "emotion" ;
+    ex:attributeObjectId "obj1" ;
+    ex:attributeValue "neutral_confident" .
+
+ex:ad_001_ready_ooo_sale_visual_attribute_3 a ex:VisualAttribute ;
+    ex:attributeName "role" ;
+    ex:attributeObjectId "obj2" ;
+    ex:attributeValue "legal_trust_marker" .
+
+ex:ad_001_ready_ooo_sale_visual_attribute_4 a ex:VisualAttribute ;
+    ex:attributeName "text_style" ;
+    ex:attributeObjectId "obj3" ;
+    ex:attributeValue "large_uppercase_bold" .
+
+ex:ad_001_ready_ooo_sale_visual_attribute_5 a ex:VisualAttribute ;
+    ex:attributeName "symbolic_role" ;
+    ex:attributeObjectId "obj5" ;
+    ex:attributeValue "confirmation_trust" .
+
+ex:ad_002_yandex_maps_income_course a ex:Advertisement ;
+    ex:hasImageAnnotation ex:ad_002_yandex_maps_income_course_image ;
+    ex:hasLabel "fraud" ;
+    ex:hasTextAnnotation ex:ad_002_yandex_maps_income_course_text ;
+    ex:hasTitle "Онлайн заработок на Яндекс картах / Легкий заработок" .
+
+ex:ad_002_yandex_maps_income_course_color_1 a ex:ColorFeature ;
+    ex:colorIntensity "high" ;
+    ex:colorName "burgundy_red" ;
+    ex:colorRole "attention_and_urgency" .
+
+ex:ad_002_yandex_maps_income_course_color_2 a ex:ColorFeature ;
+    ex:colorIntensity "medium" ;
+    ex:colorName "white" ;
+    ex:colorRole "text_contrast" .
+
+ex:ad_002_yandex_maps_income_course_color_3 a ex:ColorFeature ;
+    ex:colorIntensity "medium" ;
+    ex:colorName "black_gray" ;
+    ex:colorRole "dramatic_person_visual" .
+
+ex:ad_002_yandex_maps_income_course_color_4 a ex:ColorFeature ;
+    ex:colorIntensity "low" ;
+    ex:colorName "light_gray" ;
+    ex:colorRole "neutral_background" .
+
+ex:ad_002_yandex_maps_income_course_color_5 a ex:ColorFeature ;
+    ex:colorIntensity "high" ;
+    ex:colorName "red" ;
+    ex:colorRole "rating_stars" .
+
+ex:ad_002_yandex_maps_income_course_dependency_1 a ex:Dependency ;
+    ex:dependencyRelation "ROOT" ;
+    ex:dependencyToken "заработок" .
+
+ex:ad_002_yandex_maps_income_course_dependency_10 a ex:Dependency ;
+    ex:dependencyHead "компаний" ;
+    ex:dependencyRelation "nummod" ;
+    ex:dependencyToken "500000" .
+
+ex:ad_002_yandex_maps_income_course_dependency_11 a ex:Dependency ;
+    ex:dependencyHead "человек" ;
+    ex:dependencyRelation "nummod" ;
+    ex:dependencyToken "10" .
+
+ex:ad_002_yandex_maps_income_course_dependency_2 a ex:Dependency ;
+    ex:dependencyHead "заработок" ;
+    ex:dependencyRelation "amod" ;
+    ex:dependencyToken "легкий" .
+
+ex:ad_002_yandex_maps_income_course_dependency_3 a ex:Dependency ;
+    ex:dependencyHead "заработок" ;
+    ex:dependencyRelation "amod" ;
+    ex:dependencyToken "онлайн" .
+
+ex:ad_002_yandex_maps_income_course_dependency_4 a ex:Dependency ;
+    ex:dependencyHead "подходит" ;
+    ex:dependencyRelation "nsubj" ;
+    ex:dependencyToken "обучение" .
+
+ex:ad_002_yandex_maps_income_course_dependency_5 a ex:Dependency ;
+    ex:dependencyHead "ищут" ;
+    ex:dependencyRelation "obj" ;
+    ex:dependencyToken "доход" .
+
+ex:ad_002_yandex_maps_income_course_dependency_6 a ex:Dependency ;
+    ex:dependencyHead "проходите" ;
+    ex:dependencyRelation "conj" ;
+    ex:dependencyToken "покупаете" .
+
+ex:ad_002_yandex_maps_income_course_dependency_7 a ex:Dependency ;
+    ex:dependencyHead "начать" ;
+    ex:dependencyRelation "xcomp" ;
+    ex:dependencyToken "работать" .
+
+ex:ad_002_yandex_maps_income_course_dependency_8 a ex:Dependency ;
+    ex:dependencyHead "повышение" ;
+    ex:dependencyRelation "nmod" ;
+    ex:dependencyToken "рейтинга" .
+
+ex:ad_002_yandex_maps_income_course_dependency_9 a ex:Dependency ;
+    ex:dependencyHead "руб" ;
+    ex:dependencyRelation "nummod" ;
+    ex:dependencyToken "60000" .
+
+ex:ad_002_yandex_maps_income_course_entity_1 a ex:NamedEntity ;
+    ex:entityText "Яндекс Карты" ;
+    ex:entityType "ORG" .
+
+ex:ad_002_yandex_maps_income_course_entity_2 a ex:NamedEntity ;
+    ex:entityText "Авито" ;
+    ex:entityType "ORG" .
+
+ex:ad_002_yandex_maps_income_course_entity_3 a ex:NamedEntity ;
+    ex:entityText "60 000 руб. в месяц" ;
+    ex:entityType "MONEY" .
+
+ex:ad_002_yandex_maps_income_course_entity_4 a ex:NamedEntity ;
+    ex:entityText "более 60 положительных отзывов" ;
+    ex:entityType "QUANTITY" .
+
+ex:ad_002_yandex_maps_income_course_entity_5 a ex:NamedEntity ;
+    ex:entityText "500 000 компаний" ;
+    ex:entityType "QUANTITY" .
+
+ex:ad_002_yandex_maps_income_course_entity_6 a ex:NamedEntity ;
+    ex:entityText "10 человек в месяц" ;
+    ex:entityType "QUANTITY" .
+
+ex:ad_002_yandex_maps_income_course_entity_7 a ex:NamedEntity ;
+    ex:entityText "24/7" ;
+    ex:entityType "TIME" .
+
+ex:ad_002_yandex_maps_income_course_entity_8 a ex:NamedEntity ;
+    ex:entityText "Турпал Мусхаджиев" ;
+    ex:entityType "PERSON" .
+
+ex:ad_002_yandex_maps_income_course_entity_9 a ex:NamedEntity ;
+    ex:entityText "Руслан Кеонов" ;
+    ex:entityType "PERSON" .
+
+ex:ad_002_yandex_maps_income_course_image a ex:ImageAnnotation ;
+    ex:brightness "medium" ;
+    ex:comment "Бордовые рекламные блоки и белый текст усиливают восприятие обещаний дохода.",
+        "Взгляд ведется от заголовка к доходу, готовому обучению, способу заработка и отзывам.",
+        "Визуал использует доход, отзывы, бренд и сильный образ для усиления доверия." ;
+    ex:contrast "high" ;
+    ex:description "Визуальная разметка рекламного изображения об обучении онлайн-заработку на Яндекс Картах." ;
+    ex:domain "online_income_training" ;
+    ex:focusArea "income_block_and_main_header" ;
+    ex:hasColorFeature ex:ad_002_yandex_maps_income_course_color_1,
+        ex:ad_002_yandex_maps_income_course_color_2,
+        ex:ad_002_yandex_maps_income_course_color_3,
+        ex:ad_002_yandex_maps_income_course_color_4,
+        ex:ad_002_yandex_maps_income_course_color_5 ;
+    ex:hasOCRText ex:ad_002_yandex_maps_income_course_ocr_1,
+        ex:ad_002_yandex_maps_income_course_ocr_2,
+        ex:ad_002_yandex_maps_income_course_ocr_3,
+        ex:ad_002_yandex_maps_income_course_ocr_4,
+        ex:ad_002_yandex_maps_income_course_ocr_5 ;
+    ex:hasRegion ex:ad_002_yandex_maps_income_course_region_r1,
+        ex:ad_002_yandex_maps_income_course_region_r2,
+        ex:ad_002_yandex_maps_income_course_region_r3,
+        ex:ad_002_yandex_maps_income_course_region_r4,
+        ex:ad_002_yandex_maps_income_course_region_r5,
+        ex:ad_002_yandex_maps_income_course_region_r6,
+        ex:ad_002_yandex_maps_income_course_region_r7 ;
+    ex:hasSentiment ex:ad_002_yandex_maps_income_course_image_sentiment ;
+    ex:hasSignal ex:ad_002_yandex_maps_income_course_image_risk_markers_1,
+        ex:ad_002_yandex_maps_income_course_image_risk_markers_2,
+        ex:ad_002_yandex_maps_income_course_image_risk_markers_3,
+        ex:ad_002_yandex_maps_income_course_image_risk_markers_4,
+        ex:ad_002_yandex_maps_income_course_image_signals_1,
+        ex:ad_002_yandex_maps_income_course_image_signals_2,
+        ex:ad_002_yandex_maps_income_course_image_signals_3,
+        ex:ad_002_yandex_maps_income_course_image_signals_4,
+        ex:ad_002_yandex_maps_income_course_image_signals_5,
+        ex:ad_002_yandex_maps_income_course_image_signals_6,
+        ex:ad_002_yandex_maps_income_course_image_trust_markers_1,
+        ex:ad_002_yandex_maps_income_course_image_trust_markers_2,
+        ex:ad_002_yandex_maps_income_course_image_trust_markers_3,
+        ex:ad_002_yandex_maps_income_course_image_trust_markers_4 ;
+    ex:hasSpatialRelation ex:ad_002_yandex_maps_income_course_spatial_relation_1,
+        ex:ad_002_yandex_maps_income_course_spatial_relation_2,
+        ex:ad_002_yandex_maps_income_course_spatial_relation_3,
+        ex:ad_002_yandex_maps_income_course_spatial_relation_4,
+        ex:ad_002_yandex_maps_income_course_spatial_relation_5 ;
+    ex:hasVisualAttribute ex:ad_002_yandex_maps_income_course_visual_attribute_1,
+        ex:ad_002_yandex_maps_income_course_visual_attribute_2,
+        ex:ad_002_yandex_maps_income_course_visual_attribute_3,
+        ex:ad_002_yandex_maps_income_course_visual_attribute_4,
+        ex:ad_002_yandex_maps_income_course_visual_attribute_5,
+        ex:ad_002_yandex_maps_income_course_visual_attribute_6 ;
+    ex:hasVisualObject ex:ad_002_yandex_maps_income_course_object_obj1,
+        ex:ad_002_yandex_maps_income_course_object_obj2,
+        ex:ad_002_yandex_maps_income_course_object_obj3,
+        ex:ad_002_yandex_maps_income_course_object_obj4,
+        ex:ad_002_yandex_maps_income_course_object_obj5,
+        ex:ad_002_yandex_maps_income_course_object_obj6,
+        ex:ad_002_yandex_maps_income_course_object_obj7 ;
+    ex:layout "text_blocks_left_and_bottom + person_center_right + logo_top_right" ;
+    ex:message "Продвижение курса по легкому онлайн-заработку через повышение рейтинга в Яндекс Картах." ;
+    ex:saturation "medium_high" ;
+    ex:sceneType "advertisement" .
+
+ex:ad_002_yandex_maps_income_course_image_risk_markers_1 a ex:Signal ;
+    ex:signalCategory "risk_markers" ;
+    ex:signalText "доход от 60 тысяч рублей" .
+
+ex:ad_002_yandex_maps_income_course_image_risk_markers_2 a ex:Signal ;
+    ex:signalCategory "risk_markers" ;
+    ex:signalText "легкий онлайн-заработок" .
+
+ex:ad_002_yandex_maps_income_course_image_risk_markers_3 a ex:Signal ;
+    ex:signalCategory "risk_markers" ;
+    ex:signalText "готовое обучение под ключ" .
+
+ex:ad_002_yandex_maps_income_course_image_risk_markers_4 a ex:Signal ;
+    ex:signalCategory "risk_markers" ;
+    ex:signalText "социальное доказательство через отзывы" .
+
+ex:ad_002_yandex_maps_income_course_image_sentiment a ex:Sentiment ;
+    ex:comment "Максимально позитивный рекламный визуальный тон." ;
+    ex:sentimentLabel "strong_aggressive_positive" ;
+    ex:sentimentScore "0.95"^^xsd:float .
+
+ex:ad_002_yandex_maps_income_course_image_signals_1 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "крупный заголовок" .
+
+ex:ad_002_yandex_maps_income_course_image_signals_2 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "обещание дохода" .
+
+ex:ad_002_yandex_maps_income_course_image_signals_3 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "легкий заработок" .
+
+ex:ad_002_yandex_maps_income_course_image_signals_4 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "готовое обучение" .
+
+ex:ad_002_yandex_maps_income_course_image_signals_5 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "положительные отзывы" .
+
+ex:ad_002_yandex_maps_income_course_image_signals_6 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "звезды" .
+
+ex:ad_002_yandex_maps_income_course_image_trust_markers_1 a ex:Signal ;
+    ex:signalCategory "trust_markers" ;
+    ex:signalText "логотип академии" .
+
+ex:ad_002_yandex_maps_income_course_image_trust_markers_2 a ex:Signal ;
+    ex:signalCategory "trust_markers" ;
+    ex:signalText "звезды рейтинга" .
+
+ex:ad_002_yandex_maps_income_course_image_trust_markers_3 a ex:Signal ;
+    ex:signalCategory "trust_markers" ;
+    ex:signalText "положительные отзывы" .
+
+ex:ad_002_yandex_maps_income_course_image_trust_markers_4 a ex:Signal ;
+    ex:signalCategory "trust_markers" ;
+    ex:signalText "структурированная подача" .
+
+ex:ad_002_yandex_maps_income_course_lemma_1 a ex:LemmaPair ;
+    ex:lemmaToken "заработок" ;
+    ex:lemmaValue "заработок" .
+
+ex:ad_002_yandex_maps_income_course_lemma_10 a ex:LemmaPair ;
+    ex:lemmaToken "рейтинга" ;
+    ex:lemmaValue "рейтинг" .
+
+ex:ad_002_yandex_maps_income_course_lemma_11 a ex:LemmaPair ;
+    ex:lemmaToken "отзывов" ;
+    ex:lemmaValue "отзыв" .
+
+ex:ad_002_yandex_maps_income_course_lemma_12 a ex:LemmaPair ;
+    ex:lemmaToken "предоставляется" ;
+    ex:lemmaValue "предоставляться" .
+
+ex:ad_002_yandex_maps_income_course_lemma_13 a ex:LemmaPair ;
+    ex:lemmaToken "зарабатывать" ;
+    ex:lemmaValue "зарабатывать" .
+
+ex:ad_002_yandex_maps_income_course_lemma_14 a ex:LemmaPair ;
+    ex:lemmaToken "ограничен" ;
+    ex:lemmaValue "ограничить" .
+
+ex:ad_002_yandex_maps_income_course_lemma_15 a ex:LemmaPair ;
+    ex:lemmaToken "свяжитесь" ;
+    ex:lemmaValue "связаться" .
+
+ex:ad_002_yandex_maps_income_course_lemma_2 a ex:LemmaPair ;
+    ex:lemmaToken "обучение" ;
+    ex:lemmaValue "обучение" .
+
+ex:ad_002_yandex_maps_income_course_lemma_3 a ex:LemmaPair ;
+    ex:lemmaToken "мам" ;
+    ex:lemmaValue "мама" .
+
+ex:ad_002_yandex_maps_income_course_lemma_4 a ex:LemmaPair ;
+    ex:lemmaToken "декрете" ;
+    ex:lemmaValue "декрет" .
+
+ex:ad_002_yandex_maps_income_course_lemma_5 a ex:LemmaPair ;
+    ex:lemmaToken "доход" ;
+    ex:lemmaValue "доход" .
+
+ex:ad_002_yandex_maps_income_course_lemma_6 a ex:LemmaPair ;
+    ex:lemmaToken "новичкам" ;
+    ex:lemmaValue "новичок" .
+
+ex:ad_002_yandex_maps_income_course_lemma_7 a ex:LemmaPair ;
+    ex:lemmaToken "покупаете" ;
+    ex:lemmaValue "покупать" .
+
+ex:ad_002_yandex_maps_income_course_lemma_8 a ex:LemmaPair ;
+    ex:lemmaToken "проходите" ;
+    ex:lemmaValue "проходить" .
+
+ex:ad_002_yandex_maps_income_course_lemma_9 a ex:LemmaPair ;
+    ex:lemmaToken "повышения" ;
+    ex:lemmaValue "повышение" .
+
+ex:ad_002_yandex_maps_income_course_object_obj1 a ex:VisualObject ;
+    ex:belongsToRegion "r1" ;
+    ex:objectClass "TEXT_BLOCK" ;
+    ex:objectId "obj1" ;
+    ex:objectName "main_header_banner" .
+
+ex:ad_002_yandex_maps_income_course_object_obj2 a ex:VisualObject ;
+    ex:belongsToRegion "r2" ;
+    ex:objectClass "TEXT_BLOCK" ;
+    ex:objectId "obj2" ;
+    ex:objectName "income_banner" .
+
+ex:ad_002_yandex_maps_income_course_object_obj3 a ex:VisualObject ;
+    ex:belongsToRegion "r3" ;
+    ex:objectClass "TEXT_BLOCK" ;
+    ex:objectId "obj3" ;
+    ex:objectName "course_banner" .
+
+ex:ad_002_yandex_maps_income_course_object_obj4 a ex:VisualObject ;
+    ex:belongsToRegion "r4" ;
+    ex:objectClass "PERSON" ;
+    ex:objectId "obj4" ;
+    ex:objectName "male_figure" .
+
+ex:ad_002_yandex_maps_income_course_object_obj5 a ex:VisualObject ;
+    ex:belongsToRegion "r5" ;
+    ex:objectClass "TEXT_BLOCK" ;
+    ex:objectId "obj5" ;
+    ex:objectName "method_banner" .
+
+ex:ad_002_yandex_maps_income_course_object_obj6 a ex:VisualObject ;
+    ex:belongsToRegion "r6" ;
+    ex:objectClass "TEXT_BLOCK" ;
+    ex:objectId "obj6" ;
+    ex:objectName "reviews_banner" .
+
+ex:ad_002_yandex_maps_income_course_object_obj7 a ex:VisualObject ;
+    ex:belongsToRegion "r7" ;
+    ex:objectClass "SYMBOL" ;
+    ex:objectId "obj7" ;
+    ex:objectName "stars" .
+
+ex:ad_002_yandex_maps_income_course_ocr_1 a ex:OCRText ;
+    ex:belongsToRegion "r1" ;
+    ex:ocrConfidence "0.95"^^xsd:float ;
+    ex:ocrText "ОБУЧЕНИЕ ЛЕГКОМУ ОНЛАЙН ЗАРАБОТКУ ДЛЯ НОВИЧКОВ НА ЯНДЕКС КАРТАХ" .
+
+ex:ad_002_yandex_maps_income_course_ocr_2 a ex:OCRText ;
+    ex:belongsToRegion "r2" ;
+    ex:ocrConfidence "0.92"^^xsd:float ;
+    ex:ocrText "ДОХОД ОТ 60Т.Р В МЕСЯЦ" .
+
+ex:ad_002_yandex_maps_income_course_ocr_3 a ex:OCRText ;
+    ex:belongsToRegion "r3" ;
+    ex:ocrConfidence "0.9"^^xsd:float ;
+    ex:ocrText "ГОТОВОЕ ОБУЧЕНИЕ ПОД КЛЮЧ" .
+
+ex:ad_002_yandex_maps_income_course_ocr_4 a ex:OCRText ;
+    ex:belongsToRegion "r5" ;
+    ex:ocrConfidence "0.93"^^xsd:float ;
+    ex:ocrText "ЛЕГКИЙ ОНЛАЙН ЗАРАБОТОК НА ПОДНЯТИИ РЕЙТИНГА В ЯНДЕКС КАРТАХ" .
+
+ex:ad_002_yandex_maps_income_course_ocr_5 a ex:OCRText ;
+    ex:belongsToRegion "r6" ;
+    ex:ocrConfidence "0.93"^^xsd:float ;
+    ex:ocrText "БОЛЕЕ 60 ПОЛОЖИТЕЛЬНЫХ ОТЗЫВОВ" .
+
+ex:ad_002_yandex_maps_income_course_phrase_1 a ex:Phrase ;
+    ex:phraseText "легкий онлайн заработок" ;
+    ex:phraseType "NP" .
+
+ex:ad_002_yandex_maps_income_course_phrase_2 a ex:Phrase ;
+    ex:phraseText "обучение для новичков" ;
+    ex:phraseType "NP" .
+
+ex:ad_002_yandex_maps_income_course_phrase_3 a ex:Phrase ;
+    ex:phraseText "покупаете курс" ;
+    ex:phraseType "VP" .
+
+ex:ad_002_yandex_maps_income_course_phrase_4 a ex:Phrase ;
+    ex:phraseText "проходите обучение" ;
+    ex:phraseType "VP" .
+
+ex:ad_002_yandex_maps_income_course_phrase_5 a ex:Phrase ;
+    ex:phraseText "можете начать работать" ;
+    ex:phraseType "VP" .
+
+ex:ad_002_yandex_maps_income_course_phrase_6 a ex:Phrase ;
+    ex:phraseText "доход от 60 000 руб. в месяц" ;
+    ex:phraseType "NP" .
+
+ex:ad_002_yandex_maps_income_course_phrase_7 a ex:Phrase ;
+    ex:phraseText "более 60 положительных отзывов" ;
+    ex:phraseType "NP" .
+
+ex:ad_002_yandex_maps_income_course_phrase_8 a ex:Phrase ;
+    ex:phraseText "набор ограничен" ;
+    ex:phraseType "NP" .
+
+ex:ad_002_yandex_maps_income_course_phrase_9 a ex:Phrase ;
+    ex:phraseText "свяжитесь с нами" ;
+    ex:phraseType "CTA" .
+
+ex:ad_002_yandex_maps_income_course_pos_1 a ex:POSTag ;
+    ex:posToken "онлайн" ;
+    ex:posValue "ADJ" .
+
+ex:ad_002_yandex_maps_income_course_pos_10 a ex:POSTag ;
+    ex:posToken "рейтинга" ;
+    ex:posValue "NOUN" .
+
+ex:ad_002_yandex_maps_income_course_pos_11 a ex:POSTag ;
+    ex:posToken "готовый" ;
+    ex:posValue "ADJ" .
+
+ex:ad_002_yandex_maps_income_course_pos_12 a ex:POSTag ;
+    ex:posToken "60" ;
+    ex:posValue "NUM" .
+
+ex:ad_002_yandex_maps_income_course_pos_13 a ex:POSTag ;
+    ex:posToken "60000" ;
+    ex:posValue "NUM" .
+
+ex:ad_002_yandex_maps_income_course_pos_14 a ex:POSTag ;
+    ex:posToken "500000" ;
+    ex:posValue "NUM" .
+
+ex:ad_002_yandex_maps_income_course_pos_15 a ex:POSTag ;
+    ex:posToken "гарантия" ;
+    ex:posValue "NOUN" .
+
+ex:ad_002_yandex_maps_income_course_pos_16 a ex:POSTag ;
+    ex:posToken "ограничен" ;
+    ex:posValue "VERB" .
+
+ex:ad_002_yandex_maps_income_course_pos_2 a ex:POSTag ;
+    ex:posToken "заработок" ;
+    ex:posValue "NOUN" .
+
+ex:ad_002_yandex_maps_income_course_pos_3 a ex:POSTag ;
+    ex:posToken "легкий" ;
+    ex:posValue "ADJ" .
+
+ex:ad_002_yandex_maps_income_course_pos_4 a ex:POSTag ;
+    ex:posToken "обучение" ;
+    ex:posValue "NOUN" .
+
+ex:ad_002_yandex_maps_income_course_pos_5 a ex:POSTag ;
+    ex:posToken "доход" ;
+    ex:posValue "NOUN" .
+
+ex:ad_002_yandex_maps_income_course_pos_6 a ex:POSTag ;
+    ex:posToken "покупаете" ;
+    ex:posValue "VERB" .
+
+ex:ad_002_yandex_maps_income_course_pos_7 a ex:POSTag ;
+    ex:posToken "проходите" ;
+    ex:posValue "VERB" .
+
+ex:ad_002_yandex_maps_income_course_pos_8 a ex:POSTag ;
+    ex:posToken "работать" ;
+    ex:posValue "VERB" .
+
+ex:ad_002_yandex_maps_income_course_pos_9 a ex:POSTag ;
+    ex:posToken "повышение" ;
+    ex:posValue "NOUN" .
+
+ex:ad_002_yandex_maps_income_course_region_r1 a ex:Region ;
+    ex:bboxHeight 145 ;
+    ex:bboxWidth 640 ;
+    ex:bboxX 75 ;
+    ex:bboxY 35 ;
+    ex:description "Главный заголовок об обучении легкому онлайн-заработку." ;
+    ex:position "top_left" ;
+    ex:regionId "r1" ;
+    ex:regionType "main_header" .
+
+ex:ad_002_yandex_maps_income_course_region_r2 a ex:Region ;
+    ex:bboxHeight 140 ;
+    ex:bboxWidth 230 ;
+    ex:bboxX 78 ;
+    ex:bboxY 225 ;
+    ex:description "Блок с обещанием дохода от 60 тыс. руб. в месяц." ;
+    ex:position "left_center_top" ;
+    ex:regionId "r2" ;
+    ex:regionType "income_block" .
+
+ex:ad_002_yandex_maps_income_course_region_r3 a ex:Region ;
+    ex:bboxHeight 135 ;
+    ex:bboxWidth 230 ;
+    ex:bboxX 78 ;
+    ex:bboxY 385 ;
+    ex:description "Блок «готовое обучение под ключ»." ;
+    ex:position "left_center" ;
+    ex:regionId "r3" ;
+    ex:regionType "ready_course_block" .
+
+ex:ad_002_yandex_maps_income_course_region_r4 a ex:Region ;
+    ex:bboxHeight 560 ;
+    ex:bboxWidth 430 ;
+    ex:bboxX 360 ;
+    ex:bboxY 210 ;
+    ex:description "Мужчина как визуальный маркер силы и уверенности." ;
+    ex:position "center_right" ;
+    ex:regionId "r4" ;
+    ex:regionType "person" .
+
+ex:ad_002_yandex_maps_income_course_region_r5 a ex:Region ;
+    ex:bboxHeight 150 ;
+    ex:bboxWidth 580 ;
+    ex:bboxX 90 ;
+    ex:bboxY 635 ;
+    ex:description "Блок о легком заработке на поднятии рейтинга." ;
+    ex:position "lower_center" ;
+    ex:regionId "r5" ;
+    ex:regionType "method_block" .
+
+ex:ad_002_yandex_maps_income_course_region_r6 a ex:Region ;
+    ex:bboxHeight 80 ;
+    ex:bboxWidth 815 ;
+    ex:bboxX 90 ;
+    ex:bboxY 825 ;
+    ex:description "Блок о более 60 положительных отзывах." ;
+    ex:position "bottom_center" ;
+    ex:regionId "r6" ;
+    ex:regionType "review_block" .
+
+ex:ad_002_yandex_maps_income_course_region_r7 a ex:Region ;
+    ex:bboxHeight 50 ;
+    ex:bboxWidth 175 ;
+    ex:bboxX 405 ;
+    ex:bboxY 920 ;
+    ex:description "Пять красных звезд как символ отзывов." ;
+    ex:position "bottom_center" ;
+    ex:regionId "r7" ;
+    ex:regionType "rating_stars" .
+
+ex:ad_002_yandex_maps_income_course_spatial_relation_1 a ex:Dependency ;
+    ex:relationFrom "main_header" ;
+    ex:relationTo "person" ;
+    ex:relationType "above" .
+
+ex:ad_002_yandex_maps_income_course_spatial_relation_2 a ex:Dependency ;
+    ex:relationFrom "income_block" ;
+    ex:relationTo "person" ;
+    ex:relationType "left_of" .
+
+ex:ad_002_yandex_maps_income_course_spatial_relation_3 a ex:Dependency ;
+    ex:relationFrom "ready_course_block" ;
+    ex:relationTo "income_block" ;
+    ex:relationType "below" .
+
+ex:ad_002_yandex_maps_income_course_spatial_relation_4 a ex:Dependency ;
+    ex:relationFrom "method_block" ;
+    ex:relationTo "person" ;
+    ex:relationType "in_front_of" .
+
+ex:ad_002_yandex_maps_income_course_spatial_relation_5 a ex:Dependency ;
+    ex:relationFrom "review_block" ;
+    ex:relationTo "method_block" ;
+    ex:relationType "below" .
+
+ex:ad_002_yandex_maps_income_course_text a ex:TextAnnotation ;
+    ex:classificationComment "Типичные признаки мошеннических предложений о заработке: легкий доход, быстрый старт, гарантии, отзывы и ограниченный набор." ;
+    ex:comment "Цепочка убеждения: простая схема входа, быстрый старт, обещание дохода, отзывы, гарантия, дефицит мест и CTA." ;
+    ex:description "Текстовая разметка объявления об обучении легкому онлайн-заработку на повышении рейтинга в геосервисах." ;
+    ex:hasDependency ex:ad_002_yandex_maps_income_course_dependency_1,
+        ex:ad_002_yandex_maps_income_course_dependency_10,
+        ex:ad_002_yandex_maps_income_course_dependency_11,
+        ex:ad_002_yandex_maps_income_course_dependency_2,
+        ex:ad_002_yandex_maps_income_course_dependency_3,
+        ex:ad_002_yandex_maps_income_course_dependency_4,
+        ex:ad_002_yandex_maps_income_course_dependency_5,
+        ex:ad_002_yandex_maps_income_course_dependency_6,
+        ex:ad_002_yandex_maps_income_course_dependency_7,
+        ex:ad_002_yandex_maps_income_course_dependency_8,
+        ex:ad_002_yandex_maps_income_course_dependency_9 ;
+    ex:hasLemmaPair ex:ad_002_yandex_maps_income_course_lemma_1,
+        ex:ad_002_yandex_maps_income_course_lemma_10,
+        ex:ad_002_yandex_maps_income_course_lemma_11,
+        ex:ad_002_yandex_maps_income_course_lemma_12,
+        ex:ad_002_yandex_maps_income_course_lemma_13,
+        ex:ad_002_yandex_maps_income_course_lemma_14,
+        ex:ad_002_yandex_maps_income_course_lemma_15,
+        ex:ad_002_yandex_maps_income_course_lemma_2,
+        ex:ad_002_yandex_maps_income_course_lemma_3,
+        ex:ad_002_yandex_maps_income_course_lemma_4,
+        ex:ad_002_yandex_maps_income_course_lemma_5,
+        ex:ad_002_yandex_maps_income_course_lemma_6,
+        ex:ad_002_yandex_maps_income_course_lemma_7,
+        ex:ad_002_yandex_maps_income_course_lemma_8,
+        ex:ad_002_yandex_maps_income_course_lemma_9 ;
+    ex:hasNamedEntity ex:ad_002_yandex_maps_income_course_entity_1,
+        ex:ad_002_yandex_maps_income_course_entity_2,
+        ex:ad_002_yandex_maps_income_course_entity_3,
+        ex:ad_002_yandex_maps_income_course_entity_4,
+        ex:ad_002_yandex_maps_income_course_entity_5,
+        ex:ad_002_yandex_maps_income_course_entity_6,
+        ex:ad_002_yandex_maps_income_course_entity_7,
+        ex:ad_002_yandex_maps_income_course_entity_8,
+        ex:ad_002_yandex_maps_income_course_entity_9 ;
+    ex:hasPOSTag ex:ad_002_yandex_maps_income_course_pos_1,
+        ex:ad_002_yandex_maps_income_course_pos_10,
+        ex:ad_002_yandex_maps_income_course_pos_11,
+        ex:ad_002_yandex_maps_income_course_pos_12,
+        ex:ad_002_yandex_maps_income_course_pos_13,
+        ex:ad_002_yandex_maps_income_course_pos_14,
+        ex:ad_002_yandex_maps_income_course_pos_15,
+        ex:ad_002_yandex_maps_income_course_pos_16,
+        ex:ad_002_yandex_maps_income_course_pos_2,
+        ex:ad_002_yandex_maps_income_course_pos_3,
+        ex:ad_002_yandex_maps_income_course_pos_4,
+        ex:ad_002_yandex_maps_income_course_pos_5,
+        ex:ad_002_yandex_maps_income_course_pos_6,
+        ex:ad_002_yandex_maps_income_course_pos_7,
+        ex:ad_002_yandex_maps_income_course_pos_8,
+        ex:ad_002_yandex_maps_income_course_pos_9 ;
+    ex:hasPhrase ex:ad_002_yandex_maps_income_course_phrase_1,
+        ex:ad_002_yandex_maps_income_course_phrase_2,
+        ex:ad_002_yandex_maps_income_course_phrase_3,
+        ex:ad_002_yandex_maps_income_course_phrase_4,
+        ex:ad_002_yandex_maps_income_course_phrase_5,
+        ex:ad_002_yandex_maps_income_course_phrase_6,
+        ex:ad_002_yandex_maps_income_course_phrase_7,
+        ex:ad_002_yandex_maps_income_course_phrase_8,
+        ex:ad_002_yandex_maps_income_course_phrase_9 ;
+    ex:hasSentiment ex:ad_002_yandex_maps_income_course_text_sentiment ;
+    ex:hasSignal ex:ad_002_yandex_maps_income_course_text_fraud_signals_1,
+        ex:ad_002_yandex_maps_income_course_text_fraud_signals_2,
+        ex:ad_002_yandex_maps_income_course_text_fraud_signals_3,
+        ex:ad_002_yandex_maps_income_course_text_fraud_signals_4,
+        ex:ad_002_yandex_maps_income_course_text_fraud_signals_5,
+        ex:ad_002_yandex_maps_income_course_text_fraud_signals_6,
+        ex:ad_002_yandex_maps_income_course_text_fraud_signals_7,
+        ex:ad_002_yandex_maps_income_course_text_fraud_signals_8,
+        ex:ad_002_yandex_maps_income_course_text_legit_like_signals_1,
+        ex:ad_002_yandex_maps_income_course_text_legit_like_signals_2,
+        ex:ad_002_yandex_maps_income_course_text_legit_like_signals_3,
+        ex:ad_002_yandex_maps_income_course_text_legit_like_signals_4 ;
+    ex:hasToken ex:ad_002_yandex_maps_income_course_token_1,
+        ex:ad_002_yandex_maps_income_course_token_10,
+        ex:ad_002_yandex_maps_income_course_token_11,
+        ex:ad_002_yandex_maps_income_course_token_12,
+        ex:ad_002_yandex_maps_income_course_token_13,
+        ex:ad_002_yandex_maps_income_course_token_14,
+        ex:ad_002_yandex_maps_income_course_token_15,
+        ex:ad_002_yandex_maps_income_course_token_16,
+        ex:ad_002_yandex_maps_income_course_token_17,
+        ex:ad_002_yandex_maps_income_course_token_18,
+        ex:ad_002_yandex_maps_income_course_token_19,
+        ex:ad_002_yandex_maps_income_course_token_2,
+        ex:ad_002_yandex_maps_income_course_token_20,
+        ex:ad_002_yandex_maps_income_course_token_21,
+        ex:ad_002_yandex_maps_income_course_token_22,
+        ex:ad_002_yandex_maps_income_course_token_23,
+        ex:ad_002_yandex_maps_income_course_token_24,
+        ex:ad_002_yandex_maps_income_course_token_25,
+        ex:ad_002_yandex_maps_income_course_token_26,
+        ex:ad_002_yandex_maps_income_course_token_27,
+        ex:ad_002_yandex_maps_income_course_token_28,
+        ex:ad_002_yandex_maps_income_course_token_29,
+        ex:ad_002_yandex_maps_income_course_token_3,
+        ex:ad_002_yandex_maps_income_course_token_30,
+        ex:ad_002_yandex_maps_income_course_token_31,
+        ex:ad_002_yandex_maps_income_course_token_32,
+        ex:ad_002_yandex_maps_income_course_token_33,
+        ex:ad_002_yandex_maps_income_course_token_34,
+        ex:ad_002_yandex_maps_income_course_token_35,
+        ex:ad_002_yandex_maps_income_course_token_36,
+        ex:ad_002_yandex_maps_income_course_token_37,
+        ex:ad_002_yandex_maps_income_course_token_38,
+        ex:ad_002_yandex_maps_income_course_token_39,
+        ex:ad_002_yandex_maps_income_course_token_4,
+        ex:ad_002_yandex_maps_income_course_token_40,
+        ex:ad_002_yandex_maps_income_course_token_41,
+        ex:ad_002_yandex_maps_income_course_token_42,
+        ex:ad_002_yandex_maps_income_course_token_43,
+        ex:ad_002_yandex_maps_income_course_token_44,
+        ex:ad_002_yandex_maps_income_course_token_5,
+        ex:ad_002_yandex_maps_income_course_token_6,
+        ex:ad_002_yandex_maps_income_course_token_7,
+        ex:ad_002_yandex_maps_income_course_token_8,
+        ex:ad_002_yandex_maps_income_course_token_9 ;
+    ex:riskLevel "high" ;
+    ex:syntaxStructure "NP -> VP -> обещание результата -> социальное доказательство -> ограничение -> CTA" .
+
+ex:ad_002_yandex_maps_income_course_text_fraud_signals_1 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "обещание легкого онлайн-заработка" .
+
+ex:ad_002_yandex_maps_income_course_text_fraud_signals_2 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "доход от 60 000 руб. в месяц" .
+
+ex:ad_002_yandex_maps_income_course_text_fraud_signals_3 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "начало работы на следующий день" .
+
+ex:ad_002_yandex_maps_income_course_text_fraud_signals_4 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "готовый метод заработка" .
+
+ex:ad_002_yandex_maps_income_course_text_fraud_signals_5 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "гарантия по каждому пункту обучения" .
+
+ex:ad_002_yandex_maps_income_course_text_fraud_signals_6 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "более 60 положительных отзывов" .
+
+ex:ad_002_yandex_maps_income_course_text_fraud_signals_7 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "услуга повышения рейтинга на геосервисах" .
+
+ex:ad_002_yandex_maps_income_course_text_fraud_signals_8 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "ограниченный набор 10 человек в месяц" .
+
+ex:ad_002_yandex_maps_income_course_text_legit_like_signals_1 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "указано содержание курса" .
+
+ex:ad_002_yandex_maps_income_course_text_legit_like_signals_2 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "описана целевая аудитория" .
+
+ex:ad_002_yandex_maps_income_course_text_legit_like_signals_3 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "перечислены авторы" .
+
+ex:ad_002_yandex_maps_income_course_text_legit_like_signals_4 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "описана схема работы" .
+
+ex:ad_002_yandex_maps_income_course_text_sentiment a ex:Sentiment ;
+    ex:comment "Сильно позитивный и убеждающий тон: легкий заработок, быстрый старт, гарантия, отзывы и ограниченный набор." ;
+    ex:sentimentLabel "strong_positive_persuasive" ;
+    ex:sentimentScore "0.9"^^xsd:float .
+
+ex:ad_002_yandex_maps_income_course_token_1 a ex:Token ;
+    ex:tokenValue "онлайн" .
+
+ex:ad_002_yandex_maps_income_course_token_10 a ex:Token ;
+    ex:tokenValue "доход" .
+
+ex:ad_002_yandex_maps_income_course_token_11 a ex:Token ;
+    ex:tokenValue "новичкам" .
+
+ex:ad_002_yandex_maps_income_course_token_12 a ex:Token ;
+    ex:tokenValue "курс" .
+
+ex:ad_002_yandex_maps_income_course_token_13 a ex:Token ;
+    ex:tokenValue "следующий" .
+
+ex:ad_002_yandex_maps_income_course_token_14 a ex:Token ;
+    ex:tokenValue "день" .
+
+ex:ad_002_yandex_maps_income_course_token_15 a ex:Token ;
+    ex:tokenValue "работать" .
+
+ex:ad_002_yandex_maps_income_course_token_16 a ex:Token ;
+    ex:tokenValue "геосервисы" .
+
+ex:ad_002_yandex_maps_income_course_token_17 a ex:Token ;
+    ex:tokenValue "повышение" .
+
+ex:ad_002_yandex_maps_income_course_token_18 a ex:Token ;
+    ex:tokenValue "рейтинга" .
+
+ex:ad_002_yandex_maps_income_course_token_19 a ex:Token ;
+    ex:tokenValue "готовый" .
+
+ex:ad_002_yandex_maps_income_course_token_2 a ex:Token ;
+    ex:tokenValue "заработок" .
+
+ex:ad_002_yandex_maps_income_course_token_20 a ex:Token ;
+    ex:tokenValue "метод" .
+
+ex:ad_002_yandex_maps_income_course_token_21 a ex:Token ;
+    ex:tokenValue "60" .
+
+ex:ad_002_yandex_maps_income_course_token_22 a ex:Token ;
+    ex:tokenValue "положительных" .
+
+ex:ad_002_yandex_maps_income_course_token_23 a ex:Token ;
+    ex:tokenValue "отзывов" .
+
+ex:ad_002_yandex_maps_income_course_token_24 a ex:Token ;
+    ex:tokenValue "сертифицированные" .
+
+ex:ad_002_yandex_maps_income_course_token_25 a ex:Token ;
+    ex:tokenValue "специалисты" .
+
+ex:ad_002_yandex_maps_income_course_token_26 a ex:Token ;
+    ex:tokenValue "гарантия" .
+
+ex:ad_002_yandex_maps_income_course_token_27 a ex:Token ;
+    ex:tokenValue "компании" .
+
+ex:ad_002_yandex_maps_income_course_token_28 a ex:Token ;
+    ex:tokenValue "готовая" .
+
+ex:ad_002_yandex_maps_income_course_token_29 a ex:Token ;
+    ex:tokenValue "система" .
+
+ex:ad_002_yandex_maps_income_course_token_3 a ex:Token ;
+    ex:tokenValue "яндекс" .
+
+ex:ad_002_yandex_maps_income_course_token_30 a ex:Token ;
+    ex:tokenValue "зарабатывать" .
+
+ex:ad_002_yandex_maps_income_course_token_31 a ex:Token ;
+    ex:tokenValue "60000" .
+
+ex:ad_002_yandex_maps_income_course_token_32 a ex:Token ;
+    ex:tokenValue "руб" .
+
+ex:ad_002_yandex_maps_income_course_token_33 a ex:Token ;
+    ex:tokenValue "месяц" .
+
+ex:ad_002_yandex_maps_income_course_token_34 a ex:Token ;
+    ex:tokenValue "500000" .
+
+ex:ad_002_yandex_maps_income_course_token_35 a ex:Token ;
+    ex:tokenValue "компаний" .
+
+ex:ad_002_yandex_maps_income_course_token_36 a ex:Token ;
+    ex:tokenValue "без" .
+
+ex:ad_002_yandex_maps_income_course_token_37 a ex:Token ;
+    ex:tokenValue "вложений" .
+
+ex:ad_002_yandex_maps_income_course_token_38 a ex:Token ;
+    ex:tokenValue "набор" .
+
+ex:ad_002_yandex_maps_income_course_token_39 a ex:Token ;
+    ex:tokenValue "ограничен" .
+
+ex:ad_002_yandex_maps_income_course_token_4 a ex:Token ;
+    ex:tokenValue "картах" .
+
+ex:ad_002_yandex_maps_income_course_token_40 a ex:Token ;
+    ex:tokenValue "10" .
+
+ex:ad_002_yandex_maps_income_course_token_41 a ex:Token ;
+    ex:tokenValue "человек" .
+
+ex:ad_002_yandex_maps_income_course_token_42 a ex:Token ;
+    ex:tokenValue "консультация" .
+
+ex:ad_002_yandex_maps_income_course_token_43 a ex:Token ;
+    ex:tokenValue "24/7" .
+
+ex:ad_002_yandex_maps_income_course_token_44 a ex:Token ;
+    ex:tokenValue "сопровождение" .
+
+ex:ad_002_yandex_maps_income_course_token_5 a ex:Token ;
+    ex:tokenValue "легкий" .
+
+ex:ad_002_yandex_maps_income_course_token_6 a ex:Token ;
+    ex:tokenValue "обучение" .
+
+ex:ad_002_yandex_maps_income_course_token_7 a ex:Token ;
+    ex:tokenValue "мам" .
+
+ex:ad_002_yandex_maps_income_course_token_8 a ex:Token ;
+    ex:tokenValue "декрете" .
+
+ex:ad_002_yandex_maps_income_course_token_9 a ex:Token ;
+    ex:tokenValue "дополнительный" .
+
+ex:ad_002_yandex_maps_income_course_visual_attribute_1 a ex:VisualAttribute ;
+    ex:attributeName "text_style" ;
+    ex:attributeObjectId "obj1" ;
+    ex:attributeValue "large_uppercase_bold" .
+
+ex:ad_002_yandex_maps_income_course_visual_attribute_2 a ex:VisualAttribute ;
+    ex:attributeName "message_type" ;
+    ex:attributeObjectId "obj2" ;
+    ex:attributeValue "income_promise" .
+
+ex:ad_002_yandex_maps_income_course_visual_attribute_3 a ex:VisualAttribute ;
+    ex:attributeName "message_type" ;
+    ex:attributeObjectId "obj3" ;
+    ex:attributeValue "ready_solution" .
+
+ex:ad_002_yandex_maps_income_course_visual_attribute_4 a ex:VisualAttribute ;
+    ex:attributeName "visual_role" ;
+    ex:attributeObjectId "obj4" ;
+    ex:attributeValue "strength_confidence_attention" .
+
+ex:ad_002_yandex_maps_income_course_visual_attribute_5 a ex:VisualAttribute ;
+    ex:attributeName "message_type" ;
+    ex:attributeObjectId "obj6" ;
+    ex:attributeValue "social_proof" .
+
+ex:ad_002_yandex_maps_income_course_visual_attribute_6 a ex:VisualAttribute ;
+    ex:attributeName "symbolic_role" ;
+    ex:attributeObjectId "obj7" ;
+    ex:attributeValue "positive_reviews_trust" .
+
+ex:ad_003_home_income_no_investment a ex:Advertisement ;
+    ex:hasImageAnnotation ex:ad_003_home_income_no_investment_image ;
+    ex:hasLabel "fraud" ;
+    ex:hasTextAnnotation ex:ad_003_home_income_no_investment_text ;
+    ex:hasTitle "Как заработать 100к из дома без вложений" .
+
+ex:ad_003_home_income_no_investment_color_1 a ex:ColorFeature ;
+    ex:colorIntensity "high" ;
+    ex:colorName "white" ;
+    ex:colorRole "background" .
+
+ex:ad_003_home_income_no_investment_color_2 a ex:ColorFeature ;
+    ex:colorIntensity "high" ;
+    ex:colorName "green" ;
+    ex:colorRole "income_positive_amounts" .
+
+ex:ad_003_home_income_no_investment_color_3 a ex:ColorFeature ;
+    ex:colorIntensity "medium" ;
+    ex:colorName "purple" ;
+    ex:colorRole "bank_interface_blocks" .
+
+ex:ad_003_home_income_no_investment_color_4 a ex:ColorFeature ;
+    ex:colorIntensity "medium" ;
+    ex:colorName "yellow" ;
+    ex:colorRole "bank_interface_accent" .
+
+ex:ad_003_home_income_no_investment_color_5 a ex:ColorFeature ;
+    ex:colorIntensity "medium" ;
+    ex:colorName "gray" ;
+    ex:colorRole "masked_data_and_interface" .
+
+ex:ad_003_home_income_no_investment_color_6 a ex:ColorFeature ;
+    ex:colorIntensity "medium" ;
+    ex:colorName "black" ;
+    ex:colorRole "header_and_text" .
+
+ex:ad_003_home_income_no_investment_dependency_1 a ex:Dependency ;
+    ex:dependencyRelation "ROOT" ;
+    ex:dependencyToken "заработать" .
+
+ex:ad_003_home_income_no_investment_dependency_10 a ex:Dependency ;
+    ex:dependencyRelation "ROOT" ;
+    ex:dependencyToken "находите" .
+
+ex:ad_003_home_income_no_investment_dependency_11 a ex:Dependency ;
+    ex:dependencyHead "находите" ;
+    ex:dependencyRelation "obj" ;
+    ex:dependencyToken "клиента" .
+
+ex:ad_003_home_income_no_investment_dependency_12 a ex:Dependency ;
+    ex:dependencyHead "находите" ;
+    ex:dependencyRelation "conj" ;
+    ex:dependencyToken "передаете" .
+
+ex:ad_003_home_income_no_investment_dependency_13 a ex:Dependency ;
+    ex:dependencyHead "находите" ;
+    ex:dependencyRelation "conj" ;
+    ex:dependencyToken "получаете" .
+
+ex:ad_003_home_income_no_investment_dependency_14 a ex:Dependency ;
+    ex:dependencyHead "получаете" ;
+    ex:dependencyRelation "obj" ;
+    ex:dependencyToken "процент" .
+
+ex:ad_003_home_income_no_investment_dependency_15 a ex:Dependency ;
+    ex:dependencyRelation "ROOT" ;
+    ex:dependencyToken "окупаемость" .
+
+ex:ad_003_home_income_no_investment_dependency_16 a ex:Dependency ;
+    ex:dependencyRelation "ROOT" ;
+    ex:dependencyToken "напишите" .
+
+ex:ad_003_home_income_no_investment_dependency_17 a ex:Dependency ;
+    ex:dependencyHead "напишите" ;
+    ex:dependencyRelation "obj" ;
+    ex:dependencyToken "союз" .
+
+ex:ad_003_home_income_no_investment_dependency_2 a ex:Dependency ;
+    ex:dependencyHead "заработать" ;
+    ex:dependencyRelation "obj" ;
+    ex:dependencyToken "100к" .
+
+ex:ad_003_home_income_no_investment_dependency_3 a ex:Dependency ;
+    ex:dependencyHead "заработать" ;
+    ex:dependencyRelation "obl" ;
+    ex:dependencyToken "дома" .
+
+ex:ad_003_home_income_no_investment_dependency_4 a ex:Dependency ;
+    ex:dependencyHead "без" ;
+    ex:dependencyRelation "obl" ;
+    ex:dependencyToken "вложений" .
+
+ex:ad_003_home_income_no_investment_dependency_5 a ex:Dependency ;
+    ex:dependencyRelation "ROOT" ;
+    ex:dependencyToken "способ" .
+
+ex:ad_003_home_income_no_investment_dependency_6 a ex:Dependency ;
+    ex:dependencyHead "способ" ;
+    ex:dependencyRelation "amod" ;
+    ex:dependencyToken "понятный" .
+
+ex:ad_003_home_income_no_investment_dependency_7 a ex:Dependency ;
+    ex:dependencyHead "способ" ;
+    ex:dependencyRelation "nmod" ;
+    ex:dependencyToken "заработка" .
+
+ex:ad_003_home_income_no_investment_dependency_8 a ex:Dependency ;
+    ex:dependencyHead "рублей" ;
+    ex:dependencyRelation "nummod" ;
+    ex:dependencyToken "50000" .
+
+ex:ad_003_home_income_no_investment_dependency_9 a ex:Dependency ;
+    ex:dependencyHead "рублей" ;
+    ex:dependencyRelation "nummod" ;
+    ex:dependencyToken "100000" .
+
+ex:ad_003_home_income_no_investment_entity_1 a ex:NamedEntity ;
+    ex:entityText "100к" ;
+    ex:entityType "MONEY" .
+
+ex:ad_003_home_income_no_investment_entity_10 a ex:NamedEntity ;
+    ex:entityText "100 000–500 000 руб." ;
+    ex:entityType "MONEY_RANGE" .
+
+ex:ad_003_home_income_no_investment_entity_11 a ex:NamedEntity ;
+    ex:entityText "10 000–75 000 руб." ;
+    ex:entityType "MONEY_RANGE" .
+
+ex:ad_003_home_income_no_investment_entity_12 a ex:NamedEntity ;
+    ex:entityText "10–15%" ;
+    ex:entityType "PERCENT" .
+
+ex:ad_003_home_income_no_investment_entity_13 a ex:NamedEntity ;
+    ex:entityText "2–3 часа в день" ;
+    ex:entityType "TIME_PERIOD" .
+
+ex:ad_003_home_income_no_investment_entity_14 a ex:NamedEntity ;
+    ex:entityText "20 000 руб." ;
+    ex:entityType "MONEY" .
+
+ex:ad_003_home_income_no_investment_entity_15 a ex:NamedEntity ;
+    ex:entityText "26 500 руб." ;
+    ex:entityType "MONEY" .
+
+ex:ad_003_home_income_no_investment_entity_16 a ex:NamedEntity ;
+    ex:entityText "39 000 руб." ;
+    ex:entityType "MONEY" .
+
+ex:ad_003_home_income_no_investment_entity_17 a ex:NamedEntity ;
+    ex:entityText "16 656 руб." ;
+    ex:entityType "MONEY" .
+
+ex:ad_003_home_income_no_investment_entity_18 a ex:NamedEntity ;
+    ex:entityText "7–20 дней" ;
+    ex:entityType "TIME_PERIOD" .
+
+ex:ad_003_home_income_no_investment_entity_19 a ex:NamedEntity ;
+    ex:entityText "4 990 руб." ;
+    ex:entityType "MONEY" .
+
+ex:ad_003_home_income_no_investment_entity_2 a ex:NamedEntity ;
+    ex:entityText "50 000–100 000+ рублей" ;
+    ex:entityType "MONEY_RANGE" .
+
+ex:ad_003_home_income_no_investment_entity_3 a ex:NamedEntity ;
+    ex:entityText "Союз" ;
+    ex:entityType "PRODUCT" .
+
+ex:ad_003_home_income_no_investment_entity_4 a ex:NamedEntity ;
+    ex:entityText "Кирилл Хворост" ;
+    ex:entityType "PERSON" .
+
+ex:ad_003_home_income_no_investment_entity_5 a ex:NamedEntity ;
+    ex:entityText "2015 год" ;
+    ex:entityType "DATE" .
+
+ex:ad_003_home_income_no_investment_entity_6 a ex:NamedEntity ;
+    ex:entityText "7 проектов" ;
+    ex:entityType "QUANTITY" .
+
+ex:ad_003_home_income_no_investment_entity_7 a ex:NamedEntity ;
+    ex:entityText "11 партнеров" ;
+    ex:entityType "QUANTITY" .
+
+ex:ad_003_home_income_no_investment_entity_8 a ex:NamedEntity ;
+    ex:entityText "более 1 млрд рублей" ;
+    ex:entityType "MONEY" .
+
+ex:ad_003_home_income_no_investment_entity_9 a ex:NamedEntity ;
+    ex:entityText "Telegram" ;
+    ex:entityType "ORG" .
+
+ex:ad_003_home_income_no_investment_image a ex:ImageAnnotation ;
+    ex:brightness "high" ;
+    ex:comment "Зеленые суммы усиливают ассоциацию с доходом и выплатами.",
+        "Несколько скриншотов с суммами создают впечатление большого количества выплат.",
+        "Повторяющиеся суммы и замазанные данные создают ощущение достоверности." ;
+    ex:contrast "medium_high" ;
+    ex:description "Визуальная разметка изображения с демонстрацией выплат." ;
+    ex:domain "online_income_course" ;
+    ex:focusArea "green_payment_amounts" ;
+    ex:hasColorFeature ex:ad_003_home_income_no_investment_color_1,
+        ex:ad_003_home_income_no_investment_color_2,
+        ex:ad_003_home_income_no_investment_color_3,
+        ex:ad_003_home_income_no_investment_color_4,
+        ex:ad_003_home_income_no_investment_color_5,
+        ex:ad_003_home_income_no_investment_color_6 ;
+    ex:hasOCRText ex:ad_003_home_income_no_investment_ocr_1,
+        ex:ad_003_home_income_no_investment_ocr_10,
+        ex:ad_003_home_income_no_investment_ocr_2,
+        ex:ad_003_home_income_no_investment_ocr_3,
+        ex:ad_003_home_income_no_investment_ocr_4,
+        ex:ad_003_home_income_no_investment_ocr_5,
+        ex:ad_003_home_income_no_investment_ocr_6,
+        ex:ad_003_home_income_no_investment_ocr_7,
+        ex:ad_003_home_income_no_investment_ocr_8,
+        ex:ad_003_home_income_no_investment_ocr_9 ;
+    ex:hasRegion ex:ad_003_home_income_no_investment_region_r1,
+        ex:ad_003_home_income_no_investment_region_r2,
+        ex:ad_003_home_income_no_investment_region_r3,
+        ex:ad_003_home_income_no_investment_region_r4,
+        ex:ad_003_home_income_no_investment_region_r5,
+        ex:ad_003_home_income_no_investment_region_r6 ;
+    ex:hasSentiment ex:ad_003_home_income_no_investment_image_sentiment ;
+    ex:hasSignal ex:ad_003_home_income_no_investment_image_risk_markers_1,
+        ex:ad_003_home_income_no_investment_image_risk_markers_2,
+        ex:ad_003_home_income_no_investment_image_risk_markers_3,
+        ex:ad_003_home_income_no_investment_image_risk_markers_4,
+        ex:ad_003_home_income_no_investment_image_signals_1,
+        ex:ad_003_home_income_no_investment_image_signals_2,
+        ex:ad_003_home_income_no_investment_image_signals_3,
+        ex:ad_003_home_income_no_investment_image_signals_4,
+        ex:ad_003_home_income_no_investment_image_signals_5,
+        ex:ad_003_home_income_no_investment_image_trust_markers_1,
+        ex:ad_003_home_income_no_investment_image_trust_markers_2,
+        ex:ad_003_home_income_no_investment_image_trust_markers_3 ;
+    ex:hasSpatialRelation ex:ad_003_home_income_no_investment_spatial_relation_1,
+        ex:ad_003_home_income_no_investment_spatial_relation_2,
+        ex:ad_003_home_income_no_investment_spatial_relation_3,
+        ex:ad_003_home_income_no_investment_spatial_relation_4 ;
+    ex:hasVisualAttribute ex:ad_003_home_income_no_investment_visual_attribute_1,
+        ex:ad_003_home_income_no_investment_visual_attribute_2,
+        ex:ad_003_home_income_no_investment_visual_attribute_3,
+        ex:ad_003_home_income_no_investment_visual_attribute_4,
+        ex:ad_003_home_income_no_investment_visual_attribute_5,
+        ex:ad_003_home_income_no_investment_visual_attribute_6 ;
+    ex:hasVisualObject ex:ad_003_home_income_no_investment_object_obj1,
+        ex:ad_003_home_income_no_investment_object_obj2,
+        ex:ad_003_home_income_no_investment_object_obj3,
+        ex:ad_003_home_income_no_investment_object_obj4,
+        ex:ad_003_home_income_no_investment_object_obj5,
+        ex:ad_003_home_income_no_investment_object_obj6,
+        ex:ad_003_home_income_no_investment_object_obj7 ;
+    ex:layout "collage_of_payment_screenshots + header_top" ;
+    ex:message "Изображение демонстрирует якобы реальные выплаты и переводы для усиления доверия к курсу." ;
+    ex:saturation "medium" ;
+    ex:sceneType "advertisement_proof_collage" .
+
+ex:ad_003_home_income_no_investment_image_risk_markers_1 a ex:Signal ;
+    ex:signalCategory "risk_markers" ;
+    ex:signalText "демонстрация крупных выплат" .
+
+ex:ad_003_home_income_no_investment_image_risk_markers_2 a ex:Signal ;
+    ex:signalCategory "risk_markers" ;
+    ex:signalText "социальное доказательство" .
+
+ex:ad_003_home_income_no_investment_image_risk_markers_3 a ex:Signal ;
+    ex:signalCategory "risk_markers" ;
+    ex:signalText "имитация достоверности через банковские скриншоты" .
+
+ex:ad_003_home_income_no_investment_image_risk_markers_4 a ex:Signal ;
+    ex:signalCategory "risk_markers" ;
+    ex:signalText "многочисленные суммы без проверяемого контекста" .
+
+ex:ad_003_home_income_no_investment_image_sentiment a ex:Sentiment ;
+    ex:comment "Сильно позитивный визуальный тон: ощущение успешного заработка и реальности выплат." ;
+    ex:sentimentLabel "strong_positive_income_proof" ;
+    ex:sentimentScore "0.9"^^xsd:float .
+
+ex:ad_003_home_income_no_investment_image_signals_1 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "заголовок «Выплаты»" .
+
+ex:ad_003_home_income_no_investment_image_signals_2 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "много скриншотов переводов" .
+
+ex:ad_003_home_income_no_investment_image_signals_3 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "крупные зеленые суммы" .
+
+ex:ad_003_home_income_no_investment_image_signals_4 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "замазанные персональные данные" .
+
+ex:ad_003_home_income_no_investment_image_signals_5 a ex:Signal ;
+    ex:signalCategory "signals" ;
+    ex:signalText "коллаж как доказательство результата" .
+
+ex:ad_003_home_income_no_investment_image_trust_markers_1 a ex:Signal ;
+    ex:signalCategory "trust_markers" ;
+    ex:signalText "скриншоты банковских интерфейсов" .
+
+ex:ad_003_home_income_no_investment_image_trust_markers_2 a ex:Signal ;
+    ex:signalCategory "trust_markers" ;
+    ex:signalText "замазанные персональные данные" .
+
+ex:ad_003_home_income_no_investment_image_trust_markers_3 a ex:Signal ;
+    ex:signalCategory "trust_markers" ;
+    ex:signalText "много разных сумм" .
+
+ex:ad_003_home_income_no_investment_lemma_1 a ex:LemmaPair ;
+    ex:lemmaToken "заработать" ;
+    ex:lemmaValue "заработать" .
+
+ex:ad_003_home_income_no_investment_lemma_10 a ex:LemmaPair ;
+    ex:lemmaToken "находите" ;
+    ex:lemmaValue "находить" .
+
+ex:ad_003_home_income_no_investment_lemma_11 a ex:LemmaPair ;
+    ex:lemmaToken "передаете" ;
+    ex:lemmaValue "передавать" .
+
+ex:ad_003_home_income_no_investment_lemma_12 a ex:LemmaPair ;
+    ex:lemmaToken "разместить" ;
+    ex:lemmaValue "разместить" .
+
+ex:ad_003_home_income_no_investment_lemma_13 a ex:LemmaPair ;
+    ex:lemmaToken "напишите" ;
+    ex:lemmaValue "написать" .
+
+ex:ad_003_home_income_no_investment_lemma_2 a ex:LemmaPair ;
+    ex:lemmaToken "дома" ;
+    ex:lemmaValue "дом" .
+
+ex:ad_003_home_income_no_investment_lemma_3 a ex:LemmaPair ;
+    ex:lemmaToken "вложений" ;
+    ex:lemmaValue "вложение" .
+
+ex:ad_003_home_income_no_investment_lemma_4 a ex:LemmaPair ;
+    ex:lemmaToken "заработка" ;
+    ex:lemmaValue "заработок" .
+
+ex:ad_003_home_income_no_investment_lemma_5 a ex:LemmaPair ;
+    ex:lemmaToken "товаров" ;
+    ex:lemmaValue "товар" .
+
+ex:ad_003_home_income_no_investment_lemma_6 a ex:LemmaPair ;
+    ex:lemmaToken "закупок" ;
+    ex:lemmaValue "закупка" .
+
+ex:ad_003_home_income_no_investment_lemma_7 a ex:LemmaPair ;
+    ex:lemmaToken "проектов" ;
+    ex:lemmaValue "проект" .
+
+ex:ad_003_home_income_no_investment_lemma_8 a ex:LemmaPair ;
+    ex:lemmaToken "партнеров" ;
+    ex:lemmaValue "партнер" .
+
+ex:ad_003_home_income_no_investment_lemma_9 a ex:LemmaPair ;
+    ex:lemmaToken "получаете" ;
+    ex:lemmaValue "получать" .
+
+ex:ad_003_home_income_no_investment_object_obj1 a ex:VisualObject ;
+    ex:belongsToRegion "r1" ;
+    ex:objectClass "TEXT" ;
+    ex:objectId "obj1" ;
+    ex:objectName "header_text" .
+
+ex:ad_003_home_income_no_investment_object_obj2 a ex:VisualObject ;
+    ex:belongsToRegion "r2" ;
+    ex:objectClass "SCREENSHOT" ;
+    ex:objectId "obj2" ;
+    ex:objectName "payment_screenshot_left" .
+
+ex:ad_003_home_income_no_investment_object_obj3 a ex:VisualObject ;
+    ex:belongsToRegion "r3" ;
+    ex:objectClass "MONEY_TEXT" ;
+    ex:objectId "obj3" ;
+    ex:objectName "payment_amounts_center" .
+
+ex:ad_003_home_income_no_investment_object_obj4 a ex:VisualObject ;
+    ex:belongsToRegion "r4" ;
+    ex:objectClass "SCREENSHOT" ;
+    ex:objectId "obj4" ;
+    ex:objectName "large_payment_screenshot" .
+
+ex:ad_003_home_income_no_investment_object_obj5 a ex:VisualObject ;
+    ex:belongsToRegion "r5" ;
+    ex:objectClass "SCREENSHOT" ;
+    ex:objectId "obj5" ;
+    ex:objectName "bank_transfer_screenshot" .
+
+ex:ad_003_home_income_no_investment_object_obj6 a ex:VisualObject ;
+    ex:belongsToRegion "r6" ;
+    ex:objectClass "MONEY_TEXT" ;
+    ex:objectId "obj6" ;
+    ex:objectName "payment_amounts_right" .
+
+ex:ad_003_home_income_no_investment_object_obj7 a ex:VisualObject ;
+    ex:belongsToRegion "multiple" ;
+    ex:objectClass "PRIVACY_MASK" ;
+    ex:objectId "obj7" ;
+    ex:objectName "masked_data" .
+
+ex:ad_003_home_income_no_investment_ocr_1 a ex:OCRText ;
+    ex:belongsToRegion "r1" ;
+    ex:ocrConfidence "0.95"^^xsd:float ;
+    ex:ocrText "Выплаты" .
+
+ex:ad_003_home_income_no_investment_ocr_10 a ex:OCRText ;
+    ex:belongsToRegion "multiple" ;
+    ex:ocrConfidence "0.8"^^xsd:float ;
+    ex:ocrText "Входящий платеж" .
+
+ex:ad_003_home_income_no_investment_ocr_2 a ex:OCRText ;
+    ex:belongsToRegion "r2" ;
+    ex:ocrConfidence "0.92"^^xsd:float ;
+    ex:ocrText "+46 000,00 ₽" .
+
+ex:ad_003_home_income_no_investment_ocr_3 a ex:OCRText ;
+    ex:belongsToRegion "r3" ;
+    ex:ocrConfidence "0.9"^^xsd:float ;
+    ex:ocrText "+61 000 ₽" .
+
+ex:ad_003_home_income_no_investment_ocr_4 a ex:OCRText ;
+    ex:belongsToRegion "r3" ;
+    ex:ocrConfidence "0.9"^^xsd:float ;
+    ex:ocrText "+20 000 ₽" .
+
+ex:ad_003_home_income_no_investment_ocr_5 a ex:OCRText ;
+    ex:belongsToRegion "r3" ;
+    ex:ocrConfidence "0.88"^^xsd:float ;
+    ex:ocrText "+15 000 ₽" .
+
+ex:ad_003_home_income_no_investment_ocr_6 a ex:OCRText ;
+    ex:belongsToRegion "r4" ;
+    ex:ocrConfidence "0.92"^^xsd:float ;
+    ex:ocrText "+238 415,00 ₽" .
+
+ex:ad_003_home_income_no_investment_ocr_7 a ex:OCRText ;
+    ex:belongsToRegion "r5" ;
+    ex:ocrConfidence "0.9"^^xsd:float ;
+    ex:ocrText "+45 622 ₽" .
+
+ex:ad_003_home_income_no_investment_ocr_8 a ex:OCRText ;
+    ex:belongsToRegion "r6" ;
+    ex:ocrConfidence "0.9"^^xsd:float ;
+    ex:ocrText "+160 000 ₽" .
+
+ex:ad_003_home_income_no_investment_ocr_9 a ex:OCRText ;
+    ex:belongsToRegion "r6" ;
+    ex:ocrConfidence "0.88"^^xsd:float ;
+    ex:ocrText "+50 000 ₽" .
+
+ex:ad_003_home_income_no_investment_phrase_1 a ex:Phrase ;
+    ex:phraseText "заработок 50 000–100 000+ рублей" ;
+    ex:phraseType "NP" .
+
+ex:ad_003_home_income_no_investment_phrase_10 a ex:Phrase ;
+    ex:phraseText "окупаемость с одной сделки" ;
+    ex:phraseType "NP" .
+
+ex:ad_003_home_income_no_investment_phrase_11 a ex:Phrase ;
+    ex:phraseText "напишите «СОЮЗ»" ;
+    ex:phraseType "CTA" .
+
+ex:ad_003_home_income_no_investment_phrase_2 a ex:Phrase ;
+    ex:phraseText "без склада, закупок, холодных звонков и ИП" ;
+    ex:phraseType "NP" .
+
+ex:ad_003_home_income_no_investment_phrase_3 a ex:Phrase ;
+    ex:phraseText "оригинальный курс «Союз»" ;
+    ex:phraseType "NP" .
+
+ex:ad_003_home_income_no_investment_phrase_4 a ex:Phrase ;
+    ex:phraseText "вы находите клиента" ;
+    ex:phraseType "VP" .
+
+ex:ad_003_home_income_no_investment_phrase_5 a ex:Phrase ;
+    ex:phraseText "передаете поставщику" ;
+    ex:phraseType "VP" .
+
+ex:ad_003_home_income_no_investment_phrase_6 a ex:Phrase ;
+    ex:phraseText "получаете процент со сделки" ;
+    ex:phraseType "VP" .
+
+ex:ad_003_home_income_no_investment_phrase_7 a ex:Phrase ;
+    ex:phraseText "доход с одной сделки 10 000–75 000 руб." ;
+    ex:phraseType "NP" .
+
+ex:ad_003_home_income_no_investment_phrase_8 a ex:Phrase ;
+    ex:phraseText "первые доходы через 7–20 дней" ;
+    ex:phraseType "NP" .
+
+ex:ad_003_home_income_no_investment_phrase_9 a ex:Phrase ;
+    ex:phraseText "стоимость 4 990 руб." ;
+    ex:phraseType "NP" .
+
+ex:ad_003_home_income_no_investment_pos_1 a ex:POSTag ;
+    ex:posToken "заработать" ;
+    ex:posValue "VERB" .
+
+ex:ad_003_home_income_no_investment_pos_10 a ex:POSTag ;
+    ex:posToken "100000" ;
+    ex:posValue "NUM" .
+
+ex:ad_003_home_income_no_investment_pos_11 a ex:POSTag ;
+    ex:posToken "процент" ;
+    ex:posValue "NOUN" .
+
+ex:ad_003_home_income_no_investment_pos_12 a ex:POSTag ;
+    ex:posToken "получаете" ;
+    ex:posValue "VERB" .
+
+ex:ad_003_home_income_no_investment_pos_13 a ex:POSTag ;
+    ex:posToken "готовые" ;
+    ex:posValue "ADJ" .
+
+ex:ad_003_home_income_no_investment_pos_14 a ex:POSTag ;
+    ex:posToken "поддержка" ;
+    ex:posValue "NOUN" .
+
+ex:ad_003_home_income_no_investment_pos_15 a ex:POSTag ;
+    ex:posToken "стоимость" ;
+    ex:posValue "NOUN" .
+
+ex:ad_003_home_income_no_investment_pos_16 a ex:POSTag ;
+    ex:posToken "4990" ;
+    ex:posValue "NUM" .
+
+ex:ad_003_home_income_no_investment_pos_2 a ex:POSTag ;
+    ex:posToken "100к" ;
+    ex:posValue "NUM" .
+
+ex:ad_003_home_income_no_investment_pos_3 a ex:POSTag ;
+    ex:posToken "дома" ;
+    ex:posValue "NOUN" .
+
+ex:ad_003_home_income_no_investment_pos_4 a ex:POSTag ;
+    ex:posToken "без" ;
+    ex:posValue "ADP" .
+
+ex:ad_003_home_income_no_investment_pos_5 a ex:POSTag ;
+    ex:posToken "вложений" ;
+    ex:posValue "NOUN" .
+
+ex:ad_003_home_income_no_investment_pos_6 a ex:POSTag ;
+    ex:posToken "понятный" ;
+    ex:posValue "ADJ" .
+
+ex:ad_003_home_income_no_investment_pos_7 a ex:POSTag ;
+    ex:posToken "способ" ;
+    ex:posValue "NOUN" .
+
+ex:ad_003_home_income_no_investment_pos_8 a ex:POSTag ;
+    ex:posToken "заработка" ;
+    ex:posValue "NOUN" .
+
+ex:ad_003_home_income_no_investment_pos_9 a ex:POSTag ;
+    ex:posToken "50000" ;
+    ex:posValue "NUM" .
+
+ex:ad_003_home_income_no_investment_region_r1 a ex:Region ;
+    ex:bboxHeight 90 ;
+    ex:bboxWidth 300 ;
+    ex:bboxX 140 ;
+    ex:bboxY 55 ;
+    ex:description "Заголовок «Выплаты»." ;
+    ex:position "top_left" ;
+    ex:regionId "r1" ;
+    ex:regionType "main_header" .
+
+ex:ad_003_home_income_no_investment_region_r2 a ex:Region ;
+    ex:bboxHeight 470 ;
+    ex:bboxWidth 300 ;
+    ex:bboxX 45 ;
+    ex:bboxY 245 ;
+    ex:description "Скриншот платежа +46 000 ₽." ;
+    ex:position "left_center" ;
+    ex:regionId "r2" ;
+    ex:regionType "payment_screenshot" .
+
+ex:ad_003_home_income_no_investment_region_r3 a ex:Region ;
+    ex:bboxHeight 330 ;
+    ex:bboxWidth 260 ;
+    ex:bboxX 305 ;
+    ex:bboxY 180 ;
+    ex:description "Фрагменты переводов +61 000, +20 000, +15 000 ₽." ;
+    ex:position "center_left" ;
+    ex:regionId "r3" ;
+    ex:regionType "payment_list" .
+
+ex:ad_003_home_income_no_investment_region_r4 a ex:Region ;
+    ex:bboxHeight 390 ;
+    ex:bboxWidth 320 ;
+    ex:bboxX 560 ;
+    ex:bboxY 120 ;
+    ex:description "Крупный скриншот с суммой +238 415 ₽." ;
+    ex:position "top_center_right" ;
+    ex:regionId "r4" ;
+    ex:regionType "large_payment_screenshot" .
+
+ex:ad_003_home_income_no_investment_region_r5 a ex:Region ;
+    ex:bboxHeight 430 ;
+    ex:bboxWidth 330 ;
+    ex:bboxX 555 ;
+    ex:bboxY 485 ;
+    ex:description "Скриншот банковского перевода +45 622 ₽." ;
+    ex:position "center_right" ;
+    ex:regionId "r5" ;
+    ex:regionType "bank_transfer_screenshot" .
+
+ex:ad_003_home_income_no_investment_region_r6 a ex:Region ;
+    ex:bboxHeight 505 ;
+    ex:bboxWidth 180 ;
+    ex:bboxX 875 ;
+    ex:bboxY 350 ;
+    ex:description "Список переводов +160 000, +50 000, +20 000 ₽." ;
+    ex:position "right" ;
+    ex:regionId "r6" ;
+    ex:regionType "payment_list" .
+
+ex:ad_003_home_income_no_investment_spatial_relation_1 a ex:Dependency ;
+    ex:relationFrom "main_header" ;
+    ex:relationTo "payment_screenshots" ;
+    ex:relationType "above" .
+
+ex:ad_003_home_income_no_investment_spatial_relation_2 a ex:Dependency ;
+    ex:relationFrom "payment_screenshot_left" ;
+    ex:relationTo "large_payment_screenshot" ;
+    ex:relationType "left_of" .
+
+ex:ad_003_home_income_no_investment_spatial_relation_3 a ex:Dependency ;
+    ex:relationFrom "payment_list_right" ;
+    ex:relationTo "large_payment_screenshot" ;
+    ex:relationType "right_of" .
+
+ex:ad_003_home_income_no_investment_spatial_relation_4 a ex:Dependency ;
+    ex:relationFrom "masked_data" ;
+    ex:relationTo "payment_screenshots" ;
+    ex:relationType "overlaps" .
+
+ex:ad_003_home_income_no_investment_text a ex:TextAnnotation ;
+    ex:classificationComment "Типичный обучающий оффер с высоким доходом без вложений, быстрыми результатами, примерами выплат и окупаемостью." ;
+    ex:comment "Продающая схема: высокий доход без вложений, простая последовательность действий, кейсы, цена курса и обещание окупаемости." ;
+    ex:description "Текстовая разметка объявления о заработке из дома без вложений." ;
+    ex:hasDependency ex:ad_003_home_income_no_investment_dependency_1,
+        ex:ad_003_home_income_no_investment_dependency_10,
+        ex:ad_003_home_income_no_investment_dependency_11,
+        ex:ad_003_home_income_no_investment_dependency_12,
+        ex:ad_003_home_income_no_investment_dependency_13,
+        ex:ad_003_home_income_no_investment_dependency_14,
+        ex:ad_003_home_income_no_investment_dependency_15,
+        ex:ad_003_home_income_no_investment_dependency_16,
+        ex:ad_003_home_income_no_investment_dependency_17,
+        ex:ad_003_home_income_no_investment_dependency_2,
+        ex:ad_003_home_income_no_investment_dependency_3,
+        ex:ad_003_home_income_no_investment_dependency_4,
+        ex:ad_003_home_income_no_investment_dependency_5,
+        ex:ad_003_home_income_no_investment_dependency_6,
+        ex:ad_003_home_income_no_investment_dependency_7,
+        ex:ad_003_home_income_no_investment_dependency_8,
+        ex:ad_003_home_income_no_investment_dependency_9 ;
+    ex:hasLemmaPair ex:ad_003_home_income_no_investment_lemma_1,
+        ex:ad_003_home_income_no_investment_lemma_10,
+        ex:ad_003_home_income_no_investment_lemma_11,
+        ex:ad_003_home_income_no_investment_lemma_12,
+        ex:ad_003_home_income_no_investment_lemma_13,
+        ex:ad_003_home_income_no_investment_lemma_2,
+        ex:ad_003_home_income_no_investment_lemma_3,
+        ex:ad_003_home_income_no_investment_lemma_4,
+        ex:ad_003_home_income_no_investment_lemma_5,
+        ex:ad_003_home_income_no_investment_lemma_6,
+        ex:ad_003_home_income_no_investment_lemma_7,
+        ex:ad_003_home_income_no_investment_lemma_8,
+        ex:ad_003_home_income_no_investment_lemma_9 ;
+    ex:hasNamedEntity ex:ad_003_home_income_no_investment_entity_1,
+        ex:ad_003_home_income_no_investment_entity_10,
+        ex:ad_003_home_income_no_investment_entity_11,
+        ex:ad_003_home_income_no_investment_entity_12,
+        ex:ad_003_home_income_no_investment_entity_13,
+        ex:ad_003_home_income_no_investment_entity_14,
+        ex:ad_003_home_income_no_investment_entity_15,
+        ex:ad_003_home_income_no_investment_entity_16,
+        ex:ad_003_home_income_no_investment_entity_17,
+        ex:ad_003_home_income_no_investment_entity_18,
+        ex:ad_003_home_income_no_investment_entity_19,
+        ex:ad_003_home_income_no_investment_entity_2,
+        ex:ad_003_home_income_no_investment_entity_3,
+        ex:ad_003_home_income_no_investment_entity_4,
+        ex:ad_003_home_income_no_investment_entity_5,
+        ex:ad_003_home_income_no_investment_entity_6,
+        ex:ad_003_home_income_no_investment_entity_7,
+        ex:ad_003_home_income_no_investment_entity_8,
+        ex:ad_003_home_income_no_investment_entity_9 ;
+    ex:hasPOSTag ex:ad_003_home_income_no_investment_pos_1,
+        ex:ad_003_home_income_no_investment_pos_10,
+        ex:ad_003_home_income_no_investment_pos_11,
+        ex:ad_003_home_income_no_investment_pos_12,
+        ex:ad_003_home_income_no_investment_pos_13,
+        ex:ad_003_home_income_no_investment_pos_14,
+        ex:ad_003_home_income_no_investment_pos_15,
+        ex:ad_003_home_income_no_investment_pos_16,
+        ex:ad_003_home_income_no_investment_pos_2,
+        ex:ad_003_home_income_no_investment_pos_3,
+        ex:ad_003_home_income_no_investment_pos_4,
+        ex:ad_003_home_income_no_investment_pos_5,
+        ex:ad_003_home_income_no_investment_pos_6,
+        ex:ad_003_home_income_no_investment_pos_7,
+        ex:ad_003_home_income_no_investment_pos_8,
+        ex:ad_003_home_income_no_investment_pos_9 ;
+    ex:hasPhrase ex:ad_003_home_income_no_investment_phrase_1,
+        ex:ad_003_home_income_no_investment_phrase_10,
+        ex:ad_003_home_income_no_investment_phrase_11,
+        ex:ad_003_home_income_no_investment_phrase_2,
+        ex:ad_003_home_income_no_investment_phrase_3,
+        ex:ad_003_home_income_no_investment_phrase_4,
+        ex:ad_003_home_income_no_investment_phrase_5,
+        ex:ad_003_home_income_no_investment_phrase_6,
+        ex:ad_003_home_income_no_investment_phrase_7,
+        ex:ad_003_home_income_no_investment_phrase_8,
+        ex:ad_003_home_income_no_investment_phrase_9 ;
+    ex:hasSentiment ex:ad_003_home_income_no_investment_text_sentiment ;
+    ex:hasSignal ex:ad_003_home_income_no_investment_text_fraud_signals_1,
+        ex:ad_003_home_income_no_investment_text_fraud_signals_10,
+        ex:ad_003_home_income_no_investment_text_fraud_signals_2,
+        ex:ad_003_home_income_no_investment_text_fraud_signals_3,
+        ex:ad_003_home_income_no_investment_text_fraud_signals_4,
+        ex:ad_003_home_income_no_investment_text_fraud_signals_5,
+        ex:ad_003_home_income_no_investment_text_fraud_signals_6,
+        ex:ad_003_home_income_no_investment_text_fraud_signals_7,
+        ex:ad_003_home_income_no_investment_text_fraud_signals_8,
+        ex:ad_003_home_income_no_investment_text_fraud_signals_9,
+        ex:ad_003_home_income_no_investment_text_legit_like_signals_1,
+        ex:ad_003_home_income_no_investment_text_legit_like_signals_2,
+        ex:ad_003_home_income_no_investment_text_legit_like_signals_3,
+        ex:ad_003_home_income_no_investment_text_legit_like_signals_4 ;
+    ex:hasToken ex:ad_003_home_income_no_investment_token_1,
+        ex:ad_003_home_income_no_investment_token_10,
+        ex:ad_003_home_income_no_investment_token_11,
+        ex:ad_003_home_income_no_investment_token_12,
+        ex:ad_003_home_income_no_investment_token_13,
+        ex:ad_003_home_income_no_investment_token_14,
+        ex:ad_003_home_income_no_investment_token_15,
+        ex:ad_003_home_income_no_investment_token_16,
+        ex:ad_003_home_income_no_investment_token_17,
+        ex:ad_003_home_income_no_investment_token_18,
+        ex:ad_003_home_income_no_investment_token_19,
+        ex:ad_003_home_income_no_investment_token_2,
+        ex:ad_003_home_income_no_investment_token_20,
+        ex:ad_003_home_income_no_investment_token_21,
+        ex:ad_003_home_income_no_investment_token_22,
+        ex:ad_003_home_income_no_investment_token_23,
+        ex:ad_003_home_income_no_investment_token_24,
+        ex:ad_003_home_income_no_investment_token_25,
+        ex:ad_003_home_income_no_investment_token_26,
+        ex:ad_003_home_income_no_investment_token_27,
+        ex:ad_003_home_income_no_investment_token_28,
+        ex:ad_003_home_income_no_investment_token_29,
+        ex:ad_003_home_income_no_investment_token_3,
+        ex:ad_003_home_income_no_investment_token_30,
+        ex:ad_003_home_income_no_investment_token_31,
+        ex:ad_003_home_income_no_investment_token_32,
+        ex:ad_003_home_income_no_investment_token_33,
+        ex:ad_003_home_income_no_investment_token_34,
+        ex:ad_003_home_income_no_investment_token_35,
+        ex:ad_003_home_income_no_investment_token_36,
+        ex:ad_003_home_income_no_investment_token_37,
+        ex:ad_003_home_income_no_investment_token_38,
+        ex:ad_003_home_income_no_investment_token_39,
+        ex:ad_003_home_income_no_investment_token_4,
+        ex:ad_003_home_income_no_investment_token_40,
+        ex:ad_003_home_income_no_investment_token_41,
+        ex:ad_003_home_income_no_investment_token_42,
+        ex:ad_003_home_income_no_investment_token_43,
+        ex:ad_003_home_income_no_investment_token_44,
+        ex:ad_003_home_income_no_investment_token_45,
+        ex:ad_003_home_income_no_investment_token_46,
+        ex:ad_003_home_income_no_investment_token_47,
+        ex:ad_003_home_income_no_investment_token_48,
+        ex:ad_003_home_income_no_investment_token_49,
+        ex:ad_003_home_income_no_investment_token_5,
+        ex:ad_003_home_income_no_investment_token_50,
+        ex:ad_003_home_income_no_investment_token_51,
+        ex:ad_003_home_income_no_investment_token_52,
+        ex:ad_003_home_income_no_investment_token_53,
+        ex:ad_003_home_income_no_investment_token_54,
+        ex:ad_003_home_income_no_investment_token_55,
+        ex:ad_003_home_income_no_investment_token_56,
+        ex:ad_003_home_income_no_investment_token_57,
+        ex:ad_003_home_income_no_investment_token_58,
+        ex:ad_003_home_income_no_investment_token_59,
+        ex:ad_003_home_income_no_investment_token_6,
+        ex:ad_003_home_income_no_investment_token_60,
+        ex:ad_003_home_income_no_investment_token_61,
+        ex:ad_003_home_income_no_investment_token_62,
+        ex:ad_003_home_income_no_investment_token_7,
+        ex:ad_003_home_income_no_investment_token_8,
+        ex:ad_003_home_income_no_investment_token_9 ;
+    ex:riskLevel "high" ;
+    ex:syntaxStructure "NP -> обещание дохода -> схема действий -> примеры результатов -> тариф -> окупаемость -> CTA" .
+
+ex:ad_003_home_income_no_investment_text_fraud_signals_1 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "обещание заработка 100к из дома" .
+
+ex:ad_003_home_income_no_investment_text_fraud_signals_10 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "призыв написать кодовое слово «СОЮЗ»" .
+
+ex:ad_003_home_income_no_investment_text_fraud_signals_2 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "заработок без вложений" .
+
+ex:ad_003_home_income_no_investment_text_fraud_signals_3 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "доход 50 000–100 000+ рублей" .
+
+ex:ad_003_home_income_no_investment_text_fraud_signals_4 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "доход с одной сделки 10 000–75 000 руб." .
+
+ex:ad_003_home_income_no_investment_text_fraud_signals_5 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "первые доходы через 7–20 дней" .
+
+ex:ad_003_home_income_no_investment_text_fraud_signals_6 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "окупаемость с одной сделки" .
+
+ex:ad_003_home_income_no_investment_text_fraud_signals_7 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "готовые ниши и шаблоны объявлений" .
+
+ex:ad_003_home_income_no_investment_text_fraud_signals_8 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "простая схема найти клиента и передать поставщику" .
+
+ex:ad_003_home_income_no_investment_text_fraud_signals_9 a ex:Signal ;
+    ex:signalCategory "fraud_signals" ;
+    ex:signalText "примеры результатов с именами и городами" .
+
+ex:ad_003_home_income_no_investment_text_legit_like_signals_1 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "описана модель работы" .
+
+ex:ad_003_home_income_no_investment_text_legit_like_signals_2 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "указана стоимость курса" .
+
+ex:ad_003_home_income_no_investment_text_legit_like_signals_3 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "перечислены действия пользователя" .
+
+ex:ad_003_home_income_no_investment_text_legit_like_signals_4 a ex:Signal ;
+    ex:signalCategory "legit_like_signals" ;
+    ex:signalText "указана поддержка в чате" .
+
+ex:ad_003_home_income_no_investment_text_sentiment a ex:Sentiment ;
+    ex:comment "Сильно позитивный тон: высокий заработок, отсутствие вложений, быстрые доходы, готовые ниши, поддержка и окупаемость." ;
+    ex:sentimentLabel "strong_positive_persuasive" ;
+    ex:sentimentScore "0.92"^^xsd:float .
+
+ex:ad_003_home_income_no_investment_token_1 a ex:Token ;
+    ex:tokenValue "заработать" .
+
+ex:ad_003_home_income_no_investment_token_10 a ex:Token ;
+    ex:tokenValue "100000" .
+
+ex:ad_003_home_income_no_investment_token_11 a ex:Token ;
+    ex:tokenValue "рублей" .
+
+ex:ad_003_home_income_no_investment_token_12 a ex:Token ;
+    ex:tokenValue "процентах" .
+
+ex:ad_003_home_income_no_investment_token_13 a ex:Token ;
+    ex:tokenValue "дорогих" .
+
+ex:ad_003_home_income_no_investment_token_14 a ex:Token ;
+    ex:tokenValue "товаров" .
+
+ex:ad_003_home_income_no_investment_token_15 a ex:Token ;
+    ex:tokenValue "без" .
+
+ex:ad_003_home_income_no_investment_token_16 a ex:Token ;
+    ex:tokenValue "склада" .
+
+ex:ad_003_home_income_no_investment_token_17 a ex:Token ;
+    ex:tokenValue "закупок" .
+
+ex:ad_003_home_income_no_investment_token_18 a ex:Token ;
+    ex:tokenValue "ип" .
+
+ex:ad_003_home_income_no_investment_token_19 a ex:Token ;
+    ex:tokenValue "курс" .
+
+ex:ad_003_home_income_no_investment_token_2 a ex:Token ;
+    ex:tokenValue "100к" .
+
+ex:ad_003_home_income_no_investment_token_20 a ex:Token ;
+    ex:tokenValue "союз" .
+
+ex:ad_003_home_income_no_investment_token_21 a ex:Token ;
+    ex:tokenValue "автор" .
+
+ex:ad_003_home_income_no_investment_token_22 a ex:Token ;
+    ex:tokenValue "кирилл" .
+
+ex:ad_003_home_income_no_investment_token_23 a ex:Token ;
+    ex:tokenValue "хворост" .
+
+ex:ad_003_home_income_no_investment_token_24 a ex:Token ;
+    ex:tokenValue "2015" .
+
+ex:ad_003_home_income_no_investment_token_25 a ex:Token ;
+    ex:tokenValue "7" .
+
+ex:ad_003_home_income_no_investment_token_26 a ex:Token ;
+    ex:tokenValue "проектов" .
+
+ex:ad_003_home_income_no_investment_token_27 a ex:Token ;
+    ex:tokenValue "11" .
+
+ex:ad_003_home_income_no_investment_token_28 a ex:Token ;
+    ex:tokenValue "партнеров" .
+
+ex:ad_003_home_income_no_investment_token_29 a ex:Token ;
+    ex:tokenValue "1" .
+
+ex:ad_003_home_income_no_investment_token_3 a ex:Token ;
+    ex:tokenValue "дома" .
+
+ex:ad_003_home_income_no_investment_token_30 a ex:Token ;
+    ex:tokenValue "млрд" .
+
+ex:ad_003_home_income_no_investment_token_31 a ex:Token ;
+    ex:tokenValue "telegram" .
+
+ex:ad_003_home_income_no_investment_token_32 a ex:Token ;
+    ex:tokenValue "клиент" .
+
+ex:ad_003_home_income_no_investment_token_33 a ex:Token ;
+    ex:tokenValue "поставщик" .
+
+ex:ad_003_home_income_no_investment_token_34 a ex:Token ;
+    ex:tokenValue "процент" .
+
+ex:ad_003_home_income_no_investment_token_35 a ex:Token ;
+    ex:tokenValue "сделка" .
+
+ex:ad_003_home_income_no_investment_token_36 a ex:Token ;
+    ex:tokenValue "100000" .
+
+ex:ad_003_home_income_no_investment_token_37 a ex:Token ;
+    ex:tokenValue "500000" .
+
+ex:ad_003_home_income_no_investment_token_38 a ex:Token ;
+    ex:tokenValue "10000" .
+
+ex:ad_003_home_income_no_investment_token_39 a ex:Token ;
+    ex:tokenValue "75000" .
+
+ex:ad_003_home_income_no_investment_token_4 a ex:Token ;
+    ex:tokenValue "без" .
+
+ex:ad_003_home_income_no_investment_token_40 a ex:Token ;
+    ex:tokenValue "10" .
+
+ex:ad_003_home_income_no_investment_token_41 a ex:Token ;
+    ex:tokenValue "15" .
+
+ex:ad_003_home_income_no_investment_token_42 a ex:Token ;
+    ex:tokenValue "готовые" .
+
+ex:ad_003_home_income_no_investment_token_43 a ex:Token ;
+    ex:tokenValue "ниши" .
+
+ex:ad_003_home_income_no_investment_token_44 a ex:Token ;
+    ex:tokenValue "заявки" .
+
+ex:ad_003_home_income_no_investment_token_45 a ex:Token ;
+    ex:tokenValue "2" .
+
+ex:ad_003_home_income_no_investment_token_46 a ex:Token ;
+    ex:tokenValue "3" .
+
+ex:ad_003_home_income_no_investment_token_47 a ex:Token ;
+    ex:tokenValue "часов" .
+
+ex:ad_003_home_income_no_investment_token_48 a ex:Token ;
+    ex:tokenValue "день" .
+
+ex:ad_003_home_income_no_investment_token_49 a ex:Token ;
+    ex:tokenValue "первые" .
+
+ex:ad_003_home_income_no_investment_token_5 a ex:Token ;
+    ex:tokenValue "вложений" .
+
+ex:ad_003_home_income_no_investment_token_50 a ex:Token ;
+    ex:tokenValue "доходы" .
+
+ex:ad_003_home_income_no_investment_token_51 a ex:Token ;
+    ex:tokenValue "7" .
+
+ex:ad_003_home_income_no_investment_token_52 a ex:Token ;
+    ex:tokenValue "20" .
+
+ex:ad_003_home_income_no_investment_token_53 a ex:Token ;
+    ex:tokenValue "дней" .
+
+ex:ad_003_home_income_no_investment_token_54 a ex:Token ;
+    ex:tokenValue "новичков" .
+
+ex:ad_003_home_income_no_investment_token_55 a ex:Token ;
+    ex:tokenValue "пошаговый" .
+
+ex:ad_003_home_income_no_investment_token_56 a ex:Token ;
+    ex:tokenValue "план" .
+
+ex:ad_003_home_income_no_investment_token_57 a ex:Token ;
+    ex:tokenValue "поддержка" .
+
+ex:ad_003_home_income_no_investment_token_58 a ex:Token ;
+    ex:tokenValue "стоимость" .
+
+ex:ad_003_home_income_no_investment_token_59 a ex:Token ;
+    ex:tokenValue "4990" .
+
+ex:ad_003_home_income_no_investment_token_6 a ex:Token ;
+    ex:tokenValue "понятный" .
+
+ex:ad_003_home_income_no_investment_token_60 a ex:Token ;
+    ex:tokenValue "окупаемость" .
+
+ex:ad_003_home_income_no_investment_token_61 a ex:Token ;
+    ex:tokenValue "сделки" .
+
+ex:ad_003_home_income_no_investment_token_62 a ex:Token ;
+    ex:tokenValue "союз" .
+
+ex:ad_003_home_income_no_investment_token_7 a ex:Token ;
+    ex:tokenValue "способ" .
+
+ex:ad_003_home_income_no_investment_token_8 a ex:Token ;
+    ex:tokenValue "заработка" .
+
+ex:ad_003_home_income_no_investment_token_9 a ex:Token ;
+    ex:tokenValue "50000" .
+
+ex:ad_003_home_income_no_investment_visual_attribute_1 a ex:VisualAttribute ;
+    ex:attributeName "text_style" ;
+    ex:attributeObjectId "obj1" ;
+    ex:attributeValue "large_serif_black" .
+
+ex:ad_003_home_income_no_investment_visual_attribute_2 a ex:VisualAttribute ;
+    ex:attributeName "message_type" ;
+    ex:attributeObjectId "obj2" ;
+    ex:attributeValue "payment_proof" .
+
+ex:ad_003_home_income_no_investment_visual_attribute_3 a ex:VisualAttribute ;
+    ex:attributeName "color" ;
+    ex:attributeObjectId "obj3" ;
+    ex:attributeValue "green_income_amounts" .
+
+ex:ad_003_home_income_no_investment_visual_attribute_4 a ex:VisualAttribute ;
+    ex:attributeName "message_type" ;
+    ex:attributeObjectId "obj4" ;
+    ex:attributeValue "large_income_proof" .
+
+ex:ad_003_home_income_no_investment_visual_attribute_5 a ex:VisualAttribute ;
+    ex:attributeName "message_type" ;
+    ex:attributeObjectId "obj5" ;
+    ex:attributeValue "bank_transfer_proof" .
+
+ex:ad_003_home_income_no_investment_visual_attribute_6 a ex:VisualAttribute ;
+    ex:attributeName "visual_role" ;
+    ex:attributeObjectId "obj7" ;
+    ex:attributeValue "privacy_and_authenticity_marker" .
+

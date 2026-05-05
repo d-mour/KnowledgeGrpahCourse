@@ -1,6 +1,0 @@
-PREFIX ex: <https://example.org/medical-multimodal-kg/>
-PREFIX schema: <https://schema.org/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-SELECT ?mention_id ?mention_text ?entity_type ?kb ?concept WHERE { ?m a ex:Mention ; ex:mention_id ?mention_id ; ex:text ?mention_text ; ex:entity_type ?entity_type . OPTIONAL { ?m ex:normalizedTo ?c . OPTIONAL { ?c ex:kb_name ?kb . } OPTIONAL { ?c ex:concept_id ?concept . } } } LIMIT 100
