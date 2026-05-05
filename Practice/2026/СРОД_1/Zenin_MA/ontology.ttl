@@ -1,0 +1,94 @@
+@prefix ex: <http://itmo.ru/waterloo#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Battle a rdfs:Class ;
+    rdfs:label "Сражение"@ru .
+
+ex:Date a rdfs:Class ;
+    rdfs:label "Дата"@ru .
+
+ex:Location a rdfs:Class ;
+    rdfs:label "Место"@ru .
+
+ex:Person a rdfs:Class ;
+    rdfs:label "Личность"@ru .
+
+ex:Army a rdfs:Class ;
+    rdfs:label "Армия"@ru .
+
+ex:MilitaryUnit a rdfs:Class ;
+    rdfs:label "Воинская часть"@ru .
+
+ex:Commander a rdfs:Class ;
+    rdfs:subClassOf ex:Person ;
+    rdfs:label "Командующий"@ru .
+
+ex:Force a rdfs:Class ;
+    rdfs:label "Силы сторон"@ru .
+
+ex:Casualties a rdfs:Class ;
+    rdfs:label "Потери"@ru .
+
+ex:Topic a rdfs:Class ;
+    rdfs:label "Тема"@ru .
+
+ex:AtomicStatement a rdfs:Class ;
+    rdfs:label "Атомарное утверждение"@ru .
+
+ex:Sentence a rdfs:Class ;
+    rdfs:label "Предложение"@ru .
+
+ex:Object a rdfs:Class ;
+    rdfs:label "Объект"@ru .
+
+ex:hasDate a rdf:Property ;
+    rdfs:label "имеет дату"@ru ;
+    rdfs:domain ex:Battle ;
+    rdfs:range ex:Date .
+
+ex:hasLocation a rdf:Property ;
+    rdfs:label "имеет место"@ru ;
+    rdfs:domain ex:Battle ;
+    rdfs:range ex:Location .
+
+ex:hasCommander a rdf:Property ;
+    rdfs:label "имеет командующего"@ru ;
+    rdfs:domain ex:Army ;
+    rdfs:range ex:Commander .
+
+ex:hasTopic a rdf:Property ;
+    rdfs:label "имеет тему"@ru ;
+    rdfs:domain ex:Sentence ;
+    rdfs:range ex:Topic .
+
+ex:hasAtomicStatement a rdf:Property ;
+    rdfs:label "имеет атомарное утверждение"@ru ;
+    rdfs:domain ex:Sentence ;
+    rdfs:range ex:AtomicStatement .
+
+ex:hasContext a rdf:Property ;
+    rdfs:label "имеет контекст"@ru ;
+    rdfs:domain ex:Sentence ;
+    rdfs:range ex:Sentence .
+
+ex:mentionsObject a rdf:Property ;
+    rdfs:label "упоминает объект"@ru ;
+    rdfs:domain ex:AtomicStatement ;
+    rdfs:range ex:Object .
+
+ex:hasForce a rdf:Property ;
+    rdfs:label "имеет силы"@ru ;
+    rdfs:domain ex:Battle ;
+    rdfs:range ex:Force .
+
+ex:hasCasualties a rdf:Property ;
+    rdfs:label "имеет потери"@ru ;
+    rdfs:domain ex:Army ;
+    rdfs:range ex:Casualties .
+
+ex:belongsTo a rdf:Property ;
+    rdfs:label "принадлежит"@ru ;
+    rdfs:domain ex:MilitaryUnit ;
+    rdfs:range ex:Army .
