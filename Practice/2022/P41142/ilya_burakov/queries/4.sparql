@@ -1,0 +1,22 @@
+PREFIX chp: <http://iburakov.me/ontologies/chord-progressions#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# - Какие тональности были самыми популярными в 2000е?
+
+SELECT ?key (COUNT(?composition) as ?count) WHERE {
+	?composition a chp:Composition ;
+		chp:hasPublicationDate ?publication_date ;
+		chp:hasKey ?key.
+	?key a chp:Key ;
+	    chp:hasTonicNote ?tonic ;
+		chp:hasScale ?scale .
+ 	FILTER (
+		?publication_date >= xsd:dateTime("2000-01-01T00:00:00Z") 
+		&& ?publication_date < xsd:dateTime("2010-01-01T00:00:00Z")
+	)
+}
+GROUP BY ?key
+ORDER BY DESC(?count)

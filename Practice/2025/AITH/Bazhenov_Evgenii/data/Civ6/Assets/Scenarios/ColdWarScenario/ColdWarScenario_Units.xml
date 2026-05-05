@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Units>
+		<!-- Giving builders enough charges to fully upgrade a city with a single builder. -->
+		<Update>
+			<Where UnitType="UNIT_BUILDER"/>
+			<Set BuildCharges="18"/>
+		</Update>
+
+		<!-- Remove RESOURCE_ALUMINUM requirement from bombers and fighters.  Also make them 50% cheaper -->
+		<Update>
+			<Where UnitType="UNIT_FIGHTER"/>
+			<Set Cost="270" StrategicResource="" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_P51"/>
+			<Set Cost="270" StrategicResource="" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BOMBER"/>
+			<Set Cost="270" Range="21" StrategicResource="" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_FIGHTER"/>
+			<Set Cost="340" StrategicResource="" Maintenance="4"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_BOMBER"/>
+			<Set Cost="340" Range="24" StrategicResource="" Maintenance="4"/>
+		</Update>		
+
+		<!-- Remove resource requirements from tanks/cavalry.  Also make them 50% cheaper -->
+		<Update>
+			<Where UnitType="UNIT_CAVALRY"/>
+			<Set Cost="165" StrategicResource="" Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RUSSIAN_COSSACK"/>
+			<Set Cost="170" StrategicResource="" Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_ROUGH_RIDER"/>
+			<Set Cost="193" Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_TANK"/>
+			<Set Cost="240" StrategicResource="" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_ARMOR"/>
+			<Set Cost="340" StrategicResource="" Maintenance="4"/>
+		</Update>
+		
+		<!-- Remove resource requirements from naval ships.  Also make them 50% cheaper -->
+		<Update>
+			<Where UnitType="UNIT_IRONCLAD"/>
+			<Set Cost="190" StrategicResource="" Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BATTLESHIP"/>
+			<Set Cost="215" StrategicResource="" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BRAZILIAN_MINAS_GERAES"/>
+			<Set Cost="215" StrategicResource="" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SUBMARINE"/>
+			<Set Cost="240" StrategicResource="" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GERMAN_UBOAT"/>
+			<Set Cost="215" StrategicResource="" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NUCLEAR_SUBMARINE"/>
+			<Set Cost="340" StrategicResource="" Maintenance="4"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MISSILE_CRUISER"/>
+			<Set Cost="340" Maintenance="4"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AIRCRAFT_CARRIER"/>
+			<Set Cost="270" StrategicResource="" Maintenance="3"/>
+		</Update>
+		
+		<!-- Make all the other combat units 50% cheaper as well. -->
+		<Update>
+			<Where UnitType="UNIT_FIELD_CANNON"/>
+			<Set Cost="165" Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ENGLISH_REDCOAT"/>
+			<Set Cost="170" Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FRENCH_GARDE_IMPERIALE"/>
+			<Set Cost="170" Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MEDIC"/>
+			<Set Cost="185" Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RANGER"/>
+			<Set Cost="190" Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_OBSERVATION_BALLOON"/>
+			<Set Cost="120" Maintenance="1"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_INFANTRY"/>
+			<Set Cost="215" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARTILLERY"/>
+			<Set Cost="215" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AT_CREW"/>
+			<Set Cost="200" Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ANTIAIR_GUN"/>
+			<Set Cost="227" Maintenance="2"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MACHINE_GUN"/>
+			<Set Cost="270" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AIRCRAFT_CARRIER"/>
+			<Set Cost="270" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_DESTROYER"/>
+			<Set Cost="270" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_HELICOPTER"/>
+			<Set Cost="300" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MECHANIZED_INFANTRY"/>
+			<Set Cost="330" Maintenance="4"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ROCKET_ARTILLERY"/>
+			<Set Cost="340" Maintenance="4"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MOBILE_SAM"/>
+			<Set Cost="295" Maintenance="3"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_AT"/>
+			<Set Cost="290" Maintenance="4"/>
+		</Update>
+	</Units>
+</GameInfo>

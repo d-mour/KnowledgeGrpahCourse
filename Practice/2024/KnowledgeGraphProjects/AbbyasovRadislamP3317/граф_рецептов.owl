@@ -1,0 +1,765 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20/"
+     xml:base="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-20="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#belongsToRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#belongsToRegion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#hasIngredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#hasIngredient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#hasRecipe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#hasRecipe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#hasHistory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#hasHistory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#hasSteps -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#hasSteps">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish">
+        <rdfs:comment>Блюдо</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient">
+        <rdfs:comment>Ингредиенты, требующиеся для приготовления блюда</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe">
+        <rdfs:comment>Рецепт/Технологическая карта</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region">
+        <rdfs:comment>Регион</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#A_pike_perch_from_the_Vestimo_river -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#A_pike_perch_from_the_Vestimo_river">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Yaroslavl_region"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#oil"/>
+        <rdfs:comment>Судачок из речки вестимо</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Banquet_Roll -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Banquet_Roll">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour_dough_cereals"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Meat"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Vegetables"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#oil"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Banquet_Roll_Recipe"/>
+        <untitled-ontology-20:hasHistory>издавна готовили на торжественные события: удобная форма рулета и нарядный вид делали его неизменным атрибутом праздничных столов в помещичьих усадьбах.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Рулет Банкетный</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Banquet_Roll_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Banquet_Roll_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Рулет Банкетный готовится из мясного или птичьего фарша со специями и обжаренным луком. Фарш выкладывается на раскатанное тесто, затем сворачивается рулетом и запекается в духовке до золотистой корочки.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Berries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Berries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Cheeks_with_grecha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Cheeks_with_grecha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Chelyabinsk_region"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour_dough_cereals"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Meat"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Vegetables"/>
+        <untitled-ontology-20:hasHistory>Типичное крестьянское или купеческое угощение: щёчки часто шли в дело при разделке скота, а гречка была распространённым злаком по всей России.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Щечки с гречей</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Chelyabinsk_region -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Chelyabinsk_region">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Daily_cabbage_soup -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Daily_cabbage_soup">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Moscow"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dairy_products"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Meat"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Vegetables"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Overnight_Cabbage_Soup_Recipe"/>
+        <untitled-ontology-20:hasHistory>Классика русской избы: блюдо, которое оставляли в печи на томление. Благодаря длительной выдержке суп приобретал насыщенный вкус, став символом домашнего уюта.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Щи суточные</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dairy_products -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dairy_products">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Donetsk_recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Donetsk_recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Рыбу нарезают порционно и выкладывают поверх предварительно обжаренного лука, заливают сметаной, приправляют солью и перцем и тушат на медленном огне до полной готовности.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Donetsk_region -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Donetsk_region">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Far_Eastern_Dumplings_with_Smelt_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Far_Eastern_Dumplings_with_Smelt_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Пельмени дальневосточные с корюшкой готовят из обычного пельменного теста, внутрь кладут измельчённую корюшку с приправами. Сформированные пельмени отваривают в подсоленной воде и подают горячими.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Far_Eastern_dumplings_with_smelt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Far_Eastern_dumplings_with_smelt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Sakhalin_Region"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour_dough_cereals"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Far_Eastern_Dumplings_with_Smelt_Recipe"/>
+        <untitled-ontology-20:hasHistory>Вариация на тему пельменей, возникшая в прибрежных регионах Дальнего Востока, где корюшка доступнее традиционного мясного фарша.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Пельмени дальневосточные с корюшкой</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish_Donets_Style_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish_Donets_Style_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Рыба по-донецки подразумевает обжаренный лук, на который выкладывают порционные куски рыбы. Всё это заливается сметаной, приправляется и тушится на небольшом огне до мягкости и насыщения соусом.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish_in_Donetsk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish_in_Donetsk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Donetsk_region"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dairy_products"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Vegetables"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Donetsk_recipe"/>
+        <untitled-ontology-20:hasHistory>Считается местным донецким блюдом, восходящим к традициям казаков, которые готовили речную рыбу с луком и сметаной в полевых условиях или домашних печах.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Рыба по-донецки</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour_dough_cereals -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour_dough_cereals">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Gubenka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Gubenka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ryazan_region"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour_dough_cereals"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Vegetables"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Gubenka_Recipe"/>
+        <untitled-ontology-20:hasHistory>Блюдо, встречающееся в старых казачьих традициях, особенно в прибрежных районах, где рыбу готовили с минимумом ингредиентов, полагаясь на натуральный вкус.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Губенка</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Gubenka_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Gubenka_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Губенка — обычно рыбное блюдо: рыбу очищают, нарезают и выкладывают в форму. Добавляют специи и при желании крупу или овощи, тушат или запекают до готовности в духовке. В результате получается нежная, пропитанная вкусами рыба.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#HMAO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#HMAO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Krasnoyarsk_Region -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Krasnoyarsk_Region">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Kundums_in_creamy_mushroom_sauce -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Kundums_in_creamy_mushroom_sauce">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Novosibirsk_region"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dairy_products"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour_dough_cereals"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Mushrooms"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Kundyumy_in_Creamy_Mushroom_Sauce_Recipe"/>
+        <untitled-ontology-20:hasHistory>Восходят к старинной русской кухне, где пресное тесто с начинкой широко практиковалось: упоминания о кундюмах встречаются ещё в дворцовых поваренных книгах XVIII века.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Кундюмы в сливочно-грибном соусе</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Kundyumy_in_Creamy_Mushroom_Sauce_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Kundyumy_in_Creamy_Mushroom_Sauce_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Кундюмы — это маленькие «конвертики» из теста с грибной (или мясной) начинкой. Их отваривают, а затем подают в сливочно-грибном соусе, который готовится из обжаренных грибов и сливок или сметаны.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Lapshaen_kurka_sil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Lapshaen_kurka_sil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#The_Udmurt_Republic"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour_dough_cereals"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Meat"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Vegetables"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Turkey_with_Homemade_Noodles_Recipe"/>
+        <untitled-ontology-20:hasHistory>Пример адаптации кочевых и оседлых кухонных традиций: смешение домашней лапши (европейская техника) и местного мясного сырья (индюшатина).</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Лапша курица сйль</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Lugansk_Republic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Lugansk_Republic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Lugansk_Republic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Meat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Meat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Moscow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Moscow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Muksun_in_Sour_Cream_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Muksun_in_Sour_Cream_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Муксун в сметане делается так: стейки муксуна слегка обжаривают, затем перекладывают в форму, заливают сметаной со специями и запекают в духовке, пока рыба не станет мягкой и пропитанной соусом.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Muksun_in_sour_cream -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Muksun_in_sour_cream">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Krasnoyarsk_Region"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dairy_products"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Muksun_in_Sour_Cream_Recipe"/>
+        <untitled-ontology-20:hasHistory>Северное блюдо народов Сибири, где муксун — одна из самых ценных рыб, а приготовление в сметане привнесли переселенцы с европейской части России.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Муксун в сметане</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Mushrooms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Mushrooms">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Novomikhailovskaya_cutlet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Novomikhailovskaya_cutlet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Saint-Petersburg"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dairy_products"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Meat"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Vegetables"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Novomikhaylovskaya_Cutlet_Recipe"/>
+        <untitled-ontology-20:hasHistory>Связывается с одним из дворянских имений, где подобную котлету готовили специально для высокопоставленных гостей, подавая её в сопровождении оригинальных соусов.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Котлета Новомихайловская</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Novomikhaylovskaya_Cutlet_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Novomikhaylovskaya_Cutlet_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Котлета Новомихайловская готовится из приправленного мясного фарша (обычно курица), обжаривается или запекается. Подаётся с картофельным пюре, смешанным с тёртым пармезаном, и поливается куриным соусом «жу».</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Novosibirsk_region -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Novosibirsk_region">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Overnight_Cabbage_Soup_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Overnight_Cabbage_Soup_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Щи суточные — традиционный капустный суп с мясом и овощами, который варят и оставляют на сутки для настаивания. После этого он приобретает особый вкус и при разогреве подаётся со сметаной и хлебом.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Pozharsky_Cutlet_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Pozharsky_Cutlet_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Пожарская котлета создаётся из рубленого куриного (либо смешанного) мяса, перемешанного с хлебом, вымоченным в сливках. Котлеты панируют в сухарях, обжаривают в сливочном масле и подают со свежей зеленью.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Reindeer_Roulades -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Reindeer_Roulades">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Meat"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Vegetables"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#oil"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Venison_Roulades_Recipe"/>
+        <untitled-ontology-20:hasHistory>Широко распространены в северных регионах, где оленина — основной мясной продукт; подобные блюда упоминались в этнографических описаниях жизни оленеводов.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Рулады из оленя</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ryazan_region -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ryazan_region">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+        <rdfs:comment>Рязаская область</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Saint-Petersburg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Saint-Petersburg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Sakhalin_Region -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Sakhalin_Region">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Solid_from_the_pike_perch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Solid_from_the_pike_perch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:hasHistory>Историческое блюдо из местного продукта</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Судачок из речки вестимо</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#The_Udmurt_Republic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#The_Udmurt_Republic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#The_Udmurt_Republic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#The_Yeniseiskaya_ear_consists_of_three_types_of_fish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#The_Yeniseiskaya_ear_consists_of_three_types_of_fish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Krasnoyarsk_Region"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Vegetables"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Turkey_with_Homemade_Noodles_Recipe"/>
+        <untitled-ontology-20:hasHistory>Уходит корнями к рыбацким промыслам в бассейне Енисея, где всегда было изобилие разных сортов рыбы, что и дало блюду многогранный вкус.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Уха Енисейская из трёх видов рыб</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Turkey_with_Homemade_Noodles_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Turkey_with_Homemade_Noodles_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>«Лапшаен курка сйль» предполагает приготовление домашней лапши из муки и яиц, которую отваривают отдельно. Индейка обжаривается или отваривается в бульоне со специями, затем смешивается с лапшой и подаётся горячей.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Tverskaya_region -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Tverskaya_region">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Vegetables -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Vegetables">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Venison_Roulades_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Venison_Roulades_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Рулады из оленя делают из тонко нарезанной и слегка отбитой оленины, приправленной солью и перцем. Начинку (овощи или грибы) заворачивают внутрь рулета, обжаривают и доводят до готовности в бульоне или соусе.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Venison_in_Black_Currant_Berries_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Venison_in_Black_Currant_Berries_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Оленину в ягодах чёрной смородины маринуют в смородине и специях, обжаривают и тушат с добавлением морошки и шишек для аромата. Подаётся обычно на ржаной лепёшке, придавая блюду особый вкус.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Venison_in_black_currant_berries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Venison_in_black_currant_berries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#HMAO"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Berries"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour_dough_cereals"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Meat"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Venison_in_Black_Currant_Berries_Recipe"/>
+        <untitled-ontology-20:hasHistory>Отражает традиционное сочетание дикорастущих ягод и оленины на Крайнем Севере, когда доступных приправ было мало, а смородина и морошка часто заменяли экзотические специи.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Оленина в ягодах чёрной смородины</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Wheat_Katenka_with_Porcini_Mushrooms_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Wheat_Katenka_with_Porcini_Mushrooms_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Пшеничная катанка готовится из пшеничной крупы или теста, свёрнутого в небольшие цилиндры или шарики. Их отваривают или обжаривают и подают с соусом из обжаренных белых грибов, смешанных со сливками и приправами.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Wheat_wire_rod_with_porcini_mushrooms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Wheat_wire_rod_with_porcini_mushrooms">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ryazan_region"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour_dough_cereals"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Mushrooms"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Wheat_Katenka_with_Porcini_Mushrooms_Recipe"/>
+        <untitled-ontology-20:hasHistory>Уходит корнями к лесной кухне европейской части России: пшеничная крупа и белые грибы считались почётным гостевым угощением.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Пшеничная катанка с белыми грибами</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Yaroslavl_region -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Yaroslavl_region">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Yenisei_Fish_Soup_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Yenisei_Fish_Soup_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Уха Енисейская из трёх видов рыб варится на основе смеси нескольких рыб (например, щука, судак, налим), с добавлением лука и овощей. Рыбу закладывают в кипящую воду, приправляют солью и перцем и варят до готовности, затем подают с зеленью.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Zander_Telnoye_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Zander_Telnoye_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Тельное из судака готовят, измельчив филе судака в фарш с добавлением сливок и специй. Из фарша делают небольшие котлеты, обжаривают и запекают в сливочном соусе, украшают клюквой и зеленью.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Zander_from_the_River_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Zander_from_the_River_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>Судачок из речки «вестимо» — блюдо, в котором судака нарезают на порции, приправляют солью и перцем, обжаривают или запекают, часто сопровождая гарниром из картофеля или овощей.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#oil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#oil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fisherman’s_Catch_Ravioli_with_Seafood_and_Roe_Recipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fisherman’s_Catch_Ravioli_with_Seafood_and_Roe_Recipe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Recipe"/>
+        <untitled-ontology-20:hasSteps>«Улов рыбака»: равиоли, замешанные с добавлением шафрана в тесто, начиняют морепродуктами и икрой. Отваренные равиоли подаются под лёгким сливочным соусом, раскрывая вкус морских компонентов.</untitled-ontology-20:hasSteps>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour,_dough,_cereals -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour,_dough,_cereals">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Spices,_herbs,_salt,_pepper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Spices,_herbs,_salt,_pepper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Ingredient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#The_Fireman&apos;s_cutlet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#The_Fireman&apos;s_cutlet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Tverskaya_region"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dairy_products"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour_dough_cereals"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Meat"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Pozharsky_Cutlet_Recipe"/>
+        <untitled-ontology-20:hasHistory>Получила название от купеческого дома Пожарских в Торжке и приобрела популярность при царском дворе благодаря восхищению знатных гостей.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Пожарская котлета</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#The_fisherman&apos;s_catch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#The_fisherman&apos;s_catch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Dish"/>
+        <untitled-ontology-20:belongsToRegion rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Moscow"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fish"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Flour_dough_cereals"/>
+        <untitled-ontology-20:hasIngredient rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Species"/>
+        <untitled-ontology-20:hasRecipe rdf:resource="http://www.semanticweb.org/radis/ontologies/2025/2/untitled-ontology-20#Fisherman’s_Catch_Ravioli_with_Seafood_and_Roe_Recipe"/>
+        <untitled-ontology-20:hasHistory>Отражает объединение итальянского влияния (равиоли) и местных даров водоемов; шафрановые нотки — пример адаптации модных европейских специй в русской кухне.</untitled-ontology-20:hasHistory>
+        <rdfs:comment>Улов рыбака</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

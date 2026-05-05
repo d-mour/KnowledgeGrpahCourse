@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_RESOURCE"/>
+	</Kinds>
+	<Types>
+		<!-- Bonus -->
+		<Row Type="RESOURCE_BANANAS" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_CATTLE" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_COPPER" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_CRABS" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_DEER" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_FISH" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_RICE" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_SHEEP" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_STONE" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_WHEAT" Kind="KIND_RESOURCE"/>
+		<!--Luxury -->
+		<Row Type="RESOURCE_CITRUS" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_COCOA" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_COFFEE" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_COTTON" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_DIAMONDS" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_DYES" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_FURS" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_GYPSUM" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_INCENSE" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_IVORY" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_JADE" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_MARBLE" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_MERCURY" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_PEARLS" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_SALT" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_SILK" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_SILVER" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_SPICES" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_SUGAR" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_TEA" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_TOBACCO" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_TRUFFLES" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_WHALES" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_WINE" Kind="KIND_RESOURCE"/>
+		<!--Unique Luxury-->
+		<Row Type="RESOURCE_JEANS" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_PERFUME" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_COSMETICS" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_TOYS" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_CINNAMON" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_CLOVES" Kind="KIND_RESOURCE"/>
+		<!-- Strategic -->
+		<Row Type="RESOURCE_ALUMINUM" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_COAL" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_HORSES" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_IRON" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_NITER" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_OIL" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_URANIUM" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_ANTIQUITY_SITE" Kind="KIND_RESOURCE"/>
+		<Row Type="RESOURCE_SHIPWRECK" Kind="KIND_RESOURCE"/>
+	</Types>
+	<Vocabularies>
+		<Row Vocabulary="RESOURCE_CLASS"/>
+	</Vocabularies>
+	<Tags>
+		<!-- Yield Based-->
+		<Row Tag="CLASS_FOOD" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_CULTURE" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_GOLD" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_PRODUCTION" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_SCIENCE" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_ORAL_TRADITION" Vocabulary="RESOURCE_CLASS"/>
+		<Row Tag="CLASS_GODDESS_OF_FESTIVALS" Vocabulary="RESOURCE_CLASS"/>
+		<!-- Domain Based-->
+		<Row Tag="CLASS_SEA" Vocabulary="RESOURCE_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<!-- Bonus-->
+		<Row Type="RESOURCE_BANANAS" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_BANANAS" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_BANANAS" Tag="CLASS_ORAL_TRADITION"/>
+		<Row Type="RESOURCE_CATTLE" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_COPPER" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_COPPER" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_CRABS" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_CRABS" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_CRABS" Tag="CLASS_SEA"/>
+		<Row Type="RESOURCE_DEER" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_DEER" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_FISH" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_FISH" Tag="CLASS_SEA"/>
+		<Row Type="RESOURCE_RICE" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_SHEEP" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_STONE" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_WHEAT" Tag="CLASS_FOOD"/>
+		<!-- Luxury-->
+		<Row Type="RESOURCE_CITRUS" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_CITRUS" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_CITRUS" Tag="CLASS_ORAL_TRADITION"/>
+		<Row Type="RESOURCE_COCOA" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_COCOA" Tag="CLASS_GODDESS_OF_FESTIVALS"/>
+		<Row Type="RESOURCE_COFFEE" Tag="CLASS_CULTURE"/>
+		<Row Type="RESOURCE_COFFEE" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_COFFEE" Tag="CLASS_GODDESS_OF_FESTIVALS"/>
+		<Row Type="RESOURCE_COTTON" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_COTTON" Tag="CLASS_ORAL_TRADITION"/>
+		<Row Type="RESOURCE_DIAMONDS" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_DIAMONDS" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_DYES" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_DYES" Tag="CLASS_ORAL_TRADITION"/>
+		<Row Type="RESOURCE_FURS" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_FURS" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_GYPSUM" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_GYPSUM" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_INCENSE" Tag="CLASS_CULTURE"/>
+		<Row Type="RESOURCE_INCENSE" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_INCENSE" Tag="CLASS_GODDESS_OF_FESTIVALS"/>
+		<Row Type="RESOURCE_IVORY" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_IVORY" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_JADE" Tag="CLASS_CULTURE"/>
+		<Row Type="RESOURCE_JADE" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_MARBLE" Tag="CLASS_CULTURE"/>
+		<Row Type="RESOURCE_MARBLE" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_MERCURY" Tag="CLASS_SCIENCE"/>
+		<Row Type="RESOURCE_MERCURY" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_PEARLS" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_PEARLS" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_PEARLS" Tag="CLASS_SEA"/>
+		<Row Type="RESOURCE_SALT" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_SALT" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_SALT" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_SILK" Tag="CLASS_CULTURE"/>
+		<Row Type="RESOURCE_SILK" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_SILK" Tag="CLASS_ORAL_TRADITION"/>
+		<Row Type="RESOURCE_SILVER" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_SILVER" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_SPICES" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_SPICES" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_SPICES" Tag="CLASS_ORAL_TRADITION"/>
+		<Row Type="RESOURCE_SUGAR" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_SUGAR" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_SUGAR" Tag="CLASS_ORAL_TRADITION"/>
+		<Row Type="RESOURCE_TEA" Tag="CLASS_SCIENCE"/>
+		<Row Type="RESOURCE_TEA" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_TEA" Tag="CLASS_GODDESS_OF_FESTIVALS"/>
+		<Row Type="RESOURCE_TOBACCO" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_TOBACCO" Tag="CLASS_GODDESS_OF_FESTIVALS"/>
+		<Row Type="RESOURCE_TRUFFLES" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_WHALES" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_WHALES" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_WHALES" Tag="CLASS_SEA"/>
+		<Row Type="RESOURCE_WINE" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_WINE" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_WINE" Tag="CLASS_GODDESS_OF_FESTIVALS"/>
+		<!-- Strategic-->
+		<Row Type="RESOURCE_ALUMINUM" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_ALUMINUM" Tag="CLASS_SCIENCE"/>
+		<Row Type="RESOURCE_COAL" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_HORSES" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_HORSES" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_IRON" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_IRON" Tag="CLASS_SCIENCE"/>
+		<Row Type="RESOURCE_NITER" Tag="CLASS_FOOD"/>
+		<Row Type="RESOURCE_NITER" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_OIL" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_URANIUM" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_URANIUM" Tag="CLASS_SCIENCE"/>
+	</TypeTags>
+	<Resources>
+		<!-- Bonus -->
+		<Row ResourceType="RESOURCE_BANANAS" Name="LOC_RESOURCE_BANANAS_NAME" ResourceClassType="RESOURCECLASS_BONUS" Frequency="4"/>
+		<Row ResourceType="RESOURCE_CATTLE" Name="LOC_RESOURCE_CATTLE_NAME" ResourceClassType="RESOURCECLASS_BONUS" Frequency="6"/>
+		<Row ResourceType="RESOURCE_COPPER" Name="LOC_RESOURCE_COPPER_NAME" ResourceClassType="RESOURCECLASS_BONUS" Frequency="4"/>
+		<Row ResourceType="RESOURCE_CRABS" Name="LOC_RESOURCE_CRABS_NAME" ResourceClassType="RESOURCECLASS_BONUS" SeaFrequency="17"/>
+		<Row ResourceType="RESOURCE_DEER" Name="LOC_RESOURCE_DEER_NAME" ResourceClassType="RESOURCECLASS_BONUS" Frequency="4"/>
+		<Row ResourceType="RESOURCE_FISH" Name="LOC_RESOURCE_FISH_NAME" ResourceClassType="RESOURCECLASS_BONUS" SeaFrequency="23"/>
+		<Row ResourceType="RESOURCE_RICE" Name="LOC_RESOURCE_RICE_NAME" ResourceClassType="RESOURCECLASS_BONUS" Frequency="6"/>
+		<Row ResourceType="RESOURCE_SHEEP" Name="LOC_RESOURCE_SHEEP_NAME" ResourceClassType="RESOURCECLASS_BONUS" Frequency="4"/>
+		<Row ResourceType="RESOURCE_STONE" Name="LOC_RESOURCE_STONE_NAME" ResourceClassType="RESOURCECLASS_BONUS" Frequency="10"/>
+		<Row ResourceType="RESOURCE_WHEAT" Name="LOC_RESOURCE_WHEAT_NAME" ResourceClassType="RESOURCECLASS_BONUS" Frequency="10"/>
+		<!-- Luxury-->
+		<Row ResourceType="RESOURCE_CITRUS" Name="LOC_RESOURCE_CITRUS_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_COCOA" Name="LOC_RESOURCE_COCOA_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_COFFEE" Name="LOC_RESOURCE_COFFEE_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_COTTON" Name="LOC_RESOURCE_COTTON_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_DIAMONDS" Name="LOC_RESOURCE_DIAMONDS_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_DYES" Name="LOC_RESOURCE_DYES_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_FURS" Name="LOC_RESOURCE_FURS_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_GYPSUM" Name="LOC_RESOURCE_GYPSUM_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_INCENSE" Name="LOC_RESOURCE_INCENSE_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_IVORY" Name="LOC_RESOURCE_IVORY_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_JADE" Name="LOC_RESOURCE_JADE_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_MARBLE" Name="LOC_RESOURCE_MARBLE_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_MERCURY" Name="LOC_RESOURCE_MERCURY_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_PEARLS" Name="LOC_RESOURCE_PEARLS_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" SeaFrequency="1"/>
+		<Row ResourceType="RESOURCE_SALT" Name="LOC_RESOURCE_SALT_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_SILK" Name="LOC_RESOURCE_SILK_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_SILVER" Name="LOC_RESOURCE_SILVER_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_SPICES" Name="LOC_RESOURCE_SPICES_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_SUGAR" Name="LOC_RESOURCE_SUGAR_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_TEA" Name="LOC_RESOURCE_TEA_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_TOBACCO" Name="LOC_RESOURCE_TOBACCO_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_TRUFFLES" Name="LOC_RESOURCE_TRUFFLES_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<Row ResourceType="RESOURCE_WHALES" Name="LOC_RESOURCE_WHALES_NAME" LakeEligible="false" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" SeaFrequency="1"/>
+		<Row ResourceType="RESOURCE_WINE" Name="LOC_RESOURCE_WINE_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="2"/>
+		<!-- Unique Luxury-->
+		<Row ResourceType="RESOURCE_JEANS" Name="LOC_RESOURCE_JEANS_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="0"/>
+		<Row ResourceType="RESOURCE_PERFUME" Name="LOC_RESOURCE_PERFUME_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
+		<Row ResourceType="RESOURCE_COSMETICS" Name="LOC_RESOURCE_COSMETICS_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="0"/>
+		<Row ResourceType="RESOURCE_TOYS" Name="LOC_RESOURCE_TOYS_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="0"/>
+		<Row ResourceType="RESOURCE_CINNAMON" Name="LOC_RESOURCE_CINNAMON_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
+		<Row ResourceType="RESOURCE_CLOVES" Name="LOC_RESOURCE_CLOVES_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
+		<!-- Strategic -->
+		<Row ResourceType="RESOURCE_ALUMINUM" Name="LOC_RESOURCE_ALUMINUM_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="10" PrereqTech="TECH_RADIO" RevealedEra="6"/>
+		<Row ResourceType="RESOURCE_COAL" Name="LOC_RESOURCE_COAL_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="10" PrereqTech="TECH_INDUSTRIALIZATION" RevealedEra="5"/>
+		<Row ResourceType="RESOURCE_HORSES" Name="LOC_RESOURCE_HORSES_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="12" RevealedEra="1"/>
+		<Row ResourceType="RESOURCE_IRON" Name="LOC_RESOURCE_IRON_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="12" PrereqTech="TECH_BRONZE_WORKING" RevealedEra="2"/>
+		<Row ResourceType="RESOURCE_NITER" Name="LOC_RESOURCE_NITER_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="10" PrereqTech="TECH_MILITARY_ENGINEERING" RevealedEra="3"/>
+		<Row ResourceType="RESOURCE_OIL" Name="LOC_RESOURCE_OIL_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="5" SeaFrequency="8" PrereqTech="TECH_STEEL" RevealedEra="6"/>
+		<Row ResourceType="RESOURCE_URANIUM" Name="LOC_RESOURCE_URANIUM_NAME" ResourceClassType="RESOURCECLASS_STRATEGIC" Frequency="10" PrereqTech="TECH_COMBINED_ARMS" RevealedEra="7"/>
+		<!-- Artifact-->
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" Name="LOC_RESOURCE_ANTIQUITY_SITE_NAME" ResourceClassType="RESOURCECLASS_ARTIFACT" PrereqCivic="CIVIC_NATURAL_HISTORY"/>
+		<Row ResourceType="RESOURCE_SHIPWRECK" Name="LOC_RESOURCE_SHIPWRECK_NAME" ResourceClassType="RESOURCECLASS_ARTIFACT" PrereqCivic="CIVIC_CULTURAL_HERITAGE"/>
+	</Resources>
+	<Resource_ValidTerrains>
+		<!--Bonus -->
+		<Row ResourceType="RESOURCE_CATTLE" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_CRABS" TerrainType="TERRAIN_COAST"/>
+		<Row ResourceType="RESOURCE_DEER" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ResourceType="RESOURCE_DEER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_FISH" TerrainType="TERRAIN_COAST"/>
+		<Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_STONE" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_STONE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_RICE" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_WHEAT" TerrainType="TERRAIN_PLAINS"/>
+		<!--Luxury -->
+		<Row ResourceType="RESOURCE_CITRUS" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_CITRUS" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_COFFEE" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_COTTON" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_COTTON" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_FURS" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_INCENSE" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_INCENSE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_IVORY" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_IVORY" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_IVORY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_MERCURY" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_PEARLS" TerrainType="TERRAIN_COAST"/>
+		<Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_TEA" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_TEA" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_TOBACCO" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_TOBACCO" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_WHALES" TerrainType="TERRAIN_COAST"/>
+		<Row ResourceType="RESOURCE_WINE" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_WINE" TerrainType="TERRAIN_PLAINS"/>
+		<!--Strategic -->
+		<Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_COAL" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_COAL" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_HORSES" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_HORSES" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ResourceType="RESOURCE_OIL" TerrainType="TERRAIN_COAST"/>
+		<Row ResourceType="RESOURCE_OIL" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_OIL" TerrainType="TERRAIN_SNOW"/>
+		<Row ResourceType="RESOURCE_OIL" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_SNOW"/>
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" TerrainType="TERRAIN_SNOW"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_SHIPWRECK" TerrainType="TERRAIN_COAST"/>
+	</Resource_ValidTerrains>
+	<Resource_ValidFeatures>
+		<!--Bonus -->
+		<Row ResourceType="RESOURCE_BANANAS" FeatureType="FEATURE_JUNGLE"/>
+		<Row ResourceType="RESOURCE_DEER" FeatureType="FEATURE_FOREST"/>
+		<Row ResourceType="RESOURCE_RICE" FeatureType="FEATURE_MARSH"/>
+		<Row ResourceType="RESOURCE_WHEAT" FeatureType="FEATURE_FLOODPLAINS"/>
+		<!--Luxury -->
+		<Row ResourceType="RESOURCE_COCOA" FeatureType="FEATURE_JUNGLE"/>
+		<Row ResourceType="RESOURCE_COFFEE" FeatureType="FEATURE_JUNGLE"/>
+		<Row ResourceType="RESOURCE_COTTON" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row ResourceType="RESOURCE_DIAMONDS" FeatureType="FEATURE_JUNGLE"/>
+		<Row ResourceType="RESOURCE_DYES" FeatureType="FEATURE_JUNGLE"/>
+		<Row ResourceType="RESOURCE_DYES" FeatureType="FEATURE_FOREST"/>
+		<Row ResourceType="RESOURCE_FURS" FeatureType="FEATURE_FOREST"/>
+		<Row ResourceType="RESOURCE_IVORY" FeatureType="FEATURE_JUNGLE"/>
+		<Row ResourceType="RESOURCE_IVORY" FeatureType="FEATURE_FOREST"/>
+		<Row ResourceType="RESOURCE_SILK" FeatureType="FEATURE_FOREST"/>
+		<Row ResourceType="RESOURCE_SPICES" FeatureType="FEATURE_FOREST"/>
+		<Row ResourceType="RESOURCE_SPICES" FeatureType="FEATURE_JUNGLE"/>
+		<Row ResourceType="RESOURCE_SUGAR" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row ResourceType="RESOURCE_SUGAR" FeatureType="FEATURE_MARSH"/>
+		<Row ResourceType="RESOURCE_TOBACCO" FeatureType="FEATURE_FOREST"/>
+		<Row ResourceType="RESOURCE_TOBACCO" FeatureType="FEATURE_JUNGLE"/>
+		<Row ResourceType="RESOURCE_TRUFFLES" FeatureType="FEATURE_MARSH"/>
+		<Row ResourceType="RESOURCE_TRUFFLES" FeatureType="FEATURE_FOREST"/>
+		<Row ResourceType="RESOURCE_TRUFFLES" FeatureType="FEATURE_JUNGLE"/>
+		<Row ResourceType="RESOURCE_WINE" FeatureType="FEATURE_FOREST"/>
+		<!--Strategic -->
+		<Row ResourceType="RESOURCE_NITER" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row ResourceType="RESOURCE_OIL" FeatureType="FEATURE_MARSH"/>
+		<Row ResourceType="RESOURCE_URANIUM" FeatureType="FEATURE_JUNGLE"/>
+		<Row ResourceType="RESOURCE_URANIUM" FeatureType="FEATURE_FOREST"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" FeatureType="FEATURE_OASIS"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" FeatureType="FEATURE_JUNGLE"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" FeatureType="FEATURE_FOREST"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" FeatureType="FEATURE_MARSH"/>
+		<Row ResourceType="RESOURCE_ANTIQUITY_SITE" FeatureType="FEATURE_FLOODPLAINS"/>
+	</Resource_ValidFeatures>
+	<Resource_Harvests>
+		<Row ResourceType="RESOURCE_BANANAS" YieldType="YIELD_FOOD" Amount="20" PrereqTech="TECH_IRRIGATION"/>
+		<Row ResourceType="RESOURCE_CATTLE" YieldType="YIELD_FOOD" Amount="20" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
+		<Row ResourceType="RESOURCE_COPPER" YieldType="YIELD_GOLD" Amount="40" PrereqTech="TECH_MINING"/>
+		<Row ResourceType="RESOURCE_CRABS" YieldType="YIELD_GOLD" Amount="40" PrereqTech="TECH_CELESTIAL_NAVIGATION"/>
+		<Row ResourceType="RESOURCE_DEER" YieldType="YIELD_PRODUCTION" Amount="20" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
+		<Row ResourceType="RESOURCE_FISH" YieldType="YIELD_FOOD" Amount="20" PrereqTech="TECH_CELESTIAL_NAVIGATION"/>
+		<Row ResourceType="RESOURCE_RICE" YieldType="YIELD_FOOD" Amount="20" PrereqTech="TECH_POTTERY"/>
+		<Row ResourceType="RESOURCE_SHEEP" YieldType="YIELD_FOOD" Amount="20" PrereqTech="TECH_ANIMAL_HUSBANDRY"/>
+		<Row ResourceType="RESOURCE_STONE" YieldType="YIELD_PRODUCTION" Amount="20" PrereqTech="TECH_MASONRY"/>
+		<Row ResourceType="RESOURCE_WHEAT" YieldType="YIELD_FOOD" Amount="20" PrereqTech="TECH_POTTERY"/>
+	</Resource_Harvests>
+	<Resource_YieldChanges>
+		<!--Bonus-->
+		<Row ResourceType="RESOURCE_BANANAS" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_CATTLE" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_COPPER" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_CRABS" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_DEER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_FISH" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_RICE" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_SHEEP" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_STONE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_WHEAT" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<!--Luxury-->
+		<Row ResourceType="RESOURCE_CITRUS" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_COCOA" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row ResourceType="RESOURCE_COFFEE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_COTTON" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row ResourceType="RESOURCE_DIAMONDS" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row ResourceType="RESOURCE_DYES" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_FURS" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_FURS" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_GYPSUM" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_GYPSUM" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_INCENSE" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_IVORY" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_IVORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_JADE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_MARBLE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_MERCURY" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_PEARLS" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_SALT" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_SALT" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_SILK" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_SILVER" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row ResourceType="RESOURCE_SPICES" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_SUGAR" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_TEA" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_TOBACCO" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_TRUFFLES" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row ResourceType="RESOURCE_WHALES" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_WHALES" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_WINE" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_WINE" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<!--Strategic-->
+		<Row ResourceType="RESOURCE_ALUMINUM" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_COAL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_HORSES" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_HORSES" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_IRON" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_NITER" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_NITER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ResourceType="RESOURCE_OIL" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row ResourceType="RESOURCE_URANIUM" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Resource_YieldChanges>
+	<Resource_TradeRouteYields/>
+	<Resource_Distribution>
+		<Row Continents="1" Scarce="0" Average="7" Plentiful="0" PercentAdjusted="25"/>
+		<Row Continents="2" Scarce="4" Average="3" Plentiful="0" PercentAdjusted="25"/>
+		<Row Continents="3" Scarce="1" Average="1" Plentiful="1" PercentAdjusted="25"/>
+		<Row Continents="4" Scarce="1" Average="2" Plentiful="1" PercentAdjusted="25"/>
+		<Row Continents="5" Scarce="2" Average="1" Plentiful="2" PercentAdjusted="25"/>
+		<Row Continents="6" Scarce="2" Average="2" Plentiful="2" PercentAdjusted="25"/>
+		<Row Continents="7" Scarce="3" Average="1" Plentiful="3" PercentAdjusted="25"/>
+		<Row Continents="8" Scarce="3" Average="2" Plentiful="3" PercentAdjusted="25"/>
+	</Resource_Distribution>
+	<Resource_SeaLuxuries>
+		<Row MapArgument="1" Duel="0" Tiny="0" Small="0" Standard="0" Large="0" Huge="0"/>
+		<Row MapArgument="2" Duel="1" Tiny="1" Small="1" Standard="2" Large="2" Huge="2"/>
+		<Row MapArgument="3" Duel="1" Tiny="2" Small="2" Standard="2" Large="2" Huge="2"/>
+		<Row MapArgument="4" Duel="2" Tiny="2" Small="2" Standard="2" Large="2" Huge="2"/>
+	</Resource_SeaLuxuries>
+	<Resource_SeaStrategics>
+		<Row MapArgument="1" Duel="0" Tiny="0" Small="0" Standard="0" Large="0" Huge="0"/>
+		<Row MapArgument="2" Duel="1" Tiny="1" Small="1" Standard="1" Large="1" Huge="1"/>
+		<Row MapArgument="3" Duel="1" Tiny="1" Small="1" Standard="1" Large="1" Huge="1"/>
+		<Row MapArgument="4" Duel="1" Tiny="1" Small="1" Standard="1" Large="1" Huge="1"/>
+	</Resource_SeaStrategics>
+</GameInfo>

@@ -1,0 +1,20 @@
+# Найдите рецепты, которые содержат как "Onion", так и "Garlic" и имеют категорию "salad".
+PREFIX o: <http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#>
+
+SELECT DISTINCT ?recipe ?recipeName
+WHERE {
+  ?recipe a o:Recipe ;
+          o:name ?recipeName ;
+          o:hasCategory ?category ;
+          o:uses ?ingredient1, ?ingredient2 .
+  
+  ?category a o:Category ;
+            o:name "salad" .
+  
+  ?ingredient1 a o:Ingredient ;
+               o:name "onion" .
+  
+  ?ingredient2 a o:Ingredient ;
+               o:name "garlic" .
+}
+ORDER BY ?recipeName

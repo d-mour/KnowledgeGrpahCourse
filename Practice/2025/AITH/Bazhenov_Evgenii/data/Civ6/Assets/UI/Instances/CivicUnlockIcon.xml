@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Include File="CivicUnlockIcon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\..\..\CivTech\Libs\ForgeUI\ForgeUI_Assets\Controls.xsd">
+
+	<Instance Name="CivicUnlockInstance">
+		<Button ID="Top" Style="UnlockFrames" NoStateChange="1">
+			<Image ID="Icon" Size="38,38" Texture="Controls_Blank" Anchor="C,C"/>
+		</Button>
+	</Instance>
+
+	<Instance Name="CivicUnlockNumberedInstance">
+		<GridButton ID="Top" Texture="Controls_FrameInfo" Anchor="C,C" Size="auto,28" Offset="4,0" SliceCorner="9,9" SliceSize="5,5" SliceTextureSize="23,23">
+			<Stack Anchor="C,C" StackGrowth="Right" StackPadding="0" AutoSizePadding="5,0" >
+				<Label ID="NumberLabel" Anchor="L,C" Offset="5,0" Style="FontNormal18"/>
+				<Label ID="FontIcon"		Anchor="L,C" Offset="0,-1" Style="FontNormal16"/>
+			</Stack>
+		</GridButton>
+	</Instance>
+	
+	<!-- For backwards compatibility -->
+	<Instance Name="UnlockIconInstance">
+		<Button ID="UnlockIcon" Style="UnlockFrames" NoStateChange="1">
+			<Image ID="Icon" Size="38,38" Texture="Controls_Blank" Anchor="C,C"/>
+		</Button>
+	</Instance>
+
+</Include>

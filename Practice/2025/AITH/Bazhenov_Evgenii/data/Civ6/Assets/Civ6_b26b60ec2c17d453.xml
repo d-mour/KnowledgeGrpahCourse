@@ -1,0 +1,20 @@
+<Firaxis key="E4DCB6352A25F2430C17B7F4DC4037C2">
+	<Item type="mod" value="0C0C1169-CC34-44A6-9DB9-52CA4499A2CF">
+		<FiraxisLive id="27EA8C42A320474D9A388C3E3DD2B47F"/>
+		<SteamApp id="2297840"/>
+		<EpicApp id="6b9f5c655e1a408c8543297b1d4780cc:7cd4380ff4ed4ae6a6853101510caadd:137BFDA0-02BA-444E-8E9F-B7C8D2AAB82A"/>
+		<NonOwnerAllowance type="view" mode="multiplayer"/>
+	</Item>	
+	<Item type="mod" value="9ED63236-617C-45A6-BB70-8CB6B0BE8ED2">
+		<FiraxisLive id="27EA8C42A320474D9A388C3E3DD2B47F"/>
+		<SteamApp id="2297840"/>
+		<EpicApp id="6b9f5c655e1a408c8543297b1d4780cc:7cd4380ff4ed4ae6a6853101510caadd:137BFDA0-02BA-444E-8E9F-B7C8D2AAB82A"/>
+		<NonOwnerAllowance type="view" mode="multiplayer"/>
+	</Item>	
+	<Item type="leader" value="LEADER_JULIUS_CAESAR">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<FiraxisLive id="27EA8C42A320474D9A388C3E3DD2B47F"/>
+		<SteamApp id="2297840"/>
+		<EpicApp id="6b9f5c655e1a408c8543297b1d4780cc:7cd4380ff4ed4ae6a6853101510caadd:137BFDA0-02BA-444E-8E9F-B7C8D2AAB82A"/>
+	</Item>
+</Firaxis>

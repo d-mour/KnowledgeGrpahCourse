@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="http://example.org/ontology/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/ontology/Entity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Weapon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Equipment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Enemy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/pyro_slime">
+    <rdf:type rdf:resource="http://example.org/ontology/Enemy"/>
+    <ex:name>pyro_slime</ex:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Artifact">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Equipment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Element">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Parameter"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Character"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Enemy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Weapon_Type">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Weapon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Team">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Artifact_Stat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Parameter"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Vulnerable_to">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ontology/Enemy"/>
+    <rdfs:range rdf:resource="http://example.org/ontology/Element"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Region">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Parameter"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Character"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Rarity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Parameter"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Character"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Equipment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Parameter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/Character">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Team"/>
+    <rdfs:subClassOf rdf:resource="http://example.org/ontology/Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ontology/ontology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+</rdf:RDF>

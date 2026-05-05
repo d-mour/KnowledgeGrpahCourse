@@ -1,0 +1,1316 @@
+@prefix aud: <http://example.org/audio/> .
+@prefix emo: <http://example.org/emotion/> .
+@prefix ex: <http://example.org/schema#> .
+@prefix txt: <http://example.org/text/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+emo:neg_0 ex:hasAudio aud:neg_0 ;
+    ex:hasText txt:neg_0 .
+
+emo:neg_1 ex:hasAudio aud:neg_1 ;
+    ex:hasText txt:neg_1 .
+
+emo:neg_2 ex:hasAudio aud:neg_2 ;
+    ex:hasText txt:neg_2 .
+
+emo:neg_3 ex:hasAudio aud:neg_3 ;
+    ex:hasText txt:neg_3 .
+
+emo:neg_4 ex:hasAudio aud:neg_4 ;
+    ex:hasText txt:neg_4 .
+
+emo:neg_5 ex:hasAudio aud:neg_5 ;
+    ex:hasText txt:neg_5 .
+
+emo:neg_6 ex:hasAudio aud:neg_6 ;
+    ex:hasText txt:neg_6 .
+
+emo:neg_7 ex:hasAudio aud:neg_7 ;
+    ex:hasText txt:neg_7 .
+
+emo:neg_8 ex:hasAudio aud:neg_8 ;
+    ex:hasText txt:neg_8 .
+
+emo:neut_0 ex:hasAudio aud:neut_0 ;
+    ex:hasText txt:neut_0 .
+
+emo:neut_1 ex:hasAudio aud:neut_1 ;
+    ex:hasText txt:neut_1 .
+
+emo:neut_2 ex:hasAudio aud:neut_2 ;
+    ex:hasText txt:neut_2 .
+
+emo:neut_3 ex:hasAudio aud:neut_3 ;
+    ex:hasText txt:neut_3 .
+
+emo:neut_4 ex:hasAudio aud:neut_4 ;
+    ex:hasText txt:neut_4 .
+
+emo:neut_5 ex:hasAudio aud:neut_5 ;
+    ex:hasText txt:neut_5 .
+
+emo:neut_6 ex:hasAudio aud:neut_6 ;
+    ex:hasText txt:neut_6 .
+
+emo:neut_7 ex:hasAudio aud:neut_7 ;
+    ex:hasText txt:neut_7 .
+
+emo:neut_8 ex:hasAudio aud:neut_8 ;
+    ex:hasText txt:neut_8 .
+
+emo:pos_0 ex:hasAudio aud:pos_0 ;
+    ex:hasText txt:pos_0 .
+
+emo:pos_1 ex:hasAudio aud:pos_1 ;
+    ex:hasText txt:pos_1 .
+
+emo:pos_2 ex:hasAudio aud:pos_2 ;
+    ex:hasText txt:pos_2 .
+
+emo:pos_3 ex:hasAudio aud:pos_3 ;
+    ex:hasText txt:pos_3 .
+
+emo:pos_4 ex:hasAudio aud:pos_4 ;
+    ex:hasText txt:pos_4 .
+
+emo:pos_5 ex:hasAudio aud:pos_5 ;
+    ex:hasText txt:pos_5 .
+
+emo:pos_6 ex:hasAudio aud:pos_6 ;
+    ex:hasText txt:pos_6 .
+
+emo:pos_7 ex:hasAudio aud:pos_7 ;
+    ex:hasText txt:pos_7 .
+
+emo:pos_8 ex:hasAudio aud:pos_8 ;
+    ex:hasText txt:pos_8 .
+
+<http://example.org/audio/0/loud/low> ex:lasts 2.09e-01,
+        4.66e-01,
+        6.99e-01 ;
+    ex:value "low" .
+
+<http://example.org/audio/0/tone/high> ex:lasts 6.6e-02,
+        9.9e-02 ;
+    ex:value "high" .
+
+<http://example.org/audio/0/tone/low> ex:lasts 9.9e-02,
+        2.97e-01 ;
+    ex:value "low" .
+
+<http://example.org/audio/0/word/вила> ex:lasts 5.23e-01 .
+
+<http://example.org/audio/0/word/включи> ex:lasts 4.94e-01 .
+
+<http://example.org/audio/0/word/выбери> ex:lasts 6.93e-01 .
+
+<http://example.org/audio/0/word/мадрид> ex:lasts 4.56e-01 .
+
+<http://example.org/audio/0/word/номер> ex:lasts 7.26e-01 .
+
+<http://example.org/audio/0/word/один> ex:lasts 4.95e-01 .
+
+<http://example.org/audio/0/word/песню> ex:lasts 4.57e-01 .
+
+<http://example.org/audio/0/word/реал> ex:lasts 5.32e-01,
+        5.51e-01 .
+
+<http://example.org/audio/0/word/сама> ex:lasts 5.86e-01 .
+
+<http://example.org/audio/0/word/скриптонита> ex:lasts 8.97e-01 .
+
+<http://example.org/audio/0/word/танцуй> ex:lasts 5.12e-01 .
+
+<http://example.org/audio/1/loud/high> ex:lasts 1.447e+00 ;
+    ex:value "high" .
+
+<http://example.org/audio/1/loud/mid> ex:lasts 3.541e+00 ;
+    ex:value "mid" .
+
+<http://example.org/audio/1/tone/low> ex:lasts 9.1e-02 ;
+    ex:value "low" .
+
+<http://example.org/audio/1/tone/mid> ex:lasts 1.34e-01 ;
+    ex:value "mid" .
+
+<http://example.org/audio/1/word/авиабилета> ex:lasts 8.79e-01 .
+
+<http://example.org/audio/1/word/здорово> ex:lasts 7.33e-01 .
+
+<http://example.org/audio/1/word/кондитер> ex:lasts 6.2e-01,
+        6.47e-01 .
+
+<http://example.org/audio/1/word/конечно> ex:lasts 5.27e-01 .
+
+<http://example.org/audio/1/word/мне> ex:lasts 4.09e-01 .
+
+<http://example.org/audio/1/word/ну> ex:lasts 2.14e-01 .
+
+<http://example.org/audio/1/word/нужна> ex:lasts 3.48e-01 .
+
+<http://example.org/audio/1/word/сезон> ex:lasts 6.95e-01 .
+
+<http://example.org/audio/1/word/стоимость> ex:lasts 5.3e-01 .
+
+<http://example.org/audio/1/word/четвертый> ex:lasts 5.12e-01 .
+
+<http://example.org/audio/1/word/шоу> ex:lasts 4.99e-01 .
+
+<http://example.org/audio/2/loud/high> ex:lasts 6.19e-01,
+        6.94e-01 ;
+    ex:value "high" .
+
+<http://example.org/audio/2/loud/mid> ex:lasts 1.224e+00 ;
+    ex:value "mid" .
+
+<http://example.org/audio/2/tone/high> ex:lasts 1.01e-01 ;
+    ex:value "high" .
+
+<http://example.org/audio/2/tone/mid> ex:lasts 6.79e-01,
+        9.11e-01 ;
+    ex:value "mid" .
+
+<http://example.org/audio/2/word/военная> ex:lasts 7.7e-01 .
+
+<http://example.org/audio/2/word/детективы> ex:lasts 6.95e-01 .
+
+<http://example.org/audio/2/word/люблю> ex:lasts 3.93e-01 .
+
+<http://example.org/audio/2/word/найти> ex:lasts 5.68e-01 .
+
+<http://example.org/audio/2/word/пенсия> ex:lasts 7.57e-01 .
+
+<http://example.org/audio/2/word/салют> ex:lasts 6.07e-01 .
+
+<http://example.org/audio/2/word/сбер> ex:lasts 5.18e-01 .
+
+<http://example.org/audio/2/word/тебя> ex:lasts 5e-01 .
+
+<http://example.org/audio/2/word/я> ex:lasts 3.93e-01 .
+
+<http://example.org/audio/3/loud/high> ex:lasts 2.752e+00 ;
+    ex:value "high" .
+
+<http://example.org/audio/3/loud/mid> ex:lasts 1.134e+00 ;
+    ex:value "mid" .
+
+<http://example.org/audio/3/tone/high> ex:lasts 1.016e+00 ;
+    ex:value "high" .
+
+<http://example.org/audio/3/word/арабы> ex:lasts 8.42e-01 .
+
+<http://example.org/audio/3/word/конечно> ex:lasts 9.5e-01 .
+
+<http://example.org/audio/3/word/кроссовки> ex:lasts 9.66e-01 .
+
+<http://example.org/audio/3/word/кто> ex:lasts 2.87e-01 .
+
+<http://example.org/audio/3/word/мокрые> ex:lasts 6.3e-01 .
+
+<http://example.org/audio/3/word/моя> ex:lasts 9.17e-01 .
+
+<http://example.org/audio/3/word/ну> ex:lasts 2.29e-01 .
+
+<http://example.org/audio/3/word/такие> ex:lasts 4.66e-01 .
+
+<http://example.org/audio/3/word/умница> ex:lasts 7.53e-01 .
+
+<http://example.org/audio/4/tone/low> ex:lasts 1.57e-01 ;
+    ex:value "low" .
+
+<http://example.org/audio/4/word/век> ex:lasts 4.48e-01 .
+
+<http://example.org/audio/4/word/великолепный> ex:lasts 1.121e+00 .
+
+<http://example.org/audio/4/word/вторая> ex:lasts 6.28e-01 .
+
+<http://example.org/audio/4/word/да> ex:lasts 4.28e-01 .
+
+<http://example.org/audio/4/word/двадцать> ex:lasts 7.17e-01 .
+
+<http://example.org/audio/4/word/девчачьи> ex:lasts 5.99e-01 .
+
+<http://example.org/audio/4/word/день> ex:lasts 2.62e-01 .
+
+<http://example.org/audio/4/word/мультфильмы> ex:lasts 6.93e-01 .
+
+<http://example.org/audio/4/word/нас> ex:lasts 2.48e-01 .
+
+<http://example.org/audio/4/word/прошел> ex:lasts 5.52e-01 .
+
+<http://example.org/audio/4/word/серия> ex:lasts 1.031e+00 .
+
+<http://example.org/audio/4/word/у> ex:lasts 1.1e-01 .
+
+<http://example.org/audio/4/word/удачно> ex:lasts 7.45e-01 .
+
+<http://example.org/audio/5/loud/high> ex:lasts 2.309e+00 ;
+    ex:value "high" .
+
+<http://example.org/audio/5/tone/rise> ex:lasts 3.42e-01 ;
+    ex:value "rise" .
+
+<http://example.org/audio/5/word/век> ex:lasts 5.03e-01 .
+
+<http://example.org/audio/5/word/великолепный> ex:lasts 7.89e-01 .
+
+<http://example.org/audio/5/word/видео> ex:lasts 5.58e-01 .
+
+<http://example.org/audio/5/word/живет> ex:lasts 6.04e-01 .
+
+<http://example.org/audio/5/word/мне> ex:lasts 3.71e-01 .
+
+<http://example.org/audio/5/word/радостно> ex:lasts 9.41e-01 .
+
+<http://example.org/audio/5/word/сколько> ex:lasts 5.1e-01 .
+
+<http://example.org/audio/5/word/тоже> ex:lasts 2.85e-01 .
+
+<http://example.org/audio/6/loud/low> ex:lasts 4.36e+00 ;
+    ex:value "low" .
+
+<http://example.org/audio/6/tone/fall> ex:lasts 4.9e-02 ;
+    ex:value "fall" .
+
+<http://example.org/audio/6/tone/low> ex:lasts 1.806e+00 ;
+    ex:value "low" .
+
+<http://example.org/audio/6/tone/mid> ex:lasts 1.46e-01 ;
+    ex:value "mid" .
+
+<http://example.org/audio/6/word/а> ex:lasts 1.77e-01 .
+
+<http://example.org/audio/6/word/любимая> ex:lasts 7.11e-01 .
+
+<http://example.org/audio/6/word/маманя> ex:lasts 4.93e-01 .
+
+<http://example.org/audio/6/word/мне> ex:lasts 2.31e-01 .
+
+<http://example.org/audio/6/word/не> ex:lasts 1.09e-01 .
+
+<http://example.org/audio/6/word/печень> ex:lasts 5.16e-01 .
+
+<http://example.org/audio/6/word/подписка> ex:lasts 5.34e-01 .
+
+<http://example.org/audio/6/word/позволяет> ex:lasts 8.69e-01 .
+
+<http://example.org/audio/6/word/привет> ex:lasts 5.41e-01 .
+
+<http://example.org/audio/6/word/спорт> ex:lasts 5.09e-01 .
+
+<http://example.org/audio/7/tone/high> ex:lasts 1.39e-01 ;
+    ex:value "high" .
+
+<http://example.org/audio/7/tone/rise> ex:lasts 2.02e-01 ;
+    ex:value "rise" .
+
+<http://example.org/audio/7/word/врача> ex:lasts 6.56e-01 .
+
+<http://example.org/audio/7/word/вызвать> ex:lasts 5.05e-01 .
+
+<http://example.org/audio/7/word/выйди> ex:lasts 3.66e-01 .
+
+<http://example.org/audio/7/word/из> ex:lasts 2.75e-01 .
+
+<http://example.org/audio/7/word/мне> ex:lasts 3.28e-01 .
+
+<http://example.org/audio/7/word/можешь> ex:lasts 5.05e-01 .
+
+<http://example.org/audio/7/word/поезжай> ex:lasts 9.38e-01 .
+
+<http://example.org/audio/7/word/приложения> ex:lasts 9.16e-01 .
+
+<http://example.org/audio/7/word/разговор> ex:lasts 4.17e-01 .
+
+<http://example.org/audio/7/word/сбер> ex:lasts 5.89e-01 .
+
+<http://example.org/audio/7/word/такой> ex:lasts 4.51e-01 .
+
+<http://example.org/audio/7/word/ты> ex:lasts 2.02e-01 .
+
+<http://example.org/audio/7/word/этого> ex:lasts 7.06e-01 .
+
+<http://example.org/audio/8/loud/mid> ex:lasts 1.098e+00 ;
+    ex:value "mid" .
+
+<http://example.org/audio/8/tone/high> ex:lasts 7.5e-02 ;
+    ex:value "high" .
+
+<http://example.org/audio/8/tone/low> ex:lasts 2.14e+00 ;
+    ex:value "low" .
+
+<http://example.org/audio/8/tone/rise> ex:lasts 1.29e-01 ;
+    ex:value "rise" .
+
+<http://example.org/audio/8/word/весёлые> ex:lasts 9.38e-01 .
+
+<http://example.org/audio/8/word/войне> ex:lasts 6.29e-01 .
+
+<http://example.org/audio/8/word/десять> ex:lasts 5.3e-01 .
+
+<http://example.org/audio/8/word/джой> ex:lasts 4.05e-01 .
+
+<http://example.org/audio/8/word/крутышка> ex:lasts 6.45e-01 .
+
+<http://example.org/audio/8/word/о> ex:lasts 8.6e-02 .
+
+<http://example.org/audio/8/word/похороны> ex:lasts 8.97e-01 .
+
+<http://example.org/audio/8/word/смотреть> ex:lasts 6.57e-01 .
+
+<http://example.org/audio/8/word/ты> ex:lasts 1.51e-01 .
+
+<http://example.org/audio/8/word/фильмы> ex:lasts 4.43e-01 .
+
+<http://example.org/audio/8/word/часов> ex:lasts 1.345e+00 .
+
+aud:neg_0 ex:containsLouds <http://example.org/audio/0/loud/mid>,
+        <http://example.org/audio/0/loud/silence> ;
+    ex:containsTones <http://example.org/audio/0/tone/fall>,
+        <http://example.org/audio/0/tone/high>,
+        <http://example.org/audio/0/tone/low>,
+        <http://example.org/audio/0/tone/rise> ;
+    ex:containsWords <http://example.org/audio/0/word/выбери>,
+        <http://example.org/audio/0/word/номер>,
+        <http://example.org/audio/0/word/один> ;
+    ex:hasPath "data/data/neg_0.wav" .
+
+aud:neg_1 ex:containsLouds <http://example.org/audio/1/loud/low>,
+        <http://example.org/audio/1/loud/silence> ;
+    ex:containsTones <http://example.org/audio/1/tone/fall>,
+        <http://example.org/audio/1/tone/high>,
+        <http://example.org/audio/1/tone/low>,
+        <http://example.org/audio/1/tone/rise> ;
+    ex:containsWords <http://example.org/audio/1/word/авиабилета>,
+        <http://example.org/audio/1/word/мне>,
+        <http://example.org/audio/1/word/нужна>,
+        <http://example.org/audio/1/word/стоимость> ;
+    ex:hasPath "data/data/neg_1.wav" .
+
+aud:neg_2 ex:containsLouds <http://example.org/audio/2/loud/high>,
+        <http://example.org/audio/2/loud/low>,
+        <http://example.org/audio/2/loud/silence> ;
+    ex:containsTones <http://example.org/audio/2/tone/fall>,
+        <http://example.org/audio/2/tone/high>,
+        <http://example.org/audio/2/tone/low>,
+        <http://example.org/audio/2/tone/rise> ;
+    ex:containsWords <http://example.org/audio/2/word/военная>,
+        <http://example.org/audio/2/word/пенсия> ;
+    ex:hasPath "data/data/neg_2.wav" .
+
+aud:neg_3 ex:containsLouds <http://example.org/audio/3/loud/low>,
+        <http://example.org/audio/3/loud/mid>,
+        <http://example.org/audio/3/loud/silence> ;
+    ex:containsTones <http://example.org/audio/3/tone/fall>,
+        <http://example.org/audio/3/tone/low>,
+        <http://example.org/audio/3/tone/rise> ;
+    ex:containsWords <http://example.org/audio/3/word/кроссовки>,
+        <http://example.org/audio/3/word/мокрые> ;
+    ex:hasPath "data/data/neg_3.wav" .
+
+aud:neg_4 ex:containsLouds <http://example.org/audio/4/loud/low>,
+        <http://example.org/audio/4/loud/silence> ;
+    ex:containsTones <http://example.org/audio/4/tone/fall>,
+        <http://example.org/audio/4/tone/high>,
+        <http://example.org/audio/4/tone/low>,
+        <http://example.org/audio/4/tone/mid>,
+        <http://example.org/audio/4/tone/rise> ;
+    ex:containsWords <http://example.org/audio/4/word/век>,
+        <http://example.org/audio/4/word/великолепный>,
+        <http://example.org/audio/4/word/вторая>,
+        <http://example.org/audio/4/word/двадцать>,
+        <http://example.org/audio/4/word/серия> ;
+    ex:hasPath "data/data/neg_4.wav" .
+
+aud:neg_5 ex:containsLouds <http://example.org/audio/5/loud/low>,
+        <http://example.org/audio/5/loud/silence> ;
+    ex:containsTones <http://example.org/audio/5/tone/fall>,
+        <http://example.org/audio/5/tone/high>,
+        <http://example.org/audio/5/tone/mid> ;
+    ex:containsWords <http://example.org/audio/5/word/век>,
+        <http://example.org/audio/5/word/великолепный>,
+        <http://example.org/audio/5/word/видео> ;
+    ex:hasPath "data/data/neg_5.wav" .
+
+aud:neg_6 ex:containsLouds <http://example.org/audio/6/loud/low> ;
+    ex:containsTones <http://example.org/audio/6/tone/low> ;
+    ex:containsWords <http://example.org/audio/6/word/а>,
+        <http://example.org/audio/6/word/мне>,
+        <http://example.org/audio/6/word/не>,
+        <http://example.org/audio/6/word/печень>,
+        <http://example.org/audio/6/word/позволяет> ;
+    ex:hasPath "data/data/neg_6.wav" .
+
+aud:neg_7 ex:containsLouds <http://example.org/audio/7/loud/low>,
+        <http://example.org/audio/7/loud/mid>,
+        <http://example.org/audio/7/loud/silence> ;
+    ex:containsTones <http://example.org/audio/7/tone/fall>,
+        <http://example.org/audio/7/tone/low>,
+        <http://example.org/audio/7/tone/rise> ;
+    ex:containsWords <http://example.org/audio/7/word/врача>,
+        <http://example.org/audio/7/word/вызвать>,
+        <http://example.org/audio/7/word/мне>,
+        <http://example.org/audio/7/word/можешь>,
+        <http://example.org/audio/7/word/ты> ;
+    ex:hasPath "data/data/neg_7.wav" .
+
+aud:neg_8 ex:containsLouds <http://example.org/audio/8/loud/low>,
+        <http://example.org/audio/8/loud/silence> ;
+    ex:containsTones <http://example.org/audio/8/tone/fall>,
+        <http://example.org/audio/8/tone/low> ;
+    ex:containsWords <http://example.org/audio/8/word/весёлые>,
+        <http://example.org/audio/8/word/десять>,
+        <http://example.org/audio/8/word/похороны>,
+        <http://example.org/audio/8/word/часов> ;
+    ex:hasPath "data/data/neg_8.wav" .
+
+aud:neut_0 ex:containsLouds <http://example.org/audio/0/loud/high>,
+        <http://example.org/audio/0/loud/silence> ;
+    ex:containsTones <http://example.org/audio/0/tone/fall>,
+        <http://example.org/audio/0/tone/mid>,
+        <http://example.org/audio/0/tone/rise> ;
+    ex:containsWords <http://example.org/audio/0/word/включи>,
+        <http://example.org/audio/0/word/песню>,
+        <http://example.org/audio/0/word/сама>,
+        <http://example.org/audio/0/word/скриптонита>,
+        <http://example.org/audio/0/word/танцуй> ;
+    ex:hasPath "data/data/neut_0.wav" .
+
+aud:neut_1 ex:containsLouds <http://example.org/audio/1/loud/mid>,
+        <http://example.org/audio/1/loud/silence> ;
+    ex:containsTones <http://example.org/audio/1/tone/fall>,
+        <http://example.org/audio/1/tone/high> ;
+    ex:containsWords <http://example.org/audio/1/word/кондитер>,
+        <http://example.org/audio/1/word/сезон>,
+        <http://example.org/audio/1/word/четвертый>,
+        <http://example.org/audio/1/word/шоу> ;
+    ex:hasPath "data/data/neut_1.wav" .
+
+aud:neut_2 ex:containsLouds <http://example.org/audio/2/loud/mid>,
+        <http://example.org/audio/2/loud/silence> ;
+    ex:containsTones <http://example.org/audio/2/tone/fall>,
+        <http://example.org/audio/2/tone/low>,
+        <http://example.org/audio/2/tone/rise> ;
+    ex:containsWords <http://example.org/audio/2/word/детективы>,
+        <http://example.org/audio/2/word/найти> ;
+    ex:hasPath "data/data/neut_2.wav" .
+
+aud:neut_3 ex:containsLouds <http://example.org/audio/3/loud/low>,
+        <http://example.org/audio/3/loud/silence> ;
+    ex:containsTones <http://example.org/audio/3/tone/fall>,
+        <http://example.org/audio/3/tone/low>,
+        <http://example.org/audio/3/tone/mid> ;
+    ex:containsWords <http://example.org/audio/3/word/арабы>,
+        <http://example.org/audio/3/word/кто>,
+        <http://example.org/audio/3/word/такие> ;
+    ex:hasPath "data/data/neut_3.wav" .
+
+aud:neut_4 ex:containsLouds <http://example.org/audio/4/loud/low>,
+        <http://example.org/audio/4/loud/mid> ;
+    ex:containsTones <http://example.org/audio/4/tone/fall>,
+        <http://example.org/audio/4/tone/mid> ;
+    ex:containsWords <http://example.org/audio/4/word/девчачьи>,
+        <http://example.org/audio/4/word/мультфильмы> ;
+    ex:hasPath "data/data/neut_4.wav" .
+
+aud:neut_5 ex:containsLouds <http://example.org/audio/5/loud/low>,
+        <http://example.org/audio/5/loud/silence> ;
+    ex:containsTones <http://example.org/audio/5/tone/fall>,
+        <http://example.org/audio/5/tone/high>,
+        <http://example.org/audio/5/tone/mid> ;
+    ex:containsWords <http://example.org/audio/5/word/живет>,
+        <http://example.org/audio/5/word/сколько> ;
+    ex:hasPath "data/data/neut_5.wav" .
+
+aud:neut_6 ex:containsLouds <http://example.org/audio/6/loud/mid>,
+        <http://example.org/audio/6/loud/silence> ;
+    ex:containsTones <http://example.org/audio/6/tone/fall>,
+        <http://example.org/audio/6/tone/high>,
+        <http://example.org/audio/6/tone/mid> ;
+    ex:containsWords <http://example.org/audio/6/word/подписка>,
+        <http://example.org/audio/6/word/спорт> ;
+    ex:hasPath "data/data/neut_6.wav" .
+
+aud:neut_7 ex:containsLouds <http://example.org/audio/7/loud/low>,
+        <http://example.org/audio/7/loud/mid>,
+        <http://example.org/audio/7/loud/silence> ;
+    ex:containsTones <http://example.org/audio/7/tone/fall>,
+        <http://example.org/audio/7/tone/low>,
+        <http://example.org/audio/7/tone/mid> ;
+    ex:containsWords <http://example.org/audio/7/word/выйди>,
+        <http://example.org/audio/7/word/из>,
+        <http://example.org/audio/7/word/приложения>,
+        <http://example.org/audio/7/word/сбер>,
+        <http://example.org/audio/7/word/этого> ;
+    ex:hasPath "data/data/neut_7.wav" .
+
+aud:neut_8 ex:containsLouds <http://example.org/audio/8/loud/low>,
+        <http://example.org/audio/8/loud/silence> ;
+    ex:containsTones <http://example.org/audio/8/tone/fall>,
+        <http://example.org/audio/8/tone/mid>,
+        <http://example.org/audio/8/tone/rise> ;
+    ex:containsWords <http://example.org/audio/8/word/войне>,
+        <http://example.org/audio/8/word/о>,
+        <http://example.org/audio/8/word/смотреть>,
+        <http://example.org/audio/8/word/фильмы> ;
+    ex:hasPath "data/data/neut_8.wav" .
+
+aud:pos_0 ex:containsLouds <http://example.org/audio/0/loud/high>,
+        <http://example.org/audio/0/loud/low>,
+        <http://example.org/audio/0/loud/mid> ;
+    ex:containsTones <http://example.org/audio/0/tone/fall>,
+        <http://example.org/audio/0/tone/mid>,
+        <http://example.org/audio/0/tone/rise> ;
+    ex:containsWords <http://example.org/audio/0/word/вила>,
+        <http://example.org/audio/0/word/мадрид>,
+        <http://example.org/audio/0/word/реал> ;
+    ex:hasPath "data/data/pos_0.wav" .
+
+aud:pos_1 ex:containsLouds <http://example.org/audio/1/loud/high>,
+        <http://example.org/audio/1/loud/low> ;
+    ex:containsTones <http://example.org/audio/1/tone/fall>,
+        <http://example.org/audio/1/tone/high>,
+        <http://example.org/audio/1/tone/mid>,
+        <http://example.org/audio/1/tone/rise> ;
+    ex:containsWords <http://example.org/audio/1/word/здорово>,
+        <http://example.org/audio/1/word/конечно>,
+        <http://example.org/audio/1/word/ну> ;
+    ex:hasPath "data/data/pos_1.wav" .
+
+aud:pos_2 ex:containsLouds <http://example.org/audio/2/loud/low>,
+        <http://example.org/audio/2/loud/silence> ;
+    ex:containsTones <http://example.org/audio/2/tone/mid>,
+        <http://example.org/audio/2/tone/rise> ;
+    ex:containsWords <http://example.org/audio/2/word/люблю>,
+        <http://example.org/audio/2/word/салют>,
+        <http://example.org/audio/2/word/сбер>,
+        <http://example.org/audio/2/word/тебя>,
+        <http://example.org/audio/2/word/я> ;
+    ex:hasPath "data/data/pos_2.wav" .
+
+aud:pos_3 ex:containsLouds <http://example.org/audio/3/loud/high>,
+        <http://example.org/audio/3/loud/silence> ;
+    ex:containsTones <http://example.org/audio/3/tone/high>,
+        <http://example.org/audio/3/tone/mid>,
+        <http://example.org/audio/3/tone/rise> ;
+    ex:containsWords <http://example.org/audio/3/word/конечно>,
+        <http://example.org/audio/3/word/моя>,
+        <http://example.org/audio/3/word/ну>,
+        <http://example.org/audio/3/word/умница> ;
+    ex:hasPath "data/data/pos_3.wav" .
+
+aud:pos_4 ex:containsLouds <http://example.org/audio/4/loud/mid>,
+        <http://example.org/audio/4/loud/silence> ;
+    ex:containsTones <http://example.org/audio/4/tone/fall>,
+        <http://example.org/audio/4/tone/high>,
+        <http://example.org/audio/4/tone/mid>,
+        <http://example.org/audio/4/tone/rise> ;
+    ex:containsWords <http://example.org/audio/4/word/да>,
+        <http://example.org/audio/4/word/день>,
+        <http://example.org/audio/4/word/нас>,
+        <http://example.org/audio/4/word/прошел>,
+        <http://example.org/audio/4/word/у>,
+        <http://example.org/audio/4/word/удачно> ;
+    ex:hasPath "data/data/pos_4.wav" .
+
+aud:pos_5 ex:containsLouds <http://example.org/audio/5/loud/high>,
+        <http://example.org/audio/5/loud/silence> ;
+    ex:containsTones <http://example.org/audio/5/tone/mid>,
+        <http://example.org/audio/5/tone/rise> ;
+    ex:containsWords <http://example.org/audio/5/word/мне>,
+        <http://example.org/audio/5/word/радостно>,
+        <http://example.org/audio/5/word/тоже> ;
+    ex:hasPath "data/data/pos_5.wav" .
+
+aud:pos_6 ex:containsLouds <http://example.org/audio/6/loud/mid>,
+        <http://example.org/audio/6/loud/silence> ;
+    ex:containsTones <http://example.org/audio/6/tone/high> ;
+    ex:containsWords <http://example.org/audio/6/word/любимая>,
+        <http://example.org/audio/6/word/маманя>,
+        <http://example.org/audio/6/word/привет> ;
+    ex:hasPath "data/data/pos_6.wav" .
+
+aud:pos_7 ex:containsLouds <http://example.org/audio/7/loud/mid>,
+        <http://example.org/audio/7/loud/silence> ;
+    ex:containsTones <http://example.org/audio/7/tone/high>,
+        <http://example.org/audio/7/tone/mid> ;
+    ex:containsWords <http://example.org/audio/7/word/поезжай>,
+        <http://example.org/audio/7/word/разговор>,
+        <http://example.org/audio/7/word/такой> ;
+    ex:hasPath "data/data/pos_7.wav" .
+
+aud:pos_8 ex:containsLouds <http://example.org/audio/8/loud/mid>,
+        <http://example.org/audio/8/loud/silence> ;
+    ex:containsTones <http://example.org/audio/8/tone/high>,
+        <http://example.org/audio/8/tone/mid> ;
+    ex:containsWords <http://example.org/audio/8/word/джой>,
+        <http://example.org/audio/8/word/крутышка>,
+        <http://example.org/audio/8/word/ты> ;
+    ex:hasPath "data/data/pos_8.wav" .
+
+<http://example.org/text/0/word/вила> ex:hasLemma "жизнь" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/0/word/включи> ex:hasLemma "включить" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/0/word/выбери> ex:hasLemma "выбрать" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/0/word/мадрид> ex:hasLemma "мадрид" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/0/word/номер> ex:hasLemma "номер" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/0/word/один> ex:hasLemma "один" ;
+    ex:hasPos "NUM" .
+
+<http://example.org/text/0/word/песню> ex:hasLemma "песня" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/0/word/реал> ex:hasLemma "реальный" ;
+    ex:hasPos "ADJ" .
+
+<http://example.org/text/0/word/сама> ex:hasLemma "сам" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/0/word/скриптонита> ex:hasLemma "скриптонит" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/0/word/танцуй> ex:hasLemma "танцевать" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/1/word/авиабилетов> ex:hasLemma "авиабилет" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/1/word/здорово> ex:hasLemma "здорово" ;
+    ex:hasPos "ADV" .
+
+<http://example.org/text/1/word/кондитер> ex:hasLemma "кондитер" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/1/word/конечно> ex:hasLemma "конечно" ;
+    ex:hasPos "ADV" .
+
+<http://example.org/text/1/word/конти> ex:hasLemma "кондитер" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/1/word/мне> ex:hasLemma "я" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/1/word/ну> ex:hasLemma "ну" ;
+    ex:hasPos "INTJ" .
+
+<http://example.org/text/1/word/нужно> ex:hasLemma "нужно" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/1/word/сезон> ex:hasLemma "сезон" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/1/word/стоимость> ex:hasLemma "стоимость" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/1/word/четвёртый> ex:hasLemma "четыре" ;
+    ex:hasPos "NUM" .
+
+<http://example.org/text/1/word/шоу> ex:hasLemma "шоу" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/2/word/военная> ex:hasLemma "военный" ;
+    ex:hasPos "ADJ" .
+
+<http://example.org/text/2/word/детектива> ex:hasLemma "детектив" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/2/word/люблю> ex:hasLemma "любить" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/2/word/найти> ex:hasLemma "найти" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/2/word/пенсия> ex:hasLemma "пенсия" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/2/word/салют> ex:hasLemma "привет" ;
+    ex:hasPos "INTJ" .
+
+<http://example.org/text/2/word/сбер> ex:hasLemma "сбер" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/2/word/тебя> ex:hasLemma "тебя" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/2/word/я> ex:hasLemma "я" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/3/word/арабы> ex:hasLemma "араб" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/3/word/конечно> ex:hasLemma "конечно" ;
+    ex:hasPos "ADV" .
+
+<http://example.org/text/3/word/кроссовки> ex:hasLemma "кроссовок" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/3/word/кто> ex:hasLemma "кто" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/3/word/мокрая> ex:hasLemma "мокрый" ;
+    ex:hasPos "ADJ" .
+
+<http://example.org/text/3/word/моя> ex:hasLemma "мой" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/3/word/ну> ex:hasLemma "ну" ;
+    ex:hasPos "INTJ" .
+
+<http://example.org/text/3/word/такие> ex:hasLemma "такой" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/3/word/умница> ex:hasLemma "умница" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/4/word/век> ex:hasLemma "век" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/4/word/великолепный> ex:hasLemma "великолепный" ;
+    ex:hasPos "ADJ" .
+
+<http://example.org/text/4/word/вторая> ex:hasLemma "второй" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/4/word/да> ex:hasLemma "да" ;
+    ex:hasPos "PART" .
+
+<http://example.org/text/4/word/двадцать> ex:hasLemma "двадцать" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/4/word/девчачий> ex:hasLemma "девчачий" ;
+    ex:hasPos "ADJ" .
+
+<http://example.org/text/4/word/день> ex:hasLemma "день" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/4/word/мультфильмы> ex:hasLemma "мультфильм" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/4/word/нас> ex:hasLemma "нас" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/4/word/прошёл> ex:hasLemma "пройти" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/4/word/серия> ex:hasLemma "серия" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/4/word/у> ex:hasLemma "у" ;
+    ex:hasPos "ADP" .
+
+<http://example.org/text/4/word/удачно> ex:hasLemma "удачно" ;
+    ex:hasPos "ADV" .
+
+<http://example.org/text/5/word/век> ex:hasLemma "век" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/5/word/великолепный> ex:hasLemma "великолепный" ;
+    ex:hasPos "ADJ" .
+
+<http://example.org/text/5/word/видео> ex:hasLemma "видео" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/5/word/живёт> ex:hasLemma "жить" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/5/word/мне> ex:hasLemma "мне" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/5/word/радостно> ex:hasLemma "радость" ;
+    ex:hasPos "ADV" .
+
+<http://example.org/text/5/word/сколько> ex:hasLemma "сколько" ;
+    ex:hasPos "NUM" .
+
+<http://example.org/text/5/word/тоже> ex:hasLemma "тоже" ;
+    ex:hasPos "CONJ" .
+
+<http://example.org/text/6/word/камни> ex:hasLemma "камень" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/6/word/любимая> ex:hasLemma "любимый" ;
+    ex:hasPos "ADJ" .
+
+<http://example.org/text/6/word/маманя> ex:hasLemma "мама" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/6/word/печени> ex:hasLemma "печень" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/6/word/подписка> ex:hasLemma "подписка" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/6/word/позволяет> ex:hasLemma "позволять" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/6/word/спорт> ex:hasLemma "спорт" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/6/word/флюид> ex:hasLemma "флюид" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/7/word/врача> ex:hasLemma "врач" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/7/word/вызвать> ex:hasLemma "вызывать" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/7/word/выйди> ex:hasLemma "выйти" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/7/word/из> ex:hasLemma "из" ;
+    ex:hasPos "ADP" .
+
+<http://example.org/text/7/word/мне> ex:hasLemma "я" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/7/word/можешь> ex:hasLemma "мочь" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/7/word/поезжай> ex:hasLemma "поехать" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/7/word/приложение> ex:hasLemma "приложение" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/7/word/разговор> ex:hasLemma "разговор" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/7/word/сбер> ex:hasLemma "сбер" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/7/word/такой> ex:hasLemma "такой" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/7/word/ты> ex:hasLemma "ты" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/7/word/этого> ex:hasLemma "этот" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/8/word/ай> ex:hasLemma "ай" ;
+    ex:hasPos "INTJ" .
+
+<http://example.org/text/8/word/весёлые> ex:hasLemma "весёлый" ;
+    ex:hasPos "ADJ" .
+
+<http://example.org/text/8/word/десять> ex:hasLemma "десять" ;
+    ex:hasPos "NUM" .
+
+<http://example.org/text/8/word/джой> ex:hasLemma "джой" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/8/word/коротышка> ex:hasLemma "коротышка" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/8/word/похороны> ex:hasLemma "похороны" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/8/word/смотреть> ex:hasLemma "смотреть" ;
+    ex:hasPos "VERB" .
+
+<http://example.org/text/8/word/ты> ex:hasLemma "ты" ;
+    ex:hasPos "PRON" .
+
+<http://example.org/text/8/word/фильмы> ex:hasLemma "фильм" ;
+    ex:hasPos "NOUN" .
+
+<http://example.org/text/8/word/часов> ex:hasLemma "час" ;
+    ex:hasPos "NOUN" .
+
+txt:neg_0 ex:contains <http://example.org/text/0/word/выбери>,
+        <http://example.org/text/0/word/номер>,
+        <http://example.org/text/0/word/один> ;
+    ex:hasPath "data/data/neg_0.txt" .
+
+txt:neg_1 ex:contains <http://example.org/text/1/word/авиабилетов>,
+        <http://example.org/text/1/word/мне>,
+        <http://example.org/text/1/word/нужно>,
+        <http://example.org/text/1/word/стоимость> ;
+    ex:hasPath "data/data/neg_1.txt" .
+
+txt:neg_2 ex:contains <http://example.org/text/2/word/военная>,
+        <http://example.org/text/2/word/пенсия> ;
+    ex:hasPath "data/data/neg_2.txt" .
+
+txt:neg_3 ex:contains <http://example.org/text/3/word/кроссовки>,
+        <http://example.org/text/3/word/мокрая> ;
+    ex:hasPath "data/data/neg_3.txt" .
+
+txt:neg_4 ex:contains <http://example.org/text/4/word/век>,
+        <http://example.org/text/4/word/великолепный>,
+        <http://example.org/text/4/word/вторая>,
+        <http://example.org/text/4/word/двадцать>,
+        <http://example.org/text/4/word/серия> ;
+    ex:hasPath "data/data/neg_4.txt" .
+
+txt:neg_5 ex:contains <http://example.org/text/5/word/век>,
+        <http://example.org/text/5/word/великолепный>,
+        <http://example.org/text/5/word/видео> ;
+    ex:hasPath "data/data/neg_5.txt" .
+
+txt:neg_6 ex:contains <http://example.org/text/6/word/камни>,
+        <http://example.org/text/6/word/печени>,
+        <http://example.org/text/6/word/позволяет> ;
+    ex:hasPath "data/data/neg_6.txt" .
+
+txt:neg_7 ex:contains <http://example.org/text/7/word/врача>,
+        <http://example.org/text/7/word/вызвать>,
+        <http://example.org/text/7/word/мне>,
+        <http://example.org/text/7/word/можешь>,
+        <http://example.org/text/7/word/ты> ;
+    ex:hasPath "data/data/neg_7.txt" .
+
+txt:neg_8 ex:contains <http://example.org/text/8/word/весёлые>,
+        <http://example.org/text/8/word/десять>,
+        <http://example.org/text/8/word/похороны>,
+        <http://example.org/text/8/word/часов> ;
+    ex:hasPath "data/data/neg_8.txt" .
+
+txt:neut_0 ex:contains <http://example.org/text/0/word/включи>,
+        <http://example.org/text/0/word/песню>,
+        <http://example.org/text/0/word/сама>,
+        <http://example.org/text/0/word/скриптонита>,
+        <http://example.org/text/0/word/танцуй> ;
+    ex:hasPath "data/data/neut_0.txt" .
+
+txt:neut_1 ex:contains <http://example.org/text/1/word/кондитер>,
+        <http://example.org/text/1/word/конти>,
+        <http://example.org/text/1/word/сезон>,
+        <http://example.org/text/1/word/четвёртый>,
+        <http://example.org/text/1/word/шоу> ;
+    ex:hasPath "data/data/neut_1.txt" .
+
+txt:neut_2 ex:contains <http://example.org/text/2/word/детектива>,
+        <http://example.org/text/2/word/найти> ;
+    ex:hasPath "data/data/neut_2.txt" .
+
+txt:neut_3 ex:contains <http://example.org/text/3/word/арабы>,
+        <http://example.org/text/3/word/кто>,
+        <http://example.org/text/3/word/такие> ;
+    ex:hasPath "data/data/neut_3.txt" .
+
+txt:neut_4 ex:contains <http://example.org/text/4/word/девчачий>,
+        <http://example.org/text/4/word/мультфильмы> ;
+    ex:hasPath "data/data/neut_4.txt" .
+
+txt:neut_5 ex:contains <http://example.org/text/5/word/живёт>,
+        <http://example.org/text/5/word/сколько> ;
+    ex:hasPath "data/data/neut_5.txt" .
+
+txt:neut_6 ex:contains <http://example.org/text/6/word/подписка>,
+        <http://example.org/text/6/word/спорт> ;
+    ex:hasPath "data/data/neut_6.txt" .
+
+txt:neut_7 ex:contains <http://example.org/text/7/word/выйди>,
+        <http://example.org/text/7/word/из>,
+        <http://example.org/text/7/word/приложение>,
+        <http://example.org/text/7/word/сбер>,
+        <http://example.org/text/7/word/этого> ;
+    ex:hasPath "data/data/neut_7.txt" .
+
+txt:neut_8 ex:contains <http://example.org/text/8/word/ай>,
+        <http://example.org/text/8/word/смотреть>,
+        <http://example.org/text/8/word/фильмы> ;
+    ex:hasPath "data/data/neut_8.txt" .
+
+txt:pos_0 ex:contains <http://example.org/text/0/word/вила>,
+        <http://example.org/text/0/word/мадрид>,
+        <http://example.org/text/0/word/реал> ;
+    ex:hasPath "data/data/pos_0.txt" .
+
+txt:pos_1 ex:contains <http://example.org/text/1/word/здорово>,
+        <http://example.org/text/1/word/конечно>,
+        <http://example.org/text/1/word/ну> ;
+    ex:hasPath "data/data/pos_1.txt" .
+
+txt:pos_2 ex:contains <http://example.org/text/2/word/люблю>,
+        <http://example.org/text/2/word/салют>,
+        <http://example.org/text/2/word/сбер>,
+        <http://example.org/text/2/word/тебя>,
+        <http://example.org/text/2/word/я> ;
+    ex:hasPath "data/data/pos_2.txt" .
+
+txt:pos_3 ex:contains <http://example.org/text/3/word/конечно>,
+        <http://example.org/text/3/word/моя>,
+        <http://example.org/text/3/word/ну>,
+        <http://example.org/text/3/word/умница> ;
+    ex:hasPath "data/data/pos_3.txt" .
+
+txt:pos_4 ex:contains <http://example.org/text/4/word/да>,
+        <http://example.org/text/4/word/день>,
+        <http://example.org/text/4/word/нас>,
+        <http://example.org/text/4/word/прошёл>,
+        <http://example.org/text/4/word/у>,
+        <http://example.org/text/4/word/удачно> ;
+    ex:hasPath "data/data/pos_4.txt" .
+
+txt:pos_5 ex:contains <http://example.org/text/5/word/мне>,
+        <http://example.org/text/5/word/радостно>,
+        <http://example.org/text/5/word/тоже> ;
+    ex:hasPath "data/data/pos_5.txt" .
+
+txt:pos_6 ex:contains <http://example.org/text/6/word/любимая>,
+        <http://example.org/text/6/word/маманя>,
+        <http://example.org/text/6/word/флюид> ;
+    ex:hasPath "data/data/pos_6.txt" .
+
+txt:pos_7 ex:contains <http://example.org/text/7/word/поезжай>,
+        <http://example.org/text/7/word/разговор>,
+        <http://example.org/text/7/word/такой> ;
+    ex:hasPath "data/data/pos_7.txt" .
+
+txt:pos_8 ex:contains <http://example.org/text/8/word/джой>,
+        <http://example.org/text/8/word/коротышка>,
+        <http://example.org/text/8/word/ты> ;
+    ex:hasPath "data/data/pos_8.txt" .
+
+<http://example.org/audio/0/loud/high> ex:lasts 9.22e-01,
+        3.019e+00 ;
+    ex:value "high" .
+
+<http://example.org/audio/0/loud/mid> ex:lasts 7.51e-01,
+        2.013e+00 ;
+    ex:value "mid" .
+
+<http://example.org/audio/0/loud/silence> ex:lasts 1.171e+00,
+        1.639e+00,
+        2.954e+00 ;
+    ex:value "silence" .
+
+<http://example.org/audio/0/tone/mid> ex:lasts 7.8e-01,
+        8.97e-01 ;
+    ex:value "mid" .
+
+<http://example.org/audio/1/loud/low> ex:lasts 5.99e-01,
+        7.77e-01,
+        2.227e+00 ;
+    ex:value "low" .
+
+<http://example.org/audio/1/loud/silence> ex:lasts 5.84e-01,
+        7.55e-01,
+        2.064e+00 ;
+    ex:value "silence" .
+
+<http://example.org/audio/1/tone/rise> ex:lasts 1.07e-01,
+        1.82e-01,
+        2.73e-01 ;
+    ex:value "rise" .
+
+<http://example.org/audio/2/loud/low> ex:lasts 1.89e-01,
+        2.321e+00 ;
+    ex:value "low" .
+
+<http://example.org/audio/2/tone/fall> ex:lasts 1.47e-01,
+        2.35e-01,
+        3.03e-01 ;
+    ex:value "fall" .
+
+<http://example.org/audio/2/tone/low> ex:lasts 1.89e-01,
+        2.35e-01 ;
+    ex:value "low" .
+
+<http://example.org/audio/3/loud/low> ex:lasts 5.25e-01,
+        1.147e+00 ;
+    ex:value "low" .
+
+<http://example.org/audio/3/tone/fall> ex:lasts 1.43e-01,
+        1.79e-01,
+        2.1e-01 ;
+    ex:value "fall" .
+
+<http://example.org/audio/3/tone/low> ex:lasts 7.2e-02,
+        7.98e-01 ;
+    ex:value "low" .
+
+<http://example.org/audio/3/tone/mid> ex:lasts 1.25e-01,
+        1.97e-01,
+        1.179e+00 ;
+    ex:value "mid" .
+
+<http://example.org/audio/3/tone/rise> ex:lasts 2.1e-01,
+        2.13e-01 ;
+    ex:value "rise" .
+
+<http://example.org/audio/4/loud/low> ex:lasts 1.544e+00,
+        4.146e+00 ;
+    ex:value "low" .
+
+<http://example.org/audio/4/loud/mid> ex:lasts 1.447e+00,
+        2.519e+00 ;
+    ex:value "mid" .
+
+<http://example.org/audio/4/loud/silence> ex:lasts 8.87e-01,
+        1.959e+00,
+        2.152e+00 ;
+    ex:value "silence" .
+
+<http://example.org/audio/4/tone/high> ex:lasts 5.52e-01,
+        6.5e-01 ;
+    ex:value "high" .
+
+<http://example.org/audio/4/tone/rise> ex:lasts 1.79e-01,
+        2.47e-01 ;
+    ex:value "rise" .
+
+<http://example.org/audio/5/loud/low> ex:lasts 8.99e-01,
+        1.687e+00 ;
+    ex:value "low" .
+
+<http://example.org/audio/5/tone/fall> ex:lasts 1.07e-01,
+        1.75e-01,
+        8.57e-01 ;
+    ex:value "fall" .
+
+<http://example.org/audio/5/tone/high> ex:lasts 1.48e-01,
+        2.72e-01 ;
+    ex:value "high" .
+
+<http://example.org/audio/6/loud/mid> ex:lasts 1.031e+00,
+        1.664e+00 ;
+    ex:value "mid" .
+
+<http://example.org/audio/6/loud/silence> ex:lasts 2.42e-01,
+        5.53e-01,
+        6.91e-01,
+        2.271e+00 ;
+    ex:value "silence" .
+
+<http://example.org/audio/6/tone/high> ex:lasts 2.79e-01,
+        1.607e+00 ;
+    ex:value "high" .
+
+<http://example.org/audio/7/loud/low> ex:lasts 1.033e+00,
+        1.035e+00 ;
+    ex:value "low" .
+
+<http://example.org/audio/7/tone/fall> ex:lasts 2.35e-01,
+        2.49e-01,
+        3.03e-01 ;
+    ex:value "fall" .
+
+<http://example.org/audio/7/tone/low> ex:lasts 1.18e-01,
+        1.414e+00 ;
+    ex:value "low" .
+
+<http://example.org/audio/7/tone/mid> ex:lasts 5.89e-01,
+        1.295e+00,
+        1.644e+00 ;
+    ex:value "mid" .
+
+<http://example.org/audio/8/loud/low> ex:lasts 2.608e+00,
+        3.179e+00 ;
+    ex:value "low" .
+
+<http://example.org/audio/8/tone/fall> ex:lasts 8.6e-02,
+        3.46e-01 ;
+    ex:value "fall" .
+
+<http://example.org/audio/8/tone/mid> ex:lasts 2.81e-01,
+        3.16e-01,
+        8.14e-01 ;
+    ex:value "mid" .
+
+<http://example.org/audio/0/tone/fall> ex:lasts 5e-02,
+        1.16e-01,
+        1.28e-01,
+        2e-01,
+        4.13e-01,
+        5.32e-01 ;
+    ex:value "fall" .
+
+<http://example.org/audio/0/tone/rise> ex:lasts 1.14e-01,
+        1.32e-01,
+        1.65e-01,
+        1.81e-01,
+        1.83e-01,
+        1.98e-01 ;
+    ex:value "rise" .
+
+<http://example.org/audio/1/tone/fall> ex:lasts 1.51e-01,
+        1.89e-01,
+        2.7e-01,
+        2.73e-01,
+        5e-01 ;
+    ex:value "fall" .
+
+<http://example.org/audio/1/tone/high> ex:lasts 3e-02,
+        5.36e-01,
+        1.389e+00 ;
+    ex:value "high" .
+
+<http://example.org/audio/2/loud/silence> ex:lasts 5.15e-01,
+        1.314e+00,
+        1.361e+00,
+        1.628e+00,
+        2.143e+00 ;
+    ex:value "silence" .
+
+<http://example.org/audio/2/tone/rise> ex:lasts 1.25e-01,
+        1.66e-01,
+        2.52e-01,
+        2.68e-01 ;
+    ex:value "rise" .
+
+<http://example.org/audio/3/loud/silence> ex:lasts 8.77e-01,
+        1.551e+00,
+        1.622e+00,
+        2.322e+00,
+        2.583e+00,
+        2.992e+00 ;
+    ex:value "silence" .
+
+<http://example.org/audio/4/tone/fall> ex:lasts 1.1e-01,
+        1.34e-01,
+        2.53e-01 ;
+    ex:value "fall" .
+
+<http://example.org/audio/4/tone/mid> ex:lasts 4.03e-01,
+        5.83e-01,
+        6.74e-01,
+        1.186e+00 ;
+    ex:value "mid" .
+
+<http://example.org/audio/5/loud/silence> ex:lasts 1.042e+00,
+        1.565e+00,
+        1.664e+00,
+        1.708e+00,
+        3.352e+00,
+        3.564e+00 ;
+    ex:value "silence" .
+
+<http://example.org/audio/5/tone/mid> ex:lasts 5.4e-02,
+        4.08e-01,
+        7.13e-01,
+        1.083e+00 ;
+    ex:value "mid" .
+
+<http://example.org/audio/7/loud/mid> ex:lasts 1.237e+00,
+        1.544e+00,
+        1.806e+00 ;
+    ex:value "mid" .
+
+<http://example.org/audio/7/loud/silence> ex:lasts 5.39e-01,
+        5.7e-01,
+        8.37e-01,
+        1.412e+00,
+        2.438e+00,
+        3.358e+00 ;
+    ex:value "silence" .
+
+<http://example.org/audio/8/loud/silence> ex:lasts 5.46e-01,
+        5.83e-01,
+        9.7e-01,
+        2.032e+00,
+        2.364e+00 ;
+    ex:value "silence" .
+

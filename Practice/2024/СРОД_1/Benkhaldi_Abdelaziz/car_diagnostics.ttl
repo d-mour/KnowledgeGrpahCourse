@@ -1,0 +1,177 @@
+@prefix ex: <http://example.org/auto#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Annotation a rdfs:Class .
+
+ex:AudioRecording a rdfs:Class .
+
+ex:AudioSegment a rdfs:Class .
+
+ex:Car a rdfs:Class .
+
+ex:CarModel a rdfs:Class .
+
+ex:CarPart a rdfs:Class .
+
+ex:Diagnosis a rdfs:Class .
+
+ex:Image a rdfs:Class .
+
+ex:Symptom a rdfs:Class .
+
+ex:Car1 a ex:Car ;
+    ex:diagnosisType ex:suspension ;
+    ex:hasAudioRecording ex:AudioRec1 ;
+    ex:hasImage ex:Img1 ;
+    ex:hasModel ex:AcuraTL ;
+    ex:hasPart ex:suspension ;
+    ex:hasSymptom ex:knockingnoise,
+        ex:squeakingnoise,
+        ex:suspensionnoise .
+
+ex:Car2 a ex:Car ;
+    ex:diagnosisType ex:suspension ;
+    ex:hasAudioRecording ex:AudioRec1 ;
+    ex:hasImage ex:Img1 ;
+    ex:hasModel ex:ToyotaHighlander ;
+    ex:hasPart ex:strut,
+        ex:suspension ;
+    ex:hasSymptom ex:strutcomingapart,
+        ex:strutgoesintobody .
+
+ex:Car3 a ex:Car ;
+    ex:diagnosisType ex:missfire ;
+    ex:hasModel ex:HondaAccord ;
+    ex:hasPart ex:engine,
+        ex:fuelinjector ;
+    ex:hasSymptom ex:enginemisfire,
+        ex:faultcodeP0304 .
+
+ex:describesNoise a rdf:Property ;
+    rdfs:domain ex:AudioSegment ;
+    rdfs:range ex:Symptom .
+
+ex:diagnosisType a rdf:Property ;
+    rdfs:domain ex:Car ;
+    rdfs:range ex:Diagnosis .
+
+ex:endTime a rdf:Property ;
+    rdfs:domain ex:AudioSegment ;
+    rdfs:range xsd:time .
+
+ex:filePath a rdf:Property ;
+    rdfs:domain ex:AudioRecording,
+        ex:Image ;
+    rdfs:range xsd:string .
+
+ex:hasAnnotation a rdf:Property ;
+    rdfs:domain ex:Image ;
+    rdfs:range ex:Annotation .
+
+ex:hasAudioRecording a rdf:Property ;
+    rdfs:domain ex:Car ;
+    rdfs:range ex:AudioRecording .
+
+ex:hasImage a rdf:Property ;
+    rdfs:domain ex:Car ;
+    rdfs:range ex:Image .
+
+ex:hasModel a rdf:Property ;
+    rdfs:domain ex:Car ;
+    rdfs:range ex:CarModel .
+
+ex:hasPart a rdf:Property ;
+    rdfs:domain ex:Car ;
+    rdfs:range ex:CarPart .
+
+ex:hasSegment a rdf:Property ;
+    rdfs:domain ex:AudioRecording ;
+    rdfs:range ex:AudioSegment .
+
+ex:hasSymptom a rdf:Property ;
+    rdfs:domain ex:Car ;
+    rdfs:range ex:Symptom .
+
+ex:highlightsPart a rdf:Property ;
+    rdfs:domain ex:Annotation ;
+    rdfs:range ex:CarPart .
+
+ex:indicatesError a rdf:Property ;
+    rdfs:domain ex:Annotation ;
+    rdfs:range ex:Symptom .
+
+ex:startTime a rdf:Property ;
+    rdfs:domain ex:AudioSegment ;
+    rdfs:range xsd:time .
+
+ex:AcuraTL a ex:CarModel ;
+    rdfs:label "Acura TL" .
+
+ex:Annotation1 a ex:Annotation ;
+    ex:highlightsPart ex:enginemount .
+
+ex:HondaAccord a ex:CarModel ;
+    rdfs:label "Honda Accord" .
+
+ex:Segment1 a ex:AudioSegment ;
+    ex:describesNoise ex:deepknocking,
+        ex:knockingnoise ;
+    ex:endTime "00:00:20"^^xsd:time,
+        "00:00:45"^^xsd:time ;
+    ex:startTime "00:00:10"^^xsd:time,
+        "00:00:33"^^xsd:time .
+
+ex:ToyotaHighlander a ex:CarModel ;
+    rdfs:label "Toyota Highlander" .
+
+ex:deepknocking a ex:Symptom ;
+    rdfs:label "Deep knocking sound" .
+
+ex:engine a ex:CarPart ;
+    rdfs:label "engine" .
+
+ex:enginemisfire a ex:Symptom ;
+    rdfs:label "engine misfire" .
+
+ex:enginemount a ex:CarPart ;
+    rdfs:label "Engine Mount" .
+
+ex:faultcodeP0304 a ex:Symptom ;
+    rdfs:label "fault code P0304" .
+
+ex:fuelinjector a ex:CarPart ;
+    rdfs:label "fuel injector" .
+
+ex:squeakingnoise a ex:Symptom ;
+    rdfs:label "squeaking noise" .
+
+ex:strut a ex:CarPart ;
+    rdfs:label "strut" .
+
+ex:strutcomingapart a ex:Symptom ;
+    rdfs:label "strut looks like it actually coming apart" .
+
+ex:strutgoesintobody a ex:Symptom ;
+    rdfs:label "strut goes into the body its moving a whole bunch" .
+
+ex:suspensionnoise a ex:Symptom ;
+    rdfs:label "suspension noise" .
+
+ex:AudioRec1 a ex:AudioRecording ;
+    ex:filePath "/audio/suspension_1.mp3"^^xsd:string,
+        "/audio/suspension_2.mp3"^^xsd:string ;
+    ex:hasSegment ex:Segment1,
+        ex:Segment2 .
+
+ex:Img1 a ex:Image ;
+    ex:filePath "/images/suspension_1.mp3"^^xsd:string ;
+    ex:hasAnnotation ex:Annotation1 .
+
+ex:knockingnoise a ex:Symptom ;
+    rdfs:label "knocking noise" .
+
+ex:suspension a ex:CarPart ;
+    rdfs:label "suspension" .
+

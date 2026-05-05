@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="{455B6E2D-821D-4D49-9FCD-FC950AC6A521}" version="1">
+	<Properties>
+		<Name>LOC_RELIGIOUS_COMBAT_MOD_TITLE</Name>
+		<Teaser>LOC_RELIGIOUS_COMBAT_MOD_TEASER</Teaser>
+		<Description>LOC_RELIGIOUS_COMBAT_MOD_DESCRIPTION</Description>
+		<Authors>LOC_MOD_AUTHORS_FIRAXIS</Authors>
+		<SupportsSinglePlayer>0</SupportsSinglePlayer>
+    <CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="RELIGIOUS_COMBAT_COMPONENT">
+			<Properties>
+				<RuleSet>RULESET_SCENARIO_RELIGIOUS_COMBAT</RuleSet>
+			</Properties>
+			<Items>
+				<File>ReligiousCombatScenario_Victories.xml</File>
+				<File>ReligiousCombatScenario_Eras.xml</File>
+				<File>ReligiousCombatScenario_Maps.xml</File>
+				<File>ReligiousCombatScenario_Civilizations.xml</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+	<Settings>
+		<Custom id="RELIGIOUS_COMBAT_SETTING">
+			<Items>
+				<File>ReligiousCombatScenario_Config.xml</File>
+			</Items>
+		</Custom>
+	</Settings>
+	<Files>
+		<File>ReligiousCombatScenario_Config.xml</File>
+		<File>ReligiousCombatScenario_Victories.xml</File>
+		<File>ReligiousCombatScenario_Eras.xml</File>
+		<File>ReligiousCombatScenario_Maps.xml</File>
+		<File>ReligiousCombatScenario_Civilizations.xml</File>
+	</Files>
+</Mod>

@@ -1,0 +1,1145 @@
+@prefix cr: <http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/user/ontologies/2023/10/clash-royale> a owl:Ontology .
+
+cr:Archer a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Archer"@en ;
+    cr:описание "ArchersElixir Cost3RarityCommonTypeTroopArenaTraining CampRelease Date4 January 2016  "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Archer_queen a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Archer Queen"@en ;
+    cr:описание " Archer QueenElixir Cost5Ability Cost1RarityChampionTypeTroopArenaRoyal CryptRelease Date27 October 2021 "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Baby_dragon a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Baby Dragon"@en ;
+    cr:описание " Baby DragonElixir Cost4RarityEpicTypeTroopArenaP.E.K.K.A.'s PlayhouseRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Bandit a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Bandit"@en ;
+    cr:описание "BanditElixir Cost3RarityLegendaryTypeTroopArenaRascal's HideoutRelease Date24 March 2017  "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Barbarian a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Barbarian"@en ;
+    cr:описание " BarbariansElixir Cost5RarityCommonTypeTroopArenaBarbarian BowlRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Barbarian_barrel a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Barbarian Barrel"@en ;
+    cr:описание "Barbarian BarrelElixir Cost2RarityEpicTypeSpellArenaJungle ArenaRelease Date6 April 2018  The Barbarian Barrel is anEpiccardthat is unlocked from theJungle Arena (Arena 9). It is an area-damage, ground-targetingspellwith a short rectangular area and moderate damage. It can only be deployed on the player's own side. Once the spell reaches its destination, it spawns a singleBarbarian. It is a spiked barrel with a Barbarian inside it. A Barbarian Barrel card costs 2Elixirto deploy."@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Barbarian_hut a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Barbarian Hut"@en ;
+    cr:описание "Barbarian HutElixir Cost6RarityRareTypeBuildingArenaJungle ArenaRelease Date4 January 2016  The Barbarian Hut is aRarecardthat is unlocked from theJungle Arena (Arena 9). It spawns abuildingwith high hitpoints. Every 15 seconds, the Barbarian Hut will passively summon a group of threeBarbarians, with a 0.5 seconds delay from each other. When defeated, it will also spawn a Barbarian. It appears as a wooden hut with a team-colored roof and a sword hoisted above the entrance, along with a keg ofEli"@en ;
+    cr:стоимостьЭликсира 6 .
+
+cr:Bat a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Bat"@en ;
+    cr:описание " BatsElixir Cost2RarityCommonTypeTroopArenaBuilder's WorkshopRelease Date7 July 2017 "@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Battle_healer a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Battle Healer"@en ;
+    cr:описание "Battle HealerElixir Cost4RarityRareTypeTroopArenaFrozen PeakRelease Date6 January 2020  The Battle Healer is aRarecardthat is unlocked from theFrozen Peak (Arena 8). It spawns a single-target, ground-targeting, melee, groundtroopwith high hitpoints and moderate damage. She has a continuous healing effect that takes effect when she attacks, having four healing pulses with a 0.25 second interval. Upon deployment, she can also heal allied troops around her, The Battle Healer hovers, meaning she is "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Battle_ram a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Battle Ram"@en ;
+    cr:описание " Battle RamElixir Cost4RarityRareTypeTroopArenaBarbarian BowlRelease Date10 February 2017 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Berserker a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Berserker"@en ;
+    cr:описание "BerserkerElixir Cost2RarityCommonTypeTroopArenaJungle ArenaRelease Date3 February 2025  The Berserker is aCommoncardthat is unlocked from theJungle Arena (Arena 9)It spawns a fast, single-target, ground-targeting, melee, groundtroopwith moderate hitpoints and low damage. She appears as a kid who wears a light brown dress made of bear skin, dark brown wristbands, and a team-colored belt. She has orange hair, eyes and eyebrows, a loose tooth, and a scar on her left chin, arms and legs, and wields "@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Bomb_tower a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Bomb Tower"@en ;
+    cr:описание " Bomb TowerElixir Cost4RarityRareTypeBuildingArenaSpell ValleyRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Bomber a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Bomber"@en ;
+    cr:описание " BomberElixir Cost2RarityCommonTypeTroopArenaBone PitRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Boss_bandit a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Boss Bandit"@en ;
+    cr:описание "Boss BanditElixir Cost6Ability Cost1RarityChampionTypeTroopArenaRoyal CryptRelease Date7 April 2025  The Boss Bandit is aChampioncardthat is unlocked from theRoyal Crypt (Arena 17). It spawns a single-target, ground-targeting, melee, groundtroopwith high hitpoints and high damage. If there are ground units between 3.5 and 6 tiles of her, she will stop moving and begin charging a dash attack which takes 0.8 seconds to execute, and will deal double damage. The Boss Bandit's ability allows her to g"@en ;
+    cr:стоимостьЭликсира 6 .
+
+cr:Bowler a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Bowler"@en ;
+    cr:описание " BowlerElixir Cost5RarityEpicTypeTroopArenaRascal's HideoutRelease Date4 July 2016 "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Bush_goblin a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Bush Goblin"@en ;
+    cr:описание "Suspicious BushElixir Cost2RarityRareTypeTroopArenaRascal's HideoutRelease Date30 July 2024  The Suspicious Bush is aRarecardthat is unlocked from theRascal's Hideout (Arena 13). It spawns a medium speed, building-targeting, groundtroopwith very low hitpoints. Upon deployment, it spawns invisible as it moves towards the nearest building. Once the Suspicious Bush either reaches a building or is defeated, it will spawn two Bush Goblins, which are single-target, ground-targeting, melee, ground troo"@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Cannon_cart a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Cannon Cart"@en ;
+    cr:описание " Cannon CartElixir Cost5RarityEpicTypeTroopArenaMiner's MineRelease Date5 August 2017 "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Cannoneer a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Cannoneer"@en ;
+    cr:описание "CannoneerRarityEpicTypeTower TroopArenaFrozen PeakRelease Date1 January 2024  The Cannoneer is anEpiccardthat is unlocked fromFrozen Peak (Arena 8). It is a single-target, air-targeting, long-rangedtower troopwith moderate hitpoints and high damage. The Cannoneer resembles a short and stout man wearing goggles, a team-colored cloak, brown gloves and sandals. He has a loose tooth, carries a sponge rammer and a backpack with a crown emblem in the center filled with cannonballs, and wields a large "@en .
+
+cr:Cursed_hog a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Cursed Hog"@en ;
+    cr:описание "Mother WitchElixir Cost4RarityLegendaryTypeTroopArenaMiner's MineRelease Date7 December 2020  The Mother Witch is aLegendarycardthat is unlocked from theMiner's Mine (Arena 15). It spawns a single-target, air-targeting, medium-ranged, groundtroopwith moderate hitpoints and moderate damage. When the Mother Witch attacks a troop, that troop will have a curse placed on it for 5 seconds. If the troop dies during the curse's duration, a Cursed Hog will spawn, which has moderate hitpoints and very low"@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Dagger_duches a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Dagger Duches"@en ;
+    cr:описание "Dagger DuchessRarityLegendaryTypeTower TroopArenaElectro ValleyRelease Date1 April 2024  The Dagger Duchess is aLegendarycardthat is unlocked fromElectro Valley (Arena 11). It is a single-target, air-targeting, long-rangedtower troopwith moderate hitpoints and low damage. She attacks up to 8 times with a very fast hit speed by throwing daggers, until she depletes all of them, after which she reloads one dagger at a time with a slower reload speed. She resembles a woman who has cyan eyes, blonde "@en .
+
+cr:Dark_prince a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Dark Prince"@en ;
+    cr:описание "Dark PrinceElixir Cost4RarityEpicTypeTroopArenaRoyal ArenaRelease Date29 February 2016  The Dark Prince is anEpiccardthat is unlocked from theRoyal Arena (Arena 7). It spawns an area-damage, ground-targeting, melee, groundtroopwith high hitpoints and high damage with shields in addition to his normal hitpoints. After he travels 3 tiles, he will begin to charge towards his target, and deals double damage if he hits the target whilst charging. The charge will hit all enemies in a 360º area around "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Dart_goblin a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Dart Goblin"@en ;
+    cr:описание "Dart GoblinElixir Cost3RarityRareTypeTroopArenaJungle ArenaRelease Date13 January 2017  "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Earthquake a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Earthquake"@en ;
+    cr:описание " EarthquakeElixir Cost3RarityRareTypeSpellArenaSpooky TownRelease Date15 April 2019 "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Electro_dragon a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Electro Dragon"@en ;
+    cr:описание "Electro DragonElixir Cost5RarityEpicTypeTroopArenaSpooky TownRelease Date9 November 2018  "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Electro_giant a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Electro Giant"@en ;
+    cr:описание "Electro GiantElixir Cost7RarityEpicTypeTroopArenaRascal's HideoutRelease Date2 November 2020  "@en ;
+    cr:стоимостьЭликсира 7 .
+
+cr:Electro_spirit a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Electro Spirit"@en ;
+    cr:описание "Electro SpiritElixir Cost1RarityCommonTypeTroopArenaSpell ValleyRelease Date2 November 2020  The Electro Spirit is aCommoncardthat is unlocked from theSpell Valley (Arena 4). It spawns a very fast, single-target, air-targeting, short-ranged, groundtroopwith low hitpoints and low damage. It launches itself at its target when attacking, destroying itself on impact. If it jumps onto a unit, its attack will arc and strike up to 8 other targets within 4 tiles of each other. It will stun affected troo"@en ;
+    cr:стоимостьЭликсира 1 .
+
+cr:Electro_wizard a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Electro Wizard"@en ;
+    cr:описание "Electro WizardElixir Cost4RarityLegendaryTypeTroopArenaElectro ValleyRelease Date30 December 2016  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Elite_barbarian a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Elite Barbarian"@en ;
+    cr:описание "Elite BarbariansElixir Cost6RarityCommonTypeTroopArenaHog MountainRelease Date25 November 2016  The Elite Barbarians is aCommoncardthat is unlocked from theHog Mountain (Arena 10). It spawns two fast, single-target, ground-targeting, melee, groundtroopswith high hitpoints and very high damage. Their deployment is in a horizontal formation. They resemble normalBarbarians, except they wear a helmet with horns, a team-colored stripe and edges. An Elite Barbarians card costs 6Elixirto deploy."@en ;
+    cr:стоимостьЭликсира 6 .
+
+cr:ElixirCollector a cr:Здание,
+        owl:NamedIndividual ;
+    rdfs:label "Elixir Collector"@ru ;
+    cr:имеетНазначение cr:КартаПоддержки ;
+    cr:используетсяВ cr:HeavyBeatdown ;
+    cr:стоимостьЭликсира 6 .
+
+cr:Elixir_blob a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Elixir Blob"@en ;
+    cr:описание "Elixir GolemElixir Cost3RarityRareTypeTroopArenaSerenity PeakRelease Date4 November 2019  The Elixir Golem is aRarecardthat is unlocked fromSerenity Peak (Arena 14). It spawns a slow, single-target,building-targeting, melee, groundtroopwith high hitpoints and high damage. When defeated, Elixir Golem splits into two faster Elixir Golemites which have moderate hitpoints and low damage. When the Elixir Golemites are defeated, each one produces two faster Elixir Blobs which have low hitpoints and ve"@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Elixir_collector a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Elixir Collector"@en ;
+    cr:описание "Elixir CollectorElixir Cost6RarityRareTypeBuildingArenaMiner's MineRelease Date4 January 2016  "@en ;
+    cr:стоимостьЭликсира 6 .
+
+cr:Elixir_golem a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Elixir Golem"@en ;
+    cr:описание "Elixir GolemElixir Cost3RarityRareTypeTroopArenaSerenity PeakRelease Date4 November 2019  The Elixir Golem is aRarecardthat is unlocked fromSerenity Peak (Arena 14). It spawns a slow, single-target,building-targeting, melee, groundtroopwith high hitpoints and high damage. When defeated, Elixir Golem splits into two faster Elixir Golemites which have moderate hitpoints and low damage. When the Elixir Golemites are defeated, each one produces two faster Elixir Blobs which have low hitpoints and ve"@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Elixir_golemite a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Elixir Golemite"@en ;
+    cr:описание "Elixir GolemElixir Cost3RarityRareTypeTroopArenaSerenity PeakRelease Date4 November 2019  The Elixir Golem is aRarecardthat is unlocked fromSerenity Peak (Arena 14). It spawns a slow, single-target,building-targeting, melee, groundtroopwith high hitpoints and high damage. When defeated, Elixir Golem splits into two faster Elixir Golemites which have moderate hitpoints and low damage. When the Elixir Golemites are defeated, each one produces two faster Elixir Blobs which have low hitpoints and ve"@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Executioner a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Executioner"@en ;
+    cr:описание "ExecutionerElixir Cost5RarityEpicTypeTroopArenaSerenity PeakRelease Date27 January 2017  "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Fire_spirit a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Fire Spirit"@en ;
+    cr:описание " Fire SpiritElixir Cost1RarityCommonTypeTroopArenaSpell ValleyRelease Date3 May 2016 "@en ;
+    cr:стоимостьЭликсира 1 .
+
+cr:Fireball a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Fireball"@en ;
+    cr:описание "FireballElixir Cost4RarityRareTypeSpellArenaTraining CampRelease Date4 January 2016  The Fireball is aRarecardthat is unlocked in theTraining Camp. It is an area-damage, air-targetingspellwith a medium radius and high damage that also inflicts knockback. It is a large ball of fire. A Fireball card costs 4Elixirto deploy."@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Firecracker a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Firecracker"@en ;
+    cr:описание " FirecrackerElixir Cost3RarityCommonTypeTroopArenaSpooky TownRelease Date3 February 2020 "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Fisherman a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Fisherman"@en ;
+    cr:описание "FishermanElixir Cost3RarityLegendaryTypeTroopArenaMiner's MineRelease Date5 August 2019  The Fisherman is aLegendarycardthat is unlocked from theMiner's Mine (Arena 15)or aLegendary Chest. It spawns a single-target, ground-targeting, melee, groundtroopwith moderate hitpoints and moderate damage. If there are ground units between 3.5 and 7 tiles of him, he will stop moving and begin charging a hook attack which takes 1.3 seconds to execute, and either pulls enemy troops towards him, or pulls hims"@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Flying_machine a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Flying Machine"@en ;
+    cr:описание " Flying MachineElixir Cost4RarityRareTypeTroopArenaBuilder's WorkshopRelease Date6 October 2017 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Furnace a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Furnace"@en ;
+    cr:описание " FurnaceElixir Cost4RarityRareTypeTroopArenaHog MountainRelease Date3 May 2016 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Giant a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Giant"@en ;
+    cr:описание "GiantElixir Cost5RarityRareTypeTroopArenaTraining CampRelease Date4 January 2016  "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Giant_skeleton a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Giant Skeleton"@en ;
+    cr:описание " Giant SkeletonElixir Cost6RarityEpicTypeTroopArenaFrozen PeakRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 6 .
+
+cr:Giant_snowball a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Giant Snowball"@en ;
+    cr:описание "Giant SnowballElixir Cost2RarityCommonTypeSpellArenaFrozen PeakRelease Date20 June 2018  "@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Goblin a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin"@en ;
+    cr:описание " GoblinsElixir Cost2RarityCommonTypeTroopArenaGoblin StadiumRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:GoblinHut a cr:ЗданиеСпаунер,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin Hut"@ru ;
+    cr:обладаетТактическойВозможностью cr:СозданиеЮнитов ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Goblin_barrel a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin Barrel"@en ;
+    cr:описание "Goblin BarrelElixir Cost3RarityEpicTypeSpellArenaP.E.K.K.A.'s PlayhouseRelease Date4 January 2016  "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Goblin_brawler a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin Brawler"@en ;
+    cr:описание "Goblin CageElixir Cost4RarityRareTypeBuildingArenaGoblin StadiumRelease Date17 May 2019  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Goblin_cage a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin Cage"@en ;
+    cr:описание "Goblin CageElixir Cost4RarityRareTypeBuildingArenaGoblin StadiumRelease Date17 May 2019  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Goblin_curse a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin Curse"@en ;
+    cr:описание "Goblin CurseElixir Cost2RarityEpicTypeSpellArenaSerenity PeakRelease Date17 June 2024  The Goblin Curse is anEpiccardthat is unlocked fromSerenity Peak (Arena 14). It is an area-damage, air-targetingspellwith a medium radius and very low damage that is dealt every second for 6 seconds. If those troops are defeated, they would convert intoGoblins. It is a lime-colored liquid encased in a large vial, which is secured by a thin rope, with a large, rectangular wooden cap that has three golden hair a"@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Goblin_demolisher a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin Demolisher"@en ;
+    cr:описание "Goblin DemolisherElixir Cost4RarityRareTypeTroopArenaSpooky TownRelease Date17 June 2024  The Goblin Demolisher is aRarecardthat is unlocked from theSpooky Town (Arena 12). It spawns an area-damage, ground-targeting, medium-ranged, groundtroopwith high hitpoints and moderate damage. When his hitpoints are lowered below 50%, he changes into a very fast,building-targeting troop that charges toward the nearest building, dealing high damage and inflicting knockback after defeat. He appears to be a l"@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Goblin_drill a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin Drill"@en ;
+    cr:описание "Goblin DrillElixir Cost4RarityEpicTypeBuildingArenaSerenity PeakRelease Date11 July 2021  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Goblin_gang a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin Gang"@en ;
+    cr:описание "Goblin GangElixir Cost3RarityCommonTypeTroopArenaJungle ArenaRelease Date24 February 2017  The Goblin Gang is aCommoncardthat is unlocked from theJungle Arena (Arena 9). It spawns threeGoblinsand threeSpear Goblinsin a hexagon formation. The Goblins will spawn before the Spear Goblins. A Goblin Gang card costs 3Elixirto deploy."@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Goblin_giant a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin Giant"@en ;
+    cr:описание "Goblin GiantElixir Cost6RarityEpicTypeTroopArenaJungle ArenaRelease Date5 September 2018  "@en ;
+    cr:стоимостьЭликсира 6 .
+
+cr:Goblin_hut a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin Hut"@en ;
+    cr:описание "Goblin HutElixir Cost4RarityRareTypeBuildingArenaGoblin StadiumRelease Date4 January 2016  The Goblin Hut is aRarecardthat is unlocked from theGoblin Stadium (Arena 1). It spawns a single-target, long-ranged,buildingwith high hitpoints. Every 1.9 seconds, the Goblin Hut will summon aSpear Goblinwhen an enemy is within range. When defeated, it will also spawn a Spear Goblin. It appears as a wooden hut on a stone foundation with a thatched roof that has a team-colored chimney on top, which is surr"@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Goblin_machine a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin Machine"@en ;
+    cr:описание "Goblin MachineElixir Cost5RarityLegendaryTypeTroopArenaMiner's MineRelease Date17 June 2024  "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Goblinstein a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Goblinstein"@en ;
+    cr:описание "GoblinsteinElixir Cost5Ability Cost2RarityChampionTypeTroopArenaSilent SanctuaryRelease Date7 October 2024  The Goblinstein is aChampioncardthat is unlocked from theSilent Sanctuary (Arena 18). It spawns a single-target, air-targeting, medium-ranged, groundtroopwith moderate hitpoints and low damage, and a single target, building-targeting, melee, ground troop with high hitpoints and low damage. The Goblinstein’s attacks will stun a targeted unit for 0.5 seconds. Being a Champion card, they will"@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Golden_knight a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Golden Knight"@en ;
+    cr:описание "Golden KnightElixir Cost4Ability Cost1RarityChampionTypeTroopArenaExecutioner's KitchenRelease Date27 October 2021  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Golem a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Golem"@en ;
+    cr:описание " GolemElixir Cost8RarityEpicTypeTroopArenaHog MountainRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 8 .
+
+cr:Golemite a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Golemite"@en ;
+    cr:описание " GolemElixir Cost8RarityEpicTypeTroopArenaHog MountainRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 8 .
+
+cr:Graveyard a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Graveyard"@en ;
+    cr:описание "GraveyardElixir Cost5RarityLegendaryTypeSpellArenaSpooky TownRelease Date28 October 2016  The Graveyard is aLegendarycardthat is unlocked from theSpooky Town (Arena 12). It isspellwith a large radius. After 2.2 seconds, it spawns a singleSkeletonthat appears to be rising from a tombstone with the letters \"XX\" on it every 0.5 seconds for 9 seconds on the edge of the spell's radius in a random order. A Graveyard card costs 5Elixirto deploy."@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Guardienne a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Guardienne"@en ;
+    cr:описание "Little PrinceElixir Cost3Ability Cost3RarityChampionTypeTroopArenaSilent SanctuaryRelease Date6 November 2023  The Little Prince is aChampioncardthat is unlocked from theSilent Sanctuary (Arena 18). It spawns a single-target, air-targeting, long-ranged, groundtroopwith moderate hitpoints and low damage. The Little Prince's ability has him call upon a tank named Guardienne. She appears as a tall, muscular woman who has cyan eyes, blonde eyebrows, and a scar on her left eye, wields a giant sword, "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Guards a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Guards"@en ;
+    cr:описание "GuardsElixir Cost3RarityEpicTypeTroopArenaP.E.K.K.A.'s PlayhouseRelease Date3 May 2016  The Guards is anEpiccardthat is unlocked from theP.E.K.K.A's Playhouse (Arena 6). It spawns three fast single-target, ground-targeting, melee, groundtroopswith low hitpoints and low damage with shields in addition to their normal hitpoints. Their deployment is in a triangle formation. They appear to beSkeletons, but are somewhat taller, wear black helmets with team-colored feathers, and carry spears and woode"@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Heal_spirit a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Heal Spirit"@en ;
+    cr:описание "Heal SpiritElixir Cost1RarityRareTypeTroopArenaRascal's HideoutRelease Date2 April 2020  The Heal Spirit is aRarecardthat is unlocked from theRascal's Hideout (Arena 13). It spawns a very fast, area-damage, air-targeting, short-ranged, groundtroopwith low hitpoints and low damage. It launches itself at its target when attacking, destroying itself on impact. It creates a small glowing restoration field that heals allied troops nearby. Its physical appearance is similar to anIce Spirit, but it is "@en ;
+    cr:стоимостьЭликсира 1 .
+
+cr:Hog_rider a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Hog Rider"@en ;
+    cr:описание " Hog RiderElixir Cost4RarityRareTypeTroopArenaBuilder's WorkshopRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Home a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Home"@en ;
+    cr:описание "  "@en .
+
+cr:Hunter a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Hunter"@en ;
+    cr:описание "HunterElixir Cost4RarityEpicTypeTroopArenaHog MountainRelease Date12 December 2017  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Ice_golem a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Ice Golem"@en ;
+    cr:описание " Ice GolemElixir Cost2RarityRareTypeTroopArenaFrozen PeakRelease Date14 October 2016 "@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Ice_spirit a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Ice Spirit"@en ;
+    cr:описание "Ice SpiritElixir Cost1RarityCommonTypeTroopArenaFrozen PeakRelease Date4 July 2016  "@en ;
+    cr:стоимостьЭликсира 1 .
+
+cr:Ice_wizard a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Ice Wizard"@en ;
+    cr:описание " Ice WizardElixir Cost3RarityLegendaryTypeTroopArenaSpooky TownRelease Date29 February 2016 "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Inferno_dragon a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Inferno Dragon"@en ;
+    cr:описание " Inferno DragonElixir Cost4RarityLegendaryTypeTroopArenaElectro ValleyRelease Date30 September 2016 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Inferno_tower a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Inferno Tower"@en ;
+    cr:описание "Inferno TowerElixir Cost5RarityRareTypeBuildingArenaSpell ValleyRelease Date4 January 2016  "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Lava_hound a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Lava Hound"@en ;
+    cr:описание " Lava HoundElixir Cost7RarityLegendaryTypeTroopArenaRascal's HideoutRelease Date3 May 2016 "@en ;
+    cr:стоимостьЭликсира 7 .
+
+cr:Lava_pup a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Lava Pup"@en ;
+    cr:описание " Lava HoundElixir Cost7RarityLegendaryTypeTroopArenaRascal's HideoutRelease Date3 May 2016 "@en ;
+    cr:стоимостьЭликсира 7 .
+
+cr:Lightning a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Lightning"@en ;
+    cr:описание " LightningElixir Cost6RarityEpicTypeSpellArenaFrozen PeakRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 6 .
+
+cr:Little_prince a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Little Prince"@en ;
+    cr:описание "Little PrinceElixir Cost3Ability Cost3RarityChampionTypeTroopArenaSilent SanctuaryRelease Date6 November 2023  The Little Prince is aChampioncardthat is unlocked from theSilent Sanctuary (Arena 18). It spawns a single-target, air-targeting, long-ranged, groundtroopwith moderate hitpoints and low damage. The Little Prince's ability has him call upon a tank named Guardienne. She appears as a tall, muscular woman who has cyan eyes, blonde eyebrows, and a scar on her left eye, wields a giant sword, "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Lumberjack a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Lumberjack"@en ;
+    cr:описание "LumberjackElixir Cost4RarityLegendaryTypeTroopArenaSerenity PeakRelease Date4 July 2016  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Magic_archer a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Magic Archer"@en ;
+    cr:описание "Magic ArcherElixir Cost4RarityLegendaryTypeTroopArenaRascal's HideoutRelease Date2 March 2018  The Magic Archer is aLegendarycardthat is unlocked from theRascal's Hideout (Arena 13). It spawns an area damage, air-targeting, long-ranged, groundtroopwith moderate hitpoints and moderate damage. The Magic Archer launches an attack that travels up to its maximum range, while piercing through enemies. He takes the appearance of a man with gray hair with white stripes, glowing turquoise eyes, bushy bla"@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:MegaMinion a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Mega Minion"@ru ;
+    cr:атакуетТипЦели cr:НаземныеИВоздушные ;
+    cr:имеетРольВКолоде cr:ТанкПоддержки ;
+    cr:рекомендуемаяЗамена cr:Knight ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Mega_knight a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Mega Knight"@en ;
+    cr:описание "Mega KnightElixir Cost7RarityLegendaryTypeTroopArenaElectro ValleyRelease Date8 September 2017  "@en ;
+    cr:стоимостьЭликсира 7 .
+
+cr:Mega_minion a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Mega Minion"@en ;
+    cr:описание "Mega MinionElixir Cost3RarityRareTypeTroopArenaBarbarian BowlRelease Date19 September 2016  The Mega Minion is aRarecardthat is unlocked from theBarbarian Bowl (Arena 3). It spawns a single-target, air-targeting, melee, airtroopwith moderate hitpoints and high damage. It appears as an enlargedMinionwearing a set of armor with a mask, chainmail, and a team-colored belt. A Mega Minion card costs 3Elixirto deploy."@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Mighty_miner a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Mighty Miner"@en ;
+    cr:описание "Mighty MinerElixir Cost4Ability Cost1RarityChampionTypeTroopArenaRoyal CryptRelease Date30 March 2022  The Mighty Miner is aChampioncardthat is unlocked from theRoyal Crypt (Arena 17). It spawns a single-target, ground-targeting, melee, groundtroopwith high hitpoints and various damage stages. The Mighty Miner's damage increases over time as he remains focused on a single target, similar to theInferno Dragon. Being a Champion card, he will have an ability and can be deployed anytime. If a second"@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Miner a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Miner"@ru ;
+    cr:обладаетТактическойВозможностью cr:КонтрольТерритории,
+        cr:ПрямойУронПоБашне ;
+    cr:стоимостьЭликсира 3 ;
+    cr:хорошоСинергируетС cr:GoblinBarrel .
+
+cr:Mini_pekka a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Mini P.E.K.K.A."@en ;
+    cr:описание "Mini P.E.K.K.A.Elixir Cost4RarityRareTypeTroopArenaTraining CampRelease Date4 January 2016  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Minion a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Minion"@en ;
+    cr:описание "MinionsElixir Cost3RarityCommonTypeTroopArenaTraining CampRelease Date4 January 2016 The Minions is aCommoncardthat is unlocked in theTraining Camp. It spawns three single-target, air-targeting, short-ranged, and airtroopswith low hitpoints and low damage, deployed in a triangular formation. The Minions take the appearance of small, light blue gargoyles with team-colored eyes, an underbite, two large, team-colored horns, two stubby silver wings on their backs, and large black hands and legs with"@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Minion_horde a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Minion Horde"@en ;
+    cr:описание " Minion HordeElixir Cost5RarityCommonTypeTroopArenaHog MountainRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Monk a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Monk"@en ;
+    cr:описание "MonkElixir Cost5Ability Cost1RarityChampionTypeTroopArenaSilent SanctuaryRelease Date26 October 2022  "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Monster a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Monster"@en ;
+    cr:описание "GoblinsteinElixir Cost5Ability Cost2RarityChampionTypeTroopArenaSilent SanctuaryRelease Date7 October 2024  The Goblinstein is aChampioncardthat is unlocked from theSilent Sanctuary (Arena 18). It spawns a single-target, air-targeting, medium-ranged, groundtroopwith moderate hitpoints and low damage, and a single target, building-targeting, melee, ground troop with high hitpoints and low damage. The Goblinstein’s attacks will stun a targeted unit for 0.5 seconds. Being a Champion card, they will"@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Mortar a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Mortar"@en ;
+    cr:описание "MortarElixir Cost4RarityCommonTypeBuildingArenaBuilder's WorkshopRelease Date4 January 2016  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Mother_witch a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Mother Witch"@en ;
+    cr:описание "Mother WitchElixir Cost4RarityLegendaryTypeTroopArenaMiner's MineRelease Date7 December 2020  The Mother Witch is aLegendarycardthat is unlocked from theMiner's Mine (Arena 15). It spawns a single-target, air-targeting, medium-ranged, groundtroopwith moderate hitpoints and moderate damage. When the Mother Witch attacks a troop, that troop will have a curse placed on it for 5 seconds. If the troop dies during the curse's duration, a Cursed Hog will spawn, which has moderate hitpoints and very low"@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Musketeer a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Musketeer"@en ;
+    cr:описание "MusketeerElixir Cost4RarityRareTypeTroopArenaTraining CampRelease Date4 January 2016  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Night_witch a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Night Witch"@en ;
+    cr:описание " Night WitchElixir Cost4RarityLegendaryTypeTroopArenaSerenity PeakRelease Date31 May 2017 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Pekka a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "P.E.K.K.A."@en ;
+    cr:описание " P.E.K.K.A.Elixir Cost7RarityEpicTypeTroopArenaP.E.K.K.A.'s PlayhouseRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 7 .
+
+cr:Phoenix a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Phoenix"@en ;
+    cr:описание " PhoenixElixir Cost4RarityLegendaryTypeTroopArenaSpooky TownRelease Date26 October 2022 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Phoenix_egg a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Phoenix Egg"@en ;
+    cr:описание " PhoenixElixir Cost4RarityLegendaryTypeTroopArenaSpooky TownRelease Date26 October 2022 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Poison a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Poison"@en ;
+    cr:описание " PoisonElixir Cost4RarityEpicTypeSpellArenaJungle ArenaRelease Date29 February 2016 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Prince a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Prince"@en ;
+    cr:описание "PrinceElixir Cost5RarityEpicTypeTroopArenaRoyal ArenaRelease Date4 January 2016  "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Princess a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Princess"@en ;
+    cr:описание "PrincessElixir Cost3RarityLegendaryTypeTroopArenaElectro ValleyRelease Date29 February 2016  "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Rage a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Rage"@en ;
+    cr:описание " RageElixir Cost2RarityEpicTypeSpellArenaSerenity PeakRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Ram_rider a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Ram Rider"@en ;
+    cr:описание " Ram RiderElixir Cost5RarityLegendaryTypeTroopArenaElectro ValleyRelease Date24 December 2018 "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Rascal_boy a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Rascal Boy"@en ;
+    cr:описание "RascalsElixir Cost5RarityCommonTypeTroopArenaRascal's HideoutRelease Date25 May 2018  The Rascals is aCommoncardthat is unlocked from theRascal's Hideout (Arena 13). It spawns a single-target, ground-targeting, melee, groundtroopwith high hitpoints and moderate damage output in front of two single-target, air-targeting, medium-ranged, ground troops with low hitpoints and moderate damage. The Rascals features a boy who has black eyes and eyebrows, dons a bowl cut which covers his eyes, wears a te"@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Rascal_girl a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Rascal Girl"@en ;
+    cr:описание "RascalsElixir Cost5RarityCommonTypeTroopArenaRascal's HideoutRelease Date25 May 2018  The Rascals is aCommoncardthat is unlocked from theRascal's Hideout (Arena 13). It spawns a single-target, ground-targeting, melee, groundtroopwith high hitpoints and moderate damage output in front of two single-target, air-targeting, medium-ranged, ground troops with low hitpoints and moderate damage. The Rascals features a boy who has black eyes and eyebrows, dons a bowl cut which covers his eyes, wears a te"@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Reborn_phoenix a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Reborn Phoenix"@en ;
+    cr:описание " PhoenixElixir Cost4RarityLegendaryTypeTroopArenaSpooky TownRelease Date26 October 2022 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Rocket a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Rocket"@en ;
+    cr:описание "RocketElixir Cost6RarityRareTypeSpellArenaBuilder's WorkshopRelease Date4 January 2016  The Rocket is aRarecardthat is unlocked from theBuilder's Workshop (Arena 5). It is an area-damage, air-targetingspellwith a small radius and very high damage that also inflicts knockback. It is a large rocket with a nose cone, an iron hull, fins, and a skull printed on it. A Rocket card costs 6Elixirto deploy."@en ;
+    cr:стоимостьЭликсира 6 .
+
+cr:Royal_chef a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Royal Chef"@en ;
+    cr:описание "Royal ChefRarityLegendaryTypeTower TroopArenaRascal's HideoutRelease Date16 December 2024  The Royal Chef is aLegendarycardthat is unlocked fromRascal's Hideout (Arena 13). It is a single-target, air-targeting, long-rangedtower troopwith moderate hitpoints and low damage. Around every 23 seconds, he will throw a pancake at an allied troop on the Arena, increasing their Level by 1. The Royal Chef appears to be a man with aqua eyes, a gold tooth, blue hair and moustache, wears a white toque which "@en .
+
+cr:Royal_delivery a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Royal Delivery"@en ;
+    cr:описание "Royal DeliveryElixir Cost3RarityCommonTypeSpellArenaSerenity PeakRelease Date6 April 2020  The Royal Delivery is aCommoncardthat is unlocked from theSerenity Peak (Arena 14). It is an area-damage, air-targetingspellwith a medium radius and moderate damage. It can only be deployed on the player's own side. Once the spell has hit the ground, it spawns a singleRoyal Recruitwith a red arrow on his head. It appears to be a wooden box with a team-colored crown logo on the side attached with a rope. A "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Royal_ghost a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Royal Ghost"@en ;
+    cr:описание "Royal GhostElixir Cost3RarityLegendaryTypeTroopArenaSpooky TownRelease Date4 January 2018  "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Royal_giant a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Royal Giant"@en ;
+    cr:описание "Royal GiantElixir Cost6RarityCommonTypeTroopArenaRoyal ArenaRelease Date29 February 2016  "@en ;
+    cr:стоимостьЭликсира 6 .
+
+cr:Royal_hog a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Royal Hog"@en ;
+    cr:описание "Royal HogsElixir Cost5RarityRareTypeTroopArenaRoyal ArenaRelease Date20 June 2018  "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Royal_recruit a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Royal Recruit"@en ;
+    cr:описание "Royal RecruitsElixir Cost7RarityCommonTypeTroopArenaRoyal ArenaRelease Date7 August 2018  "@en ;
+    cr:стоимостьЭликсира 7 .
+
+cr:Rune_giant a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Rune Giant"@en ;
+    cr:описание "Rune GiantElixir Cost4RarityEpicTypeTroopArenaJungle ArenaRelease Date6 January 2025  The Rune Giant is aEpiccardthat is unlocked fromJungle Arena (Arena 9). It spawns a slow, single-target, building-targeting, melee, ground troop with high hitpoints and low damage. After a slight delay, she will throw an enhancement to a maximum of 2 allied troops on the Arena, increasing their damage for every 3rd attack. She appears as a large humanoid creature with long orange hair which covers her eyes and "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Skeleton a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Skeleton"@en ;
+    cr:описание "Skeletons (Merge Tactics)Golden Elixir Cost0Primary TraitUndeadTypeTroopRelease Date30 June 2025 The Skeleton is atroopable to be spawned byWitchandSkeleton King, belonging to theUndeadtrait. It is a single-target melee troop with very low or low hitpoints, very low damage, and moderate attack speed. The Skeleton takes the appearance of a small undead creature with a skull that lacks a lower jaw and wields a short sword. 2025"@en ;
+    cr:стоимостьЭликсира 0 .
+
+cr:Skeleton_army a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Skeleton Army"@en ;
+    cr:описание " Skeleton ArmyElixir Cost3RarityEpicTypeTroopArenaP.E.K.K.A.'s PlayhouseRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Skeleton_barrel a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Skeleton Barrel"@en ;
+    cr:описание " Skeleton BarrelElixir Cost3RarityCommonTypeTroopArenaJungle ArenaRelease Date17 November 2017 "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Skeleton_dragon a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Skeleton Dragon"@en ;
+    cr:описание "Skeleton DragonsElixir Cost4RarityCommonTypeTroopArenaSpell ValleyRelease Date6 July 2020  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Skeleton_king a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Skeleton King"@en ;
+    cr:описание "Skeleton KingElixir Cost4Ability Cost2RarityChampionTypeTroopArenaExecutioner's KitchenRelease Date27 October 2021  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Sparky a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Sparky"@en ;
+    cr:описание " SparkyElixir Cost6RarityLegendaryTypeTroopArenaElectro ValleyRelease Date3 May 2016 "@en ;
+    cr:стоимостьЭликсира 6 .
+
+cr:Spear_goblin a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Spear Goblin"@en ;
+    cr:описание " Spear GoblinsElixir Cost2RarityCommonTypeTroopArenaGoblin StadiumRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Spirit_empres a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Spirit Empres"@en ;
+    cr:описание "Spirit EmpressElixir Cost6(Air form: if the player's Elixir count ≥ 6)3(Ground form: otherwise)RarityLegendaryTypeTroopArenaMiner's MineRelease Date7 July 2025  "@en ;
+    cr:стоимостьЭликсира 6 .
+
+cr:Suspicious_bush a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Suspicious Bush"@en ;
+    cr:описание "Suspicious BushElixir Cost2RarityRareTypeTroopArenaRascal's HideoutRelease Date30 July 2024  The Suspicious Bush is aRarecardthat is unlocked from theRascal's Hideout (Arena 13). It spawns a medium speed, building-targeting, groundtroopwith very low hitpoints. Upon deployment, it spawns invisible as it moves towards the nearest building. Once the Suspicious Bush either reaches a building or is defeated, it will spawn two Bush Goblins, which are single-target, ground-targeting, melee, ground troo"@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Tesla a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Tesla"@en ;
+    cr:описание "TeslaElixir Cost4RarityCommonTypeBuildingArenaHog MountainRelease Date4 January 2016  "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:The_log a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "The Log"@en ;
+    cr:описание "The LogElixir Cost2RarityLegendaryTypeSpellArenaElectro ValleyRelease Date4 July 2016  The “The Log” is aLegendarycardthat is unlocked from theElectro Valley (Arena 11). It is an area-damage, ground-targetingspellwith a very long rectangular area and moderate damage that also inflicts knockback to anytroopit hits. It can only be deployed on the player's own side. It appears as a long, spiked piece of wood. A \"The Log\" card costs 2Elixirto deploy."@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Three_musketeer a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Three Musketeer"@en ;
+    cr:описание "Three MusketeersElixir Cost9RarityRareTypeTroopArenaRoyal ArenaRelease Date29 February 2016  The Three Musketeers is aRarecardthat is unlocked from theRoyal Arena (Arena 7). It spawns three single-target, air-targeting, long-ranged, ground troops with moderate hitpoints and moderate damage. Their deployment is in a triangle formation. If enemy troops are close to them, they switch to being single-target, ground-targeting, melee, ground troops with the same hitpoints and very high damage, and swi"@en ;
+    cr:стоимостьЭликсира 9 .
+
+cr:Tombstone a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Tombstone"@en ;
+    cr:описание "TombstoneElixir Cost3RarityRareTypeBuildingArenaBone PitRelease Date4 January 2016  The Tombstone is aRarecardthat is unlocked from theBone Pit (Arena 2). It spawns abuildingwith moderate hitpoints. Every 3.5 seconds, the Tombstone will passively summon a group of twoSkeletons, with a 0.5 seconds delay from each other. When destroyed, it will also spawn four Skeletons. It appears a coffin with a mounted gravestone that has a skull and a bone printed on it and a wooden plank located on both sides"@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Tornado a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Tornado"@en ;
+    cr:описание "TornadoElixir Cost3RarityEpicTypeSpellArenaMiner's MineRelease Date11 November 2016  The Tornado is anEpiccardthat is unlocked fromMiner's Mine (Arena 15). It is an area-damage, air-targetingspellwith a very large radius and low damage that is dealt every 0.55 seconds for 1.05 seconds. It also has a singularity effect that pulls nearbytroopsto the center. A Tornado card costs 3Elixirto deploy."@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Tower_princes a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Tower Princes"@en ;
+    cr:описание "Tower PrincessRarityCommonTypeTower TroopArenaTraining CampRelease Date13 December 2023 The Tower Princess is aCommoncardthat is unlocked in theTraining Camp. It places a single-target, air-targeting, and long-rangedtower troopon the player's two towers with high hitpoints and low damage. The Tower Princess takes the appearance of aPrincess, except that her crown is silver, she wears a team-colored cape, and the quiver on her back is darker with a metal plate on it. ForBattle Deckswith thiscard,"@en .
+
+cr:Valkyrie a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Valkyrie"@en ;
+    cr:описание " ValkyrieElixir Cost4RarityRareTypeTroopArenaBone PitRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Vine a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Vine"@en ;
+    cr:описание "VinesElixir Cost3RarityEpicTypeSpellArenaFrozen PeakRelease Date1 September 2025  The Vines is anEpiccardthat is unlocked from theFrozen Peak (Arena 8). It is a multi-damage, air-targetingspellwith a small radius and high damage per second. When used, it will freeze the troop in place and render it unable to move or attack, and allow ground units to hit the trapped unit for 2.5 seconds. The three troops that are targeted are always the three that have the highest hitpoints within its radius. It "@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Void a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Void"@en ;
+    cr:описание "VoidElixir Cost3RarityEpicTypeSpellArenaMiner's MineRelease Date6 May 2024  The Void is anEpiccardthat is unlocked from theMiner's Mine (Arena 15). It is a multi-damage, air-targetingspellwith a medium radius and various damage stages. The Void targets alltroopsinside its radius, dealing more damage to them the fewer there are inside its radius. It appears as a deep orange-amber liquid in a large vial. A Void card costs 3Elixirto deploy."@en ;
+    cr:стоимостьЭликсира 3 .
+
+cr:Wall_breaker a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Wall Breaker"@en ;
+    cr:описание " Wall BreakersElixir Cost2RarityEpicTypeTroopArenaSpooky TownRelease Date26 February 2019 "@en ;
+    cr:стоимостьЭликсира 2 .
+
+cr:Witch a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Witch"@en ;
+    cr:описание " WitchElixir Cost5RarityEpicTypeTroopArenaP.E.K.K.A.'s PlayhouseRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:Wizard a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Wizard"@en ;
+    cr:описание " WizardElixir Cost5RarityRareTypeTroopArenaSpell ValleyRelease Date4 January 2016 "@en ;
+    cr:стоимостьЭликсира 5 .
+
+cr:X_bow a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "X-Bow"@en ;
+    cr:описание "X-BowElixir Cost6RarityEpicTypeBuildingArenaHog MountainRelease Date4 January 2016  "@en ;
+    cr:стоимостьЭликсира 6 .
+
+cr:Zappie a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Zappie"@en ;
+    cr:описание " ZappiesElixir Cost4RarityRareTypeTroopArenaHog MountainRelease Date12 December 2017 "@en ;
+    cr:стоимостьЭликсира 4 .
+
+cr:Атака a cr:НазначениеКарты,
+        owl:NamedIndividual ;
+    rdfs:label "Атака"@ru .
+
+cr:Воздушные a cr:ТипЦели,
+        owl:NamedIndividual ;
+    rdfs:label "Воздушные"@ru .
+
+cr:Танк a cr:РольВКолоде,
+        owl:NamedIndividual ;
+    rdfs:label "Танк"@ru .
+
+cr:УронПоПлощади a cr:ТактическаяВозможность,
+        owl:NamedIndividual ;
+    rdfs:label "Урон по площади"@ru .
+
+cr:архетипИмеетТипАтаки a owl:ObjectProperty ;
+    rdfs:label "архетип имеет тип атаки"@ru ;
+    rdfs:domain cr:АрхетипКолоды ;
+    rdfs:range cr:ТипАтаки .
+
+cr:атакуетТипЦели a owl:ObjectProperty ;
+    rdfs:label "атакует тип цели"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:ТипЦели .
+
+cr:имеетНазначение a owl:ObjectProperty ;
+    rdfs:label "имеет назначение"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:НазначениеКарты .
+
+cr:имеетРольВКолоде a owl:ObjectProperty ;
+    rdfs:label "имеет роль в колоде"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:РольВКолоде .
+
+cr:ключеваяКартаДля a owl:ObjectProperty ;
+    rdfs:label "ключевая карта для"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:АрхетипКолоды ;
+    rdfs:subPropertyOf cr:используетсяВ .
+
+cr:контрит a owl:ObjectProperty ;
+    rdfs:label "контрит"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:Карта ;
+    owl:inverseOf cr:являетсяКонтрКартойДля .
+
+cr:обладаетТактическойВозможностью a owl:ObjectProperty ;
+    rdfs:label "обладает тактической возможностью"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:ТактическаяВозможность .
+
+cr:описание a owl:AnnotationProperty .
+
+cr:популярнаПротив a owl:ObjectProperty ;
+    rdfs:label "популярна против"@ru ;
+    rdfs:domain cr:АрхетипКолоды ;
+    rdfs:range cr:АрхетипКолоды .
+
+cr:редкость a owl:DatatypeProperty ;
+    rdfs:label "редкость"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range xsd:string .
+
+cr:рекомендуемаяЗамена a owl:ObjectProperty ;
+    rdfs:label "рекомендуемая замена"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:Карта .
+
+cr:слабПротив a owl:ObjectProperty ;
+    rdfs:label "слаб против"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:Карта .
+
+cr:средняяСтоимость a owl:DatatypeProperty ;
+    rdfs:label "средняя стоимость"@ru ;
+    rdfs:domain cr:АрхетипКолоды ;
+    rdfs:range xsd:decimal .
+
+cr:стоимостьЭликсира a owl:DatatypeProperty ;
+    rdfs:label "стоимость эликсира"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range xsd:integer .
+
+cr:требуетПоддержкиОт a owl:ObjectProperty ;
+    rdfs:label "требует поддержки от"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:Карта .
+
+cr:хорошоСинергируетС a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "хорошо синергирует с"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:Карта .
+
+cr:частоИспользуетсяС a owl:ObjectProperty ;
+    rdfs:label "часто используется с"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:Карта .
+
+cr:эффективенПротив a owl:ObjectProperty ;
+    rdfs:label "эффективен против"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:Карта .
+
+cr:Cannon a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Cannon"@ru ;
+    cr:атакуетТипЦели cr:Наземные ;
+    cr:имеетНазначение cr:Защита ;
+    cr:используетсяВ cr:HogCycle ;
+    cr:стоимостьЭликсира 3 ;
+    cr:хорошоСинергируетС cr:HogRider .
+
+cr:HeavyBeatdown a cr:АрхетипКолоды,
+        owl:NamedIndividual ;
+    rdfs:label "Тяжелый Beatdown"@ru ;
+    cr:архетипИмеетТипАтаки cr:ТяжелаяАтака ;
+    cr:средняяСтоимость 4.5 .
+
+cr:SkeletonArmy a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Skeleton Army"@ru ;
+    cr:атакуетТипЦели cr:Наземные ;
+    cr:стоимостьЭликсира 3 .
+
+cr:ЗданиеСпаунер a owl:Class ;
+    rdfs:label "Здание-спаунер"@ru ;
+    rdfs:subClassOf cr:Здание ;
+    owl:disjointWith cr:ОборонительноеЗдание .
+
+cr:КонтрольТерритории a cr:ТактическаяВозможность,
+        owl:NamedIndividual ;
+    rdfs:label "Контроль территории"@ru .
+
+cr:СозданиеЮнитов a cr:ТактическаяВозможность,
+        owl:NamedIndividual ;
+    rdfs:label "Создание юнитов"@ru .
+
+cr:ТяжелаяАтака a cr:ТипАтаки,
+        owl:NamedIndividual ;
+    rdfs:label "Тяжелая атака (Beatdown)"@ru .
+
+cr:используетсяВ a owl:ObjectProperty ;
+    rdfs:label "используется в"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:АрхетипКолоды .
+
+cr:являетсяКонтрКартойДля a owl:ObjectProperty ;
+    rdfs:label "является контр-картой для"@ru ;
+    rdfs:domain cr:Карта ;
+    rdfs:range cr:Карта .
+
+cr:Arrows a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Arrows"@ru ;
+    cr:имеетНазначение cr:КартаПоддержки ;
+    cr:контрит cr:MinionHorde ;
+    cr:стоимостьЭликсира 3 ;
+    cr:хорошоСинергируетС cr:Balloon,
+        cr:GoblinBarrel .
+
+cr:IceSpirit a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Ice Spirit"@ru ;
+    cr:имеетНазначение cr:Защита,
+        cr:УскорениеЦикла ;
+    cr:используетсяВ cr:HogCycle ;
+    cr:стоимостьЭликсира 1 ;
+    cr:хорошоСинергируетС cr:HogRider,
+        cr:Skeletons .
+
+cr:Knight a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Knight"@ru ;
+    cr:атакуетТипЦели cr:Наземные ;
+    cr:имеетРольВКолоде cr:ТанкПоддержки ;
+    cr:используетсяВ cr:LogBait ;
+    cr:стоимостьЭликсира 3 ;
+    cr:хорошоСинергируетС cr:GoblinBarrel,
+        cr:SkeletonArmy .
+
+cr:LogBait a cr:АрхетипКолоды,
+        owl:NamedIndividual ;
+    rdfs:label "Log Bait"@ru ;
+    cr:средняяСтоимость 3.1 .
+
+cr:Skeletons a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Skeletons"@ru ;
+    cr:имеетНазначение cr:Защита,
+        cr:УскорениеЦикла ;
+    cr:используетсяВ cr:HogCycle ;
+    cr:стоимостьЭликсира 1 ;
+    cr:хорошоСинергируетС cr:HogRider,
+        cr:IceSpirit .
+
+cr:Zap a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Zap"@ru ;
+    cr:имеетНазначение cr:КартаПоддержки ;
+    cr:контрит cr:InfernoTower,
+        cr:MinionHorde ;
+    cr:стоимостьЭликсира 2 ;
+    cr:хорошоСинергируетС cr:Balloon,
+        cr:HogRider .
+
+cr:Здания a cr:ТипЦели,
+        owl:NamedIndividual ;
+    rdfs:label "Здания"@ru .
+
+cr:ПрямойУронПоБашне a cr:ТактическаяВозможность,
+        owl:NamedIndividual ;
+    rdfs:label "Прямой урон по башне"@ru .
+
+cr:ТанкПоддержки a cr:РольВКолоде,
+        owl:NamedIndividual ;
+    rdfs:label "Танк поддержки"@ru .
+
+cr:ТипАтаки a owl:Class ;
+    rdfs:label "Тип Атаки"@ru .
+
+cr:УскорениеЦикла a cr:НазначениеКарты,
+        owl:NamedIndividual ;
+    rdfs:label "Ускорение цикла"@ru .
+
+cr:Balloon a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Balloon"@ru ;
+    cr:атакуетТипЦели cr:Здания ;
+    cr:слабПротив cr:InfernoTower,
+        cr:MinionHorde ;
+    cr:стоимостьЭликсира 5 ;
+    cr:требуетПоддержкиОт cr:Arrows,
+        cr:Freeze,
+        cr:Zap ;
+    cr:являетсяКонтрКартойДля cr:InfernoTower,
+        cr:MinionHorde .
+
+cr:Freeze a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Freeze"@ru ;
+    cr:имеетНазначение cr:КартаПоддержки ;
+    cr:контрит cr:InfernoTower,
+        cr:MinionHorde ;
+    cr:стоимостьЭликсира 4 ;
+    cr:хорошоСинергируетС cr:Balloon,
+        cr:GoblinBarrel,
+        cr:HogRider .
+
+cr:Защита a cr:НазначениеКарты,
+        owl:NamedIndividual ;
+    rdfs:label "Защита"@ru .
+
+cr:Здание a owl:Class ;
+    rdfs:label "Здание"@ru ;
+    rdfs:subClassOf cr:Карта .
+
+cr:Наземные a cr:ТипЦели,
+        owl:NamedIndividual ;
+    rdfs:label "Наземные"@ru .
+
+cr:НаземныеИВоздушные a cr:ТипЦели,
+        owl:NamedIndividual ;
+    rdfs:label "Наземные и Воздушные"@ru .
+
+cr:РольВКолоде a owl:Class ;
+    rdfs:label "Роль в колоде"@ru .
+
+cr:GoblinBarrel a cr:Заклинание,
+        owl:NamedIndividual ;
+    rdfs:label "Goblin Barrel"@ru ;
+    cr:используетсяВ cr:LogBait ;
+    cr:обладаетТактическойВозможностью cr:ПрямойУронПоБашне ;
+    cr:стоимостьЭликсира 3 ;
+    cr:хорошоСинергируетС cr:Arrows,
+        cr:Freeze,
+        cr:Knight .
+
+cr:HogCycle a cr:АрхетипКолоды,
+        owl:NamedIndividual ;
+    rdfs:label "Hog Cycle"@ru ;
+    cr:средняяСтоимость 2.6 .
+
+cr:InfernoTower a cr:ОборонительноеЗдание,
+        owl:NamedIndividual ;
+    rdfs:label "Inferno Tower"@ru ;
+    cr:атакуетТипЦели cr:НаземныеИВоздушные ;
+    cr:стоимостьЭликсира 5 .
+
+cr:КартаПоддержки a cr:НазначениеКарты,
+        owl:NamedIndividual ;
+    rdfs:label "Карта поддержки"@ru .
+
+cr:HogRider a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Hog Rider"@ru ;
+    cr:атакуетТипЦели cr:Здания ;
+    cr:ключеваяКартаДля cr:HogCycle ;
+    cr:стоимостьЭликсира 4 ;
+    cr:хорошоСинергируетС cr:Cannon,
+        cr:Freeze,
+        cr:IceSpirit,
+        cr:Skeletons,
+        cr:Zap .
+
+cr:MinionHorde a cr:Войско,
+        owl:NamedIndividual ;
+    rdfs:label "Minion Horde"@ru ;
+    cr:атакуетТипЦели cr:НаземныеИВоздушные ;
+    cr:стоимостьЭликсира 5 .
+
+cr:НазначениеКарты a owl:Class ;
+    rdfs:label "Назначение Карты"@ru .
+
+cr:ТактическаяВозможность a owl:Class ;
+    rdfs:label "Тактическая Возможность"@ru .
+
+cr:ТипЦели a owl:Class ;
+    rdfs:label "Тип Цели"@ru .
+
+cr:АрхетипКолоды a owl:Class ;
+    rdfs:label "Архетип Колоды"@ru .
+
+cr:ОборонительноеЗдание a owl:Class ;
+    rdfs:label "Оборонительное Здание"@ru ;
+    rdfs:subClassOf cr:Здание .
+
+cr:Заклинание a owl:Class ;
+    rdfs:label "Заклинание"@ru ;
+    rdfs:subClassOf cr:Карта .
+
+cr:Карта a owl:Class ;
+    rdfs:label "Карта"@ru .
+
+cr:Войско a owl:Class ;
+    rdfs:label "Войско"@ru ;
+    rdfs:subClassOf cr:Карта .
+

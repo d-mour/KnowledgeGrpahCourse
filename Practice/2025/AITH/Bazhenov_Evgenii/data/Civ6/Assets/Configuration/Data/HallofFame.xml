@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<!-- Hall of Fame Statistics -->
+	<GraphQueries>
+		<Row Query="GameDataSets" SQL="select DataSets.ObjectId, Datasets.Type, DataSetId from GameObjects inner join DataSets on GameObjects.ObjectId = DataSets.ObjectId where GameObjects.GameId=@GameId and DataSet=@DataSet" />
+		<Row Query="GameDataSetsByType" SQL="select DataSets.ObjectId, Datasets.Type, DataSetId from GameObjects inner join DataSets on GameObjects.ObjectId = DataSets.ObjectId where GameObjects.Type=@ExtraData and GameObjects.GameId=@GameId and DataSet=@DataSet" />
+		<Row Query="GameDeltaDataSetsByType" SQL="select DataSets.ObjectId, Datasets.Type, DataSetId, 1 as IsDelta from GameObjects inner join DataSets on GameObjects.ObjectId = DataSets.ObjectId where GameObjects.Type=@ExtraData and GameObjects.GameId=@GameId and DataSet=@DataSet" />
+		<Row Query="PlayerDataSets" SQL="select DataSets.ObjectId, Datasets.Type, DataSetId from GameObjects inner join DataSets on GameObjects.ObjectId = DataSets.ObjectId where GameObjects.PlayerObjectId=@ObjectId and DataSet=@DataSet" />
+		<Row Query="PlayerDataSetsByType" SQL="select DataSets.ObjectId, Datasets.Type, DataSetId from GameObjects inner join DataSets on GameObjects.ObjectId = DataSets.ObjectId where GameObjects.Type=@ExtraData and GameObjects.PlayerObjectId=@ObjectId and DataSet=@DataSet" />
+		<Row Query="PlayerDeltaDataSetsByType" SQL="select DataSets.ObjectId, Datasets.Type, DataSetId, 1 as IsDelta from GameObjects inner join DataSets on GameObjects.ObjectId = DataSets.ObjectId where GameObjects.Type=@ExtraData and GameObjects.PlayerObjectId=@ObjectId and DataSet=@DataSet" />
+	</GraphQueries>
+	
+	<Graphs>
+		<!-- Game-Wide Graphs-->
+		<Row Graph="ReligiousBeliefs" Scope="Game" Name="LOC_HOF_GRAPH_RELIGION_BELIEFS" Query="GameDataSetsByType" Dataset="Beliefs" XUnit="GameTurn" ExtraData="Religion" />
+		<Row Graph="ReligiousCities" Scope="Game" Name="LOC_HOF_GRAPH_RELIGION_CITIES" Query="GameDataSetsByType" Dataset="Cities" XUnit="GameTurn" ExtraData="Religion" />
+		<Row Graph="ReligiousFollowers" Scope="Game" Name="LOC_HOF_GRAPH_RELIGION_FOLLOWERS" Query="GameDataSetsByType" Dataset="Followers" XUnit="GameTurn" ExtraData="Religion" />
+	
+		<Row Graph="PlayerGold" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_GOLD" Query="GameDataSetsByType" Dataset="Gold" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerCulture" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_CULTURE" Query="GameDataSetsByType" Dataset="Culture" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerFaith" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_FAITH" Query="GameDataSetsByType" Dataset="Faith" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerScience" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_SCIENCE" Query="GameDataSetsByType" Dataset="Science" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerScore" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_SCORE" Query="GameDataSetsByType" Dataset="Score" XUnit="GameTurn" ExtraData="Player" />
+		
+		<Row Graph="PlayerBuildingsConstructed" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_BUILDINGS" Query="GameDeltaDataSetsByType" Dataset="BuildingsConstructed" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerDistrictsConstructed" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_DISTRICTS" Query="GameDeltaDataSetsByType" Dataset="DistrictsConstructed" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerCitiesConquered" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_CITIES_CAPTURED" Query="GameDeltaDataSetsByType" Dataset="CitiesConquered" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerCitiesFounded" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_CITIES_FOUNDED" Query="GameDeltaDataSetsByType" Dataset="CitiesFounded" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerCitiesLost" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_CITIES_LOST" Query="GameDeltaDataSetsByType" Dataset="CitiesLost" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerGreatPeopleEarned" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_GREAT_PEOPLE" Query="GameDeltaDataSetsByType" Dataset="GreatPeopleEarned" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerCombats" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_COMBATS" Query="GameDeltaDataSetsByType" Dataset="Combats" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerUnitsKilled" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_UNITS_KILLED" Query="GameDeltaDataSetsByType" Dataset="UnitsKilled" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerUnitsLost" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_UNITS_LOST" Query="GameDeltaDataSetsByType" Dataset="UnitsLost" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerWarsReceived" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_WARS_RECEIVED" Query="GameDeltaDataSetsByType" Dataset="WarsReceived" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerWarsDeclared" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_WARS_DECLARED" Query="GameDeltaDataSetsByType" Dataset="WarsDeclared" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerWondersConstructed" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_WONDERS" Query="GameDeltaDataSetsByType" Dataset="WondersConstructed" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerTechsAcquired" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_TECHS" Query="GameDataSetsByType" Dataset="TechsAcquired" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerCivicsAcquired" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_CIVICS" Query="GameDataSetsByType" Dataset="CivicsAcquired" XUnit="GameTurn" ExtraData="Player" />
+		
+		<Row Graph="PlayerBarbariansKilled" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_BARBARIAN_KILLS" Query="GameDataSetsByType" Dataset="BarbariansKilled" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerBarbarianCampsCleared" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_BARBARIAN_CAMPS" Query="GameDataSetsByType" Dataset="BarbarianCampsCleared" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerNukesLaunched" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_NUKES" Query="GameDeltaDataSetsByType" Dataset="NukesLaunched" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerGoodyHutsPopped" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_GOODY_HUTS" Query="GameDeltaDataSetsByType" Dataset="GoodyHutsPopped" XUnit="GameTurn" ExtraData="Player" />
+		<Row Graph="PlayerNaturalWondersDiscovered" Scope="Game" Name="LOC_HOF_GRAPH_PLAYER_NATURAL_WONDERS" Query="GameDeltaDataSetsByType" Dataset="NaturalWondersDiscovered" XUnit="GameTurn" ExtraData="Player" />
+		
+		<!-- Player-Wide Graphs-->
+		<Row Graph="CityProduction" Scope="Player" Name="LOC_HOF_GRAPH_CITY_PRODUCTION" Query="PlayerDataSetsByType" Dataset="Production" XUnit="GameTurn" ExtraData="City" />
+		<Row Graph="CityCulture" Scope="Player" Name="LOC_HOF_GRAPH_CITY_CULTURE" Query="PlayerDataSetsByType" Dataset="Culture" XUnit="GameTurn" ExtraData="City" />
+		<Row Graph="CityFaith" Scope="Player" Name="LOC_HOF_GRAPH_CITY_FAITH" Query="PlayerDataSetsByType" Dataset="Faith" XUnit="GameTurn" ExtraData="City" />
+		<Row Graph="CityGold" Scope="Player" Name="LOC_HOF_GRAPH_CITY_GOLD" Query="PlayerDataSetsByType" Dataset="Gold" XUnit="GameTurn" ExtraData="City" />
+		<Row Graph="CityFood" Scope="Player" Name="LOC_HOF_GRAPH_CITY_FOOD" Query="PlayerDataSetsByType" Dataset="Food" XUnit="GameTurn" ExtraData="City" />
+		<Row Graph="CityScience" Scope="Player" Name="LOC_HOF_GRAPH_CITY_SCIENCE" Query="PlayerDataSetsByType" Dataset="Science" XUnit="GameTurn" ExtraData="City" />
+		<Row Graph="CityTourism" Scope="Player" Name="LOC_HOF_GRAPH_CITY_TOURISM" Query="PlayerDataSetsByType" Dataset="Tourism" XUnit="GameTurn" ExtraData="City" />
+		<Row Graph="CityPopulation" Scope="Player" Name="LOC_HOF_GRAPH_CITY_POPULATION" Query="PlayerDataSetsByType" Dataset="Population" XUnit="GameTurn" ExtraData="City" />
+		<Row Graph="CityBuildings" Scope="Player" Name="LOC_HOF_GRAPH_CITY_BUILDINGS" Query="PlayerDataSetsByType" Dataset="BuildingsConstructed" XUnit="GameTurn" ExtraData="City" />
+		<Row Graph="CityDistricts" Scope="Player" Name="LOC_HOF_GRAPH_CITY_DISTRICTS" Query="PlayerDataSetsByType" Dataset="DistrictsConstructed" XUnit="GameTurn" ExtraData="City" />
+		<Row Graph="CityWonders" Scope="Player" Name="LOC_HOF_GRAPH_CITY_WONDERS" Query="PlayerDataSetsByType" Dataset="WondersConstructed" XUnit="GameTurn" ExtraData="City" />
+	</Graphs>
+	
+	<ReportQueries>
+		<Row Query="GameObjects" SQL="select ObjectId from GameObjects where GameId=@GameId" />
+		<Row Query="GameObjectsByType" SQL="select ObjectId from GameObjects where GameObjects.Type=@ExtraData and GameId=@GameId" />
+		<Row Query="PlayerObjects" SQL="select ObjectId from GameObjects where GameObjects.PlayerObjectId=@ObjectId" />
+		<Row Query="PlayerObjectsByType" SQL="select ObjectId from GameObjects where GameObjects.Type=@ExtraData and PlayerObjectId=@ObjectId" />
+		<Row Query="PlayerTypesByDataPoint" SQL="select distinct ValueType as Type,ObjectId from ObjectDataPointValues where DataPoint=@ExtraData and ObjectId=@ObjectId" />
+	</ReportQueries>
+	
+	<Reports>
+		<Row Report="PlayerUnits" Scope="Player" Name="LOC_HOF_REPORTS_UNITS" InitialColumnName="LOC_HOF_REPORTS_UNITS_INITIAL_COLUMN" Query="PlayerTypesByDataPoint" ExtraData="UnitsTrainedByType" />
+		<Row Report="PlayerGovernments" Scope="Player" Name="LOC_HOF_REPORTS_GOVERNMENTS" InitialColumnName="LOC_HOF_REPORTS_GOVERNMENTS_INITIAL_COLUMN" Query="PlayerTypesByDataPoint" ExtraData="GovernmentInUseByType" />	
+		<Row Report="PlayerCityYields" Scope="Player" Name="LOC_HOF_REPORTS_CITY_YIELDS" InitialColumnName="LOC_HOF_REPORTS_CITY_YIELDS_INITIAL_COLUMN" Query="PlayerObjectsByType" ExtraData="City" />
+		<Row Report="PlayerCityStatus" Scope="Player" Name="LOC_HOF_REPORTS_CITY_STATUS" InitialColumnName="LOC_HOF_REPORTS_CITY_STATUS_INITIAL_COLUMN" Query="PlayerObjectsByType" ExtraData="City" />
+		<Row Report="Religions" Scope="Game" Name="LOC_HOF_REPORTS_RELIGIONS" InitialColumnName="LOC_HOF_REPORTS_RELIGIONS_INITIAL_COLUMN" Query="GameObjectsByType" ExtraData="Religion" />
+	</Reports>
+
+	<ReportColumns>
+		<!-- Overall -->
+		<Row Report="Religions" Name="LOC_HOF_REPORTS_RELIGIONS_FOUNDER" DataPoint="Founder" SortOrder="10" />
+		<Row Report="Religions" Name="LOC_HOF_REPORTS_RELIGIONS_HOLY_CITY" DataPoint="HolyCity" SortOrder="20"/>
+		<Row Report="Religions" Name="LOC_HOF_REPORTS_RELIGIONS_TURN_FOUNDED" DataPoint="TurnFounded" UxHint="Numeric" SortOrder="30" />
+		<Row Report="Religions" Name="LOC_HOF_REPORTS_RELIGIONS_FOLLOWERS" DataPoint="Followers" EmptyValue="0" DefaultValue="0" SortOrder="40"/>
+		<Row Report="Religions" Name="LOC_HOF_REPORTS_RELIGIONS_CITIES" DataPoint="Cities" UxHint="Numeric" EmptyValue="0" DefaultValue="0" SortOrder="40"/>
+		<Row Report="Religions" Name="LOC_HOF_REPORTS_RELIGIONS_BELIEFS" DataPoint="Beliefs" UxHint="Numeric" EmptyValue="0" DefaultValue="0" SortOrder="50"/>
+		
+		
+		<!-- Per Player -->
+		<!--<Row Report="PlayerCityStatus" Name="LOC_HOF_REPORTS_CITY_STATUS_TURN_FOUNDED" DataPoint="TurnFounded" SortOrder="10" />-->
+		<Row Report="PlayerCityStatus" Name="LOC_HOF_REPORTS_CITY_STATUS_POPULATION" DataPoint="Population" EmptyValue="0" DefaultValue="0" SortOrder="10"/>
+		<Row Report="PlayerCityStatus" Name="LOC_HOF_REPORTS_CITY_YIELDS_TOURISM" DataPoint="Tourism" EmptyValue="0" DefaultValue="0" SortOrder="20"/>
+		<Row Report="PlayerCityStatus" Name="LOC_HOF_REPORTS_CITY_STATUS_BUILDINGS" DataPoint="BuildingsConstructed" EmptyValue="0" DefaultValue="0" SortOrder="30"/>
+		<Row Report="PlayerCityStatus" Name="LOC_HOF_REPORTS_CITY_STATUS_DISTRICTS" DataPoint="DistrictsConstructed" EmptyValue="0" DefaultValue="0" SortOrder="40"/>
+		<Row Report="PlayerCityStatus" Name="LOC_HOF_REPORTS_CITY_STATUS_WONDERS" DataPoint="WondersConstructed" EmptyValue="0" DefaultValue="0" SortOrder="50"/>		
+		
+		<Row Report="PlayerCityYields" Name="LOC_HOF_REPORTS_CITY_YIELDS_PRODUCTION" DataPoint="Production" EmptyValue="0" DefaultValue="0" SortOrder="10" />
+		<Row Report="PlayerCityYields" Name="LOC_HOF_REPORTS_CITY_YIELDS_FOOD" DataPoint="Food" EmptyValue="0" DefaultValue="0" SortOrder="20" />
+		<Row Report="PlayerCityYields" Name="LOC_HOF_REPORTS_CITY_YIELDS_GOLD" DataPoint="Gold" EmptyValue="0" DefaultValue="0" SortOrder="30" />
+		<Row Report="PlayerCityYields" Name="LOC_HOF_REPORTS_CITY_YIELDS_FAITH" DataPoint="Faith" EmptyValue="0" DefaultValue="0" SortOrder="40" />
+		<Row Report="PlayerCityYields" Name="LOC_HOF_REPORTS_CITY_YIELDS_SCIENCE" DataPoint="Science" EmptyValue="0" DefaultValue="0" SortOrder="50" />
+		<Row Report="PlayerCityYields" Name="LOC_HOF_REPORTS_CITY_YIELDS_CULTURE" DataPoint="Culture" EmptyValue="0" DefaultValue="0" SortOrder="60" />
+	
+		<Row Report="PlayerGovernments" Name="LOC_HOF_REPORTS_GOVERNMENTS_TURNS_ACTIVE" DataPoint="GovernmentInUseByType" UxHint="Numeric" SortOrder="10" />
+
+		<Row Report="PlayerUnits" Name="LOC_HOF_REPORTS_UNITS_TRAINED" DataPoint="UnitsTrainedByType" UxHint="Numeric" EmptyValue="0" DefaultValue="0" SortOrder="10" />
+		<Row Report="PlayerUnits" Name="LOC_HOF_REPORTS_UNITS_KILLS" DataPoint="UnitsKilledByType" UxHint="Numeric" EmptyValue="0" DefaultValue="0" SortOrder="20" />	
+		<Row Report="PlayerUnits" Name="LOC_HOF_REPORTS_UNITS_LOST" DataPoint="UnitsLostByType" UxHint="Numeric" EmptyValue="0" DefaultValue="0" SortOrder="30" />
+	</ReportColumns>
+	
+	<StatisticCategories>
+		<Row Category="CATEGORY_GENERAL" Name="LOC_GAMESUMMARY_CATEGORY_GENERAL" SortOrder="100" />
+		<Row Category="CATEGORY_DIPLOMACY" Name="LOC_GAMESUMMARY_CATEGORY_DIPLOMACY" SortOrder="200" />
+		<Row Category="CATEGORY_DISCOVERY" Name="LOC_GAMESUMMARY_CATEGORY_DISCOVERY" SortOrder="200" />
+		<Row Category="CATEGORY_COMBAT" Name="LOC_GAMESUMMARY_CATEGORY_COMBAT" SortOrder="200" />
+		<Row Category="CATEGORY_PROSPERITY" Name="LOC_GAMESUMMARY_CATEGORY_PROSPERITY" SortOrder="200" />
+		<Row Category="CATEGORY_RELIGION" Name="LOC_GAMESUMMARY_CATEGORY_RELIGION" SortOrder="200" />
+		<Row Category="CATEGORY_EXTRA" Name="LOC_GAMESUMMARY_CATEGORY_EXTRA" SortOrder="300" />
+		<Row Category="CATEGORY_HIDDEN" IsHidden="1" SortOrder="100" />
+	</StatisticCategories>
+	
+	<Statistics>
+		<Row DataPoint="CitiesFounded" Name="LOC_HOF_STAT_CITIES_FOUNDED" CATEGORY="CATEGORY_PROSPERITY" />
+		<Row DataPoint="CitiesLost" Name="LOC_HOF_STAT_CITIES_LOST" CATEGORY="CATEGORY_PROSPERITY" />
+		<Row DataPoint="CitiesConquered" Name="LOC_HOF_STAT_CITIES_CAPTURED" CATEGORY="CATEGORY_PROSPERITY" />
+		<Row DataPoint="CityWithHighestPopulation" Name="LOC_HOF_STAT_LARGEST_CITY"  Annotation="LOC_HOF_STAT_LARGEST_CITY_ANNOTATION" Category="CATEGORY_PROSPERITY" />
+		<Row DataPoint="NukesLaunched" Name="LOC_HOF_STAT_NUKES" Category="CATEGORY_COMBAT"/>
+		<Row DataPoint="GoodyHutsPopped" Name="LOC_HOF_STAT_GOODY_HUTS" Category="CATEGORY_DISCOVERY" />
+		<Row DataPoint="BarbariansKilled" Name="LOC_HOF_STAT_BARBARIANS_KILLED" Category="CATEGORY_COMBAT"/>
+		<Row DataPoint="BarbarianCampsCleared" Name="LOC_HOF_STAT_BARBARIAN_CAMPS" Category="CATEGORY_DISCOVERY"/>
+		<Row DataPoint="UnitsTrained" Name="LOC_HOF_STAT_UNITS_TRAINED" Category="CATEGORY_COMBAT" />
+		<Row DataPoint="UnitsKilled" Name="LOC_HOF_STAT_UNITS_KILLED" Category="CATEGORY_COMBAT" />
+		<Row DataPoint="UnitsLost" Name="LOC_HOF_STAT_UNITS_LOST" Category="CATEGORY_COMBAT" />
+		<Row DataPoint="FavoriteUnit" Name="LOC_HOF_STAT_FAVORITE_UNIT" Annotation="LOC_HOF_STAT_FAVORITE_UNIT_ANNOTATION" Category="CATEGORY_COMBAT" />
+		<Row DataPoint="WeakestUnit" Name="LOC_HOF_STAT_WEAKEST_UNIT" Annotation="LOC_HOF_STAT_WEAKEST_UNIT_ANNOTATION" Category="CATEGORY_COMBAT" />
+		<Row DataPoint="StrongestUnit" Name="LOC_HOF_STAT_STRONGEST_UNIT" Annotation="LOC_HOF_STAT_STRONGEST_UNIT_ANNOTATION" Category="CATEGORY_COMBAT" />
+		<Row DataPoint="FavoriteGovernment" Name="LOC_HOF_STAT_FAVORITE_GOVERNMENT" Annotation="LOC_HOF_STAT_FAVORITE_GOVERNMENT_ANNOTATION" CATEGORY="CATEGORY_PROSPERITY" />
+		<Row DataPoint="ReligionsFounded" Name="LOC_HOF_STAT_RELGIONS_FOUNDED" CATEGORY="CATEGORY_RELIGION" />
+		<Row DataPoint="MostFollowedReligion" Name="LOC_HOF_STAT_POPULAR_RELIGION" Annotation="LOC_HOF_STAT_POPULAR_RELIGION_ANNOTATION" CATEGORY="CATEGORY_RELIGION" />
+		<Row DataPoint="WondersConstructed" Name="LOC_HOF_STAT_WONDERS" Category="CATEGORY_PROSPERITY" />
+		<Row DataPoint="NaturalWondersDiscovered" Name="LOC_HOF_STAT_NATURAL_WONDERS" Category="CATEGORY_DISCOVERY" />
+		<Row DataPoint="Combats" Name="LOC_HOF_STAT_COMBATS" Category="CATEGORY_COMBAT" />
+		<Row DataPoint="GreatPeopleEarned" Name="LOC_HOF_STAT_GREAT_PEOPLE" Category="CATEGORY_PROSPERITY" />
+		<Row DataPoint="WarsDeclared" Name="LOC_HOF_STAT_WARS_DECLARED" Category="CATEGORY_DIPLOMACY" />
+		<Row DataPoint="WarsReceived" Name="LOC_HOF_STAT_WARS_RECEIVED" Category="CATEGORY_DIPLOMACY" />
+		
+		<!-- Player-Only Statistics -->
+		<Row DataPoint="CurrentGovernment" Name="LOC_HOF_STAT_GOVERNMENT" Category="CATEGORY_PROSPERITY" />
+		<Row DataPoint="CivicsBoosted" Name="LOC_HOF_STAT_CIVIC_BOOSTS" Category="CATEGORY_DISCOVERY" />
+		<Row DataPoint="CivicsAcquired" Name="LOC_HOF_STAT_CIVICS" Category="CATEGORY_DISCOVERY" />
+		<Row DataPoint="TechsBoosted" Name="LOC_HOF_STAT_TECH_BOOSTS" Category="CATEGORY_DISCOVERY" />
+		<Row DataPoint="TechsAcquired" Name="LOC_HOF_STAT_TECHS" Category="CATEGORY_DISCOVERY" />
+	</Statistics>
+	
+	
+	<DataPointAggregateUpdates>	
+		<!-- Player-Wide Stats -->
+		<Row AggregateDataPoint="CitiesFounded" Scope="MajorPlayers" Operation="Sum" DataPoint="CitiesFounded" Query="ObjectDataSet_Values" />
+		<Row AggregateDataPoint="CitiesLost" Scope="MajorPlayers" Operation="Sum" DataPoint="CitiesLost" Query="ObjectDataSet_Values" />
+		<Row AggregateDataPoint="CitiesConquered" Scope="MajorPlayers" Operation="Sum" DataPoint="CitiesConquered" Query="ObjectDataSet_Values" />	
+		<Row AggregateDataPoint="CityWithHighestPopulation" Scope="MajorPlayers" Operation="Max" DataPoint="Population" Query="ObjectDataPoints_PlayerObjects_ByType" ExtraData="City" />
+		<Row AggregateDataPoint="FavoriteGovernment" Scope="MajorPlayers" Operation="Max" DataPoint="GovernmentInUseByType" Query="ObjectDataPoints" />
+		<Row AggregateDataPoint="FavoriteUnit" Scope="MajorPlayers" Operation="Max" DataPoint="UnitsTrainedByType" Query="ObjectDataPoints" />
+		<Row AggregateDataPoint="StrongestUnit" Scope="MajorPlayers" Operation="Max" DataPoint="UnitsKilledByType" Query="ObjectDataPoints" />
+		<Row AggregateDataPoint="WeakestUnit" Scope="MajorPlayers" Operation="Max" DataPoint="UnitsLostByType" Query="ObjectDataPoints" />
+		<Row AggregateDataPoint="UnitsKilled" Scope="MajorPlayers" Operation="Sum" DataPoint="UnitsKilledByType" Query="ObjectDataPoints" />
+		<Row AggregateDataPoint="UnitsLost" Scope="MajorPlayers" Operation="Sum" DataPoint="UnitsLostByType" Query="ObjectDataPoints" />
+		<Row AggregateDataPoint="UnitsTrained" Scope="MajorPlayers" Operation="Sum" DataPoint="UnitsTrainedByType" Query="ObjectDataPoints" />	
+		<Row AggregateDataPoint="BarbariansKilled" Scope="MajorPlayers" Operation="First" DataPoint="BarbariansKilled" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="BarbarianCampsCleared" Scope="MajorPlayers" Operation="First" DataPoint="BarbarianCampsCleared" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="NukesLaunched" Scope="MajorPlayers" Operation="Sum" DataPoint="NukesLaunched" Query="ObjectDataSet_Values" />
+		<Row AggregateDataPoint="GoodyHutsPopped" Scope="MajorPlayers" Operation="Sum" DataPoint="GoodyHutsPopped" Query="ObjectDataSet_Values" />
+		<Row AggregateDataPoint="NaturalWondersDiscovered" Scope="MajorPlayers" Operation="Sum" DataPoint="NaturalWondersDiscovered" Query="ObjectDataSet_Values" />
+		<Row AggregateDataPoint="WondersConstructed" Scope="MajorPlayers" Operation="Sum" DataPoint="WondersConstructed" Query="ObjectDataSet_Values" />
+		<Row AggregateDataPoint="TechsAcquired" Scope="MajorPlayers" Operation="First" DataPoint="TechsAcquired" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="CivicsAcquired" Scope="MajorPlayers" Operation="First" DataPoint="CivicsAcquired" Query="ObjectDataSet_LastValue" />
+		
+		<Row AggregateDataPoint="Combats" Scope="MajorPlayers" Operation="Sum" DataPoint="Combats" Query="ObjectDataSet_Values" />
+		<Row AggregateDataPoint="GreatPeopleEarned" Scope="MajorPlayers" Operation="Sum" DataPoint="GreatPeopleEarned" Query="ObjectDataSet_Values" />
+		<Row AggregateDataPoint="WarsDeclared" Scope="MajorPlayers" Operation="Sum" DataPoint="WarsDeclared" Query="ObjectDataSet_Values" />
+		<Row AggregateDataPoint="WarsReceived" Scope="MajorPlayers" Operation="Sum" DataPoint="WarsReceived" Query="ObjectDataSet_Values" />
+		
+		
+		<!-- Game-Wide Stats -->
+		<Row AggregateDataPoint="BarbarianCampsCleared" Scope="Games" Operation="Sum" DataPoint="BarbarianCampsCleared" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="BarbariansKilled" Scope="Games" Operation="Sum" DataPoint="BarbariansKilled" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="CitiesConquered" Scope="Games" Operation="Sum" DataPoint="CitiesConquered" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="CitiesFounded" Scope="Games" Operation="Sum" DataPoint="CitiesFounded" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="CitiesLost" Scope="Games" Operation="Sum" DataPoint="CitiesLost" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="CityWithHighestPopulation" Scope="Games" Operation="Max" DataPoint="Population" Query="ObjectDataPoints_ByType" ExtraData="City" />
+		<Row AggregateDataPoint="FavoriteGovernment" Scope="Games" Operation="MaxSum" DataPoint="GovernmentInUseByType" Query="ObjectDataPoints_Players_NoCoalesce" />
+		<Row AggregateDataPoint="FavoriteUnit" Scope="Games" Operation="MaxSum" DataPoint="UnitsTrainedByType" Query="ObjectDataPoints_Players_NoCoalesce" />
+		<Row AggregateDataPoint="GoodyHutsPopped" Scope="Games" Operation="Sum" DataPoint="GoodyHutsPopped" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="MostFollowedReligion" Scope="Games" Operation="Max" DataPoint="Followers" Query="ObjectDataPoints_ByType" ExtraData="Religion" />
+		<Row AggregateDataPoint="NaturalWondersDiscovered" Scope="Games" Operation="Sum" DataPoint="NaturalWondersDiscovered" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="NukesLaunched" Scope="Games" Operation="Sum" DataPoint="NukesLaunched" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="ReligionsFounded" Scope="Games" Operation="Count" DataPoint="Followers" Query="ObjectDataPoints_ByType" ExtraData="Religion" />
+		<Row AggregateDataPoint="StrongestUnit" Scope="Games" Operation="MaxSum" DataPoint="UnitsKilledByType" Query="ObjectDataPoints_Players_NoCoalesce" />
+		<Row AggregateDataPoint="UnitsKilled" Scope="Games" Operation="Sum" DataPoint="UnitsKilledByType" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="UnitsLost" Scope="Games" Operation="Sum" DataPoint="UnitsLostByType" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="UnitsTrained" Scope="Games" Operation="Sum" DataPoint="UnitsTrainedByType" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="WeakestUnit" Scope="Games" Operation="MaxSum" DataPoint="UnitsLostByType" Query="ObjectDataPoints_Players_NoCoalesce" />
+		<Row AggregateDataPoint="WondersConstructed" Scope="Games" Operation="Sum" DataPoint="WondersConstructed" Query="ObjectDataPoints_Players" />	
+		<Row AggregateDataPoint="Combats" Scope="Games" Operation="Sum" DataPoint="Combats" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="GreatPeopleEarned" Scope="Games" Operation="Sum" DataPoint="GreatPeopleEarned" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="WarsDeclared" Scope="Games" Operation="Sum" DataPoint="WarsDeclared" Query="ObjectDataPoints_Players" />
+		<Row AggregateDataPoint="WarsReceived" Scope="Games" Operation="Sum" DataPoint="WarsReceived" Query="ObjectDataPoints_Players" />
+
+		<!-- Ruleset-Wide Stats Typically these are Local Player Only, but not always -->
+		<Row AggregateDataPoint="BarbarianCampsCleared" Scope="Rulesets" Operation="Sum" DataPoint="BarbarianCampsCleared" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="BarbariansKilled" Scope="Rulesets" Operation="Sum" DataPoint="BarbariansKilled" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="CitiesConquered" Scope="Rulesets" Operation="Sum" DataPoint="CitiesConquered" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="CitiesFounded" Scope="Rulesets" Operation="Sum" DataPoint="CitiesFounded" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="CitiesLost" Scope="Rulesets" Operation="Sum" DataPoint="CitiesLost" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="CityWithHighestPopulation" Scope="Rulesets" Operation="MaxSum" DataPoint="Population" Query="ObjectDataPoints_LocalPlayerObjects_ByType" ExtraData="City" />
+		<Row AggregateDataPoint="FavoriteGovernment" Scope="Rulesets" Operation="MaxSum" DataPoint="GovernmentInUseByType" Query="ObjectDataPoints_LocalPlayers_NoCoalesce" />
+		<Row AggregateDataPoint="FavoriteUnit" Scope="Rulesets" Operation="MaxSum" DataPoint="UnitsTrainedByType" Query="ObjectDataPoints_LocalPlayers_NoCoalesce" />
+		<Row AggregateDataPoint="GoodyHutsPopped" Scope="Rulesets" Operation="Sum" DataPoint="GoodyHutsPopped" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="MostFollowedReligion" Scope="Rulesets" Operation="Max" DataPoint="Followers" Query="ObjectDataPoints_ByType" ExtraData="Religion" />
+		<Row AggregateDataPoint="NaturalWondersDiscovered" Scope="Rulesets" Operation="Sum" DataPoint="NaturalWondersDiscovered" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="NukesLaunched" Scope="Rulesets" Operation="Sum" DataPoint="NukesLaunched" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="ReligionsFounded" Scope="Rulesets" Operation="Count" DataPoint="Followers" Query="ObjectDataPoints_ByType" ExtraData="Religion" />
+		<Row AggregateDataPoint="StrongestUnit" Scope="Rulesets" Operation="MaxSum" DataPoint="UnitsKilledByType" Query="ObjectDataPoints_LocalPlayers_NoCoalesce" />
+		<Row AggregateDataPoint="UnitsKilled" Scope="Rulesets" Operation="Sum" DataPoint="UnitsKilledByType" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="UnitsLost" Scope="Rulesets" Operation="Sum" DataPoint="UnitsLostByType" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="UnitsTrained" Scope="Rulesets" Operation="Sum" DataPoint="UnitsTrainedByType" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="WeakestUnit" Scope="Rulesets" Operation="MaxSum" DataPoint="UnitsLostByType" Query="ObjectDataPoints_LocalPlayers_NoCoalesce" />
+		<Row AggregateDataPoint="WondersConstructed" Scope="Rulesets" Operation="Sum" DataPoint="WondersConstructed" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="Combats" Scope="Rulesets" Operation="Sum" DataPoint="Combats" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="GreatPeopleEarned" Scope="Rulesets" Operation="Sum" DataPoint="GreatPeopleEarned" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="WarsDeclared" Scope="Rulesets" Operation="Sum" DataPoint="WarsDeclared" Query="ObjectDataPoints_LocalPlayers" />
+		<Row AggregateDataPoint="WarsReceived" Scope="Rulesets" Operation="Sum" DataPoint="WarsReceived" Query="ObjectDataPoints_LocalPlayers" />
+		
+		<!-- Per-Object Statistics (Usually for Reports) -->
+		<!-- City Objects -->
+		<Row AggregateDataPoint="Culture" Scope="MajorCityObjects" Operation="Last" DataPoint="Culture" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="Faith" Scope="MajorCityObjects" Operation="Last" DataPoint="Faith" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="Food" Scope="MajorCityObjects" Operation="Last" DataPoint="Food" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="Gold" Scope="MajorCityObjects" Operation="Last" DataPoint="Gold" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="Population" Scope="MajorCityObjects" Operation="Last" DataPoint="Population" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="Production" Scope="MajorCityObjects" Operation="Last" DataPoint="Production" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="Science" Scope="MajorCityObjects" Operation="Last" DataPoint="Science" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="Tourism" Scope="MajorCityObjects" Operation="Last" DataPoint="Tourism" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="BuildingsConstructed" Scope="MajorCityObjects" Operation="Last" DataPoint="BuildingsConstructed" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="DistrictsConstructed" Scope="MajorCityObjects" Operation="Last" DataPoint="DistrictsConstructed" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="WondersConstructed" Scope="MajorCityObjects" Operation="Last" DataPoint="WondersConstructed" Query="ObjectDataSet_LastValue" />
+
+		<!-- Religion Objects -->
+		<Row AggregateDataPoint="Beliefs" Scope="ReligionObjects" Operation="Last" DataPoint="Beliefs" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="Cities" Scope="ReligionObjects" Operation="Last" DataPoint="Cities" Query="ObjectDataSet_LastValue" />
+		<Row AggregateDataPoint="Followers" Scope="ReligionObjects" Operation="Last" DataPoint="Followers" Query="ObjectDataSet_LastValue" />
+	</DataPointAggregateUpdates>
+		
+	<DataPointAggregateScopes>
+		<Row Scope="Objects" Query="Objects" SortIndex="10" />
+		<Row Scope="MajorCityObjects" Query="MajorPlayerObjectsByType" ExtraData="City" SortIndex="15" />
+		<Row Scope="ReligionObjects" Query="ObjectsByType" ExtraData="Religion" SortIndex="15" />
+		
+		<Row Scope="Players" Query="Players" SortIndex="80"/>
+		<Row Scope="MajorPlayers" Query="MajorPlayers" SortIndex="81"/>
+		<Row Scope="LocalPlayers" Query="LocalPlayers" SortIndex="82"/>
+
+		<Row Scope="Games" Query="Games" SortIndex="90" />
+		<Row Scope="Rulesets" Query="Rulesets" SortIndex="100" />
+	</DataPointAggregateScopes>
+	
+	<DataPointAggregateScopeQueries>
+		<Row Query="Objects">
+			<SQL>select Ruleset, GameObjects.GameId, ObjectId from GameObjects inner join Games on Games.GameId = GameObjects.GameId</SQL>
+		</Row>
+		<Row Query="ObjectsByType">
+			<SQL>select Ruleset, GameObjects.GameId, ObjectId from GameObjects inner join Games on Games.GameId = GameObjects.GameId where GameObjects.Type = @ExtraData</SQL>
+		</Row>
+		<Row Query="LocalPlayerObjects">
+			<SQL>select Ruleset, GameObjects.GameId, ObjectId from GameObjects inner join GamePlayers on GameObjects.PlayerObjectId = GamePlayers.PlayerObjectId inner join Games on Games.GameId = GameObjects.GameId where GamePlayers.IsLocal = 1</SQL>
+		</Row>
+		<Row Query="LocalPlayerObjectsByType">
+			<SQL>select Ruleset, GameObjects.GameId, ObjectId from GameObjects inner join GamePlayers on GameObjects.PlayerObjectId = GamePlayers.PlayerObjectId inner join Games on Games.GameId = GameObjects.GameId where GamePlayers.IsLocal = 1 and GameObjects.Type = @ExtraData</SQL>
+		</Row>
+		<Row Query="MajorPlayerObjects">
+			<SQL>select Ruleset, GameObjects.GameId, ObjectId from GameObjects inner join GamePlayers on GameObjects.PlayerObjectId = GamePlayers.PlayerObjectId inner join Games on Games.GameId = GameObjects.GameId where GamePlayers.IsMajor = 1</SQL>
+		</Row>
+		<Row Query="MajorPlayerObjectsByType">
+			<SQL>select Ruleset, GameObjects.GameId, ObjectId from GameObjects inner join GamePlayers on GameObjects.PlayerObjectId = GamePlayers.PlayerObjectId inner join Games on Games.GameId = GameObjects.GameId where GamePlayers.IsMajor = 1 and GameObjects.Type = @ExtraData</SQL>
+		</Row>
+		<Row Query="Games">
+			<SQL>select Ruleset, GameId as 'GameId', null as 'ObjectId' from Games</SQL>
+		</Row>
+		<Row Query="Players">
+			<SQL>select Ruleset, GameObjects.GameId, GamePlayers.PlayerObjectId as ObjectId from GamePlayers inner join GameObjects on GamePlayers.PlayerObjectId = GameObjects.ObjectId inner join Games on GameObjects.GameId = Games.GameId</SQL>
+		</Row>
+		<Row Query="MajorPlayers">
+			<SQL>select Ruleset, GameObjects.GameId, GamePlayers.PlayerObjectId as ObjectId from GamePlayers inner join GameObjects on GamePlayers.PlayerObjectId = GameObjects.ObjectId inner join Games on GameObjects.GameId = Games.GameId where GamePlayers.IsMajor = 1</SQL>
+		</Row>
+		<Row Query="LocalPlayers">
+			<SQL>select Ruleset, GameObjects.GameId, GamePlayers.PlayerObjectId as ObjectId from GamePlayers inner join GameObjects on GamePlayers.PlayerObjectId = GameObjects.ObjectId inner join Games on GameObjects.GameId = Games.GameId where GamePlayers.IsLocal = 1</SQL>
+		</Row>
+		<Row Query="Rulesets">
+			<SQL>select Ruleset, null as 'GameId', null as 'ObjectId' from Rulesets</SQL>
+		</Row>		
+	</DataPointAggregateScopeQueries>
+	
+	<DataPointAggregateQueries>	
+		<!-- Enumerates all values from a specific data set. -->
+		<Row Query="ObjectDataSet_Values">
+			<SQL>WITH RECURSIVE range(X,MaxX) AS (SELECT MIN(X),MAX(X) FROM DataSetValues WHERE DataSetId = (SELECT DataSetId FROM DataSets WHERE DataSet = @DataPoint and ObjectId = @ObjectId) UNION ALL SELECT X+1,MaxX FROM range WHERE X &lt; MaxX) SELECT (SELECT Y FROM DataSetValues WHERE DataSetId = (SELECT DataSetId FROM DataSets WHERE DataSet = @DataPoint and ObjectId = @ObjectId) AND X &lt;= range.X ORDER BY X DESC LIMIT 1) AS ValueNumeric FROM range WHERE ValueNumeric IS NOT NULL</SQL>
+		</Row>
+		
+		<!-- Enumerates the last value from a specific data set. -->
+		<Row Query="ObjectDataSet_LastValue">
+			<SQL>select Y as ValueNumeric from DataSetValues where DataSetId = (select DataSetId from DataSets where DataSet = @DataPoint and ObjectId = @ObjectId) AND Y IS NOT NULL order by X DESC LIMIT 1</SQL>
+		</Row>
+		
+		<!-- Enumerates all values from a specific data set. -->
+		<Row Query="PlayerDataSet_Values">
+			<SQL>WITH RECURSIVE range(X,MaxX) AS (SELECT MIN(X),MAX(X) FROM DataSetValues WHERE DataSetId = (SELECT DataSetId FROM DataSets INNER JOIN GameObjects ON GameObjects.ObjectId = DataSets.ObjectId WHERE DataSet = @DataPoint and (GameObjects.ObjectId = @ObjectId or PlayerObjectId = @ObjectId)) UNION ALL SELECT X+1,MaxX FROM range WHERE X &lt; MaxX) SELECT (SELECT Y FROM DataSetValues WHERE DataSetId = (SELECT DataSetId FROM DataSets INNER JOIN GameObjects ON GameObjects.ObjectId = DataSets.ObjectId WHERE DataSet = @DataPoint and (GameObjects.ObjectId = @ObjectId or PlayerObjectId = @ObjectId)) AND X &lt;= range.X ORDER BY X DESC LIMIT 1) AS ValueNumeric FROM range WHERE ValueNumeric IS NOT NULL</SQL>
+		</Row>
+		
+		<!-- Enumerates the last value from a specific data set. -->
+		<Row Query="PlayerDataSet_LastValue">
+			<SQL>select Y as ValueNumeric from DataSetValues where DataSetId = (select DataSetId from DataSets inner join GameObjects on GameObjects.ObjectId = DataSets.ObjectId where DataSet = @DataPoint and (GameObjects.ObjectId = @ObjectId or PlayerObjectId = @ObjectId)) AND Y IS NOT NULL order by X DESC LIMIT 1</SQL>
+		</Row>
+		
+		<!-- Enumerates all values from a specific data set. -->
+		<Row Query="GameDataSet_Values">
+			<SQL>WITH RECURSIVE range(X,MaxX) AS (SELECT MIN(X),MAX(X) FROM DataSetValues WHERE DataSetId = (SELECT DataSetId FROM DataSets WHERE DataSet = @DataPoint AND GameId = @GameId) UNION ALL SELECT X+1,MaxX FROM range WHERE X &lt; MaxX) SELECT (SELECT Y FROM DataSetValues WHERE DataSetId = (SELECT DataSetId FROM DataSets WHERE DataSet = @DataPoint AND GameId = @GameId) AND X &lt;= range.X ORDER BY X DESC LIMIT 1) AS ValueNumeric FROM range WHERE ValueNumeric IS NOT NULL</SQL>
+		</Row>
+		
+		<!-- Enumerates the last value from a specific data set. -->
+		<Row Query="GameDataSet_LastValue">
+			<SQL>select Y as ValueNumeric from DataSetValues where DataSetId = (select DataSetId from DataSets where DataSet = @DataPoint and GameId = @GameId) AND Y IS NOT NULL order by X DESC LIMIT 1</SQL>
+		</Row>
+		
+		<!-- Enumerates all values from a specific data set. -->
+		<Row Query="RulesetDataSet_Values">
+			<SQL>WITH RECURSIVE range(X,MaxX) AS (SELECT MIN(X),MAX(X) FROM DataSetValues WHERE DataSetId = (SELECT DataSetId FROM DataSets WHERE DataSet = @DataPoint AND Ruleset = @Ruleset) UNION ALL SELECT X+1,MaxX FROM range WHERE X &lt; MaxX) SELECT (SELECT Y FROM DataSetValues WHERE DataSetId = (SELECT DataSetId FROM DataSets WHERE DataSet = @DataPoint AND Ruleset = @Ruleset) AND X &lt;= range.X ORDER BY X DESC LIMIT 1) AS ValueNumeric FROM range WHERE ValueNumeric IS NOT NULL</SQL>
+		</Row>
+		
+		<!-- Enumerates the last value from a specific data set. -->
+		<Row Query="RulesetDataSet_LastValue">
+			<SQL>select Y as ValueNumeric from DataSetValues where DataSetId = (select DataSetId from DataSets where DataSet = @DataPoint and Ruleset = @Ruleset) AND Y IS NOT NULL order by X DESC LIMIT 1</SQL>
+		</Row>	
+		
+		<Row Query="ObjectDataPoints">
+			<SQL>select ValueType, ValueNumeric, ValueString, coalesce(ValueObjectId, odpv.ObjectId) as ValueObjectId from ObjectDataPointValues odpv inner join GameObjects gobj using (ObjectId) inner join Games using (GameId) where DataPoint = @DataPoint and (@ObjectId is null or ObjectId = @ObjectId) and (@GameId is null or GameId = @GameId) and (@Ruleset is null or Ruleset = @Ruleset)</SQL>
+		</Row>
+		<Row Query="ObjectDataPoints_ByType">
+			<SQL>select ValueType, ValueNumeric, ValueString, coalesce(ValueObjectId, odpv.ObjectId) as ValueObjectId from ObjectDataPointValues odpv inner join GameObjects gobj using (ObjectId) inner join Games using (GameId) where DataPoint = @DataPoint and (@ObjectId is null or ObjectId = @ObjectId) and (@GameId is null or GameId = @GameId) and (@Ruleset is null or Ruleset = @Ruleset) and gobj.Type = @ExtraData</SQL>
+		</Row>
+		<Row Query="ObjectDataPoints_Players">
+			<SQL>select ValueType, ValueNumeric, ValueString, coalesce(ValueObjectId, odpv.ObjectId) as ValueObjectId from ObjectDataPointValues odpv inner join GameObjects gobj using (ObjectId) inner join Games using (GameId) where DataPoint = @DataPoint and (@ObjectId is null or ObjectId = @ObjectId) and (@GameId is null or GameId = @GameId) and (@Ruleset is null or Ruleset = @Ruleset) and gobj.Type = "Player"</SQL>
+		</Row>
+		<Row Query="ObjectDataPoints_Players_NoCoalesce">
+			<SQL>select ValueType, ValueNumeric, ValueString, ValueObjectId from ObjectDataPointValues odpv inner join GameObjects gobj using (ObjectId) inner join Games using (GameId) where DataPoint = @DataPoint and (@ObjectId is null or ObjectId = @ObjectId) and (@GameId is null or GameId = @GameId) and (@Ruleset is null or Ruleset = @Ruleset) and gobj.Type = "Player"</SQL>
+		</Row>		
+		<Row Query="ObjectDataPoints_LocalPlayers">
+			<SQL>select ValueType, ValueNumeric, ValueString, coalesce(ValueObjectId, odpv.ObjectId) as ValueObjectId from ObjectDataPointValues odpv inner join GameObjects gobj using (ObjectId) inner join Games using (GameId) inner join GamePlayers on gobj.ObjectId = GamePlayers.PlayerObjectId where DataPoint = @DataPoint and (@ObjectId is null or ObjectId = @ObjectId) and (@GameId is null or GameId = @GameId) and (@Ruleset is null or Ruleset = @Ruleset) and gobj.Type = "Player" and GamePlayers.IsLocal = 1</SQL>
+		</Row>
+		
+		<Row Query="ObjectDataPoints_LocalPlayers_NoCoalesce">
+			<SQL>select ValueType, ValueNumeric, ValueString, ValueObjectId from ObjectDataPointValues odpv inner join GameObjects gobj using (ObjectId) inner join Games using (GameId) inner join GamePlayers on gobj.ObjectId = GamePlayers.PlayerObjectId where DataPoint = @DataPoint and (@ObjectId is null or ObjectId = @ObjectId) and (@GameId is null or GameId = @GameId) and (@Ruleset is null or Ruleset = @Ruleset) and gobj.Type = "Player" and GamePlayers.IsLocal = 1</SQL>
+		</Row>
+		
+		<Row Query="ObjectDataPoints_PlayerObjects_ByType">
+			<SQL>select ValueType, ValueNumeric, ValueString, coalesce(ValueObjectId, odpv.ObjectId) as ValueObjectId from ObjectDataPointValues odpv inner join GameObjects gobj using (ObjectId) inner join Games using (GameId) where DataPoint = @DataPoint and PlayerObjectId is not null and (@ObjectId is null or PlayerObjectId = @ObjectId) and (@GameId is null or GameId = @GameId) and (@Ruleset is null or Ruleset = @Ruleset) and gobj.Type = @ExtraData</SQL>
+		</Row>
+
+		<Row Query="ObjectDataPoints_LocalPlayerObjects_ByType">
+			<SQL>select ValueType, ValueNumeric, ValueString, coalesce(ValueObjectId, odpv.ObjectId) as ValueObjectId from ObjectDataPointValues odpv inner join GameObjects gobj using (ObjectId) inner join Games using (GameId) inner join GamePlayers using (PlayerObjectId) where DataPoint = @DataPoint and PlayerObjectId is not null and (@ObjectId is null or PlayerObjectId = @ObjectId) and (@GameId is null or GameId = @GameId) and (@Ruleset is null or Ruleset = @Ruleset) and gobj.Type = @ExtraData and GamePlayers.IsLocal = 1</SQL>
+		</Row>
+
+	</DataPointAggregateQueries>
+</Database>

@@ -1,0 +1,24 @@
+- name: Parse enemies
+  url: https://genshin-impact.fandom.com/wiki/Enemy/List
+  csv_file: enemies.csv
+  pre_pattern: span.card-list-container:[0-7]
+  row_selector: "div.card-container"
+  setnull: true  
+  rules:
+    - name: Name
+      rule: span.card-caption:0/a:0:text
+    - name: RES Pyro
+      rule: "span.card-caption:0/a:0&href/#Stats:0/../~1/tr:2/td:1:text"
+    - name: RES Hydro
+      rule: "span.card-caption:0/a:0&href/#Stats:0/../~1/tr:2/td:2:text"
+    - name: RES Electro
+      rule: "span.card-caption:0/a:0&href/#Stats:0/../~1/tr:2/td:3:text"
+    - name: RES Cryo
+      rule: "span.card-caption:0/a:0&href/#Stats:0/../~1/tr:2/td:4:text"
+    - name: RES Dendro
+      rule: "span.card-caption:0/a:0&href/#Stats:0/../~1/tr:2/td:5:text"
+    - name: RES Anemo
+      rule: "span.card-caption:0/a:0&href/#Stats:0/../~1/tr:2/td:6:text"
+    - name: RES Geo
+      rule: "span.card-caption:0/a:0&href/#Stats:0/../~1/tr:2/td:7:text"
+    

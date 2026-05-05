@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:ex="http://example.org/alchemy#"
+    xml:base="http://example.org/alchemy#">
+
+  <owl:Ontology rdf:about="http://example.org/alchemy#">
+    <rdfs:label xml:lang="ru">Алхимия — онтология</rdfs:label>
+  </owl:Ontology>
+
+  <!-- === Классы === -->
+  <owl:Class rdf:ID="Element">
+    <rdfs:label xml:lang="ru">Элемент</rdfs:label>
+  </owl:Class>
+
+  <owl:Class rdf:ID="BasicElement">
+    <rdfs:subClassOf rdf:resource="#Element"/>
+    <rdfs:label xml:lang="ru">Базовый элемент</rdfs:label>
+  </owl:Class>
+
+  <owl:Class rdf:ID="CreatedElement">
+    <rdfs:subClassOf rdf:resource="#Element"/>
+    <rdfs:label xml:lang="ru">Созданный элемент</rdfs:label>
+  </owl:Class>
+
+  <owl:Class rdf:ID="Recipe">
+    <rdfs:label xml:lang="ru">Рецепт</rdfs:label>
+  </owl:Class>
+
+  <!-- === Свойства === -->
+  <owl:ObjectProperty rdf:ID="hasIngredient">
+    <rdfs:domain rdf:resource="#Recipe"/>
+    <rdfs:range rdf:resource="#Element"/>
+    <rdfs:label xml:lang="ru">имеет ингредиент</rdfs:label>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="hasResult">
+    <rdfs:domain rdf:resource="#Recipe"/>
+    <rdfs:range rdf:resource="#Element"/>
+    <rdfs:label xml:lang="ru">даёт результат</rdfs:label>
+  </owl:ObjectProperty>
+
+  <!-- === Индивидуальные элементы === -->
+  <!-- Базовые -->
+  <rdf:Description rdf:about="#Огонь">
+    <rdf:type rdf:resource="#BasicElement"/>
+    <rdfs:label xml:lang="ru">Огонь</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Вода">
+    <rdf:type rdf:resource="#BasicElement"/>
+    <rdfs:label xml:lang="ru">Вода</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Воздух">
+    <rdf:type rdf:resource="#BasicElement"/>
+    <rdfs:label xml:lang="ru">Воздух</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Земля">
+    <rdf:type rdf:resource="#BasicElement"/>
+    <rdfs:label xml:lang="ru">Земля</rdfs:label>
+  </rdf:Description>
+
+  <!-- Созданные -->
+  <rdf:Description rdf:about="#Пар">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Пар</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Ветер">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Ветер</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Пыль">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Пыль</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Энергия">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Энергия</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Болото">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Болото</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Давление">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Давление</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Лава">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Лава</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Пар">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Пар</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Пепел">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Пепел</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Грязь">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Грязь</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Камень">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Камень</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Спирт">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Спирт</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Буря">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Буря</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Металл">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Металл</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Звук">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Звук</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Гром">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Гром</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Вулкан">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Вулкан</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Гейзер">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Гейзер</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Облако">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Облако</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Жизнь">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Жизнь</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Бактерия">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Бактерия</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Водоросли">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Водоросли</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Клещ">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Клещ</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Призрак">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Призрак</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Семена">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Семена</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Яйцо">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Яйцо</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Песок">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Песок</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Небо">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Небо</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Глина">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Глина</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Кремний_Si">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Кремний (Si)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Пустыня">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Пустыня</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Стекло">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Стекло</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Песочные_часы">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Песочные часы</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Черепаха">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Черепаха</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Кирпич">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Кирпич</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Водка">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Водка</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Время">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Время</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Паровой_котёл">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Паровой котёл</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Электричество">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Электричество</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Лампочка">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Лампочка</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Плотина">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Плотина</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Магнит">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Магнит</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Водород">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Водород</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Свет">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Свет</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Грипп">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Грипп</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Планктон">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Планктон</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Рыба">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Рыба</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Сера_S">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Сера (S)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Червь">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Червь</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Гриб">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Гриб</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Йод">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Йод (I)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Мох">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Мох</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Суши">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Суши</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Ракушка">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Ракушка</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Известняк">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Известняк</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Аквариум">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Аквариум</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Икра">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Икра</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Электрический_скат">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Электрический скат</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Бабочка">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Бабочка</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Жук">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Жук</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Змея">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Змея</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Текила">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Текила</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Улитка">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Улитка</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Динозавр">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Динозавр</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Курица">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Курица</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Птица">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Птица</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Яичница">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Яичница</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Ящерица">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Ящерица</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Светлячок">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Светлячок</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Скорпион">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Скорпион</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Электрический_угорь">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Электрический угорь</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Дракон">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Дракон</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Птеродактиль">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Птеродактиль</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Курица_гриль">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Курица-гриль</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Самолёт">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Самолёт</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Феникс">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Феникс</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Зверь">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Зверь</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Лягушка">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Лягушка</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Саламандра">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Саламандра</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Лобстер">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Лобстер</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Бобр">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Бобр</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Верблюд">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Верблюд</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Кенгуру">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Кенгуру</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Кит">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Кит</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Человек">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Человек</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Субмарина">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Субмарина</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Алюминий">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Алюминий</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Молоко">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Молоко</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Идея">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Идея</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Инструмент">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Инструмент</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Керамика">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Керамика</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Пилот">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Пилот</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Любовь">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Любовь</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Хижина">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Хижина</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Шаман">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Шаман</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Папоротник">
+    <rdf:type rdf:resource="#CreatedElement"/>
+    <rdfs:label xml:lang="ru">Папоротник</rdfs:label>
+  </rdf:Description>
+
+  <!-- === Пример рецепта === -->
+  <!-- Воздух + Воздух = Ветер -->
+  <rdf:Description rdf:about="#Recipe_Воздух_Воздух">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Воздух"/>
+    <ex:hasIngredient rdf:resource="#Воздух"/>
+    <ex:hasResult rdf:resource="#Ветер"/>
+    <rdfs:label xml:lang="ru">Воздух + Воздух = Ветер</rdfs:label>
+  </rdf:Description>
+
+  <!-- Воздух + Земля = Пыль -->
+  <rdf:Description rdf:about="#Recipe_Воздух_Земля">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Воздух"/>
+    <ex:hasIngredient rdf:resource="#Земля"/>
+    <ex:hasResult rdf:resource="#Пыль"/>
+    <rdfs:label xml:lang="ru">Воздух + Земля = Пыль</rdfs:label>
+  </rdf:Description>
+
+  <!-- Воздух + Огонь = Энергия -->
+  <rdf:Description rdf:about="#Recipe_Воздух_Огонь">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Воздух"/>
+    <ex:hasIngredient rdf:resource="#Огонь"/>
+    <ex:hasResult rdf:resource="#Энергия"/>
+    <rdfs:label xml:lang="ru">Воздух + Огонь = Энергия</rdfs:label>
+  </rdf:Description>
+
+  <!-- Земля + Вода = Болото -->
+  <rdf:Description rdf:about="#Recipe_Земля_Вода">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Земля"/>
+    <ex:hasIngredient rdf:resource="#Вода"/>
+    <ex:hasResult rdf:resource="#Болото"/>
+    <rdfs:label xml:lang="ru">Земля + Вода = Болото</rdfs:label>
+  </rdf:Description>
+
+  <!-- Земля + Земля = Давление -->
+  <rdf:Description rdf:about="#Recipe_Земля_Земля">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Земля"/>
+    <ex:hasIngredient rdf:resource="#Земля"/>
+    <ex:hasResult rdf:resource="#Давление"/>
+    <rdfs:label xml:lang="ru">Земля + Земля = Давление</rdfs:label>
+  </rdf:Description>
+
+  <!-- Земля + Огонь = Лава -->
+  <rdf:Description rdf:about="#Recipe_Земля_Огонь">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Земля"/>
+    <ex:hasIngredient rdf:resource="#Огонь"/>
+    <ex:hasResult rdf:resource="#Лава"/>
+    <rdfs:label xml:lang="ru">Земля + Огонь = Лава</rdfs:label>
+  </rdf:Description>
+
+  <!-- Огонь + Вода = Пар -->
+  <rdf:Description rdf:about="#Recipe_Огонь_Вода">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Огонь"/>
+    <ex:hasIngredient rdf:resource="#Вода"/>
+    <ex:hasResult rdf:resource="#Пар"/>
+    <rdfs:label xml:lang="ru">Огонь + Вода = Пар</rdfs:label>
+  </rdf:Description>
+
+  <!-- Огонь + Пыль = Пепел -->
+  <rdf:Description rdf:about="#Recipe_Огонь_Пыль">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Огонь"/>
+    <ex:hasIngredient rdf:resource="#Пыль"/>
+    <ex:hasResult rdf:resource="#Пепел"/>
+    <rdfs:label xml:lang="ru">Огонь + Пыль = Пепел</rdfs:label>
+  </rdf:Description>
+
+  <!-- Вода + Пыль = Грязь -->
+  <rdf:Description rdf:about="#Recipe_Вода_Пыль">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Вода"/>
+    <ex:hasIngredient rdf:resource="#Пыль"/>
+    <ex:hasResult rdf:resource="#Грязь"/>
+    <rdfs:label xml:lang="ru">Вода + Пыль = Грязь</rdfs:label>
+  </rdf:Description>
+
+  <!-- Вода + Лава = Камень -->
+  <rdf:Description rdf:about="#Recipe_Вода_Лава">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Вода"/>
+    <ex:hasIngredient rdf:resource="#Лава"/>
+    <ex:hasResult rdf:resource="#Камень"/>
+    <rdfs:label xml:lang="ru">Вода + Лава = Камень</rdfs:label>
+  </rdf:Description>
+
+  <!-- Вода + Энергия = Спирт -->
+  <rdf:Description rdf:about="#Recipe_Вода_Энергия">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Вода"/>
+    <ex:hasIngredient rdf:resource="#Энергия"/>
+    <ex:hasResult rdf:resource="#Спирт"/>
+    <rdfs:label xml:lang="ru">Вода + Энергия = Спирт</rdfs:label>
+  </rdf:Description>
+
+  <!-- Энергия + Воздух = Буря -->
+  <rdf:Description rdf:about="#Recipe_Энергия_Воздух">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Энергия"/>
+    <ex:hasIngredient rdf:resource="#Воздух"/>
+    <ex:hasResult rdf:resource="#Буря"/>
+    <rdfs:label xml:lang="ru">Энергия + Воздух = Буря</rdfs:label>
+  </rdf:Description>
+
+  <!-- Камень + Огонь = Металл -->
+  <rdf:Description rdf:about="#Recipe_Камень_Огонь">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Камень"/>
+    <ex:hasIngredient rdf:resource="#Огонь"/>
+    <ex:hasResult rdf:resource="#Металл"/>
+    <rdfs:label xml:lang="ru">Камень + Огонь = Металл</rdfs:label>
+  </rdf:Description>
+
+  <!-- Металл + Ветер = Звук -->
+  <rdf:Description rdf:about="#Recipe_Металл_Ветер">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Металл"/>
+    <ex:hasIngredient rdf:resource="#Ветер"/>
+    <ex:hasResult rdf:resource="#Звук"/>
+    <rdfs:label xml:lang="ru">Металл + Ветер = Звук</rdfs:label>
+  </rdf:Description>
+
+  <!-- Звук + Буря = Гром -->
+  <rdf:Description rdf:about="#Recipe_Звук_Буря">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Звук"/>
+    <ex:hasIngredient rdf:resource="#Буря"/>
+    <ex:hasResult rdf:resource="#Гром"/>
+    <rdfs:label xml:lang="ru">Звук + Буря = Гром</rdfs:label>
+  </rdf:Description>
+
+  <!-- Давление + Лава = Вулкан -->
+  <rdf:Description rdf:about="#Recipe_Давление_Лава">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Давление"/>
+    <ex:hasIngredient rdf:resource="#Лава"/>
+    <ex:hasResult rdf:resource="#Вулкан"/>
+    <rdfs:label xml:lang="ru">Давление + Лава = Вулкан</rdfs:label>
+  </rdf:Description>
+
+  <!-- Пар + Земля = Гейзер -->
+  <rdf:Description rdf:about="#Recipe_Пар_Земля">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Пар"/>
+    <ex:hasIngredient rdf:resource="#Земля"/>
+    <ex:hasResult rdf:resource="#Гейзер"/>
+    <rdfs:label xml:lang="ru">Пар + Земля = Гейзер</rdfs:label>
+  </rdf:Description>
+
+  <!-- Пар + Воздух = Облако -->
+  <rdf:Description rdf:about="#Recipe_Пар_Воздух">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Пар"/>
+    <ex:hasIngredient rdf:resource="#Воздух"/>
+    <ex:hasResult rdf:resource="#Облако"/>
+    <rdfs:label xml:lang="ru">Пар + Воздух = Облако</rdfs:label>
+  </rdf:Description>
+
+  <!-- Болото + Энергия = Жизнь -->
+  <rdf:Description rdf:about="#Recipe_Болото_Энергия">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Болото"/>
+    <ex:hasIngredient rdf:resource="#Энергия"/>
+    <ex:hasResult rdf:resource="#Жизнь"/>
+    <rdfs:label xml:lang="ru">Болото + Энергия = Жизнь</rdfs:label>
+  </rdf:Description>
+
+  <!-- Болото + Жизнь = Бактерия -->
+  <rdf:Description rdf:about="#Recipe_Болото_Жизнь">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Болото"/>
+    <ex:hasIngredient rdf:resource="#Жизнь"/>
+    <ex:hasResult rdf:resource="#Бактерия"/>
+    <rdfs:label xml:lang="ru">Болото + Жизнь = Бактерия</rdfs:label>
+  </rdf:Description>
+
+  <!-- Жизнь + Вода = Водоросли -->
+  <rdf:Description rdf:about="#Recipe_Жизнь_Вода">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Жизнь"/>
+    <ex:hasIngredient rdf:resource="#Вода"/>
+    <ex:hasResult rdf:resource="#Водоросли"/>
+    <rdfs:label xml:lang="ru">Жизнь + Вода = Водоросли</rdfs:label>
+  </rdf:Description>
+
+  <!-- Жизнь + Пыль = Клещ -->
+  <rdf:Description rdf:about="#Recipe_Жизнь_Пыль">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Жизнь"/>
+    <ex:hasIngredient rdf:resource="#Пыль"/>
+    <ex:hasResult rdf:resource="#Клещ"/>
+    <rdfs:label xml:lang="ru">Жизнь + Пыль = Клещ</rdfs:label>
+  </rdf:Description>
+
+  <!-- Жизнь + Пепел = Призрак -->
+  <rdf:Description rdf:about="#Recipe_Жизнь_Пепел">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Жизнь"/>
+    <ex:hasIngredient rdf:resource="#Пепел"/>
+    <ex:hasResult rdf:resource="#Призрак"/>
+    <rdfs:label xml:lang="ru">Жизнь + Пепел = Призрак</rdfs:label>
+  </rdf:Description>
+
+  <!-- Жизнь + Земля = Семена -->
+  <rdf:Description rdf:about="#Recipe_Жизнь_Земля">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Жизнь"/>
+    <ex:hasIngredient rdf:resource="#Земля"/>
+    <ex:hasResult rdf:resource="#Семена"/>
+    <rdfs:label xml:lang="ru">Жизнь + Земля = Семена</rdfs:label>
+  </rdf:Description>
+
+  <!-- Жизнь + Камень = Яйцо -->
+  <rdf:Description rdf:about="#Recipe_Жизнь_Камень">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Жизнь"/>
+    <ex:hasIngredient rdf:resource="#Камень"/>
+    <ex:hasResult rdf:resource="#Яйцо"/>
+    <rdfs:label xml:lang="ru">Жизнь + Камень = Яйцо</rdfs:label>
+  </rdf:Description>
+
+  <!-- Камень + Воздух = Песок -->
+  <rdf:Description rdf:about="#Recipe_Камень_Воздух">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Камень"/>
+    <ex:hasIngredient rdf:resource="#Воздух"/>
+    <ex:hasResult rdf:resource="#Песок"/>
+    <rdfs:label xml:lang="ru">Камень + Воздух = Песок</rdfs:label>
+  </rdf:Description>
+
+  <!-- Облако + Воздух = Небо -->
+  <rdf:Description rdf:about="#Recipe_Облако_Воздух">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Облако"/>
+    <ex:hasIngredient rdf:resource="#Воздух"/>
+    <ex:hasResult rdf:resource="#Небо"/>
+    <rdfs:label xml:lang="ru">Облако + Воздух = Небо</rdfs:label>
+  </rdf:Description>
+
+  <!-- Песок + Болото = Глина -->
+  <rdf:Description rdf:about="#Recipe_Песок_Болото">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Песок"/>
+    <ex:hasIngredient rdf:resource="#Болото"/>
+    <ex:hasResult rdf:resource="#Глина"/>
+    <rdfs:label xml:lang="ru">Песок + Болото = Глина</rdfs:label>
+  </rdf:Description>
+
+  <!-- Песок + Давление = Кремний (Si) -->
+  <rdf:Description rdf:about="#Recipe_Песок_Давление">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Песок"/>
+    <ex:hasIngredient rdf:resource="#Давление"/>
+    <ex:hasResult rdf:resource="#Кремний_Si"/>
+    <rdfs:label xml:lang="ru">Песок + Давление = Кремний (Si)</rdfs:label>
+  </rdf:Description>
+
+  <!-- Песок + Песок = Пустыня -->
+  <rdf:Description rdf:about="#Recipe_Песок_Песок">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Песок"/>
+    <ex:hasIngredient rdf:resource="#Песок"/>
+    <ex:hasResult rdf:resource="#Пустыня"/>
+    <rdfs:label xml:lang="ru">Песок + Песок = Пустыня</rdfs:label>
+  </rdf:Description>
+
+  <!-- Песок + Огонь = Стекло -->
+  <rdf:Description rdf:about="#Recipe_Песок_Огонь">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Песок"/>
+    <ex:hasIngredient rdf:resource="#Огонь"/>
+    <ex:hasResult rdf:resource="#Стекло"/>
+    <rdfs:label xml:lang="ru">Песок + Огонь = Стекло</rdfs:label>
+  </rdf:Description>
+
+  <!-- Песок + Стекло = Песочные часы -->
+  <rdf:Description rdf:about="#Recipe_Песок_Стекло">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Песок"/>
+    <ex:hasIngredient rdf:resource="#Стекло"/>
+    <ex:hasResult rdf:resource="#Песочные_часы"/>
+    <rdfs:label xml:lang="ru">Песок + Стекло = Песочные часы</rdfs:label>
+  </rdf:Description>
+
+  <!-- Песок + Яйцо = Черепаха -->
+  <rdf:Description rdf:about="#Recipe_Песок_Яйцо">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Песок"/>
+    <ex:hasIngredient rdf:resource="#Яйцо"/>
+    <ex:hasResult rdf:resource="#Черепаха"/>
+    <rdfs:label xml:lang="ru">Песок + Яйцо = Черепаха</rdfs:label>
+  </rdf:Description>
+
+  <!-- Глина + Огонь = Кирпич -->
+  <rdf:Description rdf:about="#Recipe_Глина_Огонь">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Глина"/>
+    <ex:hasIngredient rdf:resource="#Огонь"/>
+    <ex:hasResult rdf:resource="#Кирпич"/>
+    <rdfs:label xml:lang="ru">Глина + Огонь = Кирпич</rdfs:label>
+  </rdf:Description>
+
+  <!-- Спирт + Вода = Водка -->
+  <rdf:Description rdf:about="#Recipe_Спирт_Вода">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Спирт"/>
+    <ex:hasIngredient rdf:resource="#Вода"/>
+    <ex:hasResult rdf:resource="#Водка"/>
+    <rdfs:label xml:lang="ru">Спирт + Вода = Водка</rdfs:label>
+  </rdf:Description>
+
+  <!-- Песочные часы + Жизнь = Время -->
+  <rdf:Description rdf:about="#Recipe_Песочные_часы_Жизнь">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Песочные_часы"/>
+    <ex:hasIngredient rdf:resource="#Жизнь"/>
+    <ex:hasResult rdf:resource="#Время"/>
+    <rdfs:label xml:lang="ru">Песочные часы + Жизнь = Время</rdfs:label>
+  </rdf:Description>
+
+  <!-- Металл + Пар = Паровой котёл -->
+  <rdf:Description rdf:about="#Recipe_Металл_Пар">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Металл"/>
+    <ex:hasIngredient rdf:resource="#Пар"/>
+    <ex:hasResult rdf:resource="#Паровой_котёл"/>
+    <rdfs:label xml:lang="ru">Металл + Пар = Паровой котёл</rdfs:label>
+  </rdf:Description>
+
+  <!-- Металл + Энергия = Электричество -->
+  <rdf:Description rdf:about="#Recipe_Металл_Энергия">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Металл"/>
+    <ex:hasIngredient rdf:resource="#Энергия"/>
+    <ex:hasResult rdf:resource="#Электричество"/>
+    <rdfs:label xml:lang="ru">Металл + Энергия = Электричество</rdfs:label>
+  </rdf:Description>
+
+  <!-- Стекло + Электричество = Лампочка -->
+  <rdf:Description rdf:about="#Recipe_Стекло_Электричество">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Стекло"/>
+    <ex:hasIngredient rdf:resource="#Электричество"/>
+    <ex:hasResult rdf:resource="#Лампочка"/>
+    <rdfs:label xml:lang="ru">Стекло + Электричество = Лампочка</rdfs:label>
+  </rdf:Description>
+
+  <!-- Кирпич + Вода = Плотина -->
+  <rdf:Description rdf:about="#Recipe_Кирпич_Вода">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Кирпич"/>
+    <ex:hasIngredient rdf:resource="#Вода"/>
+    <ex:hasResult rdf:resource="#Плотина"/>
+    <rdfs:label xml:lang="ru">Кирпич + Вода = Плотина</rdfs:label>
+  </rdf:Description>
+
+  <!-- Электричество + Металл = Магнит -->
+  <rdf:Description rdf:about="#Recipe_Электричество_Металл">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Электричество"/>
+    <ex:hasIngredient rdf:resource="#Металл"/>
+    <ex:hasResult rdf:resource="#Магнит"/>
+    <rdfs:label xml:lang="ru">Электричество + Металл = Магнит</rdfs:label>
+  </rdf:Description>
+
+  <!-- Электричество + Вода = Водород -->
+  <rdf:Description rdf:about="#Recipe_Электричество_Вода">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Электричество"/>
+    <ex:hasIngredient rdf:resource="#Вода"/>
+    <ex:hasResult rdf:resource="#Водород"/>
+    <rdfs:label xml:lang="ru">Электричество + Вода = Водород</rdfs:label>
+  </rdf:Description>
+
+  <!-- Электричество + Лампочка = Свет -->
+  <rdf:Description rdf:about="#Recipe_Электричество_Лампочка">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Электричество"/>
+    <ex:hasIngredient rdf:resource="#Лампочка"/>
+    <ex:hasResult rdf:resource="#Свет"/>
+    <rdfs:label xml:lang="ru">Электричество + Лампочка = Свет</rdfs:label>
+  </rdf:Description>
+
+  <!-- Бактерия + Воздух = Грипп -->
+  <rdf:Description rdf:about="#Recipe_Бактерия_Воздух">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Бактерия"/>
+    <ex:hasIngredient rdf:resource="#Воздух"/>
+    <ex:hasResult rdf:resource="#Грипп"/>
+    <rdfs:label xml:lang="ru">Бактерия + Воздух = Грипп</rdfs:label>
+  </rdf:Description>
+
+  <!-- Бактерия + Вода = Планктон -->
+  <rdf:Description rdf:about="#Recipe_Бактерия_Вода">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Бактерия"/>
+    <ex:hasIngredient rdf:resource="#Вода"/>
+    <ex:hasResult rdf:resource="#Планктон"/>
+    <rdfs:label xml:lang="ru">Бактерия + Вода = Планктон</rdfs:label>
+  </rdf:Description>
+
+  <!-- Бактерия + Планктон = Рыба -->
+  <rdf:Description rdf:about="#Recipe_Бактерия_Планктон">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Бактерия"/>
+    <ex:hasIngredient rdf:resource="#Планктон"/>
+    <ex:hasResult rdf:resource="#Рыба"/>
+    <rdfs:label xml:lang="ru">Бактерия + Планктон = Рыба</rdfs:label>
+  </rdf:Description>
+
+  <!-- Бактерия + Болото = Сера (S) -->
+  <rdf:Description rdf:about="#Recipe_Бактерия_Болото">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Бактерия"/>
+    <ex:hasIngredient rdf:resource="#Болото"/>
+    <ex:hasResult rdf:resource="#Сера_S"/>
+    <rdfs:label xml:lang="ru">Бактерия + Болото = Сера (S)</rdfs:label>
+  </rdf:Description>
+
+  <!-- Бактерия + Земля = Червь -->
+  <rdf:Description rdf:about="#Recipe_Бактерия_Земля">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Бактерия"/>
+    <ex:hasIngredient rdf:resource="#Земля"/>
+    <ex:hasResult rdf:resource="#Червь"/>
+    <rdfs:label xml:lang="ru">Бактерия + Земля = Червь</rdfs:label>
+  </rdf:Description>
+
+  <!-- Водоросли + Земля = Гриб -->
+  <rdf:Description rdf:about="#Recipe_Водоросли_Земля">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Водоросли"/>
+    <ex:hasIngredient rdf:resource="#Земля"/>
+    <ex:hasResult rdf:resource="#Гриб"/>
+    <rdfs:label xml:lang="ru">Водоросли + Земля = Гриб</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Recipe_Йод">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Водоросли"/>
+    <ex:hasIngredient rdf:resource="#Огонь"/>
+    <ex:hasResult rdf:resource="#Йод"/>
+    <rdfs:label xml:lang="ru">Водоросли + Огонь = Йод</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#Recipe_Мох">
+    <rdf:type rdf:resource="#Recipe"/>
+    <ex:hasIngredient rdf:resource="#Водоросли"/>
+    <ex:hasIngredient rdf:resource="#Болото"/>
+    <ex:hasResult rdf:resource="#Мох"/>
+    <rdfs:label xml:lang="ru">Водоросли + Болото = Мох</rdfs:label>
+  </rdf:Description>
+
+ 
+</rdf:RDF>

@@ -1,0 +1,63 @@
+[project]
+name = "iot-multimodal-annotation"
+version = "1.0.0"
+description = "proj"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "ilya & polina"}
+]
+
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "networkx>=3.1",
+    "jupyterlab>=4.0",
+    "librosa>=0.10.0",
+    "soundfile>=0.12.0",
+    "audioread>=3.0.0",
+    "opencv-python>=4.8.0",
+    "rdflib>=7.0.0",
+    "scikit-learn>=1.3.0",
+    "seaborn>=0.12.0",
+    "tqdm>=4.66.0",
+]
+
+[project.optional-dependencies]
+gpu = [
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "torchaudio>=2.1.0",
+]
+cpu = [
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "torchaudio>=2.1.0",
+]
+annotation = [
+    "label-studio>=1.12.0",
+]
+all = [
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "torchaudio>=2.1.0",
+    "label-studio>=1.12.0",
+]
+
+[project.scripts]
+extract-features = "extract_features:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.pip]
+
+[tool.uv.workspace]
+members = [
+    "notebooks",
+]
+
+# uv pip install -e ".[gpu]" --index-url https://download.pytorch.org/whl/cu121

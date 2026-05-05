@@ -1,0 +1,28 @@
+<Firaxis key="E22774E6250BB0ACA297ECD267F85E3E">
+	<!-- Great Warlords -->
+	<Item type="mod" value="F48213B4-56F5-45DD-92F7-AC78E49BDA49">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="2222600"/>
+		<EpicApp id="d165b2baf3554b6dbc6c8b2ed43b4475:ab8e8853f7fa4d1e973ee7a33651c9c3:F390F497-AEB7-48C5-A94C-6BCF3E68C017"/>
+	</Item>
+	<Item type="content" value="FE857623-2852-495A-A6EA-25DEF2A54781">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="2222600"/>
+		<EpicApp id="d165b2baf3554b6dbc6c8b2ed43b4475:ab8e8853f7fa4d1e973ee7a33651c9c3:F390F497-AEB7-48C5-A94C-6BCF3E68C017"/>
+	</Item>	
+	<Item type="leader" value="LEADER_TOKUGAWA">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="2222600"/>
+		<EpicApp id="d165b2baf3554b6dbc6c8b2ed43b4475:ab8e8853f7fa4d1e973ee7a33651c9c3:F390F497-AEB7-48C5-A94C-6BCF3E68C017"/>
+	</Item>
+	<Item type="leader" value="LEADER_NADER_SHAH">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="2222600"/>
+		<EpicApp id="d165b2baf3554b6dbc6c8b2ed43b4475:ab8e8853f7fa4d1e973ee7a33651c9c3:F390F497-AEB7-48C5-A94C-6BCF3E68C017"/>
+	</Item>
+	<Item type="leader" value="LEADER_SULEIMAN_ALT">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="2222600"/>
+		<EpicApp id="d165b2baf3554b6dbc6c8b2ed43b4475:ab8e8853f7fa4d1e973ee7a33651c9c3:F390F497-AEB7-48C5-A94C-6BCF3E68C017"/>
+	</Item>
+</Firaxis>

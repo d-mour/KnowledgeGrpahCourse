@@ -1,0 +1,13 @@
+PREFIX : <http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#>
+
+# Какие ингредиенты используются чаще всего в рецептах?
+SELECT ?ingredientName (COUNT(?recipe) AS ?usageCount)
+WHERE {
+  ?recipe a :Recipe ;
+          :uses ?ingredient .
+  ?ingredient :name ?ingredientName .
+}
+GROUP BY ?ingredientName
+ORDER BY DESC(?usageCount)
+LIMIT 10
+OFFSET 0

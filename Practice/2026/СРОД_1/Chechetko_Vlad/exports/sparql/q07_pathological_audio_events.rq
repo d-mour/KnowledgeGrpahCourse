@@ -1,0 +1,6 @@
+PREFIX ex: <https://example.org/medical-multimodal-kg/>
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?audio_id ?event_type ?time_start ?time_end WHERE { ?event a ex:AudioEvent ; ex:audio_id ?audio_id ; ex:event_type ?event_type ; ex:time_start ?time_start ; ex:time_end ?time_end . FILTER(?event_type IN (\"wheeze\", \"crackle\", \"murmur_present\", \"murmur_unknown\")) } LIMIT 100

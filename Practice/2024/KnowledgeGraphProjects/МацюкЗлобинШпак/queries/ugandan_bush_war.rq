@@ -1,0 +1,15 @@
+# "Какой фильм был снят по книге 'Ugandan Bush War'?"
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ons: <http://www.semanticweb.org/admin/ontologies/2024/9/authors-ontology#>
+
+SELECT ?filmName
+WHERE {
+    ?film a ons:Film ;
+          ons:name ?filmName ;
+          ons:adaptedFromBook ?book .
+    
+ ?book ons:name "Ugandan Bush War" .
+}
+
+# "27 Guns"

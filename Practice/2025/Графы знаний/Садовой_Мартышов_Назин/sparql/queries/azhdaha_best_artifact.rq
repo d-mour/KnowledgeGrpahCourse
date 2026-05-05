@@ -1,0 +1,21 @@
+# Какой сет артефактов подходит наибольшему кол-ву персонажей,
+# что были бы эффективны при сражении с боссом «azhdaha»?
+
+PREFIX ex:  <http://example.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?artifact ?artifactName (COUNT(DISTINCT ?char) AS ?numChars)
+WHERE {
+    ?boss rdf:type ex:Enemy ;
+    ex:name ?bossName ;
+    ex:Vulnerable_to ?vElement .
+    FILTER(LCASE(STR(?bossName)) = "azhdaha")
+    ?char rdf:type ex:Character ;
+    ex:Character_Element ?vElement .
+    VALUES ?artifactProp { ex:Character_Best_Artifact ex:Character_Addition_Artifacts }
+    ?char ?artifactProp ?artifact .
+    ?artifact rdf:type ex:Artifact ;
+    ex:name ?artifactName .
+}
+GROUP BY ?artifact ?artifactName
+ORDER BY DESC(?numChars)
+LIMIT 1

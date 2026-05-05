@@ -1,0 +1,173 @@
+package com.company;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.StringJoiner;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader =
+                new BufferedReader(
+                        new FileReader("heroes_data.csv"));
+
+        String result = "";
+
+        for (int i = 0; i < 120; i++) {
+            String[] hero = reader.readLine().split(";");
+
+            String name = hero[0].replaceAll(" ", "_");
+            String hasAttribute = hero[1];
+            String hasAttackType = hero[2];
+
+            List<String> hasRole = Arrays.asList(hero[3].replaceAll("[\\[\\]' ]", "").split(","));
+            StringJoiner roles = new StringJoiner(",");
+            hasRole.forEach(s ->
+                    roles.add("{\n" +
+                            "    \"@id\" : \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#"+s+"\"\n" +
+                            "  }"));
+
+
+            String base_health = hero[4];
+            String base_health_regen = hero[5];
+            String base_mana = hero[6];
+            String base_mana_regen = hero[7];
+            String base_armor = hero[8];
+            String base_attack_min = hero[9];
+            String base_attack_max = hero[10];
+            String base_str = hero[11];
+            String base_agi = hero[12];
+            String base_int = hero[13];
+
+            String str_gain = hero[14];
+            String agi_gain = hero[15];
+            String int_gain = hero[16];
+
+            String attack_range = hero[17];
+            String projectile_speed = hero[18];
+            String attack_rate = hero[19];
+            String move_speed = hero[20];
+            String turn_rate = hero[21];
+            String legs = hero[22];
+            String picks = hero[23];
+            String wins = hero[24];
+            String winrate = hero[25];
+            String hasLine = hero[26];
+
+
+
+            String jsonHero = "{\n" +
+                    "  \"@id\" : \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hero_"+name+"\",\n" +
+                    "  \"@type\" : [ \"http://www.w3.org/2002/07/owl#NamedIndividual\", \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#Heroes\" ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#agi_gain\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#double\",\n" +
+                    "    \"@value\" : \""+agi_gain+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#attack_range\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+attack_range+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#attack_rate\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#double\",\n" +
+                    "    \"@value\" : \""+attack_rate+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_agi\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+base_agi+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_armor\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#double\",\n" +
+                    "    \"@value\" : \""+base_armor+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_attack_max\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+base_attack_max+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_attack_min\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+base_attack_min+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_health\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+base_health+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_health_regen\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#double\",\n" +
+                    "    \"@value\" : \""+base_health_regen+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_int\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+base_int+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_mana\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+base_mana+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_mana_regen\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#double\",\n" +
+                    "    \"@value\" : \""+base_mana_regen+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#base_str\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+base_str+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hasAttackType\" : [ {\n" +
+                    "    \"@id\" : \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#"+hasAttackType+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hasAttribute\" : [ {\n" +
+                    "    \"@id\" : \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#"+hasAttribute+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hasLine\" : [ {\n" +
+                    "    \"@id\" : \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#"+hasLine+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#hasRole\" : [ "+roles+" ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#int_gain\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#double\",\n" +
+                    "    \"@value\" : \""+int_gain+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#legs\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+legs+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#move_speed\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+move_speed+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#picks\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+picks+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#projectile_speed\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+projectile_speed+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#str_gain\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#double\",\n" +
+                    "    \"@value\" : \""+str_gain+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#turn_rate\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#double\",\n" +
+                    "    \"@value\" : \""+turn_rate+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#winrate\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#double\",\n" +
+                    "    \"@value\" : \""+winrate+"\"\n" +
+                    "  } ],\n" +
+                    "  \"http://www.semanticweb.org/dmitriystupakov/ontologies/2022/11/untitled-ontology-9#wins\" : [ {\n" +
+                    "    \"@type\" : \"http://www.w3.org/2001/XMLSchema#int\",\n" +
+                    "    \"@value\" : \""+wins+"\"\n" +
+                    "  } ]\n" +
+                    "},";
+            result+=jsonHero;
+        }
+
+
+
+        FileWriter fileWriter = new FileWriter("output.txt");
+        fileWriter.flush();
+        fileWriter.write(result);
+        fileWriter.close();
+    }
+}

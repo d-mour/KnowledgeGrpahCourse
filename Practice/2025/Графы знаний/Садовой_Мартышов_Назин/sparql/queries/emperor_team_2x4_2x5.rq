@@ -1,0 +1,25 @@
+PREFIX ex:  <http://example.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?team ?teamName
+(SUM(IF(?rarity = ex:4, 1, 0)) AS ?num4star)
+(SUM(IF(?rarity = ex:5, 1, 0)) AS ?num5star)
+WHERE {
+    ?boss rdf:type ex:Enemy ;
+    ex:name ?bossName ;
+    ex:Vulnerable_to ?vElement .
+    FILTER(LCASE(STR(?bossName)) = "emperor_of_fire_and_iron")
+    ?team rdf:type ex:Team ;
+    ex:name ?teamName ;
+    ex:member ?char .
+    ?char rdf:type ex:Character ;
+    ex:Character_Element ?elem ;
+    ex:Character_Rarity ?rarity .
+    FILTER(?elem = ?vElement)
+}
+GROUP BY ?team ?teamName
+HAVING (
+COUNT(DISTINCT ?char) = 4
+&& SUM(IF(?rarity = ex:4, 1, 0)) >= 2
+&& SUM(IF(?rarity = ex:5, 1, 0)) >= 2
+)
+ORDER BY ?teamName

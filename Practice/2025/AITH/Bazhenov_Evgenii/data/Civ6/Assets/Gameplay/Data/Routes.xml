@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_ROUTE"/>
+	</Kinds>
+	<Types>
+		<Row Type="ROUTE_ANCIENT_ROAD" Kind="KIND_ROUTE"/>
+		<Row Type="ROUTE_MEDIEVAL_ROAD" Kind="KIND_ROUTE"/>
+		<Row Type="ROUTE_INDUSTRIAL_ROAD" Kind="KIND_ROUTE"/>
+		<Row Type="ROUTE_MODERN_ROAD" Kind="KIND_ROUTE"/>
+	</Types>
+	<Routes>
+		<Row RouteType="ROUTE_ANCIENT_ROAD" Name="LOC_ROUTE_ANCIENT_ROAD_NAME" Description="LOC_ROUTE_ANCIENT_ROAD_DESCRIPTION" MovementCost="1" SupportsBridges="false" PlacementValue="1" PlacementRequiresRoutePresent="false" PlacementRequiresOwnedTile="false"/>
+		<Row RouteType="ROUTE_MEDIEVAL_ROAD" Name="LOC_ROUTE_MEDIEVAL_ROAD_NAME" Description="LOC_ROUTE_MEDIEVAL_ROAD_DESCRIPTION" MovementCost="1" SupportsBridges="true" PlacementValue="2" PlacementRequiresRoutePresent="false" PlacementRequiresOwnedTile="false" PrereqEra="ERA_CLASSICAL"/>
+		<Row RouteType="ROUTE_INDUSTRIAL_ROAD" Name="LOC_ROUTE_INDUSTRIAL_ROAD_NAME" Description="LOC_ROUTE_INDUSTRIAL_ROAD_DESCRIPTION" MovementCost="0.75" SupportsBridges="true" PlacementValue="3" PlacementRequiresRoutePresent="false" PlacementRequiresOwnedTile="false" PrereqEra="ERA_INDUSTRIAL"/>
+		<Row RouteType="ROUTE_MODERN_ROAD" Name="LOC_ROUTE_MODERN_ROAD_NAME" Description="LOC_ROUTE_MODERN_ROAD_DESCRIPTION" MovementCost="0.50" SupportsBridges="true" PlacementValue="4" PlacementRequiresRoutePresent="false" PlacementRequiresOwnedTile="false" PrereqEra="ERA_MODERN"/>
+	</Routes>
+	<Route_ValidBuildUnits>
+		<Row RouteType="ROUTE_ANCIENT_ROAD" UnitType="UNIT_MILITARY_ENGINEER"/>
+		<Row RouteType="ROUTE_MEDIEVAL_ROAD" UnitType="UNIT_MILITARY_ENGINEER"/>
+		<Row RouteType="ROUTE_INDUSTRIAL_ROAD" UnitType="UNIT_MILITARY_ENGINEER"/>
+		<Row RouteType="ROUTE_MODERN_ROAD" UnitType="UNIT_MILITARY_ENGINEER"/>
+	</Route_ValidBuildUnits>
+</GameInfo>

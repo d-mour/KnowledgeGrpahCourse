@@ -1,0 +1,479 @@
+@prefix audio: <http://example.org/audio/> .
+@prefix emotion: <http://example.org/emotion/> .
+@prefix image: <http://example.org/image/> .
+@prefix object: <http://example.org/object/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix text: <http://example.org/text/> .
+@prefix video: <http://example.org/video/> .
+
+video:dialog_shop a video:Video ;
+    rdfs:label "Диалог в магазине"@ru ;
+    video:hasAudioFragment audio:id_187579183 ;
+    video:hasImageFrame image:id_187608144,
+        image:id_187608145,
+        image:id_187608146,
+        image:id_187608147,
+        image:id_187608148,
+        image:id_187608149,
+        image:id_187608150,
+        image:id_187608151,
+        image:id_187608152,
+        image:id_187608154,
+        image:id_187608155,
+        image:id_187608157 ;
+    video:hasTextFragment text:id_187584183,
+        text:id_187584184,
+        text:id_187584185,
+        text:id_187584186,
+        text:id_187584187,
+        text:id_187584188,
+        text:id_187584189,
+        text:id_187584190,
+        text:id_187584191,
+        text:id_187584192,
+        text:id_187584193,
+        text:id_187584194,
+        text:id_187584195,
+        text:id_187584196,
+        text:id_187584197,
+        text:id_187584198,
+        text:id_187584199,
+        text:id_187584200,
+        text:id_187584201,
+        text:id_187584202,
+        text:id_187584203,
+        text:id_187584204,
+        text:id_187584205,
+        text:id_187584206,
+        text:id_187584207,
+        text:id_187584208,
+        text:id_187584209,
+        text:id_187584210,
+        text:id_187584211 .
+
+video:horror_film a video:Video ;
+    rdfs:label "Короткий фильм ужасов"@ru ;
+    video:hasAudioFragment audio:id_187610710 ;
+    video:hasImageFrame image:id_187610685,
+        image:id_187610686,
+        image:id_187610687,
+        image:id_187610688,
+        image:id_187610689,
+        image:id_187610690,
+        image:id_187610691,
+        image:id_187610692 .
+
+audio:id_187579183 a audio:Fragment ;
+    audio:expressesEmotion emotion:audio_187579183_0,
+        emotion:audio_187579183_1 ;
+    audio:filePath "upload/159809/9acff00b-alan.mp3" .
+
+audio:id_187610710 a audio:Fragment ;
+    audio:containsSoundEvent object:audio_187610710_0,
+        object:audio_187610710_1 ;
+    audio:expressesEmotion emotion:audio_187610710_2,
+        emotion:audio_187610710_3 ;
+    audio:filePath "upload/159809/8cc4fa94-No_Sleep_Tonight_-_Short_Horror_Film.mp3" .
+
+emotion:audio_187579183_0 a emotion:Emotion ;
+    rdfs:label "Laughing" .
+
+emotion:audio_187579183_1 a emotion:Emotion ;
+    rdfs:label "Laughing" .
+
+emotion:audio_187610710_2 a emotion:Emotion ;
+    rdfs:label "Screaming" .
+
+emotion:audio_187610710_3 a emotion:Emotion ;
+    rdfs:label "Screaming" .
+
+emotion:img_187608144_0 a emotion:Emotion ;
+    rdfs:label "Confused" .
+
+emotion:img_187608145_0 a emotion:Emotion ;
+    rdfs:label "Confused" .
+
+emotion:img_187608146_0 a emotion:Emotion ;
+    rdfs:label "Confused" .
+
+emotion:img_187608147_0 a emotion:Emotion ;
+    rdfs:label "Confused" .
+
+emotion:img_187608148_0 a emotion:Emotion ;
+    rdfs:label "Confused" .
+
+emotion:img_187608149_0 a emotion:Emotion ;
+    rdfs:label "Angry" .
+
+emotion:img_187608150_0 a emotion:Emotion ;
+    rdfs:label "Amazement" .
+
+emotion:img_187608151_0 a emotion:Emotion ;
+    rdfs:label "Amazement" .
+
+emotion:img_187608151_1 a emotion:Emotion ;
+    rdfs:label "Confused" .
+
+emotion:img_187608152_0 a emotion:Emotion ;
+    rdfs:label "Confused" .
+
+emotion:img_187608154_0 a emotion:Emotion ;
+    rdfs:label "Smile" .
+
+emotion:img_187608155_0 a emotion:Emotion ;
+    rdfs:label "Amazement" .
+
+emotion:img_187608157_0 a emotion:Emotion ;
+    rdfs:label "Amazement" .
+
+emotion:img_187610686_0 a emotion:Emotion ;
+    rdfs:label "Fear" .
+
+emotion:img_187610687_0 a emotion:Emotion ;
+    rdfs:label "Fear" .
+
+emotion:img_187610688_0 a emotion:Emotion ;
+    rdfs:label "Fear" .
+
+emotion:img_187610691_0 a emotion:Emotion ;
+    rdfs:label "Fear" .
+
+emotion:sentiment_187584183 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584184 a emotion:Emotion ;
+    rdfs:label "Positive" .
+
+emotion:sentiment_187584185 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584186 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584187 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584188 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584189 a emotion:Emotion ;
+    rdfs:label "Positive" .
+
+emotion:sentiment_187584190 a emotion:Emotion ;
+    rdfs:label "Positive" .
+
+emotion:sentiment_187584191 a emotion:Emotion ;
+    rdfs:label "Positive" .
+
+emotion:sentiment_187584192 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584193 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584194 a emotion:Emotion ;
+    rdfs:label "Positive" .
+
+emotion:sentiment_187584195 a emotion:Emotion ;
+    rdfs:label "Positive" .
+
+emotion:sentiment_187584196 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584197 a emotion:Emotion ;
+    rdfs:label "Positive" .
+
+emotion:sentiment_187584198 a emotion:Emotion ;
+    rdfs:label "Positive" .
+
+emotion:sentiment_187584199 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584200 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584201 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584202 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584203 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584204 a emotion:Emotion ;
+    rdfs:label "Positive" .
+
+emotion:sentiment_187584205 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584206 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584207 a emotion:Emotion ;
+    rdfs:label "Negative" .
+
+emotion:sentiment_187584208 a emotion:Emotion ;
+    rdfs:label "Positive" .
+
+emotion:sentiment_187584209 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584210 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+emotion:sentiment_187584211 a emotion:Emotion ;
+    rdfs:label "Neutral" .
+
+image:id_187608144 a image:Frame ;
+    image:depictsEmotion emotion:img_187608144_0 ;
+    image:filePath "upload/159923/c54e1bbd-alan_297.jpg" .
+
+image:id_187608145 a image:Frame ;
+    image:depictsEmotion emotion:img_187608145_0 ;
+    image:filePath "upload/159923/2053a939-alan_293.jpg" .
+
+image:id_187608146 a image:Frame ;
+    image:depictsEmotion emotion:img_187608146_0 ;
+    image:filePath "upload/159923/80b2b13f-alan_289.jpg" .
+
+image:id_187608147 a image:Frame ;
+    image:depictsEmotion emotion:img_187608147_0 ;
+    image:filePath "upload/159923/48611e74-alan_285.jpg" .
+
+image:id_187608148 a image:Frame ;
+    image:depictsEmotion emotion:img_187608148_0 ;
+    image:filePath "upload/159923/5ea7bb46-alan_277.jpg" .
+
+image:id_187608149 a image:Frame ;
+    image:depictsEmotion emotion:img_187608149_0 ;
+    image:filePath "upload/159923/ae904f5f-alan_276.jpg" .
+
+image:id_187608150 a image:Frame ;
+    image:depictsEmotion emotion:img_187608150_0 ;
+    image:filePath "upload/159923/8793da61-alan_214.jpg" .
+
+image:id_187608151 a image:Frame ;
+    image:depictsEmotion emotion:img_187608151_0,
+        emotion:img_187608151_1 ;
+    image:filePath "upload/159923/33adfc9e-alan_213.jpg" .
+
+image:id_187608152 a image:Frame ;
+    image:depictsEmotion emotion:img_187608152_0 ;
+    image:filePath "upload/159923/69c05be5-alan_212.jpg" .
+
+image:id_187608154 a image:Frame ;
+    image:depictsEmotion emotion:img_187608154_0 ;
+    image:filePath "upload/159923/bf4fbb45-alan_165.jpg" .
+
+image:id_187608155 a image:Frame ;
+    image:depictsEmotion emotion:img_187608155_0 ;
+    image:filePath "upload/159923/98957769-alan_129.jpg" .
+
+image:id_187608157 a image:Frame ;
+    image:depictsEmotion emotion:img_187608157_0 ;
+    image:filePath "upload/159923/b664e25a-alan_100.jpg" .
+
+image:id_187610685 a image:Frame ;
+    image:containsObject object:img_187610685_0,
+        object:img_187610685_1 ;
+    image:filePath "upload/159923/7b63fed9-No_Sleep_Tonight_-_Short_Horror_Film_-_frame_at_2m40s.jpg" .
+
+image:id_187610686 a image:Frame ;
+    image:depictsEmotion emotion:img_187610686_0 ;
+    image:filePath "upload/159923/5260f4af-No_Sleep_Tonight_-_Short_Horror_Film_-_frame_at_2m27s.jpg" .
+
+image:id_187610687 a image:Frame ;
+    image:depictsEmotion emotion:img_187610687_0 ;
+    image:filePath "upload/159923/605f38e1-No_Sleep_Tonight_-_Short_Horror_Film_-_frame_at_1m40s.jpg" .
+
+image:id_187610688 a image:Frame ;
+    image:containsObject object:img_187610688_1 ;
+    image:depictsEmotion emotion:img_187610688_0 ;
+    image:filePath "upload/159923/8976215a-No_Sleep_Tonight_-_Short_Horror_Film_-_frame_at_1m30s.jpg" .
+
+image:id_187610689 a image:Frame ;
+    image:containsObject object:img_187610689_0 ;
+    image:filePath "upload/159923/2e9f1bc4-No_Sleep_Tonight_-_Short_Horror_Film_-_frame_at_1m21s.jpg" .
+
+image:id_187610690 a image:Frame ;
+    image:containsObject object:img_187610690_0 ;
+    image:filePath "upload/159923/d944e50d-No_Sleep_Tonight_-_Short_Horror_Film_-_frame_at_1m20s.jpg" .
+
+image:id_187610691 a image:Frame ;
+    image:depictsEmotion emotion:img_187610691_0 ;
+    image:filePath "upload/159923/490d23a1-No_Sleep_Tonight_-_Short_Horror_Film_-_frame_at_1m14s.jpg" .
+
+image:id_187610692 a image:Frame ;
+    image:containsObject object:img_187610692_0 ;
+    image:filePath "upload/159923/d27373a1-No_Sleep_Tonight_-_Short_Horror_Film_-_frame_at_0m36s.jpg" .
+
+object:audio_187610710_0 a object:SoundEvent ;
+    rdfs:label "Sudden loud bangs" .
+
+object:audio_187610710_1 a object:SoundEvent ;
+    rdfs:label "Creepy ambient sounds" .
+
+object:img_187610685_0 a object:VisualObject ;
+    rdfs:label "Monster" .
+
+object:img_187610685_1 a object:VisualObject ;
+    rdfs:label "Weapons" .
+
+object:img_187610688_1 a object:VisualObject ;
+    rdfs:label "Weapons" .
+
+object:img_187610689_0 a object:VisualObject ;
+    rdfs:label "Monster" .
+
+object:img_187610690_0 a object:VisualObject ;
+    rdfs:label "Monster" .
+
+object:img_187610692_0 a object:VisualObject ;
+    rdfs:label "Monster" .
+
+text:id_187584183 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584183 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Алан, спасибо, что уделил мне время."@ru .
+
+text:id_187584184 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584184 ;
+    text:hasSentiment "Positive" ;
+    text:textContent "Да без проблем."@ru .
+
+text:id_187584185 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584185 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "А что за повод?"@ru .
+
+text:id_187584186 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584186 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Я бы хотела поговорить о твоей работе."@ru .
+
+text:id_187584187 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584187 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "А, всё в порядке?"@ru .
+
+text:id_187584188 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584188 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Более чем."@ru .
+
+text:id_187584189 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584189 ;
+    text:hasSentiment "Positive" ;
+    text:textContent "Алан, ты отлично справляешься. Твоя активность очень похвальна."@ru .
+
+text:id_187584190 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584190 ;
+    text:hasSentiment "Positive" ;
+    text:textContent "Большое спасибо. Это много для меня значит."@ru .
+
+text:id_187584191 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584191 ;
+    text:hasSentiment "Positive" ;
+    text:textContent "Да, ты постоянно справляешься со своими KPI, как и с другими показателями эффективности."@ru .
+
+text:id_187584192 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584192 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Да, я очень стараюсь."@ru .
+
+text:id_187584193 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584193 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Да, и это видно."@ru .
+
+text:id_187584194 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584194 ;
+    text:hasSentiment "Positive" ;
+    text:textContent "А ещё, в качестве знака, что мы видим твоё усердие, нам хочется слегка наградить тебя."@ru .
+
+text:id_187584195 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584195 ;
+    text:hasSentiment "Positive" ;
+    text:textContent "О, хорошо."@ru .
+
+text:id_187584196 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584196 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Я бы хотела, чтобы ты брал больше обязанностей по управлению магазином."@ru .
+
+text:id_187584197 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584197 ;
+    text:hasSentiment "Positive" ;
+    text:textContent "Ну, я буду рад попробовать."@ru .
+
+text:id_187584198 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584198 ;
+    text:hasSentiment "Positive" ;
+    text:textContent "Потрясающе."@ru .
+
+text:id_187584199 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584199 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Тогда, для начала, я бы хотела официально закрепить за тобой обязанность по открытию и закрытию магазина по будням."@ru .
+
+text:id_187584200 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584200 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Это я могу."@ru .
+
+text:id_187584201 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584201 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Кроме того, ты будешь главным по инвентаризации."@ru .
+
+text:id_187584202 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584202 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Тогда мы будем уверены, что у нас достаточно нужных товаров, ну и так далее."@ru .
+
+text:id_187584203 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584203 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Хорошо."@ru .
+
+text:id_187584204 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584204 ;
+    text:hasSentiment "Positive" ;
+    text:textContent "Супер."@ru .
+
+text:id_187584205 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584205 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Ещё ты будешь главным по доставке, то есть ты будешь"@ru .
+
+text:id_187584206 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584206 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "руководить Байроном и следить, чтобы он эффективно работал."@ru .
+
+text:id_187584207 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584207 ;
+    text:hasSentiment "Negative" ;
+    text:textContent "Оу, эээ, ну ладно."@ru .
+
+text:id_187584208 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584208 ;
+    text:hasSentiment "Positive" ;
+    text:textContent "Чудесно."@ru .
+
+text:id_187584209 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584209 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Далее я повышаю тебя до главного по коммуникации."@ru .
+
+text:id_187584210 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584210 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "Таким образом ты будешь отвечать на письма, давать"@ru .
+
+text:id_187584211 a text:Fragment ;
+    text:expressesEmotion emotion:sentiment_187584211 ;
+    text:hasSentiment "Neutral" ;
+    text:textContent "обратную связь покупателям и клиентам."@ru .
+

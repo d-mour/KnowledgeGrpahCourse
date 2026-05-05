@@ -1,0 +1,145 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/Music/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/#> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@base 			<http://visualdataweb.org/Music/> .
+
+<http://visualdataweb.org/Music/> rdf:type owl:Ontology ;
+                                  dc:title "Music"@en;
+                                  dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 22 ###
+#  --------------------------- Property 0------------------------- 
+:trackURL rdf:type owl:DatatypeProperty ;
+          rdfs:label "trackURL"@en; 
+          rdfs:domain :Track;
+          rdfs:range xsd:string . 
+#  --------------------------- Property 1------------------------- 
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:label "name"@en; 
+      rdfs:domain :Track;
+      rdfs:range xsd:string . 
+#  --------------------------- Property 2------------------------- 
+:artist rdf:type owl:DatatypeProperty ;
+        rdfs:label "artist"@en; 
+        rdfs:domain :Track;
+        rdfs:range xsd:string . 
+#  --------------------------- Property 3------------------------- 
+:genre rdf:type owl:DatatypeProperty ;
+       rdfs:label "genre"@en; 
+       rdfs:domain :Track;
+       rdfs:range xsd:string . 
+#  --------------------------- Property 4------------------------- 
+:coverURL rdf:type owl:DatatypeProperty ;
+          rdfs:label "coverURL"@en; 
+          rdfs:domain :Cover;
+          rdfs:range xsd:string . 
+#  --------------------------- Property 5------------------------- 
+:coverDesctiption rdf:type owl:DatatypeProperty ;
+                  rdfs:label "coverDesctiption"@en; 
+                  rdfs:domain :Cover;
+                  rdfs:range xsd:string . 
+#  --------------------------- Property 6------------------------- 
+:trackText rdf:type owl:DatatypeProperty ;
+           rdfs:label "fileName"@en; 
+           rdfs:domain :Text;
+           rdfs:range xsd:string . 
+#  --------------------------- Property 7------------------------- 
+:voiceGender rdf:type owl:DatatypeProperty ;
+             rdfs:label "voiceGender"@en; 
+             rdfs:domain :Track;
+             rdfs:range xsd:boolean . 
+#  --------------------------- Property 8------------------------- 
+:isTrackOf rdf:type owl:ObjectProperty ;
+           rdfs:label "isTrackOf"@en; 
+           rdfs:domain :Track;
+           rdfs:range :Text . 
+#  --------------------------- Property 9------------------------- 
+:isLyricsOf rdf:type owl:ObjectProperty ;
+            rdfs:label "isLyricsOf"@en; 
+            rdfs:domain :Text;
+            rdfs:range :Track . 
+#  --------------------------- Property 10------------------------- 
+:isCoverOf rdf:type owl:ObjectProperty ;
+           rdfs:label "isCoverOf"@en; 
+           rdfs:domain :Cover;
+           rdfs:range :Track . 
+#  --------------------------- Property 11------------------------- 
+:year rdf:type owl:DatatypeProperty ;
+      rdfs:label "year"@en; 
+      rdfs:domain :Track;
+      rdfs:range xsd:integer . 
+#  --------------------------- Property 12------------------------- 
+:colorPalette rdf:type owl:DatatypeProperty ;
+              rdfs:label "colorPalette"@en; 
+              rdfs:domain :Cover;
+              rdfs:range xsd:string . 
+#  --------------------------- Property 13------------------------- 
+:textSeed rdf:type owl:DatatypeProperty ;
+          rdfs:label "lyricsSeed"@en; 
+          rdfs:domain :Text;
+          rdfs:range xsd:string . 
+#  --------------------------- Property 14------------------------- 
+:id rdf:type owl:DatatypeProperty ;
+    rdfs:label "trackID"@en; 
+    rdfs:domain :Track;
+    rdfs:range xsd:integer . 
+#  --------------------------- Property 15------------------------- 
+:vibe rdf:type owl:DatatypeProperty ;
+      rdfs:label "vibe"@en; 
+      rdfs:domain :Track;
+      rdfs:range xsd:string . 
+#  --------------------------- Property 16------------------------- 
+:coverID rdf:type owl:DatatypeProperty ;
+         rdfs:label "coverID"@en; 
+         rdfs:domain :Cover;
+         rdfs:range xsd:integer . 
+#  --------------------------- Property 17------------------------- 
+:lyricsID rdf:type owl:DatatypeProperty ;
+          rdfs:label "lyricsID"@en; 
+          rdfs:domain :Text;
+          rdfs:range xsd:integer . 
+#  --------------------------- Property 18------------------------- 
+:isAnnotationOf rdf:type owl:ObjectProperty ;
+                rdfs:label "isAnnotationOf"@en; 
+                rdfs:domain :SoundAnnotation;
+                rdfs:range :Track . 
+#  --------------------------- Property 19------------------------- 
+:TextGrid rdf:type owl:DatatypeProperty ;
+          rdfs:label "textGrid"@en; 
+          rdfs:domain :SoundAnnotation;
+          rdfs:range xsd:string . 
+#  --------------------------- Property 20------------------------- 
+:isAnnotationOf rdf:type owl:ObjectProperty ;
+                rdfs:label "isAnnotationOf"@en; 
+                rdfs:domain :LyricsAnnotation;
+                rdfs:range :Text . 
+#  --------------------------- Property 21------------------------- 
+:inception rdf:type owl:DatatypeProperty ;
+           rdfs:label "inception"@en; 
+           rdfs:domain :LyricsAnnotation;
+           rdfs:range xsd:string . 
+###  Class Definitions (Number of Classes) 5 ###
+#  --------------------------- Class  0------------------------- 
+:Track rdf:type owl:Class; 
+       rdfs:label "Track"@en . 
+#  --------------------------- Class  1------------------------- 
+:Cover rdf:type owl:Class; 
+       rdfs:label "Cover"@en . 
+#  --------------------------- Class  2------------------------- 
+:Text rdf:type owl:Class; 
+      rdfs:label "Lyrics"@en . 
+#  --------------------------- Class  3------------------------- 
+:SoundAnnotation rdf:type owl:Class; 
+                 rdfs:label "SoundAnnotation"@en . 
+#  --------------------------- Class  4------------------------- 
+:LyricsAnnotation rdf:type owl:Class; 
+                  rdfs:label "LyricsAnnotation"@en . 

@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/music_recommendation#"
+     xml:base="http://example.org/music_recommendation"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <!-- =======================
+         ONTOLOGY HEADER
+    ======================== -->
+    <owl:Ontology rdf:about="http://example.org/music_recommendation"/>
+
+    <!-- =======================
+         DATA TYPES
+    ======================== -->
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
+
+    <!-- =======================
+         OBJECT PROPERTIES
+    ======================== -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/music_recommendation#createdBy">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+        <rdfs:range rdf:resource="http://example.org/music_recommendation#Artist"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://example.org/music_recommendation#hasGenre">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+        <rdfs:range rdf:resource="http://example.org/music_recommendation#Genre"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://example.org/music_recommendation#likesArtist">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#User"/>
+        <rdfs:range rdf:resource="http://example.org/music_recommendation#Artist"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://example.org/music_recommendation#likesGenre">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#User"/>
+        <rdfs:range rdf:resource="http://example.org/music_recommendation#Genre"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://example.org/music_recommendation#partOfAlbum">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#Track"/>
+        <rdfs:range rdf:resource="http://example.org/music_recommendation#Album"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://example.org/music_recommendation#releasedIn">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+        <rdfs:range rdf:resource="http://example.org/music_recommendation#TimePeriod"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://example.org/music_recommendation#recommendedTo">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#Recommendation"/>
+        <rdfs:range rdf:resource="http://example.org/music_recommendation#User"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://example.org/music_recommendation#recommendsWork">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#Recommendation"/>
+        <rdfs:range rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://example.org/music_recommendation#similarTo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+        <rdfs:range rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+    </owl:ObjectProperty>
+
+    <!-- =======================
+         DATA PROPERTIES
+    ======================== -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/music_recommendation#name">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#MusicEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://example.org/music_recommendation#releaseYear">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://example.org/music_recommendation#decadeLabel">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#TimePeriod"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://example.org/music_recommendation#startDate">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#TimePeriod"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://example.org/music_recommendation#endDate">
+        <rdfs:domain rdf:resource="http://example.org/music_recommendation#TimePeriod"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+
+    <!-- =======================
+         CLASS HIERARCHY
+    ======================== -->
+
+    <owl:Class rdf:about="http://example.org/music_recommendation#Agent"/>
+
+    <owl:Class rdf:about="http://example.org/music_recommendation#MusicEntity"/>
+
+    <owl:Class rdf:about="http://example.org/music_recommendation#Event"/>
+
+    <owl:Class rdf:about="http://example.org/music_recommendation#TemporalEntity"/>
+
+    <!-- Subclasses -->
+    <owl:Class rdf:about="http://example.org/music_recommendation#Artist">
+        <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#Agent"/>
+        <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#MusicEntity"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://example.org/music_recommendation#Genre">
+        <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#MusicEntity"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://example.org/music_recommendation#MusicalWork">
+        <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#MusicEntity"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://example.org/music_recommendation#Album">
+        <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://example.org/music_recommendation#Track">
+        <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#MusicalWork"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://example.org/music_recommendation#User">
+        <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#Agent"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://example.org/music_recommendation#Recommendation">
+        <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#Event"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://example.org/music_recommendation#TimePeriod">
+        <rdfs:subClassOf rdf:resource="http://example.org/music_recommendation#TemporalEntity"/>
+    </owl:Class>
+
+</rdf:RDF>

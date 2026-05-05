@@ -1,0 +1,11 @@
+{
+"story_id": "garden_mystery",
+"title": "Таинственный гость в саду",
+"classes": ["bird", "cat", "dog"],
+"nodes": [
+{ "node_id": 1, "text_id": "g1", "next": 2 },
+{ "node_id": 2, "class_id": "bird", "text_id": "g2", "next": 3 },
+{ "node_id": 3, "class_id": "cat",  "text_id": "g3", "next": 4 },
+{ "node_id": 4, "class_id": "dog",  "text_id": "g4", "next": null }
+]
+}

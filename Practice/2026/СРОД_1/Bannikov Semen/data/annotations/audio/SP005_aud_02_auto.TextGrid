@@ -1,0 +1,166 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 18.0234375
+tiers? <exists>
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "BirdCallSegment"
+        xmin = 0
+        xmax = 18.0234375
+        intervals: size = 17
+        intervals [1]:
+            xmin = 0
+            xmax = 0.11
+            text = ""
+        intervals [2]:
+            xmin = 0.11
+            xmax = 2.74
+            text = "species_id=SP005;signal_type=song;overlap_flag=no"
+        intervals [3]:
+            xmin = 2.74
+            xmax = 6.79
+            text = ""
+        intervals [4]:
+            xmin = 6.79
+            xmax = 7.04
+            text = "species_id=SP005;signal_type=song;overlap_flag=no"
+        intervals [5]:
+            xmin = 7.04
+            xmax = 7.82
+            text = ""
+        intervals [6]:
+            xmin = 7.82
+            xmax = 8.55
+            text = "species_id=SP005;signal_type=song;overlap_flag=no"
+        intervals [7]:
+            xmin = 8.55
+            xmax = 8.68
+            text = ""
+        intervals [8]:
+            xmin = 8.68
+            xmax = 8.91
+            text = "species_id=SP005;signal_type=song;overlap_flag=no"
+        intervals [9]:
+            xmin = 8.91
+            xmax = 10.96
+            text = ""
+        intervals [10]:
+            xmin = 10.96
+            xmax = 11.45
+            text = "species_id=SP005;signal_type=song;overlap_flag=no"
+        intervals [11]:
+            xmin = 11.45
+            xmax = 13.92
+            text = ""
+        intervals [12]:
+            xmin = 13.92
+            xmax = 14.38
+            text = "species_id=SP005;signal_type=song;overlap_flag=no"
+        intervals [13]:
+            xmin = 14.38
+            xmax = 14.82
+            text = ""
+        intervals [14]:
+            xmin = 14.82
+            xmax = 15.37
+            text = "species_id=SP005;signal_type=song;overlap_flag=no"
+        intervals [15]:
+            xmin = 15.37
+            xmax = 15.99
+            text = ""
+        intervals [16]:
+            xmin = 15.99
+            xmax = 16.44
+            text = "species_id=SP005;signal_type=song;overlap_flag=no"
+        intervals [17]:
+            xmin = 16.44
+            xmax = 18.0234375
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "BackgroundSound"
+        xmin = 0
+        xmax = 18.0234375
+        intervals: size = 17
+        intervals [1]:
+            xmin = 0
+            xmax = 0.11
+            text = "type=background;intensity=unknown"
+        intervals [2]:
+            xmin = 0.11
+            xmax = 2.74
+            text = ""
+        intervals [3]:
+            xmin = 2.74
+            xmax = 6.79
+            text = "type=background;intensity=unknown"
+        intervals [4]:
+            xmin = 6.79
+            xmax = 7.04
+            text = ""
+        intervals [5]:
+            xmin = 7.04
+            xmax = 7.82
+            text = "type=background;intensity=unknown"
+        intervals [6]:
+            xmin = 7.82
+            xmax = 8.55
+            text = ""
+        intervals [7]:
+            xmin = 8.55
+            xmax = 8.68
+            text = "type=background;intensity=unknown"
+        intervals [8]:
+            xmin = 8.68
+            xmax = 8.91
+            text = ""
+        intervals [9]:
+            xmin = 8.91
+            xmax = 10.96
+            text = "type=background;intensity=unknown"
+        intervals [10]:
+            xmin = 10.96
+            xmax = 11.45
+            text = ""
+        intervals [11]:
+            xmin = 11.45
+            xmax = 13.92
+            text = "type=background;intensity=unknown"
+        intervals [12]:
+            xmin = 13.92
+            xmax = 14.38
+            text = ""
+        intervals [13]:
+            xmin = 14.38
+            xmax = 14.82
+            text = "type=background;intensity=unknown"
+        intervals [14]:
+            xmin = 14.82
+            xmax = 15.37
+            text = ""
+        intervals [15]:
+            xmin = 15.37
+            xmax = 15.99
+            text = "type=background;intensity=unknown"
+        intervals [16]:
+            xmin = 15.99
+            xmax = 16.44
+            text = ""
+        intervals [17]:
+            xmin = 16.44
+            xmax = 18.0234375
+            text = "type=background;intensity=unknown"
+    item [3]:
+        class = "IntervalTier"
+        name = "Meta"
+        xmin = 0
+        xmax = 18.0234375
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0
+            xmax = 18.0234375
+            text = "quality=auto_generated_energy"

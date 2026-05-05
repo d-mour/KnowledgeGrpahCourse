@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<GameCores>
+		<Row GameCore="Base" DllPrefix="GameCore_Base" />
+	</GameCores>
+	<Rulesets>
+		<Row RulesetType="RULESET_STANDARD" Name="LOC_RULESET_NAME" Description="LOC_RULESET_DESCRIPTION" SortIndex="1" />
+	</Rulesets>
+	<Logos>
+		<Row LogoTexture="MainLogo.dds" LogoMovie="TitleBG.bk2" Priority="0" />
+	</Logos>
+	<Credits>
+		<Row Package="RULESET_STANDARD" DisplayName="LOC_CREDITS_BASEGAME" Credits="LOC_CREDITS" />
+	</Credits>
+</GameInfo>

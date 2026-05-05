@@ -1,0 +1,170 @@
+'Entity','hasConfiguaration','hasSupervisedLearning','hasNeuralLanguageProcessing','hasTransformer','hasUnsupervisedLearning','hasHardware','hasReinforcementLearning','hasOperatingSystem','hasComputerVision','hasRecurrentNeuralNetwork','hasAutoencoder','hasConvolutionalNeuralNetwork','hasFramework','includeLibraries','hasSpeechRecognition','include','hasDataset',
+'Actor-Critic Methods',,'"Deep Neural Networks"',,,,,'"Actor-Critic Methods"',,,,,,'"TensorFlow"',,,,,
+'AlexNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"AlexNet"','"TensorFlow"',,,,,
+'BERT_paper',,'"Gradient Boosting"','"Text Classification"',,,,,,,,,,'"TensorFlow"',,,,,
+'BshapeNet',,'"Deep Neural Networks"',,,,'"NVIDIA GTX 1080Ti"',,,'"Instance Segmentation	Object detection"',,,'"R-CNN"',,,,,'"MS COCO (Common Objects in Context)"',
+'Deep Q-Networks',,'"Deep Neural Networks"',,,,,'"Deep Q-Networks"',,,,,,'"TensorFlow"',,,,,
+'DenseNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"DenseNet"','"PyTorch"',,,,,
+'EfficientNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"EfficientNet"','"PyTorch"',,,,,
+'Generative Adversarial Networks',,'"Deep Neural Networks"',,,'"Generative Adversarial Networks"',,,,,,,,'"PyTorch"',,,,,
+'GoogLeNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"GoogLeNet"','"TensorFlow"',,,,,
+'Long Short-Term Memory Networks paper',,'"Deep Neural Networks"',,,,,,,,'"Long Short-Term Memory Networks paper"',,,'"PyTorch"',,,,,
+'MobileNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"MobileNet"','"TensorFlow"',,,,,
+'Policy Gradient Methods',,'"Deep Neural Networks"',,,,,'"Policy Gradient Methods"',,,,,,'"PyTorch"',,,,,
+'R-CNN_paper',,'"Deep Neural Networks"',,,,,,,,,,'"R-CNN"','"TensorFlow"',,,,,
+'ResNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"ResNet"','"PyTorch"',,,,,
+'Temporal Convolutional Networks paper',,'"Deep Neural Networks"',,,,,,,,,,'"Temporal Convolutional Networks"','"TensorFlow"',,,,,
+'Transformer_paper',,'"Deep Neural Networks"',,,,,,,,,,,'"TensorFlow"',,,,,
+'UNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"UNet"','"PyTorch"',,,,,
+'Variational Autoencoders',,'"Deep Neural Networks"',,,'"Variational Autoencoders"',,,,,,,,'"TensorFlow"',,,,,
+'VGGNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"Deep Neural Networks"','"PyTorch"',,,,,
+'YOLO_paper',,'"Deep Neural Networks"',,,,,,,,,,'"YOLO"','"PyTorch"',,,,,
+'Actor-Critic Methods',,'"Deep Neural Networks"',,,,,'"Actor-Critic Methods"',,,,,,'"TensorFlow"',,,,,
+'AlexNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"AlexNet"','"TensorFlow"',,,,,
+'BERT_paper',,'"Gradient Boosting"','"Text Classification"','"BERT"',,,,,,,,,,'"TensorFlow"',,,,
+'BshapeNet',,'"Deep Neural Networks"',,,,'"NVIDIA GTX 1080Ti"',,,'"Instance Segmentation Object detection"',,,'"R-CNN"',,,,,'"MS COCO (Common Objects in Context)"',
+'Deep Q-Networks',,'"Deep Neural Networks"',,,,,'"Deep Q-Networks"',,,,,,'"TensorFlow"',,,,,
+'DenseNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"DenseNet"','"PyTorch"',,,,,
+'EfficientNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"EfficientNet"','"PyTorch"',,,,,
+'Generative Adversarial Networks',,'"Deep Neural Networks"',,,'"Generative Adversarial Networks"',,,,,,,,'"PyTorch"',,,,,
+'GoogLeNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"GoogLeNet"','"TensorFlow"',,,,,
+'Long Short-Term Memory Networks paper',,'"Deep Neural Networks"',,,,,,,,'"Long Short-Term Memory Networks paper"',,,'"PyTorch"',,,,,
+'MobileNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"MobileNet"','"TensorFlow"',,,,,
+'Policy Gradient Methods',,'"Deep Neural Networks"',,,,,'"Policy Gradient Methods"',,,,,,'"PyTorch"',,,,,
+'R-CNN_paper',,'"Deep Neural Networks"',,,,,,,,,,'"R-CNN"','"TensorFlow"',,,,,
+'ResNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"ResNet"','"PyTorch"',,,,,
+'Temporal Convolutional Networks paper',,'"Deep Neural Networks"',,,,,,,,,,'"Temporal Convolutional Networks"','"TensorFlow"',,,,,
+'Transformer_paper',,'"Deep Neural Networks"',,,,,,,,,,,'"TensorFlow"',,,,,
+'UNet_paper',,'"Deep Neural Networks"',,,,,,,,,,'"UNet"','"PyTorch"',,,,,
+'VGG_paper',,'"Deep Neural Networks"',,,,,,'"Linux"','"Image Classification"',,,'"VGG"','"Keras"',,,,,
+'GPT_paper',,'"Deep Neural Networks"','"Language Modeling"','"GPT"',,,,,,,,,,'"OpenAI GPT"',,,,'"WebText"'
+'XLNet_paper',,'"Deep Neural Networks"','"Language Understanding"','"XLNet"',,,,,,,,,,'"TensorFlow"',,,,'"Wikipedia Corpus"'
+'T5_paper',,'"Deep Neural Networks"','"Text-to-Text Transfer"','"T5"',,,,,,,,,,'"TensorFlow"',,,,'"C4 Dataset"'
+'ELECTRA_paper',,'"Deep Neural Networks"','"Language Representation"','"ELECTRA"',,,,,,,,,,'"TensorFlow"',,,,'"Wikipedia and BooksCorpus"'
+'RoBERTa_paper',,'"Deep Neural Networks"','"Language Understanding"','"RoBERTa"',,,,,,,,,,'"PyTorch"',,,,'"CC-News"'
+'DistilBERT_paper',,'"Deep Neural Networks"','"Language Understanding"','"DistilBERT"',,,,,,,,,,'"PyTorch"',,,,'"Wikipedia and Toronto Book Corpus"'
+'ALBERT_paper',,'"Deep Neural Networks"','"Language Representation"','"ALBERT"',,,,,,,,,,'"TensorFlow"',,,,'"BookCorpus and English Wikipedia"'
+'Inception_paper',,'"Deep Neural Networks"',,,,,,'"Linux"','"Image Recognition"',,,'"Inception"','"TensorFlow"',,,,,
+'SqueezeNet_paper',,'"Deep Neural Networks"',,,,,,'"Linux"','"Image Classification"',,,'"SqueezeNet"','"Caffe"',,,,,
+'Xception_paper',,'"Deep Neural Networks"',,,,,,'"Linux"','"Image Classification"',,,'"Xception"','"Keras"',,,,,
+'NASNet_paper',,'"Deep Neural Networks"',,,,,'"Neural Architecture Search"',,'"Image Classification"',,,'"NASNet"','"TensorFlow"',,,,,
+'SENet_paper',,'"Deep Neural Networks"',,,,,,'"Linux"','"Image Classification"',,,'"SENet"','"Caffe"',,,,,
+'ELMo_paper',,'"Deep Neural Networks"','"Word Representation"',,,,,,,,,,'"TensorFlow"',,,,'"1 Billion Word Benchmark"',
+'FastText_paper',,'"Deep Neural Networks"','"Word Representation"',,,,,,,,,,'"FastText"',,,,'"Wikipedia"',
+'Word2Vec_paper',,'"Deep Neural Networks"','"Word Embedding"',,,,,,,,,,'"TensorFlow"',,,,'"Google News Dataset"',
+'GloVe_paper',,'"Deep Neural Networks"','"Word Representation"',,,,,,,,,,'"Python"',,,,'"Wikipedia and Gigaword"',
+'Doc2Vec_paper',,'"Deep Neural Networks"','"Document Embedding"',,,,,,,,,,'"Gensim"',,,,'"Wikipedia"',
+'InceptionResNet_paper',,'"Deep Neural Networks"',,,,,,'"Linux"','"Image Classification"',,,'"InceptionResNet"','"TensorFlow"',,,,,
+'ShuffleNet_paper',,'"Deep Neural Networks"',,,,,,'"Linux"','"Image Classification"',,,'"ShuffleNet"','"PyTorch"',,,,,
+'YOLO_paper',,'"Deep Neural Networks"',,,,,,'"Linux"','"Object Detection"',,,'"YOLO"','"Darknet"',,,,'"PASCAL VOC"',
+'SSD_paper',,'"Deep Neural Networks"',,,,,,'"Linux"','"Object Detection"',,,'"SSD"','"Caffe"',,,,'"PASCAL VOC"',
+'Mask_R-CNN_paper',,'"Deep Neural Networks"',,,,,,'"Linux"','"Instance Segmentation"',,,'"Mask R-CNN"','"TensorFlow"',,,,'"MS COCO"',
+'DeepLab_paper',,'"Deep Neural Networks"',,,,,,'"Linux"','"Semantic Segmentation"',,,'"DeepLab"','"TensorFlow"',,,,'"PASCAL VOC"',
+'FCN_paper',,'"Deep Neural Networks"',,,,,,'"Linux"','"Semantic Segmentation"',,,'"FCN"','"Caffe"',,,,'"PASCAL VOC"',
+'CycleGAN_paper',,'"Deep Neural Networks"',,,'"CycleGAN"',,,,'"Image-to-Image Translation"',,,'"CycleGAN"','"PyTorch"',,,,'"Cityscapes"',
+'Pix2Pix_paper',,'"Deep Neural Networks"',,,'"Pix2Pix"',,,,'"Image-to-Image Translation"',,,'"Pix2Pix"','"PyTorch"',,,,'"Facades"',
+'StyleGAN_paper',,'"Deep Neural Networks"',,,'"StyleGAN"',,,,'"Image Generation"',,,'"StyleGAN"','"TensorFlow"',,,,'"FFHQ"',
+'BigGAN_paper',,'"Deep Neural Networks"',,,'"BigGAN"',,,,'"Image Generation"',,,'"BigGAN"','"TensorFlow"',,,,'"ImageNet"',
+'DCGAN_paper',,'"Deep Neural Networks"',,,'"DCGAN"',,,,'"Image Generation"',,,'"DCGAN"','"PyTorch"',,,,'"LSUN"',
+'Transformer-XL_paper',,'"Deep Neural Networks"','"Language Modeling"','"Transformer-XL"',,,,,,,,,,'"PyTorch"',,,,'"WikiText-103"'
+'ERNIE_paper',,'"Deep Neural Networks"','"Language Understanding"','"ERNIE"',,,,,,,,,,'"PaddlePaddle"',,,,'"Chinese Wikipedia"'
+'XLM_paper',,'"Deep Neural Networks"','"Cross-lingual Language Model"','"XLM"',,,,,,,,,,'"PyTorch"',,,,'"Wikipedia"'
+'GPT-3_paper',,'"Deep Neural Networks"','"Language Modeling"','"GPT-3"',,,,,,,,,,'"OpenAI GPT-3"',,,,'"Common Crawl"'
+'CLIP_paper',,'"Deep Neural Networks"','"Image and Text"','"CLIP"',,,,,,,,,,'"PyTorch"',,,,'"OpenAI CLIP Dataset"'
+'DALL-E_paper',,'"Deep Neural Networks"','"Image Generation"','"DALL-E"',,,,,,,,,,'"OpenAI DALL-E"',,,,'"OpenAI DALL-E Dataset"'
+'SimCLR_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"SimCLR"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'BYOL_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"BYOL"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'MoCo_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"MoCo"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'SwAV_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"SwAV"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'ViT_paper',,'"Deep Neural Networks"','"Image Classification"','"ViT"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'DETR_paper',,'"Deep Neural Networks"','"Object Detection"','"DETR"',,,,,,,,,,'"PyTorch"',,,,'"COCO"'
+'NeRF_paper',,'"Deep Neural Networks"','"3D Reconstruction"','"NeRF"',,,,,,,,,,'"TensorFlow"',,,,'"LLFF"'
+'BigGAN_paper',,'"Deep Neural Networks"','"Image Generation"','"BigGAN"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'StyleGAN2_paper',,'"Deep Neural Networks"','"Image Generation"','"StyleGAN2"',,,,,,,,,,'"TensorFlow"',,,,'"FFHQ"'
+'VQ-VAE_paper',,'"Deep Neural Networks"','"Image Generation"','"VQ-VAE"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'GPT-2_paper',,'"Deep Neural Networks"','"Language Modeling"','"GPT-2"',,,,,,,,,,'"OpenAI GPT-2"',,,,'"WebText"'
+'BERT_paper',,'"Deep Neural Networks"','"Language Understanding"','"BERT"',,,,,,,,,,'"TensorFlow"',,,,'"Wikipedia"'
+'RoBERTa_paper',,'"Deep Neural Networks"','"Language Understanding"','"RoBERTa"',,,,,,,,,,'"PyTorch"',,,,'"CC-News"'
+'ALBERT_paper',,'"Deep Neural Networks"','"Language Representation"','"ALBERT"',,,,,,,,,,'"TensorFlow"',,,,'"BookCorpus and English Wikipedia"'
+'XLNet_paper',,'"Deep Neural Networks"','"Language Understanding"','"XLNet"',,,,,,,,,,'"TensorFlow"',,,,'"Wikipedia Corpus"'
+'T5_paper',,'"Deep Neural Networks"','"Text-to-Text Transfer"','"T5"',,,,,,,,,,'"TensorFlow"',,,,'"C4 Dataset"'
+'GPT-3_paper',,'"Deep Neural Networks"','"Language Modeling"','"GPT-3"',,,,,,,,,,'"OpenAI GPT-3"',,,,'"Common Crawl"'
+'CLIP_paper',,'"Deep Neural Networks"','"Image and Text"','"CLIP"',,,,,,,,,,'"PyTorch"',,,,'"OpenAI CLIP Dataset"'
+'DALL-E_paper',,'"Deep Neural Networks"','"Image Generation"','"DALL-E"',,,,,,,,,,'"OpenAI DALL-E"',,,,'"OpenAI DALL-E Dataset"'
+'SimCLR_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"SimCLR"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'BYOL_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"BYOL"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'MoCo_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"MoCo"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'SwAV_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"SwAV"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'ViT_paper',,'"Deep Neural Networks"','"Image Classification"','"ViT"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'DETR_paper',,'"Deep Neural Networks"','"Object Detection"','"DETR"',,,,,,,,,,'"PyTorch"',,,,'"COCO"'
+'NeRF_paper',,'"Deep Neural Networks"','"3D Reconstruction"','"NeRF"',,,,,,,,,,'"TensorFlow"',,,,'"LLFF"'
+'ERNIE_paper',,'"Deep Neural Networks"','"Language Understanding"','"ERNIE"',,,,,,,,,,'"PaddlePaddle"',,,,'"Chinese Wikipedia"'
+'XLM_paper',,'"Deep Neural Networks"','"Cross-lingual Language Model"','"XLM"',,,,,,,,,,'"PyTorch"',,,,'"Wikipedia"'
+'StyleGAN2_paper',,'"Deep Neural Networks"','"Image Generation"','"StyleGAN2"',,,,,,,,,,'"TensorFlow"',,,,'"FFHQ"'
+'VQ-VAE_paper',,'"Deep Neural Networks"','"Image Generation"','"VQ-VAE"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'GPT-2_paper',,'"Deep Neural Networks"','"Language Modeling"','"GPT-2"',,,,,,,,,,'"OpenAI GPT-2"',,,,'"WebText"'
+'BERT_paper',,'"Deep Neural Networks"','"Language Understanding"','"BERT"',,,,,,,,,,'"TensorFlow"',,,,'"Wikipedia"'
+'RoBERTa_paper',,'"Deep Neural Networks"','"Language Understanding"','"RoBERTa"',,,,,,,,,,'"PyTorch"',,,,'"CC-News"'
+'ALBERT_paper',,'"Deep Neural Networks"','"Language Representation"','"ALBERT"',,,,,,,,,,'"TensorFlow"',,,,'"BookCorpus and English Wikipedia"'
+'XLNet_paper',,'"Deep Neural Networks"','"Language Understanding"','"XLNet"',,,,,,,,,,'"TensorFlow"',,,,'"Wikipedia Corpus"'
+'T5_paper',,'"Deep Neural Networks"','"Text-to-Text Transfer"','"T5"',,,,,,,,,,'"TensorFlow"',,,,'"C4 Dataset"'
+'GPT-3_paper',,'"Deep Neural Networks"','"Language Modeling"','"GPT-3"',,,,,,,,,,'"OpenAI GPT-3"',,,,'"Common Crawl"'
+'CLIP_paper',,'"Deep Neural Networks"','"Image and Text"','"CLIP"',,,,,,,,,,'"PyTorch"',,,,'"OpenAI CLIP Dataset"'
+'DALL-E_paper',,'"Deep Neural Networks"','"Image Generation"','"DALL-E"',,,,,,,,,,'"OpenAI DALL-E"',,,,'"OpenAI DALL-E Dataset"'
+'SimCLR_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"SimCLR"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'BYOL_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"BYOL"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'MoCo_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"MoCo"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'SwAV_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"SwAV"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'ViT_paper',,'"Deep Neural Networks"','"Image Classification"','"ViT"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'DETR_paper',,'"Deep Neural Networks"','"Object Detection"','"DETR"',,,,,,,,,,'"PyTorch"',,,,'"COCO"'
+'NeRF_paper',,'"Deep Neural Networks"','"3D Reconstruction"','"NeRF"',,,,,,,,,,'"TensorFlow"',,,,'"LLFF"'
+'ERNIE_paper',,'"Deep Neural Networks"','"Language Understanding"','"ERNIE"',,,,,,,,,,'"PaddlePaddle"',,,,'"Chinese Wikipedia"'
+'XLM_paper',,'"Deep Neural Networks"','"Cross-lingual Language Model"','"XLM"',,,,,,,,,,'"PyTorch"',,,,'"Wikipedia"'
+'StyleGAN2_paper',,'"Deep Neural Networks"','"Image Generation"','"StyleGAN2"',,,,,,,,,,'"TensorFlow"',,,,'"FFHQ"'
+'VQ-VAE_paper',,'"Deep Neural Networks"','"Image Generation"','"VQ-VAE"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'GPT-2_paper',,'"Deep Neural Networks"','"Language Modeling"','"GPT-2"',,,,,,,,,,'"OpenAI GPT-2"',,,,'"WebText"'
+'BERT_paper',,'"Deep Neural Networks"','"Language Understanding"','"BERT"',,,,,,,,,,'"TensorFlow"',,,,'"Wikipedia"'
+'RoBERTa_paper',,'"Deep Neural Networks"','"Language Understanding"','"RoBERTa"',,,,,,,,,,'"PyTorch"',,,,'"CC-News"'
+'ALBERT_paper',,'"Deep Neural Networks"','"Language Representation"','"ALBERT"',,,,,,,,,,'"TensorFlow"',,,,'"BookCorpus and English Wikipedia"'
+'XLNet_paper',,'"Deep Neural Networks"','"Language Understanding"','"XLNet"',,,,,,,,,,'"TensorFlow"',,,,'"Wikipedia Corpus"'
+'T5_paper',,'"Deep Neural Networks"','"Text-to-Text Transfer"','"T5"',,,,,,,,,,'"TensorFlow"',,,,'"C4 Dataset"'
+'GPT-3_paper',,'"Deep Neural Networks"','"Language Modeling"','"GPT-3"',,,,,,,,,,'"OpenAI GPT-3"',,,,'"Common Crawl"'
+'CLIP_paper',,'"Deep Neural Networks"','"Image and Text"','"CLIP"',,,,,,,,,,'"PyTorch"',,,,'"OpenAI CLIP Dataset"'
+'DALL-E_paper',,'"Deep Neural Networks"','"Image Generation"','"DALL-E"',,,,,,,,,,'"OpenAI DALL-E"',,,,'"OpenAI DALL-E Dataset"'
+'SimCLR_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"SimCLR"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'BYOL_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"BYOL"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'MoCo_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"MoCo"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'SwAV_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"SwAV"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'ViT_paper',,'"Deep Neural Networks"','"Image Classification"','"ViT"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'DETR_paper',,'"Deep Neural Networks"','"Object Detection"','"DETR"',,,,,,,,,,'"PyTorch"',,,,'"COCO"'
+'NeRF_paper',,'"Deep Neural Networks"','"3D Reconstruction"','"NeRF"',,,,,,,,,,'"TensorFlow"',,,,'"LLFF"'
+'ERNIE_paper',,'"Deep Neural Networks"','"Language Understanding"','"ERNIE"',,,,,,,,,,'"PaddlePaddle"',,,,'"Chinese Wikipedia"'
+'XLM_paper',,'"Deep Neural Networks"','"Cross-lingual Language Model"','"XLM"',,,,,,,,,,'"PyTorch"',,,,'"Wikipedia"'
+'StyleGAN2_paper',,'"Deep Neural Networks"','"Image Generation"','"StyleGAN2"',,,,,,,,,,'"TensorFlow"',,,,'"FFHQ"'
+'VQ-VAE_paper',,'"Deep Neural Networks"','"Image Generation"','"VQ-VAE"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'GPT-2_paper',,'"Deep Neural Networks"','"Language Modeling"','"GPT-2"',,,,,,,,,,'"OpenAI GPT-2"',,,,'"WebText"'
+'BERT_paper',,'"Deep Neural Networks"','"Language Understanding"','"BERT"',,,,,,,,,,'"TensorFlow"',,,,'"Wikipedia"'
+'RoBERTa_paper',,'"Deep Neural Networks"','"Language Understanding"','"RoBERTa"',,,,,,,,,,'"PyTorch"',,,,'"CC-News"'
+'ALBERT_paper',,'"Deep Neural Networks"','"Language Representation"','"ALBERT"',,,,,,,,,,'"TensorFlow"',,,,'"BookCorpus and English Wikipedia"'
+'XLNet_paper',,'"Deep Neural Networks"','"Language Understanding"','"XLNet"',,,,,,,,,,'"TensorFlow"',,,,'"Wikipedia Corpus"'
+'T5_paper',,'"Deep Neural Networks"','"Text-to-Text Transfer"','"T5"',,,,,,,,,,'"TensorFlow"',,,,'"C4 Dataset"'
+'GPT-3_paper',,'"Deep Neural Networks"','"Language Modeling"','"GPT-3"',,,,,,,,,,'"OpenAI GPT-3"',,,,'"Common Crawl"'
+'CLIP_paper',,'"Deep Neural Networks"','"Image and Text"','"CLIP"',,,,,,,,,,'"PyTorch"',,,,'"OpenAI CLIP Dataset"'
+'DALL-E_paper',,'"Deep Neural Networks"','"Image Generation"','"DALL-E"',,,,,,,,,,'"OpenAI DALL-E"',,,,'"OpenAI DALL-E Dataset"'
+'SimCLR_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"SimCLR"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'BYOL_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"BYOL"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'MoCo_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"MoCo"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'SwAV_paper',,'"Deep Neural Networks"','"Self-Supervised Learning"','"SwAV"',,,,,,,,,,'"PyTorch"',,,,'"ImageNet"'
+'ViT_paper',,'"Deep Neural Networks"','"Image Classification"','"ViT"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'DETR_paper',,'"Deep Neural Networks"','"Object Detection"','"DETR"',,,,,,,,,,'"PyTorch"',,,,'"COCO"'
+'NeRF_paper',,'"Deep Neural Networks"','"3D Reconstruction"','"NeRF"',,,,,,,,,,'"TensorFlow"',,,,'"LLFF"'
+'ERNIE_paper',,'"Deep Neural Networks"','"Language Understanding"','"ERNIE"',,,,,,,,,,'"PaddlePaddle"',,,,'"Chinese Wikipedia"'
+'XLM_paper',,'"Deep Neural Networks"','"Cross-lingual Language Model"','"XLM"',,,,,,,,,,'"PyTorch"',,,,'"Wikipedia"'
+'StyleGAN2_paper',,'"Deep Neural Networks"','"Image Generation"','"StyleGAN2"',,,,,,,,,,'"TensorFlow"',,,,'"FFHQ"'
+'VQ-VAE_paper',,'"Deep Neural Networks"','"Image Generation"','"VQ-VAE"',,,,,,,,,,'"TensorFlow"',,,,'"ImageNet"'
+'GPT-2_paper',,'"Deep Neural Networks"','"Language Modeling"','"GPT-2"',,,,,,,,,,'"OpenAI GPT-2"',,,,'"WebText"'
+'BERT_paper',,'"Deep Neural Networks"','"Language Understanding"','"BERT"',,,,,,,,,,'"TensorFlow"',,,,'"Wikipedia"'
+'RoBERTa_paper',,'"Deep Neural Networks"','"Language Understanding"','"RoBERTa"',,,,,,,,,,'"PyTorch"',,,,'"CC-News"'
+'ALBERT_paper',,'"Deep Neural Networks"','"Language Representation"','"ALBERT"',,,,,,,,,,'"TensorFlow"',,,,'"BookCorpus and English Wikipedia"'
+'XLNet_paper',,'"Deep Neural Networks"','"Language Understanding"','"XLNet"',,,,,,,,,,'"TensorFlow"',,,,'"Wikipedia Corpus"'
+'T5_paper',,'"Deep Neural Networks"','"Text-to-Text Transfer"','"T5"',,,,,,,,,,'"TensorFlow"',,,,'"C4 Dataset"'

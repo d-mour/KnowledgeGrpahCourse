@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>165</build>
+		<revision>249</revision>
+	</m_Version>
+	<m_TemplateName text="WaveSettings"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="WaveSettings"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="AuxFadeOutEnd"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>20.000000</m_fValue>
+							<m_ParamName text="WaveWidth"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>128.000000</m_fValue>
+							<m_ParamName text="WaveLength"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FadeInStart"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.100000</m_fValue>
+							<m_ParamName text="FadeInEnd"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>40.000000</m_fValue>
+							<m_ParamName text="StartDistance"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>2.000000</m_fValue>
+							<m_ParamName text="EndDistance"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="RestartDelayMin"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>4.000000</m_fValue>
+							<m_ParamName text="RestartDelayMax"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="FadeOutEnd"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.850000</m_fValue>
+							<m_ParamName text="FadeOutStart"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="WaveTest"/>
+							<m_XLPClass text="Wave"/>
+							<m_XLPPath text="Waves.xlp"/>
+							<m_BLPPackage text="Wave"/>
+							<m_LibraryName text="Wave"/>
+							<m_ParamName text="WaveMaterial"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="AuxFadeOutStart"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="AuxFadeInStart"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="AuxFadeInEnd"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.500000</m_fValue>
+							<m_ParamName text="AuxScrollRate"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>15.000000</m_fValue>
+							<m_ParamName text="CycleTimeMin"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>30.000000</m_fValue>
+							<m_ParamName text="CycleTimeMax"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="AuxTileRateU"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>2.000000</m_fValue>
+							<m_ParamName text="AuxTileRateV"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>255.000000</m_r>
+							<m_g>255.000000</m_g>
+							<m_b>255.000000</m_b>
+							<m_ParamName text="WaveColor"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>8.000000</m_fValue>
+							<m_ParamName text="CrashDistance"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.300000</m_fValue>
+							<m_ParamName text="MinScale"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="MaxScale"/>
+						</Element>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CLUTTER_CLIFF"/>
+									<m_RootCollectionName text="ClutterSets"/>
+									<m_ArtDefPath text="Clutter.artdef"/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text="Clutter"/>
+									<m_ParamName text="SplineTypes"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CLUTTER_CLIFFDOVER"/>
+									<m_RootCollectionName text="ClutterSets"/>
+									<m_ArtDefPath text="Clutter.artdef"/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text="Clutter"/>
+									<m_ParamName text="SplineTypes_1"/>
+								</Element>
+							</m_Values>
+							<m_ParamName text="SplineTypes"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="WaveSettings001"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

@@ -1,0 +1,454 @@
+@prefix : <http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#> .
+@prefix ns1: <http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_братом/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#> .
+
+<http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy> rdf:type owl:Ontology ;
+                                                                   owl:versionIRI <http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy/1.0> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#болеет
+:болеет rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty ;
+        rdfs:domain :Человек ;
+        rdfs:range :Болезнь .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#в_отношениях_с
+:в_отношениях_с rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                owl:inverseOf :в_отношениях_с ;
+                rdf:type owl:SymmetricProperty ;
+                rdfs:domain :Человек ;
+                rdfs:range :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#влюблен_в
+:влюблен_в rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Человек ;
+           rdfs:range :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#играл_персонажа
+:играл_персонажа rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:domain :Реальный_человек ;
+                 rdfs:range :Персонаж .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#ложно_обвинен
+:ложно_обвинен rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :Человек ;
+               rdfs:range :Преступление .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#описан_в
+:описан_в rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Персонаж ;
+          rdfs:range :Роман .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#осужден_на
+:осужден_на rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Человек ;
+            rdfs:range :Наказание .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#работает_у
+:работает_у rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Человек ;
+            rdfs:range :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#снимался_в
+:снимался_в rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Реальный_человек ;
+            rdfs:range :Фильм .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#снят_в_стране
+:снят_в_стране rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :Фильм ;
+               rdfs:range :Страна .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#снят_по_сюжету
+:снят_по_сюжету rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain :Фильм ;
+                rdfs:range :Роман .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#совершил
+:совершил rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Человек ;
+          rdfs:range :Преступление .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#упоминает
+:упоминает rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Действующий_герой ;
+           rdfs:range :Упоминаемый_образ .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_автором
+:является_автором rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Человек ;
+                  rdfs:range :Литературное_произведение .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_братом_сестрой
+:является_братом_сестрой rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf :является_родственником ;
+                         rdf:type owl:SymmetricProperty ,
+                                  owl:TransitiveProperty ;
+                         rdfs:domain :Человек ;
+                         rdfs:range :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_воспитателем
+:является_воспитателем rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Человек ;
+                       rdfs:range :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_женой
+:является_женой rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :является_родственником ;
+                owl:inverseOf :является_мужем ;
+                rdf:type owl:IrreflexiveProperty ;
+                rdfs:domain :Человек ;
+                rdfs:range :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_жертвой
+:является_жертвой rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Человек ;
+                  rdfs:range :Преступление .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_матерью
+:является_матерью rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :является_родственником ;
+                  owl:inverseOf :является_ребенком ;
+                  rdf:type owl:InverseFunctionalProperty ,
+                           owl:IrreflexiveProperty ;
+                  rdfs:domain :Человек ;
+                  rdfs:range :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_мужем
+:является_мужем rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :является_родственником ;
+                rdf:type owl:IrreflexiveProperty ;
+                rdfs:domain :Человек ;
+                rdfs:range :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_отцом
+:является_отцом rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :является_родственником ;
+                owl:inverseOf :является_ребенком ;
+                rdf:type owl:InverseFunctionalProperty ,
+                         owl:IrreflexiveProperty ;
+                rdfs:domain :Человек ;
+                rdfs:range :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_прототипом
+:является_прототипом rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty ;
+                     rdfs:domain :Реальный_человек ;
+                     rdfs:range :Персонаж .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_ребенком
+:является_ребенком rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :является_родственником ;
+                   rdf:type owl:IrreflexiveProperty ;
+                   rdfs:domain :Человек ;
+                   rdfs:range :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_родственником
+:является_родственником rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty ;
+                        rdf:type owl:SymmetricProperty ,
+                                 owl:TransitiveProperty ;
+                        rdfs:domain :Человек ;
+                        rdfs:range :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_свидетелем
+:является_свидетелем rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty ;
+                     rdfs:domain :Человек ;
+                     rdfs:range :Преступление .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#является_участником
+:является_участником rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty ;
+                     rdfs:domain :Человек ;
+                     rdfs:range :Общество .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#год_рождения
+:год_рождения rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Человек ;
+              rdfs:range xsd:unsignedInt .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#год_смерти
+:год_смерти rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :Человек ;
+            rdfs:range xsd:unsignedInt .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#год_создания
+:год_создания rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Литературное_произведение ,
+                          :Фильм ;
+              rdfs:range xsd:unsignedInt .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#жанр
+:жанр rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf owl:topDataProperty ;
+      rdfs:domain :Фильм .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#идея
+:идея rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf owl:topDataProperty ;
+      rdfs:domain :Носитель_идеи ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#название
+:название rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :Литературное_произведение ,
+                      :Фильм ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#пол
+:пол rdf:type owl:DatatypeProperty ;
+     rdfs:subPropertyOf owl:topDataProperty ;
+     rdf:type owl:FunctionalProperty ;
+     rdfs:domain :Человек ;
+     rdfs:range [ rdf:type rdfs:Datatype ;
+                  owl:oneOf [ rdf:type rdf:List ;
+                              rdf:first "женский" ;
+                              rdf:rest [ rdf:type rdf:List ;
+                                         rdf:first "мужской" ;
+                                         rdf:rest rdf:nil
+                                       ]
+                            ]
+                ] .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#причина_смерти
+:причина_смерти rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :Человек ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#рейтинг
+:рейтинг rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdf:type owl:FunctionalProperty ;
+         rdfs:domain :Фильм ;
+         rdfs:range xsd:double .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#род_деятельности
+:род_деятельности rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Человек ;
+                  rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Болезнь
+:Болезнь rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Действующий_герой
+:Действующий_герой rdf:type owl:Class ;
+                   rdfs:subClassOf :Персонаж ;
+                   owl:disjointWith :Упоминаемый_образ .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Литературное_произведение
+:Литературное_произведение rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Наказание
+:Наказание rdf:type owl:Class ;
+           rdfs:subClassOf :Событие .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Носитель_идеи
+:Носитель_идеи rdf:type owl:Class ;
+               rdfs:subClassOf :Действующий_герой .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Общество
+:Общество rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Педофилия
+:Педофилия rdf:type owl:Class ;
+           rdfs:subClassOf :Преступление .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Персонаж
+:Персонаж rdf:type owl:Class ;
+          rdfs:subClassOf :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Подделка_документов
+:Подделка_документов rdf:type owl:Class ;
+                     rdfs:subClassOf :Преступление .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Поэма
+:Поэма rdf:type owl:Class ;
+       rdfs:subClassOf :Литературное_произведение .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Преступление
+:Преступление rdf:type owl:Class ;
+              rdfs:subClassOf :Событие .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Реальный_человек
+:Реальный_человек rdf:type owl:Class ;
+                  rdfs:subClassOf :Человек .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Роман
+:Роман rdf:type owl:Class ;
+       rdfs:subClassOf :Литературное_произведение .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Событие
+:Событие rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Статья
+:Статья rdf:type owl:Class ;
+        rdfs:subClassOf :Литературное_произведение .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Страна
+:Страна rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Убийство
+:Убийство rdf:type owl:Class ;
+          rdfs:subClassOf :Преступление .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Упоминаемый_образ
+:Упоминаемый_образ rdf:type owl:Class ;
+                   rdfs:subClassOf :Персонаж .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Фильм
+:Фильм rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Человек
+:Человек rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Алкоголизм
+:Алкоголизм rdf:type owl:NamedIndividual ,
+                     :Болезнь .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Каторга
+:Каторга rdf:type owl:NamedIndividual ,
+                  :Наказание .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Паралич
+:Паралич rdf:type owl:NamedIndividual ,
+                  :Болезнь .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Слабоумие
+:Слабоумие rdf:type owl:NamedIndividual ,
+                    :Болезнь .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Туберкулез
+:Туберкулез rdf:type owl:NamedIndividual ,
+                     :Болезнь .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Чахотка
+:Чахотка rdf:type owl:NamedIndividual ,
+                  :Болезнь .
+
+
+###  http://www.semanticweb.org/irina/ontologies/2023/10/dostoevskiy#Эпилепсия
+:Эпилепсия rdf:type owl:NamedIndividual ,
+                    :Болезнь .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Болезнь
+                :Общество
+                :Персонаж
+                :Роман
+                :Событие
+                :Человек
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

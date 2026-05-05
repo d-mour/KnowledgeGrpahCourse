@@ -1,0 +1,67 @@
+# 1.Какие монстры типа "нежить" обладают уровнем 15?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ont: <http://www.semanticweb.org/demas/ontologies/2024/9/untitled-ontology-14#>
+
+SELECT ?Enemy
+WHERE {
+    ?Enemy ont:hasType ont:Нежить ;
+           ont:hasRank ont:15 .
+}
+
+
+# 2.Какой урон будет наиболее эффективен против монстров, находящихся в локации "подземелье" и имеющих тип "нежить"?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ont: <http://www.semanticweb.org/demas/ontologies/2024/9/untitled-ontology-14#>
+
+SELECT ?damageType
+WHERE {
+  ?monster rdf:type ont:Enemy ;
+           ont:hasType ont:Нежить ;
+           ont:hasLocation ont:Подземелья ;
+           ont:hasVulnerabilityToDamage ?damageType .
+}
+
+
+
+# 3.Какие монстры с типом "элементаль" имеют иммунитет к огненному урону, но уязвимы к ледяному урону?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ont: <http://www.semanticweb.org/demas/ontologies/2024/9/untitled-ontology-14#>
+
+SELECT ?monster
+WHERE {
+  ?monster rdf:type ont:Enemy ;
+           ont:hasType ont:Элементаль ;
+           ont:hasImmunityToDamage ont:Огненный ;
+           ont:hasVulnerabilityToDamage ont:Холодный .
+}
+
+
+
+# 4.Какой язык используют монстры, обитающие в локации "лес", и какие у них иммунитеты к определённым типам урона?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ont: <http://www.semanticweb.org/demas/ontologies/2024/9/untitled-ontology-14#>
+
+SELECT ?language ?immunityType
+WHERE {
+  ?monster rdf:type ont:Enemy ;
+           ont:hasLocation ont:Лес ;
+           ont:hasLanguage ?language ;
+           ont:hasVulnerabilityToDamage ?immunityType .
+}
+
+
+
+# 5.Каким монстрам с уровнем 15 может быть присвоен статус "отравленный"?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ont: <http://www.semanticweb.org/demas/ontologies/2024/9/untitled-ontology-14#>
+
+SELECT ?Enemy
+WHERE {
+    ?Enemy ont:hasRank ont:15 ;
+           FILTER NOT EXISTS { ?Enemy ont:hasImmunityToState ont:Отравленный }
+}

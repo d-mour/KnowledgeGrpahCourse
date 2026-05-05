@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology/"
+     xml:base="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:mailru-ontology="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#has_topic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#has_topic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#illustrates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#illustrates"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Android -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Android">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#DOTA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#DOTA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#GTA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#GTA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Ios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Ios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Minecraft -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Minecraft">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#PUBG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#PUBG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Roblox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Roblox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Rust -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Rust">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Sims -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Sims">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Stalker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Stalker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Steam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Steam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Unity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Unity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#QuestionTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#ad63a2854e1465b47da1c90f52d970f8bb9c9c38c71f9523fcb964e6db1a0041190219bfa1450319d4b1bb5370ff7246 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#ad63a2854e1465b47da1c90f52d970f8bb9c9c38c71f9523fcb964e6db1a0041190219bfa1450319d4b1bb5370ff7246">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267884462"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#e1215b99632071345694b9bd182e3c3e74c599aa764133d7cf8913923d76eeeb7717e801a0723a2428ea39f7f536a696 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#e1215b99632071345694b9bd182e3c3e74c599aa764133d7cf8913923d76eeeb7717e801a0723a2428ea39f7f536a696">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267884725"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#e77e46d9dfaa30274983ec72a18177f1896f6247181e4f6309544ab102d78232d023b8568b09c981186861833136c18e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#e77e46d9dfaa30274983ec72a18177f1896f6247181e4f6309544ab102d78232d023b8568b09c981186861833136c18e">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267886216"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#0b2f60add9bcb913bd8822a1058c20559dfcd65139c849ced5913c8ff12bf47d429a91927ac50be0cd1fcea02a92c616 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#0b2f60add9bcb913bd8822a1058c20559dfcd65139c849ced5913c8ff12bf47d429a91927ac50be0cd1fcea02a92c616">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267881928"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#1e7c0221bf58bac01c73a975e6ec31761773741ee9617cf6226eda8ab5644b882671c61f1a79070807f018230b952ddc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#1e7c0221bf58bac01c73a975e6ec31761773741ee9617cf6226eda8ab5644b882671c61f1a79070807f018230b952ddc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267886156"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#1f549c183fd7c2ae321e5e044ee8eed0076b2193c16180fa3be743115b445c225fde1ac7a3dd4fe8f405840dd05ec07d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#1f549c183fd7c2ae321e5e044ee8eed0076b2193c16180fa3be743115b445c225fde1ac7a3dd4fe8f405840dd05ec07d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267886732"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#2db7ee2fec7317568d15061248f5355776cfb684c76282640db537740a9adffb22ffd75bbd75a062404d2121d476f28b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#2db7ee2fec7317568d15061248f5355776cfb684c76282640db537740a9adffb22ffd75bbd75a062404d2121d476f28b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267888171"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#20d82559a7393cb9b49fe89b024b36ab021294e9440c252155ddfe377dad3ce02488ed957c249c2c7627d0cedae9cdb3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#20d82559a7393cb9b49fe89b024b36ab021294e9440c252155ddfe377dad3ce02488ed957c249c2c7627d0cedae9cdb3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267884029"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267881928 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267881928">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Steam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267882046 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267882046">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#GTA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267882567 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267882567">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#GTA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267884029 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267884029">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Unity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267884462 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267884462">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Roblox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267884725 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267884725">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Stalker"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267885376 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267885376">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#GTA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267886156 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267886156">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Roblox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267886216 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267886216">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Minecraft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267886732 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267886732">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Roblox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267887392 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267887392">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Roblox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267887551 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267887551">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#PUBG"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267888171 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267888171">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Minecraft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267889302 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267889302">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Question"/>
+        <mailru-ontology:has_topic rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Android"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#4335c3fe2dfdaa8d8dbb062bbe542d67fd4a6448b37d577e7265cf446081b88233be8fedf9c505d5c57a5c40369974f3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#4335c3fe2dfdaa8d8dbb062bbe542d67fd4a6448b37d577e7265cf446081b88233be8fedf9c505d5c57a5c40369974f3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267887551"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#54c535ce3387d059e95c3f4abe3b6c6c1a20d5209dc655ee569447a3c62fdd503825f96c20f9dde36522591a481c75c4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#54c535ce3387d059e95c3f4abe3b6c6c1a20d5209dc655ee569447a3c62fdd503825f96c20f9dde36522591a481c75c4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267889302"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#568c37ae633e669c35dd1d81aa348c82914b6c0018759b42a9b1006d9311120cc3b8e00801c05d3fd6f987ab5bbc38eb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#568c37ae633e669c35dd1d81aa348c82914b6c0018759b42a9b1006d9311120cc3b8e00801c05d3fd6f987ab5bbc38eb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267887392"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#58e739793b60244110063b34b3ffda4f9ce20e338edd1ae1fcb41028631033217d959cd18aab7af22f705a4727e86bea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#58e739793b60244110063b34b3ffda4f9ce20e338edd1ae1fcb41028631033217d959cd18aab7af22f705a4727e86bea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267882567"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#75f773033172a796cb64a8365df3cc428b813bcc1e882b42f74e363ec386dd86c41ca8eb68e674089711ec8e84439610 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#75f773033172a796cb64a8365df3cc428b813bcc1e882b42f74e363ec386dd86c41ca8eb68e674089711ec8e84439610">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267882046"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#81ec9ee9a5d80efedf624bc9097b87d27040d915a9ad86803c945dbc48bf688cc1f55b237b996f2102f0384915781b5a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#81ec9ee9a5d80efedf624bc9097b87d27040d915a9ad86803c945dbc48bf688cc1f55b237b996f2102f0384915781b5a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#Image"/>
+        <mailru-ontology:illustrates rdf:resource="http://www.semanticweb.org/boxapp/ontologies/2025/8/mailru-ontology#267885376"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

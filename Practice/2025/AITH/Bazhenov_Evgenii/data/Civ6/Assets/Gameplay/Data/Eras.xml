@@ -1,0 +1,215 @@
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_ERA"/>
+	</Kinds>
+	<Types>
+		<Row Type="ERA_ANCIENT" Kind="KIND_ERA"/>
+		<Row Type="ERA_CLASSICAL" Kind="KIND_ERA"/>
+		<Row Type="ERA_MEDIEVAL" Kind="KIND_ERA"/>
+		<Row Type="ERA_RENAISSANCE" Kind="KIND_ERA"/>
+		<Row Type="ERA_INDUSTRIAL" Kind="KIND_ERA"/>
+		<Row Type="ERA_MODERN" Kind="KIND_ERA"/>
+		<Row Type="ERA_ATOMIC" Kind="KIND_ERA"/>
+		<Row Type="ERA_INFORMATION" Kind="KIND_ERA"/>
+	</Types>
+	<Eras>
+		<Row EraType="ERA_ANCIENT" Name="LOC_ERA_ANCIENT_NAME" Description="LOC_ERA_ANCIENT_DESCRIPTION" ChronologyIndex="1" WarmongerPoints="0" GreatPersonBaseCost="30" EraTechBackgroundTexture="TechTree_BGAncient" EraCivicBackgroundTexture="TechTree_BGAncient" WarmongerLevelDescription="LOC_WARMONGER_LEVEL_NONE" EmbarkedUnitStrength="10" TechTreeLayoutMethod="Cost"/>
+		<Row EraType="ERA_CLASSICAL" Name="LOC_ERA_CLASSICAL_NAME" Description="LOC_ERA_CLASSICAL_DESCRIPTION" ChronologyIndex="2" WarmongerPoints="6" GreatPersonBaseCost="60" EraTechBackgroundTexture="TechTree_BGClassical" EraCivicBackgroundTexture="TechTree_BGClassical" WarmongerLevelDescription="LOC_WARMONGER_LEVEL_LIGHT" EmbarkedUnitStrength="15" TechTreeLayoutMethod="Cost"/>
+		<Row EraType="ERA_MEDIEVAL" Name="LOC_ERA_MEDIEVAL_NAME" Description="LOC_ERA_MEDIEVAL_DESCRIPTION" ChronologyIndex="3" WarmongerPoints="12" GreatPersonBaseCost="120" EraTechBackgroundTexture="TechTree_BGMedieval" EraCivicBackgroundTexture="TechTree_BGMedieval" WarmongerLevelDescription="LOC_WARMONGER_LEVEL_MODERATE" EmbarkedUnitStrength="15" TechTreeLayoutMethod="Cost"/>
+		<Row EraType="ERA_RENAISSANCE" Name="LOC_ERA_RENAISSANCE_NAME" Description="LOC_ERA_RENAISSANCE_DESCRIPTION" ChronologyIndex="4" WarmongerPoints="18" GreatPersonBaseCost="240" EraTechBackgroundTexture="TechTree_BGRenaissance" EraCivicBackgroundTexture="TechTree_BGRenaissance" WarmongerLevelDescription="LOC_WARMONGER_LEVEL_HEAVY" EmbarkedUnitStrength="30" TechTreeLayoutMethod="Cost"/>
+		<Row EraType="ERA_INDUSTRIAL" Name="LOC_ERA_INDUSTRIAL_NAME" Description="LOC_ERA_INDUSTRIAL_DESCRIPTION" ChronologyIndex="5" WarmongerPoints="24" GreatPersonBaseCost="420" EraTechBackgroundTexture="TechTree_BGIndustrial" EraCivicBackgroundTexture="TechTree_BGIndustrial" WarmongerLevelDescription="LOC_WARMONGER_LEVEL_SEVERE" EmbarkedUnitStrength="35" TechTreeLayoutMethod="Cost"/>
+		<Row EraType="ERA_MODERN" Name="LOC_ERA_MODERN_NAME" Description="LOC_ERA_MODERN_DESCRIPTION" ChronologyIndex="6" WarmongerPoints="24" GreatPersonBaseCost="660" EraTechBackgroundTexture="TechTree_BGModern" EraCivicBackgroundTexture="TechTree_BGModern" WarmongerLevelDescription="LOC_WARMONGER_LEVEL_EGREGIOUS" EmbarkedUnitStrength="50" TechTreeLayoutMethod="Cost"/>
+		<Row EraType="ERA_ATOMIC" Name="LOC_ERA_ATOMIC_NAME" Description="LOC_ERA_ATOMIC_DESCRIPTION" ChronologyIndex="7" WarmongerPoints="24" GreatPersonBaseCost="960" EraTechBackgroundTexture="TechTree_BGAtomic" EraCivicBackgroundTexture="TechTree_BGAtomic" WarmongerLevelDescription="LOC_WARMONGER_LEVEL_EGREGIOUS" EmbarkedUnitStrength="55" TechTreeLayoutMethod="Cost"/>
+		<Row EraType="ERA_INFORMATION" Name="LOC_ERA_INFORMATION_NAME" Description="LOC_ERA_INFORMATION_DESCRIPTION" ChronologyIndex="8" WarmongerPoints="24" GreatPersonBaseCost="1320" EraTechBackgroundTexture="TechTree_BGInformation" EraCivicBackgroundTexture="TechTree_BGInformation" WarmongerLevelDescription="LOC_WARMONGER_LEVEL_EGREGIOUS" EmbarkedUnitStrength="55" TechTreeLayoutMethod="Cost"/>
+	</Eras>
+	<StartEras>
+		<Row EraType="ERA_ANCIENT" Gold="10" StartingMeleeStrengthMajor="20" StartingMeleeStrengthMinor="25" Tiles="0" Year="-4000"/>
+		<Row EraType="ERA_CLASSICAL" Gold="110" Faith="10" FirstTurnCivicChange="true" StartingPopulationCapital="4" StartingAmenitiesCapital="1" StartingHousingCapital="2" GrowthRate="10" DistrictProductionRate="20" StartingMeleeStrengthMajor="35" StartingMeleeStrengthMinor="40" Tiles="1" Year="-1000" IgnoreGoodyHutTurn="true"/>
+		<Row EraType="ERA_MEDIEVAL" Gold="210" Faith="20" FirstTurnCivicChange="true" StartingPopulationCapital="4" StartingPopulationOtherCities="2" StartingAmenitiesCapital="1" StartingHousingCapital="2" StartingHousingOtherCities="1" GrowthRate="10" ProductionRate="10" DistrictProductionRate="40" StartingMeleeStrengthMajor="35" StartingMeleeStrengthMinor="35" StartingRangedStrengthMajor="25" StartingRangedStrengthMinor="25" Tiles="2" Year="500" IgnoreGoodyHutTurn="true"/>
+		<Row EraType="ERA_RENAISSANCE" Gold="250" Faith="20" FirstTurnCivicChange="true" StartingPopulationCapital="7" StartingPopulationOtherCities="2" StartingAmenitiesCapital="3" StartingHousingCapital="5" StartingHousingOtherCities="1" GrowthRate="20" ProductionRate="10" DistrictProductionRate="60" StartingMeleeStrengthMajor="50" StartingMeleeStrengthMinor="50" StartingRangedStrengthMajor="40" StartingRangedStrengthMinor="40" Tiles="3" Year="1350" IgnoreGoodyHutTurn="true"/>
+		<Row EraType="ERA_INDUSTRIAL" Gold="360" FirstTurnCivicChange="true" StartingPopulationCapital="7" StartingPopulationOtherCities="4" StartingAmenitiesCapital="3" StartingAmenitiesOtherCities="1" StartingHousingCapital="5" StartingHousingOtherCities="2" GrowthRate="20" ProductionRate="20" DistrictProductionRate="80" StartingMeleeStrengthMajor="50" StartingMeleeStrengthMinor="50" StartingRangedStrengthMajor="40" StartingRangedStrengthMinor="40" ObsoleteReligion="true" Tiles="4" Year="1725" IgnoreGoodyHutTurn="true"/>
+		<Row EraType="ERA_MODERN" Gold="485" FirstTurnCivicChange="true" StartingPopulationCapital="10" StartingPopulationOtherCities="4" StartingAmenitiesCapital="4" StartingAmenitiesOtherCities="0" StartingHousingCapital="8" StartingHousingOtherCities="2" GrowthRate="30" ProductionRate="20" DistrictProductionRate="100" StartingMeleeStrengthMajor="50" StartingMeleeStrengthMinor="50" StartingRangedStrengthMajor="60" StartingRangedStrengthMinor="60" ObsoleteReligion="true" Tiles="5" Year="1890" IgnoreGoodyHutTurn="true"/>
+		<Row EraType="ERA_ATOMIC" Gold="550" FirstTurnCivicChange="true" StartingPopulationCapital="10" StartingPopulationOtherCities="6" StartingAmenitiesCapital="4" StartingAmenitiesOtherCities="2" StartingHousingCapital="8" StartingHousingOtherCities="4" GrowthRate="30" ProductionRate="30" DistrictProductionRate="120" StartingMeleeStrengthMajor="70" StartingMeleeStrengthMinor="70" StartingRangedStrengthMajor="60" StartingRangedStrengthMinor="60" ObsoleteReligion="true" Tiles="6" Year="1945" IgnoreGoodyHutTurn="true"/>
+		<Row EraType="ERA_INFORMATION" Gold="710" FirstTurnCivicChange="true" StartingPopulationCapital="13" StartingPopulationOtherCities="6" StartingAmenitiesCapital="6" StartingAmenitiesOtherCities="2" StartingHousingCapital="11" StartingHousingOtherCities="4" GrowthRate="40" ProductionRate="30" DistrictProductionRate="140" StartingMeleeStrengthMajor="70" StartingMeleeStrengthMinor="70" StartingRangedStrengthMajor="75" StartingRangedStrengthMinor="75" ObsoleteReligion="true" Tiles="7" Year="1995" IgnoreGoodyHutTurn="true"/>
+	</StartEras>
+	<MajorStartingUnits>
+		<!--
+			District - District type of district for OnDistrictCreated.  Civ specific districts may be used for targeted bonuses.  
+						If a civ specific district is not given specific starting units, it will use the starting units for its base district type.
+			OnDistrictCreated - Unit spawns when the district given by District is created.	
+		-->
+		<Row Era="ERA_ANCIENT" Unit="UNIT_SETTLER"/>
+		<Row Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" NotStartTile="true"/>
+		<Row Era="ERA_ANCIENT" Unit="UNIT_SETTLER" AiOnly="true" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="1" NotStartTile="true"/>
+		<Row Era="ERA_ANCIENT" Unit="UNIT_BUILDER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_CLASSICAL" Unit="UNIT_SETTLER"/>
+		<Row Era="ERA_CLASSICAL" Unit="UNIT_BUILDER"/>
+		<Row Era="ERA_CLASSICAL" Unit="UNIT_SCOUT" NotStartTile="true"/>
+		<Row Era="ERA_CLASSICAL" Unit="UNIT_SPEARMAN"/>
+		<Row Era="ERA_CLASSICAL" Unit="UNIT_SETTLER" AiOnly="true" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_CLASSICAL" Unit="UNIT_SPEARMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="1" NotStartTile="true"/>
+		<Row Era="ERA_CLASSICAL" Unit="UNIT_BUILDER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_SETTLER" Quantity="2"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_BUILDER" Quantity="2" OnDistrictCreated="true"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_TRADER" Quantity="1" OnDistrictCreated="true"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_SCOUT" NotStartTile="true"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_SPEARMAN" OnDistrictCreated="true"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_ARCHER"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_SETTLER" AiOnly="true" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_SPEARMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="1" NotStartTile="true"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_BUILDER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_SETTLER" Quantity="2"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_BUILDER" Quantity="2" OnDistrictCreated="true"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_TRADER" Quantity="1" OnDistrictCreated="true"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_SCOUT" Quantity="2" NotStartTile="true"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_PIKEMAN" Quantity="2" OnDistrictCreated="true"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_CROSSBOWMAN"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_SETTLER" AiOnly="true" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_PIKEMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="1" NotStartTile="true"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_BUILDER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_SETTLER" Quantity="2"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_BUILDER" Quantity="2" OnDistrictCreated="true"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_TRADER" Quantity="1" OnDistrictCreated="true"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_PIKEMAN" Quantity="2" OnDistrictCreated="true"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_SCOUT" Quantity="2" NotStartTile="true"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_CROSSBOWMAN" Quantity="2"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_SETTLER" AiOnly="true" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_PIKEMAN" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="1" NotStartTile="true"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_BUILDER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_SETTLER" Quantity="3"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_BUILDER" Quantity="3" OnDistrictCreated="true"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_TRADER" Quantity="2" OnDistrictCreated="true"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_RANGER" Quantity="3" NotStartTile="true"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_PIKEMAN" Quantity="3" OnDistrictCreated="true"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_FIELD_CANNON" Quantity="2"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_SETTLER" AiOnly="true" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_RANGER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="1" NotStartTile="true"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_BUILDER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_SETTLER" Quantity="3"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_BUILDER" Quantity="3" OnDistrictCreated="true"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_TRADER" Quantity="2" OnDistrictCreated="true"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_RANGER" Quantity="3" NotStartTile="true"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_INFANTRY" Quantity="3" OnDistrictCreated="true"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_FIELD_CANNON" Quantity="3"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_SETTLER" AiOnly="true" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_INFANTRY" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="1" NotStartTile="true"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_BUILDER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_SETTLER" Quantity="4"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_BUILDER" Quantity="4" OnDistrictCreated="true"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_TRADER" Quantity="2" OnDistrictCreated="true"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_RANGER" Quantity="3" NotStartTile="true"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_INFANTRY" Quantity="4" OnDistrictCreated="true"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_MACHINE_GUN" Quantity="3"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_SETTLER" AiOnly="true" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_INFANTRY" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="1" NotStartTile="true"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_BUILDER" AiOnly="true" MinDifficulty="DIFFICULTY_KING" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+	</MajorStartingUnits>
+	<!-- Additional Starting Units for Minor Civilizations in addition to their Settler-->
+	<BonusMinorStartingUnits>
+		<Row Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" Quantity="2"/>
+		<Row Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="1"/>
+		<Row Era="ERA_CLASSICAL" Unit="UNIT_WARRIOR"/>
+		<Row Era="ERA_CLASSICAL" Unit="UNIT_WARRIOR" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="1"/>
+		<Row Era="ERA_CLASSICAL" Unit="UNIT_SPEARMAN"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_BUILDER"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_SPEARMAN"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_ARCHER"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_SWORDSMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="1"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_BUILDER"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_PIKEMAN"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_CROSSBOWMAN"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_SWORDSMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="1"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_BUILDER"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_TRADER" OnDistrictCreated="true"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_PIKEMAN"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_CROSSBOWMAN"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_MUSKETMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="1"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_BUILDER"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_TRADER" OnDistrictCreated="true"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_PIKEMAN"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_FIELD_CANNON"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_MUSKETMAN" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="1"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_BUILDER"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_TRADER" OnDistrictCreated="true"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_INFANTRY"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_FIELD_CANNON"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_INFANTRY" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="1"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_BUILDER"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_TRADER" OnDistrictCreated="true"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_INFANTRY"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_MACHINE_GUN"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_INFANTRY" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="1"/>
+	</BonusMinorStartingUnits>
+	<StartingBuildings>
+		<Row  Era="ERA_ANCIENT" MinorOnly="true" MinDifficulty="DIFFICULTY_IMMORTAL"  Building="BUILDING_WALLS" District="DISTRICT_CITY_CENTER"/>
+		<Row Era="ERA_MEDIEVAL" Building="BUILDING_MONUMENT" District="DISTRICT_CITY_CENTER"/>
+		<Row Era="ERA_RENAISSANCE" Building="BUILDING_GRANARY" District="DISTRICT_CITY_CENTER"/>
+		<Row Era="ERA_RENAISSANCE" Building="BUILDING_LIBRARY" District="DISTRICT_CAMPUS"/>
+		<Row Era="ERA_RENAISSANCE" Building="BUILDING_SHRINE" District="DISTRICT_HOLY_SITE"/>
+		<Row Era="ERA_RENAISSANCE" Building="BUILDING_WALLS" District="DISTRICT_CITY_CENTER"/>
+		<Row Era="ERA_INDUSTRIAL" Building="BUILDING_ARENA" District="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row Era="ERA_INDUSTRIAL" Building="BUILDING_LIGHTHOUSE" District="DISTRICT_HARBOR"/>
+		<Row Era="ERA_INDUSTRIAL" Building="BUILDING_MARKET" District="DISTRICT_COMMERCIAL_HUB"/>
+		<Row Era="ERA_INDUSTRIAL" Building="BUILDING_TEMPLE" District="DISTRICT_HOLY_SITE"/>
+		<Row Era="ERA_INDUSTRIAL" Building="BUILDING_AMPHITHEATER" District="DISTRICT_THEATER"/>
+		<Row Era="ERA_MODERN" Building="BUILDING_CASTLE" District="DISTRICT_CITY_CENTER"/>
+		<Row Era="ERA_MODERN" Building="BUILDING_UNIVERSITY" District="DISTRICT_CAMPUS"/>
+		<Row Era="ERA_MODERN" Building="BUILDING_WORKSHOP" District="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row Era="ERA_ATOMIC" Building="BUILDING_STAR_FORT" District="DISTRICT_CITY_CENTER"/>
+		<Row Era="ERA_ATOMIC" Building="BUILDING_BANK" District="DISTRICT_COMMERCIAL_HUB"/>
+		<Row Era="ERA_ATOMIC" Building="BUILDING_SHIPYARD" District="DISTRICT_HARBOR"/>
+		<Row Era="ERA_INFORMATION" Building="BUILDING_FACTORY" District="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row Era="ERA_INFORMATION" Building="BUILDING_STOCK_EXCHANGE" District="DISTRICT_COMMERCIAL_HUB"/>
+		<Row Era="ERA_INFORMATION" Building="BUILDING_SEWER" District="DISTRICT_CITY_CENTER"/>
+		<Row Era="ERA_INFORMATION" Building="BUILDING_ZOO" District="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+	</StartingBuildings>
+	<StartingGovernments>
+		<Row Era="ERA_ANCIENT" Government="GOVERNMENT_CHIEFDOM"/>
+		<Row Era="ERA_CLASSICAL" Government="GOVERNMENT_CHIEFDOM"/>
+		<Row Era="ERA_MEDIEVAL" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+		<Row Era="ERA_RENAISSANCE" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+		<Row Era="ERA_INDUSTRIAL" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+		<Row Era="ERA_MODERN" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+		<Row Era="ERA_ATOMIC" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+		<Row Era="ERA_INFORMATION" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+	</StartingGovernments>
+	<StartingCivics>
+		<Row Era="ERA_ANCIENT" Civic="CIVIC_CODE_OF_LAWS"/>
+	</StartingCivics>
+	<StartingBoostedTechnologies>
+		<Row Era="ERA_CLASSICAL" Technology="TECH_CELESTIAL_NAVIGATION"/>
+		<Row Era="ERA_CLASSICAL" Technology="TECH_HORSEBACK_RIDING"/>
+		<Row Era="ERA_CLASSICAL" Technology="TECH_IRON_WORKING"/>
+		<Row Era="ERA_MEDIEVAL" Technology="TECH_MILITARY_TACTICS"/>
+		<Row Era="ERA_MEDIEVAL" Technology="TECH_APPRENTICESHIP"/>
+		<Row Era="ERA_MEDIEVAL" Technology="TECH_EDUCATION"/>
+		<Row Era="ERA_RENAISSANCE" Technology="TECH_CARTOGRAPHY"/>
+		<Row Era="ERA_RENAISSANCE" Technology="TECH_MASS_PRODUCTION"/>
+		<Row Era="ERA_RENAISSANCE" Technology="TECH_BANKING"/>
+		<Row Era="ERA_INDUSTRIAL" Technology="TECH_SCIENTIFIC_THEORY"/>
+		<Row Era="ERA_INDUSTRIAL" Technology="TECH_BALLISTICS"/>
+		<Row Era="ERA_INDUSTRIAL" Technology="TECH_MILITARY_SCIENCE"/>
+		<Row Era="ERA_INDUSTRIAL" Technology="TECH_RIFLING"/>
+		<Row Era="ERA_MODERN" Technology="TECH_FLIGHT"/>
+		<Row Era="ERA_MODERN" Technology="TECH_REPLACEABLE_PARTS"/>
+		<Row Era="ERA_MODERN" Technology="TECH_STEEL"/>
+		<Row Era="ERA_ATOMIC" Technology="TECH_COMBINED_ARMS"/>
+		<Row Era="ERA_ATOMIC" Technology="TECH_PLASTICS"/>
+		<Row Era="ERA_ATOMIC" Technology="TECH_COMPUTERS"/>
+		<Row Era="ERA_INFORMATION" Technology="TECH_GUIDANCE_SYSTEMS"/>
+	</StartingBoostedTechnologies>
+	<StartingBoostedCivics>
+		<Row Era="ERA_CLASSICAL" Civic="CIVIC_DRAMA_POETRY"/>
+		<Row Era="ERA_CLASSICAL" Civic="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row Era="ERA_MEDIEVAL" Civic="CIVIC_NAVAL_TRADITION"/>
+		<Row Era="ERA_MEDIEVAL" Civic="CIVIC_FEUDALISM"/>
+		<Row Era="ERA_RENAISSANCE" Civic="CIVIC_HUMANISM"/>
+		<Row Era="ERA_RENAISSANCE" Civic="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Row Era="ERA_RENAISSANCE" Civic="CIVIC_MERCANTILISM"/>
+		<Row Era="ERA_RENAISSANCE" Civic="CIVIC_THE_ENLIGHTENMENT"/>
+		<Row Era="ERA_INDUSTRIAL" Civic="CIVIC_COLONIALISM"/>
+		<Row Era="ERA_INDUSTRIAL" Civic="CIVIC_NATIONALISM"/>
+		<Row Era="ERA_MODERN" Civic="CIVIC_MOBILIZATION"/>
+	</StartingBoostedCivics>
+</GameInfo>
