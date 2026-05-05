@@ -1,8 +1,0 @@
-<GameInfo>
-	<!-- Removing War Weariness related civic policies. -->
-	<Types>
-		<Delete Type="POLICY_DEFENSE_OF_MOTHERLAND"/>
-		<Delete Type="POLICY_MARTIAL_LAW"/>
-		<Delete Type="POLICY_PROPAGANDA"/>
-	</Types>
-</GameInfo>

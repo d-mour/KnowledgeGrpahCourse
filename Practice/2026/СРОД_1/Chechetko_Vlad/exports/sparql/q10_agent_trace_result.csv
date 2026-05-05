@@ -1,4 +1,0 @@
-﻿agent_id,prompt,response
-audio_agent,Extract audio segments and clinical audio events.,"Audio layers created: records=4048, events=272717."
-kg_agent,Build RDF graph and run SPARQL queries.,MM links=2000; RDF graph is ready.
-text_agent,Extract text annotation layers from BC5CDR.,"Text layers created: mentions=29271, relations=36597."

@@ -1,6 +1,0 @@
-PREFIX ex: <https://example.org/medical-multimodal-kg/>
-PREFIX schema: <https://schema.org/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-SELECT ?dataset ?modality (COUNT(DISTINCT ?case) AS ?cases) WHERE { ?case a ex:Case ; ex:dataset ?dataset ; ex:modality ?modality . } GROUP BY ?dataset ?modality ORDER BY ?dataset ?modality

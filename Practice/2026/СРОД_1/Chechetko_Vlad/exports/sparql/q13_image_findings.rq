@@ -1,6 +1,0 @@
-PREFIX ex: <https://example.org/medical-multimodal-kg/>
-PREFIX schema: <https://schema.org/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-SELECT ?image_id ?region_id ?finding_type ?confidence WHERE { ?f a ex:ImageFinding ; ex:image_id ?image_id ; ex:region_id ?region_id ; ex:finding_type ?finding_type . OPTIONAL { ?f ex:confidence ?confidence . } } LIMIT 100
