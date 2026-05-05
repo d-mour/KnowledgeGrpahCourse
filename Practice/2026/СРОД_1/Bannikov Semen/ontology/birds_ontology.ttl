@@ -1,0 +1,72 @@
+@prefix ex: <http://example.org/birds#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:BirdsOntology a owl:Ontology ;
+  rdfs:label "Birds multimodal annotation ontology"@en .
+
+### Classes
+ex:BirdSpecies a owl:Class .
+ex:TextDocument a owl:Class .
+ex:TextMention a owl:Class .
+ex:Image a owl:Class .
+ex:BirdDetection a owl:Class .
+ex:AudioRecording a owl:Class .
+ex:AudioSegment a owl:Class .
+ex:BackgroundSegment a owl:Class .
+
+### Object properties
+ex:hasTextMention a owl:ObjectProperty ;
+  rdfs:domain ex:TextDocument ;
+  rdfs:range ex:TextMention .
+
+ex:aboutSpecies a owl:ObjectProperty ;
+  rdfs:domain ex:TextMention ;
+  rdfs:range ex:BirdSpecies .
+
+ex:hasDetection a owl:ObjectProperty ;
+  rdfs:domain ex:Image ;
+  rdfs:range ex:BirdDetection .
+
+ex:detectedSpecies a owl:ObjectProperty ;
+  rdfs:domain ex:BirdDetection ;
+  rdfs:range ex:BirdSpecies .
+
+ex:hasAudioSegment a owl:ObjectProperty ;
+  rdfs:domain ex:AudioRecording ;
+  rdfs:range ex:AudioSegment .
+
+ex:hasBackgroundSegment a owl:ObjectProperty ;
+  rdfs:domain ex:AudioRecording ;
+  rdfs:range ex:BackgroundSegment .
+
+ex:segmentSpecies a owl:ObjectProperty ;
+  rdfs:domain ex:AudioSegment ;
+  rdfs:range ex:BirdSpecies .
+
+### Data properties
+ex:speciesId a owl:DatatypeProperty ; rdfs:range xsd:string .
+ex:latinName a owl:DatatypeProperty ; rdfs:range xsd:string .
+ex:russianName a owl:DatatypeProperty ; rdfs:range xsd:string .
+ex:gbifTaxonKey a owl:DatatypeProperty ; rdfs:range xsd:string .
+
+ex:fileName a owl:DatatypeProperty ; rdfs:range xsd:string .
+ex:mentionLabel a owl:DatatypeProperty ; rdfs:range xsd:string .
+ex:mentionText a owl:DatatypeProperty ; rdfs:range xsd:string .
+ex:startOffset a owl:DatatypeProperty ; rdfs:range xsd:integer .
+ex:endOffset a owl:DatatypeProperty ; rdfs:range xsd:integer .
+
+ex:bboxX a owl:DatatypeProperty ; rdfs:range xsd:double .
+ex:bboxY a owl:DatatypeProperty ; rdfs:range xsd:double .
+ex:bboxWidth a owl:DatatypeProperty ; rdfs:range xsd:double .
+ex:bboxHeight a owl:DatatypeProperty ; rdfs:range xsd:double .
+ex:occluded a owl:DatatypeProperty ; rdfs:range xsd:boolean .
+
+ex:startTime a owl:DatatypeProperty ; rdfs:range xsd:double .
+ex:endTime a owl:DatatypeProperty ; rdfs:range xsd:double .
+ex:signalType a owl:DatatypeProperty ; rdfs:range xsd:string .
+ex:overlapFlag a owl:DatatypeProperty ; rdfs:range xsd:string .
+ex:backgroundType a owl:DatatypeProperty ; rdfs:range xsd:string .
+ex:backgroundIntensity a owl:DatatypeProperty ; rdfs:range xsd:string .
