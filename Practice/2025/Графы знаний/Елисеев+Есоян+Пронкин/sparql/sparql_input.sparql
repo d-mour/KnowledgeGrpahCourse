@@ -1,0 +1,31 @@
+SELECT ?director ?directorName ?genreName
+       (AVG(?rating) AS ?directorAvgRating)
+       ?genreAvgRating
+       (COUNT(DISTINCT ?movie) AS ?directorMovieCount)
+WHERE {
+  {
+    SELECT ?genre (AVG(?r) AS ?genreAvgRating)
+    WHERE {
+      ?m a fr:Movie ;
+         fr:hasGenre ?genre ;
+         fr:voteAverage ?r .
+      FILTER(?r > 0)
+    }
+    GROUP BY ?genre
+    HAVING (COUNT(DISTINCT ?m) >= 10)
+  }
+
+  ?movie a fr:Movie ;
+         fr:hasGenre ?genre ;
+         fr:voteAverage ?rating ;
+         fr:directedBy ?director .
+  FILTER(?rating > 0)
+
+  ?director fr:label ?directorName .
+  ?genre    fr:label ?genreName .
+}
+GROUP BY ?director ?directorName ?genre ?genreName ?genreAvgRating
+HAVING (COUNT(DISTINCT ?movie) >= 2 &&
+        AVG(?rating) > ?genreAvgRating)
+ORDER BY DESC(AVG(?rating) - ?genreAvgRating)
+LIMIT 50

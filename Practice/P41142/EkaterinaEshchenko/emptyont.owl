@@ -1,0 +1,508 @@
+@prefix : <http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix onta: <http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@base <http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15> .
+
+<http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#ApartmentProperty
+onta:ApartmentProperty rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#consistsCity
+onta:consistsCity rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain onta:Address ;
+                  rdfs:range onta:City .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#consistsNum
+onta:consistsNum rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:domain onta:Address ;
+                 rdfs:range onta:HouseNumber .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#consistsStreet
+onta:consistsStreet rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    rdfs:domain onta:Address ;
+                    rdfs:range onta:Street .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#contactBy
+onta:contactBy rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain onta:Apartment ;
+               rdfs:range onta:Contacts ,
+                          onta:Link ,
+                          onta:Phone .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasAddress
+onta:hasAddress rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain onta:Apartment ;
+                rdfs:range onta:Address .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasApartParameters
+onta:hasApartParameters rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf onta:ApartmentProperty ;
+                        rdfs:domain onta:Apartment ;
+                        rdfs:range onta:ApartmentParameters .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasAppliances
+onta:hasAppliances rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain onta:Apartment ;
+                   rdfs:range onta:Appliances .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasComplex
+onta:hasComplex rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasCurrency
+onta:hasCurrency rdf:type owl:ObjectProperty ;
+                 rdfs:domain onta:Price .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasDishWasher
+onta:hasDishWasher rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain onta:Appliances ;
+                   rdfs:range onta:Dishwasher .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasFridge
+onta:hasFridge rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain onta:Appliances ;
+               rdfs:range onta:Fridge .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasFurniture
+onta:hasFurniture rdf:type owl:ObjectProperty ;
+                  rdfs:domain onta:Apartment ;
+                  rdfs:range onta:Furniture .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasFurnitureBathroom
+onta:hasFurnitureBathroom rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf onta:ApartmentProperty ;
+                          rdfs:domain onta:Apartment ;
+                          rdfs:range onta:Bathroom .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasFurnitureKitchen
+onta:hasFurnitureKitchen rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf onta:ApartmentProperty ;
+                         rdfs:domain onta:Apartment ;
+                         rdfs:range onta:Kitchen .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasFurnitureRooms
+onta:hasFurnitureRooms rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf onta:ApartmentProperty ;
+                       rdfs:domain onta:Apartment ;
+                       rdfs:range onta:Rooms .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasFurnitureShower
+onta:hasFurnitureShower rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf onta:ApartmentProperty ;
+                        rdfs:domain onta:Apartment ;
+                        rdfs:range onta:ShowerRoom .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasHouseParameters
+onta:hasHouseParameters rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf onta:ApartmentProperty ;
+                        rdfs:domain onta:Apartment ;
+                        rdfs:range onta:HouseParameters .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasLink
+onta:hasLink rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:range onta:Contacts .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasPark
+onta:hasPark rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain onta:Apartment ;
+             rdfs:range onta:Parking .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasPrice
+onta:hasPrice rdf:type owl:ObjectProperty ;
+              rdfs:domain onta:Apartment ;
+              rdfs:range onta:Price .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasRouter
+onta:hasRouter rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain onta:Appliances ;
+               rdfs:range onta:Router .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasTV
+onta:hasTV rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain onta:Appliances ;
+           rdfs:range onta:TV .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#hasWasher
+onta:hasWasher rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain onta:Appliances ;
+               rdfs:range onta:Washer .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#isDevice
+onta:isDevice rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf onta:ApartmentProperty ;
+              rdfs:domain onta:Appliances ;
+              rdfs:range onta:Conditioner ,
+                         onta:Dishwasher ,
+                         onta:Fridge ,
+                         onta:Router ,
+                         onta:TV ,
+                         onta:Washer .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#isFurnitureIn
+onta:isFurnitureIn rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf onta:ApartmentProperty ;
+                   rdfs:domain onta:Furniture ;
+                   rdfs:range onta:Bathroom ,
+                              onta:Kitchen ,
+                              onta:Rooms ,
+                              onta:ShowerRoom .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#nextToMetro
+onta:nextToMetro rdf:type owl:ObjectProperty ;
+                 rdfs:domain onta:Apartment ;
+                 rdfs:range onta:Metro .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Bills
+onta:Bills rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain onta:Price ;
+           rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Deposit
+onta:Deposit rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain onta:Price ;
+             rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Distance
+onta:Distance rdf:type owl:DatatypeProperty ;
+              rdfs:domain onta:Apartment ;
+              rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Floor
+onta:Floor rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain onta:Apartment ;
+           rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#NumBalcony
+onta:NumBalcony rdf:type owl:DatatypeProperty ;
+                rdfs:domain onta:ApartmentParameters ;
+                rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#NumFloor
+onta:NumFloor rdf:type owl:DatatypeProperty ;
+              rdfs:domain onta:HouseParameters ;
+              rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#NumFreLift
+onta:NumFreLift rdf:type owl:DatatypeProperty ;
+                rdfs:domain onta:HouseParameters ;
+                rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#NumLoggia
+onta:NumLoggia rdf:type owl:DatatypeProperty ;
+               rdfs:domain onta:ApartmentParameters ;
+               rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#NumPassLift
+onta:NumPassLift rdf:type owl:DatatypeProperty ;
+                 rdfs:domain onta:HouseParameters ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#NumRoom
+onta:NumRoom rdf:type owl:DatatypeProperty ;
+             rdfs:domain onta:Apartment ;
+             rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#PossibleAnimal
+onta:PossibleAnimal rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain onta:ApartmentParameters ;
+                    rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#PossibleChild
+onta:PossibleChild rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain onta:ApartmentParameters ;
+                   rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Rental
+onta:Rental rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain onta:Price ;
+            rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Square
+onta:Square rdf:type owl:DatatypeProperty ;
+            rdfs:domain onta:Apartment ;
+            rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#TimeToMetro
+onta:TimeToMetro rdf:type owl:DatatypeProperty ;
+                 rdfs:domain onta:Apartment ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#WayToMetro
+onta:WayToMetro rdf:type owl:DatatypeProperty ;
+                rdfs:domain onta:Apartment ;
+                rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Address
+onta:Address rdf:type owl:Class ;
+             owl:disjointWith onta:Metro .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Apartment
+onta:Apartment rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#ApartmentParameters
+onta:ApartmentParameters rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Appliances
+onta:Appliances rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Bathroom
+onta:Bathroom rdf:type owl:Class ;
+              rdfs:subClassOf onta:Furniture .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#City
+onta:City rdf:type owl:Class ;
+          rdfs:subClassOf onta:Address .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Conditioner
+onta:Conditioner rdf:type owl:Class ;
+                 rdfs:subClassOf onta:Appliances .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Contacts
+onta:Contacts rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Dishwasher
+onta:Dishwasher rdf:type owl:Class ;
+                rdfs:subClassOf onta:Appliances .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Fridge
+onta:Fridge rdf:type owl:Class ;
+            rdfs:subClassOf onta:Appliances .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Furniture
+onta:Furniture rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#GarbageChute
+onta:GarbageChute rdf:type owl:Class ;
+                  rdfs:subClassOf onta:HouseParameters .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#HouseNumber
+onta:HouseNumber rdf:type owl:Class ;
+                 rdfs:subClassOf onta:Address .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#HouseParameters
+onta:HouseParameters rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Kitchen
+onta:Kitchen rdf:type owl:Class ;
+             rdfs:subClassOf onta:Furniture .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Lift
+onta:Lift rdf:type owl:Class ;
+          rdfs:subClassOf onta:HouseParameters .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Link
+onta:Link rdf:type owl:Class ;
+          rdfs:subClassOf onta:Contacts ;
+          owl:disjointWith onta:Phone .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Metro
+onta:Metro rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#NameOfComplex
+onta:NameOfComplex rdf:type owl:Class ;
+                   rdfs:subClassOf onta:HouseParameters .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Parking
+onta:Parking rdf:type owl:Class ;
+             rdfs:subClassOf onta:HouseParameters .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Phone
+onta:Phone rdf:type owl:Class ;
+           rdfs:subClassOf onta:Contacts .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Price
+onta:Price rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Repair
+onta:Repair rdf:type owl:Class ;
+            rdfs:subClassOf onta:ApartmentParameters .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Rooms
+onta:Rooms rdf:type owl:Class ;
+           rdfs:subClassOf onta:Furniture .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Router
+onta:Router rdf:type owl:Class ;
+            rdfs:subClassOf onta:Appliances .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#ShowerRoom
+onta:ShowerRoom rdf:type owl:Class ;
+                rdfs:subClassOf onta:Furniture .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Street
+onta:Street rdf:type owl:Class ;
+            rdfs:subClassOf onta:Address .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#TV
+onta:TV rdf:type owl:Class ;
+        rdfs:subClassOf onta:Appliances .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#TypeHouse
+onta:TypeHouse rdf:type owl:Class ;
+               rdfs:subClassOf onta:HouseParameters .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Washer
+onta:Washer rdf:type owl:Class ;
+            rdfs:subClassOf onta:Appliances .
+
+
+###  http://www.semanticweb.org/asususer/ontologies/2021/3/untitled-ontology-15#Windows
+onta:Windows rdf:type owl:Class ;
+             rdfs:subClassOf onta:ApartmentParameters .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( onta:Bathroom
+                onta:Kitchen
+                onta:Rooms
+                onta:ShowerRoom
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( onta:City
+                onta:HouseNumber
+                onta:Street
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( onta:Conditioner
+                onta:Dishwasher
+                onta:Fridge
+                onta:Router
+                onta:TV
+                onta:Washer
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( onta:GarbageChute
+                onta:Lift
+                onta:NameOfComplex
+                onta:Parking
+                onta:TypeHouse
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

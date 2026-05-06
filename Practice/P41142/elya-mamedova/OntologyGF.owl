@@ -1,0 +1,377 @@
+@prefix : <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls> .
+
+<http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls> rdf:type owl:Ontology ;
+                                                                           rdfs:comment "Онтология существ из Гравити Фолз" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#BeFriendsWith
+:BeFriendsWith rdf:type owl:ObjectProperty ,
+                        owl:SymmetricProperty ;
+               rdfs:domain :Criminals ,
+                           :Demons ,
+                           :Evil ,
+                           :FictionalCreatures ,
+                           :FormerEvil ,
+                           :Good ;
+               rdfs:range :Criminals ,
+                          :Demons ,
+                          :Evil ,
+                          :FictionalCreatures ,
+                          :FormerEvil ,
+                          :Good .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Lives
+:Lives rdf:type owl:ObjectProperty ,
+                owl:AsymmetricProperty ;
+       rdfs:domain :Criminals ,
+                   :Demons ,
+                   :Evil ,
+                   :FictionalCreatures ,
+                   :FormerEvil ,
+                   :Good ;
+       rdfs:range :Cities ,
+                  :Companies ,
+                  :Homes ,
+                  :Imaginations ,
+                  :MunicipalProperty ,
+                  :Nature ,
+                  :Other ,
+                  :Paranormal ,
+                  :Restaurants ,
+                  :Schools ,
+                  :SecretPlaces ,
+                  :Stores .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Owner
+:Owner rdf:type owl:ObjectProperty ,
+                owl:SymmetricProperty ;
+       rdfs:domain :Cities ,
+                   :Companies ,
+                   :Homes ,
+                   :Imaginations ,
+                   :MunicipalProperty ,
+                   :Nature ,
+                   :Other ,
+                   :Paranormal ,
+                   :Restaurants ,
+                   :Schools ,
+                   :SecretPlaces ,
+                   :Stores ;
+       rdfs:range :Criminals ,
+                  :Demons ,
+                  :Evil ,
+                  :FictionalCreatures ,
+                  :FormerEvil ,
+                  :Good .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#abilities
+:abilities rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Criminals ,
+                       :Demons ,
+                       :Evil ,
+                       :FictionalCreatures ,
+                       :FormerEvil ,
+                       :Good .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#address
+:address rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Cities ,
+                     :Companies ,
+                     :Homes ,
+                     :Imaginations ,
+                     :MunicipalProperty ,
+                     :Nature ,
+                     :Other ,
+                     :Paranormal ,
+                     :Restaurants ,
+                     :Schools ,
+                     :SecretPlaces ,
+                     :Stores .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#alias
+:alias rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Criminals ,
+                   :Demons ,
+                   :Evil ,
+                   :FictionalCreatures ,
+                   :FormerEvil ,
+                   :Good .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#appearance
+:appearance rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Cities ,
+                        :Companies ,
+                        :Criminals ,
+                        :Demons ,
+                        :Evil ,
+                        :FictionalCreatures ,
+                        :FormerEvil ,
+                        :Good ,
+                        :Homes ,
+                        :Imaginations ,
+                        :MunicipalProperty ,
+                        :Nature ,
+                        :Other ,
+                        :Paranormal ,
+                        :Restaurants ,
+                        :Schools ,
+                        :SecretPlaces ,
+                        :Stores .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#dislikes
+:dislikes rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Criminals ,
+                      :Demons ,
+                      :Evil ,
+                      :FictionalCreatures ,
+                      :FormerEvil ,
+                      :Good .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#employees
+:employees rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Cities ,
+                       :Companies ,
+                       :Homes ,
+                       :Imaginations ,
+                       :MunicipalProperty ,
+                       :Nature ,
+                       :Other ,
+                       :Paranormal ,
+                       :Restaurants ,
+                       :Schools ,
+                       :SecretPlaces ,
+                       :Stores .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#family
+:family rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Criminals ,
+                    :Demons ,
+                    :Evil ,
+                    :FictionalCreatures ,
+                    :FormerEvil ,
+                    :Good .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#fate
+:fate rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Criminals ,
+                  :Demons ,
+                  :Evil ,
+                  :FictionalCreatures ,
+                  :FormerEvil ,
+                  :Good .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#home
+:home rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Criminals ,
+                  :Demons ,
+                  :Evil ,
+                  :FictionalCreatures ,
+                  :FormerEvil ,
+                  :Good .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#likes
+:likes rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Criminals ,
+                   :Demons ,
+                   :Evil ,
+                   :FictionalCreatures ,
+                   :FormerEvil ,
+                   :Good .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Cities ,
+                  :Companies ,
+                  :Criminals ,
+                  :Demons ,
+                  :Evil ,
+                  :FictionalCreatures ,
+                  :FormerEvil ,
+                  :Good ,
+                  :Homes ,
+                  :Imaginations ,
+                  :MunicipalProperty ,
+                  :Nature ,
+                  :Other ,
+                  :Paranormal ,
+                  :Restaurants ,
+                  :Schools ,
+                  :SecretPlaces ,
+                  :Stores .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#species
+:species rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Criminals ,
+                     :Demons ,
+                     :Evil ,
+                     :FictionalCreatures ,
+                     :FormerEvil ,
+                     :Good .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#type
+:type rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Cities ,
+                  :Companies ,
+                  :Homes ,
+                  :Imaginations ,
+                  :MunicipalProperty ,
+                  :Nature ,
+                  :Other ,
+                  :Paranormal ,
+                  :Restaurants ,
+                  :Schools ,
+                  :SecretPlaces ,
+                  :Stores .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#weaknesses
+:weaknesses rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Criminals ,
+                        :Demons ,
+                        :Evil ,
+                        :FictionalCreatures ,
+                        :FormerEvil ,
+                        :Good .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#weapons
+:weapons rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Criminals ,
+                     :Demons ,
+                     :Evil ,
+                     :FictionalCreatures ,
+                     :FormerEvil ,
+                     :Good .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Cities
+:Cities rdf:type owl:Class ;
+        rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Companies
+:Companies rdf:type owl:Class ;
+           rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Criminals
+:Criminals rdf:type owl:Class ;
+           rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Creatures> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Demons
+:Demons rdf:type owl:Class ;
+        rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Creatures> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Evil
+:Evil rdf:type owl:Class ;
+      rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Creatures> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#FictionalCreatures
+:FictionalCreatures rdf:type owl:Class ;
+                    rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Creatures> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#FormerEvil
+:FormerEvil rdf:type owl:Class ;
+            rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Creatures> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Good
+:Good rdf:type owl:Class ;
+      rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Creatures> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Homes
+:Homes rdf:type owl:Class ;
+       rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Imaginations
+:Imaginations rdf:type owl:Class ;
+              rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#MunicipalProperty
+:MunicipalProperty rdf:type owl:Class ;
+                   rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Nature
+:Nature rdf:type owl:Class ;
+        rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Other
+:Other rdf:type owl:Class ;
+       rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Paranormal
+:Paranormal rdf:type owl:Class ;
+            rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Restaurants
+:Restaurants rdf:type owl:Class ;
+             rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Schools
+:Schools rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#SecretPlaces
+:SecretPlaces rdf:type owl:Class ;
+              rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/GravityFalls#Stores
+:Stores rdf:type owl:Class ;
+        rdfs:subClassOf <http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Creatures
+<http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Creatures> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places
+<http://www.semanticweb.org/elya.mamedova/ontologies/2021/3/untitled-ontology-6#Places> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

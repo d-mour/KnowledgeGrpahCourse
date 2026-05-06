@@ -1,0 +1,11 @@
+{
+"story_id": "bookshop_mystery",
+"title": "Тайна книжной лавки",
+"classes": ["book", "cat", "clock"],
+"nodes": [
+{ "node_id": 1, "text_id": "t1", "next": 2 },
+{ "node_id": 2, "class_id": "book",  "text_id": "t2", "next": 3 },
+{ "node_id": 3, "class_id": "clock", "text_id": "t3", "next": 4 },
+{ "node_id": 4, "class_id": "cat",   "text_id": "t4", "next": null }
+]
+}

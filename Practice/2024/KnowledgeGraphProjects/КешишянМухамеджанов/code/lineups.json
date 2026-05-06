@@ -1,0 +1,50 @@
+[
+    { "map": "Bind", "skill": "Snake Bite" },
+    { "map": "Bind", "skill": "Shock Bolt" },
+    { "map": "Bind", "skill": "Nanoswarm" },
+    { "map": "Bind", "skill": "Hot Hands" },
+    { "map": "Bind", "skill": "Paint Shells" },
+    { "map": "Bind", "skill": "Orbital Strike" },
+    
+    { "map": "Haven", "skill": "Snake Bite" },
+    { "map": "Haven", "skill": "Recon Bolt" },
+    { "map": "Haven", "skill": "Showstopper" },
+    { "map": "Haven", "skill": "Rolling Thunder" },
+    { "map": "Haven", "skill": "Gravity Well" },
+    { "map": "Haven", "skill": "Flashpoint" },
+    
+    { "map": "Ascent", "skill": "Nanoswarm" },
+    { "map": "Ascent", "skill": "Shock Bolt" },
+    { "map": "Ascent", "skill": "Tailwind" },
+    { "map": "Ascent", "skill": "Barrier Orb" },
+    { "map": "Ascent", "skill": "Blade Storm" },
+    { "map": "Ascent", "skill": "Dark Cover" },
+
+    { "map": "Fracture", "skill": "Blast Pack" },
+    { "map": "Fracture", "skill": "Cloudburst" },
+    { "map": "Fracture", "skill": "High Tide" },
+    { "map": "Fracture", "skill": "Tour De Force" },
+    { "map": "Fracture", "skill": "Blindside" },
+    { "map": "Fracture", "skill": "Boom Bot" },
+    
+    { "map": "Icebox", "skill": "Snake Bite" },
+    { "map": "Icebox", "skill": "Turret" },
+    { "map": "Icebox", "skill": "Barrier Orb" },
+    { "map": "Icebox", "skill": "Guiding Light" },
+    { "map": "Icebox", "skill": "Owl Drone" },
+    { "map": "Icebox", "skill": "Seize" },
+    
+    { "map": "Split", "skill": "Hot Hands" },
+    { "map": "Split", "skill": "Aftershock" },
+    { "map": "Split", "skill": "Paranoia" },
+    { "map": "Split", "skill": "Guiding Light" },
+    { "map": "Split", "skill": "Rolling Thunder" },
+    { "map": "Split", "skill": "Updraft" },
+
+    { "map": "Lotus", "skill": "Snake Bite" },
+    { "map": "Lotus", "skill": "Paranoia" },
+    { "map": "Lotus", "skill": "Barrier Orb" },
+    { "map": "Lotus", "skill": "Reckoning" },
+    { "map": "Lotus", "skill": "Nova Pulse" },
+    { "map": "Lotus", "skill": "Fault Line" }
+]

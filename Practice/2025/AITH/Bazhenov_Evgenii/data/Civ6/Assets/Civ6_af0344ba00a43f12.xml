@@ -1,0 +1,66 @@
+<Firaxis key="C53A8CAAEE1CB25BBB95C6BBE82F8674">
+	<Item type="mod" value="1F367231-A040-4793-BDBB-088816853683">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a:8550ED6C-E370-426C-80CD-AB4B46B201DD"/>
+	</Item>
+	<Item type="content" value="4FD22D21-5EC7-4CE9-ACA6-8D8B623E5A82">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a:8550ED6C-E370-426C-80CD-AB4B46B201DD"/>
+	</Item>
+	<Item type="content" value="8ED4714E-A50B-4C6A-8F7B-4305C4CB30B2">
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a:8550ED6C-E370-426C-80CD-AB4B46B201DD"/>
+	</Item>
+	<Item type="civilization" value="CIVILIZATION_INDONESIA">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a:8550ED6C-E370-426C-80CD-AB4B46B201DD"/>
+	</Item>
+	<Item type="civilization" value="CIVILIZATION_KHMER">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a:8550ED6C-E370-426C-80CD-AB4B46B201DD"/>
+	</Item>
+	<Item type="leader" value="LEADER_GITARJA">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a:8550ED6C-E370-426C-80CD-AB4B46B201DD"/>
+	</Item>
+	<Item type="leader" value="LEADER_JAYAVARMAN">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a:8550ED6C-E370-426C-80CD-AB4B46B201DD"/>
+	</Item>
+	<Item type="building" value="BUILDING_ANGKOR_WAT">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a:8550ED6C-E370-426C-80CD-AB4B46B201DD"/>
+	</Item>
+	<Item type="building" value="BUILDING_PRASAT">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a:8550ED6C-E370-426C-80CD-AB4B46B201DD"/>
+	</Item>
+	<Item type="unit" value="UNIT_INDONESIAN_JONG">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a:8550ED6C-E370-426C-80CD-AB4B46B201DD"/>
+	</Item>
+	<Item type="unit" value="UNIT_KHMER_DOMREY">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a:8550ED6C-E370-426C-80CD-AB4B46B201DD"/>
+	</Item>
+	<Item type="improvement" value="IMPROVEMENT_KAMPUNG">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a:8550ED6C-E370-426C-80CD-AB4B46B201DD"/>
+	</Item>
+	<!-- Khmer Scenario -->
+	<Item type="mod" value="8550ED6C-E370-426C-80CD-AB4B46B201DD">
+		<SteamApp id="645401"/>
+		<EpicApp id="55103716945c46dc95087254d2419b0a:cd4845aae197454e8dcb95b10149073a"/>
+	</Item>	
+</Firaxis>

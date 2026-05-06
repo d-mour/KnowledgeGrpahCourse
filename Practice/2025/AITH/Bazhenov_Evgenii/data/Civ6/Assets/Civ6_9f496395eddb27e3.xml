@@ -1,0 +1,37 @@
+<Firaxis key="3AB1B30D4A479720937A45D540DDAD67">
+	<!-- Poland -->
+	<Item type="mod" value="3809975F-263F-40A2-A747-8BFB171D821A">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512033"/>
+		<EpicApp id="e9353ddd68d24889924f24eab80a4b75:7193c1710fdb473987e186dc2693596a:CD953AD5-2869-4654-91EC-E48D118EF3F3"/>
+	</Item>
+	<Item type="content" value="3809975F-263F-40A2-A747-8BFB171D821A">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512033"/>
+		<EpicApp id="e9353ddd68d24889924f24eab80a4b75:7193c1710fdb473987e186dc2693596a:CD953AD5-2869-4654-91EC-E48D118EF3F3"/>
+	</Item>
+	<Item type="content" value="11E8EC3F-C7F3-4D03-961D-66DA12AD336F">
+		<SteamApp id="512033"/>
+		<EpicApp id="e9353ddd68d24889924f24eab80a4b75:7193c1710fdb473987e186dc2693596a:CD953AD5-2869-4654-91EC-E48D118EF3F3"/>
+	</Item>
+	<Item type="leader" value="LEADER_JADWIGA">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512033"/>
+		<EpicApp id="e9353ddd68d24889924f24eab80a4b75:7193c1710fdb473987e186dc2693596a:CD953AD5-2869-4654-91EC-E48D118EF3F3"/>
+	</Item>
+	<Item type="civilization" value="CIVILIZATION_POLAND">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512033"/>
+		<EpicApp id="e9353ddd68d24889924f24eab80a4b75:7193c1710fdb473987e186dc2693596a:CD953AD5-2869-4654-91EC-E48D118EF3F3"/>
+	</Item>	
+	<Item type="unit" value="UNIT_POLISH_HUSSAR">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512033"/>
+		<EpicApp id="e9353ddd68d24889924f24eab80a4b75:7193c1710fdb473987e186dc2693596a:CD953AD5-2869-4654-91EC-E48D118EF3F3"/>
+	</Item>
+	<!-- Poland Scenario -->
+	<Item type="mod" value="CD953AD5-2869-4654-91EC-E48D118EF3F3">
+		<SteamApp id="512033"/>
+		<EpicApp id="e9353ddd68d24889924f24eab80a4b75:7193c1710fdb473987e186dc2693596a"/>
+	</Item>	
+</Firaxis>

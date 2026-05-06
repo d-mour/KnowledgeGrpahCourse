@@ -1,0 +1,337 @@
+[
+    {
+        "leader_name": "Abraham Lincoln",
+        "bonus_name": "Emancipation Proclamation",
+        "bonus_description": "Industrial Zones grant +2 Amenities and +3 Loyalty per turn but Plantations give -2 Loyalty. Receives a free Melee unit after constructing Industrial Zones and their buildings. The free unit does not require resources when created or to maintain and receives +5 Combat Strength."
+    },
+    {
+        "leader_name": "Alexander",
+        "bonus_name": "To the World's End",
+        "bonus_description": "Macedonian cities never incur war weariness . All military units heal completely when a city with a Wonder is captured. Gains the Hetairoi unique unit with Horseback Riding ."
+    },
+    {
+        "leader_name": "Amanitore",
+        "bonus_name": "Kandake of Meroë",
+        "bonus_description": "+20% Production towards District s, increasing to +40% Production if there is a Nubian Pyramid adjacent to the City Center ."
+    },
+    {
+        "leader_name": "Ambiorix",
+        "bonus_name": "King of the Eburones",
+        "bonus_description": "Receives Culture equal to 20% of the Production cost after training a non-civilian unit . Melee , ranged and anti-cavalry units receive +2 Combat Strength for each adjacent military unit."
+    },
+    {
+        "leader_name": "Bà Triệu",
+        "bonus_name": "Drive Out The Aggressors",
+        "bonus_description": "All units gain +5 Combat Strength when fighting in Rainforest , Marsh , and Woods tiles, and +1 Movement if they start their turn there. Both of these bonuses are doubled in tiles inside Vietnamese territory."
+    },
+    {
+        "leader_name": "Basil II",
+        "bonus_name": "Porphyrogénnētos",
+        "bonus_description": "Heavy and light cavalry units deal full damage when attacking cities following the same Religion as Byzantium. Gains the Tagma unique unit with Divine Right ."
+    },
+    {
+        "leader_name": "Catherine de Medici",
+        "bonus_name": "Catherine's Flying Squadron",
+        "bonus_description": "Gains +1 level of Diplomatic Visibility with every encountered civilization. Receives a free Spy with Castles . All Spies start as Agents with a free promotion ."
+    },
+    {
+        "leader_name": "Chandragupta",
+        "bonus_name": "Arthashastra",
+        "bonus_description": "Can declare a War of Territorial Expansion with Military Training , instead of Mobilization . +2 Movement and +5 Combat Strength for all units for the next 10 turns after declaring a War of Territorial Expansion."
+    },
+    {
+        "leader_name": "Cleopatra",
+        "bonus_name": "Mediterranean's Bride",
+        "bonus_description": "International Trade Route s grant +4 Gold . Trade Route s sent to Egypt from other civilizations provide +2 Food for them and +2 Gold for Egypt."
+    },
+    {
+        "leader_name": "Cyrus",
+        "bonus_name": "Fall of Babylon",
+        "bonus_description": "+2 Movement for all units for the next 10 turns after declaring a Surprise War . Surprise Wars count as Formal Wars for the purposes of warmongering penalties and war weariness . Occupied cities have no penalties to their yields."
+    },
+    {
+        "leader_name": "Dido",
+        "bonus_name": "Founder of Carthage",
+        "bonus_description": "Cities with a Cothon gain the unique Move Capital project , which moves the Capital to that city. Gains +1 Trade Route capacity after building the Government Plaza or any Government Plaza building . +50% Production towards District s in the city with the Government Plaza."
+    },
+    {
+        "leader_name": "Eleanor of Aquitaine",
+        "bonus_name": "Court of Love",
+        "bonus_description": "Each Great Work in her cities causes foreign cities within 9 tiles to lose 1 Loyalty per turn. Any foreign city that leaves its civilization due to loss of Loyalty and is receiving the most Loyalty pressure from Eleanor instantly joins her empire, instead of becoming a Free City ."
+    },
+    {
+        "leader_name": "Elizabeth I",
+        "bonus_name": "Drake's Legacy",
+        "bonus_description": "+2 Trade Route capacity upon recruiting the first Great Admiral . Trade Route s to city-states gain +3 Gold for every specialty district at the origin city. +100% yields from plundering Trade Route s."
+    },
+    {
+        "leader_name": "Frederick Barbarossa",
+        "bonus_name": "Holy Roman Emperor",
+        "bonus_description": "Gains an additional Military policy slot in all Governments . +7 Combat Strength for all units when fighting city-states and their units."
+    },
+    {
+        "leader_name": "Gandhi",
+        "bonus_name": "Satyagraha",
+        "bonus_description": "+5 Faith for each met civilization (including India) that has founded a Religion and is not at war. Enemies receive double war weariness from fighting against Gandhi."
+    },
+    {
+        "leader_name": "Genghis Khan",
+        "bonus_name": "Mongol Horde",
+        "bonus_description": "Cavalry class units gain +3 Combat Strength and have a chance to capture defeated cavalry class enemy units."
+    },
+    {
+        "leader_name": "Gilgamesh",
+        "bonus_name": "Adventures of Enkidu / Legacy of Enkidu (Heroes & Legends only)",
+        "bonus_description": "May declare war on any civilization at war with an ally without warmonger penalties. When at war with a common enemy, Sumerian and allied units share pillage rewards and combat experience if within 5 tiles of each other."
+    },
+    {
+        "leader_name": "Gitarja",
+        "bonus_name": "Exalted Goddess of the Three Worlds",
+        "bonus_description": "May purchase naval units with Faith . Religious units pay no movement cost to embark or disembark. City Centers adjacent to Coast or Lake tiles gain +2 Faith ."
+    },
+    {
+        "leader_name": "Gorgo",
+        "bonus_name": "Thermopylae",
+        "bonus_description": "Killing a unit provides Culture equal to 50% of its Combat Strength. +1 Combat Strength for all units for each Military Policy card in the current government ."
+    },
+    {
+        "leader_name": "Hammurabi",
+        "bonus_name": "Ninu Ilu Sirum",
+        "bonus_description": "Upon building each type of specialty District , except the Government Plaza , for the first time, instantly receives the building with the lowest Production cost that can be built in that district. Upon building any other district for the first time, receives a free Envoy ."
+    },
+    {
+        "leader_name": "Harald Hardrada",
+        "bonus_name": "Thunderbolt of the North",
+        "bonus_description": "+50% Production toward naval melee units . Naval melee units gain the ability to perform coastal raids . Gains the Viking Longship unique unit with Sailing ."
+    },
+    {
+        "leader_name": "Hojo Tokimune",
+        "bonus_name": "Divine Wind",
+        "bonus_description": "+5 Combat Strength for land units and naval units fighting on coastal and shallow water tiles. Encampment , Holy Site and Theater Square districts are built in half the time."
+    },
+    {
+        "leader_name": "Jadwiga",
+        "bonus_name": "Lithuanian Union",
+        "bonus_description": "Taking territory from a foreign city with a Culture Bomb converts it to Poland's religion . Relics grant +4 Gold , +2 Culture and +2 Faith . Holy Sites receive a +1 adjacency bonus from districts, instead of +0.5."
+    },
+    {
+        "leader_name": "Jayavarman VII",
+        "bonus_name": "Monasteries of the King",
+        "bonus_description": "Holy Sites grant Food equal to their adjacency bonus , receive a +2 adjacency bonus from Rivers , grant +2 Housing if built next to a River, and trigger a Culture Bomb when built, claiming surrounding tiles ."
+    },
+    {
+        "leader_name": "João III",
+        "bonus_name": "Porta do Cerco",
+        "bonus_description": "+1 Sight for all units . Meeting another civilization grants +1 Trade Route capacity. Gains Open Borders with all city-states ."
+    },
+    {
+        "leader_name": "John Curtin",
+        "bonus_name": "Citadel of Civilization",
+        "bonus_description": "+100% Production in all cities for the next 10 turns after being declared war upon , and for the next 20 turns after liberating a city ."
+    },
+    {
+        "leader_name": "Julius Caesar",
+        "bonus_name": "Veni, Vidi, Vici",
+        "bonus_description": "Gains 300 Gold after conquering a city for the first time, and after earning Gold from a Barbarian Outpost . Both amounts become 500 Gold after researching Metal Casting and 700 Gold after Steel (on Standard speed ). Units gain 5 Combat Strength and receive full experience when fighting Barbarians."
+    },
+    {
+        "leader_name": "Kristina",
+        "bonus_name": "Minerva of the North",
+        "bonus_description": "Buildings with at least three Great Work slots and wonders with at least two Great Work slots are automatically themed when all slots are filled. Gains the Queen's Bibliotheque unique building in the Government Plaza ."
+    },
+    {
+        "leader_name": "Kublai Khan",
+        "bonus_name": "Gerege",
+        "bonus_description": "Gains an additional Economic policy slot in all Governments . Gains a random Eureka and Inspiration upon first establishing a Trading Post in another major civilization's city."
+    },
+    {
+        "leader_name": "Kupe",
+        "bonus_name": "Kupe's Voyage",
+        "bonus_description": "Starts the game in the Ocean . +2 Science and +2 Culture per turn before the first city is settled. The first settled city receives a free Builder and +1 Population. The Palace grants +3 Housing and +1 Amenity ."
+    },
+    {
+        "leader_name": "Lady Six Sky",
+        "bonus_name": "Ix Mutal Ajaw",
+        "bonus_description": "Non- Capital cities within 6 tiles of the Capital gain +10% to all yields and receive a Builder when founded, while cities more than 6 tiles away receive -15% to all yields. +5 Combat Strength for all units within six tiles of the Mayan Capital ."
+    },
+    {
+        "leader_name": "Lautaro",
+        "bonus_name": "Swift Hawk",
+        "bonus_description": "+10 Combat Strength when fighting civilizations that are in a Golden or Heroic Age , or Free Cities. Defeating an enemy unit within the borders of an enemy city causes that city to lose 20 Loyalty , or 40 Loyalty if that civilization is in a Golden or Heroic Age."
+    },
+    {
+        "leader_name": "Ludwig II",
+        "bonus_name": "Swan King",
+        "bonus_description": "Wonders , even unfinished, receive a +2 Culture bonus from each adjacent District . All Culture adjacency bonuses provide Tourism after researching Castles ."
+    },
+    {
+        "leader_name": "Mansa Musa",
+        "bonus_name": "Sahel Merchants",
+        "bonus_description": "International Trade Route s gain +1 Gold for every flat Desert tile in the sending city . Entering a Golden Age permanently grants +1 Trade Route capacity."
+    },
+    {
+        "leader_name": "Matthias Corvinus",
+        "bonus_name": "Raven King",
+        "bonus_description": "Levied city-state units gain +2 Movement and +5 Combat Strength, and can be upgraded at a 75% discount in Gold and resources . Levying troops from a city-state grants 2 Envoys with that city-state. Gains the Black Army unique unit with Castles ."
+    },
+    {
+        "leader_name": "Menelik II",
+        "bonus_name": "Council of Ministers",
+        "bonus_description": "Ethiopian cities founded on Hills receive Science and Culture equal to 15% of their Faith output. +4 Combat Strength for all units when fighting on Hills."
+    },
+    {
+        "leader_name": "Montezuma",
+        "bonus_name": "Gifts for the Tlatoani",
+        "bonus_description": "Improved Luxury resources provide an Amenity to 2 extra cities . +1 Combat Strength for all units for each different improved Luxury resource in Aztec territory."
+    },
+    {
+        "leader_name": "Mvemba a Nzinga",
+        "bonus_name": "Religious Convert",
+        "bonus_description": "May not build Holy Sites or found a religion , but receives all the beliefs of any religion that has established itself as Kongo's majority religion, not just the Follower beliefs . Building a Mbanza or Theater Square grants a free Apostle of the city's majority religion."
+    },
+    {
+        "leader_name": "Nader Shah",
+        "bonus_name": "Sword of Persia",
+        "bonus_description": "+5 Combat Strength for all units when attacking full health units. Cities not founded by Nader Shah gain +2 Faith and +3 Gold on domestic Trade Route s."
+    },
+    {
+        "leader_name": "Nzinga Mbande",
+        "bonus_name": "Queen of Ndongo and Mtamba",
+        "bonus_description": "Cities on the same continent as the Capital (including the Capital ) receive +10% to all yields, while cities on another continent receive -15% to all yields."
+    },
+    {
+        "leader_name": "Pachacuti",
+        "bonus_name": "Qhapaq Ñan",
+        "bonus_description": "Domestic Trade Route s gain +1 Food for every Mountain tile in the origin city . Gains the Qhapaq Ñan unique improvement with Foreign Trade ."
+    },
+    {
+        "leader_name": "Pedro II",
+        "bonus_name": "Magnanimous",
+        "bonus_description": "Recruiting or patronizing a Great Person refunds 20% of their point cost."
+    },
+    {
+        "leader_name": "Pericles",
+        "bonus_name": "Surrounded by Glory",
+        "bonus_description": "+5% Culture per city-state Greece has Suzerainty over."
+    },
+    {
+        "leader_name": "Peter",
+        "bonus_name": "The Grand Embassy",
+        "bonus_description": "Trade Route s to more advanced civilizations grant Russia +1 Science for every three technologies that civilization is ahead of them, and +1 Culture for every three civics ."
+    },
+    {
+        "leader_name": "Philip II",
+        "bonus_name": "El Escorial",
+        "bonus_description": "Inquisitors can Remove Heresy one extra time. +5 Combat Strength for military and religious units against civilizations following other religions ."
+    },
+    {
+        "leader_name": "Poundmaker",
+        "bonus_name": "Favorable Terms",
+        "bonus_description": "All Alliance types provide Shared Visibility. Trade Route s grant +1 Food in the sending city and +1 Gold in the destination city per Camp or Pasture at the destination city."
+    },
+    {
+        "leader_name": "Qin Shi Huang",
+        "bonus_name": "The First Emperor",
+        "bonus_description": "Builders receive an additional build charge. Can spend Builder charges to complete 15% of the Production cost for Ancient and Classical wonders ."
+    },
+    {
+        "leader_name": "Ramses II",
+        "bonus_name": "Abu Simbel",
+        "bonus_description": "Receives Culture equal to 15% of the Production cost after completing a building , and 30% after completing a wonder ."
+    },
+    {
+        "leader_name": "Robert the Bruce",
+        "bonus_name": "Bannockburn",
+        "bonus_description": "Can declare a War of Liberation with Defensive Tactics , instead of Diplomatic Service . +100% Production in all cities and +2 Movement for all units for the next 10 turns after declaring a War of Liberation."
+    },
+    {
+        "leader_name": "Saladin",
+        "bonus_name": "Righteousness of the Faith",
+        "bonus_description": "The Worship building for Arabia's Religion is 90% cheaper to purchase with Faith . Arabian cities with that building gain +10% Science , Faith , and Culture ."
+    },
+    {
+        "leader_name": "Sejong",
+        "bonus_name": "Hangul",
+        "bonus_description": "Upon completing the first technology from a new era , receives Culture equal to double the current Science output per turn."
+    },
+    {
+        "leader_name": "Seondeok",
+        "bonus_name": "Hwarang",
+        "bonus_description": "Cities with an established Governor receive +3% Culture and +3% Science for each promotion that Governor has."
+    },
+    {
+        "leader_name": "Shaka",
+        "bonus_name": "Amabutho",
+        "bonus_description": "May form Corps with Mercenaries , instead of Nationalism , and Armies with Nationalism , instead of Mobilization . Corps and Armies gain an additional +5 Combat Strength."
+    },
+    {
+        "leader_name": "Simón Bolívar",
+        "bonus_name": "Campaña Admirable",
+        "bonus_description": "Entering a new era grants a Comandante General , a unique type of Great Person ."
+    },
+    {
+        "leader_name": "Suleiman",
+        "bonus_name": "Grand Vizier",
+        "bonus_description": "Has access to a unique Governor , Ibrahim, the Grand Vizier . Gains the Janissary unique unit and 1 Governor title with Gunpowder ."
+    },
+    {
+        "leader_name": "Sundiata Keita",
+        "bonus_name": "Sogolon",
+        "bonus_description": "Patronage of Great People costs 20% less Gold . Markets gain 2 slots for Great Works of Writing in Cities founded by Mali. Great Works of Writing grant +4 Gold and +2 Production ."
+    },
+    {
+        "leader_name": "Tamar",
+        "bonus_name": "Glory of the World, Kingdom and Faith",
+        "bonus_description": "Killing a unit provides Faith equal to 50% of its Combat Strength. Each Envoy sent to a city-state following Georgia's majority Religion counts as two Envoys ."
+    },
+    {
+        "leader_name": "Teddy Roosevelt",
+        "bonus_name": "Roosevelt Corollary",
+        "bonus_description": "+5 Combat Strength for all units inside America's home continent . +1 Appeal to all tiles in cities with a National Park . Gains the Rough Rider unique unit with Rifling ."
+    },
+    {
+        "leader_name": "Theodora",
+        "bonus_name": "Metanoia",
+        "bonus_description": "Holy Sites provide Culture equal to their adjacency bonus. Farms provide a +1 Faith adjacency to Hippodromes and Holy Sites ."
+    },
+    {
+        "leader_name": "Tokugawa",
+        "bonus_name": "Bakuhan",
+        "bonus_description": "International Trade Route s receive -25% yields and Tourism , but domestic Trade Route s gain +1 Culture , +1 Science , and +2 Gold for every specialty district at the destination. Cities within 6 tiles of Japan's Capital gain +4 Amenities and, after researching Flight , +1 Tourism for every specialty district."
+    },
+    {
+        "leader_name": "Tomyris",
+        "bonus_name": "Killer of Cyrus",
+        "bonus_description": "+5 Combat Strength for all units when attacking wounded units. Units heal up to 30 hit points after killing an enemy unit."
+    },
+    {
+        "leader_name": "Trajan",
+        "bonus_name": "Trajan's Column",
+        "bonus_description": "All founded cities start with a free building in the City Center (a Monument if the game is started in the Ancient Era )."
+    },
+    {
+        "leader_name": "Victoria",
+        "bonus_name": "Pax Britannica",
+        "bonus_description": "Founding a city or building a Royal Navy Dockyard outside of England's home continent grants a free melee unit in that city. Gains the Redcoat unique unit with Military Science ."
+    },
+    {
+        "leader_name": "Wilfrid Laurier",
+        "bonus_name": "The Last Best West",
+        "bonus_description": "Can build Farms on Tundra tiles , and on Tundra Hills tiles with Civil Engineering . Snow , Snow Hills , Tundra Hills, and Tundra tiles cost 50% less Gold to purchase. On those types of tiles, Strategic Resources accumulate 100% faster, Farms and Camps receive +2 Food , and Mines and Lumber Mills receive +2 Production ."
+    },
+    {
+        "leader_name": "Wilhelmina",
+        "bonus_name": "Radio Oranje",
+        "bonus_description": "Domestic Trade Route s provide +2 Loyalty per turn for the starting city. +2 Culture for each Trade Route sent to or received from a foreign civilization."
+    },
+    {
+        "leader_name": "Wu Zetian",
+        "bonus_name": "Manual of Entrapment",
+        "bonus_description": "Receives a free Spy with Defensive Tactics and Spies can be purchased with Faith . Spies operate as if 1 level more experienced. Upon completing a successful offensive espionage mission on a foreign city , receives 100% of the Science , Faith and Culture that city produced that turn."
+    },
+    {
+        "leader_name": "Yongle",
+        "bonus_name": "Lijia",
+        "bonus_description": "All cities gain access to three unique Lijia projects , which can either convert 50% of their Production into Food or Faith , or 100% of their Production into Gold ."
+    }
+]

@@ -1,0 +1,107 @@
+https://api.tanki.su/wot/encyclopedia/vehicles/?application_id=a12842cff8d85bdbdb9e779cca01397b&tier=10&tank_id=4737&fields=is_wheeled%2Ctag%2Ctank_id%2Ctype%2Cdescription%2Cshort_name%2Cnation%2Ctier%2Cname%2Cdefault_profile.hp%2Cdefault_profile.speed_forward%2Cdefault_profile.speed_backward%2Cdefault_profile.engine%2Cdefault_profile.ammo%2Cdefault_profile.modules%2Cdefault_profile.gun%2Cdefault_profile.turret%2Cdefault_profile.armor%2Cdefault_profile.rapid%2Cdefault_profile.siege
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": null
+    },
+    "data": {
+        "4737": {
+            "description": "Разрабатывался в 1969–1971 гг. в рамках модернизации Strv 103. По сравнению с предыдущей модификацией Strv 103A, Strv 103B получила более мощный газотурбинный двигатель, лазерный дальномер и инфракрасные приборы. Также была предусмотрена возможность установки оборудования для преодоления водных преград. В 1970 году на вооружение было принято 220 машин. В то же время машины ранней модификации Strv 103A были переоборудованы до версии Strv 103B, в результате чего по состоянию на 1971 год их общее количество составило 290 единиц.",
+            "short_name": "Strv 103B",
+            "is_wheeled": false,
+            "nation": "sweden",
+            "tag": "S11_Strv_103B",
+            "default_profile": {
+                "engine": {
+                    "name": "Motoraggregat 9",
+                    "power": 730,
+                    "weight": 700,
+                    "tag": "Motoraggregat_9",
+                    "fire_chance": 0.1,
+                    "tier": 10
+                },
+                "rapid": null,
+                "siege": {
+                    "suspension_traverse_speed": 1,
+                    "move_down_arc": 2,
+                    "switch_on_time": 2.0,
+                    "reload_time": 7.0,
+                    "move_up_arc": 9,
+                    "dispersion": 0.25,
+                    "switch_off_time": 1.3,
+                    "speed_backward": 10,
+                    "aim_time": 1.0
+                },
+                "hp": 1800,
+                "modules": {
+                    "gun_id": 9092,
+                    "suspension_id": 9346,
+                    "turret_id": null,
+                    "radio_id": 903,
+                    "engine_id": 1157
+                },
+                "gun": {
+                    "move_down_arc": -1,
+                    "caliber": 105,
+                    "name": "10,5 cm kan strv 103 L\/62",
+                    "weight": 1645,
+                    "move_up_arc": 1,
+                    "fire_rate": 8.57,
+                    "dispersion": 0.3,
+                    "tag": "_105mm_kan_strv_103_L_62",
+                    "traverse_speed": 5,
+                    "reload_time": 7.0,
+                    "tier": 10,
+                    "aim_time": 3.0
+                },
+                "armor": {
+                    "turret": null,
+                    "hull": {
+                        "front": 40,
+                        "sides": 30,
+                        "rear": 30
+                    }
+                },
+                "speed_forward": 50,
+                "speed_backward": 45,
+                "ammo": [
+                    {
+                        "penetration": [231, 308, 385],
+                        "stun": null,
+                        "type": "ARMOR_PIERCING_CR",
+                        "damage": [293, 390, 488]
+                    }, {
+                        "penetration": [263, 350, 438],
+                        "stun": null,
+                        "type": "ARMOR_PIERCING_CR",
+                        "damage": [293, 390, 488]
+                    }, {
+                        "penetration": [40, 53, 66],
+                        "stun": null,
+                        "type": "HIGH_EXPLOSIVE",
+                        "damage": [360, 480, 600]
+                    }
+                ],
+                "turret": {
+                    "name": "Strv 103B",
+                    "weight": 100,
+                    "view_range": 360,
+                    "hp": 340,
+                    "tag": "Turret_1_S11_Strv_103B",
+                    "traverse_speed": null,
+                    "traverse_right_arc": 3,
+                    "tier": 10,
+                    "traverse_left_arc": 3
+                }
+            },
+            "tier": 10,
+            "tank_id": 4737,
+            "type": "AT-SPG",
+            "name": "Strv 103B"
+        }
+    }
+}

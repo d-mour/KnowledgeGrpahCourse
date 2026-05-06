@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 14.592 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "BirdCallSegment" 
+        xmin = 0 
+        xmax = 14.592 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.456 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [2]:
+            xmin = 3.456 
+            xmax = 4.8 
+            text = "" 
+        intervals [3]:
+            xmin = 4.8 
+            xmax = 8.256 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [4]:
+            xmin = 8.256 
+            xmax = 9.6 
+            text = "" 
+        intervals [5]:
+            xmin = 9.6 
+            xmax = 13.056 
+            text = "" 
+        intervals [6]:
+            xmin = 13.056 
+            xmax = 14.4 
+            text = "" 
+        intervals [7]:
+            xmin = 14.4 
+            xmax = 14.592 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "BackgroundSound" 
+        xmin = 0 
+        xmax = 14.592 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.456 
+            text = "" 
+        intervals [2]:
+            xmin = 3.456 
+            xmax = 4.8 
+            text = "type=wind;intensity=low" 
+        intervals [3]:
+            xmin = 4.8 
+            xmax = 8.256 
+            text = "" 
+        intervals [4]:
+            xmin = 8.256 
+            xmax = 9.6 
+            text = "type=wind;intensity=low" 
+        intervals [5]:
+            xmin = 9.6 
+            xmax = 13.056 
+            text = "type=wind;intensity=low" 
+        intervals [6]:
+            xmin = 13.056 
+            xmax = 14.4 
+            text = "type=wind;intensity=low" 
+        intervals [7]:
+            xmin = 14.4 
+            xmax = 14.592 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "Meta" 
+        xmin = 0 
+        xmax = 14.592 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 14.592 
+            text = "quality=auto_generated;review_required=yes" 

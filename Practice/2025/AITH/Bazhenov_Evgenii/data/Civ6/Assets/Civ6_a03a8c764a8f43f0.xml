@@ -1,0 +1,45 @@
+<Firaxis key="7F3774B78794D85EF0C6DDCD48B3EC57">
+	<Item type="mod" value="E3F53C61-371C-440B-96CE-077D318B36C0">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512034"/>
+		<EpicApp id="28bbd614909e467881da8caabdb9718b:5ebb8b38388d4e5dad76d6efd223a59d:D70C8F1F-3954-460F-A9D9-09498BF773C9"/>
+	</Item>
+	<Item type="content" value="9872E05B-8772-4E1F-A001-54B69E8D3648">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512034"/>
+		<EpicApp id="28bbd614909e467881da8caabdb9718b:5ebb8b38388d4e5dad76d6efd223a59d:D70C8F1F-3954-460F-A9D9-09498BF773C9"/>
+	</Item>
+	<Item type="content" value="D3B7F0A7-F6E8-4045-9F0C-313EA273475E">
+		<SteamApp id="512034"/>
+		<EpicApp id="28bbd614909e467881da8caabdb9718b:5ebb8b38388d4e5dad76d6efd223a59d:D70C8F1F-3954-460F-A9D9-09498BF773C9"/>
+	</Item>
+	<Item type="leader" value="LEADER_JOHN_CURTIN">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512034"/>
+		<EpicApp id="28bbd614909e467881da8caabdb9718b:5ebb8b38388d4e5dad76d6efd223a59d:D70C8F1F-3954-460F-A9D9-09498BF773C9"/>
+	</Item>
+	<Item type="civilization" value="CIVILIZATION_AUSTRALIA">
+		<NonOwnerAllowance type="host" mode="multiplayer"/>
+		<SteamApp id="512034"/>
+		<EpicApp id="28bbd614909e467881da8caabdb9718b:5ebb8b38388d4e5dad76d6efd223a59d:D70C8F1F-3954-460F-A9D9-09498BF773C9"/>
+	</Item>	
+	<Item type="feature" value="FEATURE_ULURU">
+		<NonOwnerAllowance type="view" mode="multiplayer"/>
+		<SteamApp id="512034"/>
+		<EpicApp id="28bbd614909e467881da8caabdb9718b:5ebb8b38388d4e5dad76d6efd223a59d:D70C8F1F-3954-460F-A9D9-09498BF773C9"/>
+	</Item>
+	<Item type="improvement" value="IMPROVEMENT_OUTBACK_STATION">
+		<NonOwnerAllowance type="view" mode="multiplayer"/>
+		<SteamApp id="512034"/>
+		<EpicApp id="28bbd614909e467881da8caabdb9718b:5ebb8b38388d4e5dad76d6efd223a59d:D70C8F1F-3954-460F-A9D9-09498BF773C9"/>
+	</Item>	
+	<Item type="unit" value="UNIT_DIGGER">
+		<NonOwnerAllowance type="view" mode="multiplayer"/>
+		<SteamApp id="512034"/>
+		<EpicApp id="28bbd614909e467881da8caabdb9718b:5ebb8b38388d4e5dad76d6efd223a59d:D70C8F1F-3954-460F-A9D9-09498BF773C9"/>
+	</Item>	
+	<Item type="mod" value="D70C8F1F-3954-460F-A9D9-09498BF773C9">
+		<SteamApp id="512034"/>
+		<EpicApp id="28bbd614909e467881da8caabdb9718b:5ebb8b38388d4e5dad76d6efd223a59d"/>
+	</Item>	
+</Firaxis>

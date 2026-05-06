@@ -1,0 +1,5 @@
+.idea/
+__pycache__/
+venv/
+./application.log
+./embedding_model.pkl

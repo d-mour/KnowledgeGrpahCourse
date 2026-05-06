@@ -1,0 +1,780 @@
+@prefix : <https://github.com/RogoGit/F1-knowledge-base/f1-ontology#> .
+@prefix f1: <https://github.com/RogoGit/F1-knowledge-base/f1-ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://github.com/RogoGit/F1-knowledge-base/f1-ontology> .
+
+<https://github.com/RogoGit/F1-knowledge-base/f1-ontology> rdf:type owl:Ontology ;
+                                                            rdfs:comment """Formula One knowledge base, which contains information about drivers, events, results and other entities related to subject area.
+
+Also contains \"related creations\" data - information about cultural impact of this racing series"""@en ;
+                                                            rdfs:label "Formula 1 Knowledge base"@en ;
+                                                            owl:versionInfo "In this version only movies and books are supported as 'related creation'"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#duration
+xsd:duration rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#drivingHasHappenedInSeason
+f1:drivingHasHappenedInSeason rdf:type owl:ObjectProperty ;
+                              rdfs:domain f1:CarDriving ;
+                              rdfs:range f1:Season ;
+                              rdfs:comment "Relation, which shows in what season car driving reiﬁcation has happened"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#grandPrixResultIsRelatedTo
+f1:grandPrixResultIsRelatedTo rdf:type owl:ObjectProperty ;
+                              owl:inverseOf f1:hasDriverGrandPrixResult ;
+                              rdf:type owl:FunctionalProperty ;
+                              rdfs:domain f1:GrandPrixResult ;
+                              rdfs:range f1:Driver ;
+                              rdfs:comment "Relation, which shows to which driver grand prix result is related"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasCarDriving
+f1:hasCarDriving rdf:type owl:ObjectProperty ;
+                 rdfs:domain f1:Car ;
+                 rdfs:range f1:CarDriving ;
+                 rdfs:comment "Relation, which shows what car driving reiﬁcations are related to specific car"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasConstructorStandingResult
+f1:hasConstructorStandingResult rdf:type owl:ObjectProperty ;
+                                owl:inverseOf f1:seasonConstructorResultIsRelatedTo ;
+                                rdf:type owl:InverseFunctionalProperty ;
+                                rdfs:domain f1:Team ;
+                                rdfs:range f1:ConstructorStanding ;
+                                rdfs:comment "Relation, which shows what constructor standing results a team has"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasDiedIn
+f1:hasDiedIn rdf:type owl:ObjectProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain f1:Driver ;
+             rdfs:range f1:DeathAccident ;
+             rdfs:comment "Relation, which shows in which accident driver has died"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasDriver
+f1:hasDriver rdf:type owl:ObjectProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain f1:TeamParticipation ;
+             rdfs:range f1:Driver ;
+             rdfs:comment "Relation, which shows what driver is related to team participation reiﬁcation"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasDriverDriving
+f1:hasDriverDriving rdf:type owl:ObjectProperty ;
+                    rdfs:domain f1:Driver ;
+                    rdfs:range f1:CarDriving ;
+                    rdfs:comment "Relation, which shows what car driving reiﬁcations are related to specific driver"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasDriverGrandPrixResult
+f1:hasDriverGrandPrixResult rdf:type owl:ObjectProperty ,
+                                     owl:InverseFunctionalProperty ;
+                            rdfs:domain f1:Driver ;
+                            rdfs:range f1:GrandPrixResult ;
+                            rdfs:comment "Relation, which shows what grand prix results a driver has"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasDriverParticipation
+f1:hasDriverParticipation rdf:type owl:ObjectProperty ;
+                          rdfs:domain f1:Driver ;
+                          rdfs:range f1:TeamParticipation ;
+                          rdfs:comment "Relation, which shows what team participation reiﬁcations are related to driver"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasDriverStandingResult
+f1:hasDriverStandingResult rdf:type owl:ObjectProperty ;
+                           owl:inverseOf f1:seasonDriverResultIsRelatedTo ;
+                           rdf:type owl:InverseFunctionalProperty ;
+                           rdfs:domain f1:Driver ;
+                           rdfs:range f1:DriverStanding ;
+                           rdfs:comment "Relation, which shows what driver standing results a driver has"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasEverBeenATeammate
+f1:hasEverBeenATeammate rdf:type owl:ObjectProperty ,
+                                 owl:SymmetricProperty ,
+                                 owl:TransitiveProperty ;
+                        rdfs:domain f1:Driver ;
+                        rdfs:range f1:Driver ;
+                        rdfs:comment "Relation, which shows what drivers have ever been a teammate of specified driver"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasGrandPrixResult
+f1:hasGrandPrixResult rdf:type owl:ObjectProperty ;
+                      rdfs:domain f1:GrandPrix ;
+                      rdfs:range f1:GrandPrixResult ;
+                      rdfs:comment "Relation, which shows what results has specific grand prix"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasResult
+f1:hasResult rdf:type owl:ObjectProperty ;
+             rdfs:domain f1:Season ;
+             rdfs:range f1:SeasonResult ;
+             rdfs:comment "Relation, which shows what results has specific racing season"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasTeam
+f1:hasTeam rdf:type owl:ObjectProperty ,
+                    owl:FunctionalProperty ;
+           rdfs:domain f1:TeamParticipation ;
+           rdfs:range f1:Team ;
+           rdfs:comment "Relation, which shows what team is related to team participation reiﬁcation"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#hasTeamParticipation
+f1:hasTeamParticipation rdf:type owl:ObjectProperty ;
+                        rdfs:domain f1:Team ;
+                        rdfs:range f1:TeamParticipation ;
+                        rdfs:comment "Relation, which shows what team participation reiﬁcations are related to team"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#inEvent
+f1:inEvent rdf:type owl:ObjectProperty ;
+           rdfs:domain f1:DeathAccident ;
+           rdfs:range f1:GrandPrix ;
+           rdfs:comment "Relation, which shows in what grand prix event death accident happened"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#isAbout
+f1:isAbout rdf:type owl:ObjectProperty ;
+           rdfs:domain f1:RelatedCreation ;
+           rdfs:range f1:CreationCanBeAbout ;
+           rdfs:comment "Relation, which shows what related creation is about"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#isConstructedBy
+f1:isConstructedBy rdf:type owl:ObjectProperty ;
+                   owl:inverseOf f1:isConstructorOf ;
+                   rdf:type owl:FunctionalProperty ;
+                   rdfs:domain f1:Car ;
+                   rdfs:range f1:Team ;
+                   rdfs:comment "Relation, which shows what team has constructed specified car"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#isConstructorOf
+f1:isConstructorOf rdf:type owl:ObjectProperty ,
+                            owl:InverseFunctionalProperty ;
+                   rdfs:domain f1:Team ;
+                   rdfs:range f1:Car ;
+                   rdfs:comment "Relation, which shows what cars team has constructed"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#isHappendInSeason
+f1:isHappendInSeason rdf:type owl:ObjectProperty ;
+                     rdfs:domain f1:TeamParticipation ;
+                     rdfs:range f1:Season ;
+                     rdfs:comment "Relation, which shows in what season team participation reiﬁcation has happened"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#isPartOf
+f1:isPartOf rdf:type owl:ObjectProperty ;
+            rdfs:domain f1:GrandPrix ;
+            rdfs:range f1:Season ;
+            rdfs:comment "Relation, which shows what racing season grand prix is a part of"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#seasonConstructorResultIsRelatedTo
+f1:seasonConstructorResultIsRelatedTo rdf:type owl:ObjectProperty ,
+                                               owl:FunctionalProperty ;
+                                      rdfs:domain f1:ConstructorStanding ;
+                                      rdfs:range f1:Team ;
+                                      rdfs:comment "Relation, which shows to what team constructor standing result is related to"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#seasonDriverResultIsRelatedTo
+f1:seasonDriverResultIsRelatedTo rdf:type owl:ObjectProperty ,
+                                          owl:FunctionalProperty ;
+                                 rdfs:domain f1:DriverStanding ;
+                                 rdfs:range f1:Driver ;
+                                 rdfs:comment "Relation, which shows to what driver driver standing result is related to"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#tookPlaceIn
+f1:tookPlaceIn rdf:type owl:ObjectProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain f1:GrandPrix ;
+               rdfs:range f1:Circuit ;
+               rdfs:comment "Relation, which shows in which circuit specified grand prix took place in"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#Q1Time
+f1:Q1Time rdf:type owl:DatatypeProperty ;
+          rdfs:domain f1:QualifyingResult ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Driver's time for qualifying 1"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#Q2Time
+f1:Q2Time rdf:type owl:DatatypeProperty ;
+          rdfs:domain f1:QualifyingResult ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Driver's time for qualifying 2"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#Q3Time
+f1:Q3Time rdf:type owl:DatatypeProperty ;
+          rdfs:domain f1:QualifyingResult ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Driver's time for qualifying 3"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#accidentDate
+f1:accidentDate rdf:type owl:DatatypeProperty ;
+                rdfs:domain f1:DeathAccident ;
+                rdfs:range xsd:date ;
+                rdfs:comment "Date of death accident"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#accidentSession
+f1:accidentSession rdf:type owl:DatatypeProperty ;
+                   rdfs:domain f1:DeathAccident ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "Session, when death accident has occurred"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#author
+f1:author rdf:type owl:DatatypeProperty ;
+          rdfs:domain f1:Book ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Name and surname of author of the book"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#birthDate
+f1:birthDate rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain f1:Driver ;
+             rdfs:range xsd:date ;
+             rdfs:comment "Driver's date of birth"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#carDesigners
+f1:carDesigners rdf:type owl:DatatypeProperty ;
+                rdfs:domain f1:Car ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Information about people who designed the car"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#carModel
+f1:carModel rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain f1:Car ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Model of the car"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#chassisDescription
+f1:chassisDescription rdf:type owl:DatatypeProperty ;
+                      rdfs:domain f1:Car ;
+                      rdfs:range xsd:string ;
+                      rdfs:comment "Information about Formula One car chassis"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#circuitCountry
+f1:circuitCountry rdf:type owl:DatatypeProperty ;
+                  rdfs:domain f1:Circuit ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "Country where circuit is situated"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#circuitLocality
+f1:circuitLocality rdf:type owl:DatatypeProperty ;
+                   rdfs:domain f1:Circuit ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "Location of circuit - name of the city or another place where circuit is located"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#circuitLocationLat
+f1:circuitLocationLat rdf:type owl:DatatypeProperty ;
+                      rdfs:domain f1:Circuit ;
+                      rdfs:range xsd:double ;
+                      rdfs:comment "Latitude of circuit location"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#circuitLocationLong
+f1:circuitLocationLong rdf:type owl:DatatypeProperty ;
+                       rdfs:domain f1:Circuit ;
+                       rdfs:range xsd:double ;
+                       rdfs:comment "Longtitude of circuit location"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#circuitName
+f1:circuitName rdf:type owl:DatatypeProperty ;
+               rdfs:domain f1:Circuit ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Name of circuit"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#circuitType
+f1:circuitType rdf:type owl:DatatypeProperty ;
+               rdfs:domain f1:Circuit ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Type of circuit"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#creationDate
+f1:creationDate rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain f1:RelatedCreation ;
+                rdfs:range xsd:date ;
+                rdfs:comment "Creation date of related creation"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#creationTitle
+f1:creationTitle rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain f1:RelatedCreation ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "Title of book, movie or another creation related to Formula One racing"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#deathCause
+f1:deathCause rdf:type owl:DatatypeProperty ;
+              rdfs:domain f1:DeathAccident ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Reason of driver's death"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#description
+f1:description rdf:type owl:DatatypeProperty ;
+               rdfs:domain f1:RelatedCreation ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Brief description of contents of related creation"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#dimensions
+f1:dimensions rdf:type owl:DatatypeProperty ;
+              rdfs:domain f1:Car ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Car dimensions description"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#distance
+f1:distance rdf:type owl:DatatypeProperty ;
+            rdfs:domain f1:GrandPrix ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Distance of grand prix race"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#driverCode
+f1:driverCode rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain f1:Driver ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Code of driver"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#driverNumber
+f1:driverNumber rdf:type owl:DatatypeProperty ;
+                rdfs:domain f1:GrandPrixResult ;
+                rdfs:range xsd:nonNegativeInteger ;
+                rdfs:comment "Number of a driver"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#driverPosition
+f1:driverPosition rdf:type owl:DatatypeProperty ;
+                  rdfs:domain f1:GrandPrixResult ;
+                  rdfs:range xsd:positiveInteger ;
+                  rdfs:comment "Final position of the driver at the end of the race"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#engineDescription
+f1:engineDescription rdf:type owl:DatatypeProperty ;
+                     rdfs:domain f1:Car ;
+                     rdfs:range xsd:string ;
+                     rdfs:comment "Description of engine characteristics of the car"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#finalStatus
+f1:finalStatus rdf:type owl:DatatypeProperty ;
+               rdfs:domain f1:RaceResult ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Finishing status of the racer (completed the race or not)"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#firstName
+f1:firstName rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain f1:Driver ;
+             rdfs:range xsd:string ;
+             rdfs:comment "Name of the driver"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#foundYear
+f1:foundYear rdf:type owl:DatatypeProperty ;
+             rdfs:domain f1:Team ;
+             rdfs:range xsd:string ;
+             rdfs:comment "Foundation year of Formula One racing team"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#genre
+f1:genre rdf:type owl:DatatypeProperty ;
+         rdfs:domain f1:RelatedCreation ;
+         rdfs:range xsd:string ;
+         rdfs:comment "Genres of movie, book or another creation"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#goodreadsRating
+f1:goodreadsRating rdf:type owl:DatatypeProperty ;
+                   rdfs:domain f1:Book ;
+                   rdfs:range xsd:double ;
+                   rdfs:comment "Rating of the book in goodreads.com website"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#grandPrixDate
+f1:grandPrixDate rdf:type owl:DatatypeProperty ;
+                 rdfs:domain f1:GrandPrix ;
+                 rdfs:range xsd:date ;
+                 rdfs:comment "Date when grand prix has happened"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#grandPrixName
+f1:grandPrixName rdf:type owl:DatatypeProperty ;
+                 rdfs:domain f1:GrandPrix ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "Name of the grand prix"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#grid
+f1:grid rdf:type owl:DatatypeProperty ;
+        rdfs:domain f1:RaceResult ;
+        rdfs:range xsd:nonNegativeInteger ;
+        rdfs:comment "Position of the driver in starting grid"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#imDbRating
+f1:imDbRating rdf:type owl:DatatypeProperty ;
+              rdfs:domain f1:Movie ;
+              rdfs:range xsd:double ;
+              rdfs:comment "Rating of the movie in imDb"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#lapDistance
+f1:lapDistance rdf:type owl:DatatypeProperty ;
+               rdfs:domain f1:Circuit ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Distance of one lap in the circuit"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#lapsCompleted
+f1:lapsCompleted rdf:type owl:DatatypeProperty ;
+                 rdfs:domain f1:RaceResult ;
+                 rdfs:range xsd:nonNegativeInteger ;
+                 rdfs:comment "Number of laps completed by the driver"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#lastName
+f1:lastName rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain f1:Driver ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Surname of the driver"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#metacriticRating
+f1:metacriticRating rdf:type owl:DatatypeProperty ;
+                    rdfs:domain f1:Movie ;
+                    rdfs:range xsd:nonNegativeInteger ;
+                    rdfs:comment "Rating of the movie in Metacritic"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#movieDuration
+f1:movieDuration rdf:type owl:DatatypeProperty ;
+                 rdfs:domain f1:Movie ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "Duration of the movie"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#nationality
+f1:nationality rdf:type owl:DatatypeProperty ;
+               rdfs:domain f1:Driver ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Nationality of the driver"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#pages
+f1:pages rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain f1:Book ;
+         rdfs:range xsd:nonNegativeInteger ;
+         rdfs:comment "Number of pages in the book"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#permanentNumber
+f1:permanentNumber rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain f1:Driver ;
+                   rdfs:range xsd:nonNegativeInteger ;
+                   rdfs:comment "Driver's permanent number"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#points
+f1:points rdf:type owl:DatatypeProperty ;
+          rdfs:domain f1:RaceResult ;
+          rdfs:range xsd:double ;
+          rdfs:comment "Number of points driver gained after finishing the race"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#raceTime
+f1:raceTime rdf:type owl:DatatypeProperty ;
+            rdfs:domain f1:RaceResult ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Driver's time for race"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#ratingsNum
+f1:ratingsNum rdf:type owl:DatatypeProperty ;
+              rdfs:domain f1:RelatedCreation ;
+              rdfs:range xsd:nonNegativeInteger ;
+              rdfs:comment "Number of user raitings for related creation"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#reviewsNum
+f1:reviewsNum rdf:type owl:DatatypeProperty ;
+              rdfs:domain f1:Book ;
+              rdfs:range xsd:nonNegativeInteger ;
+              rdfs:comment "Number of user reviews for related creation"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#seasonRound
+f1:seasonRound rdf:type owl:DatatypeProperty ;
+               rdfs:domain f1:GrandPrix ;
+               rdfs:range xsd:positiveInteger ;
+               rdfs:comment "Number of corresponding round in the racing season, which is related to grand prix"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#seasonYear
+f1:seasonYear rdf:type owl:DatatypeProperty ;
+              rdfs:domain f1:Season ;
+              rdfs:range xsd:positiveInteger ;
+              rdfs:comment "Year of racing season"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#specifications
+f1:specifications rdf:type owl:DatatypeProperty ;
+                  rdfs:domain f1:Car ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "Description of various specifications of the car"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#teamBasedIn
+f1:teamBasedIn rdf:type owl:DatatypeProperty ;
+               rdfs:domain f1:Team ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Location, where racing team office is based in"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#teamCountry
+f1:teamCountry rdf:type owl:DatatypeProperty ;
+               rdfs:domain f1:Team ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Country of the team"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#teamName
+f1:teamName rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain f1:Team ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Name of the team"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#totalLaps
+f1:totalLaps rdf:type owl:DatatypeProperty ;
+             rdfs:domain f1:GrandPrix ;
+             rdfs:range xsd:positiveInteger ;
+             rdfs:comment "Number of laps in grand prix race"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#totalPoints
+f1:totalPoints rdf:type owl:DatatypeProperty ;
+               rdfs:domain f1:SeasonResult ;
+               rdfs:range xsd:double ;
+               rdfs:comment "Total number of driver's points for the whole season"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#totalPosition
+f1:totalPosition rdf:type owl:DatatypeProperty ;
+                 rdfs:domain f1:SeasonResult ;
+                 rdfs:range xsd:positiveInteger ;
+                 rdfs:comment "Total driver's position in drivers cup for the season"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#transmission
+f1:transmission rdf:type owl:DatatypeProperty ;
+                rdfs:domain f1:Car ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Description of car transmission"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#wikipediaUrl
+f1:wikipediaUrl rdf:type owl:DatatypeProperty ;
+                rdfs:domain owl:Thing ;
+                rdfs:range xsd:string ;
+                rdfs:comment "URL of wikipedia page to get more information about entity"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#winsNum
+f1:winsNum rdf:type owl:DatatypeProperty ;
+           rdfs:domain f1:SeasonResult ;
+           rdfs:range xsd:nonNegativeInteger ;
+           rdfs:comment "Number of races, which driver won during the season"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#Book
+f1:Book rdf:type owl:Class ;
+        rdfs:subClassOf f1:RelatedCreation ;
+        rdfs:comment "Entity, which represents book related to Formula One racing"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#Car
+f1:Car rdf:type owl:Class ;
+       rdfs:subClassOf f1:CreationCanBeAbout ;
+       rdfs:comment "Entity, which represents car used in Formula One racing"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#CarDriving
+f1:CarDriving rdf:type owl:Class ;
+              rdfs:comment "Reiﬁcation of car driving fact - shows what driver used to drive specific car in a particular season"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#Circuit
+f1:Circuit rdf:type owl:Class ;
+           rdfs:comment "Entity, which represents circuit used in Formula One racing"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#ConstructorStanding
+f1:ConstructorStanding rdf:type owl:Class ;
+                       rdfs:subClassOf f1:SeasonResult ;
+                       rdfs:comment "Entity, which represents constructors cup result for specific season"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#CreationCanBeAbout
+f1:CreationCanBeAbout rdf:type owl:Class ;
+                      rdfs:comment "Superclass for all entities, which related creation can be about"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#DeathAccident
+f1:DeathAccident rdf:type owl:Class ;
+                 rdfs:comment "Entity, which represents death accident occurred to Formula One driver during racing event"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#Driver
+f1:Driver rdf:type owl:Class ;
+          rdfs:subClassOf f1:CreationCanBeAbout ;
+          rdfs:comment "Entity, which represents driver featured in Formula One racing"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#DriverStanding
+f1:DriverStanding rdf:type owl:Class ;
+                  rdfs:subClassOf f1:SeasonResult ;
+                  rdfs:comment "Entity, which represents drivers cup result for specific season"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#GrandPrix
+f1:GrandPrix rdf:type owl:Class ;
+             rdfs:subClassOf f1:CreationCanBeAbout ;
+             rdfs:comment "Entity, which represents grand prix event from Formula One racing"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#GrandPrixResult
+f1:GrandPrixResult rdf:type owl:Class ;
+                   rdfs:comment "Superclass for grand prix event results"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#Movie
+f1:Movie rdf:type owl:Class ;
+         rdfs:subClassOf f1:RelatedCreation ;
+         rdfs:comment "Entity, which represents movie related to Formula One racing"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#QualifyingResult
+f1:QualifyingResult rdf:type owl:Class ;
+                    rdfs:subClassOf f1:GrandPrixResult ;
+                    rdfs:comment "Entity, which represents driver qulifying result for specific grand prix"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#RaceResult
+f1:RaceResult rdf:type owl:Class ;
+              rdfs:subClassOf f1:GrandPrixResult ;
+              rdfs:comment "Entity, which represents driver race result for specific grand prix"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#RelatedCreation
+f1:RelatedCreation rdf:type owl:Class ;
+                   rdfs:comment "Superclass for all cultural events or creations, which are related to Formula One racing series"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#Season
+f1:Season rdf:type owl:Class ;
+          rdfs:subClassOf f1:CreationCanBeAbout ;
+          rdfs:comment "Entity, which represents racing season from Formula One racing"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#SeasonResult
+f1:SeasonResult rdf:type owl:Class ;
+                rdfs:comment "Superclass for racing season results"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#Team
+f1:Team rdf:type owl:Class ;
+        rdfs:subClassOf f1:CreationCanBeAbout ;
+        rdfs:comment "Entity, which represents racing team featured in Formula One racing"@en .
+
+
+###  https://github.com/RogoGit/F1-knowledge-base/f1-ontology#TeamParticipation
+f1:TeamParticipation rdf:type owl:Class ;
+                     rdfs:comment "Reiﬁcation of team participation fact - shows what driver used to participate in a specific team in a particular season"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( f1:CarDriving
+                f1:Circuit
+                f1:DeathAccident
+                f1:GrandPrixResult
+                f1:RelatedCreation
+                f1:SeasonResult
+                f1:TeamParticipation
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

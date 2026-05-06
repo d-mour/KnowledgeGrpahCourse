@@ -1,0 +1,710 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6/"
+     xml:base="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#actor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#actor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#country -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#country">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#director -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#director">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Director"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#higher_rating -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#higher_rating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#longer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#longer">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#older -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#older">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#prequel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#prequel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Director"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Annie_Potts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Annie_Potts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Arnold_Schwarzenegger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Arnold_Schwarzenegger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Canada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Canada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Colin_Farrell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Colin_Farrell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#David_Leitch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#David_Leitch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Ed_Skrein"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Morena_Baccarin"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Ryan_Reynolds"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#T_J_Miller"/>
+        <untitled-ontology-6:country rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#USA"/>
+        <untitled-ontology-6:director rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tim_Miller"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Terminator"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Top_Gun:_Maverick"/>
+        <untitled-ontology-6:prequel rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Josh_Brolin"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Julian_Dennison"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Morena_Baccarin"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Ryan_Reynolds"/>
+        <untitled-ontology-6:country rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Canada"/>
+        <untitled-ontology-6:director rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#David_Leitch"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Terminator"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Top_Gun:_Maverick"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Don_Rickles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Don_Rickles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Ed_Skrein -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Ed_Skrein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Edward_Furlong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Edward_Furlong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Great_Britain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Great_Britain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#James_Cameron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#James_Cameron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Jeffrey_Wright -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Jeffrey_Wright">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Jennifer_Connelly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Jennifer_Connelly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Jim_Varney -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Jim_Varney">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Joan_Cusack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Joan_Cusack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#John_Lasseter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#John_Lasseter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Director"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Terminator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Joseph_Kosinski -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Joseph_Kosinski">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Josh_Brolin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Josh_Brolin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Josh_Cooley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Josh_Cooley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Julian_Dennison -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Julian_Dennison">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Kelsey_Grammer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Kelsey_Grammer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Lee_Unkrich -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Lee_Unkrich">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Linda_Hamilton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Linda_Hamilton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Matt_Reeves -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Matt_Reeves">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Michael_Biehn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Michael_Biehn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Miles_Teller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Miles_Teller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Morena_Baccarin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Morena_Baccarin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Paul_Winfield -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Paul_Winfield">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Robert_Patrick -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Robert_Patrick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Robert_Pattinson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Robert_Pattinson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Ryan_Reynolds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Ryan_Reynolds">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#T_J_Miller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#T_J_Miller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Colin_Farrell"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Jeffrey_Wright"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Robert_Pattinson"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Zoë_Kravitz"/>
+        <untitled-ontology-6:country rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#USA"/>
+        <untitled-ontology-6:director rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Matt_Reeves"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Terminator"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Terminator_2:_Judgment_Day"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Top_Gun:_Maverick"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Terminator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Terminator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Arnold_Schwarzenegger"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Linda_Hamilton"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Michael_Biehn"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Paul_Winfield"/>
+        <untitled-ontology-6:country rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Great_Britain"/>
+        <untitled-ontology-6:director rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#James_Cameron"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Terminator_2:_Judgment_Day"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Top_Gun:_Maverick"/>
+        <untitled-ontology-6:prequel rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Terminator_2:_Judgment_Day"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tim_Allen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tim_Allen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tim_Miller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tim_Miller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tom_Cruise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tom_Cruise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tom_Hanks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tom_Hanks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tony_Hale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tony_Hale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Don_Rickles"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Jim_Varney"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tim_Allen"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tom_Hanks"/>
+        <untitled-ontology-6:country rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#USA"/>
+        <untitled-ontology-6:director rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#John_Lasseter"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Terminator"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Top_Gun:_Maverick"/>
+        <untitled-ontology-6:prequel rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:prequel rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Joan_Cusack"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Kelsey_Grammer"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Lee_Unkrich"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tim_Allen"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tom_Hanks"/>
+        <untitled-ontology-6:country rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#USA"/>
+        <untitled-ontology-6:director rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#John_Lasseter"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Top_Gun:_Maverick"/>
+        <untitled-ontology-6:prequel rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Annie_Potts"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tim_Allen"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tom_Hanks"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tony_Hale"/>
+        <untitled-ontology-6:country rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#USA"/>
+        <untitled-ontology-6:director rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Josh_Cooley"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Top_Gun:_Maverick"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#USA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Val_Kilmer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Val_Kilmer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Zoë_Kravitz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Zoë_Kravitz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Terminator_2:_Judgment_Day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Terminator_2:_Judgment_Day">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Arnold_Schwarzenegger"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Edward_Furlong"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Linda_Hamilton"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Robert_Patrick"/>
+        <untitled-ontology-6:country rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#USA"/>
+        <untitled-ontology-6:director rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#James_Cameron"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Terminator"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Terminator"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Top_Gun:_Maverick"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:older rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Top_Gun:_Maverick"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Top_Gun:_Maverick -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Top_Gun:_Maverick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Film"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Jennifer_Connelly"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Miles_Teller"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Tom_Cruise"/>
+        <untitled-ontology-6:actor rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Val_Kilmer"/>
+        <untitled-ontology-6:country rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#USA"/>
+        <untitled-ontology-6:director rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Joseph_Kosinski"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Batman"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Terminator"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:higher_rating rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Deadpool_2"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#The_Terminator"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_2"/>
+        <untitled-ontology-6:longer rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/9/untitled-ontology-6#Toy_Story_4"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

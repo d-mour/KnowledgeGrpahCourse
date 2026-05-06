@@ -1,0 +1,25 @@
+@prefix ns1: <cs/> .
+
+ns1:GameSystem a ns1:System ;
+    ns1:hasFunction "Имитация действий игрока"@ru ;
+    ns1:usesDataFrom ns1:CounterStrike .
+
+ns1:AudioAnnotation ns1:hasClasses "front, left, right, back" ;
+    ns1:hasFormat "CSV" ;
+    ns1:usesTool ns1:ELAN .
+
+ns1:AudioModality a ns1:Modality ;
+    ns1:hasAnnotationType ns1:AudioAnnotation .
+
+ns1:CounterStrike a ns1:Game ;
+    ns1:hasModality ns1:AudioModality,
+        ns1:ImageModality ;
+    ns1:hasSource ns1:HLTV_Source .
+
+ns1:ImageModality a ns1:Modality ;
+    ns1:hasAnnotationType ns1:YOLOAnnotation .
+
+ns1:YOLOAnnotation ns1:hasFormat "YOLO (.txt)" ;
+    ns1:hasObjectClasses "body, head" ;
+    ns1:usesTool ns1:Roboflow .
+

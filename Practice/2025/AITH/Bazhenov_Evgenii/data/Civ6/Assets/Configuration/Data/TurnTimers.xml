@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<TurnTimers>
+		<Row TurnTimerType="TURNTIMER_NONE" Name="LOC_TURNTIMER_NONE" Description="LOC_TURNTIMER_NONE_DESC" SortIndex="10" />
+		<Row TurnTimerType="TURNTIMER_STANDARD" Name="LOC_TURNTIMER_STANDARD" Description="LOC_TURNTIMER_STANDARD_DESC" SortIndex="20" />
+		<Row TurnTimerType="TURNTIMER_DYNAMIC" Name="LOC_TURNTIMER_DYNAMIC" Description="LOC_TURNTIMER_DYNAMIC_DESC" SortIndex="30" />
+	</TurnTimers>
+</GameInfo>

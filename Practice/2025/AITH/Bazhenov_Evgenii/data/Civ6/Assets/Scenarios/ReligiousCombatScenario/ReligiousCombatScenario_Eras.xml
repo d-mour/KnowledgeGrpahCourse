@@ -1,0 +1,15 @@
+<GameInfo>
+	<StartingGovernments>
+		<Update>
+			<Where Era="ERA_MEDIEVAL"/>
+			<Set Government="GOVERNMENT_CLASSICAL_REPUBLIC"/>
+		</Update>
+	</StartingGovernments>
+	
+	<!-- 
+		- Free prophet on first holy site.
+	-->
+	<MajorStartingUnits>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_GREAT_PROPHET" District="DISTRICT_HOLY_SITE" Quantity="1" OnDistrictCreated="true"/>
+	</MajorStartingUnits>
+</GameInfo>

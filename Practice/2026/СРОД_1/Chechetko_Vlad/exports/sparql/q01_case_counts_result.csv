@@ -1,0 +1,5 @@
+﻿dataset,modality,cases
+BC5CDR,text,1471
+ChestXrayPneumoniaHF,image_chest_xray,300
+CirCor,audio_heart,934
+ICBHI2017,audio_lung,126

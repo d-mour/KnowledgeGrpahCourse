@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<RuleSets>
+		<Row>
+			<RuleSetType>RULESET_SCENARIO_COLDWAR</RuleSetType>
+			<Name>LOC_COLDWAR_RULESET_TITLE</Name>
+			<Description>LOC_COLDWAR_RULESET_DESCRIPTION</Description>
+			<VictoryDomain>ColdWarScenario_Victories</VictoryDomain>
+			<SupportsSinglePlayer>0</SupportsSinglePlayer>
+			<MaxTurns>50</MaxTurns>
+		</Row>
+	</RuleSets>
+	<RulesetSupportedValues>
+		<Row Ruleset="RULESET_SCENARIO_COLDWAR" Domain="StandardEras" Value="ERA_ATOMIC"/>
+		<Row Ruleset="RULESET_SCENARIO_COLDWAR" Domain="StandardTurnLimits" Value="TURNLIMIT_CUSTOM"/>
+	</RulesetSupportedValues>
+  <!-- Disable random leader pool players which are inaccessible -->
+  <RulesetUnsupportedValues>
+    <Row Ruleset="RULESET_SCENARIO_COLDWAR" Domain="Players:StandardPlayers" Value="RANDOM_POOL1" />
+    <Row Ruleset="RULESET_SCENARIO_COLDWAR" Domain="Players:StandardPlayers" Value="RANDOM_POOL2" />
+  </RulesetUnsupportedValues>
+	<Victories>
+		<Row Domain="ColdWarScenario_Victories" VictoryType="VICTORY_PROXYWAR" Name="LOC_COLDWAR_PROXYWAR_VICTORY_TITLE" Description="LOC_COLDWAR_PROXYWAR_VICTORY_DESC"/>
+		<Row Domain="ColdWarScenario_Victories" VictoryType="VICTORY_ARMAGEDDON" Name="LOC_COLDWAR_ARMAGEDDON_VICTORY_TITLE" Description="LOC_COLDWAR_ARMAGEDDON_VICTORY_DESC"/>
+		<Row Domain="ColdWarScenario_Victories" VictoryType="VICTORY_TANKBANKER" Name="LOC_COLDWAR_TANKBANKER_VICTORY_TITLE" Description="LOC_COLDWAR_TANKBANKER_VICTORY_DESC"/>
+	</Victories>
+
+	<!-- Disable turn limit and max turns if our ruleset is selected. -->
+	<ParameterCriteria>
+		<Row ParameterId="TurnLimit" ConfigurationGroup="Game" ConfigurationId="RULESET" Operator="NotEquals" ConfigurationValue="RULESET_SCENARIO_COLDWAR" />
+		<Row ParameterId="MaxTurns" ConfigurationGroup="Game" ConfigurationId="RULESET" Operator="NotEquals" ConfigurationValue="RULESET_SCENARIO_COLDWAR" />
+	</ParameterCriteria>
+
+	<Parameters>
+		<!-- Using a different ParameterId to override the default values for these standard advanced settings. -->
+		<Row Key1="Ruleset" Key2="RULESET_SCENARIO_COLDWAR" ParameterId="ColdWar_NoGoodyHuts" Name="LOC_GAME_NO_GOODY_HUTS" Description="LOC_GAME_NO_GOODY_HUTS" Domain="bool" DefaultValue="1" Visible="true" ConfigurationGroup="Game" ConfigurationId="GAME_NO_GOODY_HUTS" GroupId="AdvancedOptions" SortIndex="2010"/>
+		<Row Key1="Ruleset" Key2="RULESET_SCENARIO_COLDWAR" ParameterId="ColdWar_NoBarbarians" Name="LOC_GAME_NO_BARBARIANS" Description="LOC_GAME_NO_BARBARIANS" Domain="bool" DefaultValue="1" Visible="true" ConfigurationGroup="Game" ConfigurationId="GAME_NO_BARBARIANS" GroupId="AdvancedOptions" SortIndex="2010"/>
+	</Parameters>
+</GameInfo>

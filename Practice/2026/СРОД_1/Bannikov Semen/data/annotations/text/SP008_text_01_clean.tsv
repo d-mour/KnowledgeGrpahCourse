@@ -1,0 +1,115 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.BirdNER|canonical_form|label|species_id
+
+
+#Text=White wagtail\r
+#Text=\r
+#Text=The white wagtail is a small passerine bird in the family Motacillidae, which also includes pipits and longclaws.
+1-1	0-5	White	_	_	_	
+1-2	6-13	wagtail	_	_	_	
+1-3	17-20	The	_	_	_	
+1-4	21-26	white	Motacilla alba[1]	BIRD\_SPECIES[1]	SP008[1]	
+1-5	27-34	wagtail	Motacilla alba[1]	BIRD\_SPECIES[1]	SP008[1]	
+1-6	35-37	is	_	_	_	
+1-7	38-39	a	_	_	_	
+1-8	40-45	small	_	_	_	
+1-9	46-55	passerine	_	_	_	
+1-10	56-60	bird	_	_	_	
+1-11	61-63	in	_	_	_	
+1-12	64-67	the	_	_	_	
+1-13	68-74	family	_	_	_	
+1-14	75-87	Motacillidae	_	_	_	
+1-15	87-88	,	_	_	_	
+1-16	89-94	which	_	_	_	
+1-17	95-99	also	_	_	_	
+1-18	100-108	includes	_	_	_	
+1-19	109-115	pipits	_	_	_	
+1-20	116-119	and	_	_	_	
+1-21	120-129	longclaws	_	_	_	
+1-22	129-130	.	_	_	_	
+
+#Text=The species breeds in the Palearctic zone in most of Europe and Asia and parts of North Africa; it also has a toehold in western Alaska as a scarce breeder.
+2-1	131-134	The	_	_	_	
+2-2	135-142	species	_	_	_	
+2-3	143-149	breeds	_	_	_	
+2-4	150-152	in	_	_	_	
+2-5	153-156	the	_	_	_	
+2-6	157-167	Palearctic	*[2]	HABITAT[2]	*[2]	
+2-7	168-172	zone	*[2]	HABITAT[2]	*[2]	
+2-8	173-175	in	_	_	_	
+2-9	176-180	most	_	_	_	
+2-10	181-183	of	_	_	_	
+2-11	184-190	Europe	*	HABITAT	*	
+2-12	191-194	and	_	_	_	
+2-13	195-199	Asia	*	HABITAT	*	
+2-14	200-203	and	_	_	_	
+2-15	204-209	parts	_	_	_	
+2-16	210-212	of	_	_	_	
+2-17	213-218	North	*[3]	HABITAT[3]	*[3]	
+2-18	219-225	Africa	*[3]	HABITAT[3]	*[3]	
+2-19	225-226	;	_	_	_	
+2-20	227-229	it	_	_	_	
+2-21	230-234	also	_	_	_	
+2-22	235-238	has	_	_	_	
+2-23	239-240	a	_	_	_	
+2-24	241-248	toehold	_	_	_	
+2-25	249-251	in	_	_	_	
+2-26	252-259	western	*[4]	HABITAT[4]	*[4]	
+2-27	260-266	Alaska	*[4]	HABITAT[4]	*[4]	
+2-28	267-269	as	_	_	_	
+2-29	270-271	a	_	_	_	
+2-30	272-278	scarce	_	_	_	
+2-31	279-286	breeder	_	_	_	
+2-32	286-287	.	_	_	_	
+
+#Text=It is resident in the mildest parts of its range, but otherwise migrates to Africa.
+3-1	288-290	It	_	_	_	
+3-2	291-293	is	_	_	_	
+3-3	294-302	resident	*[5]	BEHAVIOR[5]	*[5]	
+3-4	303-305	in	*[5]	BEHAVIOR[5]	*[5]	
+3-5	306-309	the	*[5]	BEHAVIOR[5]	*[5]	
+3-6	310-317	mildest	*[5]	BEHAVIOR[5]	*[5]	
+3-7	318-323	parts	*[5]	BEHAVIOR[5]	*[5]	
+3-8	324-326	of	*[5]	BEHAVIOR[5]	*[5]	
+3-9	327-330	its	*[5]	BEHAVIOR[5]	*[5]	
+3-10	331-336	range	*[5]	BEHAVIOR[5]	*[5]	
+3-11	336-337	,	_	_	_	
+3-12	338-341	but	_	_	_	
+3-13	342-351	otherwise	_	_	_	
+3-14	352-360	migrates	*[6]	BEHAVIOR[6]	*[6]	
+3-15	361-363	to	*[6]	BEHAVIOR[6]	*[6]	
+3-16	364-370	Africa	*	HABITAT	*	
+3-17	370-371	.	_	_	_	
+
+#Text=In total, there are between 9 and 11 subspecies of M. alba; in Ireland and Great Britain, the black-backed subspecies known as the pied wagtail predominates.
+4-1	372-374	In	_	_	_	
+4-2	375-380	total	_	_	_	
+4-3	380-381	,	_	_	_	
+4-4	382-387	there	_	_	_	
+4-5	388-391	are	_	_	_	
+4-6	392-399	between	_	_	_	
+4-7	400-401	9	_	_	_	
+4-8	402-405	and	_	_	_	
+4-9	406-408	11	_	_	_	
+4-10	409-419	subspecies	_	_	_	
+4-11	420-422	of	_	_	_	
+4-12	423-424	M	Motacilla alba[7]	BIRD\_SPECIES[7]	SP008[7]	
+4-13	424-425	.	Motacilla alba[7]	BIRD\_SPECIES[7]	SP008[7]	
+4-14	426-430	alba	Motacilla alba[7]	BIRD\_SPECIES[7]	SP008[7]	
+4-15	430-431	;	_	_	_	
+4-16	432-434	in	_	_	_	
+4-17	435-442	Ireland	*	HABITAT	*	
+4-18	443-446	and	_	_	_	
+4-19	447-452	Great	*[8]	HABITAT[8]	*[8]	
+4-20	453-460	Britain	*[8]	HABITAT[8]	*[8]	
+4-21	460-461	,	_	_	_	
+4-22	462-465	the	_	_	_	
+4-23	466-478	black-backed	_	_	_	
+4-24	479-489	subspecies	_	_	_	
+4-25	490-495	known	_	_	_	
+4-26	496-498	as	_	_	_	
+4-27	499-502	the	_	_	_	
+4-28	503-507	pied	_	_	_	
+4-29	508-515	wagtail	_	_	_	
+4-30	516-528	predominates	_	_	_	
+4-31	528-529	.	_	_	_	

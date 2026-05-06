@@ -1,0 +1,25 @@
+# Какие авторы писали сразу в нескольких жанрах (например, поэзия и роман)?
+
+PREFIX ons: <http://www.semanticweb.org/admin/ontologies/2024/9/authors-ontology#>
+
+SELECT ?authorName
+WHERE {
+    ?author a ons:Author ;
+            ons:name ?authorName ;
+            ons:hasGenre ?genre1, ?genre2 .
+    ?genre1 ons:name "Poetry" .
+    ?genre2 ons:name "Novel" .
+    FILTER (?genre1 != ?genre2)
+}
+#"Reinaldo Arenas"	
+#"Miloš Crnjanski"	
+#"Luigi Pirandello"	
+#"Giannina Braschi"	
+#"Victor Hugo"	
+#"Cherukad"	
+#"Kamala Surayya"	
+#"Xu Yuanchong"	
+#"Eduard Limonov"	
+#"Lourd de Veyra"	
+#"John Cowper Powys"	
+#"María Nestora Téllez"

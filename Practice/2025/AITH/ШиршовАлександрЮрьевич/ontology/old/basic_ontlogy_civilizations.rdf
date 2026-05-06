@@ -1,0 +1,3333 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5"
+     xmlns:ex="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#hasCluster -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#hasCluster"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#hasPlanet -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#hasPlanet"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#bornIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#bornIn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#doActivity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#doActivity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#character"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#hasAbility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#hasAbility">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#DNA"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#abilities"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#hasAction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#hasAction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#hasDNA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#hasDNA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#DNA"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#synthetic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#inCrew -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#inCrew"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#isAvailable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#isAvailable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#isSpecies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#isSpecies">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#AI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#AI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Action"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Armor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Armor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#abilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Assault_Rifles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Assault_Rifles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Weapons"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Assault_Training -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Assault_Training">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Combat"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Fitness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Barrier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Barrier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Biotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Basic_Armor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Basic_Armor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Armor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Biotic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Biotic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#abilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Combat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Combat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#abilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Combat_Armor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Combat_Armor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Armor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#DNA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#DNA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Fitness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Fitness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Combat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Lift -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Lift">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Biotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pistols -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pistols">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Weapons"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Shotguns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Shotguns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Weapons"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Singularity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Singularity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Biotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Stasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Stasis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Biotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tactical_Armor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tactical_Armor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Armor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Throw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Throw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Biotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Unknown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Unknown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#abilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Warp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Warp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Biotic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Weapons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Weapons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#abilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#abilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#abilities"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#admiral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#admiral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#soldier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#biotic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#biotic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#clear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#character -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#character"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#chef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#chef">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#clear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#clear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#commader -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#commader">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#soldier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#counselor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#counselor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#politcian"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#leader"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#criminal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#criminal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#doctor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#doctor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#engineer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#engineer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#journalist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#journalist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#justicar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#justicar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#leader -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#leader">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#politcian"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#mercenary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#mercenary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#navigator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#navigator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#normandy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#normandy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#biotic"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#clear"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#DNA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#synthetic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#pilot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#pilot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#politcian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#politcian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#scientist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#scientist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#seller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#seller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#soldier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#soldier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#synthetic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#synthetic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#DNA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Acheron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Acheron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Altahe"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Farthorl"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Grosalgen"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Imaneya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Agebinium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Agebinium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ageko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ageko">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Alko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Alko">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Almarcrux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Almarcrux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Almos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Almos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Alrumter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Alrumter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Alsages -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Alsages">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Altaaya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Altaaya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Altahe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Altahe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Altanorch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Altanorch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Amaranthine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Amaranthine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Amazon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Amazon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Agebinium"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Derneuca"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sonedma"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sybin"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tremar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antaeus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antaeus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ageko"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Edmos"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hunidor"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ploba"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Trebin"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vemal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antibaar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antibaar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antiropus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antiropus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antirumgon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antirumgon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antitarra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antitarra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Apo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Apo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Arcadia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Arcadia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Archanes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Archanes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Argos_Rho -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Argos_Rho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gorgon"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hydra"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Phoenix"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Armeni -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Armeni">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Armstrong_Nebula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Armstrong_Nebula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gagarin"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Grissom"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hong"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tereshkova"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vamshi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Artemis_Tau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Artemis_Tau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Athens"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Knossos"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Macedon"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sparta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Thessia"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asgard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asgard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid_X57"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Borr"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Loki"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Terra_Nova"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tyr"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid_X57 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid_X57">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Athens -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Athens">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Circe"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nausicaa"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pharos"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Proteus"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Salamis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Attican_Beta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Attican_Beta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Feros"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hercules"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Batarian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Batarian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Kharshan"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Benda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Benda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Binthu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Binthu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Borr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Borr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cacus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cacus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Chohe"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Faringor"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Treyarmus"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Xamarri"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zayarter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Camaron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Camaron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Canctra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Canctra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Canrum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Canrum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Casbin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Casbin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Caspian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Caspian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Almarcrux"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antida"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clotanca"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Farnuri"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Cornucopia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Century -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Century">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Canctra"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Klendagon"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Presrop"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tamahera"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tharopto"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Chasca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Chasca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Chofen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Chofen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Chohe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Chohe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Circe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Circe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clobaka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clobaka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clocrolis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clocrolis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clojiia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clojiia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clomarthu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clomarthu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clotanca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clotanca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clugon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clugon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Columbia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Columbia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clojiia"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gromar"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nepheron"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ontaheter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Dekuuna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Dekuuna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Derneuca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Derneuca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Dis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Dis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gremar"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Jartar"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Klensal"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nearrum"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Raysha"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Dregir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Dregir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Drell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Drell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Kahje"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Earth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Earth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Eden_Prime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Eden_Prime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Edmos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Edmos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Edolus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Edolus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Elcor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Elcor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Dekuuna"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Eletania -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Eletania">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Erebus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Erebus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Chofen"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nepmos"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Quaji"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Wermani"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Exodus_Cluster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Exodus_Cluster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asgard"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Utopia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Farcrothu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Farcrothu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Fargeluse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Fargeluse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Farinata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Farinata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Juntauma"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Ontario"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nepneu"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tunshagon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Faringor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Faringor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Farnuri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Farnuri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Farthorl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Farthorl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Feros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Feros">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Feros"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Logan"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Quana"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sharring"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sytau"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Fortuna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Fortuna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Amaranthine"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Maganlis"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Therumlon"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Wentania"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gagarin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gagarin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antirumgon"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Junthor"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pressha"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Rayingri"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sogelrus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gemini_Sigma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gemini_Sigma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Han"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Geth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Geth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Rannoch"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#synthetic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gorgon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gorgon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Camaron"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sharblu"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Slekon"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Unidentified_Space_Facility"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vectra"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Wuo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gremar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gremar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Grissom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Grissom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Benda"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Notanban"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Solcrum"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zaherux"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gromar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Gromar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Grosalgen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Grosalgen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hades_Gamma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hades_Gamma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antaeus"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cacus"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Dis"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Farinata"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Plutus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Han -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Han">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Farcrothu"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Huningto"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mavigon"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Paravin"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patatanlis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hanar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hanar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Kahje"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hawking_Eta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hawking_Eta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Century"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hercules -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hercules">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Eletania"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Syided"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Xathorron"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zatorus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Herschel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Herschel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clobaka"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clugon"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Fedele"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Matol"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tungel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Heshtok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Heshtok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hoc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hoc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Virmire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Casbin"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Matar"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pomal"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Theshaca"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Treagir"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Horse_Head_Nebula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Horse_Head_Nebula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Fortuna"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pax"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Streenus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hub -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hub">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Action"/>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isAvailable>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Human -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Human">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Earth"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hunidor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hunidor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Huningto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Huningto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hunsalra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hunsalra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hydra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hydra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Canrum"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Metgos"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Syba"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Theyar"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Varmalus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Illapa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Illapa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Imaneya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Imaneya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Inti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Inti">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Irune -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Irune">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Jartar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Jartar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Juncro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Juncro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Juntauma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Juntauma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Junthor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Junthor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Jupiter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Jupiter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Kahje -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Kahje">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Kepler_Verge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Kepler_Verge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Herschel"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Newton"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Kharshan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Kharshan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Klencory -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Klencory">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Klendagon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Klendagon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Klensal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Klensal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Knossos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Knossos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Archanes"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Armeni"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Phiastos"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Therum"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zakros"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid_%231"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid_%232"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Krogan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Krogan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tuchanka"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Action"/>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isAvailable>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isAvailable>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Leviathan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Leviathan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Unknown"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Local_Cluster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Local_Cluster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sol"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Logan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Logan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Loki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Loki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Luna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Luna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Cornucopia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Cornucopia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Fedele -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Fedele">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Majesty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Majesty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Ontario -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Ontario">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Worthington -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Worthington">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Macedon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Macedon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Fargeluse"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patavig"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Porolan"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sharjila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Maganlis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Maganlis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Maidla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Maidla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Maji -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Maji">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Maroon_Sea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Maroon_Sea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Caspian"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Matano"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vostok"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mars -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mars">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Matano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Matano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Apo"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Chasca"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Illapa"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Inti"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Supay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Matar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Matar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Matol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Matol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mavigon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mavigon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mawinor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mawinor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mercury -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mercury">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Metgos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Metgos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Altanorch"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antiropus"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Worthington"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Parag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mingito -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mingito">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Action"/>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isAvailable>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isAvailable>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Morana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Morana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nausicaa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nausicaa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nearrum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nearrum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nepheron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nepheron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nepmos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nepmos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nepneu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nepneu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Neptune -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Neptune">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Newton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Newton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Juncro"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Klencory"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ontarom"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sesmose"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nirvana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nirvana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nodacrux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nodacrux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nonuel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nonuel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Notanban -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Notanban">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Noveria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Noveria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ontaheter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ontaheter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ontamalca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ontamalca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ontarom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ontarom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Palaven -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Palaven">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Parag -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Parag">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Paravin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Paravin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Parnack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Parnack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pataiton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pataiton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patajiri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patajiri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patamalrus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patamalrus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patashi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patashi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patatanlis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patatanlis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patavig -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patavig">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pax -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pax">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Morana"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Noveria"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Svarog"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Veles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pharos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pharos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Phiastos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Phiastos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Phoenix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Phoenix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patashi"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pinnacle_Station"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sylsalto"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tuntau"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vebinok"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Intai%27sei"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pinnacle_Station -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pinnacle_Station">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ploba -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ploba">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pluto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pluto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Plutus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Plutus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clocrolis"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Maidla"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mingito"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nonuel"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Veyaria"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pomal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pomal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Porolan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Porolan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pregel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pregel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Presrop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Presrop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pressha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pressha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Proteus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Proteus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Prothean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Prothean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Eden_Prime"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Quaji -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Quaji">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Quana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Quana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Quarian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Quarian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Rannoch"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Rannoch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Rannoch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Rayingri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Rayingri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Raysha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Raysha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Reaper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Reaper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Unknown"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#synthetic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Renshato -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Renshato">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Salamis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Salamis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Salarian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Salarian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#SurKesh"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Saturn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Saturn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sentry_Omega -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sentry_Omega">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hoc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Serpent_Nebula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Serpent_Nebula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Widow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sesmose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sesmose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sharblu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sharblu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sharjila -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sharjila">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sharring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sharring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Slekon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Slekon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sogelrus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sogelrus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Earth"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Jupiter"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Luna"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mars"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mercury"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Neptune"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pluto"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Saturn"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Uranus"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Venus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Solcrum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Solcrum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Solmarlon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Solmarlon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sonedma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sonedma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sparta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sparta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Alsages"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Altaaya"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Edolus"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ontamalca"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tremanre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Streenus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Streenus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antitarra"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#MSV_Majesty"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Thesalgon"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Trelyn"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Xawin"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Yunthorl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Styx_Theta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Styx_Theta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Acheron"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Erebus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Supay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Supay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#SurKesh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#SurKesh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Action"/>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isAvailable>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isAvailable>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Svarog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Svarog">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Syba -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Syba">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sybin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sybin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Syided -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Syided">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sylsalto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sylsalto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sytau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Sytau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tamahera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tamahera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tereshkova -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tereshkova">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Antibaar"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hunsalra"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mawinor"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patamalrus"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Solmarlon"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Thegeuse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Terra_Nova -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Terra_Nova">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tharopto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tharopto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#The_Citadel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#The_Citadel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Hub"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Thegeuse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Thegeuse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Therum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Therum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Therumlon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Therumlon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Thesalgon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Thesalgon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Theshaca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Theshaca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Thessia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Thessia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Theyar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Theyar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Treagir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Treagir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Trebin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Trebin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Trelyn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Trelyn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tremanre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tremanre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tremar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tremar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Treyarmus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Treyarmus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tuchanka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tuchanka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tungel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tungel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tunshagon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tunshagon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tuntau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tuntau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Turian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Turian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Palaven"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tyr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tyr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Unidentified_Space_Facility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Unidentified_Space_Facility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Unknown -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Unknown">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Uranus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Uranus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Utopia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Utopia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Arcadia"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Eden_Prime"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nirvana"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Xanadu"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vamshi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vamshi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Almos"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Maji"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pregel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Varmalus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Varmalus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vebinok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vebinok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vectra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vectra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Veles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Veles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vemal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vemal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Venus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Venus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Veyaria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Veyaria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Virmire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Virmire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Volus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Volus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Irune"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vorcha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vorcha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Heshtok"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vostok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Vostok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Alko"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Clomarthu"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Nodacrux"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pataiton"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Voyager_Cluster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Voyager_Cluster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Amazon"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Columbia"/>
+        <hasCluster rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Yangtze"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Wentania -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Wentania">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Wermani -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Wermani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Widow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Widow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#The_Citadel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Wuo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Wuo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Xamarri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Xamarri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Xanadu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Xanadu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Xathorron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Xathorron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Xawin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Xawin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Land"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Yahg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Yahg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+        <bornIn rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Parnack"/>
+        <hasDNA rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Yangtze -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Yangtze">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Cluster"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Alrumter"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Binthu"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Dregir"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Patajiri"/>
+        <hasPlanet rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Renshato"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Yunthorl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Yunthorl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zaherux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zaherux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zakros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zakros">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zatorus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zatorus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zayarter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zayarter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Zion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Mission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#organic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#synthetic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#synthetic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ahern%27s_Villa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ahern%27s_Villa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Action"/>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isAvailable>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid_%231 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid_%231">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid_%232 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Asteroid_%232">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Survey"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Intai%27sei -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Intai%27sei">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Planet_Object"/>
+        <hasAction rdf:resource="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Ahern%27s_Villa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Armor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Biotic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Combat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Weapons"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Assault_Rifles"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Pistols"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Shotguns"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Barrier"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Lift"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Singularity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Stasis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Throw"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Warp"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Basic_Armor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Combat_Armor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#Tactical_Armor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#DNA"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#character"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#civilization"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sassh/ontologies/2024/11/untitled-ontology-5#unit"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

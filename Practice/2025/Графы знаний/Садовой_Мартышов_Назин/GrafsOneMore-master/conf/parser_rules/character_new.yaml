@@ -1,0 +1,56 @@
+- name: Just text in link
+  id: v_a_txt
+  value: a:0:text
+
+- name: Go to character subpage
+  id: v_chr_sub
+  value: td:0/a:0&href
+
+- name: Find the builds table
+  id: v_bld_tbl
+  value: "\"Replacement Weapons\"/../.."
+
+- name: Find the artifacts table
+  id: v_art_tbl
+  value: "\"Artifact Bonuses\"/../.."
+
+- name: Parse characters
+  url: https://game8.co/games/Genshin-Impact/archives/296707
+  csv_file: characters.csv
+  pre_pattern: table:1
+  setnull: true  
+  rules:
+    - name: Name
+      rule: td:0/${v_a_txt}
+    - name: Rarity
+      rule: td:1/${v_a_txt}
+    - name: Element
+      rule: td:2/${v_a_txt}
+    - name: Weapon
+      rule: td:3/${v_a_txt}
+    - name: Region
+      rule: td:4/${v_a_txt}
+    - name: Best Weapon
+      rule: ${v_chr_sub}/${v_bld_tbl}/tr:0/td:0/div:0/a:0:text
+    - name: Top2 Weapon
+      rule: ${v_chr_sub}/${v_bld_tbl}/tr:1/td:0/div:0/a:0:text
+    - name: Top3 Weapon
+      rule: ${v_chr_sub}/${v_bld_tbl}/tr:1/td:0/div:1/a:0:text
+    - name: Top4 Weapon
+      rule: ${v_chr_sub}/${v_bld_tbl}/tr:1/td:0/div:2/a:0:text
+    - name: Top Artifact
+      rule: ${v_chr_sub}/${v_bld_tbl}/tr:2/td:0/div:0/a:0:text
+    - name: Main stat sands
+      rule: ${v_chr_sub}/${v_bld_tbl}/tr:3/td:0/div:0:text
+    - name: Main stat goblet
+      rule: ${v_chr_sub}/${v_bld_tbl}/tr:4/td:0/div:0:text
+    - name: Main stat circlet
+      rule: ${v_chr_sub}/${v_bld_tbl}/tr:5/td:0/div:0:text
+    - name: Artifact substats
+      rule: ${v_chr_sub}/${v_bld_tbl}/tr:6/td:0:text
+    - name: Artifact top2
+      rule: ${v_chr_sub}/${v_art_tbl}/tr:1/th:1/a:0:text
+    - name: Artifact top3
+      rule: ${v_chr_sub}/${v_art_tbl}/tr:2/th:1/a:0:text
+    - name: Artifact top4
+      rule: ${v_chr_sub}/${v_art_tbl}/tr:3/th:1/a:0:text

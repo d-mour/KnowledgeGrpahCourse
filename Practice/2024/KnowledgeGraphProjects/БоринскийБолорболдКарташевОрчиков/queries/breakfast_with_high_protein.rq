@@ -1,0 +1,16 @@
+PREFIX o: <http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-10#>
+
+# Какие рецепты содержат больше 10 грамм белка и подходят для завтрака?
+SELECT ?recipe ?recipeName ?protein
+WHERE {
+  ?recipe a o:Recipe ;
+          o:name ?recipeName ;
+          o:proteinContent ?protein ;
+          o:hasCategory ?category .
+
+  ?category a o:Category ;
+            o:name "breakfast" .
+
+  FILTER(?protein > 10)
+}
+ORDER BY DESC(?protein)

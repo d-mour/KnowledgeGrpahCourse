@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>388</build>
+		<revision>456</revision>
+	</m_Version>
+	<m_TemplateName text="WaterMaterials"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Materials"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="([HEXTAG:CANAL_END] and [DISTRICT:DISTRICT_CITY_CENTER]) or [DISTRICT:DISTRICT_CANAL]"/>
+							<m_ParamName text="SelectionRule"/>
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="SelectionPriority"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="Water/RiverSource"/>
+							<m_XLPClass text="Water"/>
+							<m_XLPPath text="water.xlp"/>
+							<m_BLPPackage text="Water"/>
+							<m_LibraryName text="Water"/>
+							<m_ParamName text="Material"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Canal"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

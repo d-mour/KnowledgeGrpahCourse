@@ -1,0 +1,152 @@
+pageType: content
+background:
+  type: solid
+  color: "#191919"
+elements:
+- elementId: shape_header
+  elementType: shape
+  bounds: [40, 40, 40, 40]
+  opacity: 0.2
+  shapeName: rect
+  fill:
+    type: solid
+    color: "#6366F133"
+- elementId: text_title
+  elementType: text
+  bounds: [90, 40, 700, 40]
+  content:
+    align: [left, middle]
+    fontSize: 28
+    fontFamily: "Liter"
+    color: "#EFEFEF"
+    text: |
+      <p><strong>Структура датасета и статистика</strong></p>
+- elementId: shape_line
+  elementType: shape
+  bounds: [40, 90, 1200, 2]
+  shapeName: rect
+  fill:
+    type: solid
+    color: "#6366F1"
+- elementId: table_stats
+  elementType: table
+  bounds: [40, 110, 580, 300]
+  columnWidths: [0.6, 0.4]
+  rowHeights: [0.12, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.13]
+  style:
+    fontSize: 14
+    fontFamily: "微软雅黑"
+    headerFill: "#262626"
+    headerColor: "#6366F1"
+    headerBold: true
+    bodyFill: ["#1E1E1E", "#252525"]
+    bodyColor: "#CCCCCC"
+    border:
+      style: solid
+      width: 0.5
+      color: "#333333"
+  rows:
+    - - content:
+          text: "Показатель"
+          fontSize: 14
+      - content:
+          text: "Значение"
+          fontSize: 14
+    - - content:
+          text: "Аудиофайлов (.ogg)"
+          fontSize: 14
+      - content:
+          text: "100"
+          fontSize: 14
+    - - content:
+          text: "Видеофайлов (.webm)"
+          fontSize: 14
+      - content:
+          text: "80"
+          fontSize: 14
+    - - content:
+          text: "Устройств"
+          fontSize: 14
+      - content:
+          text: "5"
+          fontSize: 14
+    - - content:
+          text: "Голосовых команд (на устр.)"
+          fontSize: 14
+      - content:
+          text: "10"
+          fontSize: 14
+    - - content:
+          text: "Типов жестов"
+          fontSize: 14
+      - content:
+          text: "6"
+          fontSize: 14
+    - - content:
+          text: "Ракурсов камеры"
+          fontSize: 14
+      - content:
+          text: "2 (лицо, сбоку)"
+          fontSize: 14
+    - - content:
+          text: "Дикторов"
+          fontSize: 14
+      - content:
+          text: "2 (муж id=2, жен id=1)"
+          fontSize: 14
+- elementId: text_structure
+  elementType: text
+  bounds: [660, 110, 580, 560]
+  content:
+    align: [left, top]
+    fontSize: 13
+    fontFamily: "微软雅黑"
+    color: "#CCCCCC"
+    lineHeight: 1.4
+    text: |
+      <p><strong style="color:#6366F1">Дерево датасета</strong></p>
+      <p>dataset/</p>
+      <p>├── audio/</p>
+      <p>│   ├── man/2/</p>
+      <p>│   │   ├── conditioner/*.ogg</p>
+      <p>│   │   ├── curtains/*.ogg</p>
+      <p>│   │   ├── lamp/*.ogg</p>
+      <p>│   │   ├── lock/*.ogg</p>
+      <p>│   │   └── tv/*.ogg</p>
+      <p>│   └── woman/1/</p>
+      <p>│       ├── conditioner/*.ogg</p>
+      <p>│       ├── curtains/*.ogg</p>
+      <p>│       ├── lamp/*.ogg</p>
+      <p>│       ├── lock/*.ogg</p>
+      <p>│       └── tv/*.ogg</p>
+      <p>└── video/</p>
+      <p>    ├── man/2/</p>
+      <p>    │   ├── conditioner/*.webm</p>
+      <p>    │   ├── curtains/*.webm</p>
+      <p>    │   ├── lamp/*.webm</p>
+      <p>    │   ├── lock/*.webm</p>
+      <p>    │   └── tv/*.webm</p>
+      <p>    └── woman/1/</p>
+      <p>        ├── conditioner/*.webm</p>
+      <p>        ├── curtains/*.webm</p>
+      <p>        ├── lamp/*.webm</p>
+      <p>        ├── lock/*.webm</p>
+      <p>        └── tv/*.webm</p>
+- elementId: text_bottom
+  elementType: text
+  bounds: [40, 430, 580, 200]
+  content:
+    align: [left, top]
+    fontSize: 13
+    fontFamily: "微软雅黑"
+    color: "#888888"
+    lineHeight: 1.4
+    text: |
+      <p><strong style="color:#6366F1">Форматы аннотаций</strong></p>
+      <p>- Текст: TSV (CoNLL-U + IOB2)</p>
+      <p>- Аудио: CSV (Praat TextGrid + акустика)</p>
+      <p>- Видео: JSON (COCO-like, bounding boxes)</p>
+      <p>- Граф: RDF/Turtle (rdflib) + SPARQL</p>
+      <p></p>
+      <p><strong style="color:#6366F1">Устройства:</strong> Lamp, Conditioner, Curtains, TV, Lock</p>
+      <p><strong style="color:#6366F1">Жесты:</strong> Круг, Ладонь-стоп, Свайп, Хлопок, Щелчок, Поднятие руки</p>

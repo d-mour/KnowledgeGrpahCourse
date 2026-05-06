@@ -1,0 +1,14 @@
+# Кто написал книгу «Собор Парижской Богоматери» и в каком году он родился?
+
+PREFIX ons: <http://www.semanticweb.org/admin/ontologies/2024/9/authors-ontology#>
+
+SELECT ?authorName ?birthDate
+WHERE {
+    ?author a ons:Author ;
+            ons:name ?authorName ;
+            ons:birthDate ?birthDate ;
+            ons:wroteBook ?book .
+    ?book a ons:Book ;
+          ons:name "The Hunchback Of Notredame" .
+}
+#"Victor Hugo"	"1802-02-26"^^<http://www.w3.org/2001/XMLSchema#date>

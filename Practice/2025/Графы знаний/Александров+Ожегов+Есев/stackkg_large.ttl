@@ -1,0 +1,3105 @@
+@prefix ex: <https://stackknowledge.org/stackkg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://stackknowledge.org/stackkg> a owl:Ontology ;
+    rdfs:label "StackKG - Technology Stack Knowledge Graph Ontology" .
+
+ex:AKKA a ex:Library,
+        ex:Technology ;
+    rdfs:label "AKKA" ;
+    ex:githubContributors 1081 ;
+    ex:githubStars 44219 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-05-06"^^xsd:date ;
+    ex:releaseFrequencyPerYear 15.65 ;
+    ex:usesLanguage ex:SCALA .
+
+ex:ANGULAR a ex:Framework,
+        ex:Technology ;
+    rdfs:label "ANGULAR" ;
+    ex:githubContributors 2800 ;
+    ex:githubStars 89000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-09-30"^^xsd:date ;
+    ex:releaseFrequencyPerYear 16.42 ;
+    ex:usesLanguage ex:JAVASCRIPT .
+
+ex:ANSIBLE a ex:Technology,
+        ex:Tool ;
+    rdfs:label "ANSIBLE" ;
+    ex:githubContributors 578 ;
+    ex:githubStars 37017 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-05-12"^^xsd:date ;
+    ex:releaseFrequencyPerYear 23.24 .
+
+ex:APOLLO_SERVER a ex:Library,
+        ex:Technology ;
+    rdfs:label "APOLLO_SERVER" ;
+    ex:githubContributors 3884 ;
+    ex:githubStars 32350 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-04-04"^^xsd:date ;
+    ex:releaseFrequencyPerYear 19.57 .
+
+ex:AZURE a ex:Platform,
+        ex:Technology ;
+    rdfs:label "AZURE" ;
+    ex:githubContributors 3727 ;
+    ex:githubStars 46612 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-05-08"^^xsd:date ;
+    ex:releaseFrequencyPerYear 7.23 .
+
+ex:BARE_METAL_PLATFORM a ex:Platform,
+        ex:Technology ;
+    rdfs:label "BARE_METAL_PLATFORM" ;
+    ex:githubContributors 4839 ;
+    ex:githubStars 95472 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-09-20"^^xsd:date ;
+    ex:releaseFrequencyPerYear 23.46 .
+
+ex:BATCH_PROCESSING a ex:Requirement ;
+    rdfs:label "BATCH_PROCESSING" .
+
+ex:C_PLUS_PLUS a ex:Language,
+        ex:Technology ;
+    rdfs:label "C++" ;
+    ex:githubContributors 4100 ;
+    ex:githubStars 130000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-07-14"^^xsd:date ;
+    ex:releaseFrequencyPerYear 8.12 .
+
+ex:CLOJURE a ex:Language,
+        ex:Technology ;
+    rdfs:label "CLOJURE" ;
+    ex:githubContributors 980 ;
+    ex:githubStars 32000 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-06-30"^^xsd:date ;
+    ex:releaseFrequencyPerYear 4.23 .
+
+ex:COMUNDA a ex:Technology,
+        ex:Tool ;
+    rdfs:label "COMUNDA" ;
+    ex:githubContributors 1240 ;
+    ex:githubStars 24000 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-08-04"^^xsd:date ;
+    ex:releaseFrequencyPerYear 9.71 .
+
+ex:CYPRESS a ex:Technology,
+        ex:Tool ;
+    rdfs:label "CYPRESS" ;
+    ex:githubContributors 4385 ;
+    ex:githubStars 82060 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-07-19"^^xsd:date ;
+    ex:releaseFrequencyPerYear 1.62 .
+
+ex:ENVOY a ex:Technology,
+        ex:Tool ;
+    rdfs:label "ENVOY" ;
+    ex:githubContributors 1641 ;
+    ex:githubStars 29944 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-01-08"^^xsd:date ;
+    ex:releaseFrequencyPerYear 4.39 .
+
+ex:EVENTUAL_CONSISTENCY a ex:Requirement ;
+    rdfs:label "EVENTUAL_CONSISTENCY" .
+
+ex:FLASK a ex:Framework,
+        ex:Technology ;
+    rdfs:label "FLASK" ;
+    ex:githubContributors 2827 ;
+    ex:githubStars 111582 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-01-24"^^xsd:date ;
+    ex:releaseFrequencyPerYear 14.89 ;
+    ex:usesLanguage ex:PYTHON .
+
+ex:GIN a ex:Framework,
+        ex:Technology ;
+    rdfs:label "GIN" ;
+    ex:githubContributors 950 ;
+    ex:githubStars 78000 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-10-02"^^xsd:date ;
+    ex:releaseFrequencyPerYear 11.38 ;
+    ex:usesLanguage ex:GO .
+
+ex:GIT a ex:SCV,
+        ex:Technology ;
+    rdfs:label "GIT" ;
+    ex:githubContributors 3500 ;
+    ex:githubStars 45000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-09-12"^^xsd:date ;
+    ex:releaseFrequencyPerYear 6.8 .
+
+ex:GITHUB_ACTIONS a ex:Technology,
+        ex:Tool ;
+    rdfs:label "GITHUB_ACTIONS" ;
+    ex:githubContributors 2149 ;
+    ex:githubStars 115455 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-05-02"^^xsd:date ;
+    ex:releaseFrequencyPerYear 5.11 .
+
+ex:GITLAB_CI a ex:Technology,
+        ex:Tool ;
+    rdfs:label "GITLAB_CI" ;
+    ex:githubContributors 4976 ;
+    ex:githubStars 57699 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-02-13"^^xsd:date ;
+    ex:releaseFrequencyPerYear 23.64 .
+
+ex:GO a ex:Language,
+        ex:Technology ;
+    rdfs:label "GO" ;
+    ex:githubContributors 3500 ;
+    ex:githubStars 120000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-08-15"^^xsd:date .
+
+ex:HIBERNATE a ex:Library,
+        ex:Technology ;
+    rdfs:label "HIBERNATE" ;
+    ex:githubContributors 3835 ;
+    ex:githubStars 54383 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-01-22"^^xsd:date ;
+    ex:releaseFrequencyPerYear 20.87 ;
+    ex:usesLanguage ex:JAVA .
+
+ex:ISTIO a ex:Technology,
+        ex:Tool ;
+    rdfs:label "ISTIO" ;
+    ex:githubContributors 4725 ;
+    ex:githubStars 116647 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-12-13"^^xsd:date ;
+    ex:releaseFrequencyPerYear 5.47 .
+
+ex:JAKARTAEE a ex:Framework,
+        ex:Technology ;
+    rdfs:label "JAKARTAEE" ;
+    ex:githubContributors 2150 ;
+    ex:githubStars 52000 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-07-21"^^xsd:date ;
+    ex:releaseFrequencyPerYear 5.92 ;
+    ex:usesLanguage ex:JAVA .
+
+ex:JENKINS a ex:Technology,
+        ex:Tool ;
+    rdfs:label "JENKINS" ;
+    ex:githubContributors 4269 ;
+    ex:githubStars 721 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-09-22"^^xsd:date ;
+    ex:releaseFrequencyPerYear 22.29 .
+
+ex:JMETER a ex:Technology,
+        ex:Tool ;
+    rdfs:label "JMETER" ;
+    ex:githubContributors 2035 ;
+    ex:githubStars 99036 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-05-25"^^xsd:date ;
+    ex:releaseFrequencyPerYear 20.32 .
+
+ex:JOOQ a ex:Library,
+        ex:Technology ;
+    rdfs:label "JOOQ" ;
+    ex:githubContributors 905 ;
+    ex:githubStars 105435 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-04-18"^^xsd:date ;
+    ex:releaseFrequencyPerYear 6.72 ;
+    ex:usesLanguage ex:JAVA .
+
+ex:KAFKA_CLIENT a ex:Library,
+        ex:Technology ;
+    rdfs:label "KAFKA_CLIENT" ;
+    ex:githubContributors 1946 ;
+    ex:githubStars 99271 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-08-16"^^xsd:date ;
+    ex:releaseFrequencyPerYear 4.83 .
+
+ex:KOTLIN_COROUTINES a ex:Library,
+        ex:Technology ;
+    rdfs:label "KOTLIN_COROUTINES" ;
+    ex:githubContributors 4012 ;
+    ex:githubStars 66744 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-01-03"^^xsd:date ;
+    ex:releaseFrequencyPerYear 6.78 ;
+    ex:usesLanguage ex:KOTLIN .
+
+ex:LARAVEL a ex:Framework,
+        ex:Technology ;
+    rdfs:label "LARAVEL" ;
+    ex:githubContributors 272 ;
+    ex:githubStars 108215 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-07-09"^^xsd:date ;
+    ex:releaseFrequencyPerYear 19.52 ;
+    ex:usesLanguage ex:PHP .
+
+ex:LOGBACK a ex:Library,
+        ex:Technology ;
+    rdfs:label "LOGBACK" ;
+    ex:githubContributors 573 ;
+    ex:githubStars 115956 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-06-10"^^xsd:date ;
+    ex:releaseFrequencyPerYear 21.22 .
+
+ex:LOKI a ex:Technology,
+        ex:Tool ;
+    rdfs:label "LOKI" ;
+    ex:githubContributors 2714 ;
+    ex:githubStars 87562 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-11-28"^^xsd:date ;
+    ex:releaseFrequencyPerYear 15.33 .
+
+ex:MANAGED_DB_PLATFORM a ex:Platform,
+        ex:Technology ;
+    rdfs:label "MANAGED_DB_PLATFORM" ;
+    ex:githubContributors 2966 ;
+    ex:githubStars 30316 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-01-23"^^xsd:date ;
+    ex:releaseFrequencyPerYear 5.13 .
+
+ex:MANAGED_STREAM_PLATFORM a ex:Platform,
+        ex:Technology ;
+    rdfs:label "MANAGED_STREAM_PLATFORM" ;
+    ex:githubContributors 2403 ;
+    ex:githubStars 73029 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-03-21"^^xsd:date ;
+    ex:releaseFrequencyPerYear 17.04 .
+
+ex:MULTI_REGION a ex:Requirement ;
+    rdfs:label "MULTI_REGION" .
+
+ex:MYBATIS a ex:Library,
+        ex:Technology ;
+    rdfs:label "MYBATIS" ;
+    ex:githubContributors 3799 ;
+    ex:githubStars 37009 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-02-15"^^xsd:date ;
+    ex:releaseFrequencyPerYear 6.75 .
+
+ex:NATS_CLIENT a ex:Library,
+        ex:Technology ;
+    rdfs:label "NATS_CLIENT" ;
+    ex:githubContributors 1565 ;
+    ex:githubStars 20789 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-01-19"^^xsd:date ;
+    ex:releaseFrequencyPerYear 7.82 .
+
+ex:NEXTJS a ex:Framework,
+        ex:Technology ;
+    rdfs:label "NEXTJS" ;
+    ex:githubContributors 1876 ;
+    ex:githubStars 87173 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-02-28"^^xsd:date ;
+    ex:releaseFrequencyPerYear 18.78 ;
+    ex:usesLanguage ex:TYPESCRIPT .
+
+ex:NUMPY a ex:Library,
+        ex:Technology ;
+    rdfs:label "NUMPY" ;
+    ex:githubContributors 2997 ;
+    ex:githubStars 40904 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-01-12"^^xsd:date ;
+    ex:releaseFrequencyPerYear 21.68 ;
+    ex:usesLanguage ex:PYTHON .
+
+ex:OFFLINE_FIRST a ex:Requirement ;
+    rdfs:label "OFFLINE_FIRST" .
+
+ex:OPENID_CONNECT a ex:Library,
+        ex:Technology ;
+    rdfs:label "OPENID_CONNECT" ;
+    ex:githubContributors 4791 ;
+    ex:githubStars 55448 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-06-09"^^xsd:date ;
+    ex:releaseFrequencyPerYear 14.0 .
+
+ex:ORACLE_DB a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "ORACLE_DB" ;
+    ex:githubContributors 4373 ;
+    ex:githubStars 100193 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-03-22"^^xsd:date ;
+    ex:releaseFrequencyPerYear 18.61 .
+
+ex:PANDAS a ex:Library,
+        ex:Technology ;
+    rdfs:label "PANDAS" ;
+    ex:githubContributors 1231 ;
+    ex:githubStars 10362 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-06-19"^^xsd:date ;
+    ex:releaseFrequencyPerYear 13.55 ;
+    ex:usesLanguage ex:PYTHON .
+
+ex:PROJECT_ANALYTICS a ex:Project ;
+    rdfs:label "PROJECT_ANALYTICS" ;
+    ex:expectedLoadRps 1000 ;
+    ex:expectedUsers 1000000 ;
+    ex:hasArchitecture ex:MICROSERVICES ;
+    ex:hasBudgetTier ex:HIGH ;
+    ex:hasDataSensitivityTier ex:MEDIUM ;
+    ex:hasDeployment ex:MANAGED_K8S ;
+    ex:hasReliabilityTier ex:HIGH ;
+    ex:hasRequirement ex:COST_OPTIMIZED,
+        ex:HIGH_THROUGHPUT,
+        ex:OBSERVABILITY ;
+    ex:hasScenario ex:ANALYTICS_WAREHOUSE ;
+    ex:hasTeam ex:TEAM_LARGE_SENIOR ;
+    ex:hasTestingStrategy ex:AUTOMATION_FIRST ;
+    ex:hasTimeToMarketTier ex:MEDIUM ;
+    ex:recommendedStack ex:STACK_STREAM_KAFKA_FLINK_CLICKHOUSE .
+
+ex:PROJECT_CHAT_MVP a ex:Project ;
+    rdfs:label "PROJECT_CHAT_MVP" ;
+    ex:expectedLoadRps 200 ;
+    ex:expectedUsers 5000 ;
+    ex:hasArchitecture ex:MONOLITH ;
+    ex:hasBudgetTier ex:LOW ;
+    ex:hasDataSensitivityTier ex:MEDIUM ;
+    ex:hasDeployment ex:CLOUD ;
+    ex:hasReliabilityTier ex:MEDIUM ;
+    ex:hasRequirement ex:FAST_DELIVERY,
+        ex:LOW_LATENCY,
+        ex:LOW_OPS ;
+    ex:hasScenario ex:REALTIME_CHAT ;
+    ex:hasTeam ex:TEAM_SMALL_JUNIOR ;
+    ex:hasTestingStrategy ex:BALANCED ;
+    ex:hasTimeToMarketTier ex:HIGH ;
+    ex:recommendedStack ex:STACK_CHAT_NODE_SOCKETIO_MONGO .
+
+ex:PROJECT_FINTECH_API a ex:Project ;
+    rdfs:label "PROJECT_FINTECH_API" ;
+    ex:expectedLoadRps 500 ;
+    ex:expectedUsers 200000 ;
+    ex:hasArchitecture ex:MICROSERVICES ;
+    ex:hasBudgetTier ex:HIGH ;
+    ex:hasDataSensitivityTier ex:HIGH ;
+    ex:hasDeployment ex:MANAGED_K8S ;
+    ex:hasReliabilityTier ex:HIGH ;
+    ex:hasRequirement ex:DATA_PRIVACY,
+        ex:HIGH_AVAILABILITY,
+        ex:REGULATORY_COMPLIANCE ;
+    ex:hasScenario ex:FINTECH_CORE ;
+    ex:hasTeam ex:TEAM_MEDIUM_MIXED ;
+    ex:hasTestingStrategy ex:AUTOMATION_FIRST ;
+    ex:hasTimeToMarketTier ex:MEDIUM ;
+    ex:recommendedStack ex:STACK_FINTECH_SPRING_KAFKA_POSTGRES .
+
+ex:PYTORCH a ex:Library,
+        ex:Technology ;
+    rdfs:label "PYTORCH" ;
+    ex:githubContributors 3387 ;
+    ex:githubStars 116028 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-12-11"^^xsd:date ;
+    ex:releaseFrequencyPerYear 1.57 ;
+    ex:usesLanguage ex:PYTHON .
+
+ex:RABBITMQ_CLIENT a ex:Library,
+        ex:Technology ;
+    rdfs:label "RABBITMQ_CLIENT" ;
+    ex:githubContributors 27 ;
+    ex:githubStars 50172 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-05-26"^^xsd:date ;
+    ex:releaseFrequencyPerYear 23.66 .
+
+ex:REACT a ex:Library,
+        ex:Technology ;
+    rdfs:label "REACT" ;
+    ex:githubContributors 2800 ;
+    ex:githubStars 210000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-11-14"^^xsd:date ;
+    ex:releaseFrequencyPerYear 20.5 ;
+    ex:usesLanguage ex:JAVASCRIPT .
+
+ex:REACTOR a ex:Library,
+        ex:Technology ;
+    rdfs:label "REACTOR" ;
+    ex:githubContributors 4542 ;
+    ex:githubStars 97810 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-05-20"^^xsd:date ;
+    ex:releaseFrequencyPerYear 4.58 ;
+    ex:usesLanguage ex:JAVA .
+
+ex:REST a ex:Library,
+        ex:Technology ;
+    rdfs:label "REST" ;
+    ex:githubContributors 1814 ;
+    ex:githubStars 77628 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-12-21"^^xsd:date ;
+    ex:releaseFrequencyPerYear 1.17 .
+
+ex:RUBY_ON_RAILS a ex:Framework,
+        ex:Technology ;
+    rdfs:label "RUBY_ON_RAILS" ;
+    ex:githubContributors 3796 ;
+    ex:githubStars 21917 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-11-23"^^xsd:date ;
+    ex:releaseFrequencyPerYear 9.73 ;
+    ex:usesLanguage ex:RUBY .
+
+ex:RUST a ex:Language,
+        ex:Technology ;
+    rdfs:label "RUST" ;
+    ex:githubContributors 2500 ;
+    ex:githubStars 90000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-10-20"^^xsd:date .
+
+ex:SCIKIT_LEARN a ex:Library,
+        ex:Technology ;
+    rdfs:label "SCIKIT_LEARN" ;
+    ex:githubContributors 4596 ;
+    ex:githubStars 102751 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-07-20"^^xsd:date ;
+    ex:releaseFrequencyPerYear 21.34 ;
+    ex:usesLanguage ex:PYTHON .
+
+ex:SELENIUM a ex:Technology,
+        ex:Tool ;
+    rdfs:label "SELENIUM" ;
+    ex:githubContributors 2456 ;
+    ex:githubStars 46605 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-07-18"^^xsd:date ;
+    ex:releaseFrequencyPerYear 18.33 .
+
+ex:SENTRY a ex:Technology,
+        ex:Tool ;
+    rdfs:label "SENTRY" ;
+    ex:githubContributors 4761 ;
+    ex:githubStars 56846 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-06-15"^^xsd:date ;
+    ex:releaseFrequencyPerYear 14.95 .
+
+ex:SERVERLESS_PLATFORM a ex:Platform,
+        ex:Technology ;
+    rdfs:label "SERVERLESS_PLATFORM" ;
+    ex:githubContributors 4399 ;
+    ex:githubStars 97870 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-12-06"^^xsd:date ;
+    ex:releaseFrequencyPerYear 22.87 .
+
+ex:SLF4J a ex:Library,
+        ex:Technology ;
+    rdfs:label "SLF4J" ;
+    ex:githubContributors 4553 ;
+    ex:githubStars 88038 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-11-04"^^xsd:date ;
+    ex:releaseFrequencyPerYear 7.89 .
+
+ex:SPARK_STREAMING a ex:Technology,
+        ex:Tool ;
+    rdfs:label "SPARK_STREAMING" ;
+    ex:githubContributors 3031 ;
+    ex:githubStars 101018 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-10-24"^^xsd:date ;
+    ex:releaseFrequencyPerYear 4.86 .
+
+ex:SPRING_WEBFLUX a ex:Framework,
+        ex:Technology ;
+    rdfs:label "SPRING_WEBFLUX" ;
+    ex:githubContributors 1153 ;
+    ex:githubStars 29756 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-11-24"^^xsd:date ;
+    ex:releaseFrequencyPerYear 17.94 ;
+    ex:usesLanguage ex:JAVA .
+
+ex:SQLSERVER a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "SQLSERVER" ;
+    ex:githubContributors 2529 ;
+    ex:githubStars 115675 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-04-19"^^xsd:date ;
+    ex:releaseFrequencyPerYear 6.51 .
+
+ex:STACK_AUTO_01_QUARKUS_POSTGRESQL_SERVERLESS_CLOUD a ex:Stack ;
+    rdfs:label "STACK_AUTO_01_QUARKUS_POSTGRESQL_SERVERLESS_CLOUD" ;
+    ex:fitsRequirement ex:HIGH_AVAILABILITY,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:JAEGER,
+        ex:JAVA,
+        ex:NGINX,
+        ex:POSTGRESQL,
+        ex:PROMETHEUS,
+        ex:QUARKUS,
+        ex:RABBITMQ,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:STREAM_PROCESSING ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_02_DOTNET_ASPNET_MYSQL_MODULAR_MONOLITH_CLOUD a ex:Stack ;
+    rdfs:label "STACK_AUTO_02_DOTNET_ASPNET_MYSQL_MODULAR_MONOLITH_CLOUD" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:CSHARP,
+        ex:DOCKER_CLI,
+        ex:DOTNET_ASPNET,
+        ex:HELM,
+        ex:KUBERNETES,
+        ex:MYSQL,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:CRUD_WEB_SERVICE ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_AUTO_03_DOTNET_ASPNET_REDIS_MONOLITH_ON_PREM a ex:Stack ;
+    rdfs:label "STACK_AUTO_03_DOTNET_ASPNET_REDIS_MONOLITH_ON_PREM" ;
+    ex:fitsRequirement ex:HIGH_AVAILABILITY,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:ARGO_CD,
+        ex:CSHARP,
+        ex:DOTNET_ASPNET,
+        ex:JAEGER,
+        ex:NGINX,
+        ex:OAUTH2,
+        ex:OPENTELEMETRY,
+        ex:PULSAR,
+        ex:REDIS ;
+    ex:recommendedForScenario ex:REALTIME_CHAT ;
+    ex:supportsDeployment ex:ON_PREM ;
+    ex:usesArchitecture ex:MONOLITH ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_AUTO_04_DJANGO_MYSQL_MICROSERVICES_CLOUD a ex:Stack ;
+    rdfs:label "STACK_AUTO_04_DJANGO_MYSQL_MICROSERVICES_CLOUD" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:HIGH ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:DJANGO,
+        ex:HELM,
+        ex:KAFKA,
+        ex:MYSQL,
+        ex:NGINX,
+        ex:OAUTH2,
+        ex:PROMETHEUS,
+        ex:PYTHON,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:ECOMMERCE ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:MICROSERVICES ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_05_NESTJS_DYNAMODB_MONOLITH_ON_PREM a ex:Stack ;
+    rdfs:label "STACK_AUTO_05_NESTJS_DYNAMODB_MONOLITH_ON_PREM" ;
+    ex:fitsRequirement ex:DATA_PRIVACY,
+        ex:REGULATORY_COMPLIANCE ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:DYNAMODB,
+        ex:GRAPHQL,
+        ex:KUBERNETES,
+        ex:NESTJS,
+        ex:NGINX,
+        ex:OPENTELEMETRY,
+        ex:PROMETHEUS,
+        ex:TYPESCRIPT ;
+    ex:recommendedForScenario ex:FINTECH_CORE ;
+    ex:supportsDeployment ex:ON_PREM ;
+    ex:usesArchitecture ex:MONOLITH ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_AUTO_06_FASTAPI_MONGODB_MICROSERVICES_MANAGED_K8S a ex:Stack ;
+    rdfs:label "STACK_AUTO_06_FASTAPI_MONGODB_MICROSERVICES_MANAGED_K8S" ;
+    ex:fitsRequirement ex:HIGH_AVAILABILITY,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:HIGH ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:DOCKER_CLI,
+        ex:FASTAPI,
+        ex:HELM,
+        ex:JWT,
+        ex:KUBERNETES,
+        ex:MONGODB,
+        ex:NATS,
+        ex:OPENTELEMETRY,
+        ex:PYTHON ;
+    ex:recommendedForScenario ex:MEDIA_STREAMING ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MICROSERVICES ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_AUTO_07_MICRONAUT_DYNAMODB_MONOLITH_ON_PREM a ex:Stack ;
+    rdfs:label "STACK_AUTO_07_MICRONAUT_DYNAMODB_MONOLITH_ON_PREM" ;
+    ex:fitsRequirement ex:HIGH_AVAILABILITY,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:DOCKER_CLI,
+        ex:DYNAMODB,
+        ex:JAEGER,
+        ex:JAVA,
+        ex:KUBERNETES,
+        ex:MICRONAUT,
+        ex:NGINX ;
+    ex:recommendedForScenario ex:REALTIME_CHAT ;
+    ex:supportsDeployment ex:ON_PREM ;
+    ex:usesArchitecture ex:MONOLITH ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_AUTO_08_SPRING_BOOT_CASSANDRA_SERVERLESS_MANAGED_K8S a ex:Stack ;
+    rdfs:label "STACK_AUTO_08_SPRING_BOOT_CASSANDRA_SERVERLESS_MANAGED_K8S" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:CASSANDRA,
+        ex:DOCKER_CLI,
+        ex:HELM,
+        ex:JAVA,
+        ex:NGINX,
+        ex:PULSAR,
+        ex:SPRING_BOOT,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:ETL_PIPELINE ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_09_QUARKUS_COCKROACHDB_SERVERLESS_CLOUD a ex:Stack ;
+    rdfs:label "STACK_AUTO_09_QUARKUS_COCKROACHDB_SERVERLESS_CLOUD" ;
+    ex:fitsRequirement ex:HIGH_AVAILABILITY,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:COCKROACHDB,
+        ex:GRAFANA,
+        ex:JAVA,
+        ex:KUBERNETES,
+        ex:OPENTELEMETRY,
+        ex:PULSAR,
+        ex:QUARKUS,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:STREAM_PROCESSING ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_AUTO_10_KTOR_CASSANDRA_SERVERLESS_MANAGED_K8S a ex:Stack ;
+    rdfs:label "STACK_AUTO_10_KTOR_CASSANDRA_SERVERLESS_MANAGED_K8S" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:CASSANDRA,
+        ex:GRAFANA,
+        ex:JAEGER,
+        ex:KAFKA,
+        ex:KOTLIN,
+        ex:KTOR,
+        ex:KUBERNETES,
+        ex:OPENTELEMETRY ;
+    ex:recommendedForScenario ex:SEARCH_PLATFORM ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_11_DJANGO_CLICKHOUSE_SERVERLESS_CLOUD a ex:Stack ;
+    rdfs:label "STACK_AUTO_11_DJANGO_CLICKHOUSE_SERVERLESS_CLOUD" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:ARGO_CD,
+        ex:CLICKHOUSE,
+        ex:DJANGO,
+        ex:JAEGER,
+        ex:NATS,
+        ex:OPENAPI,
+        ex:OPENTELEMETRY,
+        ex:PYTHON,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:ECOMMERCE ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_12_DJANGO_CASSANDRA_MODULAR_MONOLITH_MANAGED_K8S a ex:Stack ;
+    rdfs:label "STACK_AUTO_12_DJANGO_CASSANDRA_MODULAR_MONOLITH_MANAGED_K8S" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:ARGO_CD,
+        ex:CASSANDRA,
+        ex:DJANGO,
+        ex:DOCKER_CLI,
+        ex:GRPC,
+        ex:KAFKA,
+        ex:OPENTELEMETRY,
+        ex:PYTHON,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:MOBILE_BACKEND ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_AUTO_13_NESTJS_CASSANDRA_MODULAR_MONOLITH_CLOUD a ex:Stack ;
+    rdfs:label "STACK_AUTO_13_NESTJS_CASSANDRA_MODULAR_MONOLITH_CLOUD" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:ARGO_CD,
+        ex:CASSANDRA,
+        ex:JAEGER,
+        ex:KUBERNETES,
+        ex:NESTJS,
+        ex:OAUTH2,
+        ex:OPENTELEMETRY,
+        ex:RABBITMQ,
+        ex:TYPESCRIPT ;
+    ex:recommendedForScenario ex:SEARCH_PLATFORM ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_AUTO_14_DOTNET_ASPNET_NEO4J_SERVERLESS_BARE_METAL a ex:Stack ;
+    rdfs:label "STACK_AUTO_14_DOTNET_ASPNET_NEO4J_SERVERLESS_BARE_METAL" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:CSHARP,
+        ex:DOCKER_CLI,
+        ex:DOTNET_ASPNET,
+        ex:GRAFANA,
+        ex:NEO4J,
+        ex:PROMETHEUS,
+        ex:PULSAR,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:ECOMMERCE ;
+    ex:supportsDeployment ex:BARE_METAL ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_AUTO_15_MICRONAUT_COCKROACHDB_MICROSERVICES_MANAGED_K8S a ex:Stack ;
+    rdfs:label "STACK_AUTO_15_MICRONAUT_COCKROACHDB_MICROSERVICES_MANAGED_K8S" ;
+    ex:fitsRequirement ex:HIGH_AVAILABILITY,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:HIGH ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:ARGO_CD,
+        ex:COCKROACHDB,
+        ex:GRAFANA,
+        ex:JAEGER,
+        ex:JAVA,
+        ex:JWT,
+        ex:MICRONAUT,
+        ex:NGINX,
+        ex:PULSAR ;
+    ex:recommendedForScenario ex:REALTIME_CHAT ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MICROSERVICES ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_AUTO_16_DOTNET_ASPNET_MONGODB_SERVERLESS_CLOUD a ex:Stack ;
+    rdfs:label "STACK_AUTO_16_DOTNET_ASPNET_MONGODB_SERVERLESS_CLOUD" ;
+    ex:fitsRequirement ex:DATA_PRIVACY,
+        ex:REGULATORY_COMPLIANCE ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:CSHARP,
+        ex:DOCKER_CLI,
+        ex:DOTNET_ASPNET,
+        ex:GRPC,
+        ex:HELM,
+        ex:JAEGER,
+        ex:MONGODB,
+        ex:PROMETHEUS ;
+    ex:recommendedForScenario ex:B2B_INTEGRATION_API ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_AUTO_17_QUARKUS_MONGODB_SERVERLESS_CLOUD a ex:Stack ;
+    rdfs:label "STACK_AUTO_17_QUARKUS_MONGODB_SERVERLESS_CLOUD" ;
+    ex:fitsRequirement ex:HIGH_AVAILABILITY,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:HELM,
+        ex:JAVA,
+        ex:KUBERNETES,
+        ex:MONGODB,
+        ex:NGINX,
+        ex:OAUTH2,
+        ex:OPENTELEMETRY,
+        ex:QUARKUS ;
+    ex:recommendedForScenario ex:MEDIA_STREAMING ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_AUTO_18_MICRONAUT_CLICKHOUSE_MONOLITH_MANAGED_K8S a ex:Stack ;
+    rdfs:label "STACK_AUTO_18_MICRONAUT_CLICKHOUSE_MONOLITH_MANAGED_K8S" ;
+    ex:fitsRequirement ex:HIGH_AVAILABILITY,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:ARGO_CD,
+        ex:CLICKHOUSE,
+        ex:DOCKER_CLI,
+        ex:JAEGER,
+        ex:JAVA,
+        ex:MICRONAUT,
+        ex:NATS,
+        ex:PROMETHEUS ;
+    ex:recommendedForScenario ex:MEDIA_STREAMING ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MONOLITH ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_19_KTOR_MONGODB_MODULAR_MONOLITH_ON_PREM a ex:Stack ;
+    rdfs:label "STACK_AUTO_19_KTOR_MONGODB_MODULAR_MONOLITH_ON_PREM" ;
+    ex:fitsRequirement ex:DATA_PRIVACY,
+        ex:REGULATORY_COMPLIANCE ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:ARGO_CD,
+        ex:DOCKER_CLI,
+        ex:HELM,
+        ex:KOTLIN,
+        ex:KTOR,
+        ex:MONGODB,
+        ex:OPENAPI,
+        ex:PROMETHEUS ;
+    ex:recommendedForScenario ex:FINTECH_CORE ;
+    ex:supportsDeployment ex:ON_PREM ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_AUTO_20_DOTNET_ASPNET_MONGODB_SERVERLESS_ON_PREM a ex:Stack ;
+    rdfs:label "STACK_AUTO_20_DOTNET_ASPNET_MONGODB_SERVERLESS_ON_PREM" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:CSHARP,
+        ex:DOTNET_ASPNET,
+        ex:HELM,
+        ex:KUBERNETES,
+        ex:MONGODB,
+        ex:PROMETHEUS,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:ML_SERVICE ;
+    ex:supportsDeployment ex:ON_PREM ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_21_QUARKUS_CASSANDRA_MONOLITH_MANAGED_K8S a ex:Stack ;
+    rdfs:label "STACK_AUTO_21_QUARKUS_CASSANDRA_MONOLITH_MANAGED_K8S" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:CASSANDRA,
+        ex:DOCKER_CLI,
+        ex:JAEGER,
+        ex:JAVA,
+        ex:NATS,
+        ex:OPENTELEMETRY,
+        ex:PROMETHEUS,
+        ex:QUARKUS ;
+    ex:recommendedForScenario ex:ETL_PIPELINE ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MONOLITH ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_AUTO_22_NESTJS_COCKROACHDB_MODULAR_MONOLITH_MANAGED_K8S a ex:Stack ;
+    rdfs:label "STACK_AUTO_22_NESTJS_COCKROACHDB_MODULAR_MONOLITH_MANAGED_K8S" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:COCKROACHDB,
+        ex:JAEGER,
+        ex:KUBERNETES,
+        ex:NESTJS,
+        ex:PROMETHEUS,
+        ex:TERRAFORM,
+        ex:TYPESCRIPT ;
+    ex:recommendedForScenario ex:CRUD_WEB_SERVICE ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_AUTO_23_EXPRESS_CASSANDRA_SERVERLESS_BARE_METAL a ex:Stack ;
+    rdfs:label "STACK_AUTO_23_EXPRESS_CASSANDRA_SERVERLESS_BARE_METAL" ;
+    ex:fitsRequirement ex:HIGH_AVAILABILITY,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:CASSANDRA,
+        ex:DOCKER_CLI,
+        ex:EXPRESS,
+        ex:HELM,
+        ex:JAVASCRIPT,
+        ex:KAFKA,
+        ex:OPENTELEMETRY,
+        ex:PROMETHEUS ;
+    ex:recommendedForScenario ex:MEDIA_STREAMING ;
+    ex:supportsDeployment ex:BARE_METAL ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_24_EXPRESS_REDIS_MICROSERVICES_ON_PREM a ex:Stack ;
+    rdfs:label "STACK_AUTO_24_EXPRESS_REDIS_MICROSERVICES_ON_PREM" ;
+    ex:fitsRequirement ex:HIGH_AVAILABILITY,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:HIGH ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:EXPRESS,
+        ex:GRAFANA,
+        ex:HELM,
+        ex:JAVASCRIPT,
+        ex:JWT,
+        ex:KAFKA,
+        ex:PROMETHEUS,
+        ex:REDIS,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:REALTIME_CHAT ;
+    ex:supportsDeployment ex:ON_PREM ;
+    ex:usesArchitecture ex:MICROSERVICES ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_25_NESTJS_COCKROACHDB_MODULAR_MONOLITH_BARE_METAL a ex:Stack ;
+    rdfs:label "STACK_AUTO_25_NESTJS_COCKROACHDB_MODULAR_MONOLITH_BARE_METAL" ;
+    ex:fitsRequirement ex:DATA_PRIVACY,
+        ex:REGULATORY_COMPLIANCE ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:COCKROACHDB,
+        ex:HELM,
+        ex:NATS,
+        ex:NESTJS,
+        ex:NGINX,
+        ex:OPENAPI,
+        ex:OPENTELEMETRY,
+        ex:TERRAFORM,
+        ex:TYPESCRIPT ;
+    ex:recommendedForScenario ex:B2B_INTEGRATION_API ;
+    ex:supportsDeployment ex:BARE_METAL ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_AUTO_26_NESTJS_MYSQL_SERVERLESS_BARE_METAL a ex:Stack ;
+    rdfs:label "STACK_AUTO_26_NESTJS_MYSQL_SERVERLESS_BARE_METAL" ;
+    ex:fitsRequirement ex:HIGH_AVAILABILITY,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:HELM,
+        ex:JAEGER,
+        ex:KUBERNETES,
+        ex:MYSQL,
+        ex:NESTJS,
+        ex:OPENTELEMETRY,
+        ex:TYPESCRIPT ;
+    ex:recommendedForScenario ex:MEDIA_STREAMING ;
+    ex:supportsDeployment ex:BARE_METAL ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_27_DOTNET_ASPNET_CASSANDRA_SERVERLESS_BARE_METAL a ex:Stack ;
+    rdfs:label "STACK_AUTO_27_DOTNET_ASPNET_CASSANDRA_SERVERLESS_BARE_METAL" ;
+    ex:fitsRequirement ex:HIGH_THROUGHPUT,
+        ex:OBSERVABILITY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:ARGO_CD,
+        ex:CASSANDRA,
+        ex:CSHARP,
+        ex:DOTNET_ASPNET,
+        ex:HELM,
+        ex:JAEGER,
+        ex:KUBERNETES ;
+    ex:recommendedForScenario ex:ANALYTICS_WAREHOUSE ;
+    ex:supportsDeployment ex:BARE_METAL ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_28_DJANGO_POSTGRESQL_MICROSERVICES_MANAGED_K8S a ex:Stack ;
+    rdfs:label "STACK_AUTO_28_DJANGO_POSTGRESQL_MICROSERVICES_MANAGED_K8S" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:HIGH ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:ARGO_CD,
+        ex:DJANGO,
+        ex:GRAFANA,
+        ex:KAFKA,
+        ex:POSTGRESQL,
+        ex:PROMETHEUS,
+        ex:PYTHON,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:ECOMMERCE ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MICROSERVICES ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_29_FASTAPI_POSTGRESQL_SERVERLESS_ON_PREM a ex:Stack ;
+    rdfs:label "STACK_AUTO_29_FASTAPI_POSTGRESQL_SERVERLESS_ON_PREM" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:DOCKER_CLI,
+        ex:FASTAPI,
+        ex:JAEGER,
+        ex:KUBERNETES,
+        ex:OPENAPI,
+        ex:POSTGRESQL,
+        ex:PROMETHEUS,
+        ex:PYTHON,
+        ex:RABBITMQ ;
+    ex:recommendedForScenario ex:MOBILE_BACKEND ;
+    ex:supportsDeployment ex:ON_PREM ;
+    ex:usesArchitecture ex:SERVERLESS ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_AUTO_30_KTOR_COCKROACHDB_MICROSERVICES_BARE_METAL a ex:Stack ;
+    rdfs:label "STACK_AUTO_30_KTOR_COCKROACHDB_MICROSERVICES_BARE_METAL" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:COCKROACHDB,
+        ex:DOCKER_CLI,
+        ex:GRAFANA,
+        ex:KOTLIN,
+        ex:KTOR,
+        ex:KUBERNETES,
+        ex:PROMETHEUS,
+        ex:RABBITMQ ;
+    ex:recommendedForScenario ex:CRUD_WEB_SERVICE ;
+    ex:supportsDeployment ex:BARE_METAL ;
+    ex:usesArchitecture ex:MICROSERVICES ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_31_DOTNET_ASPNET_REDIS_MODULAR_MONOLITH_ON_PREM a ex:Stack ;
+    rdfs:label "STACK_AUTO_31_DOTNET_ASPNET_REDIS_MODULAR_MONOLITH_ON_PREM" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:CSHARP,
+        ex:DOTNET_ASPNET,
+        ex:GRAFANA,
+        ex:JAEGER,
+        ex:KAFKA,
+        ex:KUBERNETES,
+        ex:OPENAPI,
+        ex:REDIS,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:ML_SERVICE ;
+    ex:supportsDeployment ex:ON_PREM ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_32_MICRONAUT_REDIS_MICROSERVICES_ON_PREM a ex:Stack ;
+    rdfs:label "STACK_AUTO_32_MICRONAUT_REDIS_MICROSERVICES_ON_PREM" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:GRAFANA,
+        ex:GRAPHQL,
+        ex:HELM,
+        ex:JAVA,
+        ex:MICRONAUT,
+        ex:NGINX,
+        ex:OPENTELEMETRY,
+        ex:REDIS ;
+    ex:recommendedForScenario ex:ETL_PIPELINE ;
+    ex:supportsDeployment ex:ON_PREM ;
+    ex:usesArchitecture ex:MICROSERVICES ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_33_SPRING_BOOT_POSTGRESQL_MONOLITH_CLOUD a ex:Stack ;
+    rdfs:label "STACK_AUTO_33_SPRING_BOOT_POSTGRESQL_MONOLITH_CLOUD" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:DOCKER_CLI,
+        ex:GRAFANA,
+        ex:JAVA,
+        ex:JWT,
+        ex:KAFKA,
+        ex:NGINX,
+        ex:POSTGRESQL,
+        ex:SPRING_BOOT,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:SEARCH_PLATFORM ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:MONOLITH ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_AUTO_34_QUARKUS_NEO4J_MICROSERVICES_MANAGED_K8S a ex:Stack ;
+    rdfs:label "STACK_AUTO_34_QUARKUS_NEO4J_MICROSERVICES_MANAGED_K8S" ;
+    ex:fitsRequirement ex:DATA_PRIVACY,
+        ex:REGULATORY_COMPLIANCE ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:HIGH ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:JAEGER,
+        ex:JAVA,
+        ex:KAFKA,
+        ex:KUBERNETES,
+        ex:NEO4J,
+        ex:PROMETHEUS,
+        ex:QUARKUS,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:B2B_INTEGRATION_API ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MICROSERVICES ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_AUTO_35_SPRING_BOOT_DYNAMODB_MODULAR_MONOLITH_CLOUD a ex:Stack ;
+    rdfs:label "STACK_AUTO_35_SPRING_BOOT_DYNAMODB_MODULAR_MONOLITH_CLOUD" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:DYNAMODB,
+        ex:GRPC,
+        ex:JAVA,
+        ex:KUBERNETES,
+        ex:NGINX,
+        ex:OPENTELEMETRY,
+        ex:SPRING_BOOT,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:IOT_BACKEND ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_36_NESTJS_NEO4J_MODULAR_MONOLITH_MANAGED_K8S a ex:Stack ;
+    rdfs:label "STACK_AUTO_36_NESTJS_NEO4J_MODULAR_MONOLITH_MANAGED_K8S" ;
+    ex:fitsRequirement ex:DATA_PRIVACY,
+        ex:REGULATORY_COMPLIANCE ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:GRAFANA,
+        ex:GRPC,
+        ex:NEO4J,
+        ex:NESTJS,
+        ex:NGINX,
+        ex:OPENTELEMETRY,
+        ex:PROMETHEUS,
+        ex:PULSAR,
+        ex:TYPESCRIPT ;
+    ex:recommendedForScenario ex:B2B_INTEGRATION_API ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_AUTO_37_DJANGO_CLICKHOUSE_MODULAR_MONOLITH_MANAGED_K8S a ex:Stack ;
+    rdfs:label "STACK_AUTO_37_DJANGO_CLICKHOUSE_MODULAR_MONOLITH_MANAGED_K8S" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:ARGO_CD,
+        ex:CLICKHOUSE,
+        ex:DJANGO,
+        ex:GRAFANA,
+        ex:JAEGER,
+        ex:OPENAPI,
+        ex:OPENTELEMETRY,
+        ex:PULSAR,
+        ex:PYTHON ;
+    ex:recommendedForScenario ex:IOT_BACKEND ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_AUTO_38_KTOR_MYSQL_MICROSERVICES_CLOUD a ex:Stack ;
+    rdfs:label "STACK_AUTO_38_KTOR_MYSQL_MICROSERVICES_CLOUD" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:HIGH ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:GRAFANA,
+        ex:KAFKA,
+        ex:KOTLIN,
+        ex:KTOR,
+        ex:KUBERNETES,
+        ex:MYSQL,
+        ex:OAUTH2,
+        ex:OPENTELEMETRY,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:SEARCH_PLATFORM ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:MICROSERVICES ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_AUTO_39_EXPRESS_COCKROACHDB_MONOLITH_BARE_METAL a ex:Stack ;
+    rdfs:label "STACK_AUTO_39_EXPRESS_COCKROACHDB_MONOLITH_BARE_METAL" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:ARGO_CD,
+        ex:COCKROACHDB,
+        ex:DOCKER_CLI,
+        ex:EXPRESS,
+        ex:HELM,
+        ex:JAVASCRIPT,
+        ex:JWT,
+        ex:PROMETHEUS,
+        ex:RABBITMQ ;
+    ex:recommendedForScenario ex:ML_SERVICE ;
+    ex:supportsDeployment ex:BARE_METAL ;
+    ex:usesArchitecture ex:MONOLITH ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_AUTO_40_EXPRESS_CASSANDRA_MICROSERVICES_CLOUD a ex:Stack ;
+    rdfs:label "STACK_AUTO_40_EXPRESS_CASSANDRA_MICROSERVICES_CLOUD" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:CASSANDRA,
+        ex:EXPRESS,
+        ex:JAEGER,
+        ex:JAVASCRIPT,
+        ex:KAFKA,
+        ex:NGINX,
+        ex:OPENTELEMETRY,
+        ex:TERRAFORM ;
+    ex:recommendedForScenario ex:MOBILE_BACKEND ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:MICROSERVICES ;
+    ex:usesTestingStrategy ex:MOSTLY_MANUAL .
+
+ex:STACK_CHAT_NESTJS_POSTGRES_REDIS a ex:Stack ;
+    rdfs:label "STACK_CHAT_NESTJS_POSTGRES_REDIS" ;
+    ex:fitsRequirement ex:EASY_HIRING,
+        ex:HIGH_AVAILABILITY,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:DOCKER_CLI,
+        ex:NESTJS,
+        ex:NGINX,
+        ex:POSTGRESQL,
+        ex:REDIS,
+        ex:TYPESCRIPT ;
+    ex:recommendedForScenario ex:REALTIME_CHAT ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_CRUD_KTOR_POSTGRES a ex:Stack ;
+    rdfs:label "STACK_CRUD_KTOR_POSTGRES" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_OPS,
+        ex:STRONG_CONSISTENCY ;
+    ex:hasCostTier ex:LOW ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:HIGH ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:DOCKER_CLI,
+        ex:KOTLIN,
+        ex:KTOR,
+        ex:NGINX,
+        ex:POSTGRESQL ;
+    ex:recommendedForScenario ex:CRUD_WEB_SERVICE ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:MONOLITH ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_CRUD_SPRING_POSTGRES_REDIS a ex:Stack ;
+    rdfs:label "STACK_CRUD_SPRING_POSTGRES_REDIS" ;
+    ex:fitsRequirement ex:HIGH_THROUGHPUT,
+        ex:OBSERVABILITY,
+        ex:REGULATORY_COMPLIANCE,
+        ex:STRONG_CONSISTENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:HIGH ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:HIGH ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:DOCKER_CLI,
+        ex:GRAFANA,
+        ex:JAVA,
+        ex:KAFKA,
+        ex:POSTGRESQL,
+        ex:PROMETHEUS,
+        ex:REDIS,
+        ex:SPRING_BOOT ;
+    ex:recommendedForScenario ex:CRUD_WEB_SERVICE ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_ML_FASTAPI_POSTGRES a ex:Stack ;
+    rdfs:label "STACK_ML_FASTAPI_POSTGRES" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:RAPID_PROTOTYPING ;
+    ex:hasCostTier ex:LOW ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:LOW ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:DOCKER_CLI,
+        ex:FASTAPI,
+        ex:POSTGRESQL,
+        ex:PROMETHEUS,
+        ex:PYTHON,
+        ex:REDIS ;
+    ex:recommendedForScenario ex:ML_SERVICE ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:MONOLITH ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_SEARCH_ELASTIC_NESTJS a ex:Stack ;
+    rdfs:label "STACK_SEARCH_ELASTIC_NESTJS" ;
+    ex:fitsRequirement ex:HIGH_THROUGHPUT,
+        ex:LOW_LATENCY ;
+    ex:hasCostTier ex:MEDIUM ;
+    ex:hasDevopsComplexityTier ex:MEDIUM ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:DOCKER_CLI,
+        ex:ELASTICSEARCH,
+        ex:NESTJS,
+        ex:NGINX,
+        ex:REDIS,
+        ex:TYPESCRIPT ;
+    ex:recommendedForScenario ex:SEARCH_PLATFORM ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:MODULAR_MONOLITH ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STRICT_SECURITY a ex:Requirement ;
+    rdfs:label "STRICT_SECURITY" .
+
+ex:SUBVERSION a ex:SCV,
+        ex:Technology ;
+    rdfs:label "SUBVERSION" ;
+    ex:githubContributors 1400 ;
+    ex:githubStars 21000 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-05-29"^^xsd:date ;
+    ex:releaseFrequencyPerYear 3.75 .
+
+ex:SWAGGER_UI a ex:Library,
+        ex:Technology ;
+    rdfs:label "SWAGGER_UI" ;
+    ex:githubContributors 4622 ;
+    ex:githubStars 81916 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-02-18"^^xsd:date ;
+    ex:releaseFrequencyPerYear 23.91 .
+
+ex:TEAM_SMALL_MIDDLE a ex:Team ;
+    rdfs:label "TEAM_SMALL_MIDDLE" ;
+    ex:avgSeniorityLevel ex:MIDDLE ;
+    ex:hasDevopsSkillTier ex:MEDIUM ;
+    ex:hasQaSkillTier ex:MEDIUM ;
+    ex:teamSize 4 .
+
+ex:VUE a ex:Framework,
+        ex:Technology ;
+    rdfs:label "VUE" ;
+    ex:githubContributors 2300 ;
+    ex:githubStars 210000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-09-18"^^xsd:date ;
+    ex:releaseFrequencyPerYear 14.37 ;
+    ex:usesLanguage ex:JAVASCRIPT .
+
+ex:WINDOWS a ex:Platform,
+        ex:Technology ;
+    rdfs:label "WINDOWS" ;
+    ex:githubContributors 2672 ;
+    ex:githubStars 112036 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-04-12"^^xsd:date ;
+    ex:releaseFrequencyPerYear 5.18 .
+
+ex:YDB a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "YDB" ;
+    ex:githubContributors 1150 ;
+    ex:githubStars 18500 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-08-09"^^xsd:date ;
+    ex:releaseFrequencyPerYear 10.44 .
+
+ex:YT a ex:Platform,
+        ex:Technology ;
+    rdfs:label "YT" ;
+    ex:githubContributors 1670 ;
+    ex:githubStars 26500 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-07-27"^^xsd:date ;
+    ex:releaseFrequencyPerYear 12.6 .
+
+ex:avgSeniorityLevel a owl:ObjectProperty ;
+    rdfs:domain ex:Team ;
+    rdfs:range ex:Seniority .
+
+ex:expectedLoadRps a owl:DatatypeProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range xsd:integer .
+
+ex:expectedUsers a owl:DatatypeProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range xsd:integer .
+
+ex:fitsRequirement a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:Requirement .
+
+ex:githubContributors a owl:DatatypeProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range xsd:integer .
+
+ex:githubStars a owl:DatatypeProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range xsd:integer .
+
+ex:hasArchitecture a owl:ObjectProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range ex:Architecture .
+
+ex:hasAutomationLevelTier a owl:ObjectProperty ;
+    rdfs:domain ex:TestingStrategy ;
+    rdfs:range ex:Tier .
+
+ex:hasBudgetTier a owl:ObjectProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range ex:Tier .
+
+ex:hasCommunitySupportTier a owl:ObjectProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range ex:Tier .
+
+ex:hasCostTier a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:Tier .
+
+ex:hasDataSensitivityTier a owl:ObjectProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range ex:Tier .
+
+ex:hasDeployment a owl:ObjectProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range ex:Deployment .
+
+ex:hasDevopsComplexityTier a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:Tier .
+
+ex:hasDevopsSkillTier a owl:ObjectProperty ;
+    rdfs:domain ex:Team ;
+    rdfs:range ex:Tier .
+
+ex:hasEcosystemRichnessTier a owl:ObjectProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range ex:Tier .
+
+ex:hasImplementationComplexityTier a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:Tier .
+
+ex:hasLearningCurveTier a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:Tier .
+
+ex:hasMaturityTier a owl:ObjectProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range ex:Tier .
+
+ex:hasPerformanceTier a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:Tier .
+
+ex:hasQaSkillTier a owl:ObjectProperty ;
+    rdfs:domain ex:Team ;
+    rdfs:range ex:Tier .
+
+ex:hasReliabilityTier a owl:ObjectProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range ex:Tier .
+
+ex:hasRequirement a owl:ObjectProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range ex:Requirement .
+
+ex:hasRuntimePerformanceTier a owl:ObjectProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range ex:Tier .
+
+ex:hasScalabilityTier a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:Tier .
+
+ex:hasScenario a owl:ObjectProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range ex:Scenario .
+
+ex:hasTeam a owl:ObjectProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range ex:Team .
+
+ex:hasTestingStrategy a owl:ObjectProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range ex:TestingStrategy .
+
+ex:hasTimeToMarketTier a owl:ObjectProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range ex:Tier .
+
+ex:includesTechnology a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:Technology .
+
+ex:integratesWith a owl:ObjectProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range ex:Technology .
+
+ex:lastReleaseDate a owl:DatatypeProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range xsd:date .
+
+ex:oftenUsedWith a owl:ObjectProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range ex:Technology .
+
+ex:recommendedForScenario a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:Scenario .
+
+ex:recommendedForTeam a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:Team .
+
+ex:recommendedStack a owl:ObjectProperty ;
+    rdfs:domain ex:Project ;
+    rdfs:range ex:Stack .
+
+ex:releaseFrequencyPerYear a owl:DatatypeProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range xsd:decimal .
+
+ex:replacesTechnology a owl:ObjectProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range ex:Technology .
+
+ex:runsOn a owl:ObjectProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range ex:Platform .
+
+ex:supportsDeployment a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:Deployment .
+
+ex:supportsScenario a owl:ObjectProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range ex:Scenario .
+
+ex:teamSize a owl:DatatypeProperty ;
+    rdfs:domain ex:Team ;
+    rdfs:range xsd:integer .
+
+ex:usesArchitecture a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:Architecture .
+
+ex:usesLanguage a owl:ObjectProperty ;
+    rdfs:domain ex:Technology ;
+    rdfs:range ex:Language .
+
+ex:usesTestingStrategy a owl:ObjectProperty ;
+    rdfs:domain ex:Stack ;
+    rdfs:range ex:TestingStrategy .
+
+ex:usesTestingTool a owl:ObjectProperty ;
+    rdfs:domain ex:TestingStrategy ;
+    rdfs:range ex:Tool .
+
+ex:AWS a ex:Platform,
+        ex:Technology ;
+    rdfs:label "AWS" ;
+    ex:githubContributors 3910 ;
+    ex:githubStars 91019 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-08-15"^^xsd:date ;
+    ex:oftenUsedWith ex:TERRAFORM ;
+    ex:releaseFrequencyPerYear 15.86 .
+
+ex:COST_OPTIMIZED a ex:Requirement ;
+    rdfs:label "COST_OPTIMIZED" .
+
+ex:EASY_HIRING a ex:Requirement ;
+    rdfs:label "EASY_HIRING" .
+
+ex:ELASTICSEARCH a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "ELASTICSEARCH" ;
+    ex:githubContributors 2796 ;
+    ex:githubStars 101241 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-07-06"^^xsd:date ;
+    ex:releaseFrequencyPerYear 3.57 .
+
+ex:GCP a ex:Platform,
+        ex:Technology ;
+    rdfs:label "GCP" ;
+    ex:githubContributors 2003 ;
+    ex:githubStars 53505 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-10-12"^^xsd:date ;
+    ex:oftenUsedWith ex:TERRAFORM ;
+    ex:releaseFrequencyPerYear 8.04 .
+
+ex:JUNIOR a ex:Seniority ;
+    rdfs:label "JUNIOR" .
+
+ex:K6 a ex:Technology,
+        ex:Tool ;
+    rdfs:label "K6" ;
+    ex:githubContributors 4145 ;
+    ex:githubStars 80801 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-09-15"^^xsd:date ;
+    ex:releaseFrequencyPerYear 10.82 .
+
+ex:MOCKITO a ex:Technology,
+        ex:Tool ;
+    rdfs:label "MOCKITO" ;
+    ex:githubContributors 1704 ;
+    ex:githubStars 8661 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-07-25"^^xsd:date ;
+    ex:releaseFrequencyPerYear 20.16 .
+
+ex:PHP a ex:Language,
+        ex:Technology ;
+    rdfs:label "PHP" ;
+    ex:githubContributors 3045 ;
+    ex:githubStars 87206 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-11-11"^^xsd:date ;
+    ex:releaseFrequencyPerYear 2.59 .
+
+ex:PLAYWRIGHT a ex:Technology,
+        ex:Tool ;
+    rdfs:label "PLAYWRIGHT" ;
+    ex:githubContributors 3988 ;
+    ex:githubStars 57625 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-06-22"^^xsd:date ;
+    ex:releaseFrequencyPerYear 1.67 .
+
+ex:REALTIME_STREAM_PROCESSING a ex:Requirement ;
+    rdfs:label "REALTIME_STREAM_PROCESSING" .
+
+ex:RUBY a ex:Language,
+        ex:Technology ;
+    rdfs:label "RUBY" ;
+    ex:githubContributors 2977 ;
+    ex:githubStars 57322 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-08-23"^^xsd:date ;
+    ex:releaseFrequencyPerYear 15.62 .
+
+ex:SCALA a ex:Language,
+        ex:Technology ;
+    rdfs:label "SCALA" ;
+    ex:githubContributors 4418 ;
+    ex:githubStars 81228 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-08-14"^^xsd:date ;
+    ex:releaseFrequencyPerYear 18.82 .
+
+ex:SENIOR a ex:Seniority ;
+    rdfs:label "SENIOR" .
+
+ex:SOCKET_IO a ex:Library,
+        ex:Technology ;
+    rdfs:label "SOCKET_IO" ;
+    ex:githubContributors 4427 ;
+    ex:githubStars 28260 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-12-07"^^xsd:date ;
+    ex:releaseFrequencyPerYear 18.37 ;
+    ex:usesLanguage ex:JAVASCRIPT .
+
+ex:STACK_CHAT_NODE_SOCKETIO_MONGO a ex:Stack ;
+    rdfs:label "STACK_CHAT_NODE_SOCKETIO_MONGO" ;
+    ex:fitsRequirement ex:FAST_DELIVERY,
+        ex:LOW_LATENCY,
+        ex:LOW_OPS,
+        ex:RAPID_PROTOTYPING ;
+    ex:hasCostTier ex:LOW ;
+    ex:hasDevopsComplexityTier ex:LOW ;
+    ex:hasImplementationComplexityTier ex:MEDIUM ;
+    ex:hasLearningCurveTier ex:LOW ;
+    ex:hasPerformanceTier ex:MEDIUM ;
+    ex:hasScalabilityTier ex:MEDIUM ;
+    ex:includesTechnology ex:DOCKER_CLI,
+        ex:EXPRESS,
+        ex:JAVASCRIPT,
+        ex:MONGODB,
+        ex:NGINX,
+        ex:REDIS,
+        ex:SOCKET_IO ;
+    ex:recommendedForScenario ex:REALTIME_CHAT ;
+    ex:supportsDeployment ex:CLOUD ;
+    ex:usesArchitecture ex:MONOLITH ;
+    ex:usesTestingStrategy ex:BALANCED .
+
+ex:STACK_FINTECH_SPRING_KAFKA_POSTGRES a ex:Stack ;
+    rdfs:label "STACK_FINTECH_SPRING_KAFKA_POSTGRES" ;
+    ex:fitsRequirement ex:DATA_PRIVACY,
+        ex:HIGH_AVAILABILITY,
+        ex:OBSERVABILITY,
+        ex:REGULATORY_COMPLIANCE ;
+    ex:hasCostTier ex:HIGH ;
+    ex:hasDevopsComplexityTier ex:HIGH ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:MEDIUM ;
+    ex:hasPerformanceTier ex:HIGH ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:ARGO_CD,
+        ex:JAEGER,
+        ex:JAVA,
+        ex:KAFKA,
+        ex:KUBERNETES,
+        ex:OPENTELEMETRY,
+        ex:POSTGRESQL,
+        ex:REDIS,
+        ex:SPRING_BOOT ;
+    ex:recommendedForScenario ex:FINTECH_CORE ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MICROSERVICES ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:STACK_STREAM_KAFKA_FLINK_CLICKHOUSE a ex:Stack ;
+    rdfs:label "STACK_STREAM_KAFKA_FLINK_CLICKHOUSE" ;
+    ex:fitsRequirement ex:HIGH_THROUGHPUT,
+        ex:OBSERVABILITY,
+        ex:REALTIME_STREAM_PROCESSING ;
+    ex:hasCostTier ex:HIGH ;
+    ex:hasDevopsComplexityTier ex:HIGH ;
+    ex:hasImplementationComplexityTier ex:HIGH ;
+    ex:hasLearningCurveTier ex:HIGH ;
+    ex:hasPerformanceTier ex:HIGH ;
+    ex:hasScalabilityTier ex:HIGH ;
+    ex:includesTechnology ex:CLICKHOUSE,
+        ex:FLINK,
+        ex:GRAFANA,
+        ex:HELM,
+        ex:JAVA,
+        ex:KAFKA,
+        ex:KUBERNETES,
+        ex:PROMETHEUS ;
+    ex:recommendedForScenario ex:STREAM_PROCESSING ;
+    ex:supportsDeployment ex:MANAGED_K8S ;
+    ex:usesArchitecture ex:MICROSERVICES ;
+    ex:usesTestingStrategy ex:AUTOMATION_FIRST .
+
+ex:TEAM_LARGE_SENIOR a ex:Team ;
+    rdfs:label "TEAM_LARGE_SENIOR" ;
+    ex:avgSeniorityLevel ex:SENIOR ;
+    ex:hasDevopsSkillTier ex:HIGH ;
+    ex:hasQaSkillTier ex:HIGH ;
+    ex:teamSize 20 .
+
+ex:TEAM_MEDIUM_MIXED a ex:Team ;
+    rdfs:label "TEAM_MEDIUM_MIXED" ;
+    ex:avgSeniorityLevel ex:MIDDLE ;
+    ex:hasDevopsSkillTier ex:MEDIUM ;
+    ex:hasQaSkillTier ex:MEDIUM ;
+    ex:teamSize 8 .
+
+ex:TEAM_SMALL_JUNIOR a ex:Team ;
+    rdfs:label "TEAM_SMALL_JUNIOR" ;
+    ex:avgSeniorityLevel ex:JUNIOR ;
+    ex:hasDevopsSkillTier ex:LOW ;
+    ex:hasQaSkillTier ex:LOW ;
+    ex:teamSize 3 .
+
+ex:FLINK a ex:Technology,
+        ex:Tool ;
+    rdfs:label "FLINK" ;
+    ex:githubContributors 1258 ;
+    ex:githubStars 81939 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-08-22"^^xsd:date ;
+    ex:oftenUsedWith ex:KAFKA ;
+    ex:releaseFrequencyPerYear 6.49 ;
+    ex:supportsScenario ex:STREAM_PROCESSING .
+
+ex:GRAPHQL a ex:Library,
+        ex:Technology ;
+    rdfs:label "GRAPHQL" ;
+    ex:githubContributors 2716 ;
+    ex:githubStars 113174 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-04-09"^^xsd:date ;
+    ex:releaseFrequencyPerYear 2.63 .
+
+ex:IOT_BACKEND a ex:Scenario ;
+    rdfs:label "IOT_BACKEND" .
+
+ex:JUNIT5 a ex:Technology,
+        ex:Tool ;
+    rdfs:label "JUNIT5" ;
+    ex:githubContributors 2350 ;
+    ex:githubStars 10655 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-06-11"^^xsd:date ;
+    ex:releaseFrequencyPerYear 6.39 .
+
+ex:MIDDLE a ex:Seniority ;
+    rdfs:label "MIDDLE" .
+
+ex:OBSERVABILITY_PLATFORM a ex:Scenario ;
+    rdfs:label "OBSERVABILITY_PLATFORM" .
+
+ex:POSTMAN a ex:Technology,
+        ex:Tool ;
+    rdfs:label "POSTMAN" ;
+    ex:githubContributors 4576 ;
+    ex:githubStars 7082 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-02-15"^^xsd:date ;
+    ex:releaseFrequencyPerYear 6.73 .
+
+ex:RAPID_PROTOTYPING a ex:Requirement ;
+    rdfs:label "RAPID_PROTOTYPING" .
+
+ex:STRONG_CONSISTENCY a ex:Requirement ;
+    rdfs:label "STRONG_CONSISTENCY" .
+
+ex:TESTCONTAINERS a ex:Technology,
+        ex:Tool ;
+    rdfs:label "TESTCONTAINERS" ;
+    ex:githubContributors 1261 ;
+    ex:githubStars 50705 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-02-14"^^xsd:date ;
+    ex:releaseFrequencyPerYear 17.25 .
+
+ex:DYNAMODB a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "DYNAMODB" ;
+    ex:githubContributors 530 ;
+    ex:githubStars 78672 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-10-15"^^xsd:date ;
+    ex:releaseFrequencyPerYear 9.85 .
+
+ex:ETL_PIPELINE a ex:Scenario ;
+    rdfs:label "ETL_PIPELINE" .
+
+ex:NEO4J a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "NEO4J" ;
+    ex:githubContributors 4354 ;
+    ex:githubStars 71197 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-10-11"^^xsd:date ;
+    ex:releaseFrequencyPerYear 22.13 .
+
+ex:ANALYTICS_WAREHOUSE a ex:Scenario ;
+    rdfs:label "ANALYTICS_WAREHOUSE" .
+
+ex:GRPC a ex:Library,
+        ex:Technology ;
+    rdfs:label "GRPC" ;
+    ex:githubContributors 4249 ;
+    ex:githubStars 118414 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-04-08"^^xsd:date ;
+    ex:releaseFrequencyPerYear 11.38 .
+
+ex:MICRONAUT a ex:Framework,
+        ex:Technology ;
+    rdfs:label "MICRONAUT" ;
+    ex:githubContributors 2288 ;
+    ex:githubStars 77736 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-01-25"^^xsd:date ;
+    ex:releaseFrequencyPerYear 19.62 ;
+    ex:usesLanguage ex:JAVA .
+
+ex:MYSQL a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "MYSQL" ;
+    ex:githubContributors 4099 ;
+    ex:githubStars 86409 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-11-15"^^xsd:date ;
+    ex:releaseFrequencyPerYear 10.1 .
+
+ex:Seniority a owl:Class ;
+    rdfs:label "Seniority" .
+
+ex:CLICKHOUSE a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "CLICKHOUSE" ;
+    ex:githubContributors 881 ;
+    ex:githubStars 67042 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-05-27"^^xsd:date ;
+    ex:oftenUsedWith ex:KAFKA ;
+    ex:releaseFrequencyPerYear 21.02 ;
+    ex:runsOn ex:DOCKER,
+        ex:LINUX ;
+    ex:supportsScenario ex:ANALYTICS_WAREHOUSE,
+        ex:OBSERVABILITY_PLATFORM .
+
+ex:DJANGO a ex:Framework,
+        ex:Technology ;
+    rdfs:label "DJANGO" ;
+    ex:githubContributors 1773 ;
+    ex:githubStars 20879 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-06-04"^^xsd:date ;
+    ex:releaseFrequencyPerYear 23.02 ;
+    ex:usesLanguage ex:PYTHON .
+
+ex:FASTAPI a ex:Framework,
+        ex:Technology ;
+    rdfs:label "FASTAPI" ;
+    ex:githubContributors 900 ;
+    ex:githubStars 80000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-11-18"^^xsd:date ;
+    ex:oftenUsedWith ex:POSTGRESQL,
+        ex:REDIS ;
+    ex:runsOn ex:DOCKER,
+        ex:LINUX ;
+    ex:supportsScenario ex:B2B_INTEGRATION_API,
+        ex:CRUD_WEB_SERVICE,
+        ex:ML_SERVICE ;
+    ex:usesLanguage ex:PYTHON .
+
+ex:HIGH_THROUGHPUT a ex:Requirement ;
+    rdfs:label "HIGH_THROUGHPUT" .
+
+ex:JWT a ex:Library,
+        ex:Technology ;
+    rdfs:label "JWT" ;
+    ex:githubContributors 3915 ;
+    ex:githubStars 77069 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-09-06"^^xsd:date ;
+    ex:releaseFrequencyPerYear 12.57 .
+
+ex:KTOR a ex:Framework,
+        ex:Technology ;
+    rdfs:label "KTOR" ;
+    ex:githubContributors 300 ;
+    ex:githubStars 12000 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-09-28"^^xsd:date ;
+    ex:runsOn ex:DOCKER,
+        ex:LINUX ;
+    ex:usesLanguage ex:KOTLIN .
+
+ex:MEDIA_STREAMING a ex:Scenario ;
+    rdfs:label "MEDIA_STREAMING" .
+
+ex:ML_SERVICE a ex:Scenario ;
+    rdfs:label "ML_SERVICE" .
+
+ex:MOBILE_BACKEND a ex:Scenario ;
+    rdfs:label "MOBILE_BACKEND" .
+
+ex:NATS a ex:Technology,
+        ex:Tool ;
+    rdfs:label "NATS" ;
+    ex:githubContributors 3115 ;
+    ex:githubStars 44736 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-07-09"^^xsd:date ;
+    ex:releaseFrequencyPerYear 7.4 .
+
+ex:OAUTH2 a ex:Library,
+        ex:Technology ;
+    rdfs:label "OAUTH2" ;
+    ex:githubContributors 566 ;
+    ex:githubStars 78492 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-04-13"^^xsd:date ;
+    ex:releaseFrequencyPerYear 16.53 .
+
+ex:OBSERVABILITY a ex:Requirement ;
+    rdfs:label "OBSERVABILITY" .
+
+ex:QUARKUS a ex:Framework,
+        ex:Technology ;
+    rdfs:label "QUARKUS" ;
+    ex:githubContributors 1801 ;
+    ex:githubStars 12780 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-10-01"^^xsd:date ;
+    ex:releaseFrequencyPerYear 6.35 ;
+    ex:usesLanguage ex:JAVA .
+
+ex:RABBITMQ a ex:Technology,
+        ex:Tool ;
+    rdfs:label "RABBITMQ" ;
+    ex:githubContributors 3792 ;
+    ex:githubStars 114119 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-05-13"^^xsd:date ;
+    ex:releaseFrequencyPerYear 5.18 .
+
+ex:STREAM_PROCESSING a ex:Scenario ;
+    rdfs:label "STREAM_PROCESSING" .
+
+ex:Architecture a owl:Class ;
+    rdfs:label "Architecture" .
+
+ex:COCKROACHDB a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "COCKROACHDB" ;
+    ex:githubContributors 4184 ;
+    ex:githubStars 18631 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-01-28"^^xsd:date ;
+    ex:releaseFrequencyPerYear 12.35 .
+
+ex:Deployment a owl:Class ;
+    rdfs:label "Deployment" .
+
+ex:EXPRESS a ex:Framework,
+        ex:Technology ;
+    rdfs:label "EXPRESS" ;
+    ex:githubContributors 2411 ;
+    ex:githubStars 72857 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-10-28"^^xsd:date ;
+    ex:oftenUsedWith ex:MONGODB ;
+    ex:releaseFrequencyPerYear 20.08 ;
+    ex:supportsScenario ex:B2B_INTEGRATION_API,
+        ex:CRUD_WEB_SERVICE,
+        ex:REALTIME_CHAT ;
+    ex:usesLanguage ex:JAVASCRIPT .
+
+ex:OPENAPI a ex:Library,
+        ex:Technology ;
+    rdfs:label "OPENAPI" ;
+    ex:githubContributors 1082 ;
+    ex:githubStars 52376 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-05-15"^^xsd:date ;
+    ex:releaseFrequencyPerYear 16.45 .
+
+ex:SEARCH_PLATFORM a ex:Scenario ;
+    rdfs:label "SEARCH_PLATFORM" .
+
+ex:BARE_METAL a ex:Deployment ;
+    rdfs:label "BARE_METAL" .
+
+ex:DOTNET_ASPNET a ex:Framework,
+        ex:Technology ;
+    rdfs:label "DOTNET_ASPNET" ;
+    ex:githubContributors 2998 ;
+    ex:githubStars 59929 ;
+    ex:hasCommunitySupportTier ex:LOW ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-06-07"^^xsd:date ;
+    ex:releaseFrequencyPerYear 4.74 ;
+    ex:runsOn ex:DOCKER,
+        ex:LINUX ;
+    ex:usesLanguage ex:CSHARP .
+
+ex:FINTECH_CORE a ex:Scenario ;
+    rdfs:label "FINTECH_CORE" .
+
+ex:JAVASCRIPT a ex:Language,
+        ex:Technology ;
+    rdfs:label "JAVASCRIPT" ;
+    ex:githubContributors 3000 ;
+    ex:githubStars 70000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-11-20"^^xsd:date .
+
+ex:KOTLIN a ex:Language,
+        ex:Technology ;
+    rdfs:label "KOTLIN" ;
+    ex:githubContributors 1500 ;
+    ex:githubStars 48000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-09-10"^^xsd:date .
+
+ex:MONGODB a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "MONGODB" ;
+    ex:githubContributors 900 ;
+    ex:githubStars 25000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-09-01"^^xsd:date ;
+    ex:oftenUsedWith ex:EXPRESS ;
+    ex:runsOn ex:DOCKER,
+        ex:LINUX ;
+    ex:supportsScenario ex:ECOMMERCE,
+        ex:MOBILE_BACKEND,
+        ex:REALTIME_CHAT .
+
+ex:PULSAR a ex:Technology,
+        ex:Tool ;
+    rdfs:label "PULSAR" ;
+    ex:githubContributors 1846 ;
+    ex:githubStars 46370 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:LOW ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-11-02"^^xsd:date ;
+    ex:releaseFrequencyPerYear 15.95 .
+
+ex:TestingStrategy a owl:Class ;
+    rdfs:label "TestingStrategy" .
+
+ex:B2B_INTEGRATION_API a ex:Scenario ;
+    rdfs:label "B2B_INTEGRATION_API" .
+
+ex:CASSANDRA a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "CASSANDRA" ;
+    ex:githubContributors 4608 ;
+    ex:githubStars 98147 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-12-19"^^xsd:date ;
+    ex:releaseFrequencyPerYear 13.4 .
+
+ex:CSHARP a ex:Language,
+        ex:Technology ;
+    rdfs:label "CSHARP" ;
+    ex:githubContributors 1999 ;
+    ex:githubStars 78107 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-05-28"^^xsd:date ;
+    ex:releaseFrequencyPerYear 3.34 .
+
+ex:DATA_PRIVACY a ex:Requirement ;
+    rdfs:label "DATA_PRIVACY" .
+
+ex:ECOMMERCE a ex:Scenario ;
+    rdfs:label "ECOMMERCE" .
+
+ex:SPRING_BOOT a ex:Framework,
+        ex:Technology ;
+    rdfs:label "SPRING_BOOT" ;
+    ex:githubContributors 1800 ;
+    ex:githubStars 75000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-10-12"^^xsd:date ;
+    ex:oftenUsedWith ex:KAFKA,
+        ex:POSTGRESQL,
+        ex:REDIS ;
+    ex:runsOn ex:DOCKER,
+        ex:LINUX ;
+    ex:supportsScenario ex:B2B_INTEGRATION_API,
+        ex:CRUD_WEB_SERVICE,
+        ex:ECOMMERCE,
+        ex:FINTECH_CORE ;
+    ex:usesLanguage ex:JAVA .
+
+ex:DOCKER a ex:Platform,
+        ex:Technology ;
+    rdfs:label "DOCKER" ;
+    ex:githubContributors 93 ;
+    ex:githubStars 73348 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-04-03"^^xsd:date ;
+    ex:releaseFrequencyPerYear 12.88 .
+
+ex:LINUX a ex:Platform,
+        ex:Technology ;
+    rdfs:label "LINUX" ;
+    ex:githubContributors 3702 ;
+    ex:githubStars 37059 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-08-19"^^xsd:date ;
+    ex:releaseFrequencyPerYear 6.61 .
+
+ex:ON_PREM a ex:Deployment ;
+    rdfs:label "ON_PREM" .
+
+ex:REGULATORY_COMPLIANCE a ex:Requirement ;
+    rdfs:label "REGULATORY_COMPLIANCE" .
+
+ex:CRUD_WEB_SERVICE a ex:Scenario ;
+    rdfs:label "CRUD_WEB_SERVICE" .
+
+ex:NESTJS a ex:Framework,
+        ex:Technology ;
+    rdfs:label "NESTJS" ;
+    ex:githubContributors 1000 ;
+    ex:githubStars 70000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-11-01"^^xsd:date ;
+    ex:oftenUsedWith ex:POSTGRESQL,
+        ex:REDIS ;
+    ex:runsOn ex:DOCKER,
+        ex:LINUX ;
+    ex:supportsScenario ex:B2B_INTEGRATION_API,
+        ex:CRUD_WEB_SERVICE,
+        ex:MOBILE_BACKEND,
+        ex:REALTIME_CHAT ;
+    ex:usesLanguage ex:TYPESCRIPT .
+
+ex:TYPESCRIPT a ex:Language,
+        ex:Technology ;
+    rdfs:label "TYPESCRIPT" ;
+    ex:githubContributors 220 ;
+    ex:githubStars 76349 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:LOW ;
+    ex:lastReleaseDate "2025-10-22"^^xsd:date ;
+    ex:releaseFrequencyPerYear 22.36 .
+
+ex:Team a owl:Class ;
+    rdfs:label "Team" .
+
+ex:MONOLITH a ex:Architecture ;
+    rdfs:label "MONOLITH" .
+
+ex:REALTIME_CHAT a ex:Scenario ;
+    rdfs:label "REALTIME_CHAT" .
+
+ex:DBMS a owl:Class ;
+    rdfs:label "DBMS" ;
+    rdfs:subClassOf ex:Technology .
+
+ex:SCV a owl:Class ;
+    rdfs:label "SCV" ;
+    rdfs:subClassOf ex:Technology .
+
+ex:Language a owl:Class ;
+    rdfs:label "Language" ;
+    rdfs:subClassOf ex:Technology .
+
+ex:POSTGRESQL a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "POSTGRESQL" ;
+    ex:githubContributors 1200 ;
+    ex:githubStars 18000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-10-05"^^xsd:date ;
+    ex:oftenUsedWith ex:FASTAPI,
+        ex:NESTJS,
+        ex:SPRING_BOOT ;
+    ex:runsOn ex:DOCKER,
+        ex:LINUX ;
+    ex:supportsScenario ex:ANALYTICS_WAREHOUSE,
+        ex:CRUD_WEB_SERVICE,
+        ex:ECOMMERCE,
+        ex:FINTECH_CORE .
+
+ex:Platform a owl:Class ;
+    rdfs:label "Platform" ;
+    rdfs:subClassOf ex:Technology .
+
+ex:ARGO_CD a ex:Technology,
+        ex:Tool ;
+    rdfs:label "ARGO_CD" ;
+    ex:githubContributors 55 ;
+    ex:githubStars 86490 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-02-25"^^xsd:date ;
+    ex:oftenUsedWith ex:KUBERNETES ;
+    ex:releaseFrequencyPerYear 21.53 .
+
+ex:MODULAR_MONOLITH a ex:Architecture ;
+    rdfs:label "MODULAR_MONOLITH" .
+
+ex:REDIS a ex:DBMS,
+        ex:Technology ;
+    rdfs:label "REDIS" ;
+    ex:githubContributors 850 ;
+    ex:githubStars 68000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-11-10"^^xsd:date ;
+    ex:oftenUsedWith ex:FASTAPI,
+        ex:NESTJS,
+        ex:SPRING_BOOT ;
+    ex:runsOn ex:DOCKER,
+        ex:LINUX ;
+    ex:supportsScenario ex:ECOMMERCE,
+        ex:REALTIME_CHAT,
+        ex:SEARCH_PLATFORM .
+
+ex:SERVERLESS a ex:Architecture ;
+    rdfs:label "SERVERLESS" .
+
+ex:Framework a owl:Class ;
+    rdfs:label "Framework" ;
+    rdfs:subClassOf ex:Technology .
+
+ex:HIGH_AVAILABILITY a ex:Requirement ;
+    rdfs:label "HIGH_AVAILABILITY" .
+
+ex:MICROSERVICES a ex:Architecture ;
+    rdfs:label "MICROSERVICES" .
+
+ex:LOW_LATENCY a ex:Requirement ;
+    rdfs:label "LOW_LATENCY" .
+
+ex:PYTHON a ex:Language,
+        ex:Technology ;
+    rdfs:label "PYTHON" ;
+    ex:githubContributors 2500 ;
+    ex:githubStars 60000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-11-05"^^xsd:date .
+
+ex:BALANCED a ex:TestingStrategy ;
+    rdfs:label "BALANCED" ;
+    ex:hasAutomationLevelTier ex:MEDIUM ;
+    ex:usesTestingTool ex:JUNIT5,
+        ex:POSTMAN,
+        ex:TESTCONTAINERS .
+
+ex:GRAFANA a ex:Technology,
+        ex:Tool ;
+    rdfs:label "GRAFANA" ;
+    ex:githubContributors 1800 ;
+    ex:githubStars 65000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-11-03"^^xsd:date ;
+    ex:oftenUsedWith ex:PROMETHEUS .
+
+ex:Project a owl:Class ;
+    rdfs:label "Project" .
+
+ex:AUTOMATION_FIRST a ex:TestingStrategy ;
+    rdfs:label "AUTOMATION_FIRST" ;
+    ex:hasAutomationLevelTier ex:HIGH ;
+    ex:usesTestingTool ex:JUNIT5,
+        ex:K6,
+        ex:MOCKITO,
+        ex:PLAYWRIGHT,
+        ex:TESTCONTAINERS .
+
+ex:HELM a ex:Technology,
+        ex:Tool ;
+    rdfs:label "HELM" ;
+    ex:githubContributors 895 ;
+    ex:githubStars 103702 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-01-28"^^xsd:date ;
+    ex:oftenUsedWith ex:KUBERNETES ;
+    ex:releaseFrequencyPerYear 9.8 .
+
+ex:KAFKA a ex:Technology,
+        ex:Tool ;
+    rdfs:label "KAFKA" ;
+    ex:githubContributors 1200 ;
+    ex:githubStars 28000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-10-25"^^xsd:date ;
+    ex:oftenUsedWith ex:CLICKHOUSE,
+        ex:FLINK,
+        ex:SPRING_BOOT ;
+    ex:supportsScenario ex:FINTECH_CORE,
+        ex:OBSERVABILITY_PLATFORM,
+        ex:STREAM_PROCESSING .
+
+ex:MANAGED_K8S a ex:Deployment ;
+    rdfs:label "MANAGED_K8S" .
+
+ex:Scenario a owl:Class ;
+    rdfs:label "Scenario" .
+
+ex:CLOUD a ex:Deployment ;
+    rdfs:label "CLOUD" .
+
+ex:MOSTLY_MANUAL a ex:TestingStrategy ;
+    rdfs:label "MOSTLY_MANUAL" ;
+    ex:hasAutomationLevelTier ex:LOW ;
+    ex:usesTestingTool ex:POSTMAN .
+
+ex:NGINX a ex:Technology,
+        ex:Tool ;
+    rdfs:label "NGINX" ;
+    ex:githubContributors 1400 ;
+    ex:githubStars 104536 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-05-17"^^xsd:date ;
+    ex:oftenUsedWith ex:DOCKER_CLI ;
+    ex:releaseFrequencyPerYear 16.15 .
+
+ex:JAEGER a ex:Technology,
+        ex:Tool ;
+    rdfs:label "JAEGER" ;
+    ex:githubContributors 3306 ;
+    ex:githubStars 43253 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:LOW ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-09-05"^^xsd:date ;
+    ex:oftenUsedWith ex:OPENTELEMETRY ;
+    ex:releaseFrequencyPerYear 17.04 .
+
+ex:Requirement a owl:Class ;
+    rdfs:label "Requirement" .
+
+ex:Tier a owl:Class ;
+    rdfs:label "Tier" .
+
+ex:OPENTELEMETRY a ex:Technology,
+        ex:Tool ;
+    rdfs:label "OPENTELEMETRY" ;
+    ex:githubContributors 4672 ;
+    ex:githubStars 81176 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-09-27"^^xsd:date ;
+    ex:oftenUsedWith ex:JAEGER ;
+    ex:releaseFrequencyPerYear 7.92 .
+
+ex:TERRAFORM a ex:Technology,
+        ex:Tool ;
+    rdfs:label "TERRAFORM" ;
+    ex:githubContributors 2510 ;
+    ex:githubStars 46330 ;
+    ex:hasCommunitySupportTier ex:MEDIUM ;
+    ex:hasEcosystemRichnessTier ex:MEDIUM ;
+    ex:hasMaturityTier ex:MEDIUM ;
+    ex:hasRuntimePerformanceTier ex:MEDIUM ;
+    ex:lastReleaseDate "2025-04-08"^^xsd:date ;
+    ex:oftenUsedWith ex:AWS,
+        ex:GCP ;
+    ex:releaseFrequencyPerYear 19.87 .
+
+ex:DOCKER_CLI a ex:Technology,
+        ex:Tool ;
+    rdfs:label "DOCKER_CLI" ;
+    ex:githubContributors 2500 ;
+    ex:githubStars 70000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-11-02"^^xsd:date ;
+    ex:oftenUsedWith ex:NGINX .
+
+ex:JAVA a ex:Language,
+        ex:Technology ;
+    rdfs:label "JAVA" ;
+    ex:githubContributors 2000 ;
+    ex:githubStars 50000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-10-01"^^xsd:date .
+
+ex:KUBERNETES a ex:Platform,
+        ex:Technology,
+        ex:Tool ;
+    rdfs:label "KUBERNETES" ;
+    ex:githubContributors 4500 ;
+    ex:githubStars 110000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-11-07"^^xsd:date ;
+    ex:oftenUsedWith ex:ARGO_CD,
+        ex:HELM .
+
+ex:PROMETHEUS a ex:Technology,
+        ex:Tool ;
+    rdfs:label "PROMETHEUS" ;
+    ex:githubContributors 1500 ;
+    ex:githubStars 55000 ;
+    ex:hasCommunitySupportTier ex:HIGH ;
+    ex:hasEcosystemRichnessTier ex:HIGH ;
+    ex:hasMaturityTier ex:HIGH ;
+    ex:hasRuntimePerformanceTier ex:HIGH ;
+    ex:lastReleaseDate "2025-10-30"^^xsd:date ;
+    ex:oftenUsedWith ex:GRAFANA .
+
+ex:LOW_OPS a ex:Requirement ;
+    rdfs:label "LOW_OPS" .
+
+ex:Library a owl:Class ;
+    rdfs:label "Library" ;
+    rdfs:subClassOf ex:Technology .
+
+ex:FAST_DELIVERY a ex:Requirement ;
+    rdfs:label "FAST_DELIVERY" .
+
+ex:Tool a owl:Class ;
+    rdfs:label "Tool" ;
+    rdfs:subClassOf ex:Technology .
+
+ex:Stack a owl:Class ;
+    rdfs:label "Stack" .
+
+ex:LOW a ex:Tier ;
+    rdfs:label "LOW" .
+
+ex:Technology a owl:Class ;
+    rdfs:label "Technology" .
+
+ex:HIGH a ex:Tier ;
+    rdfs:label "HIGH" .
+
+ex:MEDIUM a ex:Tier ;
+    rdfs:label "MEDIUM" .

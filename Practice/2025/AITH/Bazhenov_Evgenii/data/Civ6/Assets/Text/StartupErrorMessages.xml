@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Startup Strings that are required before the startup of the localization system -->
+<StartupErrorMessages>
+	<Entry id="IDTXT_STARTUP_STEAM_IS_REQUIRED">
+		<String lang="en_US">Steam is required to run the game. Please start Steam and try again.</String>
+		<String lang="de_DE">Steam wird zum Ausführen des Spiels benötigt. Bitte starte Steam und versuche es erneut.</String>
+		<String lang="es_ES">Se necesita Steam para lanzar el juego. Por favor inicia Steam e inténtalo de nuevo.</String>
+		<String lang="fr_FR">Steam est nécessaire au lancement du jeu. Veuillez lancer Steam et réessayer.</String>
+		<String lang="it_IT">Steam è necessario per il corretto funzionamento del gioco. Si prega di avviare Steam e ritentare.</String>
+		<String lang="ja_JP">ゲームを起動するにはSteamが必要です。Steamを開始後、もう一度ゲームを起動してください。</String>
+		<String lang="ko_KR">이 게임을 실행하려면 Steam이 필요합니다. Steam을 시작하고 다시 시도해 주십시오.</String>
+		<String lang="pl_PL">Aby uruchomić grę wymagana jest platforma Steam. Uruchom Steam i spróbuj ponownie.</String>
+		<String lang="pt_BR">Steam é necessário para rodar o jogo. Por favor, inicie Steam e tente novamente.</String>
+		<String lang="ru_RU">Приложение Steam необходимо для запуска игры. Пожалуйста, запустите Steam и попробуйте еще раз.</String>
+		<String lang="zh_Hans_CN">需要使用Steam以启动游戏。请启动Steam，再重试。</String>
+		<String lang="zh_Hant_HK">需要使用Steam以啟動遊戲。請啟動Steam，然後重試。</String>
+	</Entry>
+	<Entry id="IDTXT_STARTUP_DISPLAY_DEVICE_FAILED">
+		<String lang="en_US">Display device has failed. Please ensure your display drivers are up to date. Exiting.</String>
+		<String lang="de_DE">Das Anzeigegerät hat einen Fehler erlitten. Bitte stelle sicher, dass deine Anzeigetreiber aktuell sind. Wird beendet.</String>
+		<String lang="es_ES">La tarjeta gráfica ha fallado. Por Favor asegúrate de que los drivers están actualizados. Saliendo del Juego.</String>
+		<String lang="fr_FR">Erreur de la carte graphique. Veuillez vérifier que vos pilotes d'affichage sont à jour. Fermeture en cours.</String>
+		<String lang="it_IT">Errore della scheda video. Accertarsi che i driver dello schermo siano aggiornati. Chiusura in corso.</String>
+		<String lang="ja_JP">グラフィックカードの接続に失敗しました。ディスプレイドライバの更新を確認してください。終了します。</String>
+		<String lang="ko_KR">디스플레이 장치 설정에 실패했습니다. 디스플레이 드라이브가 최신 상태인지 확인하십시오. 종료 중…</String>
+		<String lang="pl_PL">Wystąpił błąd urządzenia wyświetlającego. Upewnij się, że twoje urządzenie posiada najnowsze sterowniki. Gra zostanie zamknięta.</String>
+		<String lang="pt_BR">Falha no dispositivo gráfico. Por favor, assegure-se de que o driver de dispositivo gráfico esteja atualizado. Saindo.</String>
+		<String lang="ru_RU">Ошибка дисплея. Пожалуйста, убедитесь, что драйвер дисплея обновлен до последней версии. Выход.</String>
+		<String lang="zh_Hans_CN">显示装置启用失败。请确保您的显示驱动程序已更至最新。退出中。</String>
+		<String lang="zh_Hant_HK">顯示裝置啟用失敗。請確保您的顯示驅動程式已更至最新。退出中。</String>
+	</Entry>
+	<Entry id="IDTXT_STARTUP_NO_COMPATIBLE_DISPLAY_DEVICE">
+		<String lang="en_US">No compatible graphics device found. Please ensure that your system has a correctly configured, compatible graphics device.</String>
+		<String lang="de_DE">Nicht kompatible Grafikkarte gefunden. Bitte stelle sicher, dass dein System eine korrekt konfigurierte, kompatible Grafikkarte hat.</String>
+		<String lang="es_ES">No se ha encontrado una tarjeta gráfica compatible. Por favor asegúrate de que tu sistema tiene una tarjeta gráfica correctamente configurada y compatible.</String>
+		<String lang="fr_FR">Aucune carte graphique compatible trouvée. Veuillez vous assurer que votre système dispose d'une carte graphique compatible convenablement configurée.</String>
+		<String lang="it_IT">Nessun dispositivo grafico compatibile trovato. Accertarsi che il sistema abbia una scheda grafica compatibile e correttamente configurata.</String>
+		<String lang="ja_JP">互換性のあるグラフィックカードが見つかりません。システムに正確に設定された互換性があるグラフィックカードがあるか確認してください。</String>
+		<String lang="ko_KR">호환 가능한 그래픽 장치가 없습니다. 시스템 환경이 호환 가능한 그래픽 장치와 올바르게 설정되었는지 확인하십시오.</String>
+		<String lang="pl_PL">Brak wykrytego kompatybilnego urządzenia grafiki. Upewnij się, że twój system posiada poprawnie skonfigurowane i kompatybilne urządzenie grafiki.</String>
+		<String lang="pt_BR">Dispositivo gráfico não encontrado. Por favor, assegure-se de que o seu sistema tenha um dispositivo gráfico compatível e corretamente configurado.</String>
+		<String lang="ru_RU">Не найдено соответствующее видеоустройство. Пожалуйста, убедитесь, что видеоустройство вашей системы соответствует необходимым требованиям.</String>
+		<String lang="zh_Hans_CN">未找到可用的图像装置。请确保您的系统已安装正确配置且兼容的图像装置。</String>
+		<String lang="zh_Hant_HK">未找到可兼容的圖形裝置。請確保您的系統已安裝正確設定且兼容的圖形裝置。</String>
+	</Entry>
+	<Entry id="IDTXT_STARTUP_GRAPHICS_SETUP_FAILED">
+		<String lang="en_US">Graphics setup has failed. Please ensure that your system has a correctly configured, compatible graphics device.</String>
+		<String lang="de_DE">Das Grafiksetup ist fehlgeschlagen. Bitte stelle sicher, dass dein System eine korrekt konfigurierte, kompatible Grafikkarte hat.</String>
+		<String lang="es_ES">La configuración gráfica ha fallado. Por favor asegúrate de que tu sistema tiene una tarjeta gráfica correctamente configurada y compatible.</String>
+		<String lang="fr_FR">Erreur des paramètres graphiques. Veuillez vous assurer que votre système dispose d'une carte graphique compatible convenablement configurée.</String>
+		<String lang="it_IT">Setup grafico non riuscito. Accertarsi di avere una scheda grafica compatibile e correttamente configurata.</String>
+		<String lang="ja_JP">グラフィックセットアップに失敗しました。システムに正確に設定された互換性があるグラフィックカードがあるか確認してください。</String>
+		<String lang="ko_KR">그래픽 설정에 실패했습니다. 시스템 환경이 호환 가능한 그래픽 장치와 올바르게 설정되었는지 확인하십시오.</String>
+		<String lang="pl_PL">Wystąpił błąd ustawień grafiki. Upewnij się, że twój system posiada poprawnie skonfigurowane i kompatybilne urządzenie grafiki.</String>
+		<String lang="pt_BR">Falha na instalação do dispositivo gráfico. Por favor, assegure-se de que o seu sistema tenha um dispositivo gráfico compatível e corretamente configurado.</String>
+		<String lang="ru_RU">Установка видеоустройства не удалась. Пожалуйста, убедитесь, что видеоустройство вашей системы соответствует необходимым требованиям.</String>
+		<String lang="zh_Hans_CN">图像装置设置失败。请确保您的系统已安装正确配置且兼容的图像装置。</String>
+		<String lang="zh_Hant_HK">圖形裝置設定失敗。請確保您的系統已安裝正確設定且兼容的圖形裝置。</String>
+	</Entry>
+	<Entry id="IDTXT_STARTUP_SHADER_SETUP_FAILED">
+		<String lang="en_US">Graphics Shader setup has failed. You may need to re-install the game.</String>
+		<String lang="de_DE">Das Setup der Grafikshader ist fehlgeschlagen. Möglicherweise musst du das Spiel erneut installieren.</String>
+		<String lang="es_ES">La configuración del Shader ha fallado. Puede que necesites reinstalar el juego.</String>
+		<String lang="fr_FR">Erreur du nuanceur graphique. Il se peut que vous deviez réinstaller le jeu.</String>
+		<String lang="it_IT">Setup dello Shader grafico non riuscita. Potrebbe essere necessario reinstallare il gioco.</String>
+		<String lang="ja_JP">グラフィックシェーダーセットアップに失敗しました。ゲームの再インストールが必要である可能性があります。</String>
+		<String lang="ko_KR">그래픽 셰이더 설정에 실패했습니다. 게임 재설치가 필요할 수 있습니다.</String>
+		<String lang="pl_PL">Wystąpił błąd ustawienia cieniowania grafiki. Możliwa jest potrzeba ponownego zainstalowania gry.</String>
+		<String lang="pt_BR">Falha na instalação do shader de gráficos. A reinstalação do jogo talvez seja necessária.</String>
+		<String lang="ru_RU">Ошибка графического шейдера. Попробуйте переустановить игру.</String>
+		<String lang="zh_Hans_CN">图像着色器设置失败。建议您重新安装游戏。</String>
+		<String lang="zh_Hant_HK">圖形著色器設定失敗。建議您重新安裝遊戲。</String>
+	</Entry>
+	<Entry id="IDTXT_STARTUP_RESOLUTION_RESET_FAILED">
+		<String lang="en_US">After a failed resolution change the game also failed to change to the old resolution. Exiting.</String>
+		<String lang="de_DE">Nach einer fehlgeschlagenen Auflösungsänderung konnte das Spiel nicht zur vorherigen Auflösung wechseln. Wird beendet.</String>
+		<String lang="es_ES">El cambio de resolución ha fallado y el juego no ha podido volver a la resolución anterior. Saliendo del juego.</String>
+		<String lang="fr_FR">Suite à un échec de changement de résolution, le jeu a également échoué à revenir à la résolution précédente. Fermeture en cours.</String>
+		<String lang="it_IT">Dopo un tentativo di cambio di risoluzione non riuscito, non è stato possibile riportare le opzioni di gioco alla configurazione iniziale. Chiusura in corso.</String>
+		<String lang="ja_JP">解像度変更に失敗した後、ゲームは元の解像度に変更する事に失敗しました。終了します。</String>
+		<String lang="ko_KR">해상도 변경이 실패했으며, 이전 게임 해상도로의 복원 또한 실패했습니다. 종료 중…</String>
+		<String lang="pl_PL">Po nieudanej zmianie rozdzielczości nastąpiła nieudana próba przywrócenia poprzedniego ustawienia. Gra zostanie zamknięta.</String>
+		<String lang="pt_BR">Após uma falha na mudança de resolução, o jogo também não pôde retornar à antiga resolução. Saindo.</String>
+		<String lang="ru_RU">Игра не смогла восстановить прежнее разрешенеие после неудачной попытки сменить разрешение. Выход.</String>
+		<String lang="zh_Hans_CN">分辨率更改失败导致游戏退回旧分辨率失败。退出中。</String>
+		<String lang="zh_Hant_HK">解析度更改失敗導致遊戲退回舊解析度失敗。退出中。</String>
+	</Entry>
+	<Entry id="IDTXT_STARTUP_EPIC_IS_REQUIRED">
+		<String lang="en_US">Epic Games Launcher is required to run the game. Please start Epic Games Launcher and try again.</String>
+		<String lang="de_DE">Epic Games Launcher wird zum Ausführen des Spiels benötigt. Bitte starte Epic Games Launcher und versuche es erneut.</String>
+		<String lang="es_ES">Se necesita Epic Games Launcher para lanzar el juego. Por favor inicia Epic Games Launcher e inténtalo de nuevo.</String>
+		<String lang="fr_FR">Epic Games Launcher est nécessaire au lancement du jeu. Veuillez lancer Epic Games Launcher et réessayer.</String>
+		<String lang="it_IT">Epic Games Launcher è necessario per il corretto funzionamento del gioco. Si prega di avviare Epic Games Launcher e ritentare.</String>
+		<String lang="ja_JP">ゲームを起動するにはEpic Games Launcherが必要です。Epic Games Launcherを開始後、もう一度ゲームを起動してください。</String>
+		<String lang="ko_KR">이 게임을 실행하려면 Epic Games Launcher이 필요합니다. Epic Games Launcher을 시작하고 다시 시도해 주십시오.</String>
+		<String lang="pl_PL">Aby uruchomić grę wymagana jest platforma Epic Games Launcher. Uruchom Epic Games Launcher i spróbuj ponownie.</String>
+		<String lang="pt_BR">Epic Games Launcher é necessário para rodar o jogo. Por favor, inicie Epic Games Launcher e tente novamente.</String>
+		<String lang="ru_RU">Приложение Epic Games Launcher необходимо для запуска игры. Пожалуйста, запустите Epic Games Launcher и попробуйте еще раз.</String>
+		<String lang="zh_Hans_CN">需要使用Epic Games Launcher以启动游戏。请启动Epic Games Launcher，再重试。</String>
+		<String lang="zh_Hant_HK">需要使用Epic Games Launcher以啟動遊戲。請啟動Epic Games Launcher，然後重試。</String>
+	</Entry>
+</StartupErrorMessages>

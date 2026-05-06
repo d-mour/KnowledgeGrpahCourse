@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_SCORING_CATEGORY"/>
+		<Row Kind="KIND_SCORING_LINE_ITEM"/>
+	</Kinds>
+	<Types>
+		<Row Type="SCORING_CIVICS" Kind="KIND_SCORING_CATEGORY"/>
+		<Row Type="SCORING_EMPIRE" Kind="KIND_SCORING_CATEGORY"/>
+		<Row Type="SCORING_GREAT_PEOPLE" Kind="KIND_SCORING_CATEGORY"/>
+		<Row Type="SCORING_MILITARY" Kind="KIND_SCORING_CATEGORY"/>
+		<Row Type="SCORING_PILLAGE" Kind="KIND_SCORING_CATEGORY"/>
+		<Row Type="SCORING_RELIGION" Kind="KIND_SCORING_CATEGORY"/>
+		<Row Type="SCORING_TECH" Kind="KIND_SCORING_CATEGORY"/>
+		<Row Type="SCORING_TRADE" Kind="KIND_SCORING_CATEGORY"/>
+		<Row Type="SCORING_SCENARIO1" Kind="KIND_SCORING_CATEGORY"/>
+		<Row Type="SCORING_SCENARIO2" Kind="KIND_SCORING_CATEGORY"/>
+		<Row Type="SCORING_SCENARIO3" Kind="KIND_SCORING_CATEGORY"/>
+		<Row Type="SCORING_WONDER" Kind="KIND_SCORING_CATEGORY"/>
+		<Row Type="LINE_ITEM_CIVICS" Kind="KIND_SCORING_LINE_ITEM"/>
+		<Row Type="LINE_ITEM_CITIES" Kind="KIND_SCORING_LINE_ITEM"/>
+		<Row Type="LINE_ITEM_DISTRICTS" Kind="KIND_SCORING_LINE_ITEM"/>
+		<Row Type="LINE_ITEM_POPULATION" Kind="KIND_SCORING_LINE_ITEM"/>
+		<Row Type="LINE_ITEM_GREAT_PEOPLE" Kind="KIND_SCORING_LINE_ITEM"/>
+		<Row Type="LINE_ITEM_TECHS" Kind="KIND_SCORING_LINE_ITEM"/>
+		<Row Type="LINE_ITEM_WONDERS" Kind="KIND_SCORING_LINE_ITEM"/>
+		<!--Only used for scenarios so far-->
+		<Row Type="LINE_ITEM_TRADE" Kind="KIND_SCORING_LINE_ITEM"/>
+		<Row Type="LINE_ITEM_PILLAGE" Kind="KIND_SCORING_LINE_ITEM"/>
+	</Types>
+	<ScoringCategories>
+		<Row CategoryType="CATEGORY_CIVICS" Name="LOC_CATEGORY_CIVICS_NAME" Multiplier="1"/>
+		<Row CategoryType="CATEGORY_EMPIRE" Name="LOC_CATEGORY_EMPIRE_NAME" Multiplier="1"/>
+		<Row CategoryType="CATEGORY_GREAT_PEOPLE" Name="LOC_CATEGORY_GREAT_PEOPLE_NAME" Multiplier="1"/>
+		<Row CategoryType="CATEGORY_RELIGION" Name="LOC_CATEGORY_RELIGION_NAME" Multiplier="1"/>
+		<Row CategoryType="CATEGORY_TECH" Name="LOC_CATEGORY_TECH_NAME" Multiplier="1"/>
+		<Row CategoryType="CATEGORY_WONDER" Name="LOC_CATEGORY_WONDER_NAME" Multiplier="1"/>
+		<!--Only used for scenarios so far-->
+		<Row CategoryType="CATEGORY_TRADE" Name="LOC_CATEGORY_TRADE_NAME" Multiplier="0"/>
+		<Row CategoryType="CATEGORY_PILLAGE" Name="LOC_CATEGORY_PILLAGE_NAME" Multiplier="0"/>
+		<Row CategoryType="CATEGORY_INCOME" Name="LOC_CATEGORY_INCOME_NAME" Multiplier="0"/>
+		<Row CategoryType="CATEGORY_SCENARIO1" Name="LOC_CATEGORY_SCENARIO1_NAME" Multiplier="0"/>
+		<Row CategoryType="CATEGORY_SCENARIO2" Name="LOC_CATEGORY_SCENARIO2_NAME" Multiplier="0"/>
+		<Row CategoryType="CATEGORY_SCENARIO3" Name="LOC_CATEGORY_SCENARIO3_NAME" Multiplier="0"/>
+	</ScoringCategories>
+	<ScoringLineItems>
+		<Row LineItemType="LINE_ITEM_CIVICS" Name="LOC_LINE_ITEM_CIVICS_NAME" Category="CATEGORY_CIVICS" Multiplier="2" ScaleByCost="true" Civics="true" TieBreakerPriority="100"/>
+		<Row LineItemType="LINE_ITEM_CITIES" Name="LOC_LINE_ITEM_CITIES_NAME" Category="CATEGORY_EMPIRE" Multiplier="5" Cities="true" TieBreakerPriority="90"/>
+		<Row LineItemType="LINE_ITEM_DISTRICTS" Name="LOC_LINE_ITEM_DISTRICTS_NAME" Category="CATEGORY_EMPIRE" Multiplier="3" Districts="true" TieBreakerPriority="80"/>
+		<Row LineItemType="LINE_ITEM_POPULATION" Name="LOC_LINE_ITEM_POPULATION_NAME" Category="CATEGORY_EMPIRE" Multiplier="1" Population="true" TieBreakerPriority="70"/>
+		<Row LineItemType="LINE_ITEM_GREAT_PEOPLE" Name="LOC_LINE_ITEM_GREAT_PEOPLE_NAME" Category="CATEGORY_GREAT_PEOPLE" Multiplier="3" GreatPeople="true" TieBreakerPriority="60"/>
+		<Row LineItemType="LINE_ITEM_RELIGION" Name="LOC_LINE_ITEM_RELIGION_NAME" Category="CATEGORY_RELIGION" Multiplier="2" Religion="true" TieBreakerPriority="50"/>
+		<Row LineItemType="LINE_ITEM_TECHS" Name="LOC_LINE_ITEM_TECHS_NAME" Category="CATEGORY_TECH" Multiplier="2" ScaleByCost="true" Techs="true" TieBreakerPriority="40"/>
+		<Row LineItemType="LINE_ITEM_WONDERS" Name="LOC_LINE_ITEM_WONDERS_NAME" Category="CATEGORY_WONDER" Multiplier="5" ScaleByCost="true" Wonders="true" TieBreakerPriority="30"/>
+	</ScoringLineItems>
+</GameInfo>

@@ -1,0 +1,223 @@
+@prefix ann: <https://schema.org/annotation/> .
+@prefix audio: <https://schema.org/audio/> .
+@prefix game: <https://schema.org/game/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix stats: <https://schema.org/stats/> .
+@prefix text: <https://schema.org/text/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ann:Annotation a rdfs:Class .
+
+audio:AudioSegment a rdfs:Class .
+
+audio:SpectralFeatures a rdfs:Class .
+
+game:PlayerChoice a rdfs:Class .
+
+stats:AltChoice a rdfs:Class .
+
+text:DependencyRelation a rdfs:Class .
+
+text:Entity a rdfs:Class .
+
+text:ViewerComment a rdfs:Class .
+
+ann:anno1 a ann:Annotation ;
+    ann:annotationId "1.0" ;
+    ann:eventType "moral_choice" ;
+    ann:gameId "Mass Effect 3" ;
+    ann:hasAudioSegment ann:audioSegment1 ;
+    ann:hasPlayerChoice ann:playerChoice1 ;
+    ann:hasViewerComment ann:comment1 .
+
+ann:annotationId a rdf:Property ;
+    rdfs:range "string" .
+
+ann:annotationTimestamp a rdf:Property ;
+    rdfs:range "datetime" .
+
+ann:annotationVersion a rdf:Property ;
+    rdfs:range "int" .
+
+ann:annotatorId a rdf:Property ;
+    rdfs:range "string" .
+
+ann:choiceDescription a rdf:Property ;
+    rdfs:range "string" .
+
+ann:consequenceType a rdf:Property ;
+    rdfs:range "string" .
+
+ann:contextDescription a rdf:Property ;
+    rdfs:range "string" .
+
+ann:eventId a rdf:Property ;
+    rdfs:range "string" .
+
+ann:eventType a rdf:Property ;
+    rdfs:range "string" .
+
+ann:gameId a rdf:Property ;
+    rdfs:range "string" .
+
+ann:hasAudioSegment a rdf:Property ;
+    rdfs:range "https://schema.org/audio/AudioSegment" .
+
+ann:hasPlayerChoice a rdf:Property ;
+    rdfs:range "https://schema.org/game/PlayerChoice" .
+
+ann:hasViewerComment a rdf:Property ;
+    rdfs:range "https://schema.org/text/ViewerComment" .
+
+audio:audioEmotion a rdf:Property ;
+    rdfs:range "string" .
+
+audio:chromaFeatures a rdf:Property ;
+    rdfs:range "float[]" .
+
+audio:endTime a rdf:Property ;
+    rdfs:range "float" .
+
+audio:hasDependency a rdf:Property ;
+    rdfs:range "https://schema.org/text/DependencyRelation" .
+
+audio:hasEntity a rdf:Property ;
+    rdfs:range "https://schema.org/text/Entity" .
+
+audio:hasSpectralFeatures a rdf:Property ;
+    rdfs:range "https://schema.org/audio/SpectralFeatures" .
+
+audio:melEnergy a rdf:Property ;
+    rdfs:range "float[]" .
+
+audio:mfccFeatures a rdf:Property ;
+    rdfs:range "float[]" .
+
+audio:reactionIntensity a rdf:Property ;
+    rdfs:range "int" .
+
+audio:segmentId a rdf:Property ;
+    rdfs:range "string" .
+
+audio:sentiment a rdf:Property ;
+    rdfs:range "string" .
+
+audio:speakerId a rdf:Property ;
+    rdfs:range "string" .
+
+audio:spectralBandwidth a rdf:Property ;
+    rdfs:range "float" .
+
+audio:spectralCentroid a rdf:Property ;
+    rdfs:range "float" .
+
+audio:spectralRolloff a rdf:Property ;
+    rdfs:range "float" .
+
+audio:startTime a rdf:Property ;
+    rdfs:range "float" .
+
+audio:tokens a rdf:Property ;
+    rdfs:range "string[]" .
+
+audio:transcriptText a rdf:Property ;
+    rdfs:range "string" .
+
+audio:zeroCrossingRate a rdf:Property ;
+    rdfs:range "float" .
+
+game:choiceRank a rdf:Property ;
+    rdfs:range "int" .
+
+game:dataSource a rdf:Property ;
+    rdfs:range "url" .
+
+game:globalChoiceRate a rdf:Property ;
+    rdfs:range "float" .
+
+game:hasAltChoice a rdf:Property ;
+    rdfs:range "https://schema.org/stats/AltChoice" .
+
+game:selectedChoiceDesc a rdf:Property ;
+    rdfs:range "string" .
+
+game:selectedChoiceRate a rdf:Property ;
+    rdfs:range "float" .
+
+game:totalResponses a rdf:Property ;
+    rdfs:range "int" .
+
+stats:altChoiceDesc a rdf:Property ;
+    rdfs:range "string" .
+
+stats:altChoiceRate a rdf:Property ;
+    rdfs:range "float" .
+
+text:commentId a rdf:Property ;
+    rdfs:range "string" .
+
+text:commentSentiment a rdf:Property ;
+    rdfs:range "string" .
+
+text:commentText a rdf:Property ;
+    rdfs:range "string" .
+
+text:commentTimestamp a rdf:Property ;
+    rdfs:range "datetime" .
+
+text:commentTokens a rdf:Property ;
+    rdfs:range "string[]" .
+
+text:endToken a rdf:Property ;
+    rdfs:range "int" .
+
+text:entityText a rdf:Property ;
+    rdfs:range "string" .
+
+text:entityType a rdf:Property ;
+    rdfs:range "string" .
+
+text:hasDependency a rdf:Property ;
+    rdfs:range "https://schema.org/text/DependencyRelation" .
+
+text:hasEntity a rdf:Property ;
+    rdfs:range "https://schema.org/text/Entity" .
+
+text:kbLink a rdf:Property ;
+    rdfs:range "url" .
+
+text:startToken a rdf:Property ;
+    rdfs:range "int" .
+
+text:upvoteCount a rdf:Property ;
+    rdfs:range "int" .
+
+ann:audioSegment1 a audio:AudioSegment ;
+    audio:audioEmotion "sadness" ;
+    audio:hasSpectralFeatures audio:spectral1 ;
+    audio:reactionIntensity 3 ;
+    audio:transcriptText "He is going to be fine" .
+
+ann:comment1 a text:ViewerComment ;
+    text:commentText "Glad you got the chance to experience such a heart felt moment with Mordin" ;
+    text:hasEntity text:entity1 .
+
+ann:playerChoice1 a game:PlayerChoice ;
+    game:hasAltChoice stats:altChoice1 ;
+    game:selectedChoiceDesc "The krogan cure will be spread, Mordin Solus sacrifices himself" ;
+    game:selectedChoiceRate 9.6e-01 .
+
+audio:spectral1 a audio:SpectralFeatures ;
+    audio:spectralCentroid 4.502e+02 ;
+    audio:zeroCrossingRate 8e-02 .
+
+stats:altChoice1 a stats:AltChoice ;
+    stats:altChoiceDesc "Sabotage the cure, save Mordin Solus" ;
+    stats:altChoiceRate 4e-01 .
+
+text:entity1 a text:Entity ;
+    text:entityText "Mordin" ;
+    text:entityType "character" ;
+    text:kbLink "https://dbpedia.org/page/Mordin_Solus" .
+

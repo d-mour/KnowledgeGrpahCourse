@@ -1,0 +1,17 @@
+# Какие команды персонажей подходят для сражения
+# с боссом «The Knave»? (покрывают все уязвимости босса)
+
+PREFIX ex:  <http://example.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT ?team ?teamName ?charName ?elementName
+WHERE {
+    ex:the_knave ex:Vulnerable_to ?vElement .
+    ?team rdf:type ex:Team ;
+    ex:name ?teamName ;
+    ex:member ?char .
+    ?char rdf:type ex:Character ;
+    ex:name ?charName ;
+    ex:Character_Element ?vElement .
+    BIND(STRAFTER(STR(?vElement), "/ontology/") AS ?elementName)
+}
+ORDER BY ?teamName ?charName

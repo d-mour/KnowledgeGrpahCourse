@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_BARBARIAN_TRIBE"/>
+	</Kinds>
+	<Types>
+		<!-- Naval -->
+		<Row Type="BARBARIAN_NAVAL_1" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_NAVAL_2" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_NAVAL_3" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_NAVAL_4" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_NAVAL_5" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_NAVAL_6" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_NAVAL_7" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_NAVAL_8" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_NAVAL_9" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_NAVAL_10" Kind="KIND_BARBARIAN_TRIBE"/>
+		<!-- Cavalry -->
+		<Row Type="BARBARIAN_CAVALRY_1" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_CAVALRY_2" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_CAVALRY_3" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_CAVALRY_4" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_CAVALRY_5" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_CAVALRY_6" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_CAVALRY_7" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_CAVALRY_8" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_CAVALRY_9" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_CAVALRY_10" Kind="KIND_BARBARIAN_TRIBE"/>
+		<!-- Melee -->
+		<Row Type="BARBARIAN_MELEE_1" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_MELEE_2" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_MELEE_3" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_MELEE_4" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_MELEE_5" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_MELEE_6" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_MELEE_7" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_MELEE_8" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_MELEE_9" Kind="KIND_BARBARIAN_TRIBE"/>
+		<Row Type="BARBARIAN_MELEE_10" Kind="KIND_BARBARIAN_TRIBE"/>
+	</Types>
+	<BarbarianTribes>
+		<Row TribeType="TRIBE_NAVAL" IsCoastal="true" PercentRangedUnits="25" TurnsToWarriorSpawn="10" ScoutTag="CLASS_NAVAL_MELEE" MeleeTag="CLASS_NAVAL_MELEE" RangedTag="CLASS_NAVAL_RANGED" SiegeTag="CLASS_NAVAL_RANGED" DefenderTag="CLASS_ANTI_CAVALRY" ScoutingBehaviorTree="Barbarian Found City" RaidingBehaviorTree="Barbarian Attack" RaidingBoldness="10" CityAttackOperation="Barbarian City Assault" CityAttackBoldness="25"/>
+		<Row TribeType="TRIBE_CAVALRY" RequiredResource="RESOURCE_HORSES" ResourceRange="3" PercentRangedUnits="25" TurnsToWarriorSpawn="25" ScoutTag="CLASS_RECON" MeleeTag="CLASS_LIGHT_CAVALRY" RangedTag="CLASS_MOBILE_RANGED" SiegeTag="CLASS_HEAVY_CAVALRY" DefenderTag="CLASS_ANTI_CAVALRY" ScoutingBehaviorTree="Barbarian Found City" RaidingBehaviorTree="Barbarian Attack" RaidingBoldness="10" CityAttackOperation="Barbarian City Assault" CityAttackBoldness="25"/>
+		<Row TribeType="TRIBE_MELEE" PercentRangedUnits="25" TurnsToWarriorSpawn="15" ScoutTag="CLASS_RECON" MeleeTag="CLASS_MELEE" RangedTag="CLASS_RANGED" SiegeTag="CLASS_SIEGE" DefenderTag="CLASS_ANTI_CAVALRY" SupportTag="CLASS_BATTERING_RAM" ScoutingBehaviorTree="Barbarian Found City" RaidingBehaviorTree="Barbarian Attack" RaidingBoldness="10" CityAttackOperation="Barbarian City Assault" CityAttackBoldness="25"/>
+	</BarbarianTribes>
+	<BarbarianTribeNames>
+		<Row TribeNameType="BARBARIAN_NAVAL_1" TribeType="TRIBE_NAVAL" TribeDisplayName="LOC_BARBARIAN_NAVAL_1"/>
+		<Row TribeNameType="BARBARIAN_NAVAL_2" TribeType="TRIBE_NAVAL" TribeDisplayName="LOC_BARBARIAN_NAVAL_2" PercentRangedUnits="100"/>
+		<Row TribeNameType="BARBARIAN_NAVAL_3" TribeType="TRIBE_NAVAL" TribeDisplayName="LOC_BARBARIAN_NAVAL_3" RaidingBoldness="100"/>
+		<Row TribeNameType="BARBARIAN_NAVAL_4" TribeType="TRIBE_NAVAL" TribeDisplayName="LOC_BARBARIAN_NAVAL_4"/>
+		<Row TribeNameType="BARBARIAN_NAVAL_5" TribeType="TRIBE_NAVAL" TribeDisplayName="LOC_BARBARIAN_NAVAL_5"/>
+		<Row TribeNameType="BARBARIAN_NAVAL_6" TribeType="TRIBE_NAVAL" TribeDisplayName="LOC_BARBARIAN_NAVAL_6"/>
+		<Row TribeNameType="BARBARIAN_NAVAL_7" TribeType="TRIBE_NAVAL" TribeDisplayName="LOC_BARBARIAN_NAVAL_7"/>
+		<Row TribeNameType="BARBARIAN_NAVAL_8" TribeType="TRIBE_NAVAL" TribeDisplayName="LOC_BARBARIAN_NAVAL_8"/>
+		<Row TribeNameType="BARBARIAN_NAVAL_9" TribeType="TRIBE_NAVAL" TribeDisplayName="LOC_BARBARIAN_NAVAL_9"/>
+		<Row TribeNameType="BARBARIAN_NAVAL_10" TribeType="TRIBE_NAVAL" TribeDisplayName="LOC_BARBARIAN_NAVAL_10"/>
+		<Row TribeNameType="BARBARIAN_CAVALRY_1" TribeType="TRIBE_CAVALRY" TribeDisplayName="LOC_BARBARIAN_CAVALRY_1"/>
+		<Row TribeNameType="BARBARIAN_CAVALRY_2" TribeType="TRIBE_CAVALRY" TribeDisplayName="LOC_BARBARIAN_CAVALRY_2"/>
+		<Row TribeNameType="BARBARIAN_CAVALRY_3" TribeType="TRIBE_CAVALRY" TribeDisplayName="LOC_BARBARIAN_CAVALRY_3"/>
+		<Row TribeNameType="BARBARIAN_CAVALRY_4" TribeType="TRIBE_CAVALRY" TribeDisplayName="LOC_BARBARIAN_CAVALRY_4"/>
+		<Row TribeNameType="BARBARIAN_CAVALRY_5" TribeType="TRIBE_CAVALRY" TribeDisplayName="LOC_BARBARIAN_CAVALRY_5"/>
+		<Row TribeNameType="BARBARIAN_CAVALRY_6" TribeType="TRIBE_CAVALRY" TribeDisplayName="LOC_BARBARIAN_CAVALRY_6"/>
+		<Row TribeNameType="BARBARIAN_CAVALRY_7" TribeType="TRIBE_CAVALRY" TribeDisplayName="LOC_BARBARIAN_CAVALRY_7"/>
+		<Row TribeNameType="BARBARIAN_CAVALRY_8" TribeType="TRIBE_CAVALRY" TribeDisplayName="LOC_BARBARIAN_CAVALRY_8"/>
+		<Row TribeNameType="BARBARIAN_CAVALRY_9" TribeType="TRIBE_CAVALRY" TribeDisplayName="LOC_BARBARIAN_CAVALRY_9"/>
+		<Row TribeNameType="BARBARIAN_CAVALRY_10" TribeType="TRIBE_CAVALRY" TribeDisplayName="LOC_BARBARIAN_CAVALRY_10"/>
+		<Row TribeNameType="LOC_BARBARIAN_MELEE_1" TribeType="TRIBE_MELEE" TribeDisplayName="LOC_BARBARIAN_MELEE_1"/>
+		<Row TribeNameType="LOC_BARBARIAN_MELEE_2" TribeType="TRIBE_MELEE" TribeDisplayName="LOC_BARBARIAN_MELEE_2"/>
+		<Row TribeNameType="LOC_BARBARIAN_MELEE_3" TribeType="TRIBE_MELEE" TribeDisplayName="LOC_BARBARIAN_MELEE_3"/>
+		<Row TribeNameType="LOC_BARBARIAN_MELEE_4" TribeType="TRIBE_MELEE" TribeDisplayName="LOC_BARBARIAN_MELEE_4"/>
+		<Row TribeNameType="LOC_BARBARIAN_MELEE_5" TribeType="TRIBE_MELEE" TribeDisplayName="LOC_BARBARIAN_MELEE_5"/>
+		<Row TribeNameType="LOC_BARBARIAN_MELEE_6" TribeType="TRIBE_MELEE" TribeDisplayName="LOC_BARBARIAN_MELEE_6"/>
+		<Row TribeNameType="LOC_BARBARIAN_MELEE_7" TribeType="TRIBE_MELEE" TribeDisplayName="LOC_BARBARIAN_MELEE_7"/>
+		<Row TribeNameType="LOC_BARBARIAN_MELEE_8" TribeType="TRIBE_MELEE" TribeDisplayName="LOC_BARBARIAN_MELEE_8"/>
+		<Row TribeNameType="LOC_BARBARIAN_MELEE_9" TribeType="TRIBE_MELEE" TribeDisplayName="LOC_BARBARIAN_MELEE_9"/>
+		<Row TribeNameType="LOC_BARBARIAN_MELEE_10" TribeType="TRIBE_MELEE" TribeDisplayName="LOC_BARBARIAN_MELEE_10"/>
+	</BarbarianTribeNames>
+	<BarbarianAttackForces>
+		<Row AttackForceType="LowDifficultyStandardRaid" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="2" MeleeTag="CLASS_MELEE" NumMeleeUnits="1" RaidingForce="true"/>
+		<Row AttackForceType="StandardRaid" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="2" MeleeTag="CLASS_MELEE" NumMeleeUnits="2" RangeTag="CLASS_RANGED" NumRangeUnits="1" RaidingForce="true"/>
+		<Row AttackForceType="HighDifficultyStandardRaid" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="1" MeleeTag="CLASS_MELEE" NumMeleeUnits="3" RangeTag="CLASS_RANGED" NumRangeUnits="2" RaidingForce="true"/>
+		<Row AttackForceType="LowDifficultyStandardAttack" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="2" MeleeTag="CLASS_MELEE" NumMeleeUnits="2" RangeTag="CLASS_RANGED" NumRangeUnits="1" SiegeTag="CLASS_SIEGE" NumSiegeUnits="1"/>
+		<Row AttackForceType="StandardAttack" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="2" MeleeTag="CLASS_MELEE" NumMeleeUnits="3" RangeTag="CLASS_RANGED" NumRangeUnits="2" SiegeTag="CLASS_SIEGE" NumSiegeUnits="1" SupportTag="CLASS_BATTERING_RAM" NumSupportUnits="1"/>
+		<Row AttackForceType="HighDifficultyStandardAttack" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="1" MeleeTag="CLASS_MELEE" NumMeleeUnits="4" RangeTag="CLASS_RANGED" NumRangeUnits="3" SiegeTag="CLASS_SIEGE" NumSiegeUnits="2" SupportTag="CLASS_BATTERING_RAM" NumSupportUnits="1"/>
+		<Row AttackForceType="LowDifficultyCavalryRaid" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="2" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="1" RaidingForce="true"/>
+		<Row AttackForceType="CavalryRaid" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="2" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="2" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="1" RaidingForce="true"/>
+		<Row AttackForceType="HighDifficultyCavalryRaid" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="1" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="3" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="2" RaidingForce="true"/>
+		<Row AttackForceType="LowDifficultyCavalryAttack" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="2" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="2" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="1" SiegeTag="CLASS_HEAVY_CAVALRY" NumSiegeUnits="1"/>
+		<Row AttackForceType="CavalryAttack" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="2" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="3" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="2" SiegeTag="CLASS_HEAVY_CAVALRY" NumSiegeUnits="1"/>
+		<Row AttackForceType="HighDifficultyCavalryAttack" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="1" MeleeTag="CLASS_LIGHT_CAVALRY" NumMeleeUnits="4" RangeTag="CLASS_MOBILE_RANGED" NumRangeUnits="3" SiegeTag="CLASS_HEAVY_CAVALRY" NumSiegeUnits="2"/>
+		<Row AttackForceType="LowDifficultyNavalRaid" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="2" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="1" RaidingForce="true"/>
+		<Row AttackForceType="NavalRaid" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="2" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="2" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="1" RaidingForce="true"/>
+		<Row AttackForceType="HighDifficultyNavalRaid" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="1" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="3" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2" RaidingForce="true"/>
+		<Row AttackForceType="LowDifficultyNavalAttack" MaxTargetDifficulty="DIFFICULTY_CHIEFTAIN" SpawnRate="2" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="2" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="1" SiegeTag="CLASS_NAVAL_RANGED" NumSiegeUnits="1"/>
+		<Row AttackForceType="NavalAttack" MinTargetDifficulty="DIFFICULTY_WARLORD" MaxTargetDifficulty="DIFFICULTY_EMPEROR" SpawnRate="2" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="3" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="2" SiegeTag="CLASS_NAVAL_RANGED" NumSiegeUnits="1"/>
+		<Row AttackForceType="HighDifficultyNavalAttack" MinTargetDifficulty="DIFFICULTY_IMMORTAL" SpawnRate="1" MeleeTag="CLASS_NAVAL_MELEE" NumMeleeUnits="4" RangeTag="CLASS_NAVAL_RANGED" NumRangeUnits="3" SiegeTag="CLASS_NAVAL_RANGED" NumSiegeUnits="2"/>
+	</BarbarianAttackForces>
+	<BarbarianTribeForces>
+		<Row AttackForceType="LowDifficultyStandardRaid" TribeType="TRIBE_MELEE"/>
+		<Row AttackForceType="StandardRaid" TribeType="TRIBE_MELEE"/>
+		<Row AttackForceType="HighDifficultyStandardRaid" TribeType="TRIBE_MELEE"/>
+		<Row AttackForceType="LowDifficultyStandardAttack" TribeType="TRIBE_MELEE"/>
+		<Row AttackForceType="StandardAttack" TribeType="TRIBE_MELEE"/>
+		<Row AttackForceType="HighDifficultyStandardAttack" TribeType="TRIBE_MELEE"/>
+		<Row AttackForceType="LowDifficultyCavalryRaid" TribeType="TRIBE_CAVALRY"/>
+		<Row AttackForceType="CavalryRaid" TribeType="TRIBE_CAVALRY"/>
+		<Row AttackForceType="HighDifficultyCavalryRaid" TribeType="TRIBE_CAVALRY"/>
+		<Row AttackForceType="LowDifficultyCavalryAttack" TribeType="TRIBE_CAVALRY"/>
+		<Row AttackForceType="CavalryAttack" TribeType="TRIBE_CAVALRY"/>
+		<Row AttackForceType="HighDifficultyCavalryAttack" TribeType="TRIBE_CAVALRY"/>
+		<Row AttackForceType="LowDifficultyNavalRaid" TribeType="TRIBE_NAVAL"/>
+		<Row AttackForceType="NavalRaid" TribeType="TRIBE_NAVAL"/>
+		<Row AttackForceType="HighDifficultyNavalRaid" TribeType="TRIBE_NAVAL"/>
+		<Row AttackForceType="LowDifficultyNavalAttack" TribeType="TRIBE_NAVAL"/>
+		<Row AttackForceType="NavalAttack" TribeType="TRIBE_NAVAL"/>
+		<Row AttackForceType="HighDifficultyNavalAttack" TribeType="TRIBE_NAVAL"/>
+	</BarbarianTribeForces>
+</GameInfo>

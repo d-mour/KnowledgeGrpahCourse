@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+	<Eras>
+		<Row EraType="ERA_ANCIENT" Name="LOC_ERA_ANCIENT_NAME" Description="LOC_ERA_ANCIENT_DESCRIPTION" SortIndex="10" />
+		<Row EraType="ERA_CLASSICAL" Name="LOC_ERA_CLASSICAL_NAME" Description="LOC_ERA_CLASSICAL_DESCRIPTION" SortIndex="20" />
+		<Row EraType="ERA_MEDIEVAL" Name="LOC_ERA_MEDIEVAL_NAME" Description="LOC_ERA_MEDIEVAL_DESCRIPTION" SortIndex="30" />
+		<Row EraType="ERA_RENAISSANCE" Name="LOC_ERA_RENAISSANCE_NAME" Description="LOC_ERA_RENAISSANCE_DESCRIPTION" SortIndex="40" />
+		<Row EraType="ERA_INDUSTRIAL" Name="LOC_ERA_INDUSTRIAL_NAME" Description="LOC_ERA_INDUSTRIAL_DESCRIPTION" SortIndex="50" />
+		<Row EraType="ERA_MODERN" Name="LOC_ERA_MODERN_NAME" Description="LOC_ERA_MODERN_DESCRIPTION" SortIndex="60" />
+		<Row EraType="ERA_ATOMIC" Name="LOC_ERA_ATOMIC_NAME" Description="LOC_ERA_ATOMIC_DESCRIPTION" SortIndex="70" />
+		<Row EraType="ERA_INFORMATION" Name="LOC_ERA_INFORMATION_NAME" Description="LOC_ERA_INFORMATION_DESCRIPTION" SortIndex="80" />	
+	</Eras>
+</GameInfo>

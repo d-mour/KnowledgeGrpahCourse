@@ -1,0 +1,796 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3/"
+     xml:base="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#actionTarget -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#actionTarget">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#action"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#block"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#item"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#hasDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#hasDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#block"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#entity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#event"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#item"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#location"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#time"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#textDescription"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#hasEmotion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#hasEmotion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#player"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#emotion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#hasInventory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#hasInventory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#player"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#inventory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#hasSound -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#hasSound">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#entity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#event"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#item"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#sound"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#hasView -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#hasView">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#block"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#entity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#event"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#item"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#view"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#spawnLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#spawnLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#spawnTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#spawnTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#entity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#coordinates -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#coordinates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#view"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#filepath -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#filepath">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#emotion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#sound"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#textDescription"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#view"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#health -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#health">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#entity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#text -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#text">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#textDescription"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#timeEnd -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#timeEnd">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#emotion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#sound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#timeStart -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#timeStart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#emotion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#sound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#anger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#anger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#art -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#art">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#decorative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#bed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#bed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#interactive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#block -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#block"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#bread -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#bread">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#cat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#cat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#neutral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#cave -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#cave">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#nature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#chest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#chest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#interactive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#chicken -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#chicken">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#neutral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#confusion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#confusion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#cow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#cow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#neutral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#craftingTable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#craftingTable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#interactive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#day -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#day">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#decorative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#decorative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#block"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#desert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#desert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#nature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#diamondOre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#diamondOre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#ore"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#diamond_pickaxe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#diamond_pickaxe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#emotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#emotion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#fear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#fear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#item"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#forest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#forest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#nature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#friedChicken -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#friedChicken">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#goldOre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#goldOre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#ore"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#happy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#happy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#healthBar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#healthBar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#hit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#hit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#house -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#house">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#interactive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#interactive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#block"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#inventory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#inventory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#ironIngot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#ironIngot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#ironOre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#ironOre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#ore"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#iron_pickaxe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#iron_pickaxe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#item -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#item"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#kill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#kill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#lava -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#lava">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#liquid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#liquid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#liquid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#block"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#mountain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#mountain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#nature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#nature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#nature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#negative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#negative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#neutral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#neutral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#neutralState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#neutralState">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#night -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#night">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#ocean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#ocean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#nature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#ore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#ore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#block"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#oven -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#oven">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#interactive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#parameters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#parameters"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#player -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#player">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#resource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#item"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#run -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#run">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#seed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#seed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#shield -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#shield">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#skeleton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#skeleton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#negative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#sound -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#sound">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#spaceSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#spaceSize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#spider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#spider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#negative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#step -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#step">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#stick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#stick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#stone_axe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#stone_axe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#stone_hoe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#stone_hoe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#stone_pickaxe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#stone_pickaxe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#stone_shovel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#stone_shovel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#stone_sword -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#stone_sword">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#surprise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#surprise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#textDescription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#textDescription">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#tool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#item"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#torch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#torch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#decorative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#view -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#view">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#parameters"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#village -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#village">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#villager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#villager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#neutral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#liquid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#zombie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#zombie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ivan_/ontologies/2026/3/untitled-ontology-3#negative"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

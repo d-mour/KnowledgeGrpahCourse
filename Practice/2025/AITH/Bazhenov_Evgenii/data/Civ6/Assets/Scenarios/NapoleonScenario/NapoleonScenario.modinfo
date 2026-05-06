@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="{5E991A08-08FD-4774-968B-A85377ECF60D}" version="1">
+	<Properties>
+		<Name>LOC_NAPOLEON_MOD_TITLE</Name>
+		<Teaser>LOC_NAPOLEON_MOD_TEASER</Teaser>
+		<Description>LOC_NAPOLEON_MOD_DESCRIPTION</Description>
+		<Authors>LOC_MOD_AUTHORS_FIRAXIS</Authors>
+		<SupportsSinglePlayer>0</SupportsSinglePlayer>
+    <CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="NAPOLEON_COMPONENT">
+			<Properties>
+				<RuleSet>RULESET_SCENARIO_NAPOLEON</RuleSet>
+			</Properties>
+			<Items>
+				<File>NapoleonScenario_Victories.xml</File>
+				<File>NapoleonScenario_Eras.xml</File>
+				<File>NapoleonScenario_Units.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<GameplayScripts id="NAPOLEON_SCRIPT_COMPONENT">
+			<Properties>
+				<RuleSet>RULESET_SCENARIO_NAPOLEON</RuleSet>
+			</Properties>
+			<Items>
+				<File>NapoleonScenario_StartScript.lua</File>
+			</Items>
+		</GameplayScripts>
+	</Components>
+	<Settings>
+		<Custom id="NAPOLEON_SETTING">
+			<Items>
+				<File>NapoleonScenario_Config.xml</File>
+			</Items>
+		</Custom>
+	</Settings>
+	<Files>
+		<File>NapoleonScenario_Config.xml</File>
+		<File>NapoleonScenario_Victories.xml</File>
+		<File>NapoleonScenario_Eras.xml</File>
+		<File>NapoleonScenario_StartScript.lua</File>
+		<File>NapoleonScenario_Units.xml</File>
+	</Files>
+</Mod>

@@ -1,0 +1,408 @@
+@prefix : <http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cr: <http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#> .
+
+<http://www.semanticweb.org/user/ontologies/2023/10/clash-royale> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#описание
+cr:описание rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#архетипИмеетТипАтаки
+cr:архетипИмеетТипАтаки rdf:type owl:ObjectProperty ;
+                         rdfs:domain cr:АрхетипКолоды ;
+                         rdfs:range cr:ТипАтаки ;
+                         rdfs:label "архетип имеет тип атаки"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#атакуетТипЦели
+cr:атакуетТипЦели rdf:type owl:ObjectProperty ;
+                  rdfs:domain cr:Карта ;
+                  rdfs:range cr:ТипЦели ;
+                  rdfs:label "атакует тип цели"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#имеетНазначение
+cr:имеетНазначение rdf:type owl:ObjectProperty ;
+                   rdfs:domain cr:Карта ;
+                   rdfs:range cr:НазначениеКарты ;
+                   rdfs:label "имеет назначение"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#имеетРольВКолоде
+cr:имеетРольВКолоде rdf:type owl:ObjectProperty ;
+                    rdfs:domain cr:Карта ;
+                    rdfs:range cr:РольВКолоде ;
+                    rdfs:label "имеет роль в колоде"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#используетсяВ
+cr:используетсяВ rdf:type owl:ObjectProperty ;
+                 rdfs:domain cr:Карта ;
+                 rdfs:range cr:АрхетипКолоды ;
+                 rdfs:label "используется в"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ключеваяКартаДля
+cr:ключеваяКартаДля rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf cr:используетсяВ ;
+                    rdfs:domain cr:Карта ;
+                    rdfs:range cr:АрхетипКолоды ;
+                    rdfs:label "ключевая карта для"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#контрит
+cr:контрит rdf:type owl:ObjectProperty ;
+           owl:inverseOf cr:являетсяКонтрКартойДля ;
+           rdfs:domain cr:Карта ;
+           rdfs:range cr:Карта ;
+           rdfs:label "контрит"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#обладаетТактическойВозможностью
+cr:обладаетТактическойВозможностью rdf:type owl:ObjectProperty ;
+                                    rdfs:domain cr:Карта ;
+                                    rdfs:range cr:ТактическаяВозможность ;
+                                    rdfs:label "обладает тактической возможностью"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#рекомендуемаяЗамена
+cr:рекомендуемаяЗамена rdf:type owl:ObjectProperty ;
+                       rdfs:domain cr:Карта ;
+                       rdfs:range cr:Карта ;
+                       rdfs:label "рекомендуемая замена"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#хорошоСинергируетС
+cr:хорошоСинергируетС rdf:type owl:ObjectProperty ,
+                               owl:SymmetricProperty ;
+                      rdfs:domain cr:Карта ;
+                      rdfs:range cr:Карта ;
+                      rdfs:label "хорошо синергирует с"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#являетсяКонтрКартойДля
+cr:являетсяКонтрКартойДля rdf:type owl:ObjectProperty ;
+                         rdfs:domain cr:Карта ;
+                         rdfs:range cr:Карта ;
+                         rdfs:label "является контр-картой для"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#эффективенПротив
+cr:эффективенПротив rdf:type owl:ObjectProperty ;
+                    rdfs:domain cr:Карта ;
+                    rdfs:range cr:Карта ;
+                    rdfs:label "эффективен против"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#слабПротив
+cr:слабПротив rdf:type owl:ObjectProperty ;
+              rdfs:domain cr:Карта ;
+              rdfs:range cr:Карта ;
+              rdfs:label "слаб против"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#требуетПоддержкиОт
+cr:требуетПоддержкиОт rdf:type owl:ObjectProperty ;
+                      rdfs:domain cr:Карта ;
+                      rdfs:range cr:Карта ;
+                      rdfs:label "требует поддержки от"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#популярнаПротив
+cr:популярнаПротив rdf:type owl:ObjectProperty ;
+                   rdfs:domain cr:АрхетипКолоды ;
+                   rdfs:range cr:АрхетипКолоды ;
+                   rdfs:label "популярна против"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#частоИспользуетсяС
+cr:частоИспользуетсяС rdf:type owl:ObjectProperty ;
+                     rdfs:domain cr:Карта ;
+                     rdfs:range cr:Карта ;
+                     rdfs:label "часто используется с"@ru .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#стоимостьЭликсира
+cr:стоимостьЭликсира rdf:type owl:DatatypeProperty ;
+                     rdfs:domain cr:Карта ;
+                     rdfs:range xsd:integer ;
+                     rdfs:label "стоимость эликсира"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#редкость
+cr:редкость rdf:type owl:DatatypeProperty ;
+            rdfs:domain cr:Карта ;
+            rdfs:range xsd:string ;
+            rdfs:label "редкость"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#средняяСтоимость
+cr:средняяСтоимость rdf:type owl:DatatypeProperty ;
+                    rdfs:domain cr:АрхетипКолоды ;
+                    rdfs:range xsd:decimal ;
+                    rdfs:label "средняя стоимость"@ru .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#АрхетипКолоды
+cr:АрхетипКолоды rdf:type owl:Class ;
+                 rdfs:label "Архетип Колоды"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Войско
+cr:Войско rdf:type owl:Class ;
+          rdfs:subClassOf cr:Карта ;
+          rdfs:label "Войско"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Заклинание
+cr:Заклинание rdf:type owl:Class ;
+              rdfs:subClassOf cr:Карта ;
+              rdfs:label "Заклинание"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Здание
+cr:Здание rdf:type owl:Class ;
+          rdfs:subClassOf cr:Карта ;
+          rdfs:label "Здание"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ЗданиеСпаунер
+cr:ЗданиеСпаунер rdf:type owl:Class ;
+                 rdfs:subClassOf cr:Здание ;
+                 owl:disjointWith cr:ОборонительноеЗдание ;
+                 rdfs:label "Здание-спаунер"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#Карта
+cr:Карта rdf:type owl:Class ;
+         rdfs:label "Карта"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#НазначениеКарты
+cr:НазначениеКарты rdf:type owl:Class ;
+                   rdfs:label "Назначение Карты"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ОборонительноеЗдание
+cr:ОборонительноеЗдание rdf:type owl:Class ;
+                        rdfs:subClassOf cr:Здание ;
+                        rdfs:label "Оборонительное Здание"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#РольВКолоде
+cr:РольВКолоде rdf:type owl:Class ;
+               rdfs:label "Роль в колоде"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТактическаяВозможность
+cr:ТактическаяВозможность rdf:type owl:Class ;
+                          rdfs:label "Тактическая Возможность"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипАтаки
+cr:ТипАтаки rdf:type owl:Class ;
+            rdfs:label "Тип Атаки"@ru .
+
+### http://www.semanticweb.org/user/ontologies/2023/10/clash-royale#ТипЦели
+cr:ТипЦели rdf:type owl:Class ;
+           rdfs:label "Тип Цели"@ru .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+### Категории и типы ###
+
+cr:Воздушные rdf:type owl:NamedIndividual ,
+                      cr:ТипЦели ;
+             rdfs:label "Воздушные"@ru .
+cr:Атака rdf:type owl:NamedIndividual ,
+                  cr:НазначениеКарты ;
+         rdfs:label "Атака"@ru .
+cr:Защита rdf:type owl:NamedIndividual ,
+                   cr:НазначениеКарты ;
+          rdfs:label "Защита"@ru .
+cr:Здания rdf:type owl:NamedIndividual ,
+                   cr:ТипЦели ;
+          rdfs:label "Здания"@ru .
+cr:КонтрольТерритории rdf:type owl:NamedIndividual ,
+                             cr:ТактическаяВозможность ;
+                    rdfs:label "Контроль территории"@ru .
+cr:Наземные rdf:type owl:NamedIndividual ,
+                     cr:ТипЦели ;
+            rdfs:label "Наземные"@ru .
+cr:НаземныеИВоздушные rdf:type owl:NamedIndividual ,
+                             cr:ТипЦели ;
+                    rdfs:label "Наземные и Воздушные"@ru .
+cr:ПрямойУронПоБашне rdf:type owl:NamedIndividual ,
+                            cr:ТактическаяВозможность ;
+                   rdfs:label "Прямой урон по башне"@ru .
+cr:ТанкПоддержки rdf:type owl:NamedIndividual ,
+                        cr:РольВКолоде ;
+               rdfs:label "Танк поддержки"@ru .
+cr:ТяжелаяАтака rdf:type owl:NamedIndividual ,
+                        cr:ТипАтаки ;
+               rdfs:label "Тяжелая атака (Beatdown)"@ru .
+cr:УскорениеЦикла rdf:type owl:NamedIndividual ,
+                         cr:НазначениеКарты ;
+                rdfs:label "Ускорение цикла"@ru .
+cr:КартаПоддержки rdf:type owl:NamedIndividual ,
+                       cr:НазначениеКарты ;
+              rdfs:label "Карта поддержки"@ru .
+cr:СозданиеЮнитов rdf:type owl:NamedIndividual ,
+                         cr:ТактическаяВозможность ;
+                rdfs:label "Создание юнитов"@ru .
+cr:Танк rdf:type owl:NamedIndividual ,
+                cr:РольВКолоде ;
+       rdfs:label "Танк"@ru .
+cr:УронПоПлощади rdf:type owl:NamedIndividual ,
+                        cr:ТактическаяВозможность ;
+               rdfs:label "Урон по площади"@ru .
+
+### Архетипы ###
+
+cr:HogCycle rdf:type owl:NamedIndividual ,
+                     cr:АрхетипКолоды ;
+            cr:средняяСтоимость 2.6 ;
+            rdfs:label "Hog Cycle"@ru .
+cr:LogBait rdf:type owl:NamedIndividual ,
+                    cr:АрхетипКолоды ;
+           cr:средняяСтоимость 3.1 ;
+           rdfs:label "Log Bait"@ru .
+cr:HeavyBeatdown rdf:type owl:NamedIndividual ,
+                          cr:АрхетипКолоды ;
+                 cr:архетипИмеетТипАтаки cr:ТяжелаяАтака ;
+                 cr:средняяСтоимость 4.5 ;
+                 rdfs:label "Тяжелый Beatdown"@ru .
+
+### Карты ###
+
+cr:InfernoTower rdf:type owl:NamedIndividual ,
+                        cr:ОборонительноеЗдание ;
+               cr:атакуетТипЦели cr:НаземныеИВоздушные ;
+               cr:стоимостьЭликсира 5 ;
+               rdfs:label "Inferno Tower"@ru .
+cr:SkeletonArmy rdf:type owl:NamedIndividual ,
+                         cr:Войско ;
+                cr:атакуетТипЦели cr:Наземные ;
+                cr:стоимостьЭликсира 3 ;
+                rdfs:label "Skeleton Army"@ru .
+cr:HogRider rdf:type owl:NamedIndividual ,
+                           cr:Войско ;
+                  cr:ключеваяКартаДля cr:HogCycle ;
+                  cr:хорошоСинергируетС cr:IceSpirit ,
+                                        cr:Skeletons ,
+                                        cr:Cannon ,
+                                        cr:Zap ,
+                                        cr:Freeze ;
+                  cr:атакуетТипЦели cr:Здания ;
+                  cr:стоимостьЭликсира 4 ;
+                  rdfs:label "Hog Rider"@ru .
+cr:Balloon rdf:type owl:NamedIndividual ,
+                         cr:Войско ;
+                cr:являетсяКонтрКартойДля cr:InfernoTower ,
+                                         cr:MinionHorde ;
+                cr:слабПротив cr:InfernoTower ,
+                              cr:MinionHorde ;
+                cr:требуетПоддержкиОт cr:Freeze ,
+                                      cr:Zap ,
+                                      cr:Arrows ;
+                cr:атакуетТипЦели cr:Здания ;
+                cr:стоимостьЭликсира 5 ;
+                rdfs:label "Balloon"@ru .
+cr:GoblinBarrel rdf:type owl:NamedIndividual ,
+                           cr:Заклинание ;
+                  cr:используетсяВ cr:LogBait ;
+                  cr:хорошоСинергируетС cr:Knight ,
+                                        cr:Arrows ,
+                                        cr:Freeze ;
+                  cr:обладаетТактическойВозможностью cr:ПрямойУронПоБашне ;
+                  cr:стоимостьЭликсира 3 ;
+                  rdfs:label "Goblin Barrel"@ru .
+cr:GoblinHut rdf:type owl:NamedIndividual ,
+                            cr:ЗданиеСпаунер ;
+                   cr:обладаетТактическойВозможностью cr:СозданиеЮнитов ;
+                   cr:стоимостьЭликсира 5 ;
+                   rdfs:label "Goblin Hut"@ru .
+cr:Freeze rdf:type owl:NamedIndividual ,
+                      cr:Заклинание ;
+             cr:хорошоСинергируетС cr:Balloon ,
+                                   cr:HogRider ,
+                                   cr:GoblinBarrel ;
+             cr:имеетНазначение cr:КартаПоддержки ;
+             cr:контрит cr:InfernoTower ,
+                        cr:MinionHorde ;
+             cr:стоимостьЭликсира 4 ;
+             rdfs:label "Freeze"@ru .
+cr:IceSpirit rdf:type owl:NamedIndividual ,
+                       cr:Войско ;
+              cr:используетсяВ cr:HogCycle ;
+              cr:хорошоСинергируетС cr:HogRider ,
+                                    cr:Skeletons ;
+              cr:имеетНазначение cr:Защита ,
+                                 cr:УскорениеЦикла ;
+              cr:стоимостьЭликсира 1 ;
+              rdfs:label "Ice Spirit"@ru .
+cr:MegaMinion rdf:type owl:NamedIndividual ,
+                       cr:Войско ;
+              cr:рекомендуемаяЗамена cr:Knight ;
+              cr:имеетРольВКолоде cr:ТанкПоддержки ;
+              cr:атакуетТипЦели cr:НаземныеИВоздушные ;
+              cr:стоимостьЭликсира 3 ;
+              rdfs:label "Mega Minion"@ru .
+cr:MinionHorde rdf:type owl:NamedIndividual ,
+                         cr:Войско ;
+                cr:атакуетТипЦели cr:НаземныеИВоздушные ;
+                cr:стоимостьЭликсира 5 ;
+                rdfs:label "Minion Horde"@ru .
+cr:Cannon rdf:type owl:NamedIndividual ,
+                  cr:ОборонительноеЗдание ;
+         cr:используетсяВ cr:HogCycle ;
+         cr:хорошоСинергируетС cr:HogRider ;
+         cr:имеетНазначение cr:Защита ;
+         cr:атакуетТипЦели cr:Наземные ;
+         cr:стоимостьЭликсира 3 ;
+         rdfs:label "Cannon"@ru .
+cr:Zap rdf:type owl:NamedIndividual ,
+                   cr:Заклинание ;
+          cr:хорошоСинергируетС cr:Balloon ,
+                                cr:HogRider ;
+          cr:имеетНазначение cr:КартаПоддержки ;
+          cr:контрит cr:InfernoTower ,
+                     cr:MinionHorde ;
+          cr:стоимостьЭликсира 2 ;
+          rdfs:label "Zap"@ru .
+cr:Knight rdf:type owl:NamedIndividual ,
+                   cr:Войско ;
+          cr:используетсяВ cr:LogBait ;
+          cr:хорошоСинергируетС cr:GoblinBarrel ,
+                                cr:SkeletonArmy ;
+          cr:имеетРольВКолоде cr:ТанкПоддержки ;
+          cr:атакуетТипЦели cr:Наземные ;
+          cr:стоимостьЭликсира 3 ;
+          rdfs:label "Knight"@ru .
+cr:ElixirCollector rdf:type owl:NamedIndividual ,
+                           cr:Здание ;
+                  cr:используетсяВ cr:HeavyBeatdown ;
+                  cr:имеетНазначение cr:КартаПоддержки ;
+                  cr:стоимостьЭликсира 6 ;
+                  rdfs:label "Elixir Collector"@ru .
+cr:Skeletons rdf:type owl:NamedIndividual ,
+                    cr:Войско ;
+           cr:используетсяВ cr:HogCycle ;
+           cr:хорошоСинергируетС cr:IceSpirit ,
+                                 cr:HogRider ;
+           cr:имеетНазначение cr:Защита ,
+                              cr:УскорениеЦикла ;
+           cr:стоимостьЭликсира 1 ;
+           rdfs:label "Skeletons"@ru .
+cr:Arrows rdf:type owl:NamedIndividual ,
+                   cr:Заклинание ;
+          cr:хорошоСинергируетС cr:Balloon ,
+                                cr:GoblinBarrel ;
+          cr:имеетНазначение cr:КартаПоддержки ;
+          cr:контрит cr:MinionHorde ;
+          cr:стоимостьЭликсира 3 ;
+          rdfs:label "Arrows"@ru .
+cr:Miner rdf:type owl:NamedIndividual ,
+                   cr:Войско ;
+          cr:обладаетТактическойВозможностью cr:ПрямойУронПоБашне ,
+                                            cr:КонтрольТерритории ;
+          cr:хорошоСинергируетС cr:GoblinBarrel ;
+          cr:стоимостьЭликсира 3 ;
+          rdfs:label "Miner"@ru .

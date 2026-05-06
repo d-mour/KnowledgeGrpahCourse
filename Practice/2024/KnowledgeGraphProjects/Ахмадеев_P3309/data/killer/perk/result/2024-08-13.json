@@ -1,0 +1,1183 @@
+{
+    "data": [
+        {
+            "perk_id": 190,
+            "name": "Scourge Hook: Pain Resonance",
+            "count": 6261,
+            "pick_rate": 28.08,
+            "escape_rate": 37.59,
+            "survivors": 14000,
+            "escapes": 5263
+        },
+        {
+            "perk_id": 98,
+            "name": "Pop Goes the Weasel",
+            "count": 4182,
+            "pick_rate": 18.75,
+            "escape_rate": 40.38,
+            "survivors": 9280,
+            "escapes": 3747
+        },
+        {
+            "perk_id": 81,
+            "name": "Barbecue & Chili",
+            "count": 3384,
+            "pick_rate": 15.17,
+            "escape_rate": 41.09,
+            "survivors": 7452,
+            "escapes": 3062
+        },
+        {
+            "perk_id": 114,
+            "name": "Corrupt Intervention",
+            "count": 3364,
+            "pick_rate": 15.09,
+            "escape_rate": 38.49,
+            "survivors": 7472,
+            "escapes": 2876
+        },
+        {
+            "perk_id": 171,
+            "name": "Lethal Pursuer",
+            "count": 3348,
+            "pick_rate": 15.01,
+            "escape_rate": 40.24,
+            "survivors": 7313,
+            "escapes": 2943
+        },
+        {
+            "perk_id": 217,
+            "name": "Nowhere to Hide",
+            "count": 2904,
+            "pick_rate": 13.02,
+            "escape_rate": 40.1,
+            "survivors": 6315,
+            "escapes": 2532
+        },
+        {
+            "perk_id": 128,
+            "name": "Surge",
+            "count": 2727,
+            "pick_rate": 12.23,
+            "escape_rate": 39.89,
+            "survivors": 5997,
+            "escapes": 2392
+        },
+        {
+            "perk_id": 96,
+            "name": "Bamboozle",
+            "count": 2547,
+            "pick_rate": 11.42,
+            "escape_rate": 41.33,
+            "survivors": 5659,
+            "escapes": 2339
+        },
+        {
+            "perk_id": 180,
+            "name": "Deadlock",
+            "count": 1965,
+            "pick_rate": 8.81,
+            "escape_rate": 39.35,
+            "survivors": 4333,
+            "escapes": 1705
+        },
+        {
+            "perk_id": 18,
+            "name": "Hex: No One Escapes Death",
+            "count": 1852,
+            "pick_rate": 8.3,
+            "escape_rate": 39.68,
+            "survivors": 4020,
+            "escapes": 1595
+        },
+        {
+            "perk_id": 189,
+            "name": "Grim Embrace",
+            "count": 1818,
+            "pick_rate": 8.15,
+            "escape_rate": 36.99,
+            "survivors": 3985,
+            "escapes": 1474
+        },
+        {
+            "perk_id": 22,
+            "name": "Sloppy Butcher",
+            "count": 1787,
+            "pick_rate": 8.01,
+            "escape_rate": 42.26,
+            "survivors": 3904,
+            "escapes": 1650
+        },
+        {
+            "perk_id": -1,
+            "name": "First Empty Slot",
+            "count": 1738,
+            "pick_rate": 7.79,
+            "escape_rate": 51.04,
+            "survivors": 3942,
+            "escapes": 2012
+        },
+        {
+            "perk_id": 40,
+            "name": "Brutal Strength",
+            "count": 1704,
+            "pick_rate": 7.64,
+            "escape_rate": 40.17,
+            "survivors": 3821,
+            "escapes": 1535
+        },
+        {
+            "perk_id": 167,
+            "name": "No Way Out",
+            "count": 1655,
+            "pick_rate": 7.42,
+            "escape_rate": 36.46,
+            "survivors": 3694,
+            "escapes": 1347
+        },
+        {
+            "perk_id": 108,
+            "name": "Discordance",
+            "count": 1503,
+            "pick_rate": 6.74,
+            "escape_rate": 42.44,
+            "survivors": 3325,
+            "escapes": 1411
+        },
+        {
+            "perk_id": 61,
+            "name": "Hex: Ruin",
+            "count": 1495,
+            "pick_rate": 6.7,
+            "escape_rate": 38.2,
+            "survivors": 3288,
+            "escapes": 1256
+        },
+        {
+            "perk_id": 181,
+            "name": "Hex: Plaything",
+            "count": 1195,
+            "pick_rate": 5.36,
+            "escape_rate": 37.71,
+            "survivors": 2615,
+            "escapes": 986
+        },
+        {
+            "perk_id": 45,
+            "name": "Enduring",
+            "count": 1178,
+            "pick_rate": 5.28,
+            "escape_rate": 43.88,
+            "survivors": 2646,
+            "escapes": 1161
+        },
+        {
+            "perk_id": 48,
+            "name": "A Nurse's Calling",
+            "count": 1170,
+            "pick_rate": 5.25,
+            "escape_rate": 42.02,
+            "survivors": 2582,
+            "escapes": 1085
+        },
+        {
+            "perk_id": 39,
+            "name": "Agitation",
+            "count": 1161,
+            "pick_rate": 5.21,
+            "escape_rate": 39.03,
+            "survivors": 2588,
+            "escapes": 1010
+        },
+        {
+            "perk_id": 245,
+            "name": "Friends ‘Til the End",
+            "count": 1062,
+            "pick_rate": 4.76,
+            "escape_rate": 38.93,
+            "survivors": 2271,
+            "escapes": 884
+        },
+        {
+            "perk_id": 46,
+            "name": "Lightborn",
+            "count": 1059,
+            "pick_rate": 4.75,
+            "escape_rate": 48.05,
+            "survivors": 2306,
+            "escapes": 1108
+        },
+        {
+            "perk_id": 82,
+            "name": "Franklin's Demise",
+            "count": 1050,
+            "pick_rate": 4.71,
+            "escape_rate": 36.6,
+            "survivors": 2303,
+            "escapes": 843
+        },
+        {
+            "perk_id": 56,
+            "name": "Save the Best for Last",
+            "count": 1034,
+            "pick_rate": 4.64,
+            "escape_rate": 42.28,
+            "survivors": 2294,
+            "escapes": 970
+        },
+        {
+            "perk_id": 173,
+            "name": "Eruption",
+            "count": 1006,
+            "pick_rate": 4.51,
+            "escape_rate": 40.3,
+            "survivors": 2231,
+            "escapes": 899
+        },
+        {
+            "perk_id": 60,
+            "name": "Hex: Devour Hope",
+            "count": 999,
+            "pick_rate": 4.48,
+            "escape_rate": 39.11,
+            "survivors": 2181,
+            "escapes": 853
+        },
+        {
+            "perk_id": 141,
+            "name": "Dead Man’s Switch",
+            "count": 944,
+            "pick_rate": 4.23,
+            "escape_rate": 43.65,
+            "survivors": 2055,
+            "escapes": 897
+        },
+        {
+            "perk_id": 47,
+            "name": "Tinkerer",
+            "count": 905,
+            "pick_rate": 4.06,
+            "escape_rate": 40.03,
+            "survivors": 1981,
+            "escapes": 793
+        },
+        {
+            "perk_id": 50,
+            "name": "Thanatophobia",
+            "count": 825,
+            "pick_rate": 3.7,
+            "escape_rate": 42.37,
+            "survivors": 1834,
+            "escapes": 777
+        },
+        {
+            "perk_id": 124,
+            "name": "I'm All Ears",
+            "count": 807,
+            "pick_rate": 3.62,
+            "escape_rate": 43.34,
+            "survivors": 1742,
+            "escapes": 755
+        },
+        {
+            "perk_id": 155,
+            "name": "Hex: Undying",
+            "count": 803,
+            "pick_rate": 3.6,
+            "escape_rate": 38.52,
+            "survivors": 1786,
+            "escapes": 688
+        },
+        {
+            "perk_id": 20,
+            "name": "Iron Grasp",
+            "count": 788,
+            "pick_rate": 3.53,
+            "escape_rate": 46.07,
+            "survivors": 1704,
+            "escapes": 785
+        },
+        {
+            "perk_id": 23,
+            "name": "Spies from the Shadows",
+            "count": 783,
+            "pick_rate": 3.51,
+            "escape_rate": 46.19,
+            "survivors": 1695,
+            "escapes": 783
+        },
+        {
+            "perk_id": 191,
+            "name": "Hex: Pentimento",
+            "count": 769,
+            "pick_rate": 3.45,
+            "escape_rate": 35.02,
+            "survivors": 1742,
+            "escapes": 610
+        },
+        {
+            "perk_id": -2,
+            "name": "Second Empty Slot",
+            "count": 766,
+            "pick_rate": 3.43,
+            "escape_rate": 56.14,
+            "survivors": 1726,
+            "escapes": 969
+        },
+        {
+            "perk_id": 256,
+            "name": "Weave Attunement",
+            "count": 737,
+            "pick_rate": 3.3,
+            "escape_rate": 37.08,
+            "survivors": 1618,
+            "escapes": 600
+        },
+        {
+            "perk_id": 15,
+            "name": "Bitter Murmur",
+            "count": 689,
+            "pick_rate": 3.09,
+            "escape_rate": 47.16,
+            "survivors": 1495,
+            "escapes": 705
+        },
+        {
+            "perk_id": 125,
+            "name": "Thrilling Tremors",
+            "count": 681,
+            "pick_rate": 3.05,
+            "escape_rate": 44.35,
+            "survivors": 1479,
+            "escapes": 656
+        },
+        {
+            "perk_id": 239,
+            "name": "Rapid Brutality",
+            "count": 679,
+            "pick_rate": 3.04,
+            "escape_rate": 42.58,
+            "survivors": 1475,
+            "escapes": 628
+        },
+        {
+            "perk_id": 69,
+            "name": "Overcharge",
+            "count": 667,
+            "pick_rate": 2.99,
+            "escape_rate": 42.32,
+            "survivors": 1451,
+            "escapes": 614
+        },
+        {
+            "perk_id": 202,
+            "name": "Darkness Revealed",
+            "count": 665,
+            "pick_rate": 2.98,
+            "escape_rate": 43.34,
+            "survivors": 1493,
+            "escapes": 647
+        },
+        {
+            "perk_id": 251,
+            "name": "Unforeseen",
+            "count": 659,
+            "pick_rate": 2.96,
+            "escape_rate": 42.22,
+            "survivors": 1471,
+            "escapes": 621
+        },
+        {
+            "perk_id": 104,
+            "name": "Spirit Fury",
+            "count": 634,
+            "pick_rate": 2.84,
+            "escape_rate": 46.66,
+            "survivors": 1363,
+            "escapes": 636
+        },
+        {
+            "perk_id": 160,
+            "name": "Oppression",
+            "count": 625,
+            "pick_rate": 2.8,
+            "escape_rate": 38.48,
+            "survivors": 1367,
+            "escapes": 526
+        },
+        {
+            "perk_id": 127,
+            "name": "Mindbreaker",
+            "count": 591,
+            "pick_rate": 2.65,
+            "escape_rate": 41.18,
+            "survivors": 1292,
+            "escapes": 532
+        },
+        {
+            "perk_id": 195,
+            "name": "Scourge Hook: Floods of Rage",
+            "count": 583,
+            "pick_rate": 2.61,
+            "escape_rate": 40.24,
+            "survivors": 1255,
+            "escapes": 505
+        },
+        {
+            "perk_id": 55,
+            "name": "Play With Your Food",
+            "count": 572,
+            "pick_rate": 2.57,
+            "escape_rate": 42.42,
+            "survivors": 1273,
+            "escapes": 540
+        },
+        {
+            "perk_id": 149,
+            "name": "Trail of Torment",
+            "count": 565,
+            "pick_rate": 2.53,
+            "escape_rate": 39.81,
+            "survivors": 1231,
+            "escapes": 490
+        },
+        {
+            "perk_id": -3,
+            "name": "Third Empty Slot",
+            "count": 558,
+            "pick_rate": 2.5,
+            "escape_rate": 55.95,
+            "survivors": 1244,
+            "escapes": 696
+        },
+        {
+            "perk_id": 109,
+            "name": "Iron Maiden",
+            "count": 505,
+            "pick_rate": 2.26,
+            "escape_rate": 45.86,
+            "survivors": 1112,
+            "escapes": 510
+        },
+        {
+            "perk_id": 265,
+            "name": "Hex: Wretched Fate",
+            "count": 493,
+            "pick_rate": 2.21,
+            "escape_rate": 46.16,
+            "survivors": 1094,
+            "escapes": 505
+        },
+        {
+            "perk_id": 84,
+            "name": "Blood Warden",
+            "count": 493,
+            "pick_rate": 2.21,
+            "escape_rate": 43.65,
+            "survivors": 1111,
+            "escapes": 485
+        },
+        {
+            "perk_id": 196,
+            "name": "Call of Brine",
+            "count": 487,
+            "pick_rate": 2.18,
+            "escape_rate": 41.99,
+            "survivors": 1017,
+            "escapes": 427
+        },
+        {
+            "perk_id": 161,
+            "name": "Coup de Grâce",
+            "count": 463,
+            "pick_rate": 2.08,
+            "escape_rate": 42.29,
+            "survivors": 1024,
+            "escapes": 433
+        },
+        {
+            "perk_id": 24,
+            "name": "Unrelenting",
+            "count": 449,
+            "pick_rate": 2.01,
+            "escape_rate": 50.85,
+            "survivors": 1005,
+            "escapes": 511
+        },
+        {
+            "perk_id": 197,
+            "name": "Merciless Storm",
+            "count": 414,
+            "pick_rate": 1.86,
+            "escape_rate": 40.17,
+            "survivors": 921,
+            "escapes": 370
+        },
+        {
+            "perk_id": 154,
+            "name": "Hex: Blood Favor",
+            "count": 410,
+            "pick_rate": 1.84,
+            "escape_rate": 44.56,
+            "survivors": 900,
+            "escapes": 401
+        },
+        {
+            "perk_id": 116,
+            "name": "Infectious Fright",
+            "count": 408,
+            "pick_rate": 1.83,
+            "escape_rate": 39.4,
+            "survivors": 934,
+            "escapes": 368
+        },
+        {
+            "perk_id": 266,
+            "name": "Human Greed",
+            "count": 397,
+            "pick_rate": 1.78,
+            "escape_rate": 47.54,
+            "survivors": 873,
+            "escapes": 415
+        },
+        {
+            "perk_id": 267,
+            "name": "Dominance",
+            "count": 398,
+            "pick_rate": 1.78,
+            "escape_rate": 47.3,
+            "survivors": 888,
+            "escapes": 420
+        },
+        {
+            "perk_id": 17,
+            "name": "Distressing",
+            "count": 395,
+            "pick_rate": 1.77,
+            "escape_rate": 57.11,
+            "survivors": 893,
+            "escapes": 510
+        },
+        {
+            "perk_id": 142,
+            "name": "Gearhead",
+            "count": 393,
+            "pick_rate": 1.76,
+            "escape_rate": 48.43,
+            "survivors": 892,
+            "escapes": 432
+        },
+        {
+            "perk_id": 182,
+            "name": "Scourge Hook: Gift of Pain",
+            "count": 383,
+            "pick_rate": 1.72,
+            "escape_rate": 38.7,
+            "survivors": 832,
+            "escapes": 322
+        },
+        {
+            "perk_id": 165,
+            "name": "Starstruck",
+            "count": 372,
+            "pick_rate": 1.67,
+            "escape_rate": 43.12,
+            "survivors": 821,
+            "escapes": 354
+        },
+        {
+            "perk_id": 70,
+            "name": "Monitor & Abuse",
+            "count": 357,
+            "pick_rate": 1.6,
+            "escape_rate": 45.45,
+            "survivors": 781,
+            "escapes": 355
+        },
+        {
+            "perk_id": 21,
+            "name": "Scourge Hook: Monstrous Shrine",
+            "count": 354,
+            "pick_rate": 1.59,
+            "escape_rate": 48.41,
+            "survivors": 785,
+            "escapes": 380
+        },
+        {
+            "perk_id": 76,
+            "name": "Hex: Huntress Lullaby",
+            "count": 352,
+            "pick_rate": 1.58,
+            "escape_rate": 44.44,
+            "survivors": 765,
+            "escapes": 340
+        },
+        {
+            "perk_id": 238,
+            "name": "Ultimate Weapon",
+            "count": 342,
+            "pick_rate": 1.53,
+            "escape_rate": 47.96,
+            "survivors": 759,
+            "escapes": 364
+        },
+        {
+            "perk_id": 246,
+            "name": "Batteries Included",
+            "count": 313,
+            "pick_rate": 1.4,
+            "escape_rate": 43.62,
+            "survivors": 697,
+            "escapes": 304
+        },
+        {
+            "perk_id": 211,
+            "name": "Superior Anatomy",
+            "count": 309,
+            "pick_rate": 1.39,
+            "escape_rate": 45.29,
+            "survivors": 669,
+            "escapes": 303
+        },
+        {
+            "perk_id": 103,
+            "name": "Rancor",
+            "count": 298,
+            "pick_rate": 1.34,
+            "escape_rate": 43.6,
+            "survivors": 672,
+            "escapes": 293
+        },
+        {
+            "perk_id": 201,
+            "name": "Dissolution",
+            "count": 281,
+            "pick_rate": 1.26,
+            "escape_rate": 46.06,
+            "survivors": 647,
+            "escapes": 298
+        },
+        {
+            "perk_id": -4,
+            "name": "Fourth Empty Slot",
+            "count": 280,
+            "pick_rate": 1.26,
+            "escape_rate": 53.44,
+            "survivors": 625,
+            "escapes": 334
+        },
+        {
+            "perk_id": 54,
+            "name": "Dying Light",
+            "count": 275,
+            "pick_rate": 1.23,
+            "escape_rate": 42.27,
+            "survivors": 608,
+            "escapes": 257
+        },
+        {
+            "perk_id": 16,
+            "name": "Deerstalker",
+            "count": 273,
+            "pick_rate": 1.22,
+            "escape_rate": 49.76,
+            "survivors": 613,
+            "escapes": 305
+        },
+        {
+            "perk_id": 102,
+            "name": "Hex: Haunted Ground",
+            "count": 269,
+            "pick_rate": 1.21,
+            "escape_rate": 40.14,
+            "survivors": 578,
+            "escapes": 232
+        },
+        {
+            "perk_id": 92,
+            "name": "Surveillance",
+            "count": 262,
+            "pick_rate": 1.17,
+            "escape_rate": 39.54,
+            "survivors": 569,
+            "escapes": 225
+        },
+        {
+            "perk_id": 85,
+            "name": "Fire Up",
+            "count": 259,
+            "pick_rate": 1.16,
+            "escape_rate": 44.37,
+            "survivors": 604,
+            "escapes": 268
+        },
+        {
+            "perk_id": 218,
+            "name": "Hex: Face the Darkness",
+            "count": 252,
+            "pick_rate": 1.13,
+            "escape_rate": 45.3,
+            "survivors": 543,
+            "escapes": 246
+        },
+        {
+            "perk_id": 26,
+            "name": "Hex: Thrill of the Hunt",
+            "count": 252,
+            "pick_rate": 1.13,
+            "escape_rate": 49.57,
+            "survivors": 575,
+            "escapes": 285
+        },
+        {
+            "perk_id": 91,
+            "name": "Make Your Choice",
+            "count": 232,
+            "pick_rate": 1.04,
+            "escape_rate": 37.48,
+            "survivors": 531,
+            "escapes": 199
+        },
+        {
+            "perk_id": 110,
+            "name": "Mad Grit",
+            "count": 223,
+            "pick_rate": 1,
+            "escape_rate": 50.29,
+            "survivors": 517,
+            "escapes": 260
+        },
+        {
+            "perk_id": 41,
+            "name": "Unnerving Presence",
+            "count": 222,
+            "pick_rate": 1,
+            "escape_rate": 46.26,
+            "survivors": 495,
+            "escapes": 229
+        },
+        {
+            "perk_id": 153,
+            "name": "Dragon's Grip",
+            "count": 224,
+            "pick_rate": 1,
+            "escape_rate": 42.77,
+            "survivors": 491,
+            "escapes": 210
+        },
+        {
+            "perk_id": 240,
+            "name": "Alien Instinct",
+            "count": 220,
+            "pick_rate": 0.99,
+            "escape_rate": 47.25,
+            "survivors": 491,
+            "escapes": 232
+        },
+        {
+            "perk_id": 123,
+            "name": "Furtive Chase",
+            "count": 216,
+            "pick_rate": 0.97,
+            "escape_rate": 45.71,
+            "survivors": 501,
+            "escapes": 229
+        },
+        {
+            "perk_id": 86,
+            "name": "Remember Me",
+            "count": 201,
+            "pick_rate": 0.9,
+            "escape_rate": 32.41,
+            "survivors": 435,
+            "escapes": 141
+        },
+        {
+            "perk_id": 219,
+            "name": "Hubris",
+            "count": 199,
+            "pick_rate": 0.89,
+            "escape_rate": 50.48,
+            "survivors": 420,
+            "escapes": 212
+        },
+        {
+            "perk_id": 212,
+            "name": "Awakened Awareness",
+            "count": 197,
+            "pick_rate": 0.88,
+            "escape_rate": 53.21,
+            "survivors": 421,
+            "escapes": 224
+        },
+        {
+            "perk_id": 19,
+            "name": "Insidious",
+            "count": 194,
+            "pick_rate": 0.87,
+            "escape_rate": 52.05,
+            "survivors": 415,
+            "escapes": 216
+        },
+        {
+            "perk_id": 25,
+            "name": "Whispers",
+            "count": 191,
+            "pick_rate": 0.86,
+            "escape_rate": 47.96,
+            "survivors": 417,
+            "escapes": 200
+        },
+        {
+            "perk_id": 136,
+            "name": "Nemesis",
+            "count": 186,
+            "pick_rate": 0.83,
+            "escape_rate": 47.39,
+            "survivors": 403,
+            "escapes": 191
+        },
+        {
+            "perk_id": 166,
+            "name": "Hex: Crowd Control",
+            "count": 179,
+            "pick_rate": 0.8,
+            "escape_rate": 44.1,
+            "survivors": 390,
+            "escapes": 172
+        },
+        {
+            "perk_id": 135,
+            "name": "Blood Echo",
+            "count": 175,
+            "pick_rate": 0.78,
+            "escape_rate": 46.56,
+            "survivors": 378,
+            "escapes": 176
+        },
+        {
+            "perk_id": 234,
+            "name": "Machine Learning",
+            "count": 175,
+            "pick_rate": 0.78,
+            "escape_rate": 39.95,
+            "survivors": 408,
+            "escapes": 163
+        },
+        {
+            "perk_id": 97,
+            "name": "Coulrophobia",
+            "count": 169,
+            "pick_rate": 0.76,
+            "escape_rate": 43.66,
+            "survivors": 355,
+            "escapes": 155
+        },
+        {
+            "perk_id": 258,
+            "name": "Dark Arrogance",
+            "count": 165,
+            "pick_rate": 0.74,
+            "escape_rate": 51.11,
+            "survivors": 360,
+            "escapes": 184
+        },
+        {
+            "perk_id": 233,
+            "name": "Forced Hesitation",
+            "count": 160,
+            "pick_rate": 0.72,
+            "escape_rate": 37.7,
+            "survivors": 366,
+            "escapes": 138
+        },
+        {
+            "perk_id": 115,
+            "name": "Dark Devotion",
+            "count": 159,
+            "pick_rate": 0.71,
+            "escape_rate": 44.26,
+            "survivors": 357,
+            "escapes": 158
+        },
+        {
+            "perk_id": 75,
+            "name": "Beast of Prey",
+            "count": 158,
+            "pick_rate": 0.71,
+            "escape_rate": 60.42,
+            "survivors": 384,
+            "escapes": 232
+        },
+        {
+            "perk_id": 172,
+            "name": "Hysteria",
+            "count": 158,
+            "pick_rate": 0.71,
+            "escape_rate": 44.57,
+            "survivors": 341,
+            "escapes": 152
+        },
+        {
+            "perk_id": 62,
+            "name": "Hex: The Third Seal",
+            "count": 157,
+            "pick_rate": 0.7,
+            "escape_rate": 42.06,
+            "survivors": 359,
+            "escapes": 151
+        },
+        {
+            "perk_id": 143,
+            "name": "Hex: Retribution",
+            "count": 152,
+            "pick_rate": 0.68,
+            "escape_rate": 42.22,
+            "survivors": 360,
+            "escapes": 152
+        },
+        {
+            "perk_id": 83,
+            "name": "Knock Out",
+            "count": 152,
+            "pick_rate": 0.68,
+            "escape_rate": 36.58,
+            "survivors": 339,
+            "escapes": 124
+        },
+        {
+            "perk_id": 49,
+            "name": "Stridor",
+            "count": 149,
+            "pick_rate": 0.67,
+            "escape_rate": 46.85,
+            "survivors": 333,
+            "escapes": 156
+        },
+        {
+            "perk_id": 213,
+            "name": "Terminus",
+            "count": 148,
+            "pick_rate": 0.66,
+            "escape_rate": 48.95,
+            "survivors": 333,
+            "escapes": 163
+        },
+        {
+            "perk_id": 257,
+            "name": "Languid Touch",
+            "count": 136,
+            "pick_rate": 0.61,
+            "escape_rate": 48.2,
+            "survivors": 305,
+            "escapes": 147
+        },
+        {
+            "perk_id": 42,
+            "name": "Bloodhound",
+            "count": 129,
+            "pick_rate": 0.58,
+            "escape_rate": 58.19,
+            "survivors": 299,
+            "escapes": 174
+        },
+        {
+            "perk_id": 44,
+            "name": "Shadowborn",
+            "count": 117,
+            "pick_rate": 0.52,
+            "escape_rate": 56.92,
+            "survivors": 260,
+            "escapes": 148
+        },
+        {
+            "perk_id": 43,
+            "name": "Predator",
+            "count": 114,
+            "pick_rate": 0.51,
+            "escape_rate": 54.65,
+            "survivors": 258,
+            "escapes": 141
+        },
+        {
+            "perk_id": 126,
+            "name": "Cruel Limits",
+            "count": 112,
+            "pick_rate": 0.5,
+            "escape_rate": 50.19,
+            "survivors": 261,
+            "escapes": 131
+        },
+        {
+            "perk_id": 226,
+            "name": "Game Afoot",
+            "count": 112,
+            "pick_rate": 0.5,
+            "escape_rate": 48.44,
+            "survivors": 256,
+            "escapes": 124
+        },
+        {
+            "perk_id": 148,
+            "name": "Forced Penance",
+            "count": 110,
+            "pick_rate": 0.49,
+            "escape_rate": 44.92,
+            "survivors": 236,
+            "escapes": 106
+        },
+        {
+            "perk_id": 244,
+            "name": "Hex: Two Can Play",
+            "count": 108,
+            "pick_rate": 0.48,
+            "escape_rate": 50.81,
+            "survivors": 246,
+            "escapes": 125
+        },
+        {
+            "perk_id": 250,
+            "name": "Unbound",
+            "count": 100,
+            "pick_rate": 0.45,
+            "escape_rate": 53.81,
+            "survivors": 223,
+            "escapes": 120
+        },
+        {
+            "perk_id": 137,
+            "name": "Zanshin Tactics",
+            "count": 99,
+            "pick_rate": 0.44,
+            "escape_rate": 52.94,
+            "survivors": 221,
+            "escapes": 117
+        },
+        {
+            "perk_id": 147,
+            "name": "Deathbound",
+            "count": 83,
+            "pick_rate": 0.37,
+            "escape_rate": 51.61,
+            "survivors": 186,
+            "escapes": 96
+        },
+        {
+            "perk_id": 159,
+            "name": "Hoarder",
+            "count": 80,
+            "pick_rate": 0.36,
+            "escape_rate": 45.9,
+            "survivors": 183,
+            "escapes": 84
+        },
+        {
+            "perk_id": 77,
+            "name": "Territorial Imperative",
+            "count": 81,
+            "pick_rate": 0.36,
+            "escape_rate": 48.95,
+            "survivors": 190,
+            "escapes": 93
+        },
+        {
+            "perk_id": 252,
+            "name": "Undone",
+            "count": 78,
+            "pick_rate": 0.35,
+            "escape_rate": 50.86,
+            "survivors": 175,
+            "escapes": 89
+        },
+        {
+            "perk_id": 227,
+            "name": "THWACK!",
+            "count": 77,
+            "pick_rate": 0.35,
+            "escape_rate": 44.97,
+            "survivors": 189,
+            "escapes": 85
+        },
+        {
+            "perk_id": 71,
+            "name": "Overwhelming Presence",
+            "count": 59,
+            "pick_rate": 0.26,
+            "escape_rate": 52.71,
+            "survivors": 129,
+            "escapes": 68
+        },
+        {
+            "perk_id": 228,
+            "name": "Leverage",
+            "count": 53,
+            "pick_rate": 0.24,
+            "escape_rate": 37.6,
+            "survivors": 125,
+            "escapes": 47
+        },
+        {
+            "perk_id": 203,
+            "name": "Septic Touch",
+            "count": 49,
+            "pick_rate": 0.22,
+            "escape_rate": 48.7,
+            "survivors": 115,
+            "escapes": 56
+        },
+        {
+            "perk_id": 204,
+            "name": "Shattered Hope",
+            "count": 40,
+            "pick_rate": 0.18,
+            "escape_rate": 52.69,
+            "survivors": 93,
+            "escapes": 49
+        },
+        {
+            "perk_id": 232,
+            "name": "Genetic Limits",
+            "count": 41,
+            "pick_rate": 0.18,
+            "escape_rate": 54.44,
+            "survivors": 90,
+            "escapes": 49
+        },
+        {
+            "perk_id": 90,
+            "name": "Scourge Hook: Hangman's Trick",
+            "count": 30,
+            "pick_rate": 0.13,
+            "escape_rate": 44.64,
+            "survivors": 56,
+            "escapes": 25
+        },
+        {
+            "perk_id": 271,
+            "name": "All-Shaking Thunder",
+            "count": 0,
+            "pick_rate": 0,
+            "escape_rate": 0,
+            "survivors": 0,
+            "escapes": 0
+        },
+        {
+            "perk_id": 272,
+            "name": "Scourge Hook: Jagged Compass",
+            "count": 0,
+            "pick_rate": 0,
+            "escape_rate": 0,
+            "survivors": 0,
+            "escapes": 0
+        },
+        {
+            "perk_id": 273,
+            "name": "No Quarter",
+            "count": 0,
+            "pick_rate": 0,
+            "escape_rate": 0,
+            "survivors": 0,
+            "escapes": 0
+        }
+    ]
+}

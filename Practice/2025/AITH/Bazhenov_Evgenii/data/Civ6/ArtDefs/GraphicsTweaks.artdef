@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>471</build>
+		<revision>198</revision>
+	</m_Version>
+	<m_TemplateName text="GraphicsTweaks"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="AO Tweaks"/>
+			<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>3.000000</m_fValue>
+							<m_ParamName text="Power"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Scale"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.100000</m_fValue>
+							<m_ParamName text="Bias"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.025000</m_fValue>
+							<m_ParamName text="Min"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.100000</m_fValue>
+							<m_ParamName text="DirectLightingInfluence"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>6.000000</m_fValue>
+							<m_ParamName text="Radius"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="AO Tweaks001"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="Bounce Lighting Tweaks"/>
+			<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.200000</m_fValue>
+							<m_ParamName text="Intensity"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Bounce Lighting Tweaks001"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="Terrain Lighting"/>
+			<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.200000</m_fValue>
+							<m_ParamName text="Global Fuzz"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Terrain Lighting"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="World Parameters"/>
+			<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>65.000000</m_fValue>
+							<m_ParamName text="WorldMaxHeight"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="World Parameters001"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

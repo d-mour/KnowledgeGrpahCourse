@@ -1,0 +1,310 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 51.478625 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "BirdCallSegment" 
+        xmin = 0 
+        xmax = 51.478625 
+        intervals: size = 41 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.18 
+            text = "" 
+        intervals [2]:
+            xmin = 2.18 
+            xmax = 2.49 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [3]:
+            xmin = 2.49 
+            xmax = 4.78 
+            text = "" 
+        intervals [4]:
+            xmin = 4.78 
+            xmax = 5.08 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [5]:
+            xmin = 5.08 
+            xmax = 6.716802721088436 
+            text = "" 
+        intervals [6]:
+            xmin = 6.716802721088436 
+            xmax = 7.410566893424036 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [7]:
+            xmin = 7.410566893424036 
+            xmax = 8.764331065759636 
+            text = "" 
+        intervals [8]:
+            xmin = 8.764331065759636 
+            xmax = 9.206825396825396 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [9]:
+            xmin = 9.206825396825396 
+            xmax = 10.76390022675737 
+            text = "" 
+        intervals [10]:
+            xmin = 10.76390022675737 
+            xmax = 11.487460317460318 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [11]:
+            xmin = 11.487460317460318 
+            xmax = 12.95 
+            text = "" 
+        intervals [12]:
+            xmin = 12.95 
+            xmax = 13.16 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [13]:
+            xmin = 13.16 
+            xmax = 14.107596371882087 
+            text = "" 
+        intervals [14]:
+            xmin = 14.107596371882087 
+            xmax = 14.438571428571429 
+            text = "" 
+        intervals [15]:
+            xmin = 14.438571428571429 
+            xmax = 15.11 
+            text = "" 
+        intervals [16]:
+            xmin = 15.11 
+            xmax = 15.32 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [17]:
+            xmin = 15.32 
+            xmax = 15.72 
+            text = "" 
+        intervals [18]:
+            xmin = 15.72 
+            xmax = 16.08 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [19]:
+            xmin = 16.08 
+            xmax = 17.06 
+            text = "" 
+        intervals [20]:
+            xmin = 17.06 
+            xmax = 17.44 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [21]:
+            xmin = 17.44 
+            xmax = 20.524852607709754 
+            text = "" 
+        intervals [22]:
+            xmin = 20.524852607709754 
+            xmax = 21.28451247165533 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [23]:
+            xmin = 21.28451247165533 
+            xmax = 23.225873015873017 
+            text = "" 
+        intervals [24]:
+            xmin = 23.225873015873017 
+            xmax = 24.33462585034014 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [25]:
+            xmin = 24.33462585034014 
+            xmax = 26.79 
+            text = "" 
+        intervals [26]:
+            xmin = 26.79 
+            xmax = 27.16 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [27]:
+            xmin = 27.16 
+            xmax = 30.39 
+            text = "" 
+        intervals [28]:
+            xmin = 30.39 
+            xmax = 30.6 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [29]:
+            xmin = 30.6 
+            xmax = 39.52 
+            text = "" 
+        intervals [30]:
+            xmin = 39.52 
+            xmax = 39.89 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [31]:
+            xmin = 39.89 
+            xmax = 40.21 
+            text = "" 
+        intervals [32]:
+            xmin = 40.21 
+            xmax = 42.91 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [33]:
+            xmin = 42.91 
+            xmax = 44.15 
+            text = "" 
+        intervals [34]:
+            xmin = 44.15 
+            xmax = 44.71 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [35]:
+            xmin = 44.71 
+            xmax = 45.22 
+            text = "" 
+        intervals [36]:
+            xmin = 45.22 
+            xmax = 45.47 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [37]:
+            xmin = 45.47 
+            xmax = 45.59 
+            text = "" 
+        intervals [38]:
+            xmin = 45.59 
+            xmax = 45.79 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [39]:
+            xmin = 45.79 
+            xmax = 48.08 
+            text = "" 
+        intervals [40]:
+            xmin = 48.08 
+            xmax = 48.28 
+            text = "species_id=SP001;signal_type=song;overlap_flag=no" 
+        intervals [41]:
+            xmin = 48.28 
+            xmax = 51.478625 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "BackgroundSound" 
+        xmin = 0 
+        xmax = 51.478625 
+        intervals: size = 29 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.18 
+            text = "type=background;intensity=unknown" 
+        intervals [2]:
+            xmin = 2.18 
+            xmax = 2.49 
+            text = "" 
+        intervals [3]:
+            xmin = 2.49 
+            xmax = 4.78 
+            text = "type=background;intensity=unknown" 
+        intervals [4]:
+            xmin = 4.78 
+            xmax = 5.08 
+            text = "" 
+        intervals [5]:
+            xmin = 5.08 
+            xmax = 12.95 
+            text = "type=background;intensity=unknown" 
+        intervals [6]:
+            xmin = 12.95 
+            xmax = 13.16 
+            text = "" 
+        intervals [7]:
+            xmin = 13.16 
+            xmax = 15.11 
+            text = "type=background;intensity=unknown" 
+        intervals [8]:
+            xmin = 15.11 
+            xmax = 15.32 
+            text = "" 
+        intervals [9]:
+            xmin = 15.32 
+            xmax = 15.72 
+            text = "type=background;intensity=unknown" 
+        intervals [10]:
+            xmin = 15.72 
+            xmax = 16.08 
+            text = "" 
+        intervals [11]:
+            xmin = 16.08 
+            xmax = 17.06 
+            text = "type=background;intensity=unknown" 
+        intervals [12]:
+            xmin = 17.06 
+            xmax = 17.44 
+            text = "" 
+        intervals [13]:
+            xmin = 17.44 
+            xmax = 26.79 
+            text = "type=background;intensity=unknown" 
+        intervals [14]:
+            xmin = 26.79 
+            xmax = 27.16 
+            text = "" 
+        intervals [15]:
+            xmin = 27.16 
+            xmax = 30.39 
+            text = "type=background;intensity=unknown" 
+        intervals [16]:
+            xmin = 30.39 
+            xmax = 30.6 
+            text = "" 
+        intervals [17]:
+            xmin = 30.6 
+            xmax = 39.52 
+            text = "type=background;intensity=unknown" 
+        intervals [18]:
+            xmin = 39.52 
+            xmax = 39.89 
+            text = "" 
+        intervals [19]:
+            xmin = 39.89 
+            xmax = 40.21 
+            text = "type=background;intensity=unknown" 
+        intervals [20]:
+            xmin = 40.21 
+            xmax = 42.91 
+            text = "" 
+        intervals [21]:
+            xmin = 42.91 
+            xmax = 44.15 
+            text = "type=background;intensity=unknown" 
+        intervals [22]:
+            xmin = 44.15 
+            xmax = 44.71 
+            text = "" 
+        intervals [23]:
+            xmin = 44.71 
+            xmax = 45.22 
+            text = "type=background;intensity=unknown" 
+        intervals [24]:
+            xmin = 45.22 
+            xmax = 45.47 
+            text = "" 
+        intervals [25]:
+            xmin = 45.47 
+            xmax = 45.59 
+            text = "type=background;intensity=unknown" 
+        intervals [26]:
+            xmin = 45.59 
+            xmax = 45.79 
+            text = "" 
+        intervals [27]:
+            xmin = 45.79 
+            xmax = 48.08 
+            text = "type=background;intensity=unknown" 
+        intervals [28]:
+            xmin = 48.08 
+            xmax = 48.28 
+            text = "" 
+        intervals [29]:
+            xmin = 48.28 
+            xmax = 51.478625 
+            text = "type=background;intensity=unknown" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "Meta" 
+        xmin = 0 
+        xmax = 51.478625 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 51.478625 
+            text = "quality=auto_generated_energy" 

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.semanticweb.org/fqy/ontologies/2025/9/untitled-ontology-7"
+         xmlns="http://www.semanticweb.org/fqy/ontologies/2025/9/untitled-ontology-7#">
+
+<owl:Ontology rdf:about="http://www.semanticweb.org/fqy/ontologies/2025/9/untitled-ontology-7"/>
+
+<owl:ObjectProperty rdf:about="#MadeBy">
+  <rdfs:domain rdf:resource="#Part"/>
+  <rdfs:domain rdf:resource="#Vehicle"/>
+  <rdfs:range rdf:resource="#Manufacturer"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#StyledAs">
+  <rdfs:domain rdf:resource="#Vehicle"/>
+  <rdfs:range rdf:resource="#BodyStyle"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#Tested">
+  <rdfs:domain rdf:resource="#CrashTest"/>
+  <rdfs:range rdf:resource="#Vehicle"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#WhereIs">
+  <rdfs:domain rdf:resource="#Manufacturer"/>
+  <rdfs:range rdf:resource="#Country"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasEngine">
+  <rdfs:domain rdf:resource="#Vehicle"/>
+  <rdfs:range rdf:resource="#Engine"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasSafetySystem">
+  <rdfs:domain rdf:resource="#Vehicle"/>
+  <rdfs:range rdf:resource="#SafetySystem"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasSegment">
+  <rdfs:domain rdf:resource="#Vehicle"/>
+  <rdfs:range rdf:resource="#MarketSegment"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasTransmission">
+  <rdfs:domain rdf:resource="#Vehicle"/>
+  <rdfs:range rdf:resource="#Transmission"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#Part"/>
+
+<owl:Class rdf:about="#Vehicle"/>
+
+<owl:Class rdf:about="#Manufacturer"/>
+
+<owl:Class rdf:about="#BodyStyle"/>
+
+<owl:Class rdf:about="#CrashTest"/>
+
+<owl:Class rdf:about="#Country"/>
+
+<owl:Class rdf:about="#Engine">
+  <rdfs:subClassOf rdf:resource="#Part"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SafetySystem"/>
+
+<owl:Class rdf:about="#MarketSegment"/>
+
+<owl:Class rdf:about="#Transmission">
+  <rdfs:subClassOf rdf:resource="#Part"/>
+</owl:Class>
+
+
+</rdf:RDF>

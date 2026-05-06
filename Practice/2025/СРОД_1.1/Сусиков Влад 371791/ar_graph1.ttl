@@ -1,0 +1,413 @@
+@prefix ex: <http://example.org/ar/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Annotation a rdfs:Class .
+
+ex:Category a rdfs:Class .
+
+ex:Image a rdfs:Class .
+
+ex:StoryNode a rdfs:Class .
+
+<http://example.org/ar/Annotation/1139832> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/1140692> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/1141007> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/1146908> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/1147401> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/1147732> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/1147866> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/1148036> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/1149532> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/13714> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/dog> ;
+    ex:onImage <http://example.org/ar/Image/67213> .
+
+<http://example.org/ar/Annotation/13820> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/dog> ;
+    ex:onImage <http://example.org/ar/Image/52891> .
+
+<http://example.org/ar/Annotation/1398911> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/1399880> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/1400066> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/1401066> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/1401185> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/1401373> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/1401446> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/1401845> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/1401880> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/1401911> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/1401954> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/1401981> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/1401992> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/1648538> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/1648666> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/1649126> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/1649194> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/1650727> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/1655765> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/1656737> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/1657829> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/1659167> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/1659212> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/1659617> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/1659861> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/1659893> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/1660152> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/1661386> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/1662144> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/1662719> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/1663254> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/1663355> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/1663439> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/1663468> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/1665704> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/clock> ;
+    ex:onImage <http://example.org/ar/Image/36678> .
+
+<http://example.org/ar/Annotation/1665804> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/clock> ;
+    ex:onImage <http://example.org/ar/Image/36678> .
+
+<http://example.org/ar/Annotation/1814366> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/2065487> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/2065935> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/2066077> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/2066174> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/2066231> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/2066385> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/2066419> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/2066499> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/2066518> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/2066541> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/2066566> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/2066584> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/120420> .
+
+<http://example.org/ar/Annotation/2142395> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/2143701> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/2144149> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/2144187> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/2144337> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/2144375> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/2144507> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/2144529> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/2144554> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/26564> .
+
+<http://example.org/ar/Annotation/334018> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/clock> ;
+    ex:onImage <http://example.org/ar/Image/1296> .
+
+<http://example.org/ar/Annotation/48089> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/cat> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/Annotation/50752> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/cat> ;
+    ex:onImage <http://example.org/ar/Image/84650> .
+
+<http://example.org/ar/Annotation/901600049761> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/bird> ;
+    ex:onImage <http://example.org/ar/Image/49761> .
+
+<http://example.org/ar/Annotation/908400037740> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/37740> .
+
+<http://example.org/ar/Annotation/908400134882> a ex:Annotation ;
+    ex:hasCategory <http://example.org/ar/Category/book> ;
+    ex:onImage <http://example.org/ar/Image/134882> .
+
+<http://example.org/ar/StoryNode/1> a ex:StoryNode ;
+    ex:prompt "В утреннем саду слышен резкий крик и шелест крыльев. Что-то мелькает среди кустов. Что это может быть?" ;
+    ex:reveal "Это птица, вспорхнувшая с забора, оставив перо возле гнезда." .
+
+<http://example.org/ar/StoryNode/2> a ex:StoryNode ;
+    ex:prompt "На ветке у забора кто-то только что сидел, оставив яркое перо. Что за существо это могло быть?" ;
+    ex:reveal "Это была птица, наблюдавшая за происходящим с высоты." ;
+    ex:targets <http://example.org/ar/Category/bird> .
+
+<http://example.org/ar/StoryNode/3> a ex:StoryNode ;
+    ex:prompt "Под деревом кто-то скрывается в тени. Наведите, чтобы выяснить, кто это." ;
+    ex:reveal "Это кот, свернувшийся клубком, следивший за птичьим гнездом." ;
+    ex:targets <http://example.org/ar/Category/cat> .
+
+<http://example.org/ar/StoryNode/4> a ex:StoryNode ;
+    ex:prompt "Из-за угла выскакивает нечто лохматое и громкое. Кто это прибежал так вовремя?" ;
+    ex:reveal "Это собака, спугнувшая кота и защитившая гнездо. История заканчивается хорошо." ;
+    ex:targets <http://example.org/ar/Category/dog> .
+
+ex:fileName a rdf:Property .
+
+ex:hasCategory a rdf:Property .
+
+ex:height a rdf:Property .
+
+ex:onImage a rdf:Property .
+
+ex:prompt a rdf:Property .
+
+ex:reveal a rdf:Property .
+
+ex:targets a rdf:Property .
+
+ex:width a rdf:Property .
+
+<http://example.org/ar/Image/1296> a ex:Image ;
+    ex:fileName "000000001296.jpg" ;
+    ex:height 640 ;
+    ex:width 427 .
+
+<http://example.org/ar/Image/52891> a ex:Image ;
+    ex:fileName "000000052891.jpg" ;
+    ex:height 427 ;
+    ex:width 640 .
+
+<http://example.org/ar/Image/67213> a ex:Image ;
+    ex:fileName "000000067213.jpg" ;
+    ex:height 485 ;
+    ex:width 640 .
+
+<http://example.org/ar/Image/84650> a ex:Image ;
+    ex:fileName "000000084650.jpg" ;
+    ex:height 480 ;
+    ex:width 640 .
+
+<http://example.org/ar/Image/36678> a ex:Image ;
+    ex:fileName "000000036678.jpg" ;
+    ex:height 361 ;
+    ex:width 640 .
+
+<http://example.org/ar/Category/cat> a ex:Category ;
+    rdfs:label "cat" .
+
+<http://example.org/ar/Category/clock> a ex:Category ;
+    rdfs:label "clock" .
+
+<http://example.org/ar/Category/dog> a ex:Category ;
+    rdfs:label "dog" .
+
+<http://example.org/ar/Image/120420> a ex:Image ;
+    ex:fileName "000000120420.jpg" ;
+    ex:height 480 ;
+    ex:width 640 .
+
+<http://example.org/ar/Image/26564> a ex:Image ;
+    ex:fileName "000000026564.jpg" ;
+    ex:height 426 ;
+    ex:width 640 .
+
+<http://example.org/ar/Image/37740> a ex:Image ;
+    ex:fileName "000000037740.jpg" ;
+    ex:height 480 ;
+    ex:width 640 .
+
+<http://example.org/ar/Image/49761> a ex:Image ;
+    ex:fileName "000000049761.jpg" ;
+    ex:height 479 ;
+    ex:width 640 .
+
+<http://example.org/ar/Image/134882> a ex:Image ;
+    ex:fileName "000000134882.jpg" ;
+    ex:height 639 ;
+    ex:width 640 .
+
+<http://example.org/ar/Category/bird> a ex:Category ;
+    rdfs:label "bird" .
+
+<http://example.org/ar/Category/book> a ex:Category ;
+    rdfs:label "book" .
+

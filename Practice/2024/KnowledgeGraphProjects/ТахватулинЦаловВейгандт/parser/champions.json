@@ -1,0 +1,1555 @@
+[{
+    "Champion": "Miss Fortune",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 20.0,
+    "WinRate": 52.8,
+    "BanRate": 18.7
+},
+{
+    "Champion": "Jinx",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 19.0,
+    "WinRate": 50.7,
+    "BanRate": 4.6
+},
+{
+    "Champion": "Ezreal",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 18.6,
+    "WinRate": 48.8,
+    "BanRate": 5.8
+},
+{
+    "Champion": "Caitlyn",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 18.4,
+    "WinRate": 49.6,
+    "BanRate": 26.8
+},
+{
+    "Champion": "Viego",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 17.3,
+    "WinRate": 50.8,
+    "BanRate": 19.6
+},
+{
+    "Champion": "Lee Sin",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 16.2,
+    "WinRate": 49.2,
+    "BanRate": 14.0
+},
+{
+    "Champion": "Viktor",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 16.0,
+    "WinRate": 51.3,
+    "BanRate": 35.7
+},
+{
+    "Champion": "Jhin",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 15.2,
+    "WinRate": 48.9,
+    "BanRate": 2.8
+},
+{
+    "Champion": "Lux",
+    "Role": [
+        "Support",
+        "Mid"
+    ],
+    "PickRate": 15.0,
+    "WinRate": 51.0,
+    "BanRate": 7.9
+},
+{
+    "Champion": "Lulu",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 14.0,
+    "WinRate": 51.7,
+    "BanRate": 20.3
+},
+{
+    "Champion": "Wukong",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 12.9,
+    "WinRate": 52.0,
+    "BanRate": 15.7
+},
+{
+    "Champion": "Thresh",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 12.3,
+    "WinRate": 49.2,
+    "BanRate": 5.5
+},
+{
+    "Champion": "Kai'Sa",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 11.6,
+    "WinRate": 48.4,
+    "BanRate": 1.4
+},
+{
+    "Champion": "Sylas",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 11.5,
+    "WinRate": 49.0,
+    "BanRate": 10.7
+},
+{
+    "Champion": "Yone",
+    "Role": [
+        "Mid",
+        "Top"
+    ],
+    "PickRate": 11.4,
+    "WinRate": 47.8,
+    "BanRate": 9.6
+},
+{
+    "Champion": "Yasuo",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 11.0,
+    "WinRate": 48.4,
+    "BanRate": 17.7
+},
+{
+    "Champion": "Nami",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 10.6,
+    "WinRate": 52.2,
+    "BanRate": 1.3
+},
+{
+    "Champion": "Corki",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 10.3,
+    "WinRate": 50.1,
+    "BanRate": 7.6
+},
+{
+    "Champion": "Ashe",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 10.2,
+    "WinRate": 48.0,
+    "BanRate": 7.5
+},
+{
+    "Champion": "Karma",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 10.0,
+    "WinRate": 49.8,
+    "BanRate": 4.5
+},
+{
+    "Champion": "Darius",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 9.4,
+    "WinRate": 50.7,
+    "BanRate": 19.5
+},
+{
+    "Champion": "Ahri",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 9.3,
+    "WinRate": 50.2,
+    "BanRate": 3.8
+},
+{
+    "Champion": "Diana",
+    "Role": [
+        "Jungler",
+        "Mid"
+    ],
+    "PickRate": 9.2,
+    "WinRate": 50.4,
+    "BanRate": 3.1
+},
+{
+    "Champion": "Jayce",
+    "Role": [
+        "Top",
+        "Mid"
+    ],
+    "PickRate": 8.8,
+    "WinRate": 47.7,
+    "BanRate": 5.2
+},
+{
+    "Champion": "Hwei",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 8.8,
+    "WinRate": 51.2,
+    "BanRate": 7.9
+},
+{
+    "Champion": "Irelia",
+    "Role": [
+        "Top",
+        "Mid"
+    ],
+    "PickRate": 8.6,
+    "WinRate": 51.3,
+    "BanRate": 23.0
+},
+{
+    "Champion": "Nautilus",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 8.5,
+    "WinRate": 48.4,
+    "BanRate": 13.1
+},
+{
+    "Champion": "Tahm Kench",
+    "Role": [
+        "Support",
+        "Top"
+    ],
+    "PickRate": 8.4,
+    "WinRate": 50.8,
+    "BanRate": 15.4
+},
+{
+    "Champion": "Garen",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 8.3,
+    "WinRate": 50.3,
+    "BanRate": 4.0
+},
+{
+    "Champion": "Varus",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 8.2,
+    "WinRate": 49.2,
+    "BanRate": 1.3
+},
+{
+    "Champion": "Nocturne",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 8.0,
+    "WinRate": 52.3,
+    "BanRate": 13.3
+},
+{
+    "Champion": "Aatrox",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 7.9,
+    "WinRate": 50.2,
+    "BanRate": 10.3
+},
+{
+    "Champion": "Mordekaiser",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 7.8,
+    "WinRate": 51.3,
+    "BanRate": 10.5
+},
+{
+    "Champion": "Akali",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 7.8,
+    "WinRate": 49.1,
+    "BanRate": 10.3
+},
+{
+    "Champion": "Graves",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 7.8,
+    "WinRate": 48.9,
+    "BanRate": 8.8
+},
+{
+    "Champion": "Vayne",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 7.6,
+    "WinRate": 51.4,
+    "BanRate": 4.0
+},
+{
+    "Champion": "Galio",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 7.5,
+    "WinRate": 51.3,
+    "BanRate": 4.5
+},
+{
+    "Champion": "Xerath",
+    "Role": [
+        "Mid",
+        "Support"
+    ],
+    "PickRate": 7.5,
+    "WinRate": 50.1,
+    "BanRate": 6.3
+},
+{
+    "Champion": "Kayn",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 7.5,
+    "WinRate": 50.0,
+    "BanRate": 5.7
+},
+{
+    "Champion": "Warwick",
+    "Role": [
+        "Jungler",
+        "Top"
+    ],
+    "PickRate": 7.4,
+    "WinRate": 52.2,
+    "BanRate": 14.0
+},
+{
+    "Champion": "Maokai",
+    "Role": [
+        "Support",
+        "Top"
+    ],
+    "PickRate": 7.4,
+    "WinRate": 50.9,
+    "BanRate": 3.0
+},
+{
+    "Champion": "Vladimir",
+    "Role": [
+        "Mid",
+        "Top"
+    ],
+    "PickRate": 7.4,
+    "WinRate": 50.4,
+    "BanRate": 5.8
+},
+{
+    "Champion": "Katarina",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 7.4,
+    "WinRate": 47.9,
+    "BanRate": 7.1
+},
+{
+    "Champion": "Elise",
+    "Role": [
+        "Jungler",
+        "Support"
+    ],
+    "PickRate": 7.4,
+    "WinRate": 47.7,
+    "BanRate": 6.2
+},
+{
+    "Champion": "Gragas",
+    "Role": [
+        "Top",
+        "Jungler"
+    ],
+    "PickRate": 7.3,
+    "WinRate": 48.7,
+    "BanRate": 3.4
+},
+{
+    "Champion": "Zed",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 7.2,
+    "WinRate": 48.2,
+    "BanRate": 17.5
+},
+{
+    "Champion": "Syndra",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 7.1,
+    "WinRate": 50.2,
+    "BanRate": 4.6
+},
+{
+    "Champion": "Aurora",
+    "Role": [
+        "Mid",
+        "Top"
+    ],
+    "PickRate": 7.1,
+    "WinRate": 49.2,
+    "BanRate": 13.6
+},
+{
+    "Champion": "Volibear",
+    "Role": [
+        "Top",
+        "Jungler"
+    ],
+    "PickRate": 6.9,
+    "WinRate": 50.5,
+    "BanRate": 5.1
+},
+{
+    "Champion": "Amumu",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 6.9,
+    "WinRate": 52.1,
+    "BanRate": 4.8
+},
+{
+    "Champion": "Jarvan IV",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 6.9,
+    "WinRate": 51.2,
+    "BanRate": 1.8
+},
+{
+    "Champion": "Rell",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 6.9,
+    "WinRate": 51.4,
+    "BanRate": 3.8
+},
+{
+    "Champion": "Vi",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 6.8,
+    "WinRate": 49.9,
+    "BanRate": 2.0
+},
+{
+    "Champion": "Swain",
+    "Role": [
+        "Support",
+        "Mid",
+        "AD Carry"
+    ],
+    "PickRate": 6.7,
+    "WinRate": 48.9,
+    "BanRate": 4.2
+},
+{
+    "Champion": "Sett",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 6.7,
+    "WinRate": 50.9,
+    "BanRate": 1.7
+},
+{
+    "Champion": "Ambessa",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 6.6,
+    "WinRate": 48.1,
+    "BanRate": 23.6
+},
+{
+    "Champion": "Pyke",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 6.6,
+    "WinRate": 47.6,
+    "BanRate": 23.5
+},
+{
+    "Champion": "Leona",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 6.4,
+    "WinRate": 49.5,
+    "BanRate": 5.9
+},
+{
+    "Champion": "Cho'Gath",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 6.3,
+    "WinRate": 51.0,
+    "BanRate": 1.5
+},
+{
+    "Champion": "Cassiopeia",
+    "Role": [
+        "Mid",
+        "Top"
+    ],
+    "PickRate": 6.2,
+    "WinRate": 52.3,
+    "BanRate": 13.8
+},
+{
+    "Champion": "Braum",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 6.2,
+    "WinRate": 50.2,
+    "BanRate": 5.4
+},
+{
+    "Champion": "Ekko",
+    "Role": [
+        "Jungler",
+        "Mid"
+    ],
+    "PickRate": 6.1,
+    "WinRate": 49.2,
+    "BanRate": 1.3
+},
+{
+    "Champion": "Malzahar",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 6.1,
+    "WinRate": 51.0,
+    "BanRate": 6.9
+},
+{
+    "Champion": "Pantheon",
+    "Role": [
+        "Support",
+        "Top"
+    ],
+    "PickRate": 6.1,
+    "WinRate": 50.5,
+    "BanRate": 1.6
+},
+{
+    "Champion": "Twitch",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 6.0,
+    "WinRate": 50.4,
+    "BanRate": 2.7
+},
+{
+    "Champion": "Malphite",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 6.0,
+    "WinRate": 50.3,
+    "BanRate": 6.9
+},
+{
+    "Champion": "Lucian",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 6.0,
+    "WinRate": 49.2,
+    "BanRate": 0.9
+},
+{
+    "Champion": "Smolder",
+    "Role": [
+        "AD Carry",
+        "Mid"
+    ],
+    "PickRate": 5.9,
+    "WinRate": 47.0,
+    "BanRate": 2.3
+},
+{
+    "Champion": "Milio",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 5.9,
+    "WinRate": 51.7,
+    "BanRate": 3.4
+},
+{
+    "Champion": "Janna",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 5.8,
+    "WinRate": 51.6,
+    "BanRate": 2.1
+},
+{
+    "Champion": "Blitzcrank",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 5.7,
+    "WinRate": 48.7,
+    "BanRate": 17.5
+},
+{
+    "Champion": "Shaco",
+    "Role": [
+        "Jungler",
+        "Support"
+    ],
+    "PickRate": 5.7,
+    "WinRate": 48.7,
+    "BanRate": 19.8
+},
+{
+    "Champion": "Senna",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 5.6,
+    "WinRate": 50.8,
+    "BanRate": 1.6
+},
+{
+    "Champion": "Poppy",
+    "Role": [
+        "Support",
+        "Top"
+    ],
+    "PickRate": 5.6,
+    "WinRate": 50.4,
+    "BanRate": 7.0
+},
+{
+    "Champion": "K'Sante",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 5.5,
+    "WinRate": 47.7,
+    "BanRate": 6.6
+},
+{
+    "Champion": "LeBlanc",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 5.5,
+    "WinRate": 47.8,
+    "BanRate": 16.6
+},
+{
+    "Champion": "Skarner",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 5.4,
+    "WinRate": 50.1,
+    "BanRate": 11.9
+},
+{
+    "Champion": "Zyra",
+    "Role": [
+        "Support",
+        "Jungler"
+    ],
+    "PickRate": 5.4,
+    "WinRate": 50.9,
+    "BanRate": 3.9
+},
+{
+    "Champion": "Renekton",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 5.4,
+    "WinRate": 49.7,
+    "BanRate": 4.0
+},
+{
+    "Champion": "Yuumi",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 5.3,
+    "WinRate": 48.3,
+    "BanRate": 6.8
+},
+{
+    "Champion": "Riven",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 5.3,
+    "WinRate": 50.8,
+    "BanRate": 2.7
+},
+{
+    "Champion": "Morgana",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 5.3,
+    "WinRate": 50.9,
+    "BanRate": 18.7
+},
+{
+    "Champion": "Veigar",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 5.3,
+    "WinRate": 51.5,
+    "BanRate": 1.3
+},
+{
+    "Champion": "Draven",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 5.1,
+    "WinRate": 47.9,
+    "BanRate": 19.1
+},
+{
+    "Champion": "Sion",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 5.1,
+    "WinRate": 49.3,
+    "BanRate": 1.1
+},
+{
+    "Champion": "Jax",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 5.0,
+    "WinRate": 47.9,
+    "BanRate": 5.7
+},
+{
+    "Champion": "Kha'Zix",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 5.0,
+    "WinRate": 48.9,
+    "BanRate": 4.2
+},
+{
+    "Champion": "Master Yi",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 5.0,
+    "WinRate": 48.1,
+    "BanRate": 6.8
+},
+{
+    "Champion": "Vel'Koz",
+    "Role": [
+        "Support",
+        "Mid"
+    ],
+    "PickRate": 5.0,
+    "WinRate": 51.8,
+    "BanRate": 1.3
+},
+{
+    "Champion": "Teemo",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 5.0,
+    "WinRate": 51.3,
+    "BanRate": 7.9
+},
+{
+    "Champion": "Seraphine",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 5.0,
+    "WinRate": 49.8,
+    "BanRate": 1.3
+},
+{
+    "Champion": "Zac",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 4.9,
+    "WinRate": 49.6,
+    "BanRate": 2.7
+},
+{
+    "Champion": "Samira",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 4.9,
+    "WinRate": 48.8,
+    "BanRate": 6.9
+},
+{
+    "Champion": "Gwen",
+    "Role": [
+        "Top",
+        "Jungler"
+    ],
+    "PickRate": 4.9,
+    "WinRate": 50.5,
+    "BanRate": 4.0
+},
+{
+    "Champion": "Soraka",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 4.8,
+    "WinRate": 51.4,
+    "BanRate": 2.2
+},
+{
+    "Champion": "Orianna",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 4.7,
+    "WinRate": 49.4,
+    "BanRate": 0.7
+},
+{
+    "Champion": "Xin Zhao",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 4.7,
+    "WinRate": 51.1,
+    "BanRate": 0.9
+},
+{
+    "Champion": "Shen",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 4.6,
+    "WinRate": 50.0,
+    "BanRate": 0.6
+},
+{
+    "Champion": "Hecarim",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 4.6,
+    "WinRate": 49.9,
+    "BanRate": 2.9
+},
+{
+    "Champion": "Ornn",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 4.5,
+    "WinRate": 51.4,
+    "BanRate": 0.8
+},
+{
+    "Champion": "Gnar",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 4.3,
+    "WinRate": 50.7,
+    "BanRate": 1.6
+},
+{
+    "Champion": "Talon",
+    "Role": [
+        "Mid",
+        "Jungler"
+    ],
+    "PickRate": 4.3,
+    "WinRate": 50.3,
+    "BanRate": 1.2
+},
+{
+    "Champion": "Lillia",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 4.1,
+    "WinRate": 50.0,
+    "BanRate": 3.9
+},
+{
+    "Champion": "Sivir",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 4.1,
+    "WinRate": 50.9,
+    "BanRate": 0.8
+},
+{
+    "Champion": "Urgot",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 4.1,
+    "WinRate": 51.9,
+    "BanRate": 1.2
+},
+{
+    "Champion": "Brand",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 4.0,
+    "WinRate": 49.6,
+    "BanRate": 2.8
+},
+{
+    "Champion": "Rakan",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 4.0,
+    "WinRate": 48.8,
+    "BanRate": 0.4
+},
+{
+    "Champion": "Aphelios",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 4.0,
+    "WinRate": 48.6,
+    "BanRate": 0.8
+},
+{
+    "Champion": "Alistar",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 3.9,
+    "WinRate": 48.9,
+    "BanRate": 1.3
+},
+{
+    "Champion": "Dr. Mundo",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 3.9,
+    "WinRate": 49.6,
+    "BanRate": 2.6
+},
+{
+    "Champion": "Trundle",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 3.8,
+    "WinRate": 50.0,
+    "BanRate": 1.4
+},
+{
+    "Champion": "Lissandra",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 3.8,
+    "WinRate": 50.4,
+    "BanRate": 1.7
+},
+{
+    "Champion": "Tristana",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 3.8,
+    "WinRate": 48.4,
+    "BanRate": 0.5
+},
+{
+    "Champion": "Zoe",
+    "Role": [
+        "Mid",
+        "Support"
+    ],
+    "PickRate": 3.8,
+    "WinRate": 48.9,
+    "BanRate": 1.7
+},
+{
+    "Champion": "Kayle",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 3.7,
+    "WinRate": 52.6,
+    "BanRate": 1.4
+},
+{
+    "Champion": "Yorick",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 3.7,
+    "WinRate": 50.6,
+    "BanRate": 4.9
+},
+{
+    "Champion": "Briar",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 3.6,
+    "WinRate": 51.3,
+    "BanRate": 3.6
+},
+{
+    "Champion": "Nunu & Willump",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 3.6,
+    "WinRate": 50.0,
+    "BanRate": 0.9
+},
+{
+    "Champion": "Camille",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 3.6,
+    "WinRate": 49.3,
+    "BanRate": 1.8
+},
+{
+    "Champion": "Xayah",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 3.6,
+    "WinRate": 50.4,
+    "BanRate": 0.5
+},
+{
+    "Champion": "Gangplank",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 3.5,
+    "WinRate": 47.6,
+    "BanRate": 1.3
+},
+{
+    "Champion": "Bard",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 3.4,
+    "WinRate": 49.9,
+    "BanRate": 0.5
+},
+{
+    "Champion": "Kindred",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 3.4,
+    "WinRate": 49.7,
+    "BanRate": 2.2
+},
+{
+    "Champion": "Nidalee",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 3.3,
+    "WinRate": 47.0,
+    "BanRate": 1.9
+},
+{
+    "Champion": "Fiora",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 3.3,
+    "WinRate": 49.8,
+    "BanRate": 5.5
+},
+{
+    "Champion": "Udyr",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 3.3,
+    "WinRate": 49.8,
+    "BanRate": 2.6
+},
+{
+    "Champion": "Kalista",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 3.3,
+    "WinRate": 48.3,
+    "BanRate": 1.0
+},
+{
+    "Champion": "Fiddlesticks",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 3.3,
+    "WinRate": 51.1,
+    "BanRate": 1.7
+},
+{
+    "Champion": "Sejuani",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 3.2,
+    "WinRate": 49.8,
+    "BanRate": 0.4
+},
+{
+    "Champion": "Neeko",
+    "Role": [
+        "Support",
+        "Mid"
+    ],
+    "PickRate": 3.2,
+    "WinRate": 49.9,
+    "BanRate": 0.9
+},
+{
+    "Champion": "Vex",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 3.2,
+    "WinRate": 50.5,
+    "BanRate": 4.2
+},
+{
+    "Champion": "Karthus",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 3.1,
+    "WinRate": 48.4,
+    "BanRate": 4.9
+},
+{
+    "Champion": "Taliyah",
+    "Role": [
+        "Mid",
+        "Jungler"
+    ],
+    "PickRate": 3.1,
+    "WinRate": 50.6,
+    "BanRate": 0.8
+},
+{
+    "Champion": "Nasus",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 3.1,
+    "WinRate": 48.9,
+    "BanRate": 3.9
+},
+{
+    "Champion": "Ryze",
+    "Role": [
+        "Mid",
+        "Top"
+    ],
+    "PickRate": 3.0,
+    "WinRate": 50.9,
+    "BanRate": 0.4
+},
+{
+    "Champion": "Akshan",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 3.0,
+    "WinRate": 50.0,
+    "BanRate": 2.2
+},
+{
+    "Champion": "Zilean",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 3.0,
+    "WinRate": 50.8,
+    "BanRate": 1.0
+},
+{
+    "Champion": "Fizz",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 2.9,
+    "WinRate": 47.7,
+    "BanRate": 4.3
+},
+{
+    "Champion": "Ziggs",
+    "Role": [
+        "AD Carry",
+        "Mid"
+    ],
+    "PickRate": 2.9,
+    "WinRate": 50.0,
+    "BanRate": 0.8
+},
+{
+    "Champion": "Rengar",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 2.8,
+    "WinRate": 46.5,
+    "BanRate": 2.9
+},
+{
+    "Champion": "Kog'Maw",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 2.7,
+    "WinRate": 52.2,
+    "BanRate": 1.1
+},
+{
+    "Champion": "Tryndamere",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 2.7,
+    "WinRate": 49.4,
+    "BanRate": 1.8
+},
+{
+    "Champion": "Twisted Fate",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 2.7,
+    "WinRate": 49.4,
+    "BanRate": 0.2
+},
+{
+    "Champion": "Illaoi",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 2.6,
+    "WinRate": 49.8,
+    "BanRate": 6.5
+},
+{
+    "Champion": "Anivia",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 2.6,
+    "WinRate": 51.3,
+    "BanRate": 1.6
+},
+{
+    "Champion": "Singed",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 2.5,
+    "WinRate": 51.0,
+    "BanRate": 0.5
+},
+{
+    "Champion": "Sona",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 2.5,
+    "WinRate": 51.2,
+    "BanRate": 0.1
+},
+{
+    "Champion": "Azir",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 2.5,
+    "WinRate": 47.6,
+    "BanRate": 0.3
+},
+{
+    "Champion": "Zeri",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 2.4,
+    "WinRate": 49.0,
+    "BanRate": 0.3
+},
+{
+    "Champion": "Bel'Veth",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 2.4,
+    "WinRate": 49.4,
+    "BanRate": 3.2
+},
+{
+    "Champion": "Rumble",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 2.4,
+    "WinRate": 48.8,
+    "BanRate": 0.6
+},
+{
+    "Champion": "Renata Glasc",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 2.3,
+    "WinRate": 49.7,
+    "BanRate": 0.4
+},
+{
+    "Champion": "Aurelion Sol",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 2.3,
+    "WinRate": 49.8,
+    "BanRate": 0.9
+},
+{
+    "Champion": "Qiyana",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 2.3,
+    "WinRate": 49.3,
+    "BanRate": 0.5
+},
+{
+    "Champion": "Kassadin",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 2.3,
+    "WinRate": 48.9,
+    "BanRate": 2.2
+},
+{
+    "Champion": "Kennen",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 2.2,
+    "WinRate": 50.6,
+    "BanRate": 1.0
+},
+{
+    "Champion": "Heimerdinger",
+    "Role": [
+        "Top",
+        "Mid"
+    ],
+    "PickRate": 2.1,
+    "WinRate": 51.6,
+    "BanRate": 1.2
+},
+{
+    "Champion": "Nilah",
+    "Role": [
+        "AD Carry"
+    ],
+    "PickRate": 1.9,
+    "WinRate": 52.5,
+    "BanRate": 3.2
+},
+{
+    "Champion": "Shyvana",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 1.9,
+    "WinRate": 50.8,
+    "BanRate": 0.4
+},
+{
+    "Champion": "Olaf",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 1.8,
+    "WinRate": 51.0,
+    "BanRate": 1.1
+},
+{
+    "Champion": "Evelynn",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 1.8,
+    "WinRate": 47.0,
+    "BanRate": 2.7
+},
+{
+    "Champion": "Taric",
+    "Role": [
+        "Support"
+    ],
+    "PickRate": 1.8,
+    "WinRate": 52.5,
+    "BanRate": 0.4
+},
+{
+    "Champion": "Annie",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 1.7,
+    "WinRate": 51.3,
+    "BanRate": 0.3
+},
+{
+    "Champion": "Rammus",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 1.6,
+    "WinRate": 49.6,
+    "BanRate": 3.8
+},
+{
+    "Champion": "Kled",
+    "Role": [
+        "Top"
+    ],
+    "PickRate": 1.6,
+    "WinRate": 51.2,
+    "BanRate": 0.6
+},
+{
+    "Champion": "Naafiri",
+    "Role": [
+        "Mid"
+    ],
+    "PickRate": 1.6,
+    "WinRate": 50.4,
+    "BanRate": 0.7
+},
+{
+    "Champion": "Ivern",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 1.5,
+    "WinRate": 50.5,
+    "BanRate": 0.5
+},
+{
+    "Champion": "Rek'Sai",
+    "Role": [
+        "Jungler"
+    ],
+    "PickRate": 1.3,
+    "WinRate": 49.7,
+    "BanRate": 0.4
+},
+{
+    "Champion": "Quinn",
+    "Role": [
+        "Top",
+        "Mid"
+    ],
+    "PickRate": 1.1,
+    "WinRate": 48.9,
+    "BanRate": 0.4
+}
+]

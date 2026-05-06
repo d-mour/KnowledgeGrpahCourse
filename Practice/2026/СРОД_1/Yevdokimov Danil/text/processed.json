@@ -1,0 +1,172 @@
+[
+    {
+        "file": "text/Снимок экрана 2026-03-22 014507.png",
+        "type": "PLAYER_TAG",
+        "text": "Diojshsh58",
+        "text_en": "Diojshsh58",
+        "entities": {
+            "player": "Diojshsh58"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_014549754.png",
+        "type": "ROUND_RESULT",
+        "text": "Выжившие\nThere are no survivors",
+        "text_en": "Survivors\nThere are no survivors",
+        "entities": {
+            "result": "no_survivors"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_014549754.png",
+        "type": "PLAYER_TAG",
+        "text": "Diojshsh58",
+        "text_en": "Diojshsh58",
+        "entities": {
+            "player": "Diojshsh58"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_014549754.png",
+        "type": "PLAYER_TAG",
+        "text": "Gotarky",
+        "text_en": "Gotarky",
+        "entities": {
+            "player": "Gotarky"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_014549754.png",
+        "type": "PLAYER_TAG",
+        "text": "ZXCSBUA",
+        "text_en": "ZXCSBUA",
+        "entities": {
+            "player": "ZXCSBUA"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_014612236.png",
+        "type": "MAP_INFO",
+        "text": "Следующая карта\nСчастливый дом",
+        "text_en": "Next Map\nHappy Home",
+        "entities": {
+            "map": "Happy Home"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_014612236.png",
+        "type": "PLAYER_TAG",
+        "text": "Diojshsh58",
+        "text_en": "Diojshsh58",
+        "entities": {
+            "player": "Diojshsh58"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_014612236.png",
+        "type": "PLAYER_TAG",
+        "text": "Gotarky",
+        "text_en": "Gotarky",
+        "entities": {
+            "player": "Gotarky"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_014612236.png",
+        "type": "PLAYER_TAG",
+        "text": "ZXCSBUA",
+        "text_en": "ZXCSBUA",
+        "entities": {
+            "player": "ZXCSBUA"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_021248921.png",
+        "type": "SURVIVORS_LIST",
+        "text": "Выжившие\nkamforka, xrumpl0q, Cowgirlwaifu",
+        "text_en": "Survivors\nkamforka, xrumpl0q, Cowgirlwaifu",
+        "entities": {
+            "players": [
+                "kamforka",
+                "xrumpl0q",
+                "Cowgirlwaifu"
+            ]
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_021312884.png",
+        "type": "MAP_INFO",
+        "text": "Следующая карта\nСтанция разрушения",
+        "text_en": "Next Map\nDestruction Station",
+        "entities": {
+            "map": "Destruction Station"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_021403952.png",
+        "type": "DISASTER_WARNING",
+        "text": "ПРЕДУПРЕЖДЕНИЕ О КАТАСТРОФЕ\nГрозовой шторм! Избегайте высоких и открытых мест!",
+        "text_en": "DISASTER WARNING\nThunder Storm! Avoid high and open places!",
+        "entities": {
+            "disaster": "Thunder Storm"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_021540096.png",
+        "type": "SURVIVORS_LIST",
+        "text": "Survivors\nakabydlo, XAKEP228564, kamforka",
+        "text_en": "Survivors\nakabydlo, XAKEP228564, kamforka",
+        "entities": {
+            "players": [
+                "akabydlo",
+                "XAKEP228564",
+                "kamforka"
+            ]
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_021604128.png",
+        "type": "MAP_INFO",
+        "text": "Next Map\nArch Park",
+        "text_en": "Next Map\nArch Park",
+        "entities": {
+            "map": "Arch Park"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_021604128.png",
+        "type": "PLAYER_TAG",
+        "text": "kamforka",
+        "text_en": "kamforka",
+        "entities": {
+            "player": "kamforka"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_021604128.png",
+        "type": "PLAYER_TAG",
+        "text": "blazeblitz",
+        "text_en": "blazeblitz",
+        "entities": {
+            "player": "blazeblitz"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_021655942.png",
+        "type": "DISASTER_WARNING",
+        "text": "DISASTER WARNING\nAcid Rain! Stay indoors!",
+        "text_en": "DISASTER WARNING\nAcid Rain! Stay indoors!",
+        "entities": {
+            "disaster": "Acid Rain"
+        }
+    },
+    {
+        "file": "text/RobloxScreenShot20260322_021655942.png",
+        "type": "PLAYER_TAG",
+        "text": "kamforka",
+        "text_en": "kamforka",
+        "entities": {
+            "player": "kamforka"
+        }
+    }
+]

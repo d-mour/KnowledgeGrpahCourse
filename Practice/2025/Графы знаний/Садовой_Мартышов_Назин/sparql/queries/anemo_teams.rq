@@ -1,0 +1,17 @@
+# Какие команды подходит для босса с уязвимость «анемо»?
+
+PREFIX ex:  <http://example.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT ?bossName ?team ?teamName ?charName
+WHERE {
+    ?boss rdf:type ex:Enemy ;
+    ex:name ?bossName ;
+    ex:Vulnerable_to ex:anemo .
+    ?team rdf:type ex:Team ;
+    ex:name ?teamName ;
+    ex:member ?char .
+    ?char rdf:type ex:Character ;
+    ex:name ?charName ;
+    ex:Character_Element ex:anemo .
+}
+ORDER BY ?bossName ?teamName ?charName

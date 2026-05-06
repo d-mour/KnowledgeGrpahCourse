@@ -1,0 +1,703 @@
+[
+  {
+    "general_information": {
+      "annotation_id": "1.0",
+      "annotation_version": 1.0,
+      "game_id": "Mass Effect 3",
+      "event_id": "me3_choice_1",
+      "event_type": "moral_choice",
+      "context_description": "Suggestion to sabotage cure of genophage",
+      "choice_description": "The krogan deserve a cure",
+      "consequence_type": "Plot consequence"
+    },
+    "player_choice": {
+      "selected_choice": {
+        "desc": "The krogan cure will be spread, Mordin Solus sacrifices himself",
+        "rate": 0.96
+      },
+      "alt_choices": [
+        {
+          "desc": "Sabotage the cure, save Mordin Solus",
+          "rate": 0.4
+        }
+      ],
+      "choice_rank": 1,
+      "global_choice_rate": 0.96,
+      "total_responses": 8000000,
+      "data_source": "https://twitter.com/masseffect/status/1420036454042857472"
+    },
+    "streamer_reactions": {
+      "video_id": "yt_short_wnVehCqxzQ",
+      "streamer_reaction_id": "reaction_001",
+      "streamer_verbal_note": "He is going to be fine. He did it. Get out of there Mordin!",
+      "video_url": "https://www.youtube.com/shorts/-wnVehCqxzQ"
+    },
+    "audio_segments": [
+      {
+        "segment_id": "seg_001",
+        "start_time": 11.0,
+        "end_time": 13.0,
+        "speaker_id": "streamer_01",
+        "transcript_text": "He is going to be fine",
+        "tokens": ["he", "is", "going", "to", "be", "fine"],
+        "dependency_tree": [
+          {"head_token_index": 1, "dep_label": "nsubj", "dependent_index": 0},
+          {"head_token_index": 1, "dep_label": "ROOT", "dependent_index": 1},
+          {"head_token_index": 1, "dep_label": "acomp", "dependent_index": 2},
+          {"head_token_index": 4, "dep_label": "aux", "dependent_index": 3},
+          {"head_token_index": 1, "dep_label": "xcomp", "dependent_index": 4},
+          {"head_token_index": 4, "dep_label": "acomp", "dependent_index": 5}
+        ],
+        "entities": [],
+        "sentiment": "negative",
+        "audio_emotion": "sadness",
+        "reaction_intensity": 3,
+        "mfcc_features": [0.12, -0.34, 0.56, -0.78, 0.91, -0.23, 0.45, -0.67, 0.89, -0.12, 0.34, -0.56, 1.22],
+        "spectral_features": {
+          "spectral_centroid": 450.2,
+          "spectral_bandwidth": 1200.5,
+          "zero_crossing_rate": 0.08
+        }
+      }
+    ],
+    "viewer_comments": [
+      {
+        "comment_id": "comment_001",
+        "comment_text": "Glad you got the chance to experience such a heart felt moment with Mordin. It's horribly sad but impactful.",
+        "tokens": ["Glad", "you", "got", "the", "chance", "...", "Mordin"],
+        "dependency_tree": [
+          {"head_token_index": 2, "dep_label": "intj", "dependent_index": 0},
+          {"head_token_index": 2, "dep_label": "nsubj", "dependent_index": 1}
+        ],
+        "entities": [
+          {
+            "entity_id": "entity_001",
+            "text": "Mordin",
+            "type": "character",
+            "start_token": 13,
+            "end_token": 13,
+            "kb_link": "https://masseffect.fandom.com/wiki/Mordin_Solus"
+          }
+        ],
+        "sentiment": "mixed",
+        "upvote_count": 42,
+        "timestamp": "2025-06-10T14:30:00Z"
+      }
+    ],
+    "metadata": {
+      "annotator_id": "annotator_01",
+      "annotation_timestamp": "2025-06-10T15:01:00Z"
+    }
+  },
+  {
+    "general_information": {
+      "annotation_id": "2.0",
+      "annotation_version": 1.0,
+      "game_id": "Mass Effect 3",
+      "event_id": "me3_choice_2",
+      "event_type": "loyalty_choice",
+      "context_description": "Quarian-Geth conflict resolution",
+      "choice_description": "Brokering peace between quarians and geth",
+      "consequence_type": "Faction outcome"
+    },
+    "player_choice": {
+      "selected_choice": {
+        "desc": "Convince quarians to stand down, achieve peace",
+        "rate": 0.65
+      },
+      "alt_choices": [
+        {
+          "desc": "Side with quarians, destroy geth",
+          "rate": 0.25
+        },
+        {
+          "desc": "Side with geth, quarians destroyed",
+          "rate": 0.10
+        }
+      ],
+      "choice_rank": 1,
+      "global_choice_rate": 0.65,
+      "total_responses": 7500000,
+      "data_source": "https://masseffect.fandom.com/wiki/Quarian-Geth_conflict"
+    },
+    "streamer_reactions": {
+      "video_id": "twitch_vod_5678",
+      "streamer_reaction_id": "reaction_002",
+      "streamer_verbal_note": "This is incredible! Both sides working together!",
+      "video_url": "https://twitch.tv/videos/123456789"
+    },
+    "audio_segments": [
+      {
+        "segment_id": "seg_002",
+        "start_time": 45.2,
+        "end_time": 48.5,
+        "speaker_id": "streamer_01",
+        "transcript_text": "I can't believe they're actually cooperating!",
+        "tokens": ["I", "can't", "believe", "they're", "actually", "cooperating"],
+        "dependency_tree": [
+          {"head_token_index": 2, "dep_label": "nsubj", "dependent_index": 0},
+          {"head_token_index": 2, "dep_label": "aux", "dependent_index": 1},
+          {"head_token_index": 2, "dep_label": "ROOT", "dependent_index": 2}
+        ],
+        "entities": [
+          {
+            "entity_id": "entity_002",
+            "text": "quarians",
+            "type": "faction",
+            "start_token": 3,
+            "end_token": 3,
+            "kb_link": "https://masseffect.fandom.com/wiki/Quarian"
+          },
+          {
+            "entity_id": "entity_003",
+            "text": "geth",
+            "type": "faction",
+            "start_token": 3,
+            "end_token": 3,
+            "kb_link": "https://masseffect.fandom.com/wiki/Geth"
+          }
+        ],
+        "sentiment": "positive",
+        "audio_emotion": "excitement",
+        "reaction_intensity": 3,
+        "mfcc_features": [0.45, 0.78, -0.12, 0.33, -0.67, 0.89, -0.21, 0.54, -0.76, 0.92, -0.15, 0.38, 0.95],
+        "spectral_features": {
+          "spectral_centroid": 620.8,
+          "spectral_bandwidth": 1450.3,
+          "zero_crossing_rate": 0.12
+        }
+      }
+    ],
+    "viewer_comments": [
+      {
+        "comment_id": "comment_002",
+        "comment_text": "The geth-quarian peace is the best outcome in the trilogy! Legion would be proud.",
+        "tokens": ["The", "geth-quarian", "peace", "...", "Legion"],
+        "dependency_tree": [
+          {"head_token_index": 2, "dep_label": "det", "dependent_index": 0},
+          {"head_token_index": 2, "dep_label": "compound", "dependent_index": 1}
+        ],
+        "entities": [
+          {
+            "entity_id": "entity_004",
+            "text": "Legion",
+            "type": "character",
+            "start_token": 7,
+            "end_token": 7,
+            "kb_link": "https://masseffect.fandom.com/wiki/Legion"
+          }
+        ],
+        "sentiment": "positive",
+        "upvote_count": 127,
+        "timestamp": "2025-06-11T10:15:00Z"
+      }
+    ],
+    "metadata": {
+      "annotator_id": "annotator_02",
+      "annotation_timestamp": "2025-06-11T11:30:00Z"
+    }
+
+  },
+  {
+    "general_information": {
+      "annotation_id": "3.0",
+      "annotation_version": 1.0,
+      "game_id": "Mass Effect 3",
+      "event_id": "me3_choice_3",
+      "event_type": "ending_choice",
+      "context_description": "Final confrontation with the Catalyst",
+      "choice_description": "Selecting the ending for the galaxy",
+      "consequence_type": "Ending outcome"
+    },
+    "player_choice": {
+      "selected_choice": {
+        "desc": "Destroy the Reapers (Red Ending)",
+        "rate": 0.42
+      },
+      "alt_choices": [
+        {
+          "desc": "Control the Reapers (Blue Ending)",
+          "rate": 0.31
+        },
+        {
+          "desc": "Synthesis (Green Ending)",
+          "rate": 0.27
+        }
+      ],
+      "choice_rank": 1,
+      "global_choice_rate": 0.42,
+      "total_responses": 8500000,
+      "data_source": "https://masseffect.fandom.com/wiki/Conclusion"
+    },
+    "streamer_reactions": {
+      "video_id": "yt_vid_final_choice",
+      "streamer_reaction_id": "reaction_003",
+      "streamer_verbal_note": "After everything... I think destroy is the only way. Sorry EDI...",
+      "video_url": "https://youtube.com/watch?v=finalchoice123"
+    },
+    "audio_segments": [
+      {
+        "segment_id": "seg_003",
+        "start_time": 120.5,
+        "end_time": 125.8,
+        "speaker_id": "streamer_01",
+        "transcript_text": "I can't believe this is how it ends. But destroy feels right.",
+        "tokens": ["I", "can't", "believe", "this", "is", "how", "it", "ends"],
+        "dependency_tree": [
+          {"head_token_index": 2, "dep_label": "nsubj", "dependent_index": 0},
+          {"head_token_index": 2, "dep_label": "aux", "dependent_index": 1},
+          {"head_token_index": 2, "dep_label": "ROOT", "dependent_index": 2}
+        ],
+        "entities": [
+          {
+            "entity_id": "entity_005",
+            "text": "Reapers",
+            "type": "faction",
+            "start_token": 9,
+            "end_token": 9,
+            "kb_link": "https://masseffect.fandom.com/wiki/Reapers"
+          }
+        ],
+        "sentiment": "mixed",
+        "audio_emotion": "resignation",
+        "reaction_intensity": 2,
+        "mfcc_features": [-0.15, 0.28, -0.42, 0.67, -0.83, 0.95, -0.27, 0.39, -0.51, 0.72, -0.88, 0.99, -0.33],
+        "spectral_features": {
+          "spectral_centroid": 380.5,
+          "spectral_bandwidth": 1100.2,
+          "zero_crossing_rate": 0.06
+        }
+      }
+    ],
+    "viewer_comments": [
+      {
+        "comment_id": "comment_003",
+        "comment_text": "Destroy is the only logical choice. The Reapers must be stopped at all costs.",
+        "tokens": ["Destroy", "is", "the", "only", "logical", "choice", "...", "Reapers"],
+        "dependency_tree": [
+          {"head_token_index": 1, "dep_label": "nsubj", "dependent_index": 0},
+          {"head_token_index": 1, "dep_label": "ROOT", "dependent_index": 1}
+        ],
+        "entities": [
+          {
+            "entity_id": "entity_006",
+            "text": "Reapers",
+            "type": "faction",
+            "start_token": 7,
+            "end_token": 7,
+            "kb_link": "https://masseffect.fandom.com/wiki/Reapers"
+          }
+        ],
+        "sentiment": "positive",
+        "upvote_count": 89,
+        "timestamp": "2025-06-12T09:45:00Z"
+      },
+      {
+        "comment_id": "comment_004",
+        "comment_text": "Synthesis is the true paragon choice. The cycle ends with evolution!",
+        "tokens": ["Synthesis", "is", "the", "true", "paragon", "choice"],
+        "dependency_tree": [
+          {"head_token_index": 1, "dep_label": "nsubj", "dependent_index": 0},
+          {"head_token_index": 1, "dep_label": "ROOT", "dependent_index": 1}
+        ],
+        "entities": [],
+        "sentiment": "positive",
+        "upvote_count": 54,
+        "timestamp": "2025-06-12T10:20:00Z"
+      }
+    ],
+    "metadata": {
+      "annotator_id": "annotator_03",
+      "annotation_timestamp": "2025-06-12T12:15:00Z"
+    }
+
+  },
+  {
+    "general_information": {
+      "annotation_id": "4.0",
+      "annotation_version": 1.0,
+      "game_id": "Cyberpunk 2077",
+      "event_id": "Cyberpunk_choice_1",
+      "event_type": "dialogue_choice",
+      "context_description": "V found smart weapon named Skippy",
+      "choice_description": "V need to choose fire mode",
+      "consequence_type": "Weapon efficiency"
+    },
+    "player_choice": {
+      "selected_choice": {
+        "desc": "Stone Cold Killer",
+        "rate": 0.65
+      },
+      "alt_choices": [
+        {
+          "desc": "Puppy-Loving Pacifist",
+          "rate": 0.35
+        }
+      ],
+      "choice_rank": 1,
+      "global_choice_rate": 0.65,
+      "total_responses": 6400000,
+      "data_source": "https://cyberpunk.fandom.com/wiki/Skippy"
+    },
+    "streamer_reactions": {
+      "video_id": "youtube_short_145",
+      "streamer_reaction_id": "reaction_004",
+      "streamer_verbal_note": "Better shut up Skippy or i'm going to throw you in the trash",
+      "video_url": "https://www.youtube.com/shorts/sqYDt-YTDXs"
+    },
+    "audio_segments": [
+      {
+        "segment_id": "seg_004",
+        "start_time": 3.1,
+        "end_time": 6.4,
+        "speaker_id": "streamer_05",
+        "transcript_text": "Better shut up Skippy or i'm going to throw you in the trash",
+        "tokens": ["Better", "shut", "up", "Skippy", "or", "i'm", "going", "to", "throw", "you", "in", "the", "trash"],
+        "dependency_tree": [
+          {"head_token_index": 2, "dep_label": "nsubj", "dependent_index": 0},
+          {"head_token_index": 2, "dep_label": "aux", "dependent_index": 1},
+          {"head_token_index": 2, "dep_label": "ROOT", "dependent_index": 2}
+        ],
+        "entities": [
+          {
+            "entity_id": "entity_008",
+            "text": "Skippy",
+            "type": "Character",
+            "start_token": 4,
+            "end_token": 4,
+            "kb_link": "https://cyberpunk.fandom.com/wiki/Skippy"
+          }
+        ],
+        "sentiment": "negative",
+        "audio_emotion": "anger",
+        "reaction_intensity": 3,
+        "mfcc_features": [0.5, 0.77, -0.06, 0.48, -0.69, 0.87, -0.05, 0.62, -0.81, 0.97, -0.2, 0.33, 0.97],
+        "spectral_features": {
+          "spectral_centroid": 525.1,
+          "spectral_bandwidth": 1105.3,
+          "zero_crossing_rate": 0.109
+        }
+      }
+    ],
+    "viewer_comments": [
+      {
+        "comment_id": "comment_004",
+        "comment_text": "Hey, Skippy may be a cockhole, but he has your back!.... Bum bum bee dum...",
+        "tokens": ["Hey", "Skippy", "may", "be", "a", "cockhole", "but", "he", "has", "your", "back", "..."],
+        "dependency_tree": [
+          {"head_token_index": 2, "dep_label": "det", "dependent_index": 0},
+          {"head_token_index": 2, "dep_label": "compound", "dependent_index": 1}
+        ],
+        "entities": [
+          {
+            "entity_id": "entity_008",
+            "text": "Skippy",
+            "type": "Character",
+            "start_token": 2,
+            "end_token": 2,
+            "kb_link": "https://cyberpunk.fandom.com/wiki/Skippy"
+          }
+        ],
+        "sentiment": "mixed",
+        "upvote_count": 12,
+        "timestamp": "2023-06-14T13:15:00Z"
+      }
+    ],
+    "metadata": {
+      "annotator_id": "annotator_01",
+      "annotation_timestamp": "2025-06-18T17:30:00Z"
+    }
+  },
+  {
+    "general_information": {
+      "annotation_id": "5.0",
+      "annotation_version": 1.0,
+      "game_id": "Cyberpunk 2077",
+      "event_id": "Cyberpunk_choice_2",
+      "event_type": "root_choice",
+      "context_description": "V is talking with Johnny about last mission",
+      "choice_description": "V need to choose his destiny",
+      "consequence_type": "Ending"
+    },
+    "player_choice": {
+      "selected_choice": {
+        "desc": "Attack Arasaka Tower",
+        "rate": 0.15
+      },
+      "alt_choices": [
+        {
+          "desc": "Gonna ask Panam for help",
+          "rate": 0.33
+        },
+        {
+          "desc": "Think trusting Atasaka's risky but worth it",
+          "rate": 0.1
+        },
+        {
+          "desc": "Think you ad Rogue should go",
+          "rate": 0.37
+        },
+        {
+          "desc": "Could also just put all this to rest",
+          "rate": 0.05
+        }
+      ],
+      "choice_rank": 3,
+      "global_choice_rate": 0.15,
+      "total_responses": 6400000,
+      "data_source": "https://steamcommunity.com/stats/1091500/achievements"
+    },
+    "streamer_reactions": {
+      "video_id": "youtube_vid_145",
+      "streamer_reaction_id": "reaction_005",
+      "streamer_verbal_note": "Yes this is so cool, okay that was sick",
+      "video_url": "https://youtu.be/82u50gaLzNg?si=B5nRIQIw6GEJhwVb"
+    },
+    "audio_segments": [
+      {
+        "segment_id": "seg_005",
+        "start_time": 102.0,
+        "end_time": 104.6,
+        "speaker_id": "streamer_05",
+        "transcript_text": "Yes this is so cool, okay that was sick",
+        "tokens": ["Yes", "this", "is", "so", "cool", "okay", "that", "was", "sick"],
+        "dependency_tree": [
+          {"head_token_index": 2, "dep_label": "nsubj", "dependent_index": 0},
+          {"head_token_index": 2, "dep_label": "aux", "dependent_index": 1},
+          {"head_token_index": 2, "dep_label": "ROOT", "dependent_index": 2}
+        ],
+        "entities": [
+        ],
+        "sentiment": "positive",
+        "audio_emotion": "joy",
+        "reaction_intensity": 3,
+        "mfcc_features": [0.3, 0.37, -0.36, -0.78, -0.64, 0.17, 0.05, 0.91, -0.36, 0.11, -0.8, 0.39, -0.23],
+        "spectral_features": {
+          "spectral_centroid": 497.8,
+          "spectral_bandwidth": 1243.1,
+          "zero_crossing_rate": 0.097
+        }
+      }
+    ],
+    "viewer_comments": [
+      {
+        "comment_id": "comment_005",
+        "comment_text": "Honestly, this ending will always be my favorite for the game itself, though the Star will always be close.",
+        "tokens": ["Honestly", "this", "ending", "will", "always", "be", "my", "favorite", "for", "the", "game", "itself", "though", "the", "Star","will" ,"always", "be", "close"],
+        "dependency_tree": [
+          {"head_token_index": 2, "dep_label": "det", "dependent_index": 0},
+          {"head_token_index": 2, "dep_label": "compound", "dependent_index": 1}
+        ],
+        "entities": [
+          {
+            "entity_id": "entity_009",
+            "text": "Star",
+            "type": "Ending",
+            "start_token": 15,
+            "end_token": 15,
+            "kb_link": "https://cyberpunk.fandom.com/wiki/The_Star_(achievement)"
+          }
+        ],
+        "sentiment": "positive",
+        "upvote_count": 27,
+        "timestamp": "2024-05-18T11:45:00Z"
+      }
+    ],
+    "metadata": {
+      "annotator_id": "annotator_01",
+      "annotation_timestamp": "2025-06-18T17:50:00Z"
+    }
+  },
+  {
+    "general_information": {
+      "annotation_id": "7.0",
+      "annotation_version": 1.0,
+      "game_id": "Cyberpunk 2077",
+      "event_id": "Cyberpunk_choice_3",
+      "event_type": "root_choice",
+      "context_description": "Songbird is hacking the neural matrix",
+      "choice_description": "V chooses the side of Reed or Songbird",
+      "consequence_type": "Ending"
+    },
+    "player_choice": {
+      "selected_choice": {
+        "desc": "Betray Reed",
+        "rate": 0.55
+      },
+      "alt_choices": [
+        {
+          "desc": "Betray Songbird",
+          "rate": 0.45
+        }
+      ],
+      "choice_rank": 1,
+      "global_choice_rate": 0.55,
+      "total_responses": 6400000,
+      "data_source": "https://steamcommunity.com/stats/1091500/achievements"
+    },
+    "streamer_reactions": {
+      "video_id": "youtube_vid_147",
+      "streamer_reaction_id": "reaction_006",
+      "streamer_verbal_note": "Mhm this is much better already we didn't have to wath Alex die",
+      "video_url": "https://youtu.be/WMy_UNrYBAs?si=R-4tD9_DbmYOdu0T"
+    },
+    "audio_segments": [
+      {
+        "segment_id": "seg_006",
+        "start_time": 222.5,
+        "end_time": 226.1,
+        "speaker_id": "streamer_05",
+        "transcript_text": "Mhm this is much better already we didn't have to wath Alex die",
+        "tokens": ["Mhm", "this", "is", "much", "better", "already", "we", "didn't", "have", "to", "wath", "Alex", "die"],
+        "dependency_tree": [
+          {"head_token_index": 2, "dep_label": "nsubj", "dependent_index": 0},
+          {"head_token_index": 2, "dep_label": "aux", "dependent_index": 1},
+          {"head_token_index": 2, "dep_label": "ROOT", "dependent_index": 2}
+        ],
+        "entities": [
+          {
+            "entity_id": "entity_010",
+            "text": "Alex",
+            "type": "Character",
+            "start_token": 12,
+            "end_token": 12,
+            "kb_link": "https://cyberpunk.fandom.com/wiki/Alena_Xenakis"
+          }
+        ],
+        "sentiment": "positive",
+        "audio_emotion": "joy",
+        "reaction_intensity": 2,
+        "mfcc_features": [0.2, 0.17, -0.56, -0.48, -0.14, 0.77, 0.15, 0.71, -0.34, 0.17, -0.81, 0.31, -0.27],
+        "spectral_features": {
+          "spectral_centroid": 472.1,
+          "spectral_bandwidth": 1272.6,
+          "zero_crossing_rate": 0.085
+        }
+      }
+    ],
+    "viewer_comments": [
+      {
+        "comment_id": "comment_006",
+        "comment_text": "I will never regret saving her; even if she lied to us and everyone the whole time, the woman has been used as a weapon the whole time by everyone she's worked with, I don't blame her and I'm happy to help her because if someone needs that help I'll give it, even Silverhand saw something of himself in Songbird.",
+        "tokens": ["I", "will", "never", "regret", "saving", "her", "...", "Silverhand", "...", "Songbird"],
+        "dependency_tree": [
+          {"head_token_index": 2, "dep_label": "det", "dependent_index": 0},
+          {"head_token_index": 2, "dep_label": "compound", "dependent_index": 1}
+        ],
+        "entities": [
+          {
+            "entity_id": "entity_011",
+            "text": "Silverhand",
+            "type": "Character",
+            "start_token": 8,
+            "end_token": 8,
+            "kb_link": "https://cyberpunk.fandom.com/wiki/Johnny_Silverhand"
+          },
+          {
+            "entity_id": "entity_012",
+            "text": "Songbird",
+            "type": "Character",
+            "start_token": 10,
+            "end_token": 10,
+            "kb_link": "https://cyberpunk.fandom.com/wiki/Song_So_Mi"
+          }
+        ],
+        "sentiment": "positive",
+        "upvote_count": 89,
+        "timestamp": "2024-07-21T18:25:00Z"
+      }
+    ],
+    "metadata": {
+      "annotator_id": "annotator_01",
+      "annotation_timestamp": "2025-06-18T18:10:00Z"
+    }
+  },
+  {
+    "general_information": {
+      "annotation_id": "7.0",
+      "annotation_version": 1.0,
+      "game_id": "Baldur's Gate 3",
+      "event_id": "BG3_choice_1",
+      "event_type": "root_choice",
+      "context_description": "You have defeated the Elder Brain by Dark Urge",
+      "choice_description": "Dark Urge need to choose what to do with Elder Brain",
+      "consequence_type": "Ending"
+    },
+    "player_choice": {
+      "selected_choice": {
+        "desc": "Claim the Absolute in the name of Bhaal. Kill Orpheus",
+        "rate": 0.20
+      },
+      "alt_choices": [
+        {
+          "desc": "Defy you Father. Tell Orpheus to command the brain to die",
+          "rate": 0.80
+        }
+      ],
+      "choice_rank": 2,
+      "global_choice_rate": 0.2,
+      "total_responses": 10000000,
+      "data_source": "https://steamcommunity.com/stats/1086940/achievements"
+    },
+    "streamer_reactions": {
+      "video_id": "youtube_vid_168",
+      "streamer_reaction_id": "reaction_007",
+      "streamer_verbal_note": "Holy shit, i've created the sickest freak oh my god",
+      "video_url": "https://youtu.be/2EOn5hq4V_Q?si=nvDa0SRbtJKiH5Wd"
+    },
+    "audio_segments": [
+      {
+        "segment_id": "seg_007",
+        "start_time": 2108.1,
+        "end_time": 21010.9,
+        "speaker_id": "streamer_06",
+        "transcript_text": "Holy shit, i've created the sickest freak oh my god",
+        "tokens": ["Holy", "shit", "i've", "created", "the", "sickest", "freak", "oh", "my", "god"],
+        "dependency_tree": [
+          {"head_token_index": 2, "dep_label": "nsubj", "dependent_index": 0},
+          {"head_token_index": 2, "dep_label": "aux", "dependent_index": 1},
+          {"head_token_index": 2, "dep_label": "ROOT", "dependent_index": 2}
+        ],
+        "entities": [
+        ],
+        "sentiment": "negative",
+        "audio_emotion": "surprise",
+        "reaction_intensity": 2,
+        "mfcc_features": [-0.35, -0.55, 0.32, 0.64, -0.23, 0.97, 0.12, 0.79, -0.11, 0.89, 0.12, 0.33, -0.76],
+        "spectral_features": {
+          "spectral_centroid": 592.4,
+          "spectral_bandwidth": 1172.9,
+          "zero_crossing_rate": 0.115
+        }
+      }
+    ],
+    "viewer_comments": [
+      {
+        "comment_id": "comment_007",
+        "comment_text": "The Bhaal ending is not you being your own master.",
+        "tokens": ["The", "Bhaal", "ending", "is", "not", "you", "being", "your", "own", "master"],
+        "dependency_tree": [
+          {"head_token_index": 2, "dep_label": "det", "dependent_index": 0},
+          {"head_token_index": 2, "dep_label": "compound", "dependent_index": 1}
+        ],
+        "entities": [
+          {
+            "entity_id": "entity_012",
+            "text": "Bhaal",
+            "type": "Character",
+            "start_token": 2,
+            "end_token": 2,
+            "kb_link": "https://bg3.wiki/wiki/Bhaal"
+          }
+        ],
+        "sentiment": "neutral",
+        "upvote_count": 0,
+        "timestamp": "2025-01-11T12:55:00Z"
+      }
+    ],
+    "metadata": {
+      "annotator_id": "annotator_01",
+      "annotation_timestamp": "2025-06-18T18:30:00Z"
+    }
+  }
+]

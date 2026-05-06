@@ -1,0 +1,47 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pref:    <http://www.semanticweb.org/Scooters#> .
+
+pref:BrandShape
+    a sh:NodeShape ;
+    sh:targetClass pref:Brand ;
+    sh:property [            
+        sh:path pref:hasName ;   
+        sh:maxCount 1 ;
+        sh:dataType xsd:string ;
+
+    ] ;
+    .
+
+pref:ScooterShape
+    a sh:NodeShape ;
+    sh:targetClass pref:Scooter ;
+    sh:property [            
+        sh:path pref:hasName ;   
+        sh:maxCount 1 ;
+        sh:dataType xsd:string ;
+
+    ] ;
+    sh:property [              
+        sh:path pref:hasPower ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+    ] ;
+    sh:property [              
+        sh:path pref:hasDistance ;
+        sh:datatype xsd:integer ;
+    ] ;
+    sh:property [              
+        sh:path pref:hasWeight ;
+        sh:datatype xsd:integer ;
+    ] ;
+    sh:property [              
+        sh:path pref:hasBrand ;
+        sh:nodeKind sh:IRI ;
+        sh:path pref:Brand ;
+    ] ;
+    .

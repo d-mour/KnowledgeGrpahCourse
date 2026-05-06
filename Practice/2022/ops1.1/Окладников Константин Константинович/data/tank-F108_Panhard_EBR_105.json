@@ -1,0 +1,115 @@
+https://api.tanki.su/wot/encyclopedia/vehicles/?application_id=a12842cff8d85bdbdb9e779cca01397b&tier=10&tank_id=19009&fields=is_wheeled%2Ctag%2Ctank_id%2Ctype%2Cdescription%2Cshort_name%2Cnation%2Ctier%2Cname%2Cdefault_profile.hp%2Cdefault_profile.speed_forward%2Cdefault_profile.speed_backward%2Cdefault_profile.engine%2Cdefault_profile.ammo%2Cdefault_profile.modules%2Cdefault_profile.gun%2Cdefault_profile.turret%2Cdefault_profile.armor%2Cdefault_profile.rapid%2Cdefault_profile.siege
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": null
+    },
+    "data": {
+        "19009": {
+            "is_wheeled": true,
+            "tag": "F108_Panhard_EBR_105",
+            "tank_id": 19009,
+            "type": "lightTank",
+            "description": "Panhard EBR 105 представляет собой вариант бронеавтомобиля Panhard EBR с более мощным вооружением. Машина получила усиленную ходовую, двухместную башню GIAT TS 90, модифицированную под установку 105-мм орудия. Серийно машина не выпускалась, на вооружении не состояла.",
+            "short_name": "EBR 105",
+            "nation": "france",
+            "tier": 10,
+            "is_gift": false,
+            "name": "Panhard EBR 105",
+            "price_gold": 0,
+            "price_credit": 6100000,
+            "default_profile": {
+                "engine": {
+                    "name": "Panhard 12H 6000 X",
+                    "power": 720,
+                    "weight": 279,
+                    "tag": "Panhard_12H_6000_X",
+                    "fire_chance": 0.15,
+                    "tier": 10
+                },
+                "max_ammo": 36,
+                "weight": 17000,
+                "armor": {
+                    "turret": {
+                        "front": 15,
+                        "sides": 10,
+                        "rear": 10
+                    },
+                    "hull": {
+                        "front": 40,
+                        "sides": 16,
+                        "rear": 40
+                    }
+                },
+                "hp": 1300,
+                "modules": {
+                    "gun_id": 25412,
+                    "suspension_id": 40258,
+                    "turret_id": 33347,
+                    "radio_id": 8775,
+                    "engine_id": 25925
+                },
+                "gun": {
+                    "move_down_arc": 7,
+                    "caliber": 105,
+                    "name": "105 mm D. 1504 (EBR)",
+                    "weight": 1210,
+                    "move_up_arc": 15,
+                    "fire_rate": 5.0,
+                    "dispersion": 0.38,
+                    "tag": "_105mm_D_1504_EBR",
+                    "traverse_speed": 26,
+                    "reload_time": 12.0,
+                    "tier": 10,
+                    "aim_time": 1.4
+                },
+                "turret": {
+                    "name": "Panhard EBR 105",
+                    "weight": 4000,
+                    "view_range": 340,
+                    "hp": 260,
+                    "tag": "Turret_1_F108_Panhard_EBR_105",
+                    "traverse_speed": 66,
+                    "traverse_right_arc": 180,
+                    "tier": 10,
+                    "traverse_left_arc": 180
+                },
+                "rapid": {
+                    "speed_backward": 65,
+                    "switch_off_time": 0.0,
+                    "switch_on_time": 0.0,
+                    "speed_forward": 91,
+                    "suspension_steering_lock_angle": 15
+                },
+                "siege": null,
+                "speed_forward": 70,
+                "hull_hp": 1040,
+                "speed_backward": 50,
+                "ammo": [
+                    {
+                        "penetration": [143, 190, 238],
+                        "stun": null,
+                        "type": "ARMOR_PIERCING_CR",
+                        "damage": [293, 390, 488]
+                    }, {
+                        "penetration": [180, 240, 300],
+                        "stun": null,
+                        "type": "HOLLOW_CHARGE",
+                        "damage": [293, 390, 488]
+                    }, {
+                        "penetration": [56, 75, 94],
+                        "stun": null,
+                        "type": "HIGH_EXPLOSIVE",
+                        "damage": [375, 500, 625]
+                    }
+                ],
+                "max_weight": 20000
+            },
+            "turrets": [33347]
+        }
+    }
+}

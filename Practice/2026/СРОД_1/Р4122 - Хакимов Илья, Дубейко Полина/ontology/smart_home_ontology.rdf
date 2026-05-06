@@ -1,0 +1,438 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/smart_home/ontologies/2025/4/iot-multimodal#"
+     xml:base="http://www.semanticweb.org/smart_home/ontologies/2025/4/iot-multimodal"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/smart_home/ontologies/2025/4/iot-multimodal">
+        <rdfs:label>IoT Multimodal Control Ontology</rdfs:label>
+        <rdfs:comment>Онтология для мультимодальной системы управления IoT-устройствами через голосовые команды и жесты</rdfs:comment>
+    </owl:Ontology>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    // Object Properties
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- hasDevice — связывает команду/жест с устройством -->
+    <owl:ObjectProperty rdf:about="#hasDevice">
+        <rdfs:domain rdf:resource="#AudioCommand"/>
+        <rdfs:domain rdf:resource="#VideoGesture"/>
+        <rdfs:domain rdf:resource="#Intent"/>
+        <rdfs:range rdf:resource="#IoTDevice"/>
+        <rdfs:label>hasDevice</rdfs:label>
+        <rdfs:comment>Целевое IoT-устройство для команды или жеста</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- hasGesture — связывает видео с типом жеста -->
+    <owl:ObjectProperty rdf:about="#hasGestureType">
+        <rdfs:domain rdf:resource="#VideoGesture"/>
+        <rdfs:range rdf:resource="#GestureType"/>
+        <rdfs:label>hasGestureType</rdfs:label>
+        <rdfs:comment>Тип жеста, выполняемого в видео</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- hasIntent — связывает команду с интентом -->
+    <owl:ObjectProperty rdf:about="#hasIntent">
+        <rdfs:domain rdf:resource="#AudioCommand"/>
+        <rdfs:domain rdf:resource="#VideoGesture"/>
+        <rdfs:range rdf:resource="#Intent"/>
+        <rdfs:label>hasIntent</rdfs:label>
+        <rdfs:comment>Намерение (интент), соответствующее команде или жесту</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- hasSlot — связывает интент со слотом -->
+    <owl:ObjectProperty rdf:about="#hasSlot">
+        <rdfs:domain rdf:resource="#Intent"/>
+        <rdfs:range rdf:resource="#Slot"/>
+        <rdfs:label>hasSlot</rdfs:label>
+        <rdfs:comment>Параметр (слот) интента</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- performedBy — связывает команду/жест с диктором -->
+    <owl:ObjectProperty rdf:about="#performedBy">
+        <rdfs:domain rdf:resource="#AudioCommand"/>
+        <rdfs:domain rdf:resource="#VideoGesture"/>
+        <rdfs:range rdf:resource="#Speaker"/>
+        <rdfs:label>performedBy</rdfs:label>
+        <rdfs:comment>Диктор/исполнитель команды или жеста</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- hasAudioAnnotation -->
+    <owl:ObjectProperty rdf:about="#hasAudioAnnotation">
+        <rdfs:domain rdf:resource="#AudioCommand"/>
+        <rdfs:range rdf:resource="#AudioAnnotation"/>
+        <rdfs:label>hasAudioAnnotation</rdfs:label>
+        <rdfs:comment>Аннотация аудиосигнала</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- hasVideoAnnotation -->
+    <owl:ObjectProperty rdf:about="#hasVideoAnnotation">
+        <rdfs:domain rdf:resource="#VideoGesture"/>
+        <rdfs:range rdf:resource="#VideoAnnotation"/>
+        <rdfs:label>hasVideoAnnotation</rdfs:label>
+        <rdfs:comment>Аннотация видеокадров</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- correspondsTo — кросс-модальная связь аудио ↔ видео -->
+    <owl:ObjectProperty rdf:about="#correspondsTo">
+        <rdfs:domain rdf:resource="#AudioCommand"/>
+        <rdfs:range rdf:resource="#VideoGesture"/>
+        <rdfs:label>correspondsTo</rdfs:label>
+        <rdfs:comment>Соответствие между аудиокомандой и видеожестом</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    // Data Properties
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- text — текстовая транскрипция команды -->
+    <owl:DatatypeProperty rdf:about="#text">
+        <rdfs:domain rdf:resource="#AudioCommand"/>
+        <rdfs:domain rdf:resource="#Slot"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>text</rdfs:label>
+    </owl:DatatypeProperty>
+
+    <!-- filePath — путь к файлу -->
+    <owl:DatatypeProperty rdf:about="#filePath">
+        <rdfs:domain rdf:resource="#AudioAnnotation"/>
+        <rdfs:domain rdf:resource="#VideoAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>filePath</rdfs:label>
+    </owl:DatatypeProperty>
+
+    <!-- duration — длительность в секундах -->
+    <owl:DatatypeProperty rdf:about="#duration">
+        <rdfs:domain rdf:resource="#AudioAnnotation"/>
+        <rdfs:domain rdf:resource="#VideoAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label>duration</rdfs:label>
+    </owl:DatatypeProperty>
+
+    <!-- confidence — уверенность распознавания -->
+    <owl:DatatypeProperty rdf:about="#confidence">
+        <rdfs:domain rdf:resource="#VideoAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label>confidence</rdfs:label>
+    </owl:DatatypeProperty>
+
+    <!-- timestamp — временная метка -->
+    <owl:DatatypeProperty rdf:about="#timestamp">
+        <rdfs:domain rdf:resource="#AudioAnnotation"/>
+        <rdfs:domain rdf:resource="#VideoAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>timestamp</rdfs:label>
+    </owl:DatatypeProperty>
+
+    <!-- speakerId — идентификатор диктора -->
+    <owl:DatatypeProperty rdf:about="#speakerId">
+        <rdfs:domain rdf:resource="#Speaker"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>speakerId</rdfs:label>
+    </owl:DatatypeProperty>
+
+    <!-- gender — пол диктора -->
+    <owl:DatatypeProperty rdf:about="#gender">
+        <rdfs:domain rdf:resource="#Speaker"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>gender</rdfs:label>
+    </owl:DatatypeProperty>
+
+    <!-- gestureDescription -->
+    <owl:DatatypeProperty rdf:about="#gestureDescription">
+        <rdfs:domain rdf:resource="#GestureType"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>gestureDescription</rdfs:label>
+    </owl:DatatypeProperty>
+
+    <!-- cameraAngle -->
+    <owl:DatatypeProperty rdf:about="#cameraAngle">
+        <rdfs:domain rdf:resource="#VideoGesture"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>cameraAngle</rdfs:label>
+    </owl:DatatypeProperty>
+
+    <!-- slotType -->
+    <owl:DatatypeProperty rdf:about="#slotType">
+        <rdfs:domain rdf:resource="#Slot"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>slotType</rdfs:label>
+    </owl:DatatypeProperty>
+
+    <!-- slotValue -->
+    <owl:DatatypeProperty rdf:about="#slotValue">
+        <rdfs:domain rdf:resource="#Slot"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>slotValue</rdfs:label>
+    </owl:DatatypeProperty>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    // Classes
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- AudioCommand — голосовая команда -->
+    <owl:Class rdf:about="#AudioCommand">
+        <rdfs:label>AudioCommand</rdfs:label>
+        <rdfs:comment>Голосовая команда для управления IoT-устройством</rdfs:comment>
+    </owl:Class>
+
+    <!-- VideoGesture — видео с жестом -->
+    <owl:Class rdf:about="#VideoGesture">
+        <rdfs:label>VideoGesture</rdfs:label>
+        <rdfs:comment>Видеозапись жеста для управления IoT-устройством</rdfs:comment>
+    </owl:Class>
+
+    <!-- IoTDevice — устройство -->
+    <owl:Class rdf:about="#IoTDevice">
+        <rdfs:label>IoTDevice</rdfs:label>
+        <rdfs:comment>Устройство умного дома</rdfs:comment>
+    </owl:Class>
+
+    <!-- GestureType — тип жеста -->
+    <owl:Class rdf:about="#GestureType">
+        <rdfs:label>GestureType</rdfs:label>
+        <rdfs:comment>Тип жеста (хлопок, свайп, круг и т.д.)</rdfs:comment>
+    </owl:Class>
+
+    <!-- Intent — намерение -->
+    <owl:Class rdf:about="#Intent">
+        <rdfs:label>Intent</rdfs:label>
+        <rdfs:comment>Намерение пользователя (включить, выключить, изменить режим)</rdfs:comment>
+    </owl:Class>
+
+    <!-- Slot — параметр/слот -->
+    <owl:Class rdf:about="#Slot">
+        <rdfs:label>Slot</rdfs:label>
+        <rdfs:comment>Параметр команды (устройство, значение, режим, время)</rdfs:comment>
+    </owl:Class>
+
+    <!-- Speaker — диктор -->
+    <owl:Class rdf:about="#Speaker">
+        <rdfs:label>Speaker</rdfs:label>
+        <rdfs:comment>Диктор/пользователь, подающий команды</rdfs:comment>
+    </owl:Class>
+
+    <!-- AudioAnnotation — аудио-аннотация -->
+    <owl:Class rdf:about="#AudioAnnotation">
+        <rdfs:label>AudioAnnotation</rdfs:label>
+        <rdfs:comment>Аннотация аудиосигнала (сегментация, акустические признаки)</rdfs:comment>
+    </owl:Class>
+
+    <!-- VideoAnnotation — видео-аннотация -->
+    <owl:Class rdf:about="#VideoAnnotation">
+        <rdfs:label>VideoAnnotation</rdfs:label>
+        <rdfs:comment>Аннотация видео (кадры, bounding boxes, keypoints)</rdfs:comment>
+    </owl:Class>
+
+    <!-- Annotation — общий класс аннотации -->
+    <owl:Class rdf:about="#Annotation">
+        <rdfs:label>Annotation</rdfs:label>
+        <rdfs:comment>Базовый класс для всех типов аннотаций</rdfs:comment>
+    </owl:Class>
+
+    <!-- Подклассы IoTDevice -->
+    <owl:Class rdf:about="#Conditioner">
+        <rdfs:subClassOf rdf:resource="#IoTDevice"/>
+        <rdfs:label>Conditioner</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Curtains">
+        <rdfs:subClassOf rdf:resource="#IoTDevice"/>
+        <rdfs:label>Curtains</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Lamp">
+        <rdfs:subClassOf rdf:resource="#IoTDevice"/>
+        <rdfs:label>Lamp</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Lock">
+        <rdfs:subClassOf rdf:resource="#IoTDevice"/>
+        <rdfs:label>Lock</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#TV">
+        <rdfs:subClassOf rdf:resource="#IoTDevice"/>
+        <rdfs:label>TV</rdfs:label>
+    </owl:Class>
+
+    <!-- Подклассы GestureType -->
+    <owl:Class rdf:about="#ClapGesture">
+        <rdfs:subClassOf rdf:resource="#GestureType"/>
+        <rdfs:label>ClapGesture</rdfs:label>
+        <rdfs:comment>Двойной хлопок</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#SnapGesture">
+        <rdfs:subClassOf rdf:resource="#GestureType"/>
+        <rdfs:label>SnapGesture</rdfs:label>
+        <rdfs:comment>Щелчок пальцами</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#SwipeGesture">
+        <rdfs:subClassOf rdf:resource="#GestureType"/>
+        <rdfs:label>SwipeGesture</rdfs:label>
+        <rdfs:comment>Горизонтальный свайп</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#CircleGesture">
+        <rdfs:subClassOf rdf:resource="#GestureType"/>
+        <rdfs:label>CircleGesture</rdfs:label>
+        <rdfs:comment>Круговое вращение ладонью</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#StopGesture">
+        <rdfs:subClassOf rdf:resource="#GestureType"/>
+        <rdfs:label>StopGesture</rdfs:label>
+        <rdfs:comment>Ладонь-стоп</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#WakeGesture">
+        <rdfs:subClassOf rdf:resource="#GestureType"/>
+        <rdfs:label>WakeGesture</rdfs:label>
+        <rdfs:comment>Поднятие руки</rdfs:comment>
+    </owl:Class>
+
+    <!-- Подклассы Intent -->
+    <owl:Class rdf:about="#TurnOnIntent">
+        <rdfs:subClassOf rdf:resource="#Intent"/>
+        <rdfs:label>TurnOnIntent</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#TurnOffIntent">
+        <rdfs:subClassOf rdf:resource="#Intent"/>
+        <rdfs:label>TurnOffIntent</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#SetValueIntent">
+        <rdfs:subClassOf rdf:resource="#Intent"/>
+        <rdfs:label>SetValueIntent</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#ChangeModeIntent">
+        <rdfs:subClassOf rdf:resource="#Intent"/>
+        <rdfs:label>ChangeModeIntent</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#QueryStatusIntent">
+        <rdfs:subClassOf rdf:resource="#Intent"/>
+        <rdfs:label>QueryStatusIntent</rdfs:label>
+    </owl:Class>
+
+    <!-- Подклассы Slot -->
+    <owl:Class rdf:about="#DeviceSlot">
+        <rdfs:subClassOf rdf:resource="#Slot"/>
+        <rdfs:label>DeviceSlot</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#ValueSlot">
+        <rdfs:subClassOf rdf:resource="#Slot"/>
+        <rdfs:label>ValueSlot</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#ModeSlot">
+        <rdfs:subClassOf rdf:resource="#Slot"/>
+        <rdfs:label>ModeSlot</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#TimeSlot">
+        <rdfs:subClassOf rdf:resource="#Slot"/>
+        <rdfs:label>TimeSlot</rdfs:label>
+    </owl:Class>
+
+    <!-- Annotation подклассы -->
+    <owl:Class rdf:about="#TextAnnotation">
+        <rdfs:subClassOf rdf:resource="#Annotation"/>
+        <rdfs:label>TextAnnotation</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#AcousticAnnotation">
+        <rdfs:subClassOf rdf:resource="#Annotation"/>
+        <rdfs:label>AcousticAnnotation</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#VisualAnnotation">
+        <rdfs:subClassOf rdf:resource="#Annotation"/>
+        <rdfs:label>VisualAnnotation</rdfs:label>
+    </owl:Class>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    // Individuals (Instances)
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Speakers -->
+    <owl:NamedIndividual rdf:about="#Speaker_Man_2">
+        <rdf:type rdf:resource="#Speaker"/>
+        <speakerId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</speakerId>
+        <gender>male</gender>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Speaker_Woman_1">
+        <rdf:type rdf:resource="#Speaker"/>
+        <speakerId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</speakerId>
+        <gender>female</gender>
+    </owl:NamedIndividual>
+
+    <!-- Devices -->
+    <owl:NamedIndividual rdf:about="#Device_Conditioner">
+        <rdf:type rdf:resource="#Conditioner"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Device_Curtains">
+        <rdf:type rdf:resource="#Curtains"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Device_Lamp">
+        <rdf:type rdf:resource="#Lamp"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Device_Lock">
+        <rdf:type rdf:resource="#Lock"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Device_TV">
+        <rdf:type rdf:resource="#TV"/>
+    </owl:NamedIndividual>
+
+    <!-- Gesture Types -->
+    <owl:NamedIndividual rdf:about="#Gesture_Clap">
+        <rdf:type rdf:resource="#ClapGesture"/>
+        <gestureDescription>Двойной хлопок</gestureDescription>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Gesture_Snap">
+        <rdf:type rdf:resource="#SnapGesture"/>
+        <gestureDescription>Щелчок пальцами</gestureDescription>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Gesture_Swipe">
+        <rdf:type rdf:resource="#SwipeGesture"/>
+        <gestureDescription>Горизонтальный свайп</gestureDescription>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Gesture_Circle">
+        <rdf:type rdf:resource="#CircleGesture"/>
+        <gestureDescription>Круговое вращение ладонью</gestureDescription>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Gesture_Stop">
+        <rdf:type rdf:resource="#StopGesture"/>
+        <gestureDescription>Поднятая открытая ладонь</gestureDescription>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Gesture_Wake">
+        <rdf:type rdf:resource="#WakeGesture"/>
+        <gestureDescription>Поднятие руки</gestureDescription>
+    </owl:NamedIndividual>
+
+</rdf:RDF>

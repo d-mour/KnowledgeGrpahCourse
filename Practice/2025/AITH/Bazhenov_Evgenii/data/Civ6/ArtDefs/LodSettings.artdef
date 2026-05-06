@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>460</build>
+		<revision>761</revision>
+	</m_Version>
+	<m_TemplateName text="LodSettings"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="LodSettings"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1024</m_nValue>
+							<m_ParamName text="Width"/>
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>768</m_nValue>
+							<m_ParamName text="Height"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.100000</m_fValue>
+							<m_ParamName text="ZNear"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1000.000000</m_fValue>
+							<m_ParamName text="ZFar"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>120.000000</m_fValue>
+							<m_ParamName text="FieldOfView"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>100.000000</m_fValue>
+							<m_ParamName text="DistanceStep"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>25.000000</m_fValue>
+							<m_ParamName text="TargetDensity"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>50.000000</m_fValue>
+							<m_ParamName text="MaximumDensity"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>15.000000</m_fValue>
+							<m_ParamName text="CullThreshold"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Default_LodSettings"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

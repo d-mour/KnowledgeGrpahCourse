@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/"
+     xml:base="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base">
+        <rdfs:comment>Онтология для поддержки принятия решений при выборе правителя и стратегии в игре Civilization 6. Моделирует правителей, цивилизации, их способности и предрасположенность к разным типам победы.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#hasEffect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#hasEffect">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameConcept"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameConcept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#hasLeader -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#hasLeader">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Civilization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Leader"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#enhances -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#enhances">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Ability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameConcept"/>
+        <rdfs:comment xml:lang="ru">Указывает, какой игровой аспект (здание, район, доход) усиливает данная способность.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#hasAbility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#hasAbility">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameActor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Ability"/>
+        <rdfs:comment xml:lang="ru">Связывает игрового актора (Правителя или Цивилизацию) с его уникальной способностью.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#hasAffinityForVictory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#hasAffinityForVictory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameActor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#VictoryType"/>
+        <rdfs:comment xml:lang="ru">Указывает на явно выраженную предрасположенность Правителя или Цивилизации к определенному типу победы.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#hasBonusStrength -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#hasBonusStrength">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Ability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#BonusStrengthLevel"/>
+        <rdfs:comment xml:lang="ru">Связывает способность с качественным уровнем ее силы (Высокий, Средний, Низкий).</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#bonusDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#bonusDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Ability"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="ru">Текстовое описание бонуса, предоставляемого способностью.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#bonusType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#bonusType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Ability"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="ru">Тип основного дохода, который затрагивает бонус (&apos;Science&apos;, &apos;Culture&apos;, &apos;Production&apos;, &apos;Faith&apos;, &apos;Gold&apos;).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#hasName">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="ru">Имя собственное для любого экземпляра.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#High -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#High">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#BonusStrengthLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#Low -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#Low">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#BonusStrengthLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#BonusStrengthLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Ability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Ability">
+        <rdfs:comment xml:lang="ru">Уникальная способность Правителя или Цивилизации.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#BonusStrengthLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#BonusStrengthLevel">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#High"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#Low"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base#Medium"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment xml:lang="ru">Класс для качественной оценки силы бонуса. Экземплярами являются &apos;High&apos;, &apos;Medium&apos;, &apos;Low&apos;.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Civilization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Civilization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#District -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#District">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameActor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameActor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Civilization"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Leader"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment xml:lang="ru">Абстрактный класс для активных игровых сущностей, обладающих способностями (Правители и Цивилизации).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameConcept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameConcept">
+        <rdfs:comment xml:lang="ru">Абстрактный класс для игровых понятий, на которые могут влиять способности.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Leader -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Leader">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameActor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#VictoryType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#VictoryType">
+        <rdfs:comment xml:lang="ru">Тип победы в игре (Научная, Культурная и т.д.).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Yield -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Yield">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#GameConcept"/>
+        <rdfs:comment xml:lang="ru">Класс для видов дохода (Наука, Культура, Производство и т.д.).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#BonusStrengthLevel"/>
+        <rdfs:label xml:lang="ru">Высокий</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#BonusStrengthLevel"/>
+        <rdfs:label xml:lang="ru">Низкий</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Medium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#Medium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kulag/ontologies/2025/9/civ6-knowledge-base/#BonusStrengthLevel"/>
+        <rdfs:label xml:lang="ru">Средний</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

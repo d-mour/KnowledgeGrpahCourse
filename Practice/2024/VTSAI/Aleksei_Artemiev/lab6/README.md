@@ -1,0 +1,3 @@
+# Lab #6.
+
+In this lab, we demonstrated link prediction using the PyKEEN library, initially with the Nations dataset and then with the WN18 dataset, a popular benchmark in the field of knowledge graph embeddings. The TransE model was trained on the WN18 dataset, and its ability to predict a deliberately removed link was evaluated. This experiment illustrated the model's practicality in a different domain, highlighting its versatility and effectiveness in link prediction tasks. The lab showcases the adaptability of knowledge graph embedding models to various datasets and their potential in enhancing the accuracy and completeness of knowledge graphs across different domains.

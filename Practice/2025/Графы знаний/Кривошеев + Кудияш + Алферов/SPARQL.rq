@@ -1,0 +1,65 @@
+# CS2 Ontology SPARQL Queries
+# Prefixes
+PREFIX cs2: <http://example.org/cs2#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# 1. Все скины и их цены
+SELECT ?skin ?price WHERE { ?skin a cs2:Skin ; cs2:price_usd ?price . } LIMIT 20
+
+# 2. Самые дорогие 10 скинов
+SELECT ?skin ?price WHERE { ?skin a cs2:Skin ; cs2:price_usd ?price . } ORDER BY DESC(xsd:decimal(?price)) LIMIT 10
+
+# 3. Все пользователи
+SELECT ?user WHERE { ?user a cs2:User . }
+
+# 4. Все транзакции
+SELECT ?t WHERE { ?t a cs2:Transaction . }
+
+# 5. Средняя цена всех скинов
+SELECT (AVG(xsd:decimal(?price)) AS ?avgPrice) WHERE { ?skin a cs2:Skin ; cs2:price_usd ?price . }
+
+# 6. Средняя прибыль по всем сделкам
+SELECT (AVG(xsd:decimal(?profit)) AS ?avgProfit) WHERE { ?s cs2:profit_usd ?profit . }
+
+# 7. Сколько скинов у каждого пользователя
+SELECT ?owner (COUNT(?skin) AS ?numSkins) WHERE { ?skin a cs2:Skin ; cs2:owner ?owner . } GROUP BY ?owner ORDER BY DESC(?numSkins)
+
+# 8. Самые редкие скины
+SELECT ?skin ?rarity WHERE { ?skin a cs2:Skin ; cs2:rarity ?rarity . FILTER(?rarity = "Covert" || ?rarity = "Classified") }
+
+# 9. Все коллекции и количество скинов
+SELECT ?collection (COUNT(?skin) AS ?count) WHERE { ?skin cs2:collection ?collection . } GROUP BY ?collection ORDER BY DESC(?count)
+
+# 10. Сделки с отрицательной прибылью
+SELECT ?item ?profit WHERE { ?item cs2:profit_usd ?profit . FILTER(xsd:decimal(?profit) < 0) } ORDER BY ?profit
+
+# 11. Транзакции за ноябрь 2025
+SELECT ?t ?date ?owner WHERE { ?t cs2:date ?date ; cs2:owner ?owner . FILTER(STRSTARTS(?date, "2025-11")) }
+
+# 12. Все продажи
+SELECT ?t ?price ?owner WHERE { ?t cs2:transaction_type cs2:Transaction_Sale ; cs2:price_usd ?price ; cs2:owner ?owner . } LIMIT 20
+
+# 13. Владельцы самых дорогих скинов
+SELECT ?owner (MAX(xsd:decimal(?price)) AS ?maxPrice) WHERE { ?skin cs2:price_usd ?price ; cs2:owner ?owner . } GROUP BY ?owner ORDER BY DESC(?maxPrice) LIMIT 10
+
+# 14. Скины, принадлежащие Ване
+SELECT ?skin ?price WHERE { ?skin cs2:owner cs2:User_Vanya ; cs2:price_usd ?price . }
+
+# 15. Прибыль по пользователям
+SELECT ?owner (SUM(xsd:decimal(?profit)) AS ?totalProfit) WHERE { ?skin cs2:owner ?owner ; cs2:profit_usd ?profit . } GROUP BY ?owner ORDER BY DESC(?totalProfit)
+
+# 16. Средняя цена по коллекциям
+SELECT ?collection (AVG(xsd:decimal(?price)) AS ?avgPrice) WHERE { ?skin cs2:collection ?collection ; cs2:price_usd ?price . } GROUP BY ?collection ORDER BY DESC(?avgPrice)
+
+# 17. Скины с убытком больше 20$
+SELECT ?skin ?profit WHERE { ?skin cs2:profit_usd ?profit . FILTER(xsd:decimal(?profit) < -20) }
+
+# 18. Скины без владельца
+SELECT ?skin WHERE { ?skin a cs2:Skin . FILTER NOT EXISTS { ?skin cs2:owner ?o } }
+
+# 19. Количество сделок по типам транзакций
+SELECT ?type (COUNT(?t) AS ?count) WHERE { ?t cs2:transaction_type ?type . } GROUP BY ?type ORDER BY DESC(?count)
+
+# 20. Самые прибыльные коллекции
+SELECT ?collection (SUM(xsd:decimal(?profit)) AS ?totalProfit) WHERE { ?skin cs2:collection ?collection ; cs2:profit_usd ?profit . } GROUP BY ?collection ORDER BY DESC(?totalProfit) LIMIT 10

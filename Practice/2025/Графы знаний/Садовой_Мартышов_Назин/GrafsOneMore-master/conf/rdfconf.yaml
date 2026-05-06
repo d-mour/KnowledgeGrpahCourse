@@ -1,0 +1,232 @@
+- hierarchy:
+    - class: Equipment
+      subclasses:
+        - Weapon
+        - Artifact
+    - class: Weapon
+      subclasses:
+        - Weapon_Type
+    - class: Parameter
+      subclasses:
+        - Artifact_Stat
+        - Rarity
+        - Element
+        - Region
+    - class: Team
+      subclasses: 
+        - Character
+    - class: Entity 
+      subclasses:
+        - Character
+        - Enemy
+    - class: Character
+      subclasses:
+        - Rarity
+        - Element
+        - Region
+    - class: Enemy
+      subclasses:
+        - Element
+    - class: Artifact
+      subclasses:
+        - Artifact_Stat
+    - class: root
+      subclasses:
+        - Region
+    
+
+
+- file: characters.csv
+  parse:
+    - class: Character
+      columns:
+        - column: Name
+    - class: Rarity
+      columns:
+        - column: Rarity
+    - class: Element
+      columns:
+        - column: Element
+    
+    - attribute: Character_Rarity
+      class-to: Character
+      class-from: Rarity
+      column: Rarity
+
+    - attribute: Character_Element 
+      class-to: Character
+      class-from: Element
+      column: Element
+    
+    - class: Region
+      columns:
+        - column: Region
+    
+    - attribute: Character_Region
+      class-to: Character
+      class-from: Region
+      column: Region
+
+    - class: Weapon_Type
+      columns:
+        - column: Weapon
+
+    - attribute: Character_Weapon_Type
+      class-to: Character
+      class-from: Weapon_Type
+      column: Weapon
+    
+    - class: Weapon
+      columns:
+        - column: Best Weapon
+        - column: Top2 Weapon
+        - column: Top3 Weapon
+        - column: Top4 Weapon
+    
+    - attribute: Character_Best_Weapon
+      class-to: Character
+      class-from: Weapon
+      column: Best Weapon
+    
+    - attribute: Character_Addition_Weapons
+      class-to: Character
+      class-from: Weapon
+      columns:
+        - column: Top2 Weapon
+        - column: Top3 Weapon
+        - column: Top4 Weapon
+
+    - class: Artifact
+      columns: 
+        - column: Top Artifact
+        - column: Artifact top2
+        - column: Artifact top3
+        - column: Artifact top4
+    
+    - attribute: Character_Best_Artifact
+      class-to: Character
+      class-from: Artifact
+      column: Top Artifact
+    
+    - attribute: Character_Addition_Artifacts
+      class-to: Character
+      class-from: Artifact
+      columns:
+        - column: Artifact top2
+        - column: Artifact top3
+        - column: Artifact top4
+
+    - class: Artifact_Stat
+      columns:
+        - column: Main stat sands
+          transformations:
+            - replace:
+                from: "Sands:"
+                to: ""
+            - replace:
+                from: "EM"
+                to: "Elemental Mastery"
+            - split:   
+                by: "or"
+            - split:   
+                by: "/"
+        - column: Main stat circlet
+          transformations:
+            - replace:
+                from: "Circlet:"
+                to: ""
+            - replace: 
+                from: " (if using Favonius Sword)"
+                to: ""
+            - split:  
+                by: "or"
+            - split:   
+                by: "/"
+        - column: Main stat goblet
+          transformations:
+            - replace:
+                from: "Goblet:"
+                to: ""
+            - replace: 
+                from: " (General)"
+                to: ""
+            - split:  
+                by: "or"
+            - split:   
+                by: "/"
+            - truncate:
+                by: "Others"
+        - column: Artifact substats
+          transformations:
+            - replace:
+                from: "Flat "
+                to: ""
+            - replace:
+                from: "EM"
+                to: "Elemental Mastery"
+            - replace:
+                from: "Recommended ER: 180 - 220%"
+                to: ""
+            - split:   
+                by: ","
+            - split:   
+                by: "."
+            - split:  
+                by: "or"
+      
+    - attribute: Main_stat_sands
+      class-to: Character
+      class-from: Artifact_Stat
+      column: Main stat sands
+    
+    - attribute: Main_stat_circlet
+      class-to: Character
+      class-from: Artifact_Stat
+      column: Main stat circlet
+  
+    - attribute: Main_stat_goblet
+      class-to: Character
+      class-from: Artifact_Stat
+      column: Main stat goblet
+    
+    - attribute: Artifact_substats
+      class-to: Character
+      class-from: Artifact_Stat
+      column: Artifact substats
+
+- file: enemies_processed.csv
+  parse:
+    - class: Enemy
+      columns:
+        - column: Name
+    
+    - attribute: Vulnerable_to
+      class-to: Enemy
+      class-from: Element
+      columns:
+        - column: Vulnerables
+          transformations:
+            - split:   
+                by: ","
+
+- file: teams_processed.csv
+  parse:
+    - class: Team
+      columns:
+        - column: Team ID
+    
+    - attribute: member
+      class-to: Team
+      class-from: Character
+      columns:
+        - column: Character 1
+        - column: Character 2
+        - column: Character 3
+        - column: Character 4
+          
+    
+    
+    
+
+            
+            

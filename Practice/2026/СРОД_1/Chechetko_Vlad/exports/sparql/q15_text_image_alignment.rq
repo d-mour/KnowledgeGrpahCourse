@@ -1,0 +1,6 @@
+PREFIX ex: <https://example.org/medical-multimodal-kg/>
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?link_id ?mention_text ?entity_type ?region_id ?finding_id ?confidence WHERE { ?link a ex:MultimodalAlignment ; ex:link_id ?link_id ; ex:linksMention ?m ; ex:linksImageRegion ?region ; ex:confidence ?confidence . ?m ex:text ?mention_text ; ex:entity_type ?entity_type . ?region ex:region_id ?region_id . OPTIONAL { ?link ex:finding_id ?finding_id . } } LIMIT 100
