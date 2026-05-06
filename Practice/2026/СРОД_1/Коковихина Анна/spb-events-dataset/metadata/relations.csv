@@ -1,6 +1,0 @@
-relation_type,domain_entities,range_entities,short_label_ru,description_en
-LOCATED_IN,"LANDMARK, PLACE","PLACE",находится_в,Object or area is geographically inside a broader place (transitive closure optional in KG export)
-HAS_DATE,"LANDMARK, PLACE, EVENT",DATE,имеет_дату,Temporal assertion anchored to normalized date
-RELATED_TO,"LANDMARK, PLACE, DATE, EVENT",Same set,связан_с,Catch‑all associative link use only when finer relation is unattainable from text
-HAPPENED_AT,"EVENT","LANDMARK",произошёл_в_ландмарк,Event materially occurs at landmark site or within its precinct
-HAPPENED_ON,"EVENT","PLACE",произошёл_во_месте,Broader geography than landmark (square river district)
