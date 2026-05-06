@@ -1,0 +1,208 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 14.954400
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 14.954400
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 14.954400
+            text = "Екатерининский дворец в Царском Селе является одним из самых известных императорских дворцов России. Его история тесно связана с развитием царской резиденции и масштабными перестройками XVIII века. Со временем дворец стал важным памятником русской архитектуры и парадной культуры."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 14.954400
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 5.340857
+            text = "Екатерининский дворец в Царском Селе является одним из самых известных императорских дворцов России."
+        intervals [2]:
+            xmin = 5.340857
+            xmax = 10.521489
+            text = "Его история тесно связана с развитием царской резиденции и масштабными перестройками XVIII века."
+        intervals [3]:
+            xmin = 10.521489
+            xmax = 14.954400
+            text = "Со временем дворец стал важным памятником русской архитектуры и парадной культуры."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 14.954400
+        intervals: size = 37
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.747720
+            text = "Екатерининский"
+        intervals [2]:
+            xmin = 0.801129
+            xmax = 1.121580
+            text = "дворец"
+        intervals [3]:
+            xmin = 1.174989
+            xmax = 1.228397
+            text = "в"
+        intervals [4]:
+            xmin = 1.281806
+            xmax = 1.655666
+            text = "Царском"
+        intervals [5]:
+            xmin = 1.709074
+            xmax = 1.922709
+            text = "Селе"
+        intervals [6]:
+            xmin = 1.976117
+            xmax = 2.403386
+            text = "является"
+        intervals [7]:
+            xmin = 2.456794
+            xmax = 2.723837
+            text = "одним"
+        intervals [8]:
+            xmin = 2.777246
+            xmax = 2.884063
+            text = "из"
+        intervals [9]:
+            xmin = 2.937471
+            xmax = 3.204514
+            text = "самых"
+        intervals [10]:
+            xmin = 3.257923
+            xmax = 3.738600
+            text = "известных"
+        intervals [11]:
+            xmin = 3.792009
+            xmax = 4.486320
+            text = "императорских"
+        intervals [12]:
+            xmin = 4.539729
+            xmax = 4.913589
+            text = "дворцов"
+        intervals [13]:
+            xmin = 4.966997
+            xmax = 5.340857
+            text = "России."
+        intervals [14]:
+            xmin = 5.394266
+            xmax = 5.554491
+            text = "Его"
+        intervals [15]:
+            xmin = 5.607900
+            xmax = 5.981760
+            text = "история"
+        intervals [16]:
+            xmin = 6.035169
+            xmax = 6.302211
+            text = "тесно"
+        intervals [17]:
+            xmin = 6.355620
+            xmax = 6.729480
+            text = "связана"
+        intervals [18]:
+            xmin = 6.782889
+            xmax = 6.836297
+            text = "с"
+        intervals [19]:
+            xmin = 6.889706
+            xmax = 7.370383
+            text = "развитием"
+        intervals [20]:
+            xmin = 7.423791
+            xmax = 7.797651
+            text = "царской"
+        intervals [21]:
+            xmin = 7.851060
+            xmax = 8.385146
+            text = "резиденции"
+        intervals [22]:
+            xmin = 8.438554
+            xmax = 8.491963
+            text = "и"
+        intervals [23]:
+            xmin = 8.545371
+            xmax = 9.132866
+            text = "масштабными"
+        intervals [24]:
+            xmin = 9.186274
+            xmax = 9.880586
+            text = "перестройками"
+        intervals [25]:
+            xmin = 9.933994
+            xmax = 10.201037
+            text = "XVIII"
+        intervals [26]:
+            xmin = 10.254446
+            xmax = 10.521489
+            text = "века."
+        intervals [27]:
+            xmin = 10.574897
+            xmax = 10.681714
+            text = "Со"
+        intervals [28]:
+            xmin = 10.735123
+            xmax = 11.162391
+            text = "временем"
+        intervals [29]:
+            xmin = 11.215800
+            xmax = 11.536251
+            text = "дворец"
+        intervals [30]:
+            xmin = 11.589660
+            xmax = 11.803294
+            text = "стал"
+        intervals [31]:
+            xmin = 11.856703
+            xmax = 12.177154
+            text = "важным"
+        intervals [32]:
+            xmin = 12.230563
+            xmax = 12.764649
+            text = "памятником"
+        intervals [33]:
+            xmin = 12.818057
+            xmax = 13.191917
+            text = "русской"
+        intervals [34]:
+            xmin = 13.245326
+            xmax = 13.832820
+            text = "архитектуры"
+        intervals [35]:
+            xmin = 13.886229
+            xmax = 13.939637
+            text = "и"
+        intervals [36]:
+            xmin = 13.993046
+            xmax = 14.420314
+            text = "парадной"
+        intervals [37]:
+            xmin = 14.473723
+            xmax = 14.954400
+            text = "культуры."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 0.000000
+        xmax = 10.468080
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 1.121580
+            text = "LANDMARK|land_catherine_palace|Екатерининский дворец"
+        intervals [2]:
+            xmin = 1.281806
+            xmax = 1.922709
+            text = "PLACE|plc_tsarskoe|Царском Селе"
+        intervals [3]:
+            xmin = 9.186274
+            xmax = 10.468080
+            text = "EVENT|evt_tsarskoye_palace_1752|перестройками XVIII века"

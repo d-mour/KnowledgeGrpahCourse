@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 22.207700
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 22.207700
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 22.207700
+            text = "Особое место в истории дворца занимает Янтарная комната. В 1755 году по распоряжению Елизаветы Петровны янтарное убранство было перенесено в Екатерининский дворец, а позднее стало одним из самых известных интерьеров России. История Янтарной комнаты связывает дворец с темой утраты, поисков и реставрации культурных ценностей."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 22.207700
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 3.826558
+            text = "Особое место в истории дворца занимает Янтарная комната."
+        intervals [2]:
+            xmin = 3.826558
+            xmax = 15.237899
+            text = "В 1755 году по распоряжению Елизаветы Петровны янтарное убранство было перенесено в Екатерининский дворец, а позднее стало одним из самых известных интерьеров России."
+        intervals [3]:
+            xmin = 15.237899
+            xmax = 22.207700
+            text = "История Янтарной комнаты связывает дворец с темой утраты, поисков и реставрации культурных ценностей."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 22.207700
+        intervals: size = 44
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.409988
+            text = "Особое"
+        intervals [2]:
+            xmin = 0.478320
+            xmax = 0.819977
+            text = "место"
+        intervals [3]:
+            xmin = 0.888308
+            xmax = 0.956639
+            text = "в"
+        intervals [4]:
+            xmin = 1.024971
+            xmax = 1.503290
+            text = "истории"
+        intervals [5]:
+            xmin = 1.571622
+            xmax = 1.981610
+            text = "дворца"
+        intervals [6]:
+            xmin = 2.049942
+            xmax = 2.596593
+            text = "занимает"
+        intervals [7]:
+            xmin = 2.664924
+            xmax = 3.211575
+            text = "Янтарная"
+        intervals [8]:
+            xmin = 3.279906
+            xmax = 3.826558
+            text = "комната."
+        intervals [9]:
+            xmin = 3.894889
+            xmax = 3.963220
+            text = "В"
+        intervals [10]:
+            xmin = 4.031552
+            xmax = 4.304877
+            text = "1755"
+        intervals [11]:
+            xmin = 4.373209
+            xmax = 4.646534
+            text = "году"
+        intervals [12]:
+            xmin = 4.714866
+            xmax = 4.851528
+            text = "по"
+        intervals [13]:
+            xmin = 4.919860
+            xmax = 5.739836
+            text = "распоряжению"
+        intervals [14]:
+            xmin = 5.808168
+            xmax = 6.423150
+            text = "Елизаветы"
+        intervals [15]:
+            xmin = 6.491482
+            xmax = 7.038133
+            text = "Петровны"
+        intervals [16]:
+            xmin = 7.106464
+            xmax = 7.653115
+            text = "янтарное"
+        intervals [17]:
+            xmin = 7.721446
+            xmax = 8.336429
+            text = "убранство"
+        intervals [18]:
+            xmin = 8.404760
+            xmax = 8.678086
+            text = "было"
+        intervals [19]:
+            xmin = 8.746417
+            xmax = 9.429731
+            text = "перенесено"
+        intervals [20]:
+            xmin = 9.498062
+            xmax = 9.566394
+            text = "в"
+        intervals [21]:
+            xmin = 9.634725
+            xmax = 10.591365
+            text = "Екатерининский"
+        intervals [22]:
+            xmin = 10.659696
+            xmax = 11.138016
+            text = "дворец,"
+        intervals [23]:
+            xmin = 11.206347
+            xmax = 11.274678
+            text = "а"
+        intervals [24]:
+            xmin = 11.343010
+            xmax = 11.821330
+            text = "позднее"
+        intervals [25]:
+            xmin = 11.889661
+            xmax = 12.231318
+            text = "стало"
+        intervals [26]:
+            xmin = 12.299649
+            xmax = 12.641306
+            text = "одним"
+        intervals [27]:
+            xmin = 12.709638
+            xmax = 12.846300
+            text = "из"
+        intervals [28]:
+            xmin = 12.914632
+            xmax = 13.256289
+            text = "самых"
+        intervals [29]:
+            xmin = 13.324620
+            xmax = 13.939602
+            text = "известных"
+        intervals [30]:
+            xmin = 14.007934
+            xmax = 14.691248
+            text = "интерьеров"
+        intervals [31]:
+            xmin = 14.759579
+            xmax = 15.237899
+            text = "России."
+        intervals [32]:
+            xmin = 15.306230
+            xmax = 15.784550
+            text = "История"
+        intervals [33]:
+            xmin = 15.852881
+            xmax = 16.399532
+            text = "Янтарной"
+        intervals [34]:
+            xmin = 16.467864
+            xmax = 16.946183
+            text = "комнаты"
+        intervals [35]:
+            xmin = 17.014515
+            xmax = 17.629497
+            text = "связывает"
+        intervals [36]:
+            xmin = 17.697829
+            xmax = 18.107817
+            text = "дворец"
+        intervals [37]:
+            xmin = 18.176148
+            xmax = 18.244480
+            text = "с"
+        intervals [38]:
+            xmin = 18.312811
+            xmax = 18.654468
+            text = "темой"
+        intervals [39]:
+            xmin = 18.722799
+            xmax = 19.201119
+            text = "утраты,"
+        intervals [40]:
+            xmin = 19.269450
+            xmax = 19.747770
+            text = "поисков"
+        intervals [41]:
+            xmin = 19.816102
+            xmax = 19.884433
+            text = "и"
+        intervals [42]:
+            xmin = 19.952764
+            xmax = 20.704410
+            text = "реставрации"
+        intervals [43]:
+            xmin = 20.772741
+            xmax = 21.456055
+            text = "культурных"
+        intervals [44]:
+            xmin = 21.524386
+            xmax = 22.207700
+            text = "ценностей."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 2.664924
+        xmax = 11.069684
+        intervals: size = 3
+        intervals [1]:
+            xmin = 2.664924
+            xmax = 3.758226
+            text = "EVENT|evt_catherine_amber_room_1941|Янтарная комната"
+        intervals [2]:
+            xmin = 4.031552
+            xmax = 4.304877
+            text = "DATE||1755"
+        intervals [3]:
+            xmin = 9.634725
+            xmax = 11.069684
+            text = "LANDMARK|land_catherine_palace|Екатерининский дворец"

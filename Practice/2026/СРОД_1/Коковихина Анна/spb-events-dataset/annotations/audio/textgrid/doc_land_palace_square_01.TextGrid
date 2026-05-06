@@ -1,0 +1,208 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 15.274400
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 15.274400
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 15.274400
+            text = "Дворцовая площадь является центральной площадью Санкт-Петербурга и важнейшей частью исторического центра города. Она формировалась как пространство перед Зимним дворцом и со временем стала местом государственных церемоний и общественных событий. Сегодня площадь считается одной из главных городских достопримечательностей."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 15.274400
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 5.312835
+            text = "Дворцовая площадь является центральной площадью Санкт-Петербурга и важнейшей частью исторического центра города."
+        intervals [2]:
+            xmin = 5.312835
+            xmax = 11.621826
+            text = "Она формировалась как пространство перед Зимним дворцом и со временем стала местом государственных церемоний и общественных событий."
+        intervals [3]:
+            xmin = 11.621826
+            xmax = 15.274400
+            text = "Сегодня площадь считается одной из главных городских достопримечательностей."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 15.274400
+        intervals: size = 37
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.426924
+            text = "Дворцовая"
+        intervals [2]:
+            xmin = 0.474360
+            xmax = 0.806412
+            text = "площадь"
+        intervals [3]:
+            xmin = 0.853848
+            xmax = 1.233337
+            text = "является"
+        intervals [4]:
+            xmin = 1.280773
+            xmax = 1.802569
+            text = "центральной"
+        intervals [5]:
+            xmin = 1.850005
+            xmax = 2.229493
+            text = "площадью"
+        intervals [6]:
+            xmin = 2.276929
+            xmax = 3.035906
+            text = "Санкт-Петербурга"
+        intervals [7]:
+            xmin = 3.083342
+            xmax = 3.130778
+            text = "и"
+        intervals [8]:
+            xmin = 3.178214
+            xmax = 3.605138
+            text = "важнейшей"
+        intervals [9]:
+            xmin = 3.652574
+            xmax = 3.937190
+            text = "частью"
+        intervals [10]:
+            xmin = 3.984626
+            xmax = 4.601294
+            text = "исторического"
+        intervals [11]:
+            xmin = 4.648730
+            xmax = 4.933347
+            text = "центра"
+        intervals [12]:
+            xmin = 4.980783
+            xmax = 5.312835
+            text = "города."
+        intervals [13]:
+            xmin = 5.360271
+            xmax = 5.502579
+            text = "Она"
+        intervals [14]:
+            xmin = 5.550015
+            xmax = 6.166683
+            text = "формировалась"
+        intervals [15]:
+            xmin = 6.214119
+            xmax = 6.356427
+            text = "как"
+        intervals [16]:
+            xmin = 6.403863
+            xmax = 6.973096
+            text = "пространство"
+        intervals [17]:
+            xmin = 7.020532
+            xmax = 7.257712
+            text = "перед"
+        intervals [18]:
+            xmin = 7.305148
+            xmax = 7.589764
+            text = "Зимним"
+        intervals [19]:
+            xmin = 7.637200
+            xmax = 7.969252
+            text = "дворцом"
+        intervals [20]:
+            xmin = 8.016688
+            xmax = 8.064124
+            text = "и"
+        intervals [21]:
+            xmin = 8.111560
+            xmax = 8.206432
+            text = "со"
+        intervals [22]:
+            xmin = 8.253868
+            xmax = 8.633357
+            text = "временем"
+        intervals [23]:
+            xmin = 8.680793
+            xmax = 8.917973
+            text = "стала"
+        intervals [24]:
+            xmin = 8.965409
+            xmax = 9.250025
+            text = "местом"
+        intervals [25]:
+            xmin = 9.297461
+            xmax = 10.009001
+            text = "государственных"
+        intervals [26]:
+            xmin = 10.056437
+            xmax = 10.483361
+            text = "церемоний"
+        intervals [27]:
+            xmin = 10.530798
+            xmax = 10.578234
+            text = "и"
+        intervals [28]:
+            xmin = 10.625670
+            xmax = 11.194902
+            text = "общественных"
+        intervals [29]:
+            xmin = 11.242338
+            xmax = 11.621826
+            text = "событий."
+        intervals [30]:
+            xmin = 11.669262
+            xmax = 12.001314
+            text = "Сегодня"
+        intervals [31]:
+            xmin = 12.048750
+            xmax = 12.380802
+            text = "площадь"
+        intervals [32]:
+            xmin = 12.428239
+            xmax = 12.855163
+            text = "считается"
+        intervals [33]:
+            xmin = 12.902599
+            xmax = 13.139779
+            text = "одной"
+        intervals [34]:
+            xmin = 13.187215
+            xmax = 13.282087
+            text = "из"
+        intervals [35]:
+            xmin = 13.329523
+            xmax = 13.661575
+            text = "главных"
+        intervals [36]:
+            xmin = 13.709011
+            xmax = 14.135935
+            text = "городских"
+        intervals [37]:
+            xmin = 14.183371
+            xmax = 15.274400
+            text = "достопримечательностей."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 0.000000
+        xmax = 3.035906
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.806412
+            text = "LANDMARK|land_palace_square|Дворцовая площадь"
+        intervals [2]:
+            xmin = 0.000000
+            xmax = 0.806412
+            text = "PLACE|plc_palace_sq|Дворцовая площадь"
+        intervals [3]:
+            xmin = 2.276929
+            xmax = 3.035906
+            text = "PLACE|plc_spb|Санкт-Петербурга"

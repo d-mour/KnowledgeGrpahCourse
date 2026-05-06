@@ -1,0 +1,224 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 14.399800
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 14.399800
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 14.399800
+            text = "Во время блокады Ленинграда Исаакиевский собор был связан с жизнью осаждённого города. Его массивный купол служил ориентиром, а само здание использовалось для сохранения музейных ценностей. Поэтому собор входит в число памятников, связанных не только с архитектурной, но и с военной историей Петербурга."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 14.399800
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 4.087072
+            text = "Во время блокады Ленинграда Исаакиевский собор был связан с жизнью осаждённого города."
+        intervals [2]:
+            xmin = 4.087072
+            xmax = 8.982053
+            text = "Его массивный купол служил ориентиром, а само здание использовалось для сохранения музейных ценностей."
+        intervals [3]:
+            xmin = 8.982053
+            xmax = 14.399800
+            text = "Поэтому собор входит в число памятников, связанных не только с архитектурной, но и с военной историей Петербурга."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 14.399800
+        intervals: size = 42
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.095048
+            text = "Во"
+        intervals [2]:
+            xmin = 0.142572
+            xmax = 0.380193
+            text = "время"
+        intervals [3]:
+            xmin = 0.427717
+            xmax = 0.760385
+            text = "блокады"
+        intervals [4]:
+            xmin = 0.807910
+            xmax = 1.283150
+            text = "Ленинграда"
+        intervals [5]:
+            xmin = 1.330675
+            xmax = 1.900964
+            text = "Исаакиевский"
+        intervals [6]:
+            xmin = 1.948488
+            xmax = 2.186108
+            text = "собор"
+        intervals [7]:
+            xmin = 2.233632
+            xmax = 2.376205
+            text = "был"
+        intervals [8]:
+            xmin = 2.423729
+            xmax = 2.708873
+            text = "связан"
+        intervals [9]:
+            xmin = 2.756397
+            xmax = 2.803921
+            text = "с"
+        intervals [10]:
+            xmin = 2.851446
+            xmax = 3.136590
+            text = "жизнью"
+        intervals [11]:
+            xmin = 3.184114
+            xmax = 3.706879
+            text = "осаждённого"
+        intervals [12]:
+            xmin = 3.754403
+            xmax = 4.087072
+            text = "города."
+        intervals [13]:
+            xmin = 4.134596
+            xmax = 4.277168
+            text = "Его"
+        intervals [14]:
+            xmin = 4.324692
+            xmax = 4.752409
+            text = "массивный"
+        intervals [15]:
+            xmin = 4.799933
+            xmax = 5.037554
+            text = "купол"
+        intervals [16]:
+            xmin = 5.085078
+            xmax = 5.370222
+            text = "служил"
+        intervals [17]:
+            xmin = 5.417747
+            xmax = 5.940512
+            text = "ориентиром,"
+        intervals [18]:
+            xmin = 5.988036
+            xmax = 6.035560
+            text = "а"
+        intervals [19]:
+            xmin = 6.083084
+            xmax = 6.273180
+            text = "само"
+        intervals [20]:
+            xmin = 6.320704
+            xmax = 6.605849
+            text = "здание"
+        intervals [21]:
+            xmin = 6.653373
+            xmax = 7.318710
+            text = "использовалось"
+        intervals [22]:
+            xmin = 7.366234
+            xmax = 7.508807
+            text = "для"
+        intervals [23]:
+            xmin = 7.556331
+            xmax = 8.031572
+            text = "сохранения"
+        intervals [24]:
+            xmin = 8.079096
+            xmax = 8.459288
+            text = "музейных"
+        intervals [25]:
+            xmin = 8.506813
+            xmax = 8.982053
+            text = "ценностей."
+        intervals [26]:
+            xmin = 9.029578
+            xmax = 9.362246
+            text = "Поэтому"
+        intervals [27]:
+            xmin = 9.409770
+            xmax = 9.647391
+            text = "собор"
+        intervals [28]:
+            xmin = 9.694915
+            xmax = 9.980059
+            text = "входит"
+        intervals [29]:
+            xmin = 10.027583
+            xmax = 10.075108
+            text = "в"
+        intervals [30]:
+            xmin = 10.122632
+            xmax = 10.360252
+            text = "число"
+        intervals [31]:
+            xmin = 10.407776
+            xmax = 10.930541
+            text = "памятников,"
+        intervals [32]:
+            xmin = 10.978065
+            xmax = 11.405782
+            text = "связанных"
+        intervals [33]:
+            xmin = 11.453306
+            xmax = 11.548354
+            text = "не"
+        intervals [34]:
+            xmin = 11.595879
+            xmax = 11.881023
+            text = "только"
+        intervals [35]:
+            xmin = 11.928547
+            xmax = 11.976071
+            text = "с"
+        intervals [36]:
+            xmin = 12.023595
+            xmax = 12.688933
+            text = "архитектурной,"
+        intervals [37]:
+            xmin = 12.736457
+            xmax = 12.831505
+            text = "но"
+        intervals [38]:
+            xmin = 12.879029
+            xmax = 12.926553
+            text = "и"
+        intervals [39]:
+            xmin = 12.974077
+            xmax = 13.021601
+            text = "с"
+        intervals [40]:
+            xmin = 13.069125
+            xmax = 13.401794
+            text = "военной"
+        intervals [41]:
+            xmin = 13.449318
+            xmax = 13.829511
+            text = "историей"
+        intervals [42]:
+            xmin = 13.877035
+            xmax = 14.399800
+            text = "Петербурга."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 0.807910
+        xmax = 2.186108
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.807910
+            xmax = 1.283150
+            text = "PLACE|plc_spb|Ленинграда"
+        intervals [2]:
+            xmin = 1.330675
+            xmax = 2.186108
+            text = "LANDMARK|land_isaak|Исаакиевский собор"

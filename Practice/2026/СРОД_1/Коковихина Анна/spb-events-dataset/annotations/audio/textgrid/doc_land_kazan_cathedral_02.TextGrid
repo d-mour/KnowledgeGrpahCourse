@@ -1,0 +1,212 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 17.962400
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 17.962400
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 17.962400
+            text = "История Казанского собора тесно связана с Отечественной войной 1812 года. В 1812 году здесь молился перед отъездом в армию Михаил Кутузов, а позднее собор стали воспринимать как храм воинской славы. Эта связь сделала объект важным памятником национальной истории."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 17.962400
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 4.985761
+            text = "История Казанского собора тесно связана с Отечественной войной 1812 года."
+        intervals [2]:
+            xmin = 4.985761
+            xmax = 13.523024
+            text = "В 1812 году здесь молился перед отъездом в армию Михаил Кутузов, а позднее собор стали воспринимать как храм воинской славы."
+        intervals [3]:
+            xmin = 13.523024
+            xmax = 17.962400
+            text = "Эта связь сделала объект важным памятником национальной истории."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 17.962400
+        intervals: size = 38
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.478087
+            text = "История"
+        intervals [2]:
+            xmin = 0.546385
+            xmax = 1.229366
+            text = "Казанского"
+        intervals [3]:
+            xmin = 1.297664
+            xmax = 1.707452
+            text = "собора"
+        intervals [4]:
+            xmin = 1.775751
+            xmax = 2.117241
+            text = "тесно"
+        intervals [5]:
+            xmin = 2.185539
+            xmax = 2.663626
+            text = "связана"
+        intervals [6]:
+            xmin = 2.731924
+            xmax = 2.800222
+            text = "с"
+        intervals [7]:
+            xmin = 2.868520
+            xmax = 3.756395
+            text = "Отечественной"
+        intervals [8]:
+            xmin = 3.824694
+            xmax = 4.234482
+            text = "войной"
+        intervals [9]:
+            xmin = 4.302780
+            xmax = 4.575973
+            text = "1812"
+        intervals [10]:
+            xmin = 4.644271
+            xmax = 4.985761
+            text = "года."
+        intervals [11]:
+            xmin = 5.054059
+            xmax = 5.122357
+            text = "В"
+        intervals [12]:
+            xmin = 5.190656
+            xmax = 5.463848
+            text = "1812"
+        intervals [13]:
+            xmin = 5.532146
+            xmax = 5.805338
+            text = "году"
+        intervals [14]:
+            xmin = 5.873637
+            xmax = 6.215127
+            text = "здесь"
+        intervals [15]:
+            xmin = 6.283425
+            xmax = 6.761512
+            text = "молился"
+        intervals [16]:
+            xmin = 6.829810
+            xmax = 7.171300
+            text = "перед"
+        intervals [17]:
+            xmin = 7.239598
+            xmax = 7.785983
+            text = "отъездом"
+        intervals [18]:
+            xmin = 7.854281
+            xmax = 7.922579
+            text = "в"
+        intervals [19]:
+            xmin = 7.990878
+            xmax = 8.332368
+            text = "армию"
+        intervals [20]:
+            xmin = 8.400666
+            xmax = 8.810455
+            text = "Михаил"
+        intervals [21]:
+            xmin = 8.878753
+            xmax = 9.425138
+            text = "Кутузов,"
+        intervals [22]:
+            xmin = 9.493436
+            xmax = 9.561734
+            text = "а"
+        intervals [23]:
+            xmin = 9.630032
+            xmax = 10.108119
+            text = "позднее"
+        intervals [24]:
+            xmin = 10.176417
+            xmax = 10.517907
+            text = "собор"
+        intervals [25]:
+            xmin = 10.586205
+            xmax = 10.927696
+            text = "стали"
+        intervals [26]:
+            xmin = 10.995994
+            xmax = 11.815571
+            text = "воспринимать"
+        intervals [27]:
+            xmin = 11.883869
+            xmax = 12.088763
+            text = "как"
+        intervals [28]:
+            xmin = 12.157062
+            xmax = 12.430254
+            text = "храм"
+        intervals [29]:
+            xmin = 12.498552
+            xmax = 13.044937
+            text = "воинской"
+        intervals [30]:
+            xmin = 13.113235
+            xmax = 13.523024
+            text = "славы."
+        intervals [31]:
+            xmin = 13.591322
+            xmax = 13.796216
+            text = "Эта"
+        intervals [32]:
+            xmin = 13.864514
+            xmax = 14.206005
+            text = "связь"
+        intervals [33]:
+            xmin = 14.274303
+            xmax = 14.752389
+            text = "сделала"
+        intervals [34]:
+            xmin = 14.820687
+            xmax = 15.230476
+            text = "объект"
+        intervals [35]:
+            xmin = 15.298774
+            xmax = 15.708563
+            text = "важным"
+        intervals [36]:
+            xmin = 15.776861
+            xmax = 16.459842
+            text = "памятником"
+        intervals [37]:
+            xmin = 16.528140
+            xmax = 17.347717
+            text = "национальной"
+        intervals [38]:
+            xmin = 17.416015
+            xmax = 17.962400
+            text = "истории."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 2.868520
+        xmax = 5.463848
+        intervals: size = 3
+        intervals [1]:
+            xmin = 2.868520
+            xmax = 4.575973
+            text = "EVENT|evt_kazan_victory_1812|Отечественной войной 1812"
+        intervals [2]:
+            xmin = 4.302780
+            xmax = 4.575973
+            text = "DATE||1812"
+        intervals [3]:
+            xmin = 5.190656
+            xmax = 5.463848
+            text = "DATE||1812"

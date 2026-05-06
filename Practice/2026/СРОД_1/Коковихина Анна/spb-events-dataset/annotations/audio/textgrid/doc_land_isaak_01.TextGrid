@@ -1,0 +1,220 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 19.690400
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 19.690400
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 19.690400
+            text = "Исаакиевский собор расположен на Исаакиевской площади и считается одним из крупнейших храмов Санкт-Петербурга. Собор был кафедральным храмом епархии с 1858 по 1929 год. В XX веке он получил музейный статус, сохранив значение одного из важнейших архитектурных памятников города."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 19.690400
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 7.819292
+            text = "Исаакиевский собор расположен на Исаакиевской площади и считается одним из крупнейших храмов Санкт-Петербурга."
+        intervals [2]:
+            xmin = 7.819292
+            xmax = 11.942192
+            text = "Собор был кафедральным храмом епархии с 1858 по 1929 год."
+        intervals [3]:
+            xmin = 11.942192
+            xmax = 19.690400
+            text = "В XX веке он получил музейный статус, сохранив значение одного из важнейших архитектурных памятников города."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 19.690400
+        intervals: size = 38
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.853014
+            text = "Исаакиевский"
+        intervals [2]:
+            xmin = 0.924098
+            xmax = 1.279521
+            text = "собор"
+        intervals [3]:
+            xmin = 1.350605
+            xmax = 2.061450
+            text = "расположен"
+        intervals [4]:
+            xmin = 2.132534
+            xmax = 2.274703
+            text = "на"
+        intervals [5]:
+            xmin = 2.345788
+            xmax = 3.198801
+            text = "Исаакиевской"
+        intervals [6]:
+            xmin = 3.269886
+            xmax = 3.767477
+            text = "площади"
+        intervals [7]:
+            xmin = 3.838562
+            xmax = 3.909646
+            text = "и"
+        intervals [8]:
+            xmin = 3.980731
+            xmax = 4.620491
+            text = "считается"
+        intervals [9]:
+            xmin = 4.691575
+            xmax = 5.046998
+            text = "одним"
+        intervals [10]:
+            xmin = 5.118082
+            xmax = 5.260251
+            text = "из"
+        intervals [11]:
+            xmin = 5.331336
+            xmax = 6.042181
+            text = "крупнейших"
+        intervals [12]:
+            xmin = 6.113265
+            xmax = 6.539772
+            text = "храмов"
+        intervals [13]:
+            xmin = 6.610856
+            xmax = 7.819292
+            text = "Санкт-Петербурга."
+        intervals [14]:
+            xmin = 7.890377
+            xmax = 8.245799
+            text = "Собор"
+        intervals [15]:
+            xmin = 8.316884
+            xmax = 8.530137
+            text = "был"
+        intervals [16]:
+            xmin = 8.601222
+            xmax = 9.454235
+            text = "кафедральным"
+        intervals [17]:
+            xmin = 9.525320
+            xmax = 9.951827
+            text = "храмом"
+        intervals [18]:
+            xmin = 10.022911
+            xmax = 10.520503
+            text = "епархии"
+        intervals [19]:
+            xmin = 10.591587
+            xmax = 10.662671
+            text = "с"
+        intervals [20]:
+            xmin = 10.733756
+            xmax = 11.018094
+            text = "1858"
+        intervals [21]:
+            xmin = 11.089178
+            xmax = 11.231347
+            text = "по"
+        intervals [22]:
+            xmin = 11.302432
+            xmax = 11.586770
+            text = "1929"
+        intervals [23]:
+            xmin = 11.657854
+            xmax = 11.942192
+            text = "год."
+        intervals [24]:
+            xmin = 12.013277
+            xmax = 12.084361
+            text = "В"
+        intervals [25]:
+            xmin = 12.155445
+            xmax = 12.297614
+            text = "XX"
+        intervals [26]:
+            xmin = 12.368699
+            xmax = 12.653037
+            text = "веке"
+        intervals [27]:
+            xmin = 12.724121
+            xmax = 12.866290
+            text = "он"
+        intervals [28]:
+            xmin = 12.937375
+            xmax = 13.434966
+            text = "получил"
+        intervals [29]:
+            xmin = 13.506051
+            xmax = 14.074726
+            text = "музейный"
+        intervals [30]:
+            xmin = 14.145811
+            xmax = 14.643402
+            text = "статус,"
+        intervals [31]:
+            xmin = 14.714487
+            xmax = 15.283162
+            text = "сохранив"
+        intervals [32]:
+            xmin = 15.354247
+            xmax = 15.922923
+            text = "значение"
+        intervals [33]:
+            xmin = 15.994007
+            xmax = 16.420514
+            text = "одного"
+        intervals [34]:
+            xmin = 16.491599
+            xmax = 16.633768
+            text = "из"
+        intervals [35]:
+            xmin = 16.704852
+            xmax = 17.344612
+            text = "важнейших"
+        intervals [36]:
+            xmin = 17.415697
+            xmax = 18.339795
+            text = "архитектурных"
+        intervals [37]:
+            xmin = 18.410879
+            xmax = 19.121724
+            text = "памятников"
+        intervals [38]:
+            xmin = 19.192809
+            xmax = 19.690400
+            text = "города."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 0.000000
+        xmax = 11.586770
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 1.279521
+            text = "LANDMARK|land_isaak|Исаакиевский собор"
+        intervals [2]:
+            xmin = 6.610856
+            xmax = 7.748208
+            text = "PLACE|plc_spb|Санкт-Петербурга"
+        intervals [3]:
+            xmin = 10.733756
+            xmax = 11.018094
+            text = "DATE||1858"
+        intervals [4]:
+            xmin = 10.733756
+            xmax = 11.018094
+            text = "EVENT|evt_st_isaac_completed_1858|1858"
+        intervals [5]:
+            xmin = 11.302432
+            xmax = 11.586770
+            text = "DATE||1929"
