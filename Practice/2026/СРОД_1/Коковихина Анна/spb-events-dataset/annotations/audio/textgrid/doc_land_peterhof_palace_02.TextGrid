@@ -1,0 +1,228 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 17.514400
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 17.514400
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 17.514400
+            text = "В XX веке дворец оказался связан с разрушениями военного времени и послевоенным восстановлением. После войны было принято решение о его возрождении, а восстановительные работы начались в конце 1940-х годов. Восстановление Большого Петергофского дворца стало важным событием в истории сохранения культурного наследия."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 17.514400
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 5.320830
+            text = "В XX веке дворец оказался связан с разрушениями военного времени и послевоенным восстановлением."
+        intervals [2]:
+            xmin = 5.320830
+            xmax = 11.417615
+            text = "После войны было принято решение о его возрождении, а восстановительные работы начались в конце 1940-х годов."
+        intervals [3]:
+            xmin = 11.417615
+            xmax = 17.514400
+            text = "Восстановление Большого Петергофского дворца стало важным событием в истории сохранения культурного наследия."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 17.514400
+        intervals: size = 41
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.055425
+            text = "В"
+        intervals [2]:
+            xmin = 0.110851
+            xmax = 0.221701
+            text = "XX"
+        intervals [3]:
+            xmin = 0.277127
+            xmax = 0.498828
+            text = "веке"
+        intervals [4]:
+            xmin = 0.554253
+            xmax = 0.886805
+            text = "дворец"
+        intervals [5]:
+            xmin = 0.942230
+            xmax = 1.385633
+            text = "оказался"
+        intervals [6]:
+            xmin = 1.441058
+            xmax = 1.773610
+            text = "связан"
+        intervals [7]:
+            xmin = 1.829035
+            xmax = 1.884461
+            text = "с"
+        intervals [8]:
+            xmin = 1.939886
+            xmax = 2.604990
+            text = "разрушениями"
+        intervals [9]:
+            xmin = 2.660415
+            xmax = 3.103818
+            text = "военного"
+        intervals [10]:
+            xmin = 3.159243
+            xmax = 3.547220
+            text = "времени"
+        intervals [11]:
+            xmin = 3.602646
+            xmax = 3.658071
+            text = "и"
+        intervals [12]:
+            xmin = 3.713496
+            xmax = 4.378600
+            text = "послевоенным"
+        intervals [13]:
+            xmin = 4.434025
+            xmax = 5.320830
+            text = "восстановлением."
+        intervals [14]:
+            xmin = 5.376256
+            xmax = 5.653382
+            text = "После"
+        intervals [15]:
+            xmin = 5.708808
+            xmax = 5.985934
+            text = "войны"
+        intervals [16]:
+            xmin = 6.041359
+            xmax = 6.263061
+            text = "было"
+        intervals [17]:
+            xmin = 6.318486
+            xmax = 6.706463
+            text = "принято"
+        intervals [18]:
+            xmin = 6.761889
+            xmax = 7.149866
+            text = "решение"
+        intervals [19]:
+            xmin = 7.205291
+            xmax = 7.260716
+            text = "о"
+        intervals [20]:
+            xmin = 7.316142
+            xmax = 7.482418
+            text = "его"
+        intervals [21]:
+            xmin = 7.537843
+            xmax = 8.202947
+            text = "возрождении,"
+        intervals [22]:
+            xmin = 8.258372
+            xmax = 8.313797
+            text = "а"
+        intervals [23]:
+            xmin = 8.369223
+            xmax = 9.311453
+            text = "восстановительные"
+        intervals [24]:
+            xmin = 9.366878
+            xmax = 9.699430
+            text = "работы"
+        intervals [25]:
+            xmin = 9.754856
+            xmax = 10.198258
+            text = "начались"
+        intervals [26]:
+            xmin = 10.253684
+            xmax = 10.309109
+            text = "в"
+        intervals [27]:
+            xmin = 10.364534
+            xmax = 10.641661
+            text = "конце"
+        intervals [28]:
+            xmin = 10.697086
+            xmax = 11.029638
+            text = "1940-х"
+        intervals [29]:
+            xmin = 11.085063
+            xmax = 11.417615
+            text = "годов."
+        intervals [30]:
+            xmin = 11.473041
+            xmax = 12.248995
+            text = "Восстановление"
+        intervals [31]:
+            xmin = 12.304420
+            xmax = 12.747823
+            text = "Большого"
+        intervals [32]:
+            xmin = 12.803248
+            xmax = 13.523777
+            text = "Петергофского"
+        intervals [33]:
+            xmin = 13.579203
+            xmax = 13.911754
+            text = "дворца"
+        intervals [34]:
+            xmin = 13.967180
+            xmax = 14.244306
+            text = "стало"
+        intervals [35]:
+            xmin = 14.299732
+            xmax = 14.632284
+            text = "важным"
+        intervals [36]:
+            xmin = 14.687709
+            xmax = 15.131111
+            text = "событием"
+        intervals [37]:
+            xmin = 15.186537
+            xmax = 15.241962
+            text = "в"
+        intervals [38]:
+            xmin = 15.297387
+            xmax = 15.685365
+            text = "истории"
+        intervals [39]:
+            xmin = 15.740790
+            xmax = 16.295043
+            text = "сохранения"
+        intervals [40]:
+            xmin = 16.350468
+            xmax = 16.960147
+            text = "культурного"
+        intervals [41]:
+            xmin = 17.015572
+            xmax = 17.514400
+            text = "наследия."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 1.939886
+        xmax = 13.911754
+        intervals: size = 4
+        intervals [1]:
+            xmin = 1.939886
+            xmax = 2.604990
+            text = "EVENT|evt_peterhof_destroy_ww2_1944|разрушениями"
+        intervals [2]:
+            xmin = 10.697086
+            xmax = 10.918787
+            text = "DATE||1940"
+        intervals [3]:
+            xmin = 12.803248
+            xmax = 13.246651
+            text = "PLACE|plc_petergof|Петергоф"
+        intervals [4]:
+            xmin = 12.803248
+            xmax = 13.911754
+            text = "LANDMARK|land_peterhof_palace|Петергофского дворца"

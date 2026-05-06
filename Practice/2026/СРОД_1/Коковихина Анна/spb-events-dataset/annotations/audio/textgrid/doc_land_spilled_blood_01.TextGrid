@@ -1,0 +1,244 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 21.354300
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 21.354300
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 21.354300
+            text = "Собор Спаса на Крови был построен на набережной канала Грибоедова в память об императоре Александре II. Решение о строительстве храма появилось после покушения 1 марта 1881 года, когда место смертельного ранения царя приобрело особое мемориальное значение. Храм был задуман как памятник трагическому событию российской истории."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 21.354300
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 6.726278
+            text = "Собор Спаса на Крови был построен на набережной канала Грибоедова в память об императоре Александре II."
+        intervals [2]:
+            xmin = 6.726278
+            xmax = 16.717739
+            text = "Решение о строительстве храма появилось после покушения 1 марта 1881 года, когда место смертельного ранения царя приобрело особое мемориальное значение."
+        intervals [3]:
+            xmin = 16.717739
+            xmax = 21.354300
+            text = "Храм был задуман как памятник трагическому событию российской истории."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 21.354300
+        intervals: size = 45
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.326518
+            text = "Собор"
+        intervals [2]:
+            xmin = 0.391822
+            xmax = 0.718340
+            text = "Спаса"
+        intervals [3]:
+            xmin = 0.783644
+            xmax = 0.914251
+            text = "на"
+        intervals [4]:
+            xmin = 0.979555
+            xmax = 1.306073
+            text = "Крови"
+        intervals [5]:
+            xmin = 1.371377
+            xmax = 1.567288
+            text = "был"
+        intervals [6]:
+            xmin = 1.632592
+            xmax = 2.155021
+            text = "построен"
+        intervals [7]:
+            xmin = 2.220325
+            xmax = 2.350932
+            text = "на"
+        intervals [8]:
+            xmin = 2.416236
+            xmax = 3.069272
+            text = "набережной"
+        intervals [9]:
+            xmin = 3.134576
+            xmax = 3.526398
+            text = "канала"
+        intervals [10]:
+            xmin = 3.591702
+            xmax = 4.244739
+            text = "Грибоедова"
+        intervals [11]:
+            xmin = 4.310042
+            xmax = 4.375346
+            text = "в"
+        intervals [12]:
+            xmin = 4.440650
+            xmax = 4.832472
+            text = "память"
+        intervals [13]:
+            xmin = 4.897775
+            xmax = 5.028383
+            text = "об"
+        intervals [14]:
+            xmin = 5.093686
+            xmax = 5.746723
+            text = "императоре"
+        intervals [15]:
+            xmin = 5.812027
+            xmax = 6.465063
+            text = "Александре"
+        intervals [16]:
+            xmin = 6.530367
+            xmax = 6.726278
+            text = "II."
+        intervals [17]:
+            xmin = 6.791582
+            xmax = 7.248707
+            text = "Решение"
+        intervals [18]:
+            xmin = 7.314011
+            xmax = 7.379315
+            text = "о"
+        intervals [19]:
+            xmin = 7.444618
+            xmax = 8.293566
+            text = "строительстве"
+        intervals [20]:
+            xmin = 8.358870
+            xmax = 8.685388
+            text = "храма"
+        intervals [21]:
+            xmin = 8.750692
+            xmax = 9.338425
+            text = "появилось"
+        intervals [22]:
+            xmin = 9.403728
+            xmax = 9.730247
+            text = "после"
+        intervals [23]:
+            xmin = 9.795550
+            xmax = 10.383283
+            text = "покушения"
+        intervals [24]:
+            xmin = 10.448587
+            xmax = 10.513891
+            text = "1"
+        intervals [25]:
+            xmin = 10.579194
+            xmax = 10.905713
+            text = "марта"
+        intervals [26]:
+            xmin = 10.971017
+            xmax = 11.232231
+            text = "1881"
+        intervals [27]:
+            xmin = 11.297535
+            xmax = 11.624053
+            text = "года,"
+        intervals [28]:
+            xmin = 11.689357
+            xmax = 12.015875
+            text = "когда"
+        intervals [29]:
+            xmin = 12.081179
+            xmax = 12.407697
+            text = "место"
+        intervals [30]:
+            xmin = 12.473001
+            xmax = 13.256645
+            text = "смертельного"
+        intervals [31]:
+            xmin = 13.321949
+            xmax = 13.779074
+            text = "ранения"
+        intervals [32]:
+            xmin = 13.844378
+            xmax = 14.105593
+            text = "царя"
+        intervals [33]:
+            xmin = 14.170896
+            xmax = 14.758629
+            text = "приобрело"
+        intervals [34]:
+            xmin = 14.823933
+            xmax = 15.215755
+            text = "особое"
+        intervals [35]:
+            xmin = 15.281059
+            xmax = 16.064703
+            text = "мемориальное"
+        intervals [36]:
+            xmin = 16.130006
+            xmax = 16.717739
+            text = "значение."
+        intervals [37]:
+            xmin = 16.783043
+            xmax = 17.044258
+            text = "Храм"
+        intervals [38]:
+            xmin = 17.109561
+            xmax = 17.305472
+            text = "был"
+        intervals [39]:
+            xmin = 17.370776
+            xmax = 17.827902
+            text = "задуман"
+        intervals [40]:
+            xmin = 17.893206
+            xmax = 18.089117
+            text = "как"
+        intervals [41]:
+            xmin = 18.154420
+            xmax = 18.676850
+            text = "памятник"
+        intervals [42]:
+            xmin = 18.742153
+            xmax = 19.525797
+            text = "трагическому"
+        intervals [43]:
+            xmin = 19.591101
+            xmax = 20.048227
+            text = "событию"
+        intervals [44]:
+            xmin = 20.113530
+            xmax = 20.766567
+            text = "российской"
+        intervals [45]:
+            xmin = 20.831871
+            xmax = 21.354300
+            text = "истории."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 0.000000
+        xmax = 11.558750
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 1.306073
+            text = "LANDMARK|land_spilled_blood|Собор Спаса на Крови"
+        intervals [2]:
+            xmin = 3.134576
+            xmax = 4.244739
+            text = "PLACE|plc_griboedov_canal|канала Грибоедова"
+        intervals [3]:
+            xmin = 9.795550
+            xmax = 10.383283
+            text = "EVENT|evt_savior_blood_site_1881|покушения"
+        intervals [4]:
+            xmin = 10.448587
+            xmax = 11.558750
+            text = "DATE||1 марта 1881 года"

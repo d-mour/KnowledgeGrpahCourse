@@ -1,0 +1,220 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 16.149100
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 16.149100
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 16.149100
+            text = "В годы блокады Ленинграда Эрмитаж оказался связан с одной из самых тяжёлых страниц истории города. Часть коллекции была эвакуирована, а сотрудники музея продолжали сохранять здания и экспонаты в условиях осады. История Эрмитажа военного времени часто рассматривается как пример культурного подвига Ленинграда."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 16.149100
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 5.121721
+            text = "В годы блокады Ленинграда Эрмитаж оказался связан с одной из самых тяжёлых страниц истории города."
+        intervals [2]:
+            xmin = 5.121721
+            xmax = 10.975117
+            text = "Часть коллекции была эвакуирована, а сотрудники музея продолжали сохранять здания и экспонаты в условиях осады."
+        intervals [3]:
+            xmin = 10.975117
+            xmax = 16.149100
+            text = "История Эрмитажа военного времени часто рассматривается как пример культурного подвига Ленинграда."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 16.149100
+        intervals: size = 41
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.052262
+            text = "В"
+        intervals [2]:
+            xmin = 0.104525
+            xmax = 0.313575
+            text = "годы"
+        intervals [3]:
+            xmin = 0.365837
+            xmax = 0.731674
+            text = "блокады"
+        intervals [4]:
+            xmin = 0.783937
+            xmax = 1.306561
+            text = "Ленинграда"
+        intervals [5]:
+            xmin = 1.358824
+            xmax = 1.724661
+            text = "Эрмитаж"
+        intervals [6]:
+            xmin = 1.776924
+            xmax = 2.195023
+            text = "оказался"
+        intervals [7]:
+            xmin = 2.247286
+            xmax = 2.560861
+            text = "связан"
+        intervals [8]:
+            xmin = 2.613123
+            xmax = 2.665385
+            text = "с"
+        intervals [9]:
+            xmin = 2.717648
+            xmax = 2.978960
+            text = "одной"
+        intervals [10]:
+            xmin = 3.031223
+            xmax = 3.135748
+            text = "из"
+        intervals [11]:
+            xmin = 3.188010
+            xmax = 3.449322
+            text = "самых"
+        intervals [12]:
+            xmin = 3.501585
+            xmax = 3.867422
+            text = "тяжёлых"
+        intervals [13]:
+            xmin = 3.919684
+            xmax = 4.285522
+            text = "страниц"
+        intervals [14]:
+            xmin = 4.337784
+            xmax = 4.703621
+            text = "истории"
+        intervals [15]:
+            xmin = 4.755884
+            xmax = 5.121721
+            text = "города."
+        intervals [16]:
+            xmin = 5.173983
+            xmax = 5.435296
+            text = "Часть"
+        intervals [17]:
+            xmin = 5.487558
+            xmax = 5.957920
+            text = "коллекции"
+        intervals [18]:
+            xmin = 6.010183
+            xmax = 6.219233
+            text = "была"
+        intervals [19]:
+            xmin = 6.271495
+            xmax = 6.950907
+            text = "эвакуирована,"
+        intervals [20]:
+            xmin = 7.003170
+            xmax = 7.055432
+            text = "а"
+        intervals [21]:
+            xmin = 7.107694
+            xmax = 7.630319
+            text = "сотрудники"
+        intervals [22]:
+            xmin = 7.682582
+            xmax = 7.943894
+            text = "музея"
+        intervals [23]:
+            xmin = 7.996156
+            xmax = 8.518781
+            text = "продолжали"
+        intervals [24]:
+            xmin = 8.571043
+            xmax = 9.041406
+            text = "сохранять"
+        intervals [25]:
+            xmin = 9.093668
+            xmax = 9.407243
+            text = "здания"
+        intervals [26]:
+            xmin = 9.459505
+            xmax = 9.511768
+            text = "и"
+        intervals [27]:
+            xmin = 9.564030
+            xmax = 10.034392
+            text = "экспонаты"
+        intervals [28]:
+            xmin = 10.086655
+            xmax = 10.138917
+            text = "в"
+        intervals [29]:
+            xmin = 10.191180
+            xmax = 10.609279
+            text = "условиях"
+        intervals [30]:
+            xmin = 10.661542
+            xmax = 10.975117
+            text = "осады."
+        intervals [31]:
+            xmin = 11.027379
+            xmax = 11.393216
+            text = "История"
+        intervals [32]:
+            xmin = 11.445479
+            xmax = 11.863578
+            text = "Эрмитажа"
+        intervals [33]:
+            xmin = 11.915841
+            xmax = 12.333940
+            text = "военного"
+        intervals [34]:
+            xmin = 12.386203
+            xmax = 12.752040
+            text = "времени"
+        intervals [35]:
+            xmin = 12.804303
+            xmax = 13.065615
+            text = "часто"
+        intervals [36]:
+            xmin = 13.117877
+            xmax = 13.901814
+            text = "рассматривается"
+        intervals [37]:
+            xmin = 13.954077
+            xmax = 14.110864
+            text = "как"
+        intervals [38]:
+            xmin = 14.163127
+            xmax = 14.476701
+            text = "пример"
+        intervals [39]:
+            xmin = 14.528964
+            xmax = 15.103851
+            text = "культурного"
+        intervals [40]:
+            xmin = 15.156113
+            xmax = 15.521950
+            text = "подвига"
+        intervals [41]:
+            xmin = 15.574213
+            xmax = 16.149100
+            text = "Ленинграда."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 0.783937
+        xmax = 1.724661
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.783937
+            xmax = 1.306561
+            text = "PLACE|plc_spb|Ленинграда"
+        intervals [2]:
+            xmin = 1.358824
+            xmax = 1.724661
+            text = "LANDMARK|land_ermitage|Эрмитаж"

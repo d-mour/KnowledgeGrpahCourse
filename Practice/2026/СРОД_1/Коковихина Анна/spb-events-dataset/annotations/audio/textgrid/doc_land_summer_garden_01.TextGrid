@@ -1,0 +1,244 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 17.471700
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 17.471700
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 17.471700
+            text = "Летний сад был создан как одна из ранних парадных резиденций Петербурга и занял важное место в градостроительной истории города. Сад связан с петровской эпохой и долгое время оставался пространством, где соединялись архитектура, скульптура и садовое искусство. Сегодня он рассматривается как один из наиболее известных исторических садов Санкт-Петербурга."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 17.471700
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 6.299655
+            text = "Летний сад был создан как одна из ранних парадных резиденций Петербурга и занял важное место в градостроительной истории города."
+        intervals [2]:
+            xmin = 6.299655
+            xmax = 12.796175
+            text = "Сад связан с петровской эпохой и долгое время оставался пространством, где соединялись архитектура, скульптура и садовое искусство."
+        intervals [3]:
+            xmin = 12.796175
+            xmax = 17.471700
+            text = "Сегодня он рассматривается как один из наиболее известных исторических садов Санкт-Петербурга."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 17.471700
+        intervals: size = 47
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.295296
+            text = "Летний"
+        intervals [2]:
+            xmin = 0.344512
+            xmax = 0.492161
+            text = "сад"
+        intervals [3]:
+            xmin = 0.541377
+            xmax = 0.689025
+            text = "был"
+        intervals [4]:
+            xmin = 0.738241
+            xmax = 1.033537
+            text = "создан"
+        intervals [5]:
+            xmin = 1.082753
+            xmax = 1.230401
+            text = "как"
+        intervals [6]:
+            xmin = 1.279617
+            xmax = 1.476482
+            text = "одна"
+        intervals [7]:
+            xmin = 1.525698
+            xmax = 1.624130
+            text = "из"
+        intervals [8]:
+            xmin = 1.673346
+            xmax = 1.968642
+            text = "ранних"
+        intervals [9]:
+            xmin = 2.017858
+            xmax = 2.411587
+            text = "парадных"
+        intervals [10]:
+            xmin = 2.460803
+            xmax = 2.952963
+            text = "резиденций"
+        intervals [11]:
+            xmin = 3.002179
+            xmax = 3.494340
+            text = "Петербурга"
+        intervals [12]:
+            xmin = 3.543556
+            xmax = 3.592772
+            text = "и"
+        intervals [13]:
+            xmin = 3.641988
+            xmax = 3.888068
+            text = "занял"
+        intervals [14]:
+            xmin = 3.937285
+            xmax = 4.232581
+            text = "важное"
+        intervals [15]:
+            xmin = 4.281797
+            xmax = 4.527877
+            text = "место"
+        intervals [16]:
+            xmin = 4.577093
+            xmax = 4.626309
+            text = "в"
+        intervals [17]:
+            xmin = 4.675525
+            xmax = 5.512198
+            text = "градостроительной"
+        intervals [18]:
+            xmin = 5.561414
+            xmax = 5.905927
+            text = "истории"
+        intervals [19]:
+            xmin = 5.955143
+            xmax = 6.299655
+            text = "города."
+        intervals [20]:
+            xmin = 6.348871
+            xmax = 6.496519
+            text = "Сад"
+        intervals [21]:
+            xmin = 6.545735
+            xmax = 6.841032
+            text = "связан"
+        intervals [22]:
+            xmin = 6.890248
+            xmax = 6.939464
+            text = "с"
+        intervals [23]:
+            xmin = 6.988680
+            xmax = 7.480841
+            text = "петровской"
+        intervals [24]:
+            xmin = 7.530057
+            xmax = 7.825353
+            text = "эпохой"
+        intervals [25]:
+            xmin = 7.874569
+            xmax = 7.923785
+            text = "и"
+        intervals [26]:
+            xmin = 7.973001
+            xmax = 8.268297
+            text = "долгое"
+        intervals [27]:
+            xmin = 8.317514
+            xmax = 8.563594
+            text = "время"
+        intervals [28]:
+            xmin = 8.612810
+            xmax = 9.055754
+            text = "оставался"
+        intervals [29]:
+            xmin = 9.104970
+            xmax = 9.793995
+            text = "пространством,"
+        intervals [30]:
+            xmin = 9.843211
+            xmax = 9.990859
+            text = "где"
+        intervals [31]:
+            xmin = 10.040075
+            xmax = 10.581452
+            text = "соединялись"
+        intervals [32]:
+            xmin = 10.630668
+            xmax = 11.221261
+            text = "архитектура,"
+        intervals [33]:
+            xmin = 11.270477
+            xmax = 11.762637
+            text = "скульптура"
+        intervals [34]:
+            xmin = 11.811854
+            xmax = 11.861070
+            text = "и"
+        intervals [35]:
+            xmin = 11.910286
+            xmax = 12.254798
+            text = "садовое"
+        intervals [36]:
+            xmin = 12.304014
+            xmax = 12.796175
+            text = "искусство."
+        intervals [37]:
+            xmin = 12.845391
+            xmax = 13.189903
+            text = "Сегодня"
+        intervals [38]:
+            xmin = 13.239119
+            xmax = 13.337551
+            text = "он"
+        intervals [39]:
+            xmin = 13.386767
+            xmax = 14.125008
+            text = "рассматривается"
+        intervals [40]:
+            xmin = 14.174224
+            xmax = 14.321872
+            text = "как"
+        intervals [41]:
+            xmin = 14.371088
+            xmax = 14.567953
+            text = "один"
+        intervals [42]:
+            xmin = 14.617169
+            xmax = 14.715601
+            text = "из"
+        intervals [43]:
+            xmin = 14.764817
+            xmax = 15.158545
+            text = "наиболее"
+        intervals [44]:
+            xmin = 15.207761
+            xmax = 15.650706
+            text = "известных"
+        intervals [45]:
+            xmin = 15.699922
+            xmax = 16.290515
+            text = "исторических"
+        intervals [46]:
+            xmin = 16.339731
+            xmax = 16.585811
+            text = "садов"
+        intervals [47]:
+            xmin = 16.635027
+            xmax = 17.471700
+            text = "Санкт-Петербурга."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 0.000000
+        xmax = 3.494340
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.492161
+            text = "LANDMARK|land_summer_garden|Летний сад"
+        intervals [2]:
+            xmin = 3.002179
+            xmax = 3.494340
+            text = "PLACE|plc_spb|Петербурга"

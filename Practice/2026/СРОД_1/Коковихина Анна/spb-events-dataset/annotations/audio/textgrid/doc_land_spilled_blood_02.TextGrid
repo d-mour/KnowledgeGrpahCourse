@@ -1,0 +1,212 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 18.751700
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 18.751700
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 18.751700
+            text = "Строительство Спаса на Крови началось в 1883 году и продолжалось более двух десятилетий. Храм возводился по проекту Альфреда Парланда и был окончательно завершён в начале XX века. Его история сочетает архитектурный замысел, религиозный смысл и память о гибели Александра II."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 18.751700
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 6.022444
+            text = "Строительство Спаса на Крови началось в 1883 году и продолжалось более двух десятилетий."
+        intervals [2]:
+            xmin = 6.022444
+            xmax = 12.250198
+            text = "Храм возводился по проекту Альфреда Парланда и был окончательно завершён в начале XX века."
+        intervals [3]:
+            xmin = 12.250198
+            xmax = 18.751700
+            text = "Его история сочетает архитектурный замысел, религиозный смысл и память о гибели Александра II."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 18.751700
+        intervals: size = 40
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.889679
+            text = "Строительство"
+        intervals [2]:
+            xmin = 0.958116
+            xmax = 1.300300
+            text = "Спаса"
+        intervals [3]:
+            xmin = 1.368737
+            xmax = 1.505611
+            text = "на"
+        intervals [4]:
+            xmin = 1.574048
+            xmax = 1.916232
+            text = "Крови"
+        intervals [5]:
+            xmin = 1.984669
+            xmax = 2.532164
+            text = "началось"
+        intervals [6]:
+            xmin = 2.600601
+            xmax = 2.669038
+            text = "в"
+        intervals [7]:
+            xmin = 2.737474
+            xmax = 3.011222
+            text = "1883"
+        intervals [8]:
+            xmin = 3.079659
+            xmax = 3.353406
+            text = "году"
+        intervals [9]:
+            xmin = 3.421843
+            xmax = 3.490280
+            text = "и"
+        intervals [10]:
+            xmin = 3.558717
+            xmax = 4.379959
+            text = "продолжалось"
+        intervals [11]:
+            xmin = 4.448396
+            xmax = 4.790580
+            text = "более"
+        intervals [12]:
+            xmin = 4.859017
+            xmax = 5.132765
+            text = "двух"
+        intervals [13]:
+            xmin = 5.201201
+            xmax = 6.022444
+            text = "десятилетий."
+        intervals [14]:
+            xmin = 6.090881
+            xmax = 6.364628
+            text = "Храм"
+        intervals [15]:
+            xmin = 6.433065
+            xmax = 7.117434
+            text = "возводился"
+        intervals [16]:
+            xmin = 7.185870
+            xmax = 7.322744
+            text = "по"
+        intervals [17]:
+            xmin = 7.391181
+            xmax = 7.870239
+            text = "проекту"
+        intervals [18]:
+            xmin = 7.938676
+            xmax = 8.486171
+            text = "Альфреда"
+        intervals [19]:
+            xmin = 8.554608
+            xmax = 9.102103
+            text = "Парланда"
+        intervals [20]:
+            xmin = 9.170539
+            xmax = 9.238976
+            text = "и"
+        intervals [21]:
+            xmin = 9.307413
+            xmax = 9.512724
+            text = "был"
+        intervals [22]:
+            xmin = 9.581161
+            xmax = 10.402403
+            text = "окончательно"
+        intervals [23]:
+            xmin = 10.470840
+            xmax = 11.018335
+            text = "завершён"
+        intervals [24]:
+            xmin = 11.086772
+            xmax = 11.155208
+            text = "в"
+        intervals [25]:
+            xmin = 11.223645
+            xmax = 11.634266
+            text = "начале"
+        intervals [26]:
+            xmin = 11.702703
+            xmax = 11.839577
+            text = "XX"
+        intervals [27]:
+            xmin = 11.908014
+            xmax = 12.250198
+            text = "века."
+        intervals [28]:
+            xmin = 12.318635
+            xmax = 12.523946
+            text = "Его"
+        intervals [29]:
+            xmin = 12.592382
+            xmax = 13.071441
+            text = "история"
+        intervals [30]:
+            xmin = 13.139877
+            xmax = 13.687372
+            text = "сочетает"
+        intervals [31]:
+            xmin = 13.755809
+            xmax = 14.645488
+            text = "архитектурный"
+        intervals [32]:
+            xmin = 14.713925
+            xmax = 15.261420
+            text = "замысел,"
+        intervals [33]:
+            xmin = 15.329857
+            xmax = 16.082662
+            text = "религиозный"
+        intervals [34]:
+            xmin = 16.151099
+            xmax = 16.493284
+            text = "смысл"
+        intervals [35]:
+            xmin = 16.561720
+            xmax = 16.630157
+            text = "и"
+        intervals [36]:
+            xmin = 16.698594
+            xmax = 17.109215
+            text = "память"
+        intervals [37]:
+            xmin = 17.177652
+            xmax = 17.246089
+            text = "о"
+        intervals [38]:
+            xmin = 17.314526
+            xmax = 17.725147
+            text = "гибели"
+        intervals [39]:
+            xmin = 17.793584
+            xmax = 18.477953
+            text = "Александра"
+        intervals [40]:
+            xmin = 18.546389
+            xmax = 18.751700
+            text = "II."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 2.737474
+        xmax = 3.011222
+        intervals: size = 1
+        intervals [1]:
+            xmin = 2.737474
+            xmax = 3.011222
+            text = "DATE||1883"

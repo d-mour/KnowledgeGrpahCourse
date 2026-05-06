@@ -1,0 +1,232 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 22.762300
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 22.762300
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 22.762300
+            text = "История Мариинского театра восходит к 1783 году, когда был утверждён театральный комитет для управления зрелищами и музыкой. В том же году был открыт Большой Каменный театр на Карусельной площади, предшественник будущего Мариинского театра. Благодаря этому театр ведёт историю от одного из старейших культурных институтов России."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 22.762300
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 8.579104
+            text = "История Мариинского театра восходит к 1783 году, когда был утверждён театральный комитет для управления зрелищами и музыкой."
+        intervals [2]:
+            xmin = 8.579104
+            xmax = 16.604717
+            text = "В том же году был открыт Большой Каменный театр на Карусельной площади, предшественник будущего Мариинского театра."
+        intervals [3]:
+            xmin = 16.604717
+            xmax = 22.762300
+            text = "Благодаря этому театр ведёт историю от одного из старейших культурных институтов России."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 22.762300
+        intervals: size = 45
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.484304
+            text = "История"
+        intervals [2]:
+            xmin = 0.553491
+            xmax = 1.314540
+            text = "Мариинского"
+        intervals [3]:
+            xmin = 1.383726
+            xmax = 1.798844
+            text = "театра"
+        intervals [4]:
+            xmin = 1.868031
+            xmax = 2.421521
+            text = "восходит"
+        intervals [5]:
+            xmin = 2.490708
+            xmax = 2.559894
+            text = "к"
+        intervals [6]:
+            xmin = 2.629080
+            xmax = 2.905826
+            text = "1783"
+        intervals [7]:
+            xmin = 2.975012
+            xmax = 3.320943
+            text = "году,"
+        intervals [8]:
+            xmin = 3.390130
+            xmax = 3.736061
+            text = "когда"
+        intervals [9]:
+            xmin = 3.805248
+            xmax = 4.012807
+            text = "был"
+        intervals [10]:
+            xmin = 4.081993
+            xmax = 4.704670
+            text = "утверждён"
+        intervals [11]:
+            xmin = 4.773856
+            xmax = 5.534906
+            text = "театральный"
+        intervals [12]:
+            xmin = 5.604092
+            xmax = 6.088396
+            text = "комитет"
+        intervals [13]:
+            xmin = 6.157583
+            xmax = 6.365142
+            text = "для"
+        intervals [14]:
+            xmin = 6.434328
+            xmax = 7.126191
+            text = "управления"
+        intervals [15]:
+            xmin = 7.195378
+            xmax = 7.818054
+            text = "зрелищами"
+        intervals [16]:
+            xmin = 7.887241
+            xmax = 7.956427
+            text = "и"
+        intervals [17]:
+            xmin = 8.025613
+            xmax = 8.579104
+            text = "музыкой."
+        intervals [18]:
+            xmin = 8.648290
+            xmax = 8.717477
+            text = "В"
+        intervals [19]:
+            xmin = 8.786663
+            xmax = 8.994222
+            text = "том"
+        intervals [20]:
+            xmin = 9.063408
+            xmax = 9.201781
+            text = "же"
+        intervals [21]:
+            xmin = 9.270967
+            xmax = 9.547712
+            text = "году"
+        intervals [22]:
+            xmin = 9.616899
+            xmax = 9.824458
+            text = "был"
+        intervals [23]:
+            xmin = 9.893644
+            xmax = 10.308762
+            text = "открыт"
+        intervals [24]:
+            xmin = 10.377948
+            xmax = 10.862253
+            text = "Большой"
+        intervals [25]:
+            xmin = 10.931439
+            xmax = 11.484929
+            text = "Каменный"
+        intervals [26]:
+            xmin = 11.554116
+            xmax = 11.900047
+            text = "театр"
+        intervals [27]:
+            xmin = 11.969234
+            xmax = 12.107606
+            text = "на"
+        intervals [28]:
+            xmin = 12.176793
+            xmax = 12.937842
+            text = "Карусельной"
+        intervals [29]:
+            xmin = 13.007029
+            xmax = 13.560519
+            text = "площади,"
+        intervals [30]:
+            xmin = 13.629705
+            xmax = 14.598314
+            text = "предшественник"
+        intervals [31]:
+            xmin = 14.667500
+            xmax = 15.220991
+            text = "будущего"
+        intervals [32]:
+            xmin = 15.290177
+            xmax = 16.051227
+            text = "Мариинского"
+        intervals [33]:
+            xmin = 16.120413
+            xmax = 16.604717
+            text = "театра."
+        intervals [34]:
+            xmin = 16.673904
+            xmax = 17.296581
+            text = "Благодаря"
+        intervals [35]:
+            xmin = 17.365767
+            xmax = 17.711698
+            text = "этому"
+        intervals [36]:
+            xmin = 17.780885
+            xmax = 18.126816
+            text = "театр"
+        intervals [37]:
+            xmin = 18.196003
+            xmax = 18.541934
+            text = "ведёт"
+        intervals [38]:
+            xmin = 18.611121
+            xmax = 19.095425
+            text = "историю"
+        intervals [39]:
+            xmin = 19.164611
+            xmax = 19.302984
+            text = "от"
+        intervals [40]:
+            xmin = 19.372170
+            xmax = 19.787288
+            text = "одного"
+        intervals [41]:
+            xmin = 19.856474
+            xmax = 19.994847
+            text = "из"
+        intervals [42]:
+            xmin = 20.064033
+            xmax = 20.686710
+            text = "старейших"
+        intervals [43]:
+            xmin = 20.755897
+            xmax = 21.447760
+            text = "культурных"
+        intervals [44]:
+            xmin = 21.516946
+            xmax = 22.208809
+            text = "институтов"
+        intervals [45]:
+            xmin = 22.277996
+            xmax = 22.762300
+            text = "России."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 2.629080
+        xmax = 2.905826
+        intervals: size = 1
+        intervals [1]:
+            xmin = 2.629080
+            xmax = 2.905826
+            text = "DATE||1783"

@@ -1,0 +1,252 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 20.863700
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 20.863700
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 20.863700
+            text = "С Дворцовой площадью связаны ключевые события российской истории начала XX века. В 1905 году здесь произошёл расстрел демонстрации, а в 1917 году площадь стала местом решающих событий Октябрьского восстания в Петрограде. Поэтому этот городской объект важен не только как архитектурный ансамбль, но и как политический символ эпохи перемен."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 20.863700
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 4.938154
+            text = "С Дворцовой площадью связаны ключевые события российской истории начала XX века."
+        intervals [2]:
+            xmin = 4.938154
+            xmax = 13.579923
+            text = "В 1905 году здесь произошёл расстрел демонстрации, а в 1917 году площадь стала местом решающих событий Октябрьского восстания в Петрограде."
+        intervals [3]:
+            xmin = 13.579923
+            xmax = 20.863700
+            text = "Поэтому этот городской объект важен не только как архитектурный ансамбль, но и как политический символ эпохи перемен."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 20.863700
+        intervals: size = 48
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.061727
+            text = "С"
+        intervals [2]:
+            xmin = 0.123454
+            xmax = 0.678996
+            text = "Дворцовой"
+        intervals [3]:
+            xmin = 0.740723
+            xmax = 1.234538
+            text = "площадью"
+        intervals [4]:
+            xmin = 1.296265
+            xmax = 1.728354
+            text = "связаны"
+        intervals [5]:
+            xmin = 1.790081
+            xmax = 2.283896
+            text = "ключевые"
+        intervals [6]:
+            xmin = 2.345623
+            xmax = 2.777712
+            text = "события"
+        intervals [7]:
+            xmin = 2.839438
+            xmax = 3.456708
+            text = "российской"
+        intervals [8]:
+            xmin = 3.518435
+            xmax = 3.950523
+            text = "истории"
+        intervals [9]:
+            xmin = 4.012250
+            xmax = 4.382612
+            text = "начала"
+        intervals [10]:
+            xmin = 4.444338
+            xmax = 4.567792
+            text = "XX"
+        intervals [11]:
+            xmin = 4.629519
+            xmax = 4.938154
+            text = "века."
+        intervals [12]:
+            xmin = 4.999881
+            xmax = 5.061608
+            text = "В"
+        intervals [13]:
+            xmin = 5.123335
+            xmax = 5.370242
+            text = "1905"
+        intervals [14]:
+            xmin = 5.431969
+            xmax = 5.678877
+            text = "году"
+        intervals [15]:
+            xmin = 5.740604
+            xmax = 6.049238
+            text = "здесь"
+        intervals [16]:
+            xmin = 6.110965
+            xmax = 6.666508
+            text = "произошёл"
+        intervals [17]:
+            xmin = 6.728235
+            xmax = 7.222050
+            text = "расстрел"
+        intervals [18]:
+            xmin = 7.283777
+            xmax = 8.086227
+            text = "демонстрации,"
+        intervals [19]:
+            xmin = 8.147954
+            xmax = 8.209681
+            text = "а"
+        intervals [20]:
+            xmin = 8.271408
+            xmax = 8.333135
+            text = "в"
+        intervals [21]:
+            xmin = 8.394862
+            xmax = 8.641769
+            text = "1917"
+        intervals [22]:
+            xmin = 8.703496
+            xmax = 8.950404
+            text = "году"
+        intervals [23]:
+            xmin = 9.012131
+            xmax = 9.444219
+            text = "площадь"
+        intervals [24]:
+            xmin = 9.505946
+            xmax = 9.814581
+            text = "стала"
+        intervals [25]:
+            xmin = 9.876308
+            xmax = 10.246669
+            text = "местом"
+        intervals [26]:
+            xmin = 10.308396
+            xmax = 10.802212
+            text = "решающих"
+        intervals [27]:
+            xmin = 10.863938
+            xmax = 11.296027
+            text = "событий"
+        intervals [28]:
+            xmin = 11.357754
+            xmax = 12.098477
+            text = "Октябрьского"
+        intervals [29]:
+            xmin = 12.160204
+            xmax = 12.715746
+            text = "восстания"
+        intervals [30]:
+            xmin = 12.777473
+            xmax = 12.839200
+            text = "в"
+        intervals [31]:
+            xmin = 12.900927
+            xmax = 13.579923
+            text = "Петрограде."
+        intervals [32]:
+            xmin = 13.641650
+            xmax = 14.073738
+            text = "Поэтому"
+        intervals [33]:
+            xmin = 14.135465
+            xmax = 14.382373
+            text = "этот"
+        intervals [34]:
+            xmin = 14.444100
+            xmax = 14.999642
+            text = "городской"
+        intervals [35]:
+            xmin = 15.061369
+            xmax = 15.431731
+            text = "объект"
+        intervals [36]:
+            xmin = 15.493458
+            xmax = 15.802092
+            text = "важен"
+        intervals [37]:
+            xmin = 15.863819
+            xmax = 15.987273
+            text = "не"
+        intervals [38]:
+            xmin = 16.049000
+            xmax = 16.419362
+            text = "только"
+        intervals [39]:
+            xmin = 16.481088
+            xmax = 16.666269
+            text = "как"
+        intervals [40]:
+            xmin = 16.727996
+            xmax = 17.530446
+            text = "архитектурный"
+        intervals [41]:
+            xmin = 17.592173
+            xmax = 18.147715
+            text = "ансамбль,"
+        intervals [42]:
+            xmin = 18.209442
+            xmax = 18.332896
+            text = "но"
+        intervals [43]:
+            xmin = 18.394623
+            xmax = 18.456350
+            text = "и"
+        intervals [44]:
+            xmin = 18.518077
+            xmax = 18.703258
+            text = "как"
+        intervals [45]:
+            xmin = 18.764985
+            xmax = 19.505708
+            text = "политический"
+        intervals [46]:
+            xmin = 19.567435
+            xmax = 19.937796
+            text = "символ"
+        intervals [47]:
+            xmin = 19.999523
+            xmax = 20.308158
+            text = "эпохи"
+        intervals [48]:
+            xmin = 20.369885
+            xmax = 20.863700
+            text = "перемен."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 5.123335
+        xmax = 13.518196
+        intervals: size = 3
+        intervals [1]:
+            xmin = 5.123335
+            xmax = 5.370242
+            text = "DATE||1905"
+        intervals [2]:
+            xmin = 8.394862
+            xmax = 8.641769
+            text = "DATE||1917"
+        intervals [3]:
+            xmin = 12.900927
+            xmax = 13.518196
+            text = "PLACE|plc_spb|Петрограде"

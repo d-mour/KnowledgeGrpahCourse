@@ -1,0 +1,208 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 17.621100
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 17.621100
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 17.621100
+            text = "Главное Адмиралтейство было заложено в Санкт-Петербурге в 1704 году по инициативе Петра I. Изначально оно создавалось как судостроительная верфь и центр строительства кораблей для Балтийского флота. С этого времени история здания тесно связана с морской историей России."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 17.621100
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 5.873700
+            text = "Главное Адмиралтейство было заложено в Санкт-Петербурге в 1704 году по инициативе Петра I."
+        intervals [2]:
+            xmin = 5.873700
+            xmax = 12.922140
+            text = "Изначально оно создавалось как судостроительная верфь и центр строительства кораблей для Балтийского флота."
+        intervals [3]:
+            xmin = 12.922140
+            xmax = 17.621100
+            text = "С этого времени история здания тесно связана с морской историей России."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 17.621100
+        intervals: size = 37
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.456843
+            text = "Главное"
+        intervals [2]:
+            xmin = 0.522107
+            xmax = 1.435793
+            text = "Адмиралтейство"
+        intervals [3]:
+            xmin = 1.501057
+            xmax = 1.762110
+            text = "было"
+        intervals [4]:
+            xmin = 1.827373
+            xmax = 2.349480
+            text = "заложено"
+        intervals [5]:
+            xmin = 2.414743
+            xmax = 2.480007
+            text = "в"
+        intervals [6]:
+            xmin = 2.545270
+            xmax = 3.589483
+            text = "Санкт-Петербурге"
+        intervals [7]:
+            xmin = 3.654747
+            xmax = 3.720010
+            text = "в"
+        intervals [8]:
+            xmin = 3.785273
+            xmax = 4.046327
+            text = "1704"
+        intervals [9]:
+            xmin = 4.111590
+            xmax = 4.372643
+            text = "году"
+        intervals [10]:
+            xmin = 4.437907
+            xmax = 4.568433
+            text = "по"
+        intervals [11]:
+            xmin = 4.633697
+            xmax = 5.286330
+            text = "инициативе"
+        intervals [12]:
+            xmin = 5.351593
+            xmax = 5.677910
+            text = "Петра"
+        intervals [13]:
+            xmin = 5.743173
+            xmax = 5.873700
+            text = "I."
+        intervals [14]:
+            xmin = 5.938963
+            xmax = 6.591597
+            text = "Изначально"
+        intervals [15]:
+            xmin = 6.656860
+            xmax = 6.852650
+            text = "оно"
+        intervals [16]:
+            xmin = 6.917913
+            xmax = 7.635810
+            text = "создавалось"
+        intervals [17]:
+            xmin = 7.701073
+            xmax = 7.896863
+            text = "как"
+        intervals [18]:
+            xmin = 7.962127
+            xmax = 9.006340
+            text = "судостроительная"
+        intervals [19]:
+            xmin = 9.071603
+            xmax = 9.397920
+            text = "верфь"
+        intervals [20]:
+            xmin = 9.463183
+            xmax = 9.528447
+            text = "и"
+        intervals [21]:
+            xmin = 9.593710
+            xmax = 9.920027
+            text = "центр"
+        intervals [22]:
+            xmin = 9.985290
+            xmax = 10.833713
+            text = "строительства"
+        intervals [23]:
+            xmin = 10.898977
+            xmax = 11.421083
+            text = "кораблей"
+        intervals [24]:
+            xmin = 11.486347
+            xmax = 11.682137
+            text = "для"
+        intervals [25]:
+            xmin = 11.747400
+            xmax = 12.465297
+            text = "Балтийского"
+        intervals [26]:
+            xmin = 12.530560
+            xmax = 12.922140
+            text = "флота."
+        intervals [27]:
+            xmin = 12.987403
+            xmax = 13.052667
+            text = "С"
+        intervals [28]:
+            xmin = 13.117930
+            xmax = 13.444247
+            text = "этого"
+        intervals [29]:
+            xmin = 13.509510
+            xmax = 13.966353
+            text = "времени"
+        intervals [30]:
+            xmin = 14.031617
+            xmax = 14.488460
+            text = "история"
+        intervals [31]:
+            xmin = 14.553723
+            xmax = 14.945303
+            text = "здания"
+        intervals [32]:
+            xmin = 15.010567
+            xmax = 15.336883
+            text = "тесно"
+        intervals [33]:
+            xmin = 15.402147
+            xmax = 15.858990
+            text = "связана"
+        intervals [34]:
+            xmin = 15.924253
+            xmax = 15.989517
+            text = "с"
+        intervals [35]:
+            xmin = 16.054780
+            xmax = 16.511623
+            text = "морской"
+        intervals [36]:
+            xmin = 16.576887
+            xmax = 17.098993
+            text = "историей"
+        intervals [37]:
+            xmin = 17.164257
+            xmax = 17.621100
+            text = "России."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 0.000000
+        xmax = 4.046327
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 1.435793
+            text = "LANDMARK|land_admiralty|Главное Адмиралтейство"
+        intervals [2]:
+            xmin = 2.545270
+            xmax = 3.524220
+            text = "PLACE|plc_spb|Санкт-Петербург"
+        intervals [3]:
+            xmin = 3.785273
+            xmax = 4.046327
+            text = "DATE||1704"

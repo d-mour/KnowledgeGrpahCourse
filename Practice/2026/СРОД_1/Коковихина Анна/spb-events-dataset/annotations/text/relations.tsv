@@ -1,0 +1,80 @@
+doc_id	landmark_id	rel_id	head_mention_id	tail_mention_id	relation_type	confidence	note
+doc_land_ermitage_01	land_ermitage	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_ermitage_01	land_ermitage	r02	m03	m04	HAS_DATE	high	auto from suggestion hint + first date
+doc_land_ermitage_01	land_ermitage	r03	m05	m01	HAPPENED_AT	medium	auto event-landmark link
+doc_land_ermitage_01	land_ermitage	r04	m05	m04	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_ermitage_02	land_ermitage	r01	m02	m01	LOCATED_IN	medium	auto from place mention in text
+doc_land_ermitage_02	land_ermitage	r02	m03	m02	HAPPENED_AT	medium	auto event-landmark link
+doc_land_peterpaul_01	land_peterpaul	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_peterpaul_01	land_peterpaul	r02	m04	m01	HAPPENED_AT	medium	auto event-landmark link
+doc_land_peterpaul_01	land_peterpaul	r03	m04	m03	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_peterpaul_01	land_peterpaul	r04	m06	m01	HAPPENED_AT	medium	auto event-landmark link
+doc_land_peterpaul_01	land_peterpaul	r05	m06	m03	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_peterpaul_02	land_peterpaul	r01	m03	m02	HAPPENED_AT	medium	auto event-landmark link
+doc_land_peterpaul_02	land_peterpaul	r02	m03	m01	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_isaak_01	land_isaak	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_isaak_01	land_isaak	r02	m04	m03	HAS_DATE	high	auto from suggestion hint + first date
+doc_land_isaak_02	land_isaak	r01	m02	m01	LOCATED_IN	medium	auto from place mention in text
+doc_land_isaak_02	land_isaak	r02	m03	m02	HAPPENED_AT	medium	auto event-landmark link
+doc_land_kazan_cathedral_01	land_kazan_cathedral	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_kazan_cathedral_01	land_kazan_cathedral	r02	m04	m01	HAPPENED_AT	medium	auto event-landmark link
+doc_land_kazan_cathedral_01	land_kazan_cathedral	r03	m04	m03	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_kazan_cathedral_02	land_kazan_cathedral	r01	m01	m04	HAPPENED_AT	medium	auto event-landmark link
+doc_land_kazan_cathedral_02	land_kazan_cathedral	r02	m01	m02	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_spilled_blood_01	land_spilled_blood	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_spilled_blood_01	land_spilled_blood	r02	m03	m02	HAPPENED_ON	medium	auto from suggestion hint
+doc_land_spilled_blood_01	land_spilled_blood	r03	m03	m04	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_spilled_blood_02	land_spilled_blood	r01	m02	m03	HAPPENED_AT	medium	auto event-landmark link
+doc_land_spilled_blood_02	land_spilled_blood	r02	m02	m01	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_peterhof_palace_01	land_peterhof_palace	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_peterhof_palace_01	land_peterhof_palace	r02	m04	m01	RELATED_TO	low	auto weak association from suggestions
+doc_land_peterhof_palace_01	land_peterhof_palace	r03	m04	m03	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_peterhof_palace_01	land_peterhof_palace	r04	m05	m01	HAPPENED_AT	medium	auto event-landmark link
+doc_land_peterhof_palace_01	land_peterhof_palace	r05	m05	m03	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_peterhof_palace_02	land_peterhof_palace	r01	m03	m04	LOCATED_IN	medium	auto from place mention in text
+doc_land_peterhof_palace_02	land_peterhof_palace	r02	m01	m03	HAPPENED_AT	medium	auto event-landmark link
+doc_land_peterhof_palace_02	land_peterhof_palace	r03	m01	m02	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_peterhof_palace_02	land_peterhof_palace	r04	m05	m03	RELATED_TO	low	auto weak association from suggestions
+doc_land_peterhof_palace_02	land_peterhof_palace	r05	m05	m02	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_catherine_palace_01	land_catherine_palace	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_catherine_palace_01	land_catherine_palace	r02	m03	m01	RELATED_TO	low	auto weak association from suggestions
+doc_land_catherine_palace_01	land_catherine_palace	r03	m04	m01	RELATED_TO	low	auto weak association from suggestions
+doc_land_catherine_palace_02	land_catherine_palace	r01	m01	m03	RELATED_TO	low	auto weak association from suggestions
+doc_land_catherine_palace_02	land_catherine_palace	r02	m01	m02	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_catherine_palace_02	land_catherine_palace	r03	m04	m03	RELATED_TO	low	auto weak association from suggestions
+doc_land_catherine_palace_02	land_catherine_palace	r04	m04	m02	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_bronze_horseman_01	land_bronze_horseman	r01	m01	m03	LOCATED_IN	medium	auto from place mention in text
+doc_land_bronze_horseman_01	land_bronze_horseman	r02	m02	m04	HAS_DATE	high	auto from suggestion hint + first date
+doc_land_bronze_horseman_02	land_bronze_horseman	r01	m03	m01	HAS_DATE	high	auto from suggestion hint + first date
+doc_land_rostral_01	land_rostral	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_rostral_01	land_rostral	r02	m05	m01	RELATED_TO	low	auto weak association from suggestions
+doc_land_rostral_01	land_rostral	r03	m05	m03	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_rostral_02	land_rostral	r01	m02	m01	RELATED_TO	low	auto weak association from suggestions
+doc_land_admiralty_01	land_admiralty	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_admiralty_01	land_admiralty	r02	m04	m01	RELATED_TO	low	auto weak association from suggestions
+doc_land_admiralty_01	land_admiralty	r03	m04	m03	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_admiralty_02	land_admiralty	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_admiralty_02	land_admiralty	r02	m03	m01	RELATED_TO	low	auto weak association from suggestions
+doc_land_smolny_01	land_smolny	r01	m04	m01	HAPPENED_AT	medium	auto event-landmark link
+doc_land_smolny_01	land_smolny	r02	m04	m02	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_smolny_02	land_smolny	r01	m02	m01	LOCATED_IN	medium	auto from place mention in text
+doc_land_smolny_02	land_smolny	r02	m03	m02	HAPPENED_AT	medium	auto event-landmark link
+doc_land_palace_square_01	land_palace_square	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_palace_square_02	land_palace_square	r01	m04	m03	LOCATED_IN	medium	auto from place mention in text
+doc_land_mariinsky_01	land_mariinsky	r01	m02	m03	RELATED_TO	low	auto weak association from suggestions
+doc_land_mariinsky_01	land_mariinsky	r02	m02	m01	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_mariinsky_02	land_mariinsky	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_mariinsky_02	land_mariinsky	r02	m03	m01	RELATED_TO	low	auto weak association from suggestions
+doc_land_aurora_01	land_aurora	r01	m01	m03	LOCATED_IN	medium	auto from place mention in text
+doc_land_aurora_01	land_aurora	r02	m04	m01	HAPPENED_AT	medium	auto event-landmark link
+doc_land_aurora_01	land_aurora	r03	m04	m02	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_aurora_02	land_aurora	r01	m01	m03	HAPPENED_AT	medium	auto event-landmark link
+doc_land_aurora_02	land_aurora	r02	m01	m02	HAS_DATE	medium	auto event-date link using first date mention
+doc_land_summer_garden_01	land_summer_garden	r01	m01	m02	LOCATED_IN	medium	auto from place mention in text
+doc_land_summer_garden_01	land_summer_garden	r02	m03	m01	RELATED_TO	low	auto weak association from suggestions
+doc_land_summer_garden_02	land_summer_garden	r01	m01	m03	LOCATED_IN	medium	auto from place mention in text
+doc_land_summer_garden_02	land_summer_garden	r02	m04	m01	RELATED_TO	low	auto weak association from suggestions
+doc_land_summer_garden_02	land_summer_garden	r03	m04	m02	HAS_DATE	medium	auto event-date link using first date mention
+doc_example_001	land_aurora	r01	m01	m03	LOCATED_IN	medium	auto from place mention in text
+doc_example_001	land_aurora	r02	m04	m01	HAPPENED_AT	medium	auto event-landmark link
+doc_example_001	land_aurora	r03	m04	m02	HAS_DATE	medium	auto event-date link using first date mention

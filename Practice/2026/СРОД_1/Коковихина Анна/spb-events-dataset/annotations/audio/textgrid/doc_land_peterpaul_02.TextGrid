@@ -1,0 +1,204 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 17.877100
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 17.877100
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 17.877100
+            text = "Первоначально крепость была земляной и деревянной, но позже её начали перестраивать в камне. С 1706 года работы велись по проекту Доменико Трезини. Со временем Петропавловская крепость стала не только военным объектом, но и важнейшим историческим символом города."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 17.877100
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 6.253586
+            text = "Первоначально крепость была земляной и деревянной, но позже её начали перестраивать в камне."
+        intervals [2]:
+            xmin = 6.253586
+            xmax = 9.992143
+            text = "С 1706 года работы велись по проекту Доменико Трезини."
+        intervals [3]:
+            xmin = 9.992143
+            xmax = 17.877100
+            text = "Со временем Петропавловская крепость стала не только военным объектом, но и важнейшим историческим символом города."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 17.877100
+        intervals: size = 37
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.883659
+            text = "Первоначально"
+        intervals [2]:
+            xmin = 0.951633
+            xmax = 1.495423
+            text = "крепость"
+        intervals [3]:
+            xmin = 1.563397
+            xmax = 1.835292
+            text = "была"
+        intervals [4]:
+            xmin = 1.903265
+            xmax = 2.447056
+            text = "земляной"
+        intervals [5]:
+            xmin = 2.515029
+            xmax = 2.583003
+            text = "и"
+        intervals [6]:
+            xmin = 2.650977
+            xmax = 3.398688
+            text = "деревянной,"
+        intervals [7]:
+            xmin = 3.466662
+            xmax = 3.602610
+            text = "но"
+        intervals [8]:
+            xmin = 3.670583
+            xmax = 4.010452
+            text = "позже"
+        intervals [9]:
+            xmin = 4.078426
+            xmax = 4.214373
+            text = "её"
+        intervals [10]:
+            xmin = 4.282347
+            xmax = 4.690190
+            text = "начали"
+        intervals [11]:
+            xmin = 4.758163
+            xmax = 5.641822
+            text = "перестраивать"
+        intervals [12]:
+            xmin = 5.709796
+            xmax = 5.777770
+            text = "в"
+        intervals [13]:
+            xmin = 5.845744
+            xmax = 6.253586
+            text = "камне."
+        intervals [14]:
+            xmin = 6.321560
+            xmax = 6.389534
+            text = "С"
+        intervals [15]:
+            xmin = 6.457508
+            xmax = 6.729403
+            text = "1706"
+        intervals [16]:
+            xmin = 6.797376
+            xmax = 7.069271
+            text = "года"
+        intervals [17]:
+            xmin = 7.137245
+            xmax = 7.545088
+            text = "работы"
+        intervals [18]:
+            xmin = 7.613062
+            xmax = 8.020904
+            text = "велись"
+        intervals [19]:
+            xmin = 8.088878
+            xmax = 8.224825
+            text = "по"
+        intervals [20]:
+            xmin = 8.292799
+            xmax = 8.768616
+            text = "проекту"
+        intervals [21]:
+            xmin = 8.836589
+            xmax = 9.380379
+            text = "Доменико"
+        intervals [22]:
+            xmin = 9.448353
+            xmax = 9.992143
+            text = "Трезини."
+        intervals [23]:
+            xmin = 10.060117
+            xmax = 10.196065
+            text = "Со"
+        intervals [24]:
+            xmin = 10.264038
+            xmax = 10.807829
+            text = "временем"
+        intervals [25]:
+            xmin = 10.875802
+            xmax = 11.895409
+            text = "Петропавловская"
+        intervals [26]:
+            xmin = 11.963383
+            xmax = 12.507173
+            text = "крепость"
+        intervals [27]:
+            xmin = 12.575146
+            xmax = 12.915015
+            text = "стала"
+        intervals [28]:
+            xmin = 12.982989
+            xmax = 13.118937
+            text = "не"
+        intervals [29]:
+            xmin = 13.186910
+            xmax = 13.594753
+            text = "только"
+        intervals [30]:
+            xmin = 13.662727
+            xmax = 14.138543
+            text = "военным"
+        intervals [31]:
+            xmin = 14.206517
+            xmax = 14.818281
+            text = "объектом,"
+        intervals [32]:
+            xmin = 14.886254
+            xmax = 15.022202
+            text = "но"
+        intervals [33]:
+            xmin = 15.090176
+            xmax = 15.158149
+            text = "и"
+        intervals [34]:
+            xmin = 15.226123
+            xmax = 15.837887
+            text = "важнейшим"
+        intervals [35]:
+            xmin = 15.905861
+            xmax = 16.721546
+            text = "историческим"
+        intervals [36]:
+            xmin = 16.789520
+            xmax = 17.333310
+            text = "символом"
+        intervals [37]:
+            xmin = 17.401284
+            xmax = 17.877100
+            text = "города."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 6.457508
+        xmax = 12.507173
+        intervals: size = 2
+        intervals [1]:
+            xmin = 6.457508
+            xmax = 6.729403
+            text = "DATE||1706"
+        intervals [2]:
+            xmin = 10.875802
+            xmax = 12.507173
+            text = "LANDMARK|land_peterpaul|Петропавловская крепость"
