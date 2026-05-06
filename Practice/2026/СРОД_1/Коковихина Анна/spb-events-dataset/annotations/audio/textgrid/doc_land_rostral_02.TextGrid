@@ -1,0 +1,192 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 16.981100
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 16.981100
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 16.981100
+            text = "В XIX веке Ростральные колонны выполняли не только декоративную, но и практическую функцию. Их использовали как фонари порта, помогавшие ориентироваться кораблям. Благодаря этому объект связан одновременно с архитектурной историей города и с историей петербургского мореплавания."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 16.981100
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 5.538638
+            text = "В XIX веке Ростральные колонны выполняли не только декоративную, но и практическую функцию."
+        intervals [2]:
+            xmin = 5.538638
+            xmax = 9.859994
+            text = "Их использовали как фонари порта, помогавшие ориентироваться кораблям."
+        intervals [3]:
+            xmin = 9.859994
+            xmax = 16.981100
+            text = "Благодаря этому объект связан одновременно с архитектурной историей города и с историей петербургского мореплавания."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 16.981100
+        intervals: size = 35
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.060864
+            text = "В"
+        intervals [2]:
+            xmin = 0.121728
+            xmax = 0.304321
+            text = "XIX"
+        intervals [3]:
+            xmin = 0.365185
+            xmax = 0.608642
+            text = "веке"
+        intervals [4]:
+            xmin = 0.669506
+            xmax = 1.339011
+            text = "Ростральные"
+        intervals [5]:
+            xmin = 1.399876
+            xmax = 1.825925
+            text = "колонны"
+        intervals [6]:
+            xmin = 1.886789
+            xmax = 2.434566
+            text = "выполняли"
+        intervals [7]:
+            xmin = 2.495430
+            xmax = 2.617159
+            text = "не"
+        intervals [8]:
+            xmin = 2.678023
+            xmax = 3.043208
+            text = "только"
+        intervals [9]:
+            xmin = 3.104072
+            xmax = 3.895306
+            text = "декоративную,"
+        intervals [10]:
+            xmin = 3.956170
+            xmax = 4.077899
+            text = "но"
+        intervals [11]:
+            xmin = 4.138763
+            xmax = 4.199627
+            text = "и"
+        intervals [12]:
+            xmin = 4.260491
+            xmax = 4.990861
+            text = "практическую"
+        intervals [13]:
+            xmin = 5.051725
+            xmax = 5.538638
+            text = "функцию."
+        intervals [14]:
+            xmin = 5.599503
+            xmax = 5.721231
+            text = "Их"
+        intervals [15]:
+            xmin = 5.782095
+            xmax = 6.512465
+            text = "использовали"
+        intervals [16]:
+            xmin = 6.573329
+            xmax = 6.755922
+            text = "как"
+        intervals [17]:
+            xmin = 6.816786
+            xmax = 7.181971
+            text = "фонари"
+        intervals [18]:
+            xmin = 7.242835
+            xmax = 7.608020
+            text = "порта,"
+        intervals [19]:
+            xmin = 7.668884
+            xmax = 8.277525
+            text = "помогавшие"
+        intervals [20]:
+            xmin = 8.338390
+            xmax = 9.251352
+            text = "ориентироваться"
+        intervals [21]:
+            xmin = 9.312216
+            xmax = 9.859994
+            text = "кораблям."
+        intervals [22]:
+            xmin = 9.920858
+            xmax = 10.468635
+            text = "Благодаря"
+        intervals [23]:
+            xmin = 10.529499
+            xmax = 10.833820
+            text = "этому"
+        intervals [24]:
+            xmin = 10.894684
+            xmax = 11.259869
+            text = "объект"
+        intervals [25]:
+            xmin = 11.320733
+            xmax = 11.685918
+            text = "связан"
+        intervals [26]:
+            xmin = 11.746782
+            xmax = 12.477152
+            text = "одновременно"
+        intervals [27]:
+            xmin = 12.538016
+            xmax = 12.598881
+            text = "с"
+        intervals [28]:
+            xmin = 12.659745
+            xmax = 13.450979
+            text = "архитектурной"
+        intervals [29]:
+            xmin = 13.511843
+            xmax = 13.998756
+            text = "историей"
+        intervals [30]:
+            xmin = 14.059620
+            xmax = 14.424805
+            text = "города"
+        intervals [31]:
+            xmin = 14.485670
+            xmax = 14.546534
+            text = "и"
+        intervals [32]:
+            xmin = 14.607398
+            xmax = 14.668262
+            text = "с"
+        intervals [33]:
+            xmin = 14.729126
+            xmax = 15.216039
+            text = "историей"
+        intervals [34]:
+            xmin = 15.276904
+            xmax = 16.129002
+            text = "петербургского"
+        intervals [35]:
+            xmin = 16.189866
+            xmax = 16.981100
+            text = "мореплавания."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 0.669506
+        xmax = 1.825925
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.669506
+            xmax = 1.825925
+            text = "LANDMARK|land_rostral|Ростральные колонны"

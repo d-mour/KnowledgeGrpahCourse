@@ -1,0 +1,119 @@
+doc_id	landmark_id	mention_id	start_char	end_char	surface	entity_type	entity_id	date_iso	note
+doc_land_ermitage_01	land_ermitage	m01	0	23	Государственный Эрмитаж	LANDMARK	land_ermitage		
+doc_land_ermitage_01	land_ermitage	m02	44	60	Санкт-Петербурга	PLACE	plc_spb		
+doc_land_ermitage_01	land_ermitage	m03	108	123	основания музея	EVENT	evt_eremitage_found_1764		
+doc_land_ermitage_01	land_ermitage	m04	134	138	1764	DATE		1764	
+doc_land_ermitage_01	land_ermitage	m05	-1	-1	evt_hermitage_fire_1837	EVENT	evt_hermitage_fire_1837		event inferred by manual baseline; exact span not found
+doc_land_ermitage_02	land_ermitage	m01	15	25	Ленинграда	PLACE	plc_spb		
+doc_land_ermitage_02	land_ermitage	m02	26	33	Эрмитаж	LANDMARK	land_ermitage		
+doc_land_ermitage_02	land_ermitage	m03	-1	-1	evt_eremitage_found_1764	EVENT	evt_eremitage_found_1764		event inferred by manual baseline; exact span not found
+doc_land_peterpaul_01	land_peterpaul	m01	0	24	Петропавловская крепость	LANDMARK	land_peterpaul		
+doc_land_peterpaul_01	land_peterpaul	m02	42	57	Заячьем острове	PLACE	plc_zayachy_island		
+doc_land_peterpaul_01	land_peterpaul	m03	58	74	27 мая 1703 года	DATE		1703-05-27	
+doc_land_peterpaul_01	land_peterpaul	m04	65	74	1703 года	EVENT	evt_city_founded_1703		
+doc_land_peterpaul_01	land_peterpaul	m05	123	139	Санкт-Петербурга	PLACE	plc_spb		
+doc_land_peterpaul_01	land_peterpaul	m06	-1	-1	evt_siege_leningrad_1941_1944	EVENT	evt_siege_leningrad_1941_1944		event inferred by manual baseline; exact span not found
+doc_land_peterpaul_02	land_peterpaul	m01	95	99	1706	DATE		1706	
+doc_land_peterpaul_02	land_peterpaul	m02	160	184	Петропавловская крепость	LANDMARK	land_peterpaul		
+doc_land_peterpaul_02	land_peterpaul	m03	-1	-1	evt_city_founded_1703	EVENT	evt_city_founded_1703		event inferred by manual baseline; exact span not found
+doc_land_isaak_01	land_isaak	m01	0	18	Исаакиевский собор	LANDMARK	land_isaak		
+doc_land_isaak_01	land_isaak	m02	93	109	Санкт-Петербурга	PLACE	plc_spb		
+doc_land_isaak_01	land_isaak	m03	151	155	1858	DATE		1858	
+doc_land_isaak_01	land_isaak	m04	151	155	1858	EVENT	evt_st_isaac_completed_1858		
+doc_land_isaak_01	land_isaak	m05	159	163	1929	DATE		1929	
+doc_land_isaak_02	land_isaak	m01	17	27	Ленинграда	PLACE	plc_spb		
+doc_land_isaak_02	land_isaak	m02	28	46	Исаакиевский собор	LANDMARK	land_isaak		
+doc_land_isaak_02	land_isaak	m03	-1	-1	evt_st_isaac_completed_1858	EVENT	evt_st_isaac_completed_1858		event inferred by manual baseline; exact span not found
+doc_land_kazan_cathedral_01	land_kazan_cathedral	m01	0	15	Казанский собор	LANDMARK	land_kazan_cathedral		
+doc_land_kazan_cathedral_01	land_kazan_cathedral	m02	18	33	Санкт-Петербург	PLACE	plc_spb		
+doc_land_kazan_cathedral_01	land_kazan_cathedral	m03	50	59	1801-1811	DATE		1801/1811	
+doc_land_kazan_cathedral_01	land_kazan_cathedral	m04	-1	-1	evt_kazan_victory_1812	EVENT	evt_kazan_victory_1812		event inferred by manual baseline; exact span not found
+doc_land_kazan_cathedral_02	land_kazan_cathedral	m01	42	67	Отечественной войной 1812	EVENT	evt_kazan_victory_1812		
+doc_land_kazan_cathedral_02	land_kazan_cathedral	m02	63	67	1812	DATE		1812	
+doc_land_kazan_cathedral_02	land_kazan_cathedral	m03	76	80	1812	DATE		1812	
+doc_land_kazan_cathedral_02	land_kazan_cathedral	m04	-1	-1	Казанский собор	LANDMARK	land_kazan_cathedral		primary landmark not found as exact span; needs manual offset check
+doc_land_spilled_blood_01	land_spilled_blood	m01	0	20	Собор Спаса на Крови	LANDMARK	land_spilled_blood		
+doc_land_spilled_blood_01	land_spilled_blood	m02	48	65	канала Грибоедова	PLACE	plc_griboedov_canal		
+doc_land_spilled_blood_01	land_spilled_blood	m03	150	159	покушения	EVENT	evt_savior_blood_site_1881		
+doc_land_spilled_blood_01	land_spilled_blood	m04	160	177	1 марта 1881 года	DATE		1881-03-01	
+doc_land_spilled_blood_02	land_spilled_blood	m01	40	44	1883	DATE		1883	
+doc_land_spilled_blood_02	land_spilled_blood	m02	-1	-1	evt_savior_blood_site_1881	EVENT	evt_savior_blood_site_1881		event inferred by manual baseline; exact span not found
+doc_land_spilled_blood_02	land_spilled_blood	m03	-1	-1	Собор Воскресения Христова (Спас на Крови)	LANDMARK	land_spilled_blood		primary landmark not found as exact span; needs manual offset check
+doc_land_peterhof_palace_01	land_peterhof_palace	m01	17	37	Петергофского дворца	LANDMARK	land_peterhof_palace		
+doc_land_peterhof_palace_01	land_peterhof_palace	m02	17	25	Петергоф	PLACE	plc_petergof		
+doc_land_peterhof_palace_01	land_peterhof_palace	m03	49	53	1714	DATE		1714	
+doc_land_peterhof_palace_01	land_peterhof_palace	m04	49	58	1714 году	EVENT	evt_peterhof_founded_1714		
+doc_land_peterhof_palace_01	land_peterhof_palace	m05	-1	-1	evt_peterhof_destroy_ww2_1944	EVENT	evt_peterhof_destroy_ww2_1944		event inferred by manual baseline; exact span not found
+doc_land_peterhof_palace_02	land_peterhof_palace	m01	35	47	разрушениями	EVENT	evt_peterhof_destroy_ww2_1944		
+doc_land_peterhof_palace_02	land_peterhof_palace	m02	193	197	1940	DATE		1940	
+doc_land_peterhof_palace_02	land_peterhof_palace	m03	231	251	Петергофского дворца	LANDMARK	land_peterhof_palace		
+doc_land_peterhof_palace_02	land_peterhof_palace	m04	231	239	Петергоф	PLACE	plc_petergof		
+doc_land_peterhof_palace_02	land_peterhof_palace	m05	-1	-1	evt_peterhof_founded_1714	EVENT	evt_peterhof_founded_1714		event inferred by manual baseline; exact span not found
+doc_land_catherine_palace_01	land_catherine_palace	m01	0	21	Екатерининский дворец	LANDMARK	land_catherine_palace		
+doc_land_catherine_palace_01	land_catherine_palace	m02	24	36	Царском Селе	PLACE	plc_tsarskoe		
+doc_land_catherine_palace_01	land_catherine_palace	m03	172	196	перестройками XVIII века	EVENT	evt_tsarskoye_palace_1752		
+doc_land_catherine_palace_01	land_catherine_palace	m04	-1	-1	evt_catherine_amber_room_1941	EVENT	evt_catherine_amber_room_1941		event inferred by manual baseline; exact span not found
+doc_land_catherine_palace_02	land_catherine_palace	m01	39	55	Янтарная комната	EVENT	evt_catherine_amber_room_1941		
+doc_land_catherine_palace_02	land_catherine_palace	m02	59	63	1755	DATE		1755	
+doc_land_catherine_palace_02	land_catherine_palace	m03	141	162	Екатерининский дворец	LANDMARK	land_catherine_palace		
+doc_land_catherine_palace_02	land_catherine_palace	m04	-1	-1	evt_tsarskoye_palace_1752	EVENT	evt_tsarskoye_palace_1752		event inferred by manual baseline; exact span not found
+doc_land_bronze_horseman_01	land_bronze_horseman	m01	0	16	Памятник Петру I	LANDMARK	land_bronze_horseman		
+doc_land_bronze_horseman_01	land_bronze_horseman	m02	155	173	открытие монумента	EVENT	evt_bronze_horse_unveiled_1782		
+doc_land_bronze_horseman_01	land_bronze_horseman	m03	177	194	Сенатской площади	PLACE	plc_senate_sq		
+doc_land_bronze_horseman_01	land_bronze_horseman	m04	208	212	1782	DATE		1782	
+doc_land_bronze_horseman_01	land_bronze_horseman	m05	277	293	Санкт-Петербурга	PLACE	plc_spb		
+doc_land_bronze_horseman_02	land_bronze_horseman	m01	94	98	1812	DATE		1812	
+doc_land_bronze_horseman_02	land_bronze_horseman	m02	213	227	Медный всадник	LANDMARK	land_bronze_horseman		
+doc_land_bronze_horseman_02	land_bronze_horseman	m03	-1	-1	evt_bronze_horse_unveiled_1782	EVENT	evt_bronze_horse_unveiled_1782		event inferred by manual baseline; exact span not found
+doc_land_rostral_01	land_rostral	m01	0	19	Ростральные колонны	LANDMARK	land_rostral		
+doc_land_rostral_01	land_rostral	m02	46	67	Васильевского острова	PLACE	plc_vasil_island		
+doc_land_rostral_01	land_rostral	m03	70	79	1805-1810	DATE		1805/1810	
+doc_land_rostral_01	land_rostral	m04	241	251	Петербурга	PLACE	plc_spb		
+doc_land_rostral_01	land_rostral	m05	-1	-1	evt_capital_moves_1712_1918	EVENT	evt_capital_moves_1712_1918		event inferred by manual baseline; exact span not found
+doc_land_rostral_02	land_rostral	m01	11	30	Ростральные колонны	LANDMARK	land_rostral		
+doc_land_rostral_02	land_rostral	m02	-1	-1	evt_capital_moves_1712_1918	EVENT	evt_capital_moves_1712_1918		event inferred by manual baseline; exact span not found
+doc_land_admiralty_01	land_admiralty	m01	0	22	Главное Адмиралтейство	LANDMARK	land_admiralty		
+doc_land_admiralty_01	land_admiralty	m02	39	54	Санкт-Петербург	PLACE	plc_spb		
+doc_land_admiralty_01	land_admiralty	m03	58	62	1704	DATE		1704	
+doc_land_admiralty_01	land_admiralty	m04	-1	-1	evt_city_founded_1703	EVENT	evt_city_founded_1703		event inferred by manual baseline; exact span not found
+doc_land_admiralty_02	land_admiralty	m01	32	46	Адмиралтейство	LANDMARK	land_admiralty		
+doc_land_admiralty_02	land_admiralty	m02	288	304	Санкт-Петербурга	PLACE	plc_spb		
+doc_land_admiralty_02	land_admiralty	m03	-1	-1	evt_city_founded_1703	EVENT	evt_city_founded_1703		event inferred by manual baseline; exact span not found
+doc_land_smolny_01	land_smolny	m01	0	14	Смольный собор	LANDMARK	land_smolny		
+doc_land_smolny_01	land_smolny	m02	87	91	1748	DATE		1748	
+doc_land_smolny_01	land_smolny	m03	139	159	30 октября 1748 года	DATE		1748-10-30	
+doc_land_smolny_01	land_smolny	m04	-1	-1	evt_october_storm_winter_1917	EVENT	evt_october_storm_winter_1917		event inferred by manual baseline; exact span not found
+doc_land_smolny_02	land_smolny	m01	167	177	Петербурга	PLACE	plc_spb		
+doc_land_smolny_02	land_smolny	m02	203	217	Смольный собор	LANDMARK	land_smolny		
+doc_land_smolny_02	land_smolny	m03	-1	-1	evt_october_storm_winter_1917	EVENT	evt_october_storm_winter_1917		event inferred by manual baseline; exact span not found
+doc_land_palace_square_01	land_palace_square	m01	0	17	Дворцовая площадь	LANDMARK	land_palace_square		
+doc_land_palace_square_01	land_palace_square	m02	0	17	Дворцовая площадь	PLACE	plc_palace_sq		
+doc_land_palace_square_01	land_palace_square	m03	48	64	Санкт-Петербурга	PLACE	plc_spb		
+doc_land_palace_square_02	land_palace_square	m01	83	87	1905	DATE		1905	
+doc_land_palace_square_02	land_palace_square	m02	136	140	1917	DATE		1917	
+doc_land_palace_square_02	land_palace_square	m03	209	219	Петрограде	PLACE	plc_spb		
+doc_land_palace_square_02	land_palace_square	m04	-1	-1	Дворцовая площадь	LANDMARK	land_palace_square		primary landmark not found as exact span; needs manual offset check
+doc_land_mariinsky_01	land_mariinsky	m01	38	42	1783	DATE		1783	
+doc_land_mariinsky_01	land_mariinsky	m02	-1	-1	evt_capital_moves_1712_1918	EVENT	evt_capital_moves_1712_1918		event inferred by manual baseline; exact span not found
+doc_land_mariinsky_01	land_mariinsky	m03	-1	-1	Мариинский театр	LANDMARK	land_mariinsky		primary landmark not found as exact span; needs manual offset check
+doc_land_mariinsky_02	land_mariinsky	m01	12	28	Мариинский театр	LANDMARK	land_mariinsky		
+doc_land_mariinsky_02	land_mariinsky	m02	183	193	Петербурга	PLACE	plc_spb		
+doc_land_mariinsky_02	land_mariinsky	m03	-1	-1	evt_capital_moves_1712_1918	EVENT	evt_capital_moves_1712_1918		event inferred by manual baseline; exact span not found
+doc_land_aurora_01	land_aurora	m01	0	16	Крейсер «Аврора»	LANDMARK	land_aurora		
+doc_land_aurora_01	land_aurora	m02	55	72	16 июля 1903 года	DATE		1903-07-16	
+doc_land_aurora_01	land_aurora	m03	271	287	Санкт-Петербурга	PLACE	plc_spb		
+doc_land_aurora_01	land_aurora	m04	-1	-1	evt_aurora_blank_1917	EVENT	evt_aurora_blank_1917		event inferred by manual baseline; exact span not found
+doc_land_aurora_02	land_aurora	m01	41	58	события 1917 года	EVENT	evt_aurora_blank_1917		
+doc_land_aurora_02	land_aurora	m02	49	53	1917	DATE		1917	
+doc_land_aurora_02	land_aurora	m03	60	68	«Аврора»	LANDMARK	land_aurora		
+doc_land_summer_garden_01	land_summer_garden	m01	0	10	Летний сад	LANDMARK	land_summer_garden		
+doc_land_summer_garden_01	land_summer_garden	m02	61	71	Петербурга	PLACE	plc_spb		
+doc_land_summer_garden_01	land_summer_garden	m03	-1	-1	evt_decembrists_1825	EVENT	evt_decembrists_1825		event inferred by manual baseline; exact span not found
+doc_land_summer_garden_02	land_summer_garden	m01	10	22	Летнего сада	LANDMARK	land_summer_garden		
+doc_land_summer_garden_02	land_summer_garden	m02	56	60	1777	DATE		1777	
+doc_land_summer_garden_02	land_summer_garden	m03	270	274	Невы	PLACE	plc_neva		
+doc_land_summer_garden_02	land_summer_garden	m04	-1	-1	evt_decembrists_1825	EVENT	evt_decembrists_1825		event inferred by manual baseline; exact span not found
+doc_example_001	land_aurora	m01	0	16	Крейсер «Аврора»	LANDMARK	land_aurora		
+doc_example_001	land_aurora	m02	35	39	1917	DATE		1917	
+doc_example_001	land_aurora	m03	75	79	Невы	PLACE	plc_neva		
+doc_example_001	land_aurora	m04	-1	-1	evt_aurora_blank_1917	EVENT	evt_aurora_blank_1917		event inferred by manual baseline; exact span not found

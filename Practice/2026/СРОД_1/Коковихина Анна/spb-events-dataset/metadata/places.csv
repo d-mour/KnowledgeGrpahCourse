@@ -1,0 +1,14 @@
+place_id,name_ru,name_en,parent_place_id,kind,notes
+plc_russia,Россия,Russia,,country,
+plc_spb,Санкт-Петербург,Saint Petersburg,plc_russia,city,
+plc_neva,Большая Нева и Нева,Neva basin,plc_spb,hydro,
+plc_vasil_island,Васильевский остров,Vasilyevsky Island,plc_spb,district,
+plc_petrogradska,Петроградская сторона,Petrograd Side,plc_spb,district,
+plc_tsarskoe,Пушкин (Царское Село),Pushkin town,plc_spb,locality,
+plc_petergof,Петергоф,Peterhof municipality,plc_spb,locality,
+plc_palace_sq,Дворцовая площадь,Palace Square,plc_spb,square,"Можно связывать EVENT и LANDMARK"
+plc_senate_sq,Сенатская и Исаакиевская площади,Senate and Isaac Squares,plc_spb,square,
+plc_field_mars,Марсово поле,Field of Mars,plc_spb,park_area,
+plc_griboedov_canal,Канал Грибоедова,Griboedov Canal,plc_spb,waterway,
+plc_zayachy_island,Заячий остров,Zayachy Island,plc_petrogradska,island,
+plc_peterhof_lower_park,Нижний парк Петергофа,Lower Park of Peterhof,plc_petergof,park_area,

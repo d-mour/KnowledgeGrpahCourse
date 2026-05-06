@@ -1,0 +1,220 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 8.575875
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "transcript"
+        xmin = 0.000000
+        xmax = 8.575875
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 8.575875
+            text = "В истории Летнего сада важным событием стало наводнение 1777 года. Оно разрушило часть фонтанов, беседок и зелёных композиций, после чего облик сада заметно изменился. Позднее территория была преобразована, а в конце XVIII века её украсила знаменитая решётка со стороны Невы."
+    item [2]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.000000
+        xmax = 8.575875
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 2.058210
+            text = "В истории Летнего сада важным событием стало наводнение 1777 года."
+        intervals [2]:
+            xmin = 2.058210
+            xmax = 5.207895
+            text = "Оно разрушило часть фонтанов, беседок и зелёных композиций, после чего облик сада заметно изменился."
+        intervals [3]:
+            xmin = 5.207895
+            xmax = 8.575875
+            text = "Позднее территория была преобразована, а в конце XVIII века её украсила знаменитая решётка со стороны Невы."
+    item [3]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.000000
+        xmax = 8.575875
+        intervals: size = 40
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.031185
+            text = "В"
+        intervals [2]:
+            xmin = 0.062370
+            xmax = 0.280665
+            text = "истории"
+        intervals [3]:
+            xmin = 0.311850
+            xmax = 0.530145
+            text = "Летнего"
+        intervals [4]:
+            xmin = 0.561330
+            xmax = 0.686070
+            text = "сада"
+        intervals [5]:
+            xmin = 0.717255
+            xmax = 0.904365
+            text = "важным"
+        intervals [6]:
+            xmin = 0.935550
+            xmax = 1.185030
+            text = "событием"
+        intervals [7]:
+            xmin = 1.216215
+            xmax = 1.372140
+            text = "стало"
+        intervals [8]:
+            xmin = 1.403325
+            xmax = 1.715175
+            text = "наводнение"
+        intervals [9]:
+            xmin = 1.746360
+            xmax = 1.871100
+            text = "1777"
+        intervals [10]:
+            xmin = 1.902285
+            xmax = 2.058210
+            text = "года."
+        intervals [11]:
+            xmin = 2.089395
+            xmax = 2.182950
+            text = "Оно"
+        intervals [12]:
+            xmin = 2.214135
+            xmax = 2.494800
+            text = "разрушило"
+        intervals [13]:
+            xmin = 2.525985
+            xmax = 2.681910
+            text = "часть"
+        intervals [14]:
+            xmin = 2.713095
+            xmax = 2.993760
+            text = "фонтанов,"
+        intervals [15]:
+            xmin = 3.024945
+            xmax = 3.243240
+            text = "беседок"
+        intervals [16]:
+            xmin = 3.274425
+            xmax = 3.305610
+            text = "и"
+        intervals [17]:
+            xmin = 3.336795
+            xmax = 3.555090
+            text = "зелёных"
+        intervals [18]:
+            xmin = 3.586275
+            xmax = 3.929310
+            text = "композиций,"
+        intervals [19]:
+            xmin = 3.960495
+            xmax = 4.116420
+            text = "после"
+        intervals [20]:
+            xmin = 4.147605
+            xmax = 4.272345
+            text = "чего"
+        intervals [21]:
+            xmin = 4.303530
+            xmax = 4.459455
+            text = "облик"
+        intervals [22]:
+            xmin = 4.490640
+            xmax = 4.615380
+            text = "сада"
+        intervals [23]:
+            xmin = 4.646565
+            xmax = 4.864860
+            text = "заметно"
+        intervals [24]:
+            xmin = 4.896045
+            xmax = 5.207895
+            text = "изменился."
+        intervals [25]:
+            xmin = 5.239080
+            xmax = 5.457375
+            text = "Позднее"
+        intervals [26]:
+            xmin = 5.488560
+            xmax = 5.800410
+            text = "территория"
+        intervals [27]:
+            xmin = 5.831595
+            xmax = 5.956335
+            text = "была"
+        intervals [28]:
+            xmin = 5.987520
+            xmax = 6.424110
+            text = "преобразована,"
+        intervals [29]:
+            xmin = 6.455295
+            xmax = 6.486480
+            text = "а"
+        intervals [30]:
+            xmin = 6.517665
+            xmax = 6.548850
+            text = "в"
+        intervals [31]:
+            xmin = 6.580035
+            xmax = 6.735960
+            text = "конце"
+        intervals [32]:
+            xmin = 6.767145
+            xmax = 6.923070
+            text = "XVIII"
+        intervals [33]:
+            xmin = 6.954255
+            xmax = 7.078995
+            text = "века"
+        intervals [34]:
+            xmin = 7.110180
+            xmax = 7.172550
+            text = "её"
+        intervals [35]:
+            xmin = 7.203735
+            xmax = 7.453215
+            text = "украсила"
+        intervals [36]:
+            xmin = 7.484400
+            xmax = 7.796250
+            text = "знаменитая"
+        intervals [37]:
+            xmin = 7.827435
+            xmax = 8.045730
+            text = "решётка"
+        intervals [38]:
+            xmin = 8.076915
+            xmax = 8.139285
+            text = "со"
+        intervals [39]:
+            xmin = 8.170470
+            xmax = 8.388765
+            text = "стороны"
+        intervals [40]:
+            xmin = 8.419950
+            xmax = 8.575875
+            text = "Невы."
+    item [4]:
+        class = "IntervalTier"
+        name = "entity"
+        xmin = 0.311850
+        xmax = 8.544690
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.311850
+            xmax = 0.686070
+            text = "LANDMARK|land_summer_garden|Летнего сада"
+        intervals [2]:
+            xmin = 1.746360
+            xmax = 1.871100
+            text = "DATE||1777"
+        intervals [3]:
+            xmin = 8.419950
+            xmax = 8.544690
+            text = "PLACE|plc_neva|Невы"
