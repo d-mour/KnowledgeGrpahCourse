@@ -1,0 +1,500 @@
+{
+  "dataset": "Guitar multimodal corpus",
+  "object_count": 10,
+  "object_unit": "model/version, not a proven physical specimen",
+  "records": [
+    {
+      "guitar_id": "GTR001",
+      "model": "Reverend Six Gun HPP",
+      "version": "Avocado Burst; HA5 bridge humbucker + 9A5 P-90 middle/neck; Bass Contour",
+      "review_author": "Dave Hunter",
+      "review_date": "2021-04-08",
+      "source_url": "https://www.premierguitar.com/gear/reviews/reverend-six-gun-hpp-review",
+      "checked_on": "2026-09-20",
+      "audio_mapping": "5-way sequence in clip 1; bridge/neck in clip 2; Bass Contour changes in clips 1/3",
+      "recording_chain": "Friedman Mini Dirty Shirley -> Mesa CabClone IR+; 2x12 Celestion Blue/G12H IR",
+      "limitations": "No measured switch boundaries yet. Different review-test amps must not be substituted for recorded rig.",
+      "materials": {
+        "text": {
+          "material_id": "GTR001_TXT01",
+          "path": "data/text/GTR001.txt",
+          "source_url": "https://www.premierguitar.com/gear/reviews/reverend-six-gun-hpp-review",
+          "language": "ru",
+          "word_count": 136,
+          "sha256": "b7860000a38474f1333c8f359e9fc66292ca1c495dbbdab009f50184e7f84dd7",
+          "origin": "Russian factual description compiled for the course with AI assistance from the cited review; not the original review and not a verbatim translation",
+          "license": "Project-authored description; no separate public license assigned"
+        },
+        "image": {
+          "material_id": "GTR001_IMG01",
+          "path": "data/images/GTR001.jpg",
+          "source_url": "https://www.premierguitar.com/media-library/reverend-six-gun-hpp.jpg?id=26031210&width=1200&height=600&coordinates=0%2C0%2C0%2C0",
+          "width": 1200,
+          "height": 600,
+          "sha256": "b9ed831f896eb8c95ed4016c0f59b08ce6d40bbc3bd36c7e1c3151aad9d38974",
+          "license": "not_specified; third-party rights retained"
+        },
+        "audio": {
+          "material_id": "GTR001_AUD01",
+          "path": "data/audio/GTR001.wav",
+          "source_url": "https://soundcloud.com/premierguitar/clip-1-reverend-six-gun-hpp",
+          "source_track_id": "1025190301",
+          "title": "Clip #1 (Reverend Six Gun HPP Review)",
+          "duration_seconds": 82.64,
+          "sample_rate": 44100,
+          "channels": 2,
+          "encoding": "WAV PCM 16 bit",
+          "transformation": "Public streaming copy decoded to PCM; complete track; channel count preserved; no normalization or trimming",
+          "sha256": "3a745e88eef0e09140273a6fe1d6a6d9116175a825167aa574ed56f1a4bfa90b",
+          "license": "all-rights-reserved"
+        }
+      },
+      "priority_for_annotation": true,
+      "local_files_verified": true
+    },
+    {
+      "guitar_id": "GTR002",
+      "model": "Harmony Comet",
+      "version": "Sunburst pictured; two gold-foil humbuckers, semi-hollow body",
+      "review_author": "Charles Saufley",
+      "review_date": "2021-07-19",
+      "source_url": "https://www.premierguitar.com/gear/reviews/harmony-comet-the-premier-guitar-review",
+      "checked_on": "2026-09-20",
+      "audio_mapping": "Three consecutive passages: bridge, both, neck",
+      "recording_chain": "Black-panel Fender Tremolux -> UA OX black-panel Fender Deluxe cabinet -> Apollo Twin -> Luna",
+      "limitations": "Gold-foil describes a cover/style category, not proof of single-coil construction. Gain setting and switching times not supplied.",
+      "materials": {
+        "text": {
+          "material_id": "GTR002_TXT01",
+          "path": "data/text/GTR002.txt",
+          "source_url": "https://www.premierguitar.com/gear/reviews/harmony-comet-the-premier-guitar-review",
+          "language": "ru",
+          "word_count": 132,
+          "sha256": "52c57ce621ede955d370e88f241dbd9f9be36681067b4d53d96c4f8fbeb9e7bb",
+          "origin": "Russian factual description compiled for the course with AI assistance from the cited review; not the original review and not a verbatim translation",
+          "license": "Project-authored description; no separate public license assigned"
+        },
+        "image": {
+          "material_id": "GTR002_IMG01",
+          "path": "data/images/GTR002.png",
+          "source_url": "https://www.premierguitar.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjk2NzkxNi9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTgzOTQyNTYyOX0.BbXlrbCyQiBM0zNecfvrEzIEJ-BDh2DNJMjVrvDeaYs/image.png?width=1200",
+          "width": 1200,
+          "height": 429,
+          "sha256": "e8d649ec02813a5be250109c968bd9f8f183e84f09ac9998253764e58844cf5c",
+          "license": "not_specified; third-party rights retained"
+        },
+        "audio": {
+          "material_id": "GTR002_AUD01",
+          "path": "data/audio/GTR002.wav",
+          "source_url": "https://soundcloud.com/premierguitar/harmony-comet-review-premier-guitar",
+          "source_track_id": "1091514154",
+          "title": "Harmony Comet Review",
+          "duration_seconds": 102.121,
+          "sample_rate": 44100,
+          "channels": 2,
+          "encoding": "WAV PCM 16 bit",
+          "transformation": "Public streaming copy decoded to PCM; complete track; channel count preserved; no normalization or trimming",
+          "sha256": "7198efb2c0eb4e991748a03b6409a877c9ce7be9df84907874f97e0d4749ba98",
+          "license": "all-rights-reserved"
+        }
+      },
+      "priority_for_annotation": true,
+      "local_files_verified": true
+    },
+    {
+      "guitar_id": "GTR003",
+      "model": "Squier Contemporary Jaguar HH-ST",
+      "version": "Metallic pale green pictured; two SQR humbuckers, hardtail, split/series-parallel switching",
+      "review_author": "Charles Saufley",
+      "review_date": "2021-06-17",
+      "source_url": "https://www.premierguitar.com/gear/reviews/squier-contemporary-jaguar",
+      "checked_on": "2026-09-20",
+      "audio_mapping": "Bridge split/full, neck split/full; combined series/parallel passage has source-label conflict",
+      "recording_chain": "Black-panel Fender Tremolux -> UA OX Vox AC30-style 2x12 -> Apollo Twin -> Luna",
+      "limitations": "Source says bridge/middle for a two-pickup guitar. Preserve raw wording; combined passage needs clarification. Do not silently correct.",
+      "materials": {
+        "text": {
+          "material_id": "GTR003_TXT01",
+          "path": "data/text/GTR003.txt",
+          "source_url": "https://www.premierguitar.com/gear/reviews/squier-contemporary-jaguar",
+          "language": "ru",
+          "word_count": 137,
+          "sha256": "48bdeac4c042f551381c9577e3dd7801bcb129da612e5629fd645ef3e1c93d54",
+          "origin": "Russian factual description compiled for the course with AI assistance from the cited review; not the original review and not a verbatim translation",
+          "license": "Project-authored description; no separate public license assigned"
+        },
+        "image": {
+          "material_id": "GTR003_IMG01",
+          "path": "data/images/GTR003.jpg",
+          "source_url": "https://www.premierguitar.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjcyMzc1NC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTg0MjUxMTgzOX0.mXnNGncCNLumOosI7zO39O2Z3v0Z_3jXL1HXTor0VAA/image.jpg?width=1200",
+          "width": 1200,
+          "height": 800,
+          "sha256": "fd743db28a20aae4e787e44174a4d84db909fcd7cf2e5e59fcf889b3518f7d72",
+          "license": "not_specified; third-party rights retained"
+        },
+        "audio": {
+          "material_id": "GTR003_AUD01",
+          "path": "data/audio/GTR003.wav",
+          "source_url": "https://soundcloud.com/premierguitar/squier-contemporary-jaguar-hh-st",
+          "source_track_id": "1069065961",
+          "title": "Squier Contemporary Jaguar HH-ST Review",
+          "duration_seconds": 120.024,
+          "sample_rate": 44100,
+          "channels": 2,
+          "encoding": "WAV PCM 16 bit",
+          "transformation": "Public streaming copy decoded to PCM; complete track; channel count preserved; no normalization or trimming",
+          "sha256": "8eac31629bce7cd940805b860417bc83100e2d61afed6d4dc4040fef62a873a9",
+          "license": "all-rights-reserved"
+        }
+      },
+      "priority_for_annotation": true,
+      "local_files_verified": true
+    },
+    {
+      "guitar_id": "GTR004",
+      "model": "Ernie Ball Music Man Dustin Kensrue Artist Series StingRay",
+      "version": "Satin TV Blonde; bridge humbucker + neck single coil; mono/stereo circuit; supplied in D standard",
+      "review_author": "Dave Hunter",
+      "review_date": "2021-08-04",
+      "source_url": "https://www.premierguitar.com/gear/reviews/ernie-ball-music-man-dustin-kensrue-stingray",
+      "checked_on": "2026-09-20",
+      "audio_mapping": "Clean mono clip: bridge at 0:00, both at 0:16, neck at 0:34",
+      "recording_chain": "Neural DSP Quad Cortex Twin Reverb preset -> UA Apollo Twin Duo -> Pro Tools",
+      "limitations": "D standard differs from presumed E standard; do not assume other guitars’ tuning. Exclude stereo pitch-shifted clip from common pilot.",
+      "materials": {
+        "text": {
+          "material_id": "GTR004_TXT01",
+          "path": "data/text/GTR004.txt",
+          "source_url": "https://www.premierguitar.com/gear/reviews/ernie-ball-music-man-dustin-kensrue-stingray",
+          "language": "ru",
+          "word_count": 145,
+          "sha256": "361a8c441e6e5303e0fc2b8fe3a4fe6f4253fb3f393cc004250c12b3f3efee3b",
+          "origin": "Russian factual description compiled for the course with AI assistance from the cited review; not the original review and not a verbatim translation",
+          "license": "Project-authored description; no separate public license assigned"
+        },
+        "image": {
+          "material_id": "GTR004_IMG01",
+          "path": "data/images/GTR004.jpg",
+          "source_url": "https://www.premierguitar.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNzEyOTAwNS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgzNzE3MjM4MH0.BfMv4G2XtbKEZGzR4yFC2dKZNCpaC7rfwOjrGvestlE/image.jpg?width=1200",
+          "width": 1200,
+          "height": 419,
+          "sha256": "6a5ad5df5bbd30b07648b555b1c348b2b5dbfa39b6ced8781e857ccc5b230dab",
+          "license": "not_specified; third-party rights retained"
+        },
+        "audio": {
+          "material_id": "GTR004_AUD01",
+          "path": "data/audio/GTR004.wav",
+          "source_url": "https://soundcloud.com/premierguitar/clip-1-clean-ernie-ball-music",
+          "source_track_id": "1096481341",
+          "title": "Clip #1 - Clean (Ernie Ball Music Man Dustin Kensrue Artist Series StingRay Review)",
+          "duration_seconds": 64.877,
+          "sample_rate": 44100,
+          "channels": 2,
+          "encoding": "WAV PCM 16 bit",
+          "transformation": "Public streaming copy decoded to PCM; complete track; channel count preserved; no normalization or trimming",
+          "sha256": "c7d3794e8c3cad4ff3c22790e84d95d65043eb4efdbc6ca6a410a6826bce26f5",
+          "license": "all-rights-reserved"
+        }
+      },
+      "priority_for_annotation": true,
+      "local_files_verified": true
+    },
+    {
+      "guitar_id": "GTR005",
+      "model": "Schecter Sun Valley Super Shredder Exotic Hardtail Black Limba",
+      "version": "Black Limba version; Sunset Strip bridge + Pasadena neck humbuckers; hardtail",
+      "review_author": "Joe Charupakorn",
+      "review_date": "2022-02-03",
+      "source_url": "https://www.premierguitar.com/gear/reviews/schecter-sun-valley-super-shredder-exotic-hardtail-review",
+      "checked_on": "2026-09-20",
+      "audio_mapping": "Clips 2/3/6: clean, bridge to neck; microphone position specified",
+      "recording_chain": "Clip 2: mic centered, 1 inch away. Amp, mic model and interface not identified in clip notes",
+      "limitations": "Clip 5 says Dirty Bridge to Dirty, likely an error; do not use it. Do not infer a complete five-position sequence from bridge-to-neck shorthand.",
+      "materials": {
+        "text": {
+          "material_id": "GTR005_TXT01",
+          "path": "data/text/GTR005.txt",
+          "source_url": "https://www.premierguitar.com/gear/reviews/schecter-sun-valley-super-shredder-exotic-hardtail-review",
+          "language": "ru",
+          "word_count": 143,
+          "sha256": "2c9d7cca6651d2df10b43925019dd58e0c382bf85f30d96f59d6cb711850cbe7",
+          "origin": "Russian factual description compiled for the course with AI assistance from the cited review; not the original review and not a verbatim translation",
+          "license": "Project-authored description; no separate public license assigned"
+        },
+        "image": {
+          "material_id": "GTR005_IMG01",
+          "path": "data/images/GTR005.jpg",
+          "source_url": "https://www.premierguitar.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yOTIxNjE3MC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgyODM0NTUzNn0.ZBbL05l7G-TMWqpE13yOAJpQOXl-4BJ9SBcsYqOdH9I/image.jpg?width=1200",
+          "width": 1200,
+          "height": 460,
+          "sha256": "c8d2e4af34b0a0651d199ef95dd3172cba2b3ea8ce508dcb5a96beee1e7894a0",
+          "license": "not_specified; third-party rights retained"
+        },
+        "audio": {
+          "material_id": "GTR005_AUD01",
+          "path": "data/audio/GTR005.wav",
+          "source_url": "https://soundcloud.com/premierguitar/clip-2-schecter-sun-valley",
+          "source_track_id": "1208474617",
+          "title": "Clip #2 — Schecter Sun Valley Super Shredder Exotic Hardtail Review",
+          "duration_seconds": 75.906,
+          "sample_rate": 44100,
+          "channels": 2,
+          "encoding": "WAV PCM 16 bit",
+          "transformation": "Public streaming copy decoded to PCM; complete track; channel count preserved; no normalization or trimming",
+          "sha256": "7234ae5461ead242012f5230d184366eecfa720dc62111da7ca67c4776043b7f",
+          "license": "all-rights-reserved"
+        }
+      },
+      "priority_for_annotation": true,
+      "local_files_verified": true
+    },
+    {
+      "guitar_id": "GTR006",
+      "model": "Eastman Romeo LA",
+      "version": "Celestine Blue; two Seymour Duncan Phat Cat P-90s under radiator covers; Goldo Les Trem",
+      "review_author": "Nick Millevoi",
+      "review_date": "2021-09-10",
+      "source_url": "https://www.premierguitar.com/gear/reviews/eastman-guitars-romeo-la",
+      "checked_on": "2026-09-20",
+      "audio_mapping": "Clean vs dirty clip labels; pickup positions not specified",
+      "recording_chain": "1970s Fender Champ -> Shure SM57 -> SSL 2+ -> Logic Pro; clip 2 also Klon KTR",
+      "limitations": "Do not label the covers as proof of humbuckers. Pickup position is unknown in supplied clip notes.",
+      "materials": {
+        "text": {
+          "material_id": "GTR006_TXT01",
+          "path": "data/text/GTR006.txt",
+          "source_url": "https://www.premierguitar.com/gear/reviews/eastman-guitars-romeo-la",
+          "language": "ru",
+          "word_count": 141,
+          "sha256": "434f4bd7c2e36c30e21379a082891db49986262c16e9ca030e437ef628f788d1",
+          "origin": "Russian factual description compiled for the course with AI assistance from the cited review; not the original review and not a verbatim translation",
+          "license": "Project-authored description; no separate public license assigned"
+        },
+        "image": {
+          "material_id": "GTR006_IMG01",
+          "path": "data/images/GTR006.jpg",
+          "source_url": "https://www.premierguitar.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNzQwMzI2NS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgxNzUxODg2OX0.m5GL05mxAbV6MOSBBgf8bwC8zGv-PjWQooTZlouwWnw/image.jpg?width=1200",
+          "width": 1200,
+          "height": 800,
+          "sha256": "1d4623429e295a35dc334670324d70f5540bc5e8e3ffd2e26daf53f655389123",
+          "license": "not_specified; third-party rights retained"
+        },
+        "audio": {
+          "material_id": "GTR006_AUD01",
+          "path": "data/audio/GTR006.wav",
+          "source_url": "https://soundcloud.com/premierguitar/clip-1-clean-eastman-romeo-la",
+          "source_track_id": "1117679599",
+          "title": "Clip #1 — Clean (Eastman Romeo LA Review)",
+          "duration_seconds": 45.465,
+          "sample_rate": 44100,
+          "channels": 2,
+          "encoding": "WAV PCM 16 bit",
+          "transformation": "Public streaming copy decoded to PCM; complete track; channel count preserved; no normalization or trimming",
+          "sha256": "4f24330c693b7765be45c4bb11c57dcc3032874ab39572c7c7e0ef721eb1535f",
+          "license": "all-rights-reserved"
+        }
+      },
+      "priority_for_annotation": false,
+      "local_files_verified": true
+    },
+    {
+      "guitar_id": "GTR007",
+      "model": "Fender Noventa Stratocaster",
+      "version": "Transparent red; two P-90-style pickups; hardtail; not the one-pickup Noventa Telecaster",
+      "review_author": "Shawn Hammond",
+      "review_date": "2021-08-01",
+      "source_url": "https://www.premierguitar.com/gear/reviews/fender-noventa-stratocaster",
+      "checked_on": "2026-09-20",
+      "audio_mapping": "Recording identified with this guitar, no pickup-by-time map",
+      "recording_chain": "Sound City SC30 -> Royer R-121 -> Audient iD44 -> GarageBand; source says no DAW EQ/compression/effects",
+      "limitations": "Shorter text (~340 words). Exact pickup sequence and gain are unknown; other test pedals are not automatically in recorded rig.",
+      "materials": {
+        "text": {
+          "material_id": "GTR007_TXT01",
+          "path": "data/text/GTR007.txt",
+          "source_url": "https://www.premierguitar.com/gear/reviews/fender-noventa-stratocaster",
+          "language": "ru",
+          "word_count": 139,
+          "sha256": "fe89c715db3b0bcd62b99f3d3227237cab153fa9f8b07a5af95ae1f9de55c192",
+          "origin": "Russian factual description compiled for the course with AI assistance from the cited review; not the original review and not a verbatim translation",
+          "license": "Project-authored description; no separate public license assigned"
+        },
+        "image": {
+          "material_id": "GTR007_IMG01",
+          "path": "data/images/GTR007.jpg",
+          "source_url": "https://www.premierguitar.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNzA4Mzk5NC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTgzNjE2MzYxOH0.5KsUPBgU4rrrVw0Md7WhIWL6t4DyG-ERQp7FTpG6rdU/image.jpg?width=1200",
+          "width": 1200,
+          "height": 398,
+          "sha256": "adcffc7c7d9947b79723a8830b1f076a0437d55c174581e1215555c848151058",
+          "license": "not_specified; third-party rights retained"
+        },
+        "audio": {
+          "material_id": "GTR007_AUD01",
+          "path": "data/audio/GTR007.wav",
+          "source_url": "https://soundcloud.com/premierguitar/fender-noventa-strat",
+          "source_track_id": "1095256921",
+          "title": "Fender Noventa Stratocaster Review",
+          "duration_seconds": 183.693,
+          "sample_rate": 44100,
+          "channels": 2,
+          "encoding": "WAV PCM 16 bit",
+          "transformation": "Public streaming copy decoded to PCM; complete track; channel count preserved; no normalization or trimming",
+          "sha256": "e82b7b3b7e8ac717a0ae5de74bd74a0b473a213465754f619504215e9cde9101",
+          "license": "all-rights-reserved"
+        }
+      },
+      "priority_for_annotation": false,
+      "local_files_verified": true
+    },
+    {
+      "guitar_id": "GTR008",
+      "model": "Reverend Flatroc Bigsby",
+      "version": "Transparent white; two Retroblast mini humbuckers; Bigsby; Bass Contour",
+      "review_author": "Charles Saufley",
+      "review_date": "2022-01-23",
+      "source_url": "https://www.premierguitar.com/gear/reviews/reverend-flatroc-bigsby",
+      "checked_on": "2026-09-20",
+      "audio_mapping": "Guitar and effects rig described; no pickup-by-time map",
+      "recording_chain": "Electro-Harmonix Deluxe Memory Man -> black-panel Fender Tremolux -> UA Apollo/Luna; intermediate capture stages not supplied",
+      "limitations": "Delay is part of stated rig. Do not treat as a dry controlled comparison.",
+      "materials": {
+        "text": {
+          "material_id": "GTR008_TXT01",
+          "path": "data/text/GTR008.txt",
+          "source_url": "https://www.premierguitar.com/gear/reviews/reverend-flatroc-bigsby",
+          "language": "ru",
+          "word_count": 136,
+          "sha256": "aaea46ef4aedaaaed9e32485b9adbf6664165e916ae91a52620cd6995056dec7",
+          "origin": "Russian factual description compiled for the course with AI assistance from the cited review; not the original review and not a verbatim translation",
+          "license": "Project-authored description; no separate public license assigned"
+        },
+        "image": {
+          "material_id": "GTR008_IMG01",
+          "path": "data/images/GTR008.png",
+          "source_url": "https://www.premierguitar.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yODIyMzE5OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTgwNjMzMjY3Mn0.POwry2vzlVxNkB7HLjDnKrKqpGVu12KfUEShtIwxBt0/image.png?width=1200",
+          "width": 1200,
+          "height": 359,
+          "sha256": "dfba60adb6f9984d6491d50c9263dff792554eb98bc4f3092fbeb5adc201d2f2",
+          "license": "not_specified; third-party rights retained"
+        },
+        "audio": {
+          "material_id": "GTR008_AUD01",
+          "path": "data/audio/GTR008.wav",
+          "source_url": "https://soundcloud.com/premierguitar/reverend-flatroc-bigsby-review",
+          "source_track_id": "1202775889",
+          "title": "Reverend Flatroc Bigsby Review",
+          "duration_seconds": 115.5,
+          "sample_rate": 44100,
+          "channels": 2,
+          "encoding": "WAV PCM 16 bit",
+          "transformation": "Public streaming copy decoded to PCM; complete track; channel count preserved; no normalization or trimming",
+          "sha256": "458c567b8c3dd21f511c6336e402a5ae0fa47a03149e0a43e7b3d95ceac10018",
+          "license": "all-rights-reserved"
+        }
+      },
+      "priority_for_annotation": false,
+      "local_files_verified": true
+    },
+    {
+      "guitar_id": "GTR009",
+      "model": "Squier Paranormal Super-Sonic",
+      "version": "Sparkle blue; two zebra humbuckers; two volume controls, no tone control",
+      "review_author": "Charles Saufley",
+      "review_date": "2021-11-08",
+      "source_url": "https://www.premierguitar.com/gear/reviews/squier-paranormal-super-sonic",
+      "checked_on": "2026-09-20",
+      "audio_mapping": "Rhythm uses bridge; lead starts with bridge then unspecified combinations",
+      "recording_chain": "TC Hall Of Fame reverb -> black-panel Fender Tremolux -> UA OX tweed Deluxe cabinet",
+      "limitations": "Rhythm/lead layers overlap. Clip note says tone settings despite article saying no tone control; flag contradiction.",
+      "materials": {
+        "text": {
+          "material_id": "GTR009_TXT01",
+          "path": "data/text/GTR009.txt",
+          "source_url": "https://www.premierguitar.com/gear/reviews/squier-paranormal-super-sonic",
+          "language": "ru",
+          "word_count": 142,
+          "sha256": "a608d7ada180e6ca29461296e6ea927965f4b0d2ab97d41510d6404c53153c8f",
+          "origin": "Russian factual description compiled for the course with AI assistance from the cited review; not the original review and not a verbatim translation",
+          "license": "Project-authored description; no separate public license assigned"
+        },
+        "image": {
+          "material_id": "GTR009_IMG01",
+          "path": "data/images/GTR009.png",
+          "source_url": "https://www.premierguitar.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNzkzMDUyMC9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTgyODExMjgxOX0.rVyRZ_Ai7U3MT_bUjat7udJAf7Dg03rLzV1xIvlFDQ8/image.png?width=1200",
+          "width": 1200,
+          "height": 389,
+          "sha256": "eaa47391d064ac1ad5aeb5c2346d5a9e6d45a4473547c9ea6af4982202e18c39",
+          "license": "not_specified; third-party rights retained"
+        },
+        "audio": {
+          "material_id": "GTR009_AUD01",
+          "path": "data/audio/GTR009.wav",
+          "source_url": "https://soundcloud.com/premierguitar/squier-paranormal-super-sonic-review-premierguitar",
+          "source_track_id": "1154467204",
+          "title": "Squier Paranormal Super-Sonic Review",
+          "duration_seconds": 139.018,
+          "sample_rate": 44100,
+          "channels": 2,
+          "encoding": "WAV PCM 16 bit",
+          "transformation": "Public streaming copy decoded to PCM; complete track; channel count preserved; no normalization or trimming",
+          "sha256": "8261d2f88a55142664feb62ce9fae58750480414d3e0ef23edaa85b47ce8a3e8",
+          "license": "all-rights-reserved"
+        }
+      },
+      "priority_for_annotation": false,
+      "local_files_verified": true
+    },
+    {
+      "guitar_id": "GTR010",
+      "model": "Gretsch G2622T-P90 Streamliner",
+      "version": "Brownstone; two FideliSonic 90 pickups; Bigsby; center-block semi-hollow",
+      "review_author": "Charles Saufley",
+      "review_date": "2022-04-17",
+      "source_url": "https://www.premierguitar.com/gear/reviews/gretsch-g2622t-p90-streamliner",
+      "checked_on": "2026-09-20",
+      "audio_mapping": "Caption identifies all guitar parts as this model; no pickup-by-time map",
+      "recording_chain": "Tremolux is mentioned in playing tests, but full recording rig is not established",
+      "limitations": "Do not transfer test-amp discussion into confirmed recording metadata. Number of simultaneous parts needs listening.",
+      "materials": {
+        "text": {
+          "material_id": "GTR010_TXT01",
+          "path": "data/text/GTR010.txt",
+          "source_url": "https://www.premierguitar.com/gear/reviews/gretsch-g2622t-p90-streamliner",
+          "language": "ru",
+          "word_count": 135,
+          "sha256": "bd163f00c302e653d9313a1d29a1dbc16eb0462149e5f86d5ecf9dcadaed885c",
+          "origin": "Russian factual description compiled for the course with AI assistance from the cited review; not the original review and not a verbatim translation",
+          "license": "Project-authored description; no separate public license assigned"
+        },
+        "image": {
+          "material_id": "GTR010_IMG01",
+          "path": "data/images/GTR010.jpg",
+          "source_url": "https://www.premierguitar.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yOTY0NzQ3OS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTg0MTczMzM4OX0.tDGfcRZy7ysN1vlGkRQb9mKJxiQ-XCthGOVmRuFt4Oc/image.jpg?width=1200",
+          "width": 1200,
+          "height": 456,
+          "sha256": "156c31b2554632b6a5a35eb2d2d65fa7bb63b9e2707b9151810eb12463e15065",
+          "license": "not_specified; third-party rights retained"
+        },
+        "audio": {
+          "material_id": "GTR010_AUD01",
+          "path": "data/audio/GTR010.wav",
+          "source_url": "https://soundcloud.com/premierguitar/gretsch-streamliner-center-block-p90-main",
+          "source_track_id": "1245627556",
+          "title": "Gretsch G2622T-P90 Streamliner Review",
+          "duration_seconds": 112.431,
+          "sample_rate": 44100,
+          "channels": 2,
+          "encoding": "WAV PCM 16 bit",
+          "transformation": "Public streaming copy decoded to PCM; complete track; channel count preserved; no normalization or trimming",
+          "sha256": "6daf5c830b375f55b02e2aef789d8e192a73f5d8b98d48413bb32d1b528b5842",
+          "license": "all-rights-reserved"
+        }
+      },
+      "priority_for_annotation": false,
+      "local_files_verified": true
+    }
+  ],
+  "text_policy": "Consistent project-authored Russian summaries, not original collected reviews. Each document names the model, construction and source recording conditions.",
+  "rights_notice": "SoundCloud audio license: all-rights-reserved. No open license for article photos was identified. Do not apply a code license to these media.",
+  "verification": "2026-09-20: code/verify.py passed for all 10 objects / 30 materials; image decoding, WAV headers and nonzero signal, hashes and example coordinates. This is not a listening audit."
+}

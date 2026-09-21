@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 183.69306122449
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phrase"
+        xmin = 0
+        xmax = 183.69306122449
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0
+            xmax = 41.16
+            text = "phrase_001"
+        intervals [2]:
+            xmin = 41.16
+            xmax = 41.95
+            text = ""
+        intervals [3]:
+            xmin = 41.95
+            xmax = 48.45
+            text = "phrase_002"
+        intervals [4]:
+            xmin = 48.45
+            xmax = 49.23
+            text = ""
+        intervals [5]:
+            xmin = 49.23
+            xmax = 73.12
+            text = "phrase_003"
+        intervals [6]:
+            xmin = 73.12
+            xmax = 73.78
+            text = ""
+        intervals [7]:
+            xmin = 73.78
+            xmax = 182.56
+            text = "phrase_004"
+        intervals [8]:
+            xmin = 182.56
+            xmax = 183.69306122449
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "event"
+        xmin = 0
+        xmax = 183.69306122449
+        intervals: size = 14
+        intervals [1]:
+            xmin = 0
+            xmax = 41.16
+            text = "playing"
+        intervals [2]:
+            xmin = 41.16
+            xmax = 41.95
+            text = "pause"
+        intervals [3]:
+            xmin = 41.95
+            xmax = 48.45
+            text = "playing"
+        intervals [4]:
+            xmin = 48.45
+            xmax = 49.23
+            text = "pause"
+        intervals [5]:
+            xmin = 49.23
+            xmax = 73.12
+            text = "playing"
+        intervals [6]:
+            xmin = 73.12
+            xmax = 73.78
+            text = "pause"
+        intervals [7]:
+            xmin = 73.78
+            xmax = 80.26
+            text = "playing"
+        intervals [8]:
+            xmin = 80.26
+            xmax = 80.82
+            text = "pause"
+        intervals [9]:
+            xmin = 80.82
+            xmax = 84.97
+            text = "playing"
+        intervals [10]:
+            xmin = 84.97
+            xmax = 85.39
+            text = "pause"
+        intervals [11]:
+            xmin = 85.39
+            xmax = 94.7
+            text = "playing"
+        intervals [12]:
+            xmin = 94.7
+            xmax = 94.95
+            text = "pause"
+        intervals [13]:
+            xmin = 94.95
+            xmax = 182.56
+            text = "playing"
+        intervals [14]:
+            xmin = 182.56
+            xmax = 183.69306122449
+            text = "pause"
+    item [3]:
+        class = "IntervalTier"
+        name = "pickup_setting"
+        xmin = 0
+        xmax = 183.69306122449
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0
+            xmax = 183.69306122449
+            text = "unknown"
+    item [4]:
+        class = "IntervalTier"
+        name = "coil_mode"
+        xmin = 0
+        xmax = 183.69306122449
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0
+            xmax = 183.69306122449
+            text = "unknown"

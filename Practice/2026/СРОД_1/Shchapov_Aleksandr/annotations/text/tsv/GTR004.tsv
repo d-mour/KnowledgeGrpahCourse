@@ -1,0 +1,193 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=webanno.custom.GuitarEntity|bridge_type|component_id|control_type|guitar_id|pickup_type|position|value
+#T_SP=webanno.custom.Paragraph|kind
+#T_RL=webanno.custom.HasPart|value|BT_webanno.custom.GuitarEntity
+
+
+#Text=Ernie Ball Music Man Dustin Kensrue Artist Series StingRay
+#Text=
+#Text=Ernie Ball Music Man Dustin Kensrue Artist Series StingRay в рассмотренной версии имеет отделку Satin TV Blonde.
+1-1	0-5	Ernie	*	PROPN	*[1]	*[1]	*[1]	GTR004[1]	*[1]	*[1]	GUITAR[1]	heading[7]	_	_	
+1-2	6-10	Ball	*	PROPN	*[1]	*[1]	*[1]	GTR004[1]	*[1]	*[1]	GUITAR[1]	heading[7]	_	_	
+1-3	11-16	Music	*	PROPN	*[1]	*[1]	*[1]	GTR004[1]	*[1]	*[1]	GUITAR[1]	heading[7]	_	_	
+1-4	17-20	Man	*	PROPN	*[1]	*[1]	*[1]	GTR004[1]	*[1]	*[1]	GUITAR[1]	heading[7]	_	_	
+1-5	21-27	Dustin	*	PROPN	*[1]	*[1]	*[1]	GTR004[1]	*[1]	*[1]	GUITAR[1]	heading[7]	_	_	
+1-6	28-35	Kensrue	*	PROPN	*[1]	*[1]	*[1]	GTR004[1]	*[1]	*[1]	GUITAR[1]	heading[7]	_	_	
+1-7	36-42	Artist	*	PROPN	*[1]	*[1]	*[1]	GTR004[1]	*[1]	*[1]	GUITAR[1]	heading[7]	_	_	
+1-8	43-49	Series	*	PROPN	*[1]	*[1]	*[1]	GTR004[1]	*[1]	*[1]	GUITAR[1]	heading[7]	_	_	
+1-9	50-58	StingRay	*	PROPN	*[1]	*[1]	*[1]	GTR004[1]	*[1]	*[1]	GUITAR[1]	heading[7]	_	_	
+1-10	60-65	Ernie	*	PROPN	*[2]	*[2]	*[2]	GTR004[2]	*[2]	*[2]	GUITAR[2]	body[8]	_	_	
+1-11	66-70	Ball	*	PROPN	*[2]	*[2]	*[2]	GTR004[2]	*[2]	*[2]	GUITAR[2]	body[8]	_	_	
+1-12	71-76	Music	*	PROPN	*[2]	*[2]	*[2]	GTR004[2]	*[2]	*[2]	GUITAR[2]	body[8]	_	_	
+1-13	77-80	Man	*	PROPN	*[2]	*[2]	*[2]	GTR004[2]	*[2]	*[2]	GUITAR[2]	body[8]	_	_	
+1-14	81-87	Dustin	*	PROPN	*[2]	*[2]	*[2]	GTR004[2]	*[2]	*[2]	GUITAR[2]	body[8]	_	_	
+1-15	88-95	Kensrue	*	PROPN	*[2]	*[2]	*[2]	GTR004[2]	*[2]	*[2]	GUITAR[2]	body[8]	_	_	
+1-16	96-102	Artist	*	PROPN	*[2]	*[2]	*[2]	GTR004[2]	*[2]	*[2]	GUITAR[2]	body[8]	_	_	
+1-17	103-109	Series	*	PROPN	*[2]	*[2]	*[2]	GTR004[2]	*[2]	*[2]	GUITAR[2]	body[8]	_	_	
+1-18	110-118	StingRay	*	PROPN	*[2]	*[2]	*[2]	GTR004[2]	*[2]	*[2]	GUITAR[2]	body[8]	_	_	
+1-19	119-120	в	*	ADP	_	_	_	_	_	_	_	body[8]	_	_	
+1-20	121-134	рассмотренной	*	VERB	_	_	_	_	_	_	_	body[8]	_	_	
+1-21	135-141	версии	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+1-22	142-147	имеет	*	VERB	_	_	_	_	_	_	_	body[8]	_	_	
+1-23	148-155	отделку	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+1-24	156-161	Satin	*	PROPN	_	_	_	_	_	_	_	body[8]	_	_	
+1-25	162-164	TV	*	PROPN	_	_	_	_	_	_	_	body[8]	_	_	
+1-26	165-171	Blonde	*	PROPN	_	_	_	_	_	_	_	body[8]	_	_	
+1-27	171-172	.	*	PUNCT	_	_	_	_	_	_	_	body[8]	_	_	
+
+#Text=У бриджа установлен хамбакер, а возле грифа — сингл.
+2-1	173-174	У	*	ADP	_	_	_	_	_	_	_	body[8]	_	_	
+2-2	175-181	бриджа	*	NOUN	unknown	GTR004\_BRIDGE\_01	*	*	*	*	BRIDGE	body[8]	HAS\_PART	1-10[2_0]	
+2-3	182-192	установлен	*	VERB	_	_	_	_	_	_	_	body[8]	_	_	
+2-4	193-201	хамбакер	*	NOUN	*	GTR004\_PICKUP\_bridge	*	*	humbucker	bridge	PICKUP	body[8]	HAS\_PART	1-10[2_0]	
+2-5	201-202	,	*	PUNCT	_	_	_	_	_	_	_	body[8]	_	_	
+2-6	203-204	а	*	CCONJ	_	_	_	_	_	_	_	body[8]	_	_	
+2-7	205-210	возле	*	ADP	_	_	_	_	_	_	_	body[8]	_	_	
+2-8	211-216	грифа	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+2-9	217-218	—	*	PUNCT	_	_	_	_	_	_	_	body[8]	_	_	
+2-10	219-224	сингл	*	NOUN	*	GTR004\_PICKUP\_neck	*	*	single\_coil	neck	PICKUP	body[8]	HAS\_PART	1-10[2_0]	
+2-11	224-225	.	*	PUNCT	_	_	_	_	_	_	_	body[8]	_	_	
+
+#Text=Инструмент поддерживает монофонический и стереофонический выходы.
+3-1	226-236	Инструмент	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+3-2	237-249	поддерживает	*	VERB	_	_	_	_	_	_	_	body[8]	_	_	
+3-3	250-264	монофонический	*	ADJ	_	_	_	_	_	_	_	body[8]	_	_	
+3-4	265-266	и	*	CCONJ	_	_	_	_	_	_	_	body[8]	_	_	
+3-5	267-283	стереофонический	*	ADJ	_	_	_	_	_	_	_	body[8]	_	_	
+3-6	284-290	выходы	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+3-7	290-291	.	*	PUNCT	_	_	_	_	_	_	_	body[8]	_	_	
+
+#Text=В обзоре указано, что гитара поставляется в строе D standard.
+4-1	292-293	В	*	ADP	_	_	_	_	_	_	_	body[8]	_	_	
+4-2	294-300	обзоре	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+4-3	301-308	указано	*	VERB	_	_	_	_	_	_	_	body[8]	_	_	
+4-4	308-309	,	*	PUNCT	_	_	_	_	_	_	_	body[8]	_	_	
+4-5	310-313	что	*	SCONJ	_	_	_	_	_	_	_	body[8]	_	_	
+4-6	314-320	гитара	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+4-7	321-333	поставляется	*	VERB	_	_	_	_	_	_	_	body[8]	_	_	
+4-8	334-335	в	*	ADP	_	_	_	_	_	_	_	body[8]	_	_	
+4-9	336-341	строе	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+4-10	342-343	D	*	PROPN	_	_	_	_	_	_	_	body[8]	_	_	
+4-11	344-352	standard	*	ADJ	_	_	_	_	_	_	_	body[8]	_	_	
+4-12	352-353	.	*	PUNCT	_	_	_	_	_	_	_	body[8]	_	_	
+
+#Text=Это свойство важно учитывать при сопоставлении записей разных моделей.
+5-1	354-357	Это	*	DET	_	_	_	_	_	_	_	body[8]	_	_	
+5-2	358-366	свойство	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+5-3	367-372	важно	*	ADV	_	_	_	_	_	_	_	body[8]	_	_	
+5-4	373-382	учитывать	*	VERB	_	_	_	_	_	_	_	body[8]	_	_	
+5-5	383-386	при	*	ADP	_	_	_	_	_	_	_	body[8]	_	_	
+5-6	387-400	сопоставлении	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+5-7	401-408	записей	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+5-8	409-415	разных	*	ADJ	_	_	_	_	_	_	_	body[8]	_	_	
+5-9	416-423	моделей	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+5-10	423-424	.	*	PUNCT	_	_	_	_	_	_	_	body[8]	_	_	
+
+#Text=На фотографии можно выделить оба звукоснимателя, бридж и совмещённые регуляторы.
+6-1	425-427	На	*	ADP	_	_	_	_	_	_	_	body[8]	_	_	
+6-2	428-438	фотографии	*	NOUN	_	_	_	_	_	_	_	body[8]	_	_	
+6-3	439-444	можно	*	ADV	_	_	_	_	_	_	_	body[8]	_	_	
+6-4	445-453	выделить	*	VERB	_	_	_	_	_	_	_	body[8]	_	_	
+6-5	454-457	оба	*	NUM	*[3]	GTR004\_PICKUP\_group\_all[3]	*[3]	*[3]	unknown[3]	unknown[3]	PICKUP[3]	body[8]	HAS\_PART	1-10[2_3]	
+6-6	458-472	звукоснимателя	*	NOUN	*[3]	GTR004\_PICKUP\_group\_all[3]	*[3]	*[3]	unknown[3]	unknown[3]	PICKUP[3]	body[8]	_	_	
+6-7	472-473	,	*	PUNCT	_	_	_	_	_	_	_	body[8]	_	_	
+6-8	474-479	бридж	*	NOUN	unknown	GTR004\_BRIDGE\_01	*	*	*	*	BRIDGE	body[8]	HAS\_PART	1-10[2_0]	
+6-9	480-481	и	*	CCONJ	_	_	_	_	_	_	_	body[8]	_	_	
+6-10	482-493	совмещённые	*	VERB	*[4]	GTR004\_CONTROL\_group\_all[4]	unknown[4]	*[4]	*[4]	*[4]	CONTROL[4]	body[8]	HAS\_PART	1-10[2_4]	
+6-11	494-504	регуляторы	*	NOUN	*[4]	GTR004\_CONTROL\_group\_all[4]	unknown[4]	*[4]	*[4]	*[4]	CONTROL[4]	body[8]	_	_	
+6-12	504-505	.	*	PUNCT	_	_	_	_	_	_	_	body[8]	_	_	
+
+#Text=Для корпуса выбран первый аудиопример с чистым звуком и монофоническим выходом.
+7-1	507-510	Для	*	ADP	_	_	_	_	_	_	_	body[9]	_	_	
+7-2	511-518	корпуса	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+7-3	519-525	выбран	*	VERB	_	_	_	_	_	_	_	body[9]	_	_	
+7-4	526-532	первый	*	ADJ	_	_	_	_	_	_	_	body[9]	_	_	
+7-5	533-544	аудиопример	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+7-6	545-546	с	*	ADP	_	_	_	_	_	_	_	body[9]	_	_	
+7-7	547-553	чистым	*	ADJ	_	_	_	_	_	_	_	body[9]	_	_	
+7-8	554-560	звуком	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+7-9	561-562	и	*	CCONJ	_	_	_	_	_	_	_	body[9]	_	_	
+7-10	563-577	монофоническим	*	ADJ	_	_	_	_	_	_	_	body[9]	_	_	
+7-11	578-585	выходом	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+7-12	585-586	.	*	PUNCT	_	_	_	_	_	_	_	body[9]	_	_	
+
+#Text=Сигнал проходит через Neural DSP Quad Cortex с пресетом Twin Reverb, интерфейс Universal Audio Apollo Twin Duo и Pro Tools.
+8-1	587-593	Сигнал	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+8-2	594-602	проходит	*	VERB	_	_	_	_	_	_	_	body[9]	_	_	
+8-3	603-608	через	*	ADP	_	_	_	_	_	_	_	body[9]	_	_	
+8-4	609-615	Neural	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-5	616-619	DSP	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-6	620-624	Quad	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-7	625-631	Cortex	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-8	632-633	с	*	ADP	_	_	_	_	_	_	_	body[9]	_	_	
+8-9	634-642	пресетом	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+8-10	643-647	Twin	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-11	648-654	Reverb	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-12	654-655	,	*	PUNCT	_	_	_	_	_	_	_	body[9]	_	_	
+8-13	656-665	интерфейс	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+8-14	666-675	Universal	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-15	676-681	Audio	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-16	682-688	Apollo	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-17	689-693	Twin	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-18	694-697	Duo	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-19	698-699	и	*	CCONJ	_	_	_	_	_	_	_	body[9]	_	_	
+8-20	700-703	Pro	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-21	704-709	Tools	*	PROPN	_	_	_	_	_	_	_	body[9]	_	_	
+8-22	709-710	.	*	PUNCT	_	_	_	_	_	_	_	body[9]	_	_	
+
+#Text=По подписи автора с начала записи используется бриджевый звукосниматель, с шестнадцатой секунды — оба датчика, с тридцать четвёртой — нековый.
+9-1	711-713	По	*	ADP	_	_	_	_	_	_	_	body[9]	_	_	
+9-2	714-721	подписи	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+9-3	722-728	автора	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+9-4	729-730	с	*	ADP	_	_	_	_	_	_	_	body[9]	_	_	
+9-5	731-737	начала	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+9-6	738-744	записи	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+9-7	745-757	используется	*	VERB	_	_	_	_	_	_	_	body[9]	_	_	
+9-8	758-767	бриджевый	*	ADJ	*[5]	GTR004\_PICKUP\_bridge[5]	*[5]	*[5]	humbucker[5]	bridge[5]	PICKUP[5]	body[9]	HAS\_PART	1-10[2_5]	
+9-9	768-782	звукосниматель	*	NOUN	*[5]	GTR004\_PICKUP\_bridge[5]	*[5]	*[5]	humbucker[5]	bridge[5]	PICKUP[5]	body[9]	_	_	
+9-10	782-783	,	*	PUNCT	_	_	_	_	_	_	_	body[9]	_	_	
+9-11	784-785	с	*	ADP	_	_	_	_	_	_	_	body[9]	_	_	
+9-12	786-798	шестнадцатой	*	ADJ	_	_	_	_	_	_	_	body[9]	_	_	
+9-13	799-806	секунды	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+9-14	807-808	—	*	PUNCT	_	_	_	_	_	_	_	body[9]	_	_	
+9-15	809-812	оба	*	NUM	*[6]	GTR004\_PICKUP\_group\_all[6]	*[6]	*[6]	unknown[6]	unknown[6]	PICKUP[6]	body[9]	HAS\_PART	1-10[2_6]	
+9-16	813-820	датчика	*	NOUN	*[6]	GTR004\_PICKUP\_group\_all[6]	*[6]	*[6]	unknown[6]	unknown[6]	PICKUP[6]	body[9]	_	_	
+9-17	820-821	,	*	PUNCT	_	_	_	_	_	_	_	body[9]	_	_	
+9-18	822-823	с	*	ADP	_	_	_	_	_	_	_	body[9]	_	_	
+9-19	824-832	тридцать	*	NUM	_	_	_	_	_	_	_	body[9]	_	_	
+9-20	833-842	четвёртой	*	ADJ	_	_	_	_	_	_	_	body[9]	_	_	
+9-21	843-844	—	*	PUNCT	_	_	_	_	_	_	_	body[9]	_	_	
+9-22	845-852	нековый	*	ADJ	*	GTR004\_PICKUP\_neck	*	*	single\_coil	neck	PICKUP	body[9]	HAS\_PART	1-10[2_0]	
+9-23	852-853	.	*	PUNCT	_	_	_	_	_	_	_	body[9]	_	_	
+
+#Text=Эти отметки задают ориентиры для разметки, которые следует сверить с аудио.
+10-1	854-857	Эти	*	DET	_	_	_	_	_	_	_	body[9]	_	_	
+10-2	858-865	отметки	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+10-3	866-872	задают	*	VERB	_	_	_	_	_	_	_	body[9]	_	_	
+10-4	873-882	ориентиры	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+10-5	883-886	для	*	ADP	_	_	_	_	_	_	_	body[9]	_	_	
+10-6	887-895	разметки	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+10-7	895-896	,	*	PUNCT	_	_	_	_	_	_	_	body[9]	_	_	
+10-8	897-904	которые	*	PRON	_	_	_	_	_	_	_	body[9]	_	_	
+10-9	905-912	следует	*	VERB	_	_	_	_	_	_	_	body[9]	_	_	
+10-10	913-920	сверить	*	VERB	_	_	_	_	_	_	_	body[9]	_	_	
+10-11	921-922	с	*	ADP	_	_	_	_	_	_	_	body[9]	_	_	
+10-12	923-928	аудио	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+10-13	928-929	.	*	PUNCT	_	_	_	_	_	_	_	body[9]	_	_	
+
+#Text=Другой пример со стереовыходом и изменением высоты тона в данный корпус не включён.
+11-1	930-936	Другой	*	ADJ	_	_	_	_	_	_	_	body[9]	_	_	
+11-2	937-943	пример	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+11-3	944-946	со	*	ADP	_	_	_	_	_	_	_	body[9]	_	_	
+11-4	947-960	стереовыходом	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+11-5	961-962	и	*	CCONJ	_	_	_	_	_	_	_	body[9]	_	_	
+11-6	963-973	изменением	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+11-7	974-980	высоты	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+11-8	981-985	тона	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+11-9	986-987	в	*	ADP	_	_	_	_	_	_	_	body[9]	_	_	
+11-10	988-994	данный	*	ADJ	_	_	_	_	_	_	_	body[9]	_	_	
+11-11	995-1001	корпус	*	NOUN	_	_	_	_	_	_	_	body[9]	_	_	
+11-12	1002-1004	не	*	PART	_	_	_	_	_	_	_	body[9]	_	_	
+11-13	1005-1012	включён	*	VERB	_	_	_	_	_	_	_	body[9]	_	_	
+11-14	1012-1013	.	*	PUNCT	_	_	_	_	_	_	_	body[9]	_	_	

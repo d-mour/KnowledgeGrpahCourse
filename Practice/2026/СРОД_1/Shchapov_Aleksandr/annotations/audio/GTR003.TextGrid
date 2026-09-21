@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 120.023945578231
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phrase"
+        xmin = 0
+        xmax = 120.023945578231
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0
+            xmax = 39.3
+            text = "phrase_001"
+        intervals [2]:
+            xmin = 39.3
+            xmax = 40.12
+            text = ""
+        intervals [3]:
+            xmin = 40.12
+            xmax = 75.8
+            text = "phrase_002"
+        intervals [4]:
+            xmin = 75.8
+            xmax = 76.97
+            text = ""
+        intervals [5]:
+            xmin = 76.97
+            xmax = 116.25
+            text = "phrase_003"
+        intervals [6]:
+            xmin = 116.25
+            xmax = 120.023945578231
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "event"
+        xmin = 0
+        xmax = 120.023945578231
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0
+            xmax = 39.3
+            text = "playing"
+        intervals [2]:
+            xmin = 39.3
+            xmax = 40.12
+            text = "pause"
+        intervals [3]:
+            xmin = 40.12
+            xmax = 75.8
+            text = "playing"
+        intervals [4]:
+            xmin = 75.8
+            xmax = 76.97
+            text = "pause"
+        intervals [5]:
+            xmin = 76.97
+            xmax = 116.25
+            text = "playing"
+        intervals [6]:
+            xmin = 116.25
+            xmax = 120.023945578231
+            text = "pause"
+    item [3]:
+        class = "IntervalTier"
+        name = "pickup_setting"
+        xmin = 0
+        xmax = 120.023945578231
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0
+            xmax = 120.023945578231
+            text = "unknown"
+    item [4]:
+        class = "IntervalTier"
+        name = "coil_mode"
+        xmin = 0
+        xmax = 120.023945578231
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0
+            xmax = 120.023945578231
+            text = "unknown"

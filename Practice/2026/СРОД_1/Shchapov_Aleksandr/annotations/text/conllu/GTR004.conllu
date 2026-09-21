@@ -1,0 +1,185 @@
+# text = Ernie Ball Music Man Dustin Kensrue Artist Series StingRay  Ernie Ball Music Man Dustin Kensrue Artist Series StingRay в рассмотренной версии имеет отделку Satin TV Blonde.
+1	Ernie	_	PROPN	_	_	_	_	_	_
+2	Ball	_	PROPN	_	_	_	_	_	_
+3	Music	_	PROPN	_	_	_	_	_	_
+4	Man	_	PROPN	_	_	_	_	_	_
+5	Dustin	_	PROPN	_	_	_	_	_	_
+6	Kensrue	_	PROPN	_	_	_	_	_	_
+7	Artist	_	PROPN	_	_	_	_	_	_
+8	Series	_	PROPN	_	_	_	_	_	_
+9	StingRay	_	PROPN	_	_	_	_	_	_
+10	Ernie	_	PROPN	_	_	_	_	_	_
+11	Ball	_	PROPN	_	_	_	_	_	_
+12	Music	_	PROPN	_	_	_	_	_	_
+13	Man	_	PROPN	_	_	_	_	_	_
+14	Dustin	_	PROPN	_	_	_	_	_	_
+15	Kensrue	_	PROPN	_	_	_	_	_	_
+16	Artist	_	PROPN	_	_	_	_	_	_
+17	Series	_	PROPN	_	_	_	_	_	_
+18	StingRay	_	PROPN	_	_	_	_	_	_
+19	в	_	ADP	_	_	_	_	_	_
+20	рассмотренной	_	VERB	_	_	_	_	_	_
+21	версии	_	NOUN	_	_	_	_	_	_
+22	имеет	_	VERB	_	_	_	_	_	_
+23	отделку	_	NOUN	_	_	_	_	_	_
+24	Satin	_	PROPN	_	_	_	_	_	_
+25	TV	_	PROPN	_	_	_	_	_	_
+26	Blonde	_	PROPN	_	_	_	_	_	SpaceAfter=No
+27	.	_	PUNCT	_	_	_	_	_	_
+
+# text = У бриджа установлен хамбакер, а возле грифа — сингл.
+1	У	_	ADP	_	_	_	_	_	_
+2	бриджа	_	NOUN	_	_	_	_	_	_
+3	установлен	_	VERB	_	_	_	_	_	_
+4	хамбакер	_	NOUN	_	_	_	_	_	SpaceAfter=No
+5	,	_	PUNCT	_	_	_	_	_	_
+6	а	_	CCONJ	_	_	_	_	_	_
+7	возле	_	ADP	_	_	_	_	_	_
+8	грифа	_	NOUN	_	_	_	_	_	_
+9	—	_	PUNCT	_	_	_	_	_	_
+10	сингл	_	NOUN	_	_	_	_	_	SpaceAfter=No
+11	.	_	PUNCT	_	_	_	_	_	_
+
+# text = Инструмент поддерживает монофонический и стереофонический выходы.
+1	Инструмент	_	NOUN	_	_	_	_	_	_
+2	поддерживает	_	VERB	_	_	_	_	_	_
+3	монофонический	_	ADJ	_	_	_	_	_	_
+4	и	_	CCONJ	_	_	_	_	_	_
+5	стереофонический	_	ADJ	_	_	_	_	_	_
+6	выходы	_	NOUN	_	_	_	_	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	_	_	_	_
+
+# text = В обзоре указано, что гитара поставляется в строе D standard.
+1	В	_	ADP	_	_	_	_	_	_
+2	обзоре	_	NOUN	_	_	_	_	_	_
+3	указано	_	VERB	_	_	_	_	_	SpaceAfter=No
+4	,	_	PUNCT	_	_	_	_	_	_
+5	что	_	SCONJ	_	_	_	_	_	_
+6	гитара	_	NOUN	_	_	_	_	_	_
+7	поставляется	_	VERB	_	_	_	_	_	_
+8	в	_	ADP	_	_	_	_	_	_
+9	строе	_	NOUN	_	_	_	_	_	_
+10	D	_	PROPN	_	_	_	_	_	_
+11	standard	_	ADJ	_	_	_	_	_	SpaceAfter=No
+12	.	_	PUNCT	_	_	_	_	_	_
+
+# text = Это свойство важно учитывать при сопоставлении записей разных моделей.
+1	Это	_	DET	_	_	_	_	_	_
+2	свойство	_	NOUN	_	_	_	_	_	_
+3	важно	_	ADV	_	_	_	_	_	_
+4	учитывать	_	VERB	_	_	_	_	_	_
+5	при	_	ADP	_	_	_	_	_	_
+6	сопоставлении	_	NOUN	_	_	_	_	_	_
+7	записей	_	NOUN	_	_	_	_	_	_
+8	разных	_	ADJ	_	_	_	_	_	_
+9	моделей	_	NOUN	_	_	_	_	_	SpaceAfter=No
+10	.	_	PUNCT	_	_	_	_	_	_
+
+# text = На фотографии можно выделить оба звукоснимателя, бридж и совмещённые регуляторы.
+1	На	_	ADP	_	_	_	_	_	_
+2	фотографии	_	NOUN	_	_	_	_	_	_
+3	можно	_	ADV	_	_	_	_	_	_
+4	выделить	_	VERB	_	_	_	_	_	_
+5	оба	_	NUM	_	_	_	_	_	_
+6	звукоснимателя	_	NOUN	_	_	_	_	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	_	_	_	_
+8	бридж	_	NOUN	_	_	_	_	_	_
+9	и	_	CCONJ	_	_	_	_	_	_
+10	совмещённые	_	VERB	_	_	_	_	_	_
+11	регуляторы	_	NOUN	_	_	_	_	_	SpaceAfter=No
+12	.	_	PUNCT	_	_	_	_	_	_
+
+# text = Для корпуса выбран первый аудиопример с чистым звуком и монофоническим выходом.
+1	Для	_	ADP	_	_	_	_	_	_
+2	корпуса	_	NOUN	_	_	_	_	_	_
+3	выбран	_	VERB	_	_	_	_	_	_
+4	первый	_	ADJ	_	_	_	_	_	_
+5	аудиопример	_	NOUN	_	_	_	_	_	_
+6	с	_	ADP	_	_	_	_	_	_
+7	чистым	_	ADJ	_	_	_	_	_	_
+8	звуком	_	NOUN	_	_	_	_	_	_
+9	и	_	CCONJ	_	_	_	_	_	_
+10	монофоническим	_	ADJ	_	_	_	_	_	_
+11	выходом	_	NOUN	_	_	_	_	_	SpaceAfter=No
+12	.	_	PUNCT	_	_	_	_	_	_
+
+# text = Сигнал проходит через Neural DSP Quad Cortex с пресетом Twin Reverb, интерфейс Universal Audio Apollo Twin Duo и Pro Tools.
+1	Сигнал	_	NOUN	_	_	_	_	_	_
+2	проходит	_	VERB	_	_	_	_	_	_
+3	через	_	ADP	_	_	_	_	_	_
+4	Neural	_	PROPN	_	_	_	_	_	_
+5	DSP	_	PROPN	_	_	_	_	_	_
+6	Quad	_	PROPN	_	_	_	_	_	_
+7	Cortex	_	PROPN	_	_	_	_	_	_
+8	с	_	ADP	_	_	_	_	_	_
+9	пресетом	_	NOUN	_	_	_	_	_	_
+10	Twin	_	PROPN	_	_	_	_	_	_
+11	Reverb	_	PROPN	_	_	_	_	_	SpaceAfter=No
+12	,	_	PUNCT	_	_	_	_	_	_
+13	интерфейс	_	NOUN	_	_	_	_	_	_
+14	Universal	_	PROPN	_	_	_	_	_	_
+15	Audio	_	PROPN	_	_	_	_	_	_
+16	Apollo	_	PROPN	_	_	_	_	_	_
+17	Twin	_	PROPN	_	_	_	_	_	_
+18	Duo	_	PROPN	_	_	_	_	_	_
+19	и	_	CCONJ	_	_	_	_	_	_
+20	Pro	_	PROPN	_	_	_	_	_	_
+21	Tools	_	PROPN	_	_	_	_	_	SpaceAfter=No
+22	.	_	PUNCT	_	_	_	_	_	_
+
+# text = По подписи автора с начала записи используется бриджевый звукосниматель, с шестнадцатой секунды — оба датчика, с тридцать четвёртой — нековый.
+1	По	_	ADP	_	_	_	_	_	_
+2	подписи	_	NOUN	_	_	_	_	_	_
+3	автора	_	NOUN	_	_	_	_	_	_
+4	с	_	ADP	_	_	_	_	_	_
+5	начала	_	NOUN	_	_	_	_	_	_
+6	записи	_	NOUN	_	_	_	_	_	_
+7	используется	_	VERB	_	_	_	_	_	_
+8	бриджевый	_	ADJ	_	_	_	_	_	_
+9	звукосниматель	_	NOUN	_	_	_	_	_	SpaceAfter=No
+10	,	_	PUNCT	_	_	_	_	_	_
+11	с	_	ADP	_	_	_	_	_	_
+12	шестнадцатой	_	ADJ	_	_	_	_	_	_
+13	секунды	_	NOUN	_	_	_	_	_	_
+14	—	_	PUNCT	_	_	_	_	_	_
+15	оба	_	NUM	_	_	_	_	_	_
+16	датчика	_	NOUN	_	_	_	_	_	SpaceAfter=No
+17	,	_	PUNCT	_	_	_	_	_	_
+18	с	_	ADP	_	_	_	_	_	_
+19	тридцать	_	NUM	_	_	_	_	_	_
+20	четвёртой	_	ADJ	_	_	_	_	_	_
+21	—	_	PUNCT	_	_	_	_	_	_
+22	нековый	_	ADJ	_	_	_	_	_	SpaceAfter=No
+23	.	_	PUNCT	_	_	_	_	_	_
+
+# text = Эти отметки задают ориентиры для разметки, которые следует сверить с аудио.
+1	Эти	_	DET	_	_	_	_	_	_
+2	отметки	_	NOUN	_	_	_	_	_	_
+3	задают	_	VERB	_	_	_	_	_	_
+4	ориентиры	_	NOUN	_	_	_	_	_	_
+5	для	_	ADP	_	_	_	_	_	_
+6	разметки	_	NOUN	_	_	_	_	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	_	_	_	_
+8	которые	_	PRON	_	_	_	_	_	_
+9	следует	_	VERB	_	_	_	_	_	_
+10	сверить	_	VERB	_	_	_	_	_	_
+11	с	_	ADP	_	_	_	_	_	_
+12	аудио	_	NOUN	_	_	_	_	_	SpaceAfter=No
+13	.	_	PUNCT	_	_	_	_	_	_
+
+# text = Другой пример со стереовыходом и изменением высоты тона в данный корпус не включён.
+1	Другой	_	ADJ	_	_	_	_	_	_
+2	пример	_	NOUN	_	_	_	_	_	_
+3	со	_	ADP	_	_	_	_	_	_
+4	стереовыходом	_	NOUN	_	_	_	_	_	_
+5	и	_	CCONJ	_	_	_	_	_	_
+6	изменением	_	NOUN	_	_	_	_	_	_
+7	высоты	_	NOUN	_	_	_	_	_	_
+8	тона	_	NOUN	_	_	_	_	_	_
+9	в	_	ADP	_	_	_	_	_	_
+10	данный	_	ADJ	_	_	_	_	_	_
+11	корпус	_	NOUN	_	_	_	_	_	_
+12	не	_	PART	_	_	_	_	_	_
+13	включён	_	VERB	_	_	_	_	_	SpaceAfter=No
+14	.	_	PUNCT	_	_	_	_	_	_
+

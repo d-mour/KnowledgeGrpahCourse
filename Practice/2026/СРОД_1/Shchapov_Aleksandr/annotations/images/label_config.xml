@@ -1,0 +1,14 @@
+<View>
+<Image name="image" value="$image"/>
+<RectangleLabels name="label" toName="image">
+<Label value="GUITAR" background="#9307FE"/>
+<Label value="PICKUP" background="#00AA55"/>
+<Label value="BRIDGE" background="#F59E0B"/>
+<Label value="CONTROL" background="#0088FF"/>
+</RectangleLabels>
+<View visibleWhen="region-selected">
+<Header value="ID гитары"/><TextArea name="guitar_id" toName="image" perRegion="true" editable="true" rows="1"/>
+<Header value="ID детали (для GUITAR пусто)"/><TextArea name="component_id" toName="image" perRegion="true" editable="true" rows="1"/>
+<Header value="Позиция датчика (только PICKUP)"/>
+<Choices name="position" toName="image" perRegion="true" choice="single"><Choice value="bridge"/><Choice value="middle"/><Choice value="neck"/><Choice value="unknown"/></Choices>
+</View></View>

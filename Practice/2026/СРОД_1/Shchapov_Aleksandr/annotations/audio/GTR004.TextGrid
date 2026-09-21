@@ -1,0 +1,80 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 64.8765532879819 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "phrase" 
+        xmin = 0 
+        xmax = 64.8765532879819 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.28 
+            text = "" 
+        intervals [2]:
+            xmin = 1.28 
+            xmax = 63.86 
+            text = "phrase_001" 
+        intervals [3]:
+            xmin = 63.86 
+            xmax = 64.8765532879819 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "event" 
+        xmin = 0 
+        xmax = 64.8765532879819 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.28 
+            text = "pause" 
+        intervals [2]:
+            xmin = 1.28 
+            xmax = 63.86 
+            text = "playing" 
+        intervals [3]:
+            xmin = 63.86 
+            xmax = 64.8765532879819 
+            text = "pause" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "pickup_setting" 
+        xmin = 0 
+        xmax = 64.8765532879819 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.28 
+            text = "unknown" 
+        intervals [2]:
+            xmin = 1.28 
+            xmax = 16 
+            text = "bridge" 
+        intervals [3]:
+            xmin = 16 
+            xmax = 34 
+            text = "bridge+neck" 
+        intervals [4]:
+            xmin = 34 
+            xmax = 63.86 
+            text = "neck" 
+        intervals [5]:
+            xmin = 63.86 
+            xmax = 64.8765532879819 
+            text = "unknown" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "coil_mode" 
+        xmin = 0 
+        xmax = 64.8765532879819 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 64.8765532879819 
+            text = "unknown" 

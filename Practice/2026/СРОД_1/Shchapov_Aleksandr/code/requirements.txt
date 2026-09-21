@@ -1,0 +1,4 @@
+Pillow>=10
+yt-dlp==2026.8.19
+imageio-ffmpeg==0.6.0
+numpy>=1.26

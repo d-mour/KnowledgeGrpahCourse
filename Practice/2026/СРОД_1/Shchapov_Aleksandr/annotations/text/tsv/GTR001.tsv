@@ -1,0 +1,190 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue|coarseValue
+#T_SP=webanno.custom.GuitarEntity|bridge_type|component_id|control_type|guitar_id|pickup_type|position|value
+#T_SP=webanno.custom.Paragraph|kind
+#T_RL=webanno.custom.HasPart|value|BT_webanno.custom.GuitarEntity
+
+
+#Text=Reverend Six Gun HPP
+#Text=
+#Text=Reverend Six Gun HPP — электрогитара с тремя звукоснимателями.
+1-1	0-8	Reverend	*	PROPN	*[1]	*[1]	*[1]	GTR001[1]	*[1]	*[1]	GUITAR[1]	heading[13]	_	_	
+1-2	9-12	Six	*	NUM	*[1]	*[1]	*[1]	GTR001[1]	*[1]	*[1]	GUITAR[1]	heading[13]	_	_	
+1-3	13-16	Gun	*	PROPN	*[1]	*[1]	*[1]	GTR001[1]	*[1]	*[1]	GUITAR[1]	heading[13]	_	_	
+1-4	17-20	HPP	*	PROPN	*[1]	*[1]	*[1]	GTR001[1]	*[1]	*[1]	GUITAR[1]	heading[13]	_	_	
+1-5	22-30	Reverend	*	PROPN	*[2]	*[2]	*[2]	GTR001[2]	*[2]	*[2]	GUITAR[2]	body[14]	_	_	
+1-6	31-34	Six	*	NUM	*[2]	*[2]	*[2]	GTR001[2]	*[2]	*[2]	GUITAR[2]	body[14]	_	_	
+1-7	35-38	Gun	*	PROPN	*[2]	*[2]	*[2]	GTR001[2]	*[2]	*[2]	GUITAR[2]	body[14]	_	_	
+1-8	39-42	HPP	*	PROPN	*[2]	*[2]	*[2]	GTR001[2]	*[2]	*[2]	GUITAR[2]	body[14]	_	_	
+1-9	43-44	—	*	PUNCT	_	_	_	_	_	_	_	body[14]	_	_	
+1-10	45-58	электрогитара	*	NOUN	_	_	_	_	_	_	_	body[14]	_	_	
+1-11	59-60	с	*	ADP	_	_	_	_	_	_	_	body[14]	_	_	
+1-12	61-66	тремя	*	NUM	*[3]	GTR001\_PICKUP\_group\_all[3]	*[3]	*[3]	unknown[3]	unknown[3]	PICKUP[3]	body[14]	HAS\_PART	1-5[2_3]	
+1-13	67-83	звукоснимателями	*	NOUN	*[3]	GTR001\_PICKUP\_group\_all[3]	*[3]	*[3]	unknown[3]	unknown[3]	PICKUP[3]	body[14]	_	_	
+1-14	83-84	.	*	PUNCT	_	_	_	_	_	_	_	body[14]	_	_	
+
+#Text=У бриджа установлен хамбакер HA5, а в средней и нековой позициях находятся два P-90 модели 9A5.
+2-1	85-86	У	*	ADP	_	_	_	_	_	_	_	body[14]	_	_	
+2-2	87-93	бриджа	*	NOUN	vibrato	GTR001\_BRIDGE\_01	*	*	*	*	BRIDGE	body[14]	HAS\_PART	1-5[2_0]	
+2-3	94-104	установлен	*	VERB	_	_	_	_	_	_	_	body[14]	_	_	
+2-4	105-113	хамбакер	*	NOUN	*[4]	GTR001\_PICKUP\_bridge[4]	*[4]	*[4]	humbucker[4]	bridge[4]	PICKUP[4]	body[14]	HAS\_PART	1-5[2_4]	
+2-5	114-117	HA5	*	PROPN	*[4]	GTR001\_PICKUP\_bridge[4]	*[4]	*[4]	humbucker[4]	bridge[4]	PICKUP[4]	body[14]	_	_	
+2-6	117-118	,	*	PUNCT	_	_	_	_	_	_	_	body[14]	_	_	
+2-7	119-120	а	*	CCONJ	_	_	_	_	_	_	_	body[14]	_	_	
+2-8	121-122	в	*	ADP	_	_	_	_	_	_	_	body[14]	_	_	
+2-9	123-130	средней	*	ADJ	_	_	_	_	_	_	_	body[14]	_	_	
+2-10	131-132	и	*	CCONJ	_	_	_	_	_	_	_	body[14]	_	_	
+2-11	133-140	нековой	*	ADJ	_	_	_	_	_	_	_	body[14]	_	_	
+2-12	141-149	позициях	*	NOUN	_	_	_	_	_	_	_	body[14]	_	_	
+2-13	150-159	находятся	*	VERB	_	_	_	_	_	_	_	body[14]	_	_	
+2-14	160-163	два	*	NUM	*[5]	GTR001\_PICKUP\_group\_middle\_neck[5]	*[5]	*[5]	p90[5]	unknown[5]	PICKUP[5]	body[14]	HAS\_PART	1-5[2_5]	
+2-15	164-165	P	*	NOUN	*[5]	GTR001\_PICKUP\_group\_middle\_neck[5]	*[5]	*[5]	p90[5]	unknown[5]	PICKUP[5]	body[14]	_	_	
+2-16	165-166	-	*	PUNCT	*[5]	GTR001\_PICKUP\_group\_middle\_neck[5]	*[5]	*[5]	p90[5]	unknown[5]	PICKUP[5]	body[14]	_	_	
+2-17	166-168	90	*	NUM	*[5]	GTR001\_PICKUP\_group\_middle\_neck[5]	*[5]	*[5]	p90[5]	unknown[5]	PICKUP[5]	body[14]	_	_	
+2-18	169-175	модели	*	NOUN	*[5]	GTR001\_PICKUP\_group\_middle\_neck[5]	*[5]	*[5]	p90[5]	unknown[5]	PICKUP[5]	body[14]	_	_	
+2-19	176-179	9A5	*	PROPN	*[5]	GTR001\_PICKUP\_group\_middle\_neck[5]	*[5]	*[5]	p90[5]	unknown[5]	PICKUP[5]	body[14]	_	_	
+2-20	179-180	.	*	PUNCT	_	_	_	_	_	_	_	body[14]	_	_	
+
+#Text=Пятипозиционный переключатель позволяет выбирать отдельные датчики и их сочетания.
+3-1	181-196	Пятипозиционный	*	ADJ	*[6]	GTR001\_CONTROL\_01[6]	selector[6]	*[6]	*[6]	*[6]	CONTROL[6]	body[14]	HAS\_PART	1-5[2_6]	
+3-2	197-210	переключатель	*	NOUN	*[6]	GTR001\_CONTROL\_01[6]	selector[6]	*[6]	*[6]	*[6]	CONTROL[6]	body[14]	_	_	
+3-3	211-220	позволяет	*	VERB	_	_	_	_	_	_	_	body[14]	_	_	
+3-4	221-229	выбирать	*	VERB	_	_	_	_	_	_	_	body[14]	_	_	
+3-5	230-239	отдельные	*	ADJ	*[7]	GTR001\_PICKUP\_group\_all[7]	*[7]	*[7]	unknown[7]	unknown[7]	PICKUP[7]	body[14]	HAS\_PART	1-5[2_7]	
+3-6	240-247	датчики	*	NOUN	*[7]	GTR001\_PICKUP\_group\_all[7]	*[7]	*[7]	unknown[7]	unknown[7]	PICKUP[7]	body[14]	_	_	
+3-7	248-249	и	*	CCONJ	_	_	_	_	_	_	_	body[14]	_	_	
+3-8	250-252	их	*	DET	_	_	_	_	_	_	_	body[14]	_	_	
+3-9	253-262	сочетания	*	NOUN	_	_	_	_	_	_	_	body[14]	_	_	
+3-10	262-263	.	*	PUNCT	_	_	_	_	_	_	_	body[14]	_	_	
+
+#Text=Кроме общей громкости и тембра, предусмотрен регулятор Bass Contour, уменьшающий низкие частоты.
+4-1	264-269	Кроме	*	ADP	_	_	_	_	_	_	_	body[14]	_	_	
+4-2	270-275	общей	*	ADJ	_	_	_	_	_	_	_	body[14]	_	_	
+4-3	276-285	громкости	*	NOUN	*	GTR001\_CONTROL\_02	volume	*	*	*	CONTROL	body[14]	HAS\_PART	1-5[2_0]	
+4-4	286-287	и	*	CCONJ	_	_	_	_	_	_	_	body[14]	_	_	
+4-5	288-294	тембра	*	NOUN	*	GTR001\_CONTROL\_03	tone	*	*	*	CONTROL	body[14]	HAS\_PART	1-5[2_0]	
+4-6	294-295	,	*	PUNCT	_	_	_	_	_	_	_	body[14]	_	_	
+4-7	296-308	предусмотрен	*	VERB	_	_	_	_	_	_	_	body[14]	_	_	
+4-8	309-318	регулятор	*	NOUN	*[8]	GTR001\_CONTROL\_04[8]	bass\_contour[8]	*[8]	*[8]	*[8]	CONTROL[8]	body[14]	HAS\_PART	1-5[2_8]	
+4-9	319-323	Bass	*	PROPN	*[8]	GTR001\_CONTROL\_04[8]	bass\_contour[8]	*[8]	*[8]	*[8]	CONTROL[8]	body[14]	_	_	
+4-10	324-331	Contour	*	PROPN	*[8]	GTR001\_CONTROL\_04[8]	bass\_contour[8]	*[8]	*[8]	*[8]	CONTROL[8]	body[14]	_	_	
+4-11	331-332	,	*	PUNCT	_	_	_	_	_	_	_	body[14]	_	_	
+4-12	333-344	уменьшающий	*	VERB	_	_	_	_	_	_	_	body[14]	_	_	
+4-13	345-351	низкие	*	ADJ	_	_	_	_	_	_	_	body[14]	_	_	
+4-14	352-359	частоты	*	NOUN	_	_	_	_	_	_	_	body[14]	_	_	
+4-15	359-360	.	*	PUNCT	_	_	_	_	_	_	_	body[14]	_	_	
+
+#Text=Рассматриваемый вариант имеет отделку Avocado Burst, корпус из корины и гриф из обожжённого клёна.
+5-1	361-376	Рассматриваемый	*	VERB	_	_	_	_	_	_	_	body[14]	_	_	
+5-2	377-384	вариант	*	NOUN	_	_	_	_	_	_	_	body[14]	_	_	
+5-3	385-390	имеет	*	VERB	_	_	_	_	_	_	_	body[14]	_	_	
+5-4	391-398	отделку	*	NOUN	_	_	_	_	_	_	_	body[14]	_	_	
+5-5	399-406	Avocado	*	PROPN	_	_	_	_	_	_	_	body[14]	_	_	
+5-6	407-412	Burst	*	PROPN	_	_	_	_	_	_	_	body[14]	_	_	
+5-7	412-413	,	*	PUNCT	_	_	_	_	_	_	_	body[14]	_	_	
+5-8	414-420	корпус	*	NOUN	_	_	_	_	_	_	_	body[14]	_	_	
+5-9	421-423	из	*	ADP	_	_	_	_	_	_	_	body[14]	_	_	
+5-10	424-430	корины	*	NOUN	_	_	_	_	_	_	_	body[14]	_	_	
+5-11	431-432	и	*	CCONJ	_	_	_	_	_	_	_	body[14]	_	_	
+5-12	433-437	гриф	*	NOUN	_	_	_	_	_	_	_	body[14]	_	_	
+5-13	438-440	из	*	ADP	_	_	_	_	_	_	_	body[14]	_	_	
+5-14	441-452	обожжённого	*	ADJ	_	_	_	_	_	_	_	body[14]	_	_	
+5-15	453-458	клёна	*	NOUN	_	_	_	_	_	_	_	body[14]	_	_	
+5-16	458-459	.	*	PUNCT	_	_	_	_	_	_	_	body[14]	_	_	
+
+#Text=Мензура составляет 25,5 дюйма; установлен двухопорный вибрато-бридж Wilkinson.
+6-1	460-467	Мензура	*	NOUN	_	_	_	_	_	_	_	body[14]	_	_	
+6-2	468-478	составляет	*	VERB	_	_	_	_	_	_	_	body[14]	_	_	
+6-3	479-483	25,5	*	NUM	_	_	_	_	_	_	_	body[14]	_	_	
+6-4	484-489	дюйма	*	NOUN	_	_	_	_	_	_	_	body[14]	_	_	
+6-5	489-490	;	*	PUNCT	_	_	_	_	_	_	_	body[14]	_	_	
+6-6	491-501	установлен	*	VERB	_	_	_	_	_	_	_	body[14]	_	_	
+6-7	502-513	двухопорный	*	ADJ	_	_	_	_	_	_	_	body[14]	_	_	
+6-8	514-527	вибрато-бридж	*	NOUN	vibrato[9]	GTR001\_BRIDGE\_01[9]	*[9]	*[9]	*[9]	*[9]	BRIDGE[9]	body[14]	HAS\_PART	1-5[2_9]	
+6-9	528-537	Wilkinson	*	PROPN	vibrato[9]	GTR001\_BRIDGE\_01[9]	*[9]	*[9]	*[9]	*[9]	BRIDGE[9]	body[14]	_	_	
+6-10	537-538	.	*	PUNCT	_	_	_	_	_	_	_	body[14]	_	_	
+
+#Text=В первом аудиопримере демонстрируются пять позиций переключателя при максимальном Bass Contour, затем обратная последовательность при минимальном значении.
+7-1	540-541	В	*	ADP	_	_	_	_	_	_	_	body[15]	_	_	
+7-2	542-548	первом	*	ADJ	_	_	_	_	_	_	_	body[15]	_	_	
+7-3	549-561	аудиопримере	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+7-4	562-577	демонстрируются	*	VERB	_	_	_	_	_	_	_	body[15]	_	_	
+7-5	578-582	пять	*	NUM	_	_	_	_	_	_	_	body[15]	_	_	
+7-6	583-590	позиций	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+7-7	591-604	переключателя	*	NOUN	*	GTR001\_CONTROL\_01	selector	*	*	*	CONTROL	body[15]	HAS\_PART	1-5[2_0]	
+7-8	605-608	при	*	ADP	_	_	_	_	_	_	_	body[15]	_	_	
+7-9	609-621	максимальном	*	ADJ	_	_	_	_	_	_	_	body[15]	_	_	
+7-10	622-626	Bass	*	PROPN	*[10]	GTR001\_CONTROL\_04[10]	bass\_contour[10]	*[10]	*[10]	*[10]	CONTROL[10]	body[15]	HAS\_PART	1-5[2_10]	
+7-11	627-634	Contour	*	PROPN	*[10]	GTR001\_CONTROL\_04[10]	bass\_contour[10]	*[10]	*[10]	*[10]	CONTROL[10]	body[15]	_	_	
+7-12	634-635	,	*	PUNCT	_	_	_	_	_	_	_	body[15]	_	_	
+7-13	636-641	затем	*	ADV	_	_	_	_	_	_	_	body[15]	_	_	
+7-14	642-650	обратная	*	ADJ	_	_	_	_	_	_	_	body[15]	_	_	
+7-15	651-669	последовательность	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+7-16	670-673	при	*	ADP	_	_	_	_	_	_	_	body[15]	_	_	
+7-17	674-685	минимальном	*	ADJ	_	_	_	_	_	_	_	body[15]	_	_	
+7-18	686-694	значении	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+7-19	694-695	.	*	PUNCT	_	_	_	_	_	_	_	body[15]	_	_	
+
+#Text=В конце снова включается бриджевый датчик с максимальным Bass Contour.
+8-1	696-697	В	*	ADP	_	_	_	_	_	_	_	body[15]	_	_	
+8-2	698-703	конце	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+8-3	704-709	снова	*	ADV	_	_	_	_	_	_	_	body[15]	_	_	
+8-4	710-720	включается	*	VERB	_	_	_	_	_	_	_	body[15]	_	_	
+8-5	721-730	бриджевый	*	ADJ	*[11]	GTR001\_PICKUP\_bridge[11]	*[11]	*[11]	humbucker[11]	bridge[11]	PICKUP[11]	body[15]	HAS\_PART	1-5[2_11]	
+8-6	731-737	датчик	*	NOUN	*[11]	GTR001\_PICKUP\_bridge[11]	*[11]	*[11]	humbucker[11]	bridge[11]	PICKUP[11]	body[15]	_	_	
+8-7	738-739	с	*	ADP	_	_	_	_	_	_	_	body[15]	_	_	
+8-8	740-752	максимальным	*	ADJ	_	_	_	_	_	_	_	body[15]	_	_	
+8-9	753-757	Bass	*	PROPN	*[12]	GTR001\_CONTROL\_04[12]	bass\_contour[12]	*[12]	*[12]	*[12]	CONTROL[12]	body[15]	HAS\_PART	1-5[2_12]	
+8-10	758-765	Contour	*	PROPN	*[12]	GTR001\_CONTROL\_04[12]	bass\_contour[12]	*[12]	*[12]	*[12]	CONTROL[12]	body[15]	_	_	
+8-11	765-766	.	*	PUNCT	_	_	_	_	_	_	_	body[15]	_	_	
+
+#Text=Запись сделана через Friedman Mini Dirty Shirley и Mesa CabClone IR+ с импульсом кабинета 2×12.
+9-1	767-773	Запись	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+9-2	774-781	сделана	*	VERB	_	_	_	_	_	_	_	body[15]	_	_	
+9-3	782-787	через	*	ADP	_	_	_	_	_	_	_	body[15]	_	_	
+9-4	788-796	Friedman	*	PROPN	_	_	_	_	_	_	_	body[15]	_	_	
+9-5	797-801	Mini	*	PROPN	_	_	_	_	_	_	_	body[15]	_	_	
+9-6	802-807	Dirty	*	PROPN	_	_	_	_	_	_	_	body[15]	_	_	
+9-7	808-815	Shirley	*	PROPN	_	_	_	_	_	_	_	body[15]	_	_	
+9-8	816-817	и	*	CCONJ	_	_	_	_	_	_	_	body[15]	_	_	
+9-9	818-822	Mesa	*	PROPN	_	_	_	_	_	_	_	body[15]	_	_	
+9-10	823-831	CabClone	*	PROPN	_	_	_	_	_	_	_	body[15]	_	_	
+9-11	832-834	IR	*	PROPN	_	_	_	_	_	_	_	body[15]	_	_	
+9-12	834-835	+	*	SYM	_	_	_	_	_	_	_	body[15]	_	_	
+9-13	836-837	с	*	ADP	_	_	_	_	_	_	_	body[15]	_	_	
+9-14	838-847	импульсом	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+9-15	848-856	кабинета	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+9-16	857-858	2	*	NUM	_	_	_	_	_	_	_	body[15]	_	_	
+9-17	858-859	×	*	SYM	_	_	_	_	_	_	_	body[15]	_	_	
+9-18	859-861	12	*	NUM	_	_	_	_	_	_	_	body[15]	_	_	
+9-19	861-862	.	*	PUNCT	_	_	_	_	_	_	_	body[15]	_	_	
+
+#Text=Автор обозначает режим как Cleanish.
+10-1	863-868	Автор	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+10-2	869-879	обозначает	*	VERB	_	_	_	_	_	_	_	body[15]	_	_	
+10-3	880-885	режим	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+10-4	886-889	как	*	SCONJ	_	_	_	_	_	_	_	body[15]	_	_	
+10-5	890-898	Cleanish	*	ADJ	_	_	_	_	_	_	_	body[15]	_	_	
+10-6	898-899	.	*	PUNCT	_	_	_	_	_	_	_	body[15]	_	_	
+
+#Text=Дэйв Хантер оценивает инструмент как универсальный по звучанию; это мнение автора обзора, а не измеренная характеристика гитары.
+11-1	900-904	Дэйв	*	PROPN	_	_	_	_	_	_	_	body[15]	_	_	
+11-2	905-911	Хантер	*	PROPN	_	_	_	_	_	_	_	body[15]	_	_	
+11-3	912-921	оценивает	*	VERB	_	_	_	_	_	_	_	body[15]	_	_	
+11-4	922-932	инструмент	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+11-5	933-936	как	*	SCONJ	_	_	_	_	_	_	_	body[15]	_	_	
+11-6	937-950	универсальный	*	ADJ	_	_	_	_	_	_	_	body[15]	_	_	
+11-7	951-953	по	*	ADP	_	_	_	_	_	_	_	body[15]	_	_	
+11-8	954-962	звучанию	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+11-9	962-963	;	*	PUNCT	_	_	_	_	_	_	_	body[15]	_	_	
+11-10	964-967	это	*	DET	_	_	_	_	_	_	_	body[15]	_	_	
+11-11	968-974	мнение	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+11-12	975-981	автора	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+11-13	982-988	обзора	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+11-14	988-989	,	*	PUNCT	_	_	_	_	_	_	_	body[15]	_	_	
+11-15	990-991	а	*	CCONJ	_	_	_	_	_	_	_	body[15]	_	_	
+11-16	992-994	не	*	PART	_	_	_	_	_	_	_	body[15]	_	_	
+11-17	995-1005	измеренная	*	ADJ	_	_	_	_	_	_	_	body[15]	_	_	
+11-18	1006-1020	характеристика	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+11-19	1021-1027	гитары	*	NOUN	_	_	_	_	_	_	_	body[15]	_	_	
+11-20	1027-1028	.	*	PUNCT	_	_	_	_	_	_	_	body[15]	_	_	
