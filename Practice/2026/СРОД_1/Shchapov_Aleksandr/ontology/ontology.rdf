@@ -1,0 +1,772 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://example.org/guitar/ontology#"
+     xml:base="https://example.org/guitar/ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://example.org/guitar/ontology">
+        <rdfs:comment xml:lang="ru">Учебное пространство идентификаторов; модель/версия, не доказанный физический экземпляр. Свойства наблюдений сохраняются на аннотациях с происхождением.</rdfs:comment>
+        <rdfs:label>Guitar multimodal annotations</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://example.org/guitar/candidateComponent -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/candidateComponent">
+        <rdfs:domain rdf:resource="https://example.org/guitar/AudioInterval"/>
+        <rdfs:range rdf:resource="https://example.org/guitar/Component"/>
+        <rdfs:comment xml:lang="ru">Предварительное соответствие по позиции из подписи источника; не подтверждённое использование.</rdfs:comment>
+        <rdfs:label>candidateComponent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://example.org/guitar/demonstrates -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/demonstrates">
+        <rdfs:domain rdf:resource="https://example.org/guitar/AudioMaterial"/>
+        <rdfs:range rdf:resource="https://example.org/guitar/Guitar"/>
+        <rdfs:label>demonstrates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://example.org/guitar/depicts -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/depicts">
+        <rdfs:comment xml:lang="ru">ImageMaterial или ImageRegion изображает Guitar или индивидуальную Component; узкий domain/range намеренно не задан.</rdfs:comment>
+        <rdfs:label>depicts</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://example.org/guitar/describes -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/describes">
+        <rdfs:domain rdf:resource="https://example.org/guitar/TextMaterial"/>
+        <rdfs:range rdf:resource="https://example.org/guitar/Guitar"/>
+        <rdfs:label>describes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://example.org/guitar/evidence -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/evidence">
+        <rdfs:range rdf:resource="https://example.org/guitar/Annotation"/>
+        <rdfs:comment xml:lang="ru">Аннотация, служащая источником сведений об объекте; признаки position и типы сохраняются на самой аннотации.</rdfs:comment>
+        <rdfs:label>evidence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://example.org/guitar/hasComponentGroup -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/hasComponentGroup">
+        <rdfs:domain rdf:resource="https://example.org/guitar/Guitar"/>
+        <rdfs:range rdf:resource="https://example.org/guitar/ComponentGroup"/>
+        <rdfs:label>hasComponentGroup</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://example.org/guitar/hasPart -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/hasPart">
+        <rdfs:domain rdf:resource="https://example.org/guitar/Guitar"/>
+        <rdfs:range rdf:resource="https://example.org/guitar/Component"/>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://example.org/guitar/hasPartMention -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/hasPartMention">
+        <rdfs:domain rdf:resource="https://example.org/guitar/TextMention"/>
+        <rdfs:range rdf:resource="https://example.org/guitar/TextMention"/>
+        <rdfs:comment xml:lang="ru">Исходный HAS_PART между текстовыми упоминаниями.</rdfs:comment>
+        <rdfs:label>hasPartMention</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://example.org/guitar/inMaterial -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/inMaterial">
+        <rdfs:domain rdf:resource="https://example.org/guitar/Annotation"/>
+        <rdfs:range rdf:resource="https://example.org/guitar/Material"/>
+        <rdfs:label>inMaterial</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://example.org/guitar/inParagraph -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/inParagraph">
+        <rdfs:domain rdf:resource="https://example.org/guitar/Token"/>
+        <rdfs:range rdf:resource="https://example.org/guitar/Paragraph"/>
+        <rdfs:label>inParagraph</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://example.org/guitar/inSentence -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/inSentence">
+        <rdfs:domain rdf:resource="https://example.org/guitar/Token"/>
+        <rdfs:range rdf:resource="https://example.org/guitar/Sentence"/>
+        <rdfs:label>inSentence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://example.org/guitar/refersTo -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/refersTo">
+        <rdfs:domain rdf:resource="https://example.org/guitar/TextMention"/>
+        <rdfs:label>refersTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://example.org/guitar/usesComponent -->
+
+    <owl:ObjectProperty rdf:about="https://example.org/guitar/usesComponent">
+        <rdfs:domain rdf:resource="https://example.org/guitar/AudioInterval"/>
+        <rdfs:range rdf:resource="https://example.org/guitar/Component"/>
+        <rdfs:comment xml:lang="ru">Только подтверждённая по записи настройка, сопоставленная индивидуальной детали.</rdfs:comment>
+        <rdfs:label>usesComponent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://example.org/guitar/audio_mapping -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/audio_mapping">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>audio_mapping</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/bridge_type -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/bridge_type">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>bridge_type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/channels -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/channels">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>channels</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/checked_on -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/checked_on">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>checked_on</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/control_type -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/control_type">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>control_type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/coordinateSystem -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/coordinateSystem">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>coordinateSystem</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/duration_seconds -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/duration_seconds">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label>duration_seconds</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/encoding -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/encoding">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>encoding</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/end -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/end">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label>end</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/endChar -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/endChar">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>endChar</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/exportPath -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/exportPath">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>exportPath</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/height -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/height">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>height</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/heightPx -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/heightPx">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label>heightPx</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/identifier -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/identifier">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>identifier</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/label -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/label">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>label</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/language -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/language">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>language</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/layer -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/layer">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>layer</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/license -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/license">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>license</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/limitations -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/limitations">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>limitations</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/name -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/name">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/origin -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/origin">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>origin</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/path -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/path">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>path</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/pickup_type -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/pickup_type">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>pickup_type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/position -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/position">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>position</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/quote -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/quote">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>quote</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/recording_chain -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/recording_chain">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>recording_chain</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/review_author -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/review_author">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>review_author</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/review_date -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/review_date">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>review_date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/rotation -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/rotation">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label>rotation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/sample_rate -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/sample_rate">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>sample_rate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/sha256 -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/sha256">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>sha256</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/sourceLocalId -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/sourceLocalId">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>sourceLocalId</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/sourceLocator -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/sourceLocator">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>sourceLocator</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/sourceUrl -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/sourceUrl">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>sourceUrl</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/source_track_id -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/source_track_id">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>source_track_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/start -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/start">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label>start</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/startChar -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/startChar">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>startChar</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/statusSource -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/statusSource">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>statusSource</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/title -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/title">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/transformation -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/transformation">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>transformation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/upos -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/upos">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>upos</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/verificationStatus -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/verificationStatus">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>verificationStatus</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/version -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/version">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>version</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/width -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/width">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>width</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/widthPx -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/widthPx">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label>widthPx</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/word_count -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/word_count">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>word_count</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/xPx -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/xPx">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label>xPx</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://example.org/guitar/yPx -->
+
+    <owl:DatatypeProperty rdf:about="https://example.org/guitar/yPx">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label>yPx</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://example.org/guitar/Annotation -->
+
+    <owl:Class rdf:about="https://example.org/guitar/Annotation">
+        <rdfs:label>Annotation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/AudioInterval -->
+
+    <owl:Class rdf:about="https://example.org/guitar/AudioInterval">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/Annotation"/>
+        <rdfs:label>AudioInterval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/AudioMaterial -->
+
+    <owl:Class rdf:about="https://example.org/guitar/AudioMaterial">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/Material"/>
+        <rdfs:label>AudioMaterial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/Bridge -->
+
+    <owl:Class rdf:about="https://example.org/guitar/Bridge">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/Component"/>
+        <rdfs:label>Bridge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/Component -->
+
+    <owl:Class rdf:about="https://example.org/guitar/Component">
+        <owl:disjointWith rdf:resource="https://example.org/guitar/ComponentGroup"/>
+        <rdfs:label>Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/ComponentGroup -->
+
+    <owl:Class rdf:about="https://example.org/guitar/ComponentGroup">
+        <rdfs:label>ComponentGroup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/Control -->
+
+    <owl:Class rdf:about="https://example.org/guitar/Control">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/Component"/>
+        <rdfs:label>Control</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/Guitar -->
+
+    <owl:Class rdf:about="https://example.org/guitar/Guitar">
+        <rdfs:label>Guitar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/ImageMaterial -->
+
+    <owl:Class rdf:about="https://example.org/guitar/ImageMaterial">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/Material"/>
+        <rdfs:label>ImageMaterial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/ImageRegion -->
+
+    <owl:Class rdf:about="https://example.org/guitar/ImageRegion">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/Annotation"/>
+        <rdfs:label>ImageRegion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/Material -->
+
+    <owl:Class rdf:about="https://example.org/guitar/Material">
+        <rdfs:label>Material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/Paragraph -->
+
+    <owl:Class rdf:about="https://example.org/guitar/Paragraph">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/TextUnit"/>
+        <rdfs:label>Paragraph</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/Pickup -->
+
+    <owl:Class rdf:about="https://example.org/guitar/Pickup">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/Component"/>
+        <rdfs:label>Pickup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/Sentence -->
+
+    <owl:Class rdf:about="https://example.org/guitar/Sentence">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/TextUnit"/>
+        <rdfs:label>Sentence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/TextMaterial -->
+
+    <owl:Class rdf:about="https://example.org/guitar/TextMaterial">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/Material"/>
+        <rdfs:label>TextMaterial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/TextMention -->
+
+    <owl:Class rdf:about="https://example.org/guitar/TextMention">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/Annotation"/>
+        <rdfs:label>TextMention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/TextUnit -->
+
+    <owl:Class rdf:about="https://example.org/guitar/TextUnit">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/Annotation"/>
+        <rdfs:label>TextUnit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://example.org/guitar/Token -->
+
+    <owl:Class rdf:about="https://example.org/guitar/Token">
+        <rdfs:subClassOf rdf:resource="https://example.org/guitar/TextUnit"/>
+        <rdfs:label>Token</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

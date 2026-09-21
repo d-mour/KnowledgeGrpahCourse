@@ -1,0 +1,64 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 139.017868480726
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phrase"
+        xmin = 0
+        xmax = 139.017868480726
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0
+            xmax = 1.27
+            text = ""
+        intervals [2]:
+            xmin = 1.27
+            xmax = 134.34
+            text = "phrase_001"
+        intervals [3]:
+            xmin = 134.34
+            xmax = 139.017868480726
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "event"
+        xmin = 0
+        xmax = 139.017868480726
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0
+            xmax = 1.27
+            text = "pause"
+        intervals [2]:
+            xmin = 1.27
+            xmax = 134.34
+            text = "playing"
+        intervals [3]:
+            xmin = 134.34
+            xmax = 139.017868480726
+            text = "pause"
+    item [3]:
+        class = "IntervalTier"
+        name = "pickup_setting"
+        xmin = 0
+        xmax = 139.017868480726
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0
+            xmax = 139.017868480726
+            text = "unknown"
+    item [4]:
+        class = "IntervalTier"
+        name = "coil_mode"
+        xmin = 0
+        xmax = 139.017868480726
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0
+            xmax = 139.017868480726
+            text = "unknown"
